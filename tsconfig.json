@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ES2021",
+		"module": "es2022",
+		"moduleResolution": "node",
+		"rootDir": "src/.",
+		"outDir": "./lib",
+		"sourceMap": false,
+		"inlineSources": false,
+		"declaration": true,
+		"declarationMap": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"lib": ["ES2021", "DOM"]
+	},
+	"include": [
+		"src/*.ts"
+	],
+	"ts-node": {
+		"esm": true,
+	}
+}

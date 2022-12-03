@@ -1,0 +1,21 @@
+{
+	"name": "@darkflorist/address-metadata",
+	"devDependencies": {
+		"typescript": "4.8.2"
+	},
+	"scripts": {
+		"process": "npm run process --prefix scripts/",
+		"build": "tsc"
+	},
+	"main": "./lib/index.js",
+	"exports": {
+		"import": "./lib/index.js"
+	},
+	"type": "module",
+	"homepage": "https://github.com/DarkFlorist/address-metadata#readme",
+	"files": [
+		"package.json",
+		"README.md",
+		"lib"
+	]
+}

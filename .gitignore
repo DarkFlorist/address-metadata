@@ -1,0 +1,11 @@
+/**/node_modules/
+/**/lib/*.js
+/**/lib/*.ts
+/**/lib/*.ts.map
+**/dist/
+.*.swp
+.env
+.env.test
+.env.json
+.idea/
+.DS_store
