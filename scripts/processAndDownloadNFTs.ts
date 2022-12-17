@@ -97,7 +97,7 @@ async function fetchOpenseaFromUsers(nftOwners: string[]) {
 					featured: collection.featured,
 					protocol: asset.schema_name || undefined,
 					symbol: asset.symbol,
-					logoURI: logoURI,
+					logoURI: logoURI || '/images/nfts/unknown.png',
 				}
 			}
 		}
@@ -133,8 +133,7 @@ async function processNfts() {
 	const openseaData = await fetchOpenseaFromUsers(NFT_OWNER_ADDRESSES)
 	console.log(openseaData)
 	const output = `
-
-const nftData: [string, string, string, string | null, string | null][] = ${JSON.stringify(openseaData.map((x) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoURI]), null, 1)}
+import * as nftData from './nftMetadata.json';
 export type NftDefinition = {
     name: string,
     symbol: string,
@@ -150,6 +149,7 @@ export const nftMetadata = new Map<string, NftDefinition>(
     }])
 )
 `
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.json`, JSON.stringify(openseaData.map((x) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoURI]), null, 1), 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.ts`, output, 'utf-8')
 }
 

@@ -98,7 +98,7 @@ export async function getMiscAddresses() {
 		data: {
 			name,
 			protocol,
-			logoURI: undefined,
+			logoURI: 'images/contracts/unknown.png',
 		}
 	}))
 }

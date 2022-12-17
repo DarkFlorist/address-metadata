@@ -50,7 +50,7 @@ async function processTokens() {
 	tokens.push(...await getCompoundV2Tokens())
 
 	const output = `
-const tokenData = ${JSON.stringify(tokens, null, 1)}
+import * as tokenData from './tokenMetadata.json';
 export type TokenDefinition = {
 	name: string,
 	symbol: string,
@@ -68,6 +68,7 @@ export const tokenMetadata = new Map<string, TokenDefinition>(
 	}),
 );
 `
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, JSON.stringify(tokens, null, 1), 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.ts`, output, 'utf-8')
 }
 

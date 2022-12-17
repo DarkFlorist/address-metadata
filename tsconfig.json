@@ -3,6 +3,7 @@
 		"target": "ES2021",
 		"module": "es2022",
 		"moduleResolution": "node",
+	  	"resolveJsonModule": true,
 		"rootDir": "src/.",
 		"outDir": "./lib",
 		"sourceMap": false,
