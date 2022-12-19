@@ -31,7 +31,7 @@ export const contractMetadata = new Map<string, ContractDefinition>(
     }])
 )
 `
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.json`, JSON.stringify(contractData.map((x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoURI]), null, 1), 'utf-8')
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.json`, JSON.stringify(contractData.map((x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoURI]), null, '\t'), 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.ts`, output, 'utf-8')
 }
 
