@@ -25,7 +25,7 @@ export type ContractDefinition = {
 }
 export const contractMetadata = new Map<string, ContractDefinition>(
 	contractData.reduce(( acc, [address, name, protocol, logoURI] ) => {
-		if (address === null || name === null) return acc
+		if (!address || !name) return acc
 		return acc.concat([
 			[address, {
 				name: name,
