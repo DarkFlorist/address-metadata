@@ -57,18 +57,20 @@ export type TokenDefinition = {
 	decimals: bigint,
 	logoURI: string | undefined,
 }
+
 export const tokenMetadata = new Map<string, TokenDefinition>(
-	tokenData.map(token => {
-		return [token.address, {
+	tokenData.reduce(( acc, token ) => {
+		if (token.address === null) return acc
+		return [[token.address, {
 			name: token.data.name,
 			symbol: token.data.symbol,
 			decimals: BigInt(token.data.decimals),
 			logoURI: 'logoURI' in token.data ? token.data.logoURI : undefined
-		}];
-	}),
-);
+		}]];
+	}, [] as [string, TokenDefinition][]));
 `
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, JSON.stringify(tokens, null, 1), 'utf-8')
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, JSON.stringify(tokens, null, '\t'), 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.ts`, output, 'utf-8')
 }
 

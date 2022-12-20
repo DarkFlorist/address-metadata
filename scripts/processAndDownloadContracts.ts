@@ -19,16 +19,20 @@ async function processContracts() {
 	const output = `
 import * as contractData from './contractMetadata.json';
 export type ContractDefinition = {
-    name: string,
-    logoURI: string | undefined,
-    protocol: string | undefined
+	name: string,
+	logoURI: string | undefined,
+	protocol: string | undefined
 }
 export const contractMetadata = new Map<string, ContractDefinition>(
-    contractData.map( ([address, name, protocol, logoURI]) => [address, {
-      name: name,
-      protocol: protocol,
-      logoURI: logoURI === null ? undefined : logoURI
-    }])
+	contractData.reduce(( acc, [address, name, protocol, logoURI] ) => {
+		if (address === null || name === null) return acc
+		return acc.concat([
+			[address, {
+				name: name,
+				protocol: protocol === null ? undefined : protocol,
+				logoURI: logoURI === null ? undefined : logoURI
+			}]])
+	}, [] as [string, ContractDefinition][])
 )
 `
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.json`, JSON.stringify(contractData.map((x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoURI]), null, '\t'), 'utf-8')

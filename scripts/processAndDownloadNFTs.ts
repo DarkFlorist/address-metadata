@@ -97,7 +97,7 @@ async function fetchOpenseaFromUsers(nftOwners: string[]) {
 					featured: collection.featured,
 					protocol: asset.schema_name || undefined,
 					symbol: asset.symbol,
-					logoURI: logoURI || '/images/nfts/unknown.png',
+					logoURI,
 				}
 			}
 		}
@@ -135,21 +135,26 @@ async function processNfts() {
 	const output = `
 import * as nftData from './nftMetadata.json';
 export type NftDefinition = {
-    name: string,
-    symbol: string,
-    protocol: string | undefined,
-    logoURI: string | undefined,
+	name: string,
+	symbol: string,
+	protocol: string | undefined,
+	logoURI: string | undefined,
 }
 export const nftMetadata = new Map<string, NftDefinition>(
-    nftData.map( ([address, name, symbol, protocol, logoURI] ) => [address, {
-      logoURI: logoURI === null ? undefined : logoURI,
-      protocol: protocol === null ? undefined : protocol,
-      name,
-      symbol: symbol,
-    }])
+	nftData.reduce(( acc, [address, name, symbol, protocol, logoURI] ) => {
+		if (address === null) return acc
+		return acc.concat([
+			[address, {
+				name: name === null ? 'undefined' : name,
+				symbol: symbol === null ? 'undefined' : symbol,
+				logoURI: logoURI === null ? undefined : logoURI,
+				protocol: protocol === null ? undefined : protocol,
+			}]])
+	}, [] as [string, NftDefinition][])
 )
 `
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.json`, JSON.stringify(openseaData.map((x) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoURI]), null, 1), 'utf-8')
+	const nftData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoURI]), null, '\t')
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.json`, nftData, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.ts`, output, 'utf-8')
 }
 
