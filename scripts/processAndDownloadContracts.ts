@@ -20,8 +20,8 @@ async function processContracts() {
 import * as contractData from './contractMetadata.json';
 export type ContractDefinition = {
 	name: string,
-	logoURI: string | undefined,
-	protocol: string | undefined
+	logoURI?: string,
+	protocol?: string,
 }
 export const contractMetadata = new Map<string, ContractDefinition>(
 	contractData.reduce(( acc, [address, name, protocol, logoURI] ) => {
