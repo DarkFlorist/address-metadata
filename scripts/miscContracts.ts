@@ -98,7 +98,7 @@ export async function getMiscAddresses() {
 		data: {
 			name,
 			protocol,
-			logoURI: null,
+			logoUri: null,
 		}
 	}))
 }

@@ -31,7 +31,7 @@ async function processTokens() {
 					name: token.name,
 					symbol: token.symbol,
 					decimals: token.decimals,
-					logoURI: `images/tokens/${token.address}.${fileEnding}`,
+					logoUri: `images/tokens/${token.address}.${fileEnding}`,
 				}
 			})
 		} else {
@@ -55,7 +55,7 @@ export type TokenDefinition = {
 	name: string,
 	symbol: string,
 	decimals: bigint,
-	logoURI: string | undefined,
+	logoUri?: string,
 }
 
 export const tokenMetadata = new Map<string, TokenDefinition>(
@@ -65,12 +65,13 @@ export const tokenMetadata = new Map<string, TokenDefinition>(
 			name: token.data.name,
 			symbol: token.data.symbol,
 			decimals: BigInt(token.data.decimals),
-			logoURI: 'logoURI' in token.data ? token.data.logoURI : undefined
+			...'logoUri' in token.data ? {logoUri: token.data.logoUri} : {},
 		}]];
 	}, [] as [string, TokenDefinition][]));
 `
 
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, JSON.stringify(tokens, null, '\t'), 'utf-8')
+	const jsonData = JSON.stringify(tokens, null, '\t')
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, jsonData, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.ts`, output, 'utf-8')
 }
 
