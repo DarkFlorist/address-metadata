@@ -1640,7 +1640,7 @@ export async function getCompoundV2Tokens() {
 				name,
 				symbol,
 				decimals: decimals.toNumber(),
-				logoURI: COMPOUND_LOGO_URI,
+				logoUri: COMPOUND_LOGO_URI,
 			}
 		})
 	}

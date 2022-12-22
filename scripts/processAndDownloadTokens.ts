@@ -31,7 +31,7 @@ async function processTokens() {
 					name: token.name,
 					symbol: token.symbol,
 					decimals: token.decimals,
-					logoURI: `images/tokens/${token.address}.${fileEnding}`,
+					logoUri: `images/tokens/${token.address}.${fileEnding}`,
 				}
 			})
 		} else {
@@ -50,24 +50,28 @@ async function processTokens() {
 	tokens.push(...await getCompoundV2Tokens())
 
 	const output = `
-const tokenData = ${JSON.stringify(tokens, null, 1)}
+import * as tokenData from './tokenMetadata.json';
 export type TokenDefinition = {
 	name: string,
 	symbol: string,
 	decimals: bigint,
-	logoURI: string | undefined,
+	logoUri?: string,
 }
+
 export const tokenMetadata = new Map<string, TokenDefinition>(
-	tokenData.map(token => {
-		return [token.address, {
+	tokenData.reduce(( acc, token ) => {
+		if (token.address === null) return acc
+		return [[token.address, {
 			name: token.data.name,
 			symbol: token.data.symbol,
 			decimals: BigInt(token.data.decimals),
-			logoURI: 'logoURI' in token.data ? token.data.logoURI : undefined
-		}];
-	}),
-);
+			...'logoUri' in token.data ? {logoUri: token.data.logoUri} : {},
+		}]];
+	}, [] as [string, TokenDefinition][]));
 `
+
+	const jsonData = JSON.stringify(tokens, null, '\t')
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, jsonData, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.ts`, output, 'utf-8')
 }
 

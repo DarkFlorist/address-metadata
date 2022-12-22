@@ -516,7 +516,7 @@ export async function getAaveV1Tokens() {
 			name,
 			symbol,
 			decimals,
-			logoURI: AAVE_V1_LOGO_URI,
+			logoUri: AAVE_V1_LOGO_URI,
 		}
 	}))
 }
@@ -537,7 +537,7 @@ export async function getAaveV2Tokens() {
 				name,
 				symbol,
 				decimals,
-				logoURI: AAVE_V2_LOGO_URI,
+				logoUri: AAVE_V2_LOGO_URI,
 			}
 		})
 	}
@@ -562,7 +562,7 @@ export async function getAaveV2Misc() {
 		address: address,
 		data: {
 			name: name,
-			logoURI: AAVE_V2_LOGO_URI,
+			logoUri: AAVE_V2_LOGO_URI,
 			protocol: 'Aave'
 		}
 	}))

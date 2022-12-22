@@ -17,21 +17,26 @@ async function processContracts() {
 			...await getAaveV2Misc()
 		]
 	const output = `
-
-const contractData: [string, string, string, string | null][] = ${JSON.stringify(contractData.map((x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoURI]), null, 1)}
+import * as contractData from './contractMetadata.json';
 export type ContractDefinition = {
-    name: string,
-    logoURI: string | undefined,
-    protocol: string | undefined
+	name: string,
+	logoUri?: string,
+	protocol?: string,
 }
 export const contractMetadata = new Map<string, ContractDefinition>(
-    contractData.map( ([address, name, protocol, logoURI] : [string, string, string, string | null]) => [address, {
-      name: name,
-      protocol: protocol,
-      logoURI: logoURI === null ? undefined : logoURI
-    }])
+	contractData.reduce(( acc, [address, name, protocol, logoUri] ) => {
+		if (!address || !name) return acc
+		return acc.concat([
+			[address, {
+				name: name,
+				...protocol ? {protocol} : {},
+				...logoUri ? {logoUri} : {},
+			}]])
+	}, [] as [string, ContractDefinition][])
 )
 `
+	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoUri]), null, '\t')
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.json`, jsonData, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.ts`, output, 'utf-8')
 }
 

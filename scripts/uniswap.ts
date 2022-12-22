@@ -102,7 +102,7 @@ export async function fetchV3Pools() {
 			address: pool.id,
 			data: {
 				name: `Uniswap V3 Pool: ${pool.token0.symbol} - ${pool.token1.symbol}`, //todo, would be better to use addresses and fetch the names from our curated list
-				logoURI: UNISWAP_LOGO_URI,
+				logoUri: UNISWAP_LOGO_URI,
 				protocol: 'Uniswap V3'
 			}
 		}
@@ -141,7 +141,7 @@ export async function fetchV2Pools() {
 		address: pair.id,
 		data: {
 			name: `Uniswap V2 Pair: ${pair.token0.symbol} - ${pair.token1.symbol}`, //todo, would be better to use addresses and fetch the names from our curated list
-			logoURI: UNISWAP_LOGO_URI,
+			logoUri: UNISWAP_LOGO_URI,
 			protocol: 'Uniswap V2'
 		}
 	}))
@@ -171,7 +171,7 @@ export async function getUniswapMiscAddresses() {
 		address: address,
 		data: {
 			name: name,
-			logoURI: UNISWAP_LOGO_URI,
+			logoUri: UNISWAP_LOGO_URI,
 			protocol: 'Uniswap'
 		}
 	}))
