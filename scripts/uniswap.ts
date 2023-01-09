@@ -7,6 +7,8 @@ const uniswapV2Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-
 
 const UNISWAP_LOGO_URI = `images/contracts/uniswap.svg`
 
+const ACTIVE_TX_COUNT_CUTOFF = `10000`
+
 function delay(ms: number) {
 	return new Promise(resolve => setTimeout(resolve, ms))
 }
@@ -75,7 +77,7 @@ export async function fetchV3Pools() {
 	let last = 0n
 	do {
 		const query = `{
-			pools(orderBy: id, first: 500, where: { id_gt: "${addressString(last)}" }) {
+			pools(orderBy: id, first: 500, where: { txCount_gt: ${ ACTIVE_TX_COUNT_CUTOFF }, id_gt: "${addressString(last)}" }) {
 				id,
 				token0 {
 					id,
@@ -115,7 +117,7 @@ export async function fetchV2Pools() {
 	let last = 0n
 	do {
 		const query = `{
-			pairs(orderBy: id, first: 500, where: { id_gt: "${addressString(last)}" }) {
+			pairs(orderBy: id, first: 500, where: { txCount_gt: ${ ACTIVE_TX_COUNT_CUTOFF }, id_gt: "${ addressString(last) }" }) {
 				id,
 				token0 {
 					id,
