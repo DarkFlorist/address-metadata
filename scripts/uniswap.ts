@@ -117,7 +117,7 @@ export async function fetchV2Pools() {
 	let last = 0n
 	do {
 		const query = `{
-			pairs(orderBy: id, first: 500, where: { txCount_gt: ${ ACTIVE_TX_COUNT_CUTOFF }, id_gt: "${ addressString(last) }" }) {
+			pairs(orderBy: id, first: 500, where: { txCount_gt: ${ ACTIVE_TX_COUNT_CUTOFF }, id_gt: "${addressString(last)}" }) {
 				id,
 				token0 {
 					id,
