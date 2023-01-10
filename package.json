@@ -1,7 +1,7 @@
 {
 	"name": "@darkflorist/address-metadata",
 	"devDependencies": {
-		"typescript": "4.8.2"
+		"typescript": "4.9.4"
 	},
 	"scripts": {
 		"process": "npm run process --prefix scripts/",
