@@ -36,7 +36,9 @@ export const contractMetadata = new Map<string, ContractDefinition>(
 )
 `
 	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoUri]), null, '\t')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.json`, jsonData, 'utf-8')
+	const tsJsonData = `export default ${jsonData};`
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadataData.ts`, tsJsonData, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.ts`, output, 'utf-8')
 }
 

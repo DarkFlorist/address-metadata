@@ -153,8 +153,10 @@ export const nftMetadata = new Map<string, NftDefinition>(
 	}, [] as [string, NftDefinition][])
 )
 `
-	const nftData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoUri]), null, '\t')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.json`, nftData, 'utf-8')
+	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoUri]), null, '\t')
+	const tsJsonData = `export default ${jsonData};`
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadataData.ts`, tsJsonData, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.ts`, output, 'utf-8')
 }
 

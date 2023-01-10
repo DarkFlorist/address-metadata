@@ -71,7 +71,9 @@ export const tokenMetadata = new Map<string, TokenDefinition>(
 `
 
 	const jsonData = JSON.stringify(tokens, null, '\t')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, jsonData, 'utf-8')
+	const tsJsonDoc = `export default ${jsonData};`
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadataData.ts`, tsJsonDoc, 'utf-8')
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.ts`, output, 'utf-8')
 }
 

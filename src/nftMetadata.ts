@@ -1,5 +1,5 @@
 
-import * as nftData from './nftMetadata.json';
+import nftData from './nftMetadataData';
 export type NftDefinition = {
 	name: string,
 	symbol: string,

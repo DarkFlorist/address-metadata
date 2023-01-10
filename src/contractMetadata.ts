@@ -1,5 +1,5 @@
 
-import * as contractData from './contractMetadata.json';
+import contractData from './contractMetadataData';
 export type ContractDefinition = {
 	name: string,
 	logoUri?: string,

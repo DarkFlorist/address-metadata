@@ -1,5 +1,5 @@
 
-import * as tokenData from './tokenMetadata.json';
+import tokenData from './tokenMetadataData';
 export type TokenDefinition = {
 	name: string,
 	symbol: string,
