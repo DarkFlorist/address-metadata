@@ -18,7 +18,7 @@ async function processContracts() {
 		]
 
 	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoUri]), null, '\t')
-	const tsJsonData = `export const contractMetadataData = ${jsonData};`
+	const tsJsonData = `export const contractMetadataData: Array<Array<string | null>> = ${jsonData};`
 
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadataData.ts`, tsJsonData, 'utf-8')
 }

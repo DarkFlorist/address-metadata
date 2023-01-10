@@ -134,7 +134,7 @@ async function processNfts() {
 	console.log(openseaData)
 
 	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoUri]), null, '\t')
-	const tsJsonData = `export const nftMetadataData = ${jsonData};`
+	const tsJsonData = `export const nftMetadataData: Array<Array<string | null>> = ${jsonData};`
 
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadataData.ts`, tsJsonData, 'utf-8')
 }
