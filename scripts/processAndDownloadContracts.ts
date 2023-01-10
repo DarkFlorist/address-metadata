@@ -16,30 +16,11 @@ async function processContracts() {
 			...await getMiscAddresses(),
 			...await getAaveV2Misc()
 		]
-	const output = `
-import * as contractData from './contractMetadata.json';
-export type ContractDefinition = {
-	name: string,
-	logoUri?: string,
-	protocol?: string,
-}
-export const contractMetadata = new Map<string, ContractDefinition>(
-	contractData.reduce(( acc, [address, name, protocol, logoUri] ) => {
-		if (!address || !name) return acc
-		return acc.concat([
-			[address, {
-				name: name,
-				...protocol ? {protocol} : {},
-				...logoUri ? {logoUri} : {},
-			}]])
-	}, [] as [string, ContractDefinition][])
-)
-`
+
 	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoUri]), null, '\t')
-	const tsJsonData = `export default ${jsonData};`
+	const tsJsonData = `export const contractMetadataData = ${jsonData};`
 
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadataData.ts`, tsJsonData, 'utf-8')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadata.ts`, output, 'utf-8')
 }
 
 async function main(): Promise<void> {

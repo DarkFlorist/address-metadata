@@ -132,32 +132,11 @@ async function queryOpenseaPage(nftOwner: string, offset: number, limit: number)
 async function processNfts() {
 	const openseaData = await fetchOpenseaFromUsers(NFT_OWNER_ADDRESSES)
 	console.log(openseaData)
-	const output = `
-import * as nftData from './nftMetadata.json';
-export type NftDefinition = {
-	name: string,
-	symbol: string,
-	protocol?: string,
-	logoUri?: string | undefined,
-}
-export const nftMetadata = new Map<string, NftDefinition>(
-	nftData.reduce(( acc, [address, name, symbol, protocol, logoUri] ) => {
-		if (address === null) return acc
-		return acc.concat([
-			[address, {
-				name: name === null ? 'undefined' : name,
-				symbol: symbol === null ? 'undefined' : symbol,
-				...protocol ? {protocol} : {},
-				...logoUri ? {logoUri} : {},
-			}]])
-	}, [] as [string, NftDefinition][])
-)
-`
+
 	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoUri]), null, '\t')
-	const tsJsonData = `export default ${jsonData};`
+	const tsJsonData = `export const nftMetadataData = ${jsonData};`
 
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadataData.ts`, tsJsonData, 'utf-8')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.ts`, output, 'utf-8')
 }
 
 async function main(): Promise<void> {
