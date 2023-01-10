@@ -47,7 +47,7 @@ const OpenseaCollections = funtypes.Array(
 		primary_asset_contracts: funtypes.Array(
 			funtypes.Object({
 					address: EthereumAddress,
-					schema_name: funtypes.String.Or(funtypes.Null),
+					schema_name: funtypes.String,
 					symbol: funtypes.String,
 				}
 			)
@@ -95,9 +95,9 @@ async function fetchOpenseaFromUsers(nftOwners: string[]) {
 					name: collection.name,
 					hidden: collection.hidden,
 					featured: collection.featured,
-					protocol: asset.schema_name || undefined,
 					symbol: asset.symbol,
-					logoUri,
+					protocol: asset.schema_name,
+					...logoUri ? {logoUri} : {},
 				}
 			}
 		}
@@ -133,8 +133,19 @@ async function processNfts() {
 	const openseaData = await fetchOpenseaFromUsers(NFT_OWNER_ADDRESSES)
 	console.log(openseaData)
 
-	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoUri]), null, '\t')
-	const tsJsonData = `export const nftMetadataData: Array<Array<string | null>> = ${jsonData};`
+	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
+	const tsJsonData = `
+export type Address = \`0x$\{string}\`
+export type Name = string
+export type Symbol = string
+export type NftType = 'ERC721' | 'ERC1155' | 'CRYPTOPUNKS'
+export type LogoRelativePath = \`/images/nfts/$\{string}\`
+export type NftMetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
+export type NftMetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]
+
+export type NftMetadataData = readonly (NftMetadataWithLogo | NftMetadataWithoutLogo)[]
+
+export const nftMetadataData: NftMetadataData = ${jsonData} as const;`
 
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadataData.ts`, tsJsonData, 'utf-8')
 }

@@ -17,9 +17,18 @@ async function processContracts() {
 			...await getAaveV2Misc()
 		]
 
-	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, x.data.logoUri]), null, '\t')
-	const tsJsonData = `export const contractMetadataData: Array<Array<string | null>> = ${jsonData};`
+	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
+	const tsJsonData = `
+export type Address = \`0x$\{string}\`
+export type Name = string
+export type Protocol = 'Uniswap' | 'Uniswap V2' | 'Uniswap V3' | 'ETH2' | 'Arbitrum' | 'Lido' | 'Matic' | 'OpenSea' | '0x' | 'Zapper' | 'Aave'
+export type LogoRelativePath = string
+export type ContractMetadataWithLogo = readonly [Address, Name, Protocol, LogoRelativePath]
+export type ContractMetadataWithoutLogo = readonly [Address, Name, Protocol]
 
+export type ContractMetadata = readonly (ContractMetadataWithLogo | ContractMetadataWithoutLogo)[]
+
+export const contractMetadataData: ContractMetadata = ${jsonData} as const`
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/contractMetadataData.ts`, tsJsonData, 'utf-8')
 }
 

@@ -56,7 +56,7 @@ export type TokenMetadataData = {
 	data: {
 		name: string;
 		symbol: string;
-		decimals?: number;
+		decimals: number;
 		logoUri?: string;
 	}
 }
