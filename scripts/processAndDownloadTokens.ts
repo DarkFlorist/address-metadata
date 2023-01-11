@@ -49,30 +49,20 @@ async function processTokens() {
 	tokens.push(...await getAaveV1Tokens())
 	tokens.push(...await getCompoundV2Tokens())
 
-	const output = `
-import * as tokenData from './tokenMetadata.json';
-export type TokenDefinition = {
-	name: string,
-	symbol: string,
-	decimals: bigint,
-	logoUri?: string,
-}
-
-export const tokenMetadata = new Map<string, TokenDefinition>(
-	tokenData.reduce(( acc, token ) => {
-		if (token.address === null) return acc
-		return [[token.address, {
-			name: token.data.name,
-			symbol: token.data.symbol,
-			decimals: BigInt(token.data.decimals),
-			...'logoUri' in token.data ? {logoUri: token.data.logoUri} : {},
-		}]];
-	}, [] as [string, TokenDefinition][]));
-`
-
 	const jsonData = JSON.stringify(tokens, null, '\t')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.json`, jsonData, 'utf-8')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadata.ts`, output, 'utf-8')
+	const tsJsonDoc = `
+export type TokenMetadataData = {
+	address: string;
+	data: {
+		name: string;
+		symbol: string;
+		decimals: number;
+		logoUri?: string;
+	}
+}
+export const tokenMetadataData: Array<TokenMetadataData> = ${jsonData};`
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadataData.ts`, tsJsonDoc, 'utf-8')
 }
 
 async function main(): Promise<void> {

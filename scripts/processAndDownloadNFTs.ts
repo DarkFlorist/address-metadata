@@ -47,7 +47,7 @@ const OpenseaCollections = funtypes.Array(
 		primary_asset_contracts: funtypes.Array(
 			funtypes.Object({
 					address: EthereumAddress,
-					schema_name: funtypes.String.Or(funtypes.Null),
+					schema_name: funtypes.String,
 					symbol: funtypes.String,
 				}
 			)
@@ -95,9 +95,9 @@ async function fetchOpenseaFromUsers(nftOwners: string[]) {
 					name: collection.name,
 					hidden: collection.hidden,
 					featured: collection.featured,
-					protocol: asset.schema_name || undefined,
 					symbol: asset.symbol,
-					logoUri,
+					protocol: asset.schema_name,
+					...logoUri ? {logoUri} : {},
 				}
 			}
 		}
@@ -132,30 +132,22 @@ async function queryOpenseaPage(nftOwner: string, offset: number, limit: number)
 async function processNfts() {
 	const openseaData = await fetchOpenseaFromUsers(NFT_OWNER_ADDRESSES)
 	console.log(openseaData)
-	const output = `
-import * as nftData from './nftMetadata.json';
-export type NftDefinition = {
-	name: string,
-	symbol: string,
-	protocol?: string,
-	logoUri?: string | undefined,
-}
-export const nftMetadata = new Map<string, NftDefinition>(
-	nftData.reduce(( acc, [address, name, symbol, protocol, logoUri] ) => {
-		if (address === null) return acc
-		return acc.concat([
-			[address, {
-				name: name === null ? 'undefined' : name,
-				symbol: symbol === null ? 'undefined' : symbol,
-				...protocol ? {protocol} : {},
-				...logoUri ? {logoUri} : {},
-			}]])
-	}, [] as [string, NftDefinition][])
-)
-`
-	const nftData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, x.data.logoUri]), null, '\t')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.json`, nftData, 'utf-8')
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadata.ts`, output, 'utf-8')
+
+	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
+	const tsJsonData = `
+export type Address = \`0x$\{string}\`
+export type Name = string
+export type Symbol = string
+export type NftType = 'ERC721' | 'ERC1155' | 'CRYPTOPUNKS'
+export type LogoRelativePath = \`/images/nfts/$\{string}\`
+export type NftMetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
+export type NftMetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]
+
+export type NftMetadataData = readonly (NftMetadataWithLogo | NftMetadataWithoutLogo)[]
+
+export const nftMetadataData: NftMetadataData = ${jsonData} as const;`
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadataData.ts`, tsJsonData, 'utf-8')
 }
 
 async function main(): Promise<void> {

@@ -1,5 +1,5 @@
 
-import * as tokenData from './tokenMetadata.json';
+import { tokenMetadataData } from './tokenMetadataData.js';
 export type TokenDefinition = {
 	name: string,
 	symbol: string,
@@ -8,12 +8,12 @@ export type TokenDefinition = {
 }
 
 export const tokenMetadata = new Map<string, TokenDefinition>(
-	tokenData.reduce(( acc, token ) => {
+	tokenMetadataData.reduce(( acc, token ) => {
 		if (token.address === null) return acc
-		return [[token.address, {
+		return acc.concat([[token.address, {
 			name: token.data.name,
 			symbol: token.data.symbol,
 			decimals: BigInt(token.data.decimals),
 			...'logoUri' in token.data ? {logoUri: token.data.logoUri} : {},
-		}]];
+		}]]);
 	}, [] as [string, TokenDefinition][]));

@@ -1,3 +1,3 @@
-export { tokenMetadata } from './tokenMetadata.js'
-export { nftMetadata } from './nftMetadata.js'
-export { contractMetadata } from './contractMetadata.js'
+export { tokenMetadata, TokenDefinition } from './tokenMetadata.js'
+export { nftMetadata, NftDefinition } from './nftMetadata.js'
+export { contractMetadata, ContractDefinition } from './contractMetadata.js'
