@@ -1,16 +1,14 @@
 import * as fs from 'fs'
-import * as path from 'path'
-import { tokenList } from './tokenList'
-import { allowedExtensions, downloadFile } from './utils'
-import { getAaveV1Tokens, getAaveV2Tokens } from './aave'
-import { getCompoundV2Tokens } from './compound'
-
-const OUTPUT_LIB_DIR = path.join(__dirname, '..', 'lib')
-const OUTPUT_SRC_DIR = path.join(__dirname, '..', 'src')
+import { tokenList } from './tokenList.js'
+import { allowedExtensions, downloadFile } from './utils.js'
+import { getAaveV1Tokens, getAaveV2Tokens } from './aave.js'
+import { getCompoundV2Tokens } from './compound.js'
+import { OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants.js'
 
 const blackListedTokens = new Set<bigint>([])
 
 async function processTokens() {
+	console.log('processTokens')
 	const tokens = []
 	for (const token of tokenList.tokens) {
 		if (blackListedTokens.has(BigInt(token.address))) continue
@@ -20,7 +18,7 @@ async function processTokens() {
 			if (fileEnding === undefined) throw `Invalid logoUrl`
 			if (!(allowedExtensions.has(fileEnding))) throw `not allowed extension: '${fileEnding}'`
 
-			const fileLocation = `${OUTPUT_LIB_DIR}/images/tokens/${token.address}.${fileEnding}`
+			const fileLocation = `${OUTPUT_LIB_BASE_DIR}/images/tokens/${token.address}.${fileEnding}`
 			if (!fs.existsSync(fileLocation)) {
 				console.log(`downloading: ${fileLocation}`)
 				await downloadFile(token.logoURI, fileLocation)

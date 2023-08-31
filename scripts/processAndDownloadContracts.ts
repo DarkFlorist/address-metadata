@@ -1,13 +1,14 @@
-import { fetchV2Pools, fetchV3Pools, getUniswapMiscAddresses } from './uniswap'
-import { addressString } from './utils'
+import { fetchV2Pools, fetchV3Pools, getUniswapMiscAddresses } from './uniswap.js'
+import { addressString } from './utils.js'
 import * as fs from 'fs'
 import * as path from 'path'
-import { getAaveV2Misc } from './aave'
-import { getMiscAddresses } from './miscContracts'
+import { getAaveV2Misc } from './aave.js'
+import { getMiscAddresses } from './miscContracts.js'
 
-const OUTPUT_SRC_DIR = path.join(__dirname, '..', 'src')
+const OUTPUT_SRC_DIR = path.join(__dirname, '../..', 'src')
 
 async function processContracts() {
+	console.log('processContracts')
 	const contractData =
 		[
 			...await fetchV2Pools(),

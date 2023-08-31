@@ -1,24 +1,8 @@
 import * as fs from 'fs'
 import * as funtypes from 'funtypes'
-import path from 'path'
 import fetch from 'node-fetch'
+import { MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, MAX_OPENSEA_BATCH_SIZE, NFT_IMAGE_DIR, NFT_OWNER_ADDRESSES, OPENSEA_API_KEY, OPENSEA_GLOBAL_LIMIT, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants';
 import { addressString, downloadFile, EthereumAddress, scaleImage } from './utils'
-
-const NFT_OWNER_ADDRESSES = [
-	'0xed2ab4948bA6A909a7751DEc4F34f303eB8c7236',
-	'0x994F16B760E5549bDA0e8C9adAB0809552452e76',
-	'0x49D20F1b85accA6a58c48cE56F5eED980B047C0a'
-]
-
-const MAX_OPENSEA_BATCH_SIZE = 300
-const OPENSEA_GLOBAL_LIMIT = 60000 - MAX_OPENSEA_BATCH_SIZE
-
-const MAX_NFT_IMAGE_HEIGHT = 128
-const MAX_NFT_IMAGE_WIDTH = 128
-
-const OUTPUT_SRC_DIR = path.join(__dirname, '..', 'src')
-const OUTPUT_LIB_BASE_DIR = path.join(__dirname, '..', 'lib')
-const NFT_IMAGE_DIR = '/images/nfts/'
 
 interface CleanedNftRecord {
 	address: bigint;
@@ -125,29 +109,47 @@ async function queryOpenseaByOwner(nftOwner: string) {
 async function queryOpenseaPage(nftOwner: string, offset: number, limit: number) {
 	return (await fetch(`https://api.opensea.io/api/v1/collections?asset_owner=${nftOwner}&offset=${offset}&limit=${limit}`, {
 		method: 'GET',
-		headers: {'Content-Type': 'application/json'},
+		headers: { 'Content-Type': 'application/json', 'X-API-KEY': OPENSEA_API_KEY },
 	})).json()
 }
 
 async function processNfts() {
+	console.log('processNfts')
 	const openseaData = await fetchOpenseaFromUsers(NFT_OWNER_ADDRESSES)
 	console.log(openseaData)
-
-	const jsonData = JSON.stringify(openseaData.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
-	const tsJsonData = `
+	const erc721 = openseaData.filter((record) => record.data.protocol === 'ERC721')
+	const erc721JsonData = JSON.stringify(erc721.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
+	const erc721TsJsonData = `
 export type Address = \`0x$\{string}\`
 export type Name = string
 export type Symbol = string
-export type NftType = 'ERC721' | 'ERC1155' | 'CRYPTOPUNKS'
+export type NftType = 'ERC721'
 export type LogoRelativePath = \`/images/nfts/$\{string}\`
 export type NftMetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
 export type NftMetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]
 
 export type NftMetadataData = readonly (NftMetadataWithLogo | NftMetadataWithoutLogo)[]
 
-export const nftMetadataData: NftMetadataData = ${jsonData} as const;`
+export const nftMetadataData: NftMetadataData = ${erc721JsonData} as const;`
 
-	fs.writeFileSync(`${OUTPUT_SRC_DIR}/nftMetadataData.ts`, tsJsonData, 'utf-8')
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/ERC721MetaData.ts`, erc721TsJsonData, 'utf-8')
+
+	const erc1155 = openseaData.filter((record) => record.data.protocol === 'ERC1155')
+	const erc1155JsonData = JSON.stringify(erc1155.map(( x ) => [addressString(x.address), x.data.name + (x.data.hidden ? '[hidden]' : '') + +(x.data.featured ? '[featured]' : ''), x.data.symbol, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
+	const erc1155TsJsonData = `
+export type Address = \`0x$\{string}\`
+export type Name = string
+export type Symbol = string
+export type NftType = 'ERC1155'
+export type LogoRelativePath = \`/images/nfts/$\{string}\`
+export type NftMetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
+export type NftMetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]
+
+export type NftMetadataData = readonly (NftMetadataWithLogo | NftMetadataWithoutLogo)[]
+
+export const nftMetadataData: NftMetadataData = ${erc1155JsonData} as const;`
+
+	fs.writeFileSync(`${OUTPUT_SRC_DIR}/ERC1155MetaData.ts`, erc1155TsJsonData, 'utf-8')
 }
 
 async function main(): Promise<void> {

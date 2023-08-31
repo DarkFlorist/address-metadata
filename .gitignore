@@ -9,3 +9,5 @@
 .env.json
 .idea/
 .DS_store
+/scripts/cache*
+/scripts/js*

@@ -2,6 +2,7 @@ import * as funtypes from 'funtypes'
 import https from 'https'
 import fs from 'fs'
 import sharp from 'sharp'
+import path from 'path'
 
 export const allowedExtensions = new Set(['png', 'jpg', 'jpeg', 'gif', 'ico', 'svg', 'webp'])
 
@@ -75,3 +76,15 @@ export async function scaleImage(imageFileToResize: string, width: number, heigh
 		.resize(width, height, {withoutEnlargement: true})
 		.toFile(imageFileToResize)
 }
+export async function cachedFetchJson(url: RequestInfo, init: RequestInit) {
+	const hashCode = (s:string) => s.split('').reduce((a,b) => (((a << 5) - a) + b.charCodeAt(0))|0, 0)
+	const input = url.toString() + '|' + JSON.stringify(init)
+	const hash = hashCode(input.toString())
+	console.log(hash)
+	const file = path.join(__dirname, `../cache/${ hash }.json`)
+	if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'))
+	const data = await (await fetch(url, init)).json()
+	fs.writeFileSync(file, JSON.stringify(data), 'utf8')
+	return data
+}
+

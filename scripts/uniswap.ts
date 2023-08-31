@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 import * as funtypes from 'funtypes'
-import { addressString, EthereumAddress } from './utils'
+import { addressString, EthereumAddress } from './utils.js'
 
 const uniswapV3Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3'
 const uniswapV2Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2'
@@ -168,6 +168,8 @@ export async function getUniswapMiscAddresses() {
 		['Uniswap V2 Factory', 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6fn],
 		['Uniswap V2 Router 01', 0xf164fC0Ec4E93095b804a4795bBe1e041497b92an],
 		['Uniswap V2 Router 02', 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488Dn],
+		['Uniswap V2 Router 02', 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488Dn],
+		['Uniswap Permit2', 0x000000000022d473030f116ddee9f6b43ac78ba3n],
 	] as const
 	return addresses.map(([name, address]) => ({
 		address: address,
