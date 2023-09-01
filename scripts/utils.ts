@@ -3,8 +3,9 @@ import https from 'https'
 import fs from 'fs'
 import sharp from 'sharp'
 import path from 'path'
+import { keccak256, toUtf8Bytes } from 'ethers/lib/utils'
 
-export const allowedExtensions = new Set(['png', 'jpg', 'jpeg', 'gif', 'ico', 'svg', 'webp'])
+export const allowedExtensions = new Set(['png', 'jpg', 'jpeg', 'gif', 'ico', 'svg', 'webp', 'svg+xml'])
 
 export function addressString(address: bigint) {
 	return `0x${address.toString(16).padStart(40, '0')}`
@@ -77,9 +78,8 @@ export async function scaleImage(imageFileToResize: string, width: number, heigh
 		.toFile(imageFileToResize)
 }
 export async function cachedFetchJson(url: RequestInfo, init: RequestInit) {
-	const hashCode = (s:string) => s.split('').reduce((a,b) => (((a << 5) - a) + b.charCodeAt(0))|0, 0)
 	const input = url.toString() + '|' + JSON.stringify(init)
-	const hash = hashCode(input.toString())
+	const hash = keccak256(toUtf8Bytes(input))
 	console.log(hash)
 	const file = path.join(__dirname, `../cache/${ hash }.json`)
 	if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'))

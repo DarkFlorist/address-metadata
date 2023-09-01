@@ -18,7 +18,7 @@ async function processContracts() {
 			...await getAaveV2Misc()
 		]
 
-	const jsonData = JSON.stringify(contractData.map(( x) => [addressString(x.address), x.data.name, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
+	const jsonData = JSON.stringify(contractData.map((x) => [addressString(x.address), x.data.name, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
 	const tsJsonData = `
 export type Address = \`0x$\{string}\`
 export type Name = string

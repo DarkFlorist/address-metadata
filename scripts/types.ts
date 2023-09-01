@@ -12,8 +12,8 @@ export const AlchemyNftSalesPage = funtypes.Object({
 			contractAddress: EthereumAddress,
 			tokenId: funtypes.String,
 			quantity: funtypes.String,
-			buyerAddress: EthereumAddress,
-			sellerAddress: EthereumAddress,
+			buyerAddress: funtypes.String,
+			sellerAddress: funtypes.String,
 			taker: funtypes.String,
 			sellerFee:  funtypes.Object({}),
 			protocolFee: funtypes.Object({}),
@@ -29,7 +29,7 @@ export const AlchemyNftSalesPage = funtypes.Object({
 		blockHash: funtypes.String,
 		blockTimestamp: funtypes.String,
 	}),
-	pageKey: funtypes.Union(funtypes.String, funtypes.Null),
+	pageKey: funtypes.Union(funtypes.String, funtypes.Null, funtypes.Undefined),
 })
 
 export type AlchemyContractMetadataBatch = funtypes.Static<typeof AlchemyContractMetadataBatch>
@@ -44,7 +44,7 @@ export const AlchemyContractMetadataBatch = funtypes.ReadonlyArray(funtypes.Read
 		deployedBlockNumber: funtypes.Number,
 		openSea: funtypes.ReadonlyObject({
 			floorPrice: funtypes.Union(funtypes.Number, funtypes.Undefined),
-			collectionName: funtypes.String,
+			collectionName: funtypes.Union(funtypes.String, funtypes.Undefined),
 			collectionSlug: funtypes.Union(funtypes.String, funtypes.Undefined),
 			safelistRequestStatus: funtypes.Union(funtypes.String, funtypes.Undefined),
 			imageUrl: funtypes.Union(funtypes.String, funtypes.Undefined),
