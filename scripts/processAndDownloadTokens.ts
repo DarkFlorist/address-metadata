@@ -50,15 +50,15 @@ async function processTokens() {
 	const jsonData = JSON.stringify(tokens, null, '\t')
 	const tsJsonDoc = `
 export type TokenMetadataData = {
-	address: string;
+	address: string
 	data: {
-		name: string;
-		symbol: string;
-		decimals: number;
-		logoUri?: string;
+		name: string
+		symbol: string
+		decimals: number
+		logoUri?: string
 	}
 }
-export const tokenMetadataData: Array<TokenMetadataData> = ${jsonData};`
+export const tokenMetadataData: Array<TokenMetadataData> = ${ jsonData }`
 
 	fs.writeFileSync(`${OUTPUT_SRC_DIR}/tokenMetadataData.ts`, tsJsonDoc, 'utf-8')
 }

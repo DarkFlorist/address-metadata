@@ -74,9 +74,10 @@ export async function downloadFile(url: string, targetFile: string, populateExte
 export async function scaleImage(imageFileToResize: string, width: number, height: number) {
 	return sharp(await fs.promises.readFile(imageFileToResize))
 		.resize(width)
-		.resize(width, height, {withoutEnlargement: true})
+		.resize(width, height, { withoutEnlargement: true })
 		.toFile(imageFileToResize)
 }
+
 export async function cachedFetchJson(url: RequestInfo, init: RequestInit) {
 	const input = url.toString() + '|' + JSON.stringify(init)
 	const hash = keccak256(toUtf8Bytes(input))
@@ -86,4 +87,3 @@ export async function cachedFetchJson(url: RequestInfo, init: RequestInit) {
 	fs.writeFileSync(file, JSON.stringify(data), 'utf8')
 	return data
 }
-
