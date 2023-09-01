@@ -80,7 +80,6 @@ export async function scaleImage(imageFileToResize: string, width: number, heigh
 export async function cachedFetchJson(url: RequestInfo, init: RequestInit) {
 	const input = url.toString() + '|' + JSON.stringify(init)
 	const hash = keccak256(toUtf8Bytes(input))
-	console.log(hash)
 	const file = path.join(__dirname, `../cache/${ hash }.json`)
 	if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'))
 	const data = await (await fetch(url, init)).json()

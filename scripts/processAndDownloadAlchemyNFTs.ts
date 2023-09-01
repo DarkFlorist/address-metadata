@@ -56,6 +56,7 @@ async function fetchNFTs() {
 							console.error(`Error downloading ${ collection.contractMetadata.openSea.imageUrl }`)
 							console.error(err.message)
 						}
+						logoUri = undefined
 						continue
 					}
 				}
@@ -96,8 +97,6 @@ async function querySalesNFTs() {
 		const page = AlchemyNftSalesPage.parse(data)
 		if (page.nftSales.length === 0) break
 		console.log(currentBlock, '/', endBlock, '(', 100 - (endBlock - currentBlock)/(endBlock - startBlock) * 100, '%)' )
-		console.log(page.nftSales[0].blockNumber)
-		console.log(`got ${ page.nftSales.length } sales`)
 		page.nftSales.forEach((sale) => result.add(sale.contractAddress))
 		console.log(`we have ${ result.size } contracts atm`)
 	}
@@ -121,7 +120,7 @@ export type Erc721MetadataWithoutLogo = readonly [Address, Name, Symbol, NftType
 
 export type Erc721MetadataData = readonly (Erc721MetadataWithLogo | Erc721MetadataWithoutLogo)[]
 
-export const Erc721MetadataData: Erc721MetadataData = ${erc721JsonData} as const;`
+export const Erc721MetadataData: Erc721MetadataData = ${ erc721JsonData } as const;`
 
 	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC721MetaData.ts`, erc721TsJsonData, 'utf-8')
 
@@ -138,7 +137,7 @@ export type Erc1155MetadataWithoutLogo = readonly [Address, Name, Symbol, NftTyp
 
 export type Erc1155MetadataData = readonly (Erc1155MetadataWithLogo | Erc1155MetadataWithoutLogo)[]
 
-export const erc1155MetadataData: NftMetadataData = ${erc1155JsonData} as const;`
+export const erc1155MetadataData: NftMetadataData = ${ erc1155JsonData } as const;`
 
 	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC1155MetaData.ts`, erc1155TsJsonData, 'utf-8')
 
@@ -155,7 +154,7 @@ export type UnknownNftMetadataWithoutLogo = readonly [Address, Name, Symbol, Nft
 
 export type UnknownNftMetadataData = readonly (UnknownNftMetadataWithLogo | UnknownNftMetadataWithoutLogo)[]
 
-export const unknownNftMetadataData: UnknownNftMetadataData = ${unknownJsonData} as const;`
+export const unknownNftMetadataData: UnknownNftMetadataData = ${ unknownJsonData } as const;`
 
 	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/unknownNFTMetaData.ts`, unknownTsJsonData, 'utf-8')
 }

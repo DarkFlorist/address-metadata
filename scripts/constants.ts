@@ -4,8 +4,8 @@ import path from 'path'
 export const MAX_OPENSEA_BATCH_SIZE = 300
 export const OPENSEA_GLOBAL_LIMIT = 60000 - MAX_OPENSEA_BATCH_SIZE
 
-export const MAX_NFT_IMAGE_HEIGHT = 128
-export const MAX_NFT_IMAGE_WIDTH = 128
+export const MAX_NFT_IMAGE_HEIGHT = 64
+export const MAX_NFT_IMAGE_WIDTH = 64
 
 export const OUTPUT_SRC_DIR = path.join(__dirname, '../..', 'src')
 export const OUTPUT_LIB_BASE_DIR = path.join(__dirname, '../..', 'lib')
