@@ -1,7 +1,8 @@
+import { providers } from 'ethers'
 import * as fs from 'fs'
-import { ALCHEMY_API_KEY, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, NFT_IMAGE_DIR, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants'
-import { AlchemyContractMetadataBatch, AlchemyNftSalesPage } from './types'
-import { addressString, cachedFetchJson, downloadFile, EthereumAddress, scaleImage } from './utils'
+import { ALCHEMY_API_KEY, CACHE, ETHEREUM_RPC, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, NFT_IMAGE_DIR, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants'
+import { AlchemyCollection, AlchemyContractMetadataBatch, AlchemyNftSalesPage } from './types'
+import { addressString, cachedFetchJson, downloadFile, EthereumAddress, resizeAndConvertToPng } from './utils'
 
 interface CleanedNftRecord {
 	address: bigint
@@ -17,97 +18,107 @@ function matchFileInDirectory(imageDirFileList: string[], logoFilename: string) 
 	return imageDirFileList.find(imageFilename => imageFilename.startsWith(logoFilename))
 }
 
-async function fetchNFTs() {
-	const result: { [address: string]: CleanedNftRecord } = {}
-	const imageDirFileList = await fs.promises.readdir(`${ OUTPUT_LIB_BASE_DIR }${ NFT_IMAGE_DIR }`)
-	console.log('fetchNFTs')
-	const nftAddresses = Array.from(await querySalesNFTs())
-	console.log(`got ${ nftAddresses.length } NFT's`)
-
-	const batchSize = 100
-	for (let i = 0; i < nftAddresses.length; i += batchSize) {
-		const batch = nftAddresses.slice(i, i + batchSize)
-		const batchNftContracts = batch.map((n) => addressString(n))
-		console.log(batchNftContracts)
-		const data = await cachedFetchJson(`https://eth-mainnet.g.alchemy.com/nft/v2/${ ALCHEMY_API_KEY }/getContractMetadataBatch`, {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ contractAddresses: batchNftContracts })
-		})
-		console.log(data)
-		const parsed = AlchemyContractMetadataBatch.parse(data)
-		for (const collection of parsed) {
-			const address = addressString(collection.address)
-			if (address in result) continue
-			let logoUri: string | undefined = undefined
-			if (collection.contractMetadata.openSea.imageUrl !== undefined) {
-				const matchedFile = matchFileInDirectory(imageDirFileList, address)
-				if (matchedFile) {
-					logoUri = `${ NFT_IMAGE_DIR }${ matchedFile }`
-				} else {
-					try {
-						logoUri = `${ NFT_IMAGE_DIR }${ address }`
-						const targetFile = `${ OUTPUT_LIB_BASE_DIR }${ logoUri }`
-						const addedExtension = await downloadFile(collection.contractMetadata.openSea.imageUrl, targetFile, true)
-						await scaleImage(`${ targetFile }${ addedExtension }`, MAX_NFT_IMAGE_WIDTH, MAX_NFT_IMAGE_HEIGHT)
-						logoUri = `${ logoUri }${ addedExtension }`
-					} catch (err: unknown) {
-						if (err instanceof Error) {
-							console.error(`Error downloading ${ collection.contractMetadata.openSea.imageUrl }`)
-							console.error(err.message)
-						}
-						logoUri = undefined
-						continue
-					}
+const processNft = async (collection: AlchemyCollection, imageDirFileList: string[]) => {
+	const address = addressString(collection.address)
+	let logoUri: string | undefined = undefined
+	if (collection.contractMetadata.openSea === undefined) return undefined
+	if (collection.contractMetadata.openSea.imageUrl !== undefined) {
+		const matchedFile = matchFileInDirectory(imageDirFileList, address)
+		if (matchedFile) {
+			logoUri = `${ NFT_IMAGE_DIR }${ matchedFile }`
+		} else {
+			try {
+				const targetFile = `${ CACHE }/${ address }`
+				const addedExtension = await downloadFile(collection.contractMetadata.openSea.imageUrl, targetFile, true)
+				const downloadedFile = `${ targetFile }${ addedExtension }`
+				const newFileName = `${ OUTPUT_LIB_BASE_DIR }${ NFT_IMAGE_DIR }${ address }.png`
+				await resizeAndConvertToPng(downloadedFile, MAX_NFT_IMAGE_WIDTH, MAX_NFT_IMAGE_HEIGHT, newFileName)
+				logoUri = `${ NFT_IMAGE_DIR }${ address }.png`
+			} catch (err: unknown) {
+				if (err instanceof Error) {
+					console.error(`Error downloading ${ collection.contractMetadata.openSea.imageUrl }`)
+					console.error(err.message)
 				}
-			}
-			if (collection.contractMetadata.name === undefined || collection.contractMetadata.symbol === undefined) {
-				console.log(`skipping ${ address }`)
-				console.log(collection)
-				continue
-			}
-			result[address] = {
-				address: collection.address,
-				data: {
-					name: collection.contractMetadata.name,
-					symbol: collection.contractMetadata.symbol,
-					tokenType: collection.contractMetadata.tokenType,
-					...logoUri ? { logoUri } : {},
-				}
+				logoUri = undefined
 			}
 		}
 	}
-	console.log(result)
-	return Object.values(result).sort((a, b) => a.address < b.address ? -1 : a.address > b.address ? 1 : 0)
+	if (collection.contractMetadata.openSea.collectionName === undefined) {
+		console.log(`skipping ${ address }`)
+		console.log(collection)
+		return undefined
+	}
+	return({
+		address: collection.address,
+		data: {
+			name: collection.contractMetadata.openSea.collectionName,
+			symbol: collection.contractMetadata.symbol || collection.contractMetadata.openSea.collectionName,
+			tokenType: collection.contractMetadata.tokenType,
+			...logoUri ? { logoUri } : {},
+		}
+	})
 }
 
+const forceAddAddresses = [
+	0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401n //ens
+]
 async function querySalesNFTs() {
 	const result = new Set<EthereumAddress>()
-	const nBlocks = 100
+	const nBlocks = 500
 	const startBlock = 15034865
-	const endBlock = 18034865
+	const endBlock = await new providers.StaticJsonRpcProvider(ETHEREUM_RPC).getBlockNumber()
 	let currentBlock = startBlock
 	while (currentBlock < endBlock) {
 		const marketplace = 'seaport'
-		const data = await cachedFetchJson(`https://eth-mainnet.g.alchemy.com/nft/v2/${ ALCHEMY_API_KEY }/getNFTSales?order=asc&fromBlock=${ currentBlock }&toBlock=${ endBlock }&marketplace=${ marketplace }`, {
+		const data = await cachedFetchJson(`https://eth-mainnet.g.alchemy.com/nft/v2/${ ALCHEMY_API_KEY }/getNFTSales?order=asc&fromBlock=${ currentBlock }&toBlock=${ currentBlock + 100 }&marketplace=${ marketplace }`, {
 			method: 'GET',
 			headers: { 'Content-Type': 'application/json' },
 		})
 		currentBlock += nBlocks
 		const page = AlchemyNftSalesPage.parse(data)
 		if (page.nftSales.length === 0) break
-		console.log(currentBlock, '/', endBlock, '(', 100 - (endBlock - currentBlock)/(endBlock - startBlock) * 100, '%)' )
+		console.log('sales:', currentBlock, '/', endBlock, '(', 100 - (endBlock - currentBlock)/(endBlock - startBlock) * 100, '%)' )
 		page.nftSales.forEach((sale) => result.add(sale.contractAddress))
 		console.log(`we have ${ result.size } contracts atm`)
 	}
+	forceAddAddresses.forEach((addr) => result.add(addr))
 	return result
 }
 
+
+async function fetchNFTs() {
+	const result: { [address: string]: CleanedNftRecord } = {}
+	const imageDirFileList = await fs.promises.readdir(`${ OUTPUT_LIB_BASE_DIR }${ NFT_IMAGE_DIR }`)
+	console.log('fetchNFTs')
+	const nftAddresses = Array.from((await querySalesNFTs()))
+	console.log(`got ${ nftAddresses.length } NFT's`)
+
+	const batchSize = 100
+	for (let i = 0; i < nftAddresses.length; i += batchSize) {
+		const batch = nftAddresses.slice(i, i + batchSize)
+		const batchNftContracts = batch.map((n) => addressString(n))
+		const data = await cachedFetchJson(`https://eth-mainnet.g.alchemy.com/nft/v2/${ ALCHEMY_API_KEY }/getContractMetadataBatch`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ contractAddresses: batchNftContracts })
+		})
+		console.log('fetchNFT:',i, '/', nftAddresses.length, '(', i/nftAddresses.length * 100, '%)' )
+		const parsed = AlchemyContractMetadataBatch.parse(data)
+		const entries = (await Promise.all(parsed.map(async (collection) => await processNft(collection, imageDirFileList))))
+		
+		entries.forEach((entry) => {
+			if (entry === undefined) return
+			result[addressString(entry.address)] = entry
+		})
+	}
+	return Object.values(result).sort((a, b) => a.address - b.address ? -1 : a.address > b.address ? 1 : 0)
+}
+
 async function processNfts() {
+	if (!fs.existsSync(CACHE)) await fs.promises.mkdir(CACHE)
 	console.log('processNfts')
-	const openseaData = await fetchNFTs()
-	console.log(openseaData)
-	const erc721 = openseaData.filter((record) => record.data.tokenType === 'ERC721')
+	const nfts = await fetchNFTs()
+	const erc721 = nfts.filter((record) => record.data.tokenType === 'ERC721')
 	const erc721JsonData = JSON.stringify(erc721.map((x) => [addressString(x.address), x.data.name, x.data.symbol, x.data.tokenType, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
 	const erc721TsJsonData = `
 export type Address = \`0x$\{ string }\`
@@ -120,11 +131,11 @@ export type Erc721MetadataWithoutLogo = readonly [Address, Name, Symbol, NftType
 
 export type Erc721MetadataData = readonly (Erc721MetadataWithLogo | Erc721MetadataWithoutLogo)[]
 
-export const Erc721MetadataData: Erc721MetadataData = ${ erc721JsonData } as const;`
+export const erc721MetadataData: Erc721MetadataData = ${ erc721JsonData } as const;`
 
-	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC721MetaData.ts`, erc721TsJsonData, 'utf-8')
+	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC721MetadataData.ts`, erc721TsJsonData, 'utf-8')
 
-	const erc1155 = openseaData.filter((record) => record.data.tokenType === 'ERC1155')
+	const erc1155 = nfts.filter((record) => record.data.tokenType === 'ERC1155')
 	const erc1155JsonData = JSON.stringify(erc1155.map((x) => [addressString(x.address), x.data.name, x.data.symbol, x.data.tokenType, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
 	const erc1155TsJsonData = `
 export type Address = \`0x$\{ string }\`
@@ -137,28 +148,10 @@ export type Erc1155MetadataWithoutLogo = readonly [Address, Name, Symbol, NftTyp
 
 export type Erc1155MetadataData = readonly (Erc1155MetadataWithLogo | Erc1155MetadataWithoutLogo)[]
 
-export const erc1155MetadataData: NftMetadataData = ${ erc1155JsonData } as const;`
+export const erc1155MetadataData: Erc1155MetadataData = ${ erc1155JsonData } as const;`
 
-	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC1155MetaData.ts`, erc1155TsJsonData, 'utf-8')
-
-	const unknown = openseaData.filter((record) => record.data.tokenType !== 'ERC1155' && record.data.tokenType !== 'ERC721')
-	const unknownJsonData = JSON.stringify(unknown.map((x) => [addressString(x.address), x.data.name, x.data.symbol, x.data.tokenType, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
-	const unknownTsJsonData = `
-export type Address = \`0x$\{ string }\`
-export type Name = string
-export type Symbol = string
-export type NftType = string
-export type LogoRelativePath = \`/images/nfts/$\{ string }\`
-export type UnknownNftMetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
-export type UnknownNftMetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]
-
-export type UnknownNftMetadataData = readonly (UnknownNftMetadataWithLogo | UnknownNftMetadataWithoutLogo)[]
-
-export const unknownNftMetadataData: UnknownNftMetadataData = ${ unknownJsonData } as const;`
-
-	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/unknownNFTMetaData.ts`, unknownTsJsonData, 'utf-8')
+	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC1155MetadataData.ts`, erc1155TsJsonData, 'utf-8')
 }
-
 async function main(): Promise<void> {
 	return await processNfts()
 }

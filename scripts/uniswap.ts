@@ -3,7 +3,7 @@ import * as funtypes from 'funtypes'
 import { addressString, EthereumAddress } from './utils.js'
 
 const uniswapV3Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3'
-const uniswapV2Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2'
+const uniswapV2Graph = 'https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v2-dev'
 
 const UNISWAP_LOGO_URI = `images/contracts/uniswap.svg`
 
@@ -91,7 +91,6 @@ export async function fetchV3Pools() {
 		}
 		`
 		const data = await querySubGraph(uniswapV3Graph, query)
-		console.log(JSON.stringify(data))
 		const poolData = UniswapV3PoolData.parse(data)
 		if (poolData.data.pools.length === 0) break
 		allPools.push(...poolData.data.pools)
@@ -131,7 +130,6 @@ export async function fetchV2Pools() {
 		}
 		`
 		const data = await querySubGraph(uniswapV2Graph, query)
-		console.log(JSON.stringify(data))
 		const poolData = UniswapV2PoolData.parse(data)
 		if (poolData.data.pairs.length === 0) break
 		allPairs.push(...poolData.data.pairs)

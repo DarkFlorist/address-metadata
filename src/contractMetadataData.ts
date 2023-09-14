@@ -1,7 +1,7 @@
 
 export type Address = `0x${string}`
 export type Name = string
-export type Protocol = 'Uniswap' | 'Uniswap V2' | 'Uniswap V3' | 'ETH2' | 'Arbitrum' | 'Lido' | 'Matic' | 'OpenSea' | '0x' | 'Zapper' | 'Aave'
+export type Protocol = 'Uniswap' | 'Uniswap V2' | 'Uniswap V3' | 'ETH2' | 'Arbitrum' | 'Lido' | 'Matic' | 'OpenSea' | '0x' | 'Zapper' | 'Aave' | 'ENS'
 export type LogoRelativePath = string
 export type ContractMetadataDataWithLogo = readonly [Address, Name, Protocol, LogoRelativePath]
 export type ContractMetadataDataWithoutLogo = readonly [Address, Name, Protocol]
@@ -22,6 +22,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x0066c9d4335f0fc5037603e276f918a3795635d8",
+		"Uniswap V2 Pair: SHIBARIUM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x00aa1c57e894c4010fe44cb840ae56432d7ea1d1",
 		"Uniswap V2 Pair: DOP - WETH",
 		"Uniswap V2",
@@ -30,6 +36,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x00f5e5b8cbb3c91a82fe82eb5fbb023543723093",
 		"Uniswap V2 Pair: GNBU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0120b5473cc9b28321a8f6e712cb5b4d2df32b31",
+		"Uniswap V2 Pair: WETH - ITGR",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -54,6 +66,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x01e6dd22de77b0742f77d428a484d23fd2694536",
 		"Uniswap V2 Pair: Fortune - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x01f4916850f37d262108a31aa7e1367441eba344",
+		"Uniswap V2 Pair: XAI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -88,6 +106,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x030d4f27df50e354602569dc647cf476e34351f2",
+		"Uniswap V2 Pair: WETH - GME",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0323a401f66b054cafc80c6922b210bc1e650bf0",
+		"Uniswap V2 Pair: ETHEREUM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x035a397725d3c9fc5ddd3e56066b7b64c749014e",
 		"Uniswap V2 Pair: HEX - HDRN",
 		"Uniswap V2",
@@ -100,6 +130,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x0387e56b85e6dbac5586c74cfd089f03922cf3de",
+		"Uniswap V2 Pair: CHOW - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x03eb30ca916c80583440274a0d3472e8947de1c1",
+		"Uniswap V2 Pair: GENSLR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x03f6bc90a94e9e4ccfee45d682e71f5c9104869e",
 		"Uniswap V2 Pair: WETH - YFBT",
 		"Uniswap V2",
@@ -108,6 +150,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x040bef6a2984ba28d8af8a24ddb51d61fbf08a81",
 		"Uniswap V2 Pair: WETH - COMBO",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x04210c46af140780b39dc3380ee31204d7b80ce6",
+		"Uniswap V2 Pair: WETH - ETH2.0",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x044f4cb7fc6cb4e4801b9b6927969d2d0258798d",
+		"Uniswap V2 Pair: HAVOC - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -130,6 +184,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x04f01db076c85ea9a27c84c83e13b166fe9db95c",
+		"Uniswap V2 Pair: Dede - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x050397956e1fc8a0a2e62af035275f8a415b85a7",
+		"Uniswap V2 Pair: TKN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0513dcc2eb4700e148e56ca4de023f606b319e16",
+		"Uniswap V2 Pair: SNAKE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x0529bf56c9448eafe144c151402bc11c0ff47c4c",
 		"Uniswap V2 Pair: EPIK - WETH",
 		"Uniswap V2",
@@ -138,6 +210,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x0555f052da0a50d39369b0f634855edc858baa18",
 		"Uniswap V2 Pair: DEXG - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x05946af9da74499c8a0a2788402e7eea789bbe9d",
+		"Uniswap V2 Pair: JIZZ - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -184,6 +262,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x061883cd8a060ef5b8d83cde362c3fdbd8162eee",
+		"Uniswap V2 Pair: WETH - LBR",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x063e913f23d2314d75962871b10eecf48c539046",
+		"Uniswap V2 Pair: Dubbz - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x063ffb8a560dcbff91da1d7ad74f253d53838390",
 		"Uniswap V2 Pair: WETH - ENGN",
 		"Uniswap V2",
@@ -220,6 +310,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x074201cb10b1efedbd8dec271c37687e1ab5be4e",
+		"Uniswap V2 Pair: STONKS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x076a3e1500f3110d8f4445d396a3d7ca6d0ca269",
+		"Uniswap V2 Pair: WETH - PEPE2.0",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x07840b4825b74cc6ce264bf2743dee647194f49b",
 		"Uniswap V2 Pair: KOMPETE - WETH",
 		"Uniswap V2",
@@ -228,6 +330,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x07d4d6845e2c713de83a42bd56b0efcb2302c533",
 		"Uniswap V2 Pair: WETH - AstroLion",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x07f03a28a7a85d54abcfcbb2173128022eed9ecd",
+		"Uniswap V2 Pair: DOGE2.0 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -276,6 +384,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x09539705838eea6661633d568f77bc10a02cf375",
 		"Uniswap V2 Pair: WAS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x09d1d767edf8fa23a64c51fa559e0688e526812f",
+		"Uniswap V2 Pair: OLAS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0a05e2e9d6333387d4f634b08fff5210292f5561",
+		"Uniswap V2 Pair: QSP - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -388,6 +508,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x0d0a1767da735f725f41c4315e072c63dbc6ab3d",
+		"Uniswap V2 Pair: BULLET - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x0d0d65e7a7db277d3e0f5e1676325e75f3340455",
 		"Uniswap V2 Pair: MTA - WETH",
 		"Uniswap V2",
@@ -402,6 +528,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
 		"Uniswap V2 Pair: WETH - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0d5e7b851a6054ea636ce32423231dc3b6ec0204",
+		"Uniswap V2 Pair: WETH - WagieBot",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -484,6 +616,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x0f23d49bc92ec52ff591d091b3e16c937034496e",
+		"Uniswap V2 Pair: WOJAK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x0f5a2eb364d8b722cba4e1e30e2cf57b6f515b2a",
 		"Uniswap V2 Pair: WETH - TVK",
 		"Uniswap V2",
@@ -562,6 +700,30 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1123bb74bbcfcaa5e5e021547e38979a4a580c7d",
+		"Uniswap V2 Pair: WETH - HEEL",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1141203c9b8ed73eae3961e1a5cf2fd84deb3992",
+		"Uniswap V2 Pair: WETH - SHIB",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1144bb78db2dd3d24ca786ab6aeebd78b4009a63",
+		"Uniswap V2 Pair: WETH - SAFEMOON2.0",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x115dd2b4ded5ae4581e3c007917ba3ac5b69f7cb",
+		"Uniswap V2 Pair: WETH - vitalik.eth",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x11a708ded0fe503bbbf43d2baf403120dc5e145c",
 		"Uniswap V2 Pair: USDC - SPIRAL",
 		"Uniswap V2",
@@ -604,6 +766,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x127cadea890813125ca083280ab921d2220558c2",
+		"Uniswap V2 Pair: eSOV - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x128ab6c2d883eed81a900510d0f885933a9352df",
 		"Uniswap V2 Pair: YFOX - WETH",
 		"Uniswap V2",
@@ -640,8 +808,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x14b1843dd8b9723e24c9cd1c66a0bb678517a335",
+		"Uniswap V2 Pair: MBOT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x14b6154bcbf537368af932901456a7feb57cbe5a",
 		"Uniswap V2 Pair: OCC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x14bb16256065ff4abf4a35c2a7c2fdf2a621cd61",
+		"Uniswap V2 Pair: STABLZ - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1533f61facb7cc3a632b12ea9f55d3fbb57309e0",
+		"Uniswap V2 Pair: SUDO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -658,6 +844,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x15a91f83fdb68b224ebdf05d50f4e6a7b72caee9",
+		"Uniswap V2 Pair: GUY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x15ab0333985fd1e289adf4fbbe19261454776642",
 		"Uniswap V2 Pair: WETH - MLN",
 		"Uniswap V2",
@@ -666,6 +858,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x162cb3a005c81dbd61f85b6a8c609189c026735c",
 		"Uniswap V2 Pair: SRK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1635d18f20c9a6e302931faf61643fed57fbcce3",
+		"Uniswap V2 Pair: BABYSHIA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -688,8 +886,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x16bfd24976ab1b2b8145eb6f5c54fd9ed093ff30",
+		"Uniswap V2 Pair: GME - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x171d6a77251f64865aa6250119ec661dabd0c947",
 		"Uniswap V2 Pair: UNDEAD - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x176bb366b31a5292e27c6b6fcf7b7e54d137ec3d",
+		"Uniswap V2 Pair: TEST - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -730,8 +940,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x18eba63caf7fa6b530aaee4e4fab0eeda666dd25",
+		"Uniswap V2 Pair: ETHEREUM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x18f238a96392a8fabb87065b5129dd00192e6cb1",
 		"Uniswap V2 Pair: SHARE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x198c132ec5e376db9952c2cce69a1b6ccff8340d",
+		"Uniswap V2 Pair: PepeGains - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x19a59f62150586dd5de380f96f34651f1d2044e9",
+		"Uniswap V2 Pair: MTE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -744,6 +972,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x19dff439fd91c3946b98eb65e07368c5c8c3414d",
 		"Uniswap V2 Pair: LINA - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x19f96bdc38c929b53b7ba5331a9399da04a5f32f",
+		"Uniswap V2 Pair: MUSK - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -796,8 +1030,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1b10fa100c9cbbba76853ad2f9a42b9340ce7164",
+		"Uniswap V2 Pair: YIELD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1b1c28a89caac877c63d0adac173a0b55921ab65",
 		"Uniswap V2 Pair: WETH - CyOp",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1b425529c9d7472603e2dcf125fd195f71dfb412",
+		"Uniswap V2 Pair: RINIA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -808,14 +1054,44 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1b67afde9f800c86e0c27bcae4bde1ce5ddf5883",
+		"Uniswap V2 Pair: KAT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1b87fde6af5396165fdadf7f532784622a824abf",
 		"Uniswap V2 Pair: OCTO - USDC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1b8aa0d4171528da5053477a0fb553287e5a0d28",
+		"Uniswap V2 Pair: WSHIB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1b8d13207f4b0a47b5086329dc789d712277c9a1",
+		"Uniswap V2 Pair: WETH - AI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1b9d2d38a43e29223e4716f49b48547820760a6a",
 		"Uniswap V2 Pair: CENT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1b9fd5d7d1168bb6d21504eff2b0330d5c42ce0b",
+		"Uniswap V2 Pair: BILLY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1bc00bea522fe5b6a555e9ee7e5d28f96d48ae62",
+		"Uniswap V2 Pair: BUBU - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -828,6 +1104,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x1bfffb738d69167d5592160a47d5404a3cf5a846",
 		"Uniswap V2 Pair: KEX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1c3115b49a7e792c3e20eacca482339cdac12d05",
+		"Uniswap V2 Pair: WETH - HARAM",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -856,8 +1138,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1c8a9844091d5136b50f5b04b30de9e564ce397b",
+		"Uniswap V2 Pair: BARD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1c9052e823b5f4611ef7d5fb4153995b040ccbf5",
 		"Uniswap V2 Pair: DXD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1ca4713fc4a95f76fcb498b2a5fe8759c53df1a1",
+		"Uniswap V2 Pair: WETH - GEN",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -874,6 +1168,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1cf4b25ea65cec291fd17aa3769867c32de0fff3",
+		"Uniswap V2 Pair: PEPINU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1cfe0c85f16e03e91a4a27187511104150736d88",
 		"Uniswap V2 Pair: $TRUMP - WETH",
 		"Uniswap V2",
@@ -886,8 +1186,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1d4e66b826c8bf8e3c93574386a8dd723b3a912f",
+		"Uniswap V2 Pair: PLOUTΩS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1d6432aefeae2c0ff1393120541863822a4e6fa7",
 		"Uniswap V2 Pair: YFL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1db24c2a6d62612796295bd4f451924953275f47",
+		"Uniswap V2 Pair: NORMIE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -924,6 +1236,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x1e8ff5341bc63782b0212926d6eaf43cb80a0c75",
 		"Uniswap V2 Pair: WETH - XEND",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1e969a1b1983e383aa3a261f7da055e1b403bbcd",
+		"Uniswap V2 Pair: DBNB - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -994,6 +1312,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x20893b642b56fa81131a8fb1d6489e82de5a7449",
+		"Uniswap V2 Pair: KTO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x208bd5dc470eba21571ddb439801a614ed346376",
 		"Uniswap V2 Pair: GRO - WETH",
 		"Uniswap V2",
@@ -1024,6 +1348,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2143b2f528f6d010c14e4037f9636aad2e32768a",
+		"Uniswap V2 Pair: KuKu - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x214913d4aab5bb321498edb7309cf68cd8c5d86b",
 		"Uniswap V2 Pair: WETH - TKINU",
 		"Uniswap V2",
@@ -1050,6 +1380,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x21c5918ccb42d20a2368bdca8feda0399ebfd2f6",
 		"Uniswap V2 Pair: GRO - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x22453fb15757f2a8177880d8b8cf5144f07d1679",
+		"Uniswap V2 Pair: WETH - DOGC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1090,6 +1426,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x23610e42ac8bc888cb1bc9c614a7a79039578a86",
+		"Uniswap V2 Pair: MONKE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x237cf2e759a3ede62821e6bfe737e6a00658acb8",
 		"Uniswap V2 Pair: AGA - WETH",
 		"Uniswap V2",
@@ -1098,6 +1440,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x23b7e6932cb873b8696afba077c4a2486b1c862e",
 		"Uniswap V2 Pair: SIG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x23bc662119649a78a6aa132e043c01a34c982700",
+		"Uniswap V2 Pair: OCAI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1144,8 +1492,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2511ca2e53152796d3be8c4b333e72f1d2a0d91b",
+		"Uniswap V2 Pair: ZACH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2515c6b737151bbd5c7826c04717b342ac44c1da",
+		"Uniswap V2 Pair: X - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x251ce6231c8f892d41c0472121959c8ba577a415",
+		"Uniswap V2 Pair: PEEPO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x25647e01bd0967c1b9599fa3521939871d1d0888",
 		"Uniswap V2 Pair: WETH - SUPER",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x25942771b17f3790bf32cae7af7d539ce42cdc79",
+		"Uniswap V2 Pair: HOPPY - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1158,6 +1530,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x25ea93b7432fed90758828691897901a30b4c7d9",
 		"Uniswap V2 Pair: TMTG - LBXC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2606a6d72c1f6b58ce13c599091f0422a9b0f21c",
+		"Uniswap V2 Pair: spurdo - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1210,8 +1588,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x27b82b91c6583fe1a830b4a0620eca4027492a61",
+		"Uniswap V2 Pair: PNDC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x27c64bdca05d79f6ee32c3e981dc5153d9d794cd",
 		"Uniswap V2 Pair: GST2 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x27dae2e669275982ab0bdf1a45e9747481b46133",
+		"Uniswap V2 Pair: PARROT - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1246,6 +1636,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x284865c420105ddcffe9004a8f06acb9ee70936a",
+		"Uniswap V2 Pair: WETH - FLOKI2.0",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2854fbda37ac17aa184772bca10d2ca731e06c8c",
+		"Uniswap V2 Pair: WETH - BITROCK",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x287856d10418e01ef1e93df9962b04d9a3a521c9",
 		"Uniswap V2 Pair: SSL - WETH",
 		"Uniswap V2",
@@ -1264,8 +1666,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x28d3b36c0e064b455b8ca28cc0fb57fe20f949f9",
+		"Uniswap V2 Pair: SOP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x28f99e581baae7f3bdfe0d280ede74035b2e9a82",
 		"Uniswap V2 Pair: SIN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2906bb434b33eb55121803b594bbb39c3376f360",
+		"Uniswap V2 Pair: CX - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1276,8 +1690,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x29799805d728ebe424abb605349afd35d4d7c6fb",
+		"Uniswap V2 Pair: TOKEN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2999528824a1a839d9af5cfead053236be675984",
 		"Uniswap V2 Pair: DOWS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x29a512b5947b5b36bcd3f294822cc3ff4fe2ab73",
+		"Uniswap V2 Pair: ORD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1296,6 +1722,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x29ba3d899e8a819cf920adaff53ef1cf31969e66",
 		"Uniswap V2 Pair: ALEPH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x29c830864930c897efa2b9e9851342187b82010e",
+		"Uniswap V2 Pair: BAD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1330,6 +1762,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2a6c340bcbb0a79d3deecd3bc5cbc2605ea9259f",
+		"Uniswap V2 Pair: $PAAL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2a785850bf6455e00359fbae0da83e9a3a3ad44a",
 		"Uniswap V2 Pair: LIT - WETH",
 		"Uniswap V2",
@@ -1354,6 +1792,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2b76272f365d4d44b159e06496ebc77e01ed0d7e",
+		"Uniswap V2 Pair: BOBO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2b788a7b1a0ee0da8cb1d2769825198d9c95d19d",
 		"Uniswap V2 Pair: TERA - WETH",
 		"Uniswap V2",
@@ -1362,6 +1806,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x2b9e92a5b6e69db9fedc47a4c656c9395e8a26d2",
 		"Uniswap V2 Pair: XFT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2c0be28a222a21b9e3a237f72b20ee58dc1af111",
+		"Uniswap V2 Pair: PIG2.0 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1390,6 +1840,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2c866605330c8fb3f5a84c3c429e97568cd6c751",
+		"Uniswap V2 Pair: SHIL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2c8eb0861bf6fd761481e8d1ff1c57536c983e98",
 		"Uniswap V2 Pair: ROCKS - WETH",
 		"Uniswap V2",
@@ -1404,6 +1860,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x2cbfa9117c543a17efe0bb897f7e32f0d3f04130",
 		"Uniswap V2 Pair: BIM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2cc846fff0b08fb3bffad71f53a60b4b6e6d6482",
+		"Uniswap V2 Pair: BITCOIN - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1426,6 +1888,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2d54b72d3ae65dc849117172a7a81bdf2a5110ce",
+		"Uniswap V2 Pair: BROS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2d97755d2d18a77ef9ead977dd0c3ca7c840d5fc",
 		"Uniswap V2 Pair: KTON - WETH",
 		"Uniswap V2",
@@ -1434,6 +1902,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x2d9fd51e896ff0352cb6d697d13d04c2cb85ca83",
 		"Uniswap V2 Pair: LABS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2db388d12c56fa6bd81b101aa6ec8542e315ec5c",
+		"Uniswap V2 Pair: CHAD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1528,6 +2002,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3006c0d2a6e54d3590a44384c6f066c9cf9a4cea",
+		"Uniswap V2 Pair: MATH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3016a43b482d0480460f6625115bd372fe90c6bf",
 		"Uniswap V2 Pair: ShibDoge - WETH",
 		"Uniswap V2",
@@ -1546,6 +2026,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x30361f9963adb6c05f15655cb77d2da90f34c2d7",
+		"Uniswap V2 Pair: WETH - VetMe",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3041cbd36888becc7bbcbc0045e3b1f144466f5f",
 		"Uniswap V2 Pair: USDC - USDT",
 		"Uniswap V2",
@@ -1560,6 +2046,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x306d9c4c195cb49d48599a773e18ab79469811e3",
 		"Uniswap V2 Pair: RARE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x306eeaff376a128514e40b4846e1650d9ba7ae43",
+		"Uniswap V2 Pair: ELMO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1584,6 +2076,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x30c86753b88d430436b8a6ef23b4c6faa930ad7d",
 		"Uniswap V2 Pair: FROGE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x30e3270fd3d1589672e8da2f15c7076323c9aa10",
+		"Uniswap V2 Pair: RJV - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1648,6 +2146,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3322f41dfa379b6d3050c1e271b0b435b3ee3303",
+		"Uniswap V2 Pair: WETH - LSD",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x336951856427f758cef09e9f9194d1a84d417444",
+		"Uniswap V2 Pair: MEMEME - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x336d256cca045ce75e889541fcf6341a037315f3",
+		"Uniswap V2 Pair: $SLUTS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x336ef4e633b1117dca08c1a57f4139c62c32c935",
 		"Uniswap V2 Pair: BEND - WETH",
 		"Uniswap V2",
@@ -1668,6 +2184,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x33906431e44553411b8668543ffc20aaa24f75f9",
 		"Uniswap V2 Pair: WETH - CHAIN",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x33af110e648c5b8acb21e93ed2fab7d361309014",
+		"Uniswap V2 Pair: OMNIA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1702,6 +2224,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x34b6f33a5d88fca1b8f78a510bc81673611a68f0",
+		"Uniswap V2 Pair: PARTY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x353a70db3888e957ad2e7444a08a2c9c08a5db47",
 		"Uniswap V2 Pair: XP - WETH",
 		"Uniswap V2",
@@ -1722,6 +2250,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x35b9729ff21d54f02bda512f7060466494a40ede",
 		"Uniswap V2 Pair: MINI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x35ca4d410acc2be7e59613f20dfec7b7dfe2c149",
+		"Uniswap V2 Pair: WETH - Kabosu Inu",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1764,6 +2298,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x377634d9e73a10190a9a3a858bbad3f260101845",
 		"Uniswap V2 Pair: FLASH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3785ca1128d2efddfec1a87ddb5686b59c7138f8",
+		"Uniswap V2 Pair: SILKROAD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1816,6 +2356,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x385034bed561b362e80b490b8f9ab380abfb9304",
+		"Uniswap V2 Pair: DUB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3854612b93b140726167cca5418b01e832515d42",
 		"Uniswap V2 Pair: HIGH - WETH",
 		"Uniswap V2",
@@ -1846,6 +2392,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3910348d26f584183d2a0968808b59719538a089",
+		"Uniswap V2 Pair: SNORKZ - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x39192f8270865c1006601618e8dccb22c7794fb9",
 		"Uniswap V2 Pair: Seal - WETH",
 		"Uniswap V2",
@@ -1866,6 +2418,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x397973ba6e752943ea9146f88414d1f379fd427e",
 		"Uniswap V2 Pair: CRAMER - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3986289adced5fef2cd10a7c55ba07c3ef87fb94",
+		"Uniswap V2 Pair: ٨ - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1912,8 +2470,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3a925503970d40d36d2329e3846e09fcfc9b6acb",
+		"Uniswap V2 Pair: SDAO - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3aeee5ba053ef8406420dbc5801fc95ec57b0e0a",
 		"Uniswap V2 Pair: DEC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3af45bb3a18f673e68885df517e60a17b1dbef56",
+		"Uniswap V2 Pair: BABYPEPE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1942,6 +2512,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3ba47c54b4e2bc7e95df7c8d2002789e9fd71f09",
+		"Uniswap V2 Pair: KONG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3bd2035d08363a8cfdab70a41b0faad3510492dc",
 		"Uniswap V2 Pair: KLEE - WETH",
 		"Uniswap V2",
@@ -1954,6 +2530,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3beeab9d5624e487045e01d12332975204a04a8a",
+		"Uniswap V2 Pair: BCB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3bf1b837ccc1f62114a3e74ced4fcfb121d7e52a",
 		"Uniswap V2 Pair: Coval - WETH",
 		"Uniswap V2",
@@ -1962,6 +2544,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x3bf862093cbb6412b6ee498f4d652bba005aa7f3",
 		"Uniswap V2 Pair: K21 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3bfdbf5c023e753c69354375183c4713c807ce68",
+		"Uniswap V2 Pair: WETH - ARDVRK",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1990,6 +2578,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3d1d0553a4587c2e74af73b00a202cea5794547e",
+		"Uniswap V2 Pair: NGMI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3d2d3c4446e8a82445418523b9b5b376765e55a8",
 		"Uniswap V2 Pair: AGI - WETH",
 		"Uniswap V2",
@@ -1998,6 +2592,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x3d3ee86a2127f4d20b1c533e2c1abd8040da1dd9",
 		"Uniswap V2 Pair: VOX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3d5f3b3bb9b23c5bf1154091009d8465ae4d85ab",
+		"Uniswap V2 Pair: WETH - CAI",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2022,6 +2622,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x3df70e5b6edead5277590d3de5731d17f46e043b",
 		"Uniswap V2 Pair: DG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3e20d19301fa860734a766c7d942b07cb81d3b0b",
+		"Uniswap V2 Pair: Richard - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2056,8 +2662,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3f2eea452d4717dea05dbe55e1bfaf020294dd97",
+		"Uniswap V2 Pair: eXRD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3f3aa0726b240aef0fe4f7df2814df525303dc43",
 		"Uniswap V2 Pair: WETH - ECO",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3f60879606126afc54555712f63564bccb269ce5",
+		"Uniswap V2 Pair: Trinity - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3f61171b1297f6e512c750c172ba86026ab0e820",
+		"Uniswap V2 Pair: USDC - FLEX",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2074,6 +2698,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3f96fd489468e1527f653676441c8e3968f5b40e",
+		"Uniswap V2 Pair: Steve - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3fa5db0910afc2a1e6de45039ea217410fb8641d",
 		"Uniswap V2 Pair: XCAD - USDC",
 		"Uniswap V2",
@@ -2082,6 +2712,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x3fb4cb7f1e2e5110adf709dd277d77381c886ea9",
 		"Uniswap V2 Pair: ALPHA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3fcc11a3b0afbb0996ee70c6ce713cf70603e056",
+		"Uniswap V2 Pair: AOL - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2098,6 +2734,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x403eed5cab77516ff8a2a7ab7f2afdb39293a76f",
+		"Uniswap V2 Pair: WETH - TRUST",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4042a04c54ef133ac2a3c93db69d43c6c02a330b",
 		"Uniswap V2 Pair: FET - WETH",
 		"Uniswap V2",
@@ -2106,6 +2748,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
 		"Uniswap V2 Pair: CWS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x40643d019bcb381800f0c2d593a4a6472ccd7493",
+		"Uniswap V2 Pair: ferc - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2176,6 +2824,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x41f50f520f5095fc8403df083285232b822611c3",
+		"Uniswap V2 Pair: SOLANA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x41fa9d029611884b57fd371fa3685f57355ead0d",
+		"Uniswap V2 Pair: WETH - XXX",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x41fcf9e248e2be21c5debe8f010080335dcb0d40",
 		"Uniswap V2 Pair: WETH - NFT",
 		"Uniswap V2",
@@ -2196,6 +2856,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x424485f89ea52839fdb30640eb7dd7e0078e12fb",
 		"Uniswap V2 Pair: SDAO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x426ec9b9a11da1c9a082f921cafe86989c3c64ab",
+		"Uniswap V2 Pair: MOUSEWORM - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2224,6 +2890,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x42d83187e711a78bb1b55047023280be7a4a0d95",
+		"Uniswap V2 Pair: XD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4357ea68633a079fdfae21b35a68bc0f9d590402",
+		"Uniswap V2 Pair: POP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4360658e680026e4c636e8be0f7d0b9f976c46f0",
+		"Uniswap V2 Pair: WSB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x43747d31fc178d626047c5b4346a251418167a1a",
 		"Uniswap V2 Pair: NBNG - USDT",
 		"Uniswap V2",
@@ -2236,8 +2920,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x43a372e4dad9d28e476c5a591810981895511f8a",
+		"Uniswap V2 Pair: WETH - KERMIT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x43ae24960e5534731fc831386c07755a2dc33d47",
 		"Uniswap V2 Pair: SNX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x43f9a2e53d0db4b451f85e4cadfd291845dbc795",
+		"Uniswap V2 Pair: WETH - TETRIS",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2256,6 +2952,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x441f9e2c89a343cefb390a8954b3b562f8f91eca",
 		"Uniswap V2 Pair: ALPA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x44505b844883b24950c36ddf0f40be8297e157fc",
+		"Uniswap V2 Pair: YYY - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2314,6 +3016,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x455d4d19aca31c7530d75a32f98cf28d98365587",
+		"Uniswap V2 Pair: TURBO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x45687b3aaabb7997d3d06561cb7f8677641fd7bc",
 		"Uniswap V2 Pair: TAILS - WETH",
 		"Uniswap V2",
@@ -2338,8 +3046,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x45d559c7e2c2132e59100008cc2241b68c9689ed",
+		"Uniswap V2 Pair: PAPA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x461d46caa0ffa91bf76c11938105744f74f1e016",
 		"Uniswap V2 Pair: LOCG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x461dda49d5f7dcf461446fdbbb59384fd523cce2",
+		"Uniswap V2 Pair: WETH - FRIN",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2358,6 +3078,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x46af8ac1b82f73db6aacc1645d40c56191ab787b",
 		"Uniswap V2 Pair: NDX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x46c752b1da67ce438e2b73e47e3464038b3799f3",
+		"Uniswap V2 Pair: oDOGE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2388,6 +3114,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x478893fcbfffc3283fece2a216229e1c34093980",
 		"Uniswap V2 Pair: PAINT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x479d7a7864e00668da1ee507fa1b925fb1b2ae19",
+		"Uniswap V2 Pair: HAMS - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2452,8 +3184,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4905ec2fbd99b4ccf025953a0b7b3e4174ae4c3f",
+		"Uniswap V2 Pair: RON - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x496ab075f43991dd794baf982dc3d9817a49b33a",
 		"Uniswap V2 Pair: RARE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x498c00e1ccc2afff80f6cc6144eaeb95c46cc3b5",
+		"Uniswap V2 Pair: AGI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2488,8 +3232,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4a6670b0afb21b2770541c4c9bd678323f7d84c4",
+		"Uniswap V2 Pair: WETH - FINALE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4a7d4be868e0b811ea804faf0d3a325c3a29a9ad",
 		"Uniswap V2 Pair: REQ - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4b05d62fff53db825b407ba84c40d9d634a28e49",
+		"Uniswap V2 Pair: NFAi - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4b1e9a9de809ce968c7dfb0e66f91bb7d794f3ed",
+		"Uniswap V2 Pair: WETH - GETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2502,6 +3264,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x4b618087dae7765823bc47ffbf38c8ee8489f5ca",
 		"Uniswap V2 Pair: WETH - SASHIMI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4b82e8a0eccbdb0e8247f121f6b1ddc4f759522d",
+		"Uniswap V2 Pair: WETH - ( ͡° ͜ʖ ͡°)",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2530,6 +3298,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4be346cc45646bafc94b7d1bc9262ee0e9acb932",
+		"Uniswap V2 Pair: WETH - 科太币",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4c083084c9d50334b343c44ec97d16011303cc73",
 		"Uniswap V2 Pair: WETH - GMEE",
 		"Uniswap V2",
@@ -2544,6 +3318,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x4c7c61ad6dc3a3687d22f224af2ac1c60dcc103f",
 		"Uniswap V2 Pair: BONK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4c7e62fbb86b204f7c6dc1f582ddd889182d5cf5",
+		"Uniswap V2 Pair: DOGPAD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2662,6 +3442,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4ebdf501199410fc6caa1fa8c77da9aad46594ce",
+		"Uniswap V2 Pair: QWN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4f4d050d5c86dd32d276a8d066fa1932eb241c1b",
 		"Uniswap V2 Pair: CUT - WETH",
 		"Uniswap V2",
@@ -2680,14 +3466,38 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4fac944d2667e0b0b0fcd550da252e7000105264",
+		"Uniswap V2 Pair: gp - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4fc47579ecf6aa76677ee142b6b75faf9eeafba8",
 		"Uniswap V2 Pair: RAZE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4fd3f9811224bf5a87bbaf002a345560c2d98d76",
+		"Uniswap V2 Pair: XOR - VAL",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4fda00d490c1c05ff15d7313d1cebe9c711e434b",
 		"Uniswap V2 Pair: WHALE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4ff4c7c8754127cc097910cf9d80400adef5b65d",
+		"Uniswap V2 Pair: WETH - 4CHAN",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5003fdfc747a0acf06266c54fe7285abbca14f25",
+		"Uniswap V2 Pair: RIBBIT - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2722,6 +3532,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x50d1e7f2acfb7f3e0aafba2b1e63666b80eb08ea",
+		"Uniswap V2 Pair: WETH - RAPTOR",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x50e3d53b4a22e94ee1ce5c3a852d94d145d5852e",
 		"Uniswap V2 Pair: WETH - FNT",
 		"Uniswap V2",
@@ -2734,8 +3550,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x513c9465f2889fdf7642095e4967e297738a6d98",
+		"Uniswap V2 Pair: NEOBOT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x514906fc121c7878424a5c928cad1852cc545892",
 		"Uniswap V2 Pair: FARM - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x517f9dd285e75b599234f7221227339478d0fcc8",
+		"Uniswap V2 Pair: DAI - MKR",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2760,6 +3588,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x51fe8e8fa3f9f10288fa8c2aff1400f887d21c42",
 		"Uniswap V2 Pair: MITx - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5201523c0ad5ba792c40ce5aff7df2d1a721bbf8",
+		"Uniswap V2 Pair: $LOOT - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2800,6 +3634,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x52c77b0cb827afbad022e6d6caf2c44452edbc39",
+		"Uniswap V2 Pair: WETH - SPX",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x53120024e2b6e19a1d58c795547d98156e199ffb",
+		"Uniswap V2 Pair: RHC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x53455f3b566d6968e9282d982dd1e038e78033ac",
 		"Uniswap V2 Pair: DRC - WETH",
 		"Uniswap V2",
@@ -2830,6 +3676,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x54bebb624ddb561b971bb07b700c9d3afd25fabc",
+		"Uniswap V2 Pair: WETH - CBot",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x54d16d35ca16163bc681f39ec170cf2614492517",
 		"Uniswap V2 Pair: OIN - WETH",
 		"Uniswap V2",
@@ -2850,6 +3702,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x551617c45f817aab6f8ceafc873cd3b137e6a70c",
 		"Uniswap V2 Pair: GZLR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x556eb7379ec8a052d52d9b44a1c2b7bf6117b8a8",
+		"Uniswap V2 Pair: POG - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2896,6 +3754,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5710e809d7003de1253fa7935a41d6291cf071c9",
+		"Uniswap V2 Pair: WETH - $BIG",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5741a1ceff6148c8aaca0f0456c03c88817e05f5",
 		"Uniswap V2 Pair: XIOT - WETH",
 		"Uniswap V2",
@@ -2920,8 +3784,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x57ef5b8f56a71f1aa084ff904666ee9b0cef6fae",
+		"Uniswap V2 Pair: WETH - LIGHT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x583cadd830374bb5c1ec8e1b648e0294cc1e01f1",
 		"Uniswap V2 Pair: ALEPH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x587ce73bb6bd41c8ff04d44517f159be79d64392",
+		"Uniswap V2 Pair: BULL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x58c23378f238f3f35e972b50a95fcc5d4b8c94cf",
+		"Uniswap V2 Pair: MCDEEZ - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2952,6 +3834,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x596f7383223db0d484fd220d0ab036e042bafea4",
 		"Uniswap V2 Pair: SBREE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x59b7afe007fded03b6b706804ea680bd722e8e36",
+		"Uniswap V2 Pair: GRIFT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x59c1349bc6f28a427e78ddb6130ec669c2f39b48",
+		"Uniswap V2 Pair: BANK - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2998,6 +3892,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5ad6c0d8d57c0050fa954e227c45339ab8cb953b",
+		"Uniswap V2 Pair: WETH - BANANA",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5ad7452ceafdaeb0936507d5bb5890964ef56bd3",
 		"Uniswap V2 Pair: Okinami - USDC",
 		"Uniswap V2",
@@ -3016,8 +3916,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5b49001c8b756ab44b6ec3bcd1ea3f3a1c3cd758",
+		"Uniswap V2 Pair: WETH - ECT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5b6a17d4e84b8d9b40eaaae821fc141d6158fe44",
+		"Uniswap V2 Pair: BABYPEPE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5b6be21c4d1f2c1c5a3d6af3599f3bb0a785ae2f",
 		"Uniswap V2 Pair: GERO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5b7daaa7d7a129f2cd9153ad0a3dcfa568e60662",
+		"Uniswap V2 Pair: WETH - MARVIN",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3046,6 +3964,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5c89674c4ad1ccd10a29bcc9aabc303cd5f2da1d",
+		"Uniswap V2 Pair: TOMOE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5c8eb437d93cb32a02749ff7def70582d6f32bdf",
+		"Uniswap V2 Pair: FONZY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5ca3cec889ee6e2e0295c79cfbc057cfeba78cc6",
+		"Uniswap V2 Pair: PIXIA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5cb622c21ae335e7baaea7638ce097b3d172b827",
 		"Uniswap V2 Pair: STONK - WETH",
 		"Uniswap V2",
@@ -3066,6 +4002,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5cfd4ee2886cf42c716be1e20847bda15547c693",
 		"Uniswap V2 Pair: MAGGOT - ROT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5d08a36a46ee2ea2722a3b101a2a576341b8ddb5",
+		"Uniswap V2 Pair: DUCK - DDIM",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3096,6 +4038,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5d95bb70e1d8b7fabc286bbc163642b3c39097a7",
 		"Uniswap V2 Pair: SAND - REVV",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5dc7d59deab82a7d201d7c67eaa0cad2d98e6d3f",
+		"Uniswap V2 Pair: MRSPEPE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3142,6 +4090,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5f3fa8d8be06ae83a7c55687400af8445330b076",
+		"Uniswap V2 Pair: WETH - 0x1",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5f57c5f9564d6a4e25d908605341632e33e7874d",
 		"Uniswap V2 Pair: ROCKS - WETH",
 		"Uniswap V2",
@@ -3160,6 +4114,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5f91c89ea4d0052dc7fa79ed499215ef767dbfbf",
+		"Uniswap V2 Pair: WETH - PLEB",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5f97e72e16d9a6ffec6c70589c61ee224494ccda",
+		"Uniswap V2 Pair: xAi - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
 		"Uniswap V2 Pair: TOKE - WETH",
 		"Uniswap V2",
@@ -3168,6 +4134,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5fa78fa8f5d6371ced774e0d306a58fd1b8b03e3",
 		"Uniswap V2 Pair: XSP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5fa9569b0ed6aa01e234468e6a15b77988b950df",
+		"Uniswap V2 Pair: BLZ - USDC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3232,8 +4204,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x60a8ea6005f7db580bc0c9341e7e6275d114e874",
+		"Uniswap V2 Pair: X - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x60b2cc2c6ecd3dd89b4fd76818ef83186e2f2931",
 		"Uniswap V2 Pair: ALPHA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x60e5d1afef2d253366e87d8298090b7d0ea5d827",
+		"Uniswap V2 Pair: WETH - Wolf",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3262,8 +4246,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6139240a5907e4ce74673257c320ea366c521aea",
+		"Uniswap V2 Pair: X7R - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6147805e1011417b93e5d693424a62a70d09d0e5",
 		"Uniswap V2 Pair: WETH - ankrETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6155c81db52a4c6628c559be0af10f6d87bb7d2e",
+		"Uniswap V2 Pair: WETH - Tuzki",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6178081202165c521c80b95d2c7ef54893c7232c",
+		"Uniswap V2 Pair: HOBBES - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3286,6 +4288,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x61ce73f7915d2a65de70cae38b051727a81306c8",
+		"Uniswap V2 Pair: KERMIT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x61d8c3d7ad3c3c00c9e4b8da089e19e57da90b91",
 		"Uniswap V2 Pair: EMN - WETH",
 		"Uniswap V2",
@@ -3304,8 +4312,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x62931a522e998fecc1df96656054bace35e3ec7c",
+		"Uniswap V2 Pair: GUISE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x629d22e6eeac46a11dbc96be93b90aee9309be4c",
 		"Uniswap V2 Pair: AURORA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x62e3c242b5e903071458ad90a160493d84911c77",
+		"Uniswap V2 Pair: LSS - USDT",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3318,6 +4338,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x62f3f294dc1b8848da8ac6aa6e1a83c74e145c51",
 		"Uniswap V2 Pair: RI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x62fb0d08335ef29fbdd6289a98dc6f89df973935",
+		"Uniswap V2 Pair: 0xEncrypt - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3346,6 +4372,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x63b83dd11c42df0dd76bd78e066918463b88f7b1",
+		"Uniswap V2 Pair: Hold - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x63d50dfb6b64ee7bec77d118131c93784a959a68",
 		"Uniswap V2 Pair: WETH - KUNU",
 		"Uniswap V2",
@@ -3354,6 +4386,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x63e7aa05b78144013cfa4b23c9b61599d0a29023",
 		"Uniswap V2 Pair: WETH - 2KEY",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x63f2a1b80af5b19da43ccccdf89b286155b92b7c",
+		"Uniswap V2 Pair: WSB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x647b364ee561b8a00245d724309b9fa5c72fa65c",
+		"Uniswap V2 Pair: PEPE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3394,6 +4438,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6512d52714dbbb0dea84d447d93db0d1262095f3",
+		"Uniswap V2 Pair: WETH - THUG",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x65224ed2dce0cfc960ffa39ae307b9eddeb256cc",
 		"Uniswap V2 Pair: IMPACTXP - WETH",
 		"Uniswap V2",
@@ -3418,6 +4468,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x659e36b0700d9addb259eba18fa88173656ef054",
+		"Uniswap V2 Pair: USDC - HILO",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x65a3209f9e962858b51edf3a54ad18af67e57962",
 		"Uniswap V2 Pair: GAS - WETH",
 		"Uniswap V2",
@@ -3432,6 +4488,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x65d0a154d2425ce2fd5fed3bdae94d9a9afe55ce",
 		"Uniswap V2 Pair: NDR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x663894588c6245fe6fac16713673471b2dad4993",
+		"Uniswap V2 Pair: WETH - XRP 2.0",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3468,6 +4530,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
 		"Uniswap V2 Pair: LKR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x670fe47c8c9891cfe40d9d0a8b2e960549e59346",
+		"Uniswap V2 Pair: WETH - SDOPE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x675205fb93c51c0eaeb8a95538b00fcae2fc0f84",
+		"Uniswap V2 Pair: WETH - YUAN",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3544,6 +4618,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6adb403912608ffffd8fe623a7db35f59e4b4f43",
+		"Uniswap V2 Pair: BLAST - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6aeebc2f5c979fd5c4361c2d288e55ac6b7e39bb",
 		"Uniswap V2 Pair: PAR - WETH",
 		"Uniswap V2",
@@ -3552,6 +4632,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x6afb3d434ac3d0c92e5397895f17f1f9af22a6c2",
 		"Uniswap V2 Pair: WORLD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6b0a8517829f63b02a9ae9deeb0fc630b6a506b4",
+		"Uniswap V2 Pair: POWER - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3604,8 +4690,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6cc5a415327733f493481e40a23de14413739660",
+		"Uniswap V2 Pair: WETH - JEFF",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6cd7301d8366382198e2ab7d3cc4c6a74f3b4fc8",
 		"Uniswap V2 Pair: CARD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6cea05f7cb348d48a0bdf86889040f6a5bae98dd",
+		"Uniswap V2 Pair: CRYPTO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6d50514e4d41c07c4f0dd33f9f9c05e1a4abdf02",
+		"Uniswap V2 Pair: DNS - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3640,6 +4744,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6dd0c7850704a87f96bc152dbeb41ad35ccdf56b",
+		"Uniswap V2 Pair: XDCE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6deb633e4441b8879aff48caa6e021e919ddbb0c",
 		"Uniswap V2 Pair: RWS - WETH",
 		"Uniswap V2",
@@ -3654,6 +4764,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x6e168d4fd7569ea1c56d985256cd2e93ee12490e",
 		"Uniswap V2 Pair: COMB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6e48dbea2d3b37e4d605fda71e85c52ebc40aa40",
+		"Uniswap V2 Pair: WETH - MSI",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3676,6 +4792,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6ecbfbee5e615051e865970da9361c18628b1aa9",
+		"Uniswap V2 Pair: STRAY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6f118ecebc31a5ffe49b87c47ea80f93a2af0a8a",
 		"Uniswap V2 Pair: XCAD - USDT",
 		"Uniswap V2",
@@ -3688,8 +4810,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6f36111198af4ea37ee02979feca11ee81611e83",
+		"Uniswap V2 Pair: DUNG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6f6e2080b10acd8e52c914fb5ac190ec00b3d805",
 		"Uniswap V2 Pair: BHIBA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6f762176d94b657802ee4aebbdfe719a9067c553",
+		"Uniswap V2 Pair: WETH - SERP",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3724,8 +4858,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x70235a346a1ec1d7a40181ff88a3a2e5260e1d04",
+		"Uniswap V2 Pair: ALPHA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x70258aa9830c2c84d855df1d61e12c256f6448b4",
 		"Uniswap V2 Pair: TRB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x70287106b99346a9058504cfbbe2f9be4f929636",
+		"Uniswap V2 Pair: NAVYSEAL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7054b0f980a7eb5b3a6b3446f3c947d80162775c",
+		"Uniswap V2 Pair: $MONG - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3766,8 +4918,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x71cb3c6c5d30af1eca48a8fe0818c987f269b7e1",
+		"Uniswap V2 Pair: WETH - ASAP",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x722885cab8be10b27f359fcb225808fe2af07b16",
 		"Uniswap V2 Pair: WETH - FNX",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7235c4aa48b753e48c3786ec60d3bddef5f4b27a",
+		"Uniswap V2 Pair: ESPR - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3778,8 +4942,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x726259dbeaf18606323b116df193d35f384a30fe",
+		"Uniswap V2 Pair: PEPEG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x72af4d1d175672d1f99506e68e6e7cff484be4de",
 		"Uniswap V2 Pair: ASH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x72d55cc749b91c1645af4810fc082784792857f6",
+		"Uniswap V2 Pair: Boost - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7322abe9958a291f27f907aac35a17e29bf22bdf",
+		"Uniswap V2 Pair: RSR - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3802,8 +4984,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x73b66a14599ec4741a855fc25da0e1664a3bd44a",
+		"Uniswap V2 Pair: KENNEL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x73e02eaab68a41ea63bdae9dbd4b7678827b2352",
 		"Uniswap V2 Pair: INV - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x73f7435bd2e1d3c3e464ced008181e942e4ee12a",
+		"Uniswap V2 Pair: Memes - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3874,6 +5068,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x75c51e30b684fee4241ce7d8d0784303367d1fe2",
+		"Uniswap V2 Pair: FKBLUR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x75e5852385fa856791d703e3f04da24f5bc13975",
 		"Uniswap V2 Pair: PAID - WETH",
 		"Uniswap V2",
@@ -3892,6 +5092,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x76911e11fddb742d75b83c9e1f611f48f19234e4",
+		"Uniswap V2 Pair: DYP - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x76d3142ac9891aa69bdb1a96eabb907561596ad3",
 		"Uniswap V2 Pair: DINU - WETH",
 		"Uniswap V2",
@@ -3906,6 +5112,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x773dd321873fe70553acc295b1b49a104d968cc8",
 		"Uniswap V2 Pair: SHIB - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7755692bf6cb4a4e67246fb8e11f9d36d0818234",
+		"Uniswap V2 Pair: SHIBDAO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -3958,6 +5170,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x78467084b9edc2672c28c5cd8f076dc6f2ec1a66",
+		"Uniswap V2 Pair: WETH - KARMA",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7894dae584dfa3a5d60a13bafc25ee0b43124e7e",
 		"Uniswap V2 Pair: PBR - WETH",
 		"Uniswap V2",
@@ -3982,8 +5200,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7945819d6cab17f94c4089c28767e164ed4acf3e",
+		"Uniswap V2 Pair: Simpson - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x797e1dc0738f2f047d7e0dd185e41a35f87c5618",
 		"Uniswap V2 Pair: WETH - ZCX",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7a310bd97b5b6b59470e4041769127735545058a",
+		"Uniswap V2 Pair: BIBLE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7a646ee13eb104853c651e1d90d143acc9e72cdb",
+		"Uniswap V2 Pair: ARES - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4036,8 +5272,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7b8ac38aacd8ebca19b3d423bcbbd4c5815bab49",
+		"Uniswap V2 Pair: PEAR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7ba9b94127d434182287de708643932ec036d365",
 		"Uniswap V2 Pair: eRSDL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7c2543938a27554f82be178a2ac02a72c8ad1925",
+		"Uniswap V2 Pair: NYAN - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4078,6 +5326,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7d2ce66f7e50caad5c85a5ae01bea92f20e76a82",
+		"Uniswap V2 Pair: CHECKS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7d3e6457ade26434f8046c405410488f1985065a",
 		"Uniswap V2 Pair: CHURCH - WETH",
 		"Uniswap V2",
@@ -4110,6 +5364,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x7df4a1d4a8d8390bef36f311252423cce04e5647",
 		"Uniswap V2 Pair: WETH - ASTRO",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7e3651eddcaaa8a50a2d11000c75cad27f3a5910",
+		"Uniswap V2 Pair: WETH - HaHa",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7e99598519cf8285c9211e73de2fb2efb5112ecf",
+		"Uniswap V2 Pair: MOOT - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4192,6 +5458,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x805f11a6f11eb70af4f622bb3bb349b670473ba9",
+		"Uniswap V2 Pair: Hama - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x80a0102a1e601c55fd3f136128bb2d222a879ff3",
 		"Uniswap V2 Pair: WETH - BDP",
 		"Uniswap V2",
@@ -4210,6 +5482,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x80ddbeeb05788980caa0b1b433b40d4443f4439e",
+		"Uniswap V2 Pair: WETH - LYM",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x811559d11dc36d263c34959b980a4e1bea7cbbe7",
+		"Uniswap V2 Pair: UNIBOT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x811a10657440928c9cda3580eb54f271ac4b9a19",
+		"Uniswap V2 Pair: LAELAPS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x811beed0119b4afce20d2583eb608c6f7af1954f",
 		"Uniswap V2 Pair: SHIB - WETH",
 		"Uniswap V2",
@@ -4218,6 +5508,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x811f8c60ee1805db7ece0fa3c7b064feba887053",
 		"Uniswap V2 Pair: PAPER - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8142cf76ba9486ba0a73cfcd176329d51bb6a2f9",
+		"Uniswap V2 Pair: DYOR - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4246,6 +5542,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x81a460ea6fd96a73d5672f1f4aa684697d4b44cc",
+		"Uniswap V2 Pair: SHIA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x81fbef4704776cc5bba0a5df3a90056d2c6900b3",
 		"Uniswap V2 Pair: WETH - renBTC",
 		"Uniswap V2",
@@ -4260,6 +5562,24 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x8224f6854d925eac313095069c54b31c1a09b336",
 		"Uniswap V2 Pair: FABRIC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x82311699a0a424c9a566e111ffcb47e696a23086",
+		"Uniswap V2 Pair: PHUB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8249ca64baac07f75b042d03d77449534b2321a0",
+		"Uniswap V2 Pair: SHIB2.0 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8296d84e911e0c1f827e1e7d4b50c2568e807b36",
+		"Uniswap V2 Pair: BIAO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4308,6 +5628,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x83a40563a19c6f19dfb93e5c496280129d97e423",
 		"Uniswap V2 Pair: RAK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x83b33b4db2776f119b2ddd902419254775c8db15",
+		"Uniswap V2 Pair: METAL - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4372,8 +5698,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x85814af9bfe5f62faad1e2cd8f173107e893f3eb",
+		"Uniswap V2 Pair: ae13 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
 		"Uniswap V2 Pair: ATD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x859f7092f56c43bb48bb46de7119d9c799716cdf",
+		"Uniswap V2 Pair: XCN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x85c920a41dd7de0d5bc0f3d6c03241bac9aef0f1",
+		"Uniswap V2 Pair: yama - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4390,6 +5734,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8616b44b734817a2c954016a57cf2c4d72d6f838",
+		"Uniswap V2 Pair: PEPE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8672aa02f8a5b6eb6bb0915ce6c65f771d705127",
 		"Uniswap V2 Pair: USDC - OCT",
 		"Uniswap V2",
@@ -4398,6 +5748,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x86fef14c27c78deaeb4349fd959caa11fc5b5d75",
 		"Uniswap V2 Pair: WETH - RARI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x87079d8e828782da98878d4bcfabb418424a7511",
+		"Uniswap V2 Pair: LOYAL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8718be5da33d2a321649a174d1f27fe6fd0b6186",
+		"Uniswap V2 Pair: nd4 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4422,6 +5784,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x874dcf6a3f2dcf2d07e88718935184999c50709d",
 		"Uniswap V2 Pair: KEK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x877193009a881359e80df3ded7c6e055be9cc144",
+		"Uniswap V2 Pair: WETH - APED",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4486,6 +5854,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x88cb6a3b7de4d58a8b4f0f9aacbb9d6baaa03bb0",
+		"Uniswap V2 Pair: MONA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x88d97d199b9ed37c29d846d00d443de980832a22",
 		"Uniswap V2 Pair: UMA - WETH",
 		"Uniswap V2",
@@ -4498,8 +5872,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x89020a8b50228210b91b11b7f8ff976dcad76e81",
+		"Uniswap V2 Pair: A Birds Nest - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x891d92646f7f8074195b5a25c8a8eff0fc45c4e4",
+		"Uniswap V2 Pair: FLAPPY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8927616110cf23c4e87dc98614eb9fbaae95216c",
 		"Uniswap V2 Pair: MOON - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x893e963fc72609c585f09e8cb791ce52c254d7e8",
+		"Uniswap V2 Pair: MEVFree - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4540,14 +5932,38 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x89a13dbc89d05c4fefdb032e2a34f232ae637cfd",
+		"Uniswap V2 Pair: BRIDGE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x89b1251a978e88218affdf0147ffe376291f1447",
 		"Uniswap V2 Pair: SPICE - USDC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8a633d6744d674c7c4f70020b6dacdd0bae48a32",
+		"Uniswap V2 Pair: DC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8ab0ff3106bf37b2db685aafd458baee2128d648",
+		"Uniswap V2 Pair: RG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8ae720a71622e824f576b4a8c03031066548a3b1",
 		"Uniswap V2 Pair: RAI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8aeb846614f63342fdf2db8865c930b5257f21f0",
+		"Uniswap V2 Pair: :ZKT: - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4666,14 +6082,50 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8dbee21e8586ee356130074aaa789c33159921ca",
+		"Uniswap V2 Pair: WETH - UNIBOT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8dc4b56ef4a2a1272f7e652bbdd3b6c3a84667c4",
+		"Uniswap V2 Pair: NeRF - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8dcba0b75c1038c4babbdc0ff3bd9a8f6979dd13",
 		"Uniswap V2 Pair: WETH - DEFI5",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8de7a9540e0edb617d78ca5a7c6cc18295fd8bb9",
+		"Uniswap V2 Pair: OPTIMUS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8e83de18b38ddc22166fb5454003a573a53be4ae",
+		"Uniswap V2 Pair: X - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8ef79d6c328c25da633559c20c75f638a4863462",
 		"Uniswap V2 Pair: QOM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8f1aa1648725d136b74048557ed54cf7a5940bdb",
+		"Uniswap V2 Pair: SG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8f1b19622a888c53c8ee4f7d7b4dc8f574ff9068",
+		"Uniswap V2 Pair: JESUS - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4728,6 +6180,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x91204649a5c9ab2cadfc2089fd22ed0fbfe170ed",
 		"Uniswap V2 Pair: BXX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x914e578f8bef2607d9c16fd4954c2c10e58dc5ad",
+		"Uniswap V2 Pair: SHIB0.5 - SHIB",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x91a0bac9575073b35adaa7c9b09921d71304b5c5",
+		"Uniswap V2 Pair: SMUDGE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4840,6 +6304,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9426a0e93344c3e787a19022b2dac08e9786b8a6",
+		"Uniswap V2 Pair: PC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x94293bf0193f9acf3762b7440126f379eb70cbfd",
+		"Uniswap V2 Pair: WETH - DUCKER",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9468e2c401e13522e684e60005e388f7c395de92",
+		"Uniswap V2 Pair: WETH - NOVA",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9479b62fd1cb36f8fed1eebb1bb373d238d08216",
 		"Uniswap V2 Pair: PPBLZ - WETH",
 		"Uniswap V2",
@@ -4854,6 +6336,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
 		"Uniswap V2 Pair: FEI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x950a24b86aca5c625fc1d88d2c78eadf8ef769dc",
+		"Uniswap V2 Pair: NEON - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x950bf51bb0d3753d6858749d9a02ace560446f99",
+		"Uniswap V2 Pair: LUNCH - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4918,6 +6412,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x96aa22baedc5a605357e0b9ae20ab6b10a472e03",
+		"Uniswap V2 Pair: VOLT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x96b1071dec3158bd1c0bfc8aecf5ee969f9ca3db",
 		"Uniswap V2 Pair: ELX - WETH",
 		"Uniswap V2",
@@ -4948,8 +6448,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x977c5fcf7a552d38adcde4f41025956855497c6d",
+		"Uniswap V2 Pair: WETH - шайлушай",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x979a6e410760b83bdc6dcddd0e904998ea575197",
 		"Uniswap V2 Pair: USHIBA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x97be09f2523b39b835da9ea3857cfa1d3c660cbb",
+		"Uniswap V2 Pair: vUSD - VOW",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4974,6 +6486,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x97e58528d0c7bf0d0089f52be1dec3565d84c46a",
 		"Uniswap V2 Pair: CIRUS - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x97feadcf4dd8d58f35be886e3d62be3bc2b1e7c1",
+		"Uniswap V2 Pair: BABYSHIB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9816f26f43c4c02df0daae1a0ba6a4dcd30b8ab7",
+		"Uniswap V2 Pair: M2 - wPE",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5020,6 +6544,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x991069b2af1b59faf30675ca9bf6d458004f53aa",
+		"Uniswap V2 Pair: PEPEDOGE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
 		"Uniswap V2 Pair: FEI - TRIBE",
 		"Uniswap V2",
@@ -5038,14 +6568,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x99a65698566e757610d5aa2372f6a0c7df92ae9f",
+		"Uniswap V2 Pair: SHEPE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x99b1db3318aa3040f336fb65c55400e164ddcd7f",
 		"Uniswap V2 Pair: OM - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x99b975590364dfdea0ed8550d0d862c78e07c43d",
+		"Uniswap V2 Pair: YUNA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x99d915da0f77c92dba4ef1b9e88dc8f590bb509a",
 		"Uniswap V2 Pair: SAFE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x99da141e37fe579a1205b787d52b67c99f49dc9c",
+		"Uniswap V2 Pair: PIBA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5062,8 +6610,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9a4df45a496c7f03297584ff2d060a0d38b1d838",
+		"Uniswap V2 Pair: SEC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9a632cd9cb44f9383bf6f3117056c2455b30a6e0",
 		"Uniswap V2 Pair: DENT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9aa30dc05bbb1a632a1ade5a3ef04eb42ed086a0",
+		"Uniswap V2 Pair: PISS - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5082,6 +6642,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x9af0f334f9f451ce9e650278e56fec212f35cec1",
 		"Uniswap V2 Pair: KOO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9b20e07394cd1fd767a302b502bb49d4da76bcab",
+		"Uniswap V2 Pair: PLANET - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5110,8 +6676,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9b8d2834ba1b3c31688e084ce9792baa0ca2e2f7",
+		"Uniswap V2 Pair: WETH - PERL",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9bd8844a562978567ae10b5b05a9b68fe908de41",
 		"Uniswap V2 Pair: YUNO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9bf92f4e176c2aa3c439375ae49522a4367651c4",
+		"Uniswap V2 Pair: WETH - BPD",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5206,6 +6784,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9ce78c17ac2da9fc9e28c6f65644199f876dcd41",
+		"Uniswap V2 Pair: SHROOMS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9ceb11093a26e4e6fb4ef1e6f50599a37d02f515",
+		"Uniswap V2 Pair: TRENDAI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9d07dcc7775f190ba6cb5766c19a65ccc5f2e9c8",
+		"Uniswap V2 Pair: WETH - SNS",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9d4b552c992ee3b863f3b51e95e46ecf38c21429",
 		"Uniswap V2 Pair: WETH - UWL",
 		"Uniswap V2",
@@ -5254,6 +6850,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9e40edeb1981d0e63493ce2323cf382bef8ee8d4",
+		"Uniswap V2 Pair: CHOMP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9e53fad7cb9343333809a049c322ebc1f72ef544",
 		"Uniswap V2 Pair: WETH - Inu",
 		"Uniswap V2",
@@ -5266,8 +6868,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9eb51eb22813ee077e7ef4739a68d8e0b8e67cc6",
+		"Uniswap V2 Pair: BAZED - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9ec5149472db6acffb9023a47d37b4ecbcf68a4b",
 		"Uniswap V2 Pair: ELONONE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9ec9367b8c4dd45ec8e7b800b1f719251053ad60",
+		"Uniswap V2 Pair: 0x0 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5290,6 +6904,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9f624b25991b99d7b14d6740a9d581dd77980808",
+		"Uniswap V2 Pair: ARPA - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9f6facb42177f5af680f9f17cdf750bc7cf55973",
+		"Uniswap V2 Pair: TOAD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9f703e1819707d55d79a9bbf0bdaaebbec579c13",
 		"Uniswap V2 Pair: WETH - UNDB",
 		"Uniswap V2",
@@ -5298,6 +6924,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x9f9373b2b5fe5f6b32f171191946b0be30e0bd30",
 		"Uniswap V2 Pair: VPAD - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9faf7ad8711f6b87cfcf39c235b0a03ef4bdd7c2",
+		"Uniswap V2 Pair: WASSIE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5374,6 +7006,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa19bbaa46d3301e948861fb76483879dc71524dc",
+		"Uniswap V2 Pair: WETH - POW",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa1af3bb298673f46cf1299efc7e73e7b2e2d20b8",
 		"Uniswap V2 Pair: WETH - TSUKA",
 		"Uniswap V2",
@@ -5394,6 +7032,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xa22a11d16187c2833b6067c1a666e6fa9317836f",
 		"Uniswap V2 Pair: CHONK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa2376a5304cfcd238f52db5677cba3e0559f7f09",
+		"Uniswap V2 Pair: Wally - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5440,6 +7084,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa392a2746a790217198d5cf0ff64f6f6b205fa63",
+		"Uniswap V2 Pair: WETH - echoes",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa3b79b78678c15eec77389b380988b0229da1876",
 		"Uniswap V2 Pair: WHITE - WETH",
 		"Uniswap V2",
@@ -5454,6 +7104,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5",
 		"Uniswap V2 Pair: MASK - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
+		"Uniswap V2 Pair: PEPE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5482,6 +7138,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa48454b9e06ccb8f92c4b4ffe358d0c2310bf9b6",
+		"Uniswap V2 Pair: NIOCTIB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa4f35395910d7a4ff110669ced4b70227a166877",
 		"Uniswap V2 Pair: MRCH - WETH",
 		"Uniswap V2",
@@ -5494,8 +7156,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa56b474ca8147bfd243e07801485debf72e98239",
+		"Uniswap V2 Pair: X - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa58967aa9d385e2a9004209ddb5d30d65fb2572c",
+		"Uniswap V2 Pair: PRIME - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa5904961f61bae7c4dd8478077556c91bf291cfd",
 		"Uniswap V2 Pair: YAMv2 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa5ae094bc5fe1fe8b74656cd0f6afb3536bb186b",
+		"Uniswap V2 Pair: BOLT - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5524,8 +7204,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa62d78770770d7d70196b0ec7b6978d6e24da3a3",
+		"Uniswap V2 Pair: WETH - HOUSE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa660973303d2da6107d91af5e91a8fd16bc33c39",
+		"Uniswap V2 Pair: PP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa66cdad5facbcbf74d9b60dcc8034c2a485e63ff",
 		"Uniswap V2 Pair: WETH - RVF",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa67ceebf094b32ff3313f9a63150c74792a1acdc",
+		"Uniswap V2 Pair: MONKEYS - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5562,6 +7260,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xa71d014ffc0d2aff34d1fe1672dcdef6ec00af66",
 		"Uniswap V2 Pair: MTLX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4",
+		"Uniswap V2 Pair: ATOR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa75b1f296cdc470a0b8155f3e656e8430dc87510",
+		"Uniswap V2 Pair: Babydoge2.0 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5608,14 +7318,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa8a837e2bf0c37fef5c495951a0dfc33aaead57a",
+		"Uniswap V2 Pair: LINQ - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa8bef252afac1d6263f22c1e4f33f3777ed30bd6",
 		"Uniswap V2 Pair: ENOL - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa8dfebeb90f8e148b6a3c611758ea63703ab02c1",
+		"Uniswap V2 Pair: POM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa8eeef45b04c58a7bfe1c5819afc21b20c06db9c",
 		"Uniswap V2 Pair: ORION - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d",
+		"Uniswap V2 Pair: ACR - USDC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5658,6 +7386,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xaa298a459ca6dc7c4b11b4ac09d82e6270a3b234",
 		"Uniswap V2 Pair: CHIRO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xaa665ad2c5f99c9861c1030ef85e48ba07059c2a",
+		"Uniswap V2 Pair: EVERMOON - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5740,6 +7474,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xabd50310f2a409257576ff4337ec0ab664ae8cdc",
+		"Uniswap V2 Pair: MUMU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xac084df0969bd1e9bb8a2079cf317a30476210f6",
+		"Uniswap V2 Pair: WETH - TRUMP ",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xac0fe6c0b239eedcc12bc3e997e5492b04cc61c3",
 		"Uniswap V2 Pair: xETH - WETH",
 		"Uniswap V2",
@@ -5794,6 +7540,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xad1b370187aefff639442d7596fcf9a0c0661b17",
+		"Uniswap V2 Pair: WETH - COPE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xad3e3cc56cffa42235b326090176891292dfca20",
 		"Uniswap V2 Pair: WETH - YFMS",
 		"Uniswap V2",
@@ -5808,6 +7560,24 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xadb0c5509a10bdc800dca56bdb037602577be89f",
 		"Uniswap V2 Pair: MUSUBI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xaddcfb76e511530cc112166d6116d405fb743512",
+		"Uniswap V2 Pair: WETH - SDAX",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xadf75a4268073b2464baf31723f9e23228bb6ef1",
+		"Uniswap V2 Pair: WETH - 💎🙌",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xae2cf46ad3e81605dac3665e2a847ea2799e29e6",
+		"Uniswap V2 Pair: TOM - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5842,6 +7612,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xaeca06cd3948e8c28a50f0520202c59f639f4e77",
+		"Uniswap V2 Pair: WETH - QR",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xaed171a3369e54aff2601dc92a8d15bbc7e9fa32",
 		"Uniswap V2 Pair: LIFE - WETH",
 		"Uniswap V2",
@@ -5850,6 +7626,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xaef16913b6c50ebcf627a394921f306985fc8604",
 		"Uniswap V2 Pair: STORJ - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xaf06e7c7170eb22d52eb09b5ec5d1373c34164e9",
+		"Uniswap V2 Pair: POOH - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5866,6 +7648,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xaf605008f17911e77278f2f6e7db808a18304c8d",
+		"Uniswap V2 Pair: WETH - oBTC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xaf8c5a2cb542d11735f6e7a94d869cc99e4736e9",
+		"Uniswap V2 Pair: WETH - BLUI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xaf95d3a7a25f831dc2b9a6704554435957b51ec2",
 		"Uniswap V2 Pair: WETH - VAI",
 		"Uniswap V2",
@@ -5874,6 +7668,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xaf996125e98b5804c00ffdb4f7ff386307c99a00",
 		"Uniswap V2 Pair: XFI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xafc2e35116c4b44bd523757d147f34c9ff5031d4",
+		"Uniswap V2 Pair: SOAPS - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5892,6 +7692,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xb062fcbb48154fd385f104b38a2f9f3ffd82ffe0",
 		"Uniswap V2 Pair: DNT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb079d6be3faf5771e354586dbc47d0a3d37c34fb",
+		"Uniswap V2 Pair: DFI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5956,6 +7762,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb1c33de7a914f4d9ba293a055822cbc6e662a698",
+		"Uniswap V2 Pair: FLASH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb20bd5d04be54f870d5c0d3ca85d82b34b836405",
 		"Uniswap V2 Pair: DAI - USDT",
 		"Uniswap V2",
@@ -5968,6 +7780,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb21b9e4e4502e3bd3d1625c3a77fd229ae59ad42",
+		"Uniswap V2 Pair: SCOOBY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb27c012b36e79decb305fd1e512ba90eb035a6fa",
 		"Uniswap V2 Pair: WAIF - WETH",
 		"Uniswap V2",
@@ -5976,6 +7794,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xb27de0ba2abfbfdf15667a939f041b52118af5ba",
 		"Uniswap V2 Pair: UBT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb2843c7133289541086fa41673850dbf61cac6db",
+		"Uniswap V2 Pair: WETH - CAPY",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6046,6 +7870,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb49159afeb54f8922b0a82a5d58bd4728b8c20bb",
+		"Uniswap V2 Pair: XRP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb4d0d9df2738abe81b87b66c80851292492d1404",
 		"Uniswap V2 Pair: TUSD - WETH",
 		"Uniswap V2",
@@ -6066,6 +7896,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xb52c5f5b96a428ff13cc5e60247b73cb4e13b2d9",
 		"Uniswap V2 Pair: FNK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb54ce26f2e30f64c5b684b141311ce138ab5e00e",
+		"Uniswap V2 Pair: FINE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6112,8 +7948,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb7379da1e9aa5943fbdb7b8163e7f8bf36a3f8bc",
+		"Uniswap V2 Pair: Viral - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb7426bfd2abf64428fa82a71b0d44b056ffcc286",
+		"Uniswap V2 Pair: WETH - TROLL",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
 		"Uniswap V2 Pair: wOMI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb77c2290c5e5acd8ca4778876b3caae593741bab",
+		"Uniswap V2 Pair: REDDIT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb780f89d37864492a81c7b0053879486d259f16c",
+		"Uniswap V2 Pair: TWEETY - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6132,6 +7992,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xb78985dedea2c4ff759fc53d5ce4d6d868f4d953",
 		"Uniswap V2 Pair: FUD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb7ee81a278a7580f74866c99efc92e1ca88082c3",
+		"Uniswap V2 Pair: PLA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6166,6 +8032,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb88267cf74f0f0d1a1e1522eac26402b06a8981a",
+		"Uniswap V2 Pair: WETH - D三G三N",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb89ed43f45d1f870be815c7b53368a1cc5184474",
 		"Uniswap V2 Pair: MRPH - WETH",
 		"Uniswap V2",
@@ -6190,6 +8062,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb92fe026bd8f5539079c06f4e44f88515e7304c9",
+		"Uniswap V2 Pair: LSD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb93cc05334093c6b3b8bfd29933bb8d5c031cabc",
 		"Uniswap V2 Pair: YAM - yyDAI+yUSDC+yUSDT+yTUSD",
 		"Uniswap V2",
@@ -6198,6 +8076,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xb94f0dfd1b54af0fc8dd0997a8ddde59bad47dfe",
 		"Uniswap V2 Pair: PIE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb961e90b10608cff90a76557a2e02e007fe2b062",
+		"Uniswap V2 Pair: MIC - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6250,8 +8134,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xba88774e109185cd09db1518b17fab72e9122103",
+		"Uniswap V2 Pair: WETH - FLONA",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xbaa48ef52fe0cf3a2682c1247b18d4274a988132",
 		"Uniswap V2 Pair: HORD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbab761277f52fff80e35a961b4c63e95c733ddbf",
+		"Uniswap V2 Pair: FUND - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6328,6 +8224,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xbc0eb0b7927be77b70c62c8589692f6cb919d8d0",
+		"Uniswap V2 Pair: ZEUS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xbc159c4ff09a134ee7d47df92c1be4f3ca136f53",
 		"Uniswap V2 Pair: VRX - WETH",
 		"Uniswap V2",
@@ -6342,6 +8244,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xbc562bf2c1445707e5f8df66dbf8eee60cc49a59",
 		"Uniswap V2 Pair: WETH - AIR",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbc63c8b32acfff818425608de7c70d1dc736d9f4",
+		"Uniswap V2 Pair: ETHEREUM - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6376,8 +8284,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xbdac5b5aa51b99c6c11ce05df4a1c78cecc2375b",
+		"Uniswap V2 Pair: INEDIBLE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4",
 		"Uniswap V2 Pair: WETH - COOK",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbe0249ec72d0468be161e068a1552ba739dc074a",
+		"Uniswap V2 Pair: MONG2.0 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6412,6 +8332,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xbe8bc29765e11894f803906ee1055a344fdf2511",
+		"Uniswap V2 Pair: BOB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xbe9ba93515e87c7bd3a0cebb9f61aaabe7a77dd3",
 		"Uniswap V2 Pair: WETH - PYLON",
 		"Uniswap V2",
@@ -6432,6 +8358,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xbf452277b8af4084fb8a0472ec808f2ded51f1c1",
 		"Uniswap V2 Pair: SLP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbf49c7cf663076afc6e2757b88db01e318217312",
+		"Uniswap V2 Pair: PICKLE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6538,14 +8470,44 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc14ef0f7d91799b2863dc8fd080c35d729e9c0e5",
+		"Uniswap V2 Pair: WETH - Spider",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc15e41eb55af2c0f7c34fb150a688f672d4b1be2",
+		"Uniswap V2 Pair: BAG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc169f0eb31403c0bcc43dc9feca648a79fafc0f4",
 		"Uniswap V2 Pair: CAP - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc174f30ce4ebc938d567b5273c4301e7324191bb",
+		"Uniswap V2 Pair: WETH - LARRY",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc17b5116ab39c8f747f045e107ea47a917532cdc",
 		"Uniswap V2 Pair: NIIFI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc19a07ac4ea52420039e2d6762299462d922a65c",
+		"Uniswap V2 Pair: BB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc1cb7f41cc17077eb05e22801ec636709f4fc0ca",
+		"Uniswap V2 Pair: IYKYK - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6580,8 +8542,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc2c701110de2b9503e98619d9c9e3017877b0f72",
+		"Uniswap V2 Pair: ZOOMER - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc2d20328eb8bb0bf0984d9149eab611920be9ba1",
 		"Uniswap V2 Pair: VNLA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d",
+		"Uniswap V2 Pair: Mog - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6610,8 +8584,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc364ecf5a501983fe1deaa490d9d056397a0fbb0",
+		"Uniswap V2 Pair: WETH - MONKEYS",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc366336dc7cf8131d4e538bc0205e603014743f0",
 		"Uniswap V2 Pair: AGFI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc37ecc839ba67a46847dc367252b057f8feae680",
+		"Uniswap V2 Pair: WETH - GATSBY",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6658,6 +8644,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc44b090a5ec6dcf7b0a3bfd3d34d3a12732b27df",
+		"Uniswap V2 Pair: SHIDO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537",
 		"Uniswap V2 Pair: SDT - WETH",
 		"Uniswap V2",
@@ -6666,6 +8658,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xc491405d542a393d8d202a72f0fb076447e61891",
 		"Uniswap V2 Pair: WETH - WHACKD",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc4a8c243d8cf7891d6282bb293e7a0aa4ef1ae51",
+		"Uniswap V2 Pair: RAIN - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6700,8 +8698,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc5117190248f0405d36d12be11608aa5fda1dde3",
+		"Uniswap V2 Pair: INU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc53781e3df9aa6b76a917f873532c1de5e0c52db",
+		"Uniswap V2 Pair: WETH - PAN",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc54ba7aabe7164ca2aa092900060fe2ba6eccd8b",
+		"Uniswap V2 Pair: EGGS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc5a788f63e5d9cf2c324621eed51a98f85ae373b",
 		"Uniswap V2 Pair: DZAR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc5bbe611a5a0ee224abf7ad959c11aad3b875957",
+		"Uniswap V2 Pair: WETH - HAKA",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6718,6 +8740,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc5ea9262becc6e626875b6afa40e2815c4d8253c",
+		"Uniswap V2 Pair: WETH - NiHao",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc5ed7350e0fb3f780c756ba7d5d8539dc242a414",
 		"Uniswap V2 Pair: WETH - DUCK",
 		"Uniswap V2",
@@ -6730,8 +8758,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc63a4dd7c0a3f58cc619cf52163c88789c06f1b2",
+		"Uniswap V2 Pair: FANTA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc6789a3a12d2b3f87a2bc2497565adad1d4d9e8e",
 		"Uniswap V2 Pair: BMJ - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc6a45ecdc8bcef94c476647be1303fd83d438cd0",
+		"Uniswap V2 Pair: SNAIL - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6808,6 +8848,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc8c30029a358f4151d613e40a753b8f18e2c3481",
+		"Uniswap V2 Pair: BREPE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
 		"Uniswap V2 Pair: CGG - WETH",
 		"Uniswap V2",
@@ -6822,6 +8868,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xc92b1c381450c5972ee3f4a801e651257aed449a",
 		"Uniswap V2 Pair: DEXM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc97bd89d859b73d02c596fe8249a615ccd18f4e1",
+		"Uniswap V2 Pair: OFI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc98b3b8c7cc0d7d925d1a407347b845d9f001391",
+		"Uniswap V2 Pair: WETH - ORBS",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6868,14 +8926,38 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcaacac4d4115378f886f8c2b472ff190feb26b48",
+		"Uniswap V2 Pair: TOSHI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcab335e1964363e48a790da303b74ec02d3f8fb2",
 		"Uniswap V2 Pair: DFYN - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcab5913aee2d2e761d865673bb0c2c4b98ceb676",
+		"Uniswap V2 Pair: DOKE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcabebc0c5a9d6522640d81c22975ca31b8f8ff48",
 		"Uniswap V2 Pair: KTLYO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcae69e00f4f48359d94cd9cb1ae1b66c09628204",
+		"Uniswap V2 Pair: WETH - GrumpyCat",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcaf2eb491d3bcd702e7ed33e9be863f7c1e72582",
+		"Uniswap V2 Pair: PEPE2 - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6898,6 +8980,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcb4e7a3db6526f5738b9076098b190b87e81a976",
+		"Uniswap V2 Pair: BERC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcb4f983e705caeb7217c5c3785001cb138115f0b",
 		"Uniswap V2 Pair: YFV - WETH",
 		"Uniswap V2",
@@ -6912,6 +9000,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xcbde90a6abfb904d61a3c5f46a35b736c3a3d68f",
 		"Uniswap V2 Pair: KWIK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcbe856765eeec3fdc505ddebf9dc612da995e593",
+		"Uniswap V2 Pair: LADYS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcbf35a6130ee786bd0fe955f0f36a22f59bfbd4c",
+		"Uniswap V2 Pair: REVIVE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6936,6 +9036,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xcc82ee8654e3707f74ec74ed0f819a192f856e1e",
 		"Uniswap V2 Pair: WETH - ALIEN",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xccab68f48531215b0707e8d908c43e7de73dbdbc",
+		"Uniswap V2 Pair: USDC - UNIX",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6976,6 +9082,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcd665315a324b27870f008b7918bff98bd6b2361",
+		"Uniswap V2 Pair: PPIZZA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcd6bcca48069f8588780dfa274960f15685aee0e",
 		"Uniswap V2 Pair: ⚗️ - WETH",
 		"Uniswap V2",
@@ -7006,6 +9118,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcefdea62bc57ab666913cb573f87404246262295",
+		"Uniswap V2 Pair: NEZUKO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcf099e75c80a2a01cfd6d6448e4cdf59b7f5d7ec",
+		"Uniswap V2 Pair: WEN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcf3f7d858444f78ed16a339fed8c3fd9819ec235",
+		"Uniswap V2 Pair: DMTR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcf4236db746dbc1855a4d095aaf58da9b030491e",
 		"Uniswap V2 Pair: BLZ - WETH",
 		"Uniswap V2",
@@ -7020,6 +9150,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xcfb8cf118b4f0abb2e8ce6dbeb90d6bc0a62693d",
 		"Uniswap V2 Pair: TEND - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcfdc42c59a42522c019bd6a43d39571ae7415e5f",
+		"Uniswap V2 Pair: BEEP - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7048,6 +9184,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd04aa6c33e03160381f306fe5386ffd3291e7ca4",
+		"Uniswap V2 Pair: ESCO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd058416f4c83a4f187631c454f872b076c0a7642",
 		"Uniswap V2 Pair: ZOOT - WETH",
 		"Uniswap V2",
@@ -7056,6 +9198,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd07d843cd1d769cdf918be8a3c2c0b708889f7fc",
 		"Uniswap V2 Pair: WETH - OPCT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd07ecac58543b2364da75ed8499534bd8971a4d9",
+		"Uniswap V2 Pair: WETH - CROC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7080,6 +9228,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd0fecb59019d8d1fdd6a4d7be9e89aa54cfb962a",
 		"Uniswap V2 Pair: WETH - FRMX",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd101821c56b4405af4a376cbe81fa0dc90207dc2",
+		"Uniswap V2 Pair: FOUR - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7162,8 +9316,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd366ed22f5b2262a2da4c32d8a4607c93690134a",
+		"Uniswap V2 Pair: CHR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd3772a963790fede65646cfdae08734a17cd0f47",
 		"Uniswap V2 Pair: ADX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd3a9a2ebd567030bb1f1c3fb21a4a203d51c246b",
+		"Uniswap V2 Pair: WETH - DZOO",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7198,6 +9364,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd49fb52ec8b891109d2062f9010e0e77bc0974f7",
+		"Uniswap V2 Pair: WETH - PEPE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd4a22695ff58a19fd543ae119dca5335417d6389",
+		"Uniswap V2 Pair: MASYA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd4b230be312fc94f5ec3dd94652bd0e51fb5f750",
 		"Uniswap V2 Pair: WETH - KAKUAN",
 		"Uniswap V2",
@@ -7216,6 +9394,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd4dfff4021942fa85d4da93f204ed9b25bf14dfe",
+		"Uniswap V2 Pair: XLM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd50c5b8f04587d67298915e099e170af3cd6909a",
+		"Uniswap V2 Pair: WETH - BTC20",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd51b4c6bef349571aac48793d830da975d25f920",
 		"Uniswap V2 Pair: DIAMND - WETH",
 		"Uniswap V2",
@@ -7224,6 +9414,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd561235046bb35e4ca93995ae39db2045af62b9a",
 		"Uniswap V2 Pair: WETH - COGE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd563ace91e2748338fed2e170f588c0aed6d087b",
+		"Uniswap V2 Pair: greg - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7270,8 +9466,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd6a347c998109ac87ccb323f78960c91bbe911cd",
+		"Uniswap V2 Pair: BTC2.0 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd6c2af244dd56db3c9d276808eda8b5fb040007b",
+		"Uniswap V2 Pair: WETH - WAGMI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9",
 		"Uniswap V2 Pair: FLX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd733ad471aa83eb53a83aa415b380728edba330b",
+		"Uniswap V2 Pair: ONIGI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd7452bbc6d5acdbd53d544ab4bf84a8dc5aa1b8e",
+		"Uniswap V2 Pair: TATE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7284,6 +9504,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd75d1b30967d94b105f82f572ae7591cc3c48beb",
 		"Uniswap V2 Pair: CLS - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd761c3086323e2e88e73c642abec940c5cd6c5f4",
+		"Uniswap V2 Pair: PEPE3.0 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd76d3bc1e2d5954de690cd9987cc073458ec0e0d",
+		"Uniswap V2 Pair: PENGU - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7312,6 +9544,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd8963d93b96f4af6a300e10afe4b103ec2773063",
+		"Uniswap V2 Pair: DOG1 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd8a07e9fe071106bf29536b93e8c9a26527af787",
 		"Uniswap V2 Pair: BLANK - WETH",
 		"Uniswap V2",
@@ -7332,6 +9570,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd9159376499936868a5b061a4633481131e70732",
 		"Uniswap V2 Pair: VALUE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd99034942c4a883ff3ed6cda6c91fe505a58eb2e",
+		"Uniswap V2 Pair: WETH - DOGE2.0",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7372,8 +9616,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xdad1bfa1a3bb330a2389f12fb094b3824585592f",
+		"Uniswap V2 Pair: GEKE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdadf443c086f9d3c556ebc57c398a852f6a02898",
 		"Uniswap V2 Pair: DOS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdb161bb5bea8917d41f858c0763dd27c0ebf7c2a",
+		"Uniswap V2 Pair: GOD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7402,8 +9658,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xdbb9f25705e66385efdd92e333d3bbb3fce13bc2",
+		"Uniswap V2 Pair: WETH - KEKE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7",
 		"Uniswap V2 Pair: WETH - LOOKS",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdc1d67bc953bf67f007243c7ded42d67410a6de5",
+		"Uniswap V2 Pair: KATA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7450,6 +9718,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xdc81015e80cabe34bb97388532ed8de78e4ff95b",
+		"Uniswap V2 Pair: BAM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdc96e914a3fc00557d9821d8a728841defa6c177",
+		"Uniswap V2 Pair: PING - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdc98556ce24f007a5ef6dc1ce96322d65832a819",
 		"Uniswap V2 Pair: PICKLE - WETH",
 		"Uniswap V2",
@@ -7458,6 +9738,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xdca79f1f78b866988081de8a06f92b5e5d316857",
 		"Uniswap V2 Pair: MCC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdcd34cf0bb038821cac55db957c00f9f89f01610",
+		"Uniswap V2 Pair: MARBLE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7474,6 +9760,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xdd5c8950cba7de3e63b1efbac0f67073a1c8a88e",
+		"Uniswap V2 Pair: HOSHI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdd5d1a256b25e1087fc3b098b443e96cfa73237d",
 		"Uniswap V2 Pair: GEAR - WETH",
 		"Uniswap V2",
@@ -7482,6 +9774,24 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xdd6614b5171c413dac9ae0985df0deeb6ff9573a",
 		"Uniswap V2 Pair: NEKO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdd97fce8441dabf221b330269750b18ba82b0cd6",
+		"Uniswap V2 Pair: LOVE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xddc17b3c8cca8ac990df77beecca02c7c3f85558",
+		"Uniswap V2 Pair: WETH - $SHIBP",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xddd23787a6b80a794d952f5fb036d0b31a8e6aff",
+		"Uniswap V2 Pair: pepecoin - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7522,8 +9832,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+		"Uniswap V2 Pair: HORD - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xde7ec7b5ed50bb011ebe4a87a9ec0e1e2be050af",
+		"Uniswap V2 Pair: HER - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xde93684627d4e34d6ef96adf5bcabf10bbd8dd81",
+		"Uniswap V2 Pair: ALICE - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdec87f2f3e7a936b08ebd7b2371ab12cc8b68340",
 		"Uniswap V2 Pair: WETH - FCL",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xded5dd6eae725021f99dd690a9b341b35b702811",
+		"Uniswap V2 Pair: PPC - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7548,6 +9882,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xdf44622fc41d706d6d3cfe1d22dcf80b170c2ab2",
 		"Uniswap V2 Pair: HONEYCOIN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdf4f3749bb4e96bf91a67c7e873d9c04198d924a",
+		"Uniswap V2 Pair: WAGMIGAMES - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7600,6 +9940,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe0076d311a4628516d157ad684dbd2ddada3dafe",
+		"Uniswap V2 Pair: ROKO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe05d099bfd7f4aa9f2e696f6c3ebe181479961a5",
+		"Uniswap V2 Pair: AIMBOT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe0b1433e0174b47e8879ee387f1069a0dbf94137",
+		"Uniswap V2 Pair: SWM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
 		"Uniswap V2 Pair: XIO - WETH",
 		"Uniswap V2",
@@ -7636,6 +9994,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe1de07566ceb19d2e45b60b491776ab74c9b8d7a",
+		"Uniswap V2 Pair: WETH - Shib2.0",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe1ebbf10ff289a646d55d717b0bb891ba285bd32",
+		"Uniswap V2 Pair: C2H6 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe20745b629df6456dc8840ff4bc6e275459b3edf",
 		"Uniswap V2 Pair: TAMA - WETH",
 		"Uniswap V2",
@@ -7666,6 +10036,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe2710f0f14daa5b8ad2c82919362a10703ad10e6",
+		"Uniswap V2 Pair: AXE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe275eb6154cb4a73f0ba573e43b2b06e9e78b7f0",
 		"Uniswap V2 Pair: WETH - FSW",
 		"Uniswap V2",
@@ -7684,8 +10060,38 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe2dbeb472caaf6f94d1eb53c8552ed837ad6bd60",
+		"Uniswap V2 Pair: SNM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe2f021411a15f677100a79f1bf6afd89d00c778b",
 		"Uniswap V2 Pair: SLINK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe342253d5a0c1ac9da0203b0256e33c5cfe084f0",
+		"Uniswap V2 Pair: WETH - jim",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe3550f8399c8622ab2c0b2e48856598321cb9b56",
+		"Uniswap V2 Pair: FLRBRG - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe3a89c96f6f0faf69bf4ca7dbed677ee6da97273",
+		"Uniswap V2 Pair: ODA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe3bfeac7573847e92ef2e1444f04a891bc331b37",
+		"Uniswap V2 Pair: TAIRYO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7738,8 +10144,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe46e6a3c5d4472a04794af7f7ab3862df35c0229",
+		"Uniswap V2 Pair: GYOKUTO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe471f93c2be15b64e9ec63bbf485446cb934e8c4",
+		"Uniswap V2 Pair: imgnAI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe495fdfabc7c51c0851e76543c0f552205414894",
 		"Uniswap V2 Pair: MDX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe4b8583ccb95b25737c016ac88e539d0605949e8",
+		"Uniswap V2 Pair: TRUMP - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7762,6 +10186,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe557da50d8be589414beea0d00653e23f40a76c2",
+		"Uniswap V2 Pair: EYE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe56c60b5f9f7b5fc70de0eb79c6ee7d00efa2625",
 		"Uniswap V2 Pair: WETH - ENJ",
 		"Uniswap V2",
@@ -7770,6 +10200,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xe571b939062474bfeb593a3f80fee9d2265b3b18",
 		"Uniswap V2 Pair: FLOKI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe59fd78557093a0beb569369ef8f47bc48a32c75",
+		"Uniswap V2 Pair: SpillWays - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe5a7ab09e68b2cd335e2bc39e9591b42d29c3115",
+		"Uniswap V2 Pair: WETH - INU",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7834,8 +10276,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe818c14f926a17918b5a32b850af1acc00e25521",
+		"Uniswap V2 Pair: KNDM - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe86204c4eddd2f70ee00ead6805f917671f56c52",
 		"Uniswap V2 Pair: WBTC - DIGG",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe8a70a8969bfe897e656ad3ac1fc4950bd751566",
+		"Uniswap V2 Pair: NONE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe8b85a4a7e5fbd5fc21784dfa05b5aa78ceb5d83",
+		"Uniswap V2 Pair: WETH - PC",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7854,6 +10314,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xe94272661fd46362e5dd247221e0fc018a298d09",
 		"Uniswap V2 Pair: STND - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe945683b3462d2603a18bdfbb19261c6a4f03ad1",
+		"Uniswap V2 Pair: BOBO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7912,8 +10378,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xea639dfb59d652ab056a2194ff3d9d7ad9744d07",
+		"Uniswap V2 Pair: RICK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xea7952fac7ff6e997d895c1566599b86b91444c0",
+		"Uniswap V2 Pair: DAI - UBI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xea8091470479b457792f2f56a4e58c7329bc1b1d",
 		"Uniswap V2 Pair: WETH - YFFC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xea9db754525ae50ef7bbfa1b41e59fce87142fac",
+		"Uniswap V2 Pair: GYOSHI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xeaabb2ee89221455302d9ffb5325689ff8f0c37b",
+		"Uniswap V2 Pair: IC - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7926,6 +10416,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xeb4770eea58fefab132663b852a8b7a35a843c71",
 		"Uniswap V2 Pair: EPAN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xeb56ff323885ad703bb44fd5805dbfeaec7e421b",
+		"Uniswap V2 Pair: WFAI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7950,6 +10446,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xebee0cf6ab1bf5b9e9be1a9348632c79089d3b6a",
 		"Uniswap V2 Pair: NEWINU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xebeede6eb77339020e78e69249852f938388110c",
+		"Uniswap V2 Pair: LINDA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7980,6 +10482,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xec745519247642fbf14689ac7254068dffba08e3",
 		"Uniswap V2 Pair: ELongD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xec7a1a2896d4b9d7014fa7be2aa936c8a76a8072",
+		"Uniswap V2 Pair: MATTER - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8020,6 +10528,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xed06839ed05219b87cbd39dd8f9495e02497bc10",
+		"Uniswap V2 Pair: WETH - COCO",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xed196f5f01e8c99ef4c6d77b83ccaf629032a8f2",
 		"Uniswap V2 Pair: Nsure - WETH",
 		"Uniswap V2",
@@ -8034,6 +10548,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xed643618dd5194f243a8f23c7bd786a37a6dcf8b",
 		"Uniswap V2 Pair: YFBETA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xed6c2f053af48cba6cbc0958124671376f01a903",
+		"Uniswap V2 Pair: ALD - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8064,6 +10584,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xedf1fa564a91a5664f172470c47450af17724757",
 		"Uniswap V2 Pair: OCC - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xee0226a033adadc027204e91b92ac4a619d669bd",
+		"Uniswap V2 Pair: WETH - MORTY",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xee02f9abaa13da2dbad6dd0ae2e23f584f3573b9",
+		"Uniswap V2 Pair: AllIn - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8110,6 +10642,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xeee0ccf611a453662cda435521ff394653b83c3b",
+		"Uniswap V2 Pair: SWIFY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xeefc2a37f38819d099b9b01aafe782381d15df76",
+		"Uniswap V2 Pair: REMIT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xef035f52e5a8974adbf4380e020cd4a0a349c517",
 		"Uniswap V2 Pair: KORE - WETH",
 		"Uniswap V2",
@@ -8118,6 +10662,48 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xef5a01f893a81506439572922cc7cb779e7cc91c",
 		"Uniswap V2 Pair: MILF - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xef5af046047e6553a9c052199f3b44cd4dbff4f0",
+		"Uniswap V2 Pair: LAMBO - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xef8cd6cb5c841a4f02986e8a8ab3cc545d1b8b6d",
+		"Uniswap V2 Pair: DEPAY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xef94dcd1bf753f43f362a2916a38cc09283a4a14",
+		"Uniswap V2 Pair: SU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xef9ef6e07602e1e0419a5788f1d85e0698eab077",
+		"Uniswap V2 Pair: DORKL - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xefa2e1e46b83d572d01521c4c64845b0227b6314",
+		"Uniswap V2 Pair: KAPPA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xefdf4dfc4e817197851266acf0082a80dab18b24",
+		"Uniswap V2 Pair: TET - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xefe908b937ed0caeaeb745ba146a9990ca52e2b6",
+		"Uniswap V2 Pair: GONER - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8136,6 +10722,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xf043c39a106db6b58c76995f30ba35fd211c3b76",
 		"Uniswap V2 Pair: APY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf0451a9db229704189590fdf453ede7293c87a93",
+		"Uniswap V2 Pair: oSHIB - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8160,6 +10752,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a",
 		"Uniswap V2 Pair: BEL - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf0d417fc9fb2f1b6efe51b39db7ed60117dcd2e6",
+		"Uniswap V2 Pair: WETH - SHANG",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8206,8 +10804,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf21d9d6ccfb332bee9b92c3a811d809674c5caf7",
+		"Uniswap V2 Pair: GENIE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf227e97616063a0ea4143744738f9def2aa06743",
 		"Uniswap V2 Pair: QRX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf22fdd2be7c6da9788e4941a6ffc78ca99d7b15c",
+		"Uniswap V2 Pair: KIBSHI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8232,6 +10842,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xf29450019834d7874b4e306275c4334326ac27f1",
 		"Uniswap V2 Pair: THE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf294d0b284c628ec25b0619ab67e14e70cb868eb",
+		"Uniswap V2 Pair: ERUTA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8278,6 +10894,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf34c66fbba3daa30429a36b7d606cde45d3d303c",
+		"Uniswap V2 Pair: WETH - WSBC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf37ed742819ec006b0802df5c2b0e9132f22c625",
 		"Uniswap V2 Pair: GEN - WETH",
 		"Uniswap V2",
@@ -8290,8 +10912,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf3867885c47f5b4363908e77fa734e39ace87edf",
+		"Uniswap V2 Pair: IS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf38a1e9ffb1577e7cd8b5511275c104a62aff724",
+		"Uniswap V2 Pair: PVP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf3a4b52bf0d1fcb8a81123f44933edbc35af4da0",
 		"Uniswap V2 Pair: WETH - ESS",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf3f09fbdc764e01774f355f763c3acfdfe8a548d",
+		"Uniswap V2 Pair: BTC - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8308,8 +10948,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf43e889444e95a0429c32b0b601dc16edf90fdbf",
+		"Uniswap V2 Pair: AFY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf44e8ff3bb644479124e691bf572f7813a1bc499",
 		"Uniswap V2 Pair: WETH - EDDA",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf464dca6c58bdebe8f01b80de3d50023a862bbc9",
+		"Uniswap V2 Pair: BURN - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8334,6 +10986,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xf4d4e16c9a93d88990e0b98820c363369ca91c01",
 		"Uniswap V2 Pair: CC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf4eae3218778510cc1d07ed22338d6d8df2adaf1",
+		"Uniswap V2 Pair: WETH - DWEB",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8392,8 +11050,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf64e49c1d1d2b1cfa570b1da6481dc8dc95cd093",
+		"Uniswap V2 Pair: UNLEASH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf650233ec6ea1c6717ac4f409f09e6c9ebc8c4d2",
 		"Uniswap V2 Pair: wCRES - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf65dfcc3c0f67181a73882fdb3b87b04c46d4633",
+		"Uniswap V2 Pair: NARUTO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8404,14 +11074,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf6887ad6f3b342840dbea138e8003f2ca14f4500",
+		"Uniswap V2 Pair: IOI - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf6c3595cbd6858b47e93c83312cef89750cea3a4",
 		"Uniswap V2 Pair: WETH - CUBE",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf6c4e4f339912541d3f8ed99dba64a1372af5e5b",
+		"Uniswap V2 Pair: USDT - HEZ",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
 		"Uniswap V2 Pair: HEX - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf7031f8b312c541bb57c9a5ac049666c039d013b",
+		"Uniswap V2 Pair: DARK - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8440,8 +11128,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf827fa9b46745a876637406e2a3bf0a2766b89ba",
+		"Uniswap V2 Pair: DUMMY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
 		"Uniswap V2 Pair: KISHU - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf848e97469538830b0b147152524184a255b9106",
+		"Uniswap V2 Pair: VOW - UNI-V2",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8452,14 +11152,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf8956e715b9aa5897c6e81ce50b4c7256f43df21",
+		"Uniswap V2 Pair: FKPEPE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf898301c2807e99abaa39396a696d1202122d23e",
 		"Uniswap V2 Pair: UCO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf8c904c68dc8484319653c7ec23cb573d5d55de0",
+		"Uniswap V2 Pair: BITE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5",
 		"Uniswap V2 Pair: ETH2x-FLI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf932ff2b8e73fc5b3543f605b34e9bdf4b12001b",
+		"Uniswap V2 Pair: WETH - GMFAM",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8490,6 +11208,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xfa93db946a60c8b81a450719be4a1b287263539e",
 		"Uniswap V2 Pair: SHR - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xfa94ecf472810d0dad9341c9c4b61143b5878c08",
+		"Uniswap V2 Pair: BANK - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8590,6 +11314,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xfcfe058efa0be5bccfdd45e2c079997935fe0a64",
+		"Uniswap V2 Pair: IDEX - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xfd0a40bc83c5fae4203dec7e5929b446b07d1c76",
 		"Uniswap V2 Pair: FRAX - WETH",
 		"Uniswap V2",
@@ -8598,6 +11328,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xfd29420060464b69f2e1804b685354c31687121e",
 		"Uniswap V2 Pair: WETH - COL",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xfe17ab3f63038b3b5bc400d6691b2f4d50a33bf0",
+		"Uniswap V2 Pair: PAPI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -8644,6 +11380,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xffd49f81d1b312f019d33774d1c0805a355d9ad8",
+		"Uniswap V2 Pair: WETH - PYUSD",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xffe8df2f623bfd954d785809185beb291330c70d",
 		"Uniswap V2 Pair: UPI - WETH",
 		"Uniswap V2",
@@ -8662,6 +11404,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x01949723055a451229c7ba3a817937c966748f76",
+		"Uniswap V3 Pool: CTSI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x020c349a0541d76c16f501abc6b2e9c98adae892",
 		"Uniswap V3 Pool: USDC - SNX",
 		"Uniswap V3",
@@ -8670,6 +11418,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x0254a309f5140d457c0699e2cd0457a692a69cc4",
 		"Uniswap V3 Pool: KOIN - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0318170609141bfdb38d20d1f1c5b5197670ecee",
+		"Uniswap V3 Pool: SOV - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -8698,8 +11452,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x052cea5c8bc91e204bf1e686bb91f25f66d831b1",
+		"Uniswap V3 Pool: SHI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x058d79a4c6eb5b11d0248993ffa1faa168ddd3c0",
 		"Uniswap V3 Pool: wNXM - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x05aaa0053fa5c28e8c558d4c648cc129bea45018",
+		"Uniswap V3 Pool: NCT - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -8746,6 +11512,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x084b5191bd08412952337b1108b6e5942418928f",
+		"Uniswap V3 Pool: SNT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x08f68110f1e0ca67c80a24b4bd206675610f445d",
+		"Uniswap V3 Pool: gOHM - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x09117bff68b5939319e61b226bf1f3f5f985eba1",
+		"Uniswap V3 Pool: QANX - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x094a28b22e1b4218d590ea6fa916b3c5e670ba55",
 		"Uniswap V3 Pool: USDC - UOS",
 		"Uniswap V3",
@@ -8758,8 +11542,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x0a61a26c0dc08f4ed68a00966cc5a0ca60918ea3",
+		"Uniswap V3 Pool: ALI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x0bb5fd9b4e16607d32c4e5ac625ac5381c605920",
 		"Uniswap V3 Pool: sOHM - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0c30062368eefb96bf3ade1218e685306b8e89fa",
+		"Uniswap V3 Pool: BITCOIN - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x0ce2f0a319fe761e8ca975414558c12900c717c2",
+		"Uniswap V3 Pool: WETH - GETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -8776,8 +11578,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa",
+		"Uniswap V3 Pool: wstETH - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x11184bf5937beb9085b4f070e7b410be052e37a6",
 		"Uniswap V3 Pool: ZENIQ - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x117439f6fdde9a09d28eb78759cd5c852a8653f0",
+		"Uniswap V3 Pool: AST - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x11950d141ecb863f01007add7d1a342041227b58",
+		"Uniswap V3 Pool: PEPE - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -8848,6 +11668,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x15d12305d0f57c99d947e66d4164094ffccf78fc",
+		"Uniswap V3 Pool: SWISE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x162cec59dfac80086d7370f11dcd8705a45c9333",
 		"Uniswap V3 Pool: WETH - GODS",
 		"Uniswap V3",
@@ -8862,6 +11688,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x16b70f44719b227278a2dc1122e8106cc929ecd1",
 		"Uniswap V3 Pool: WETH - LUNA",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x16f60256a518e5d1dd9cf2cefc3d4a601c399574",
+		"Uniswap V3 Pool: WETH - ZZ",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x18052adacd380cb006e0344b6c1d3a6107819d93",
+		"Uniswap V3 Pool: BEN - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -8902,6 +11740,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x1becf1ac50f31c3441181563f9d350ddf72a2bfa",
+		"Uniswap V3 Pool: SMT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
 		"Uniswap V3 Pool: Metis - WETH",
 		"Uniswap V3",
@@ -8932,6 +11776,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2322e5517a3cbc75a3f02d74c96f82dda120d841",
+		"Uniswap V3 Pool: RLB - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x24dbedb4699eb996a8ceb2baef4a4ae057cf0294",
 		"Uniswap V3 Pool: MM - WETH",
 		"Uniswap V3",
@@ -8946,6 +11796,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x2519042aa735edb4688a8376d69d4bb69431206c",
 		"Uniswap V3 Pool: LPT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x253c06b22d4b67b675ea7d2fd48422e62c394d7e",
+		"Uniswap V3 Pool: ferc - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9022,14 +11878,38 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2ca1d6950182d28434f89a719ed9e915b8c417b5",
+		"Uniswap V3 Pool: DBI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2cad29e9640b9bcfb1d8d25cf3e4bd05f55cce70",
+		"Uniswap V3 Pool: OX - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2cb162433e0cabac4825e6d198a125829156cc92",
 		"Uniswap V3 Pool: CHO - USDT",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2ce54a0f63f5be7b62aec66104a1038206a154e3",
+		"Uniswap V3 Pool: NOMAD - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2dd31cc03ed996a99fbfdffa07f8f4604b1a2ec1",
 		"Uniswap V3 Pool: GEL - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2dd35b4da6534230ff53048f7477f17f7f4e7a70",
+		"Uniswap V3 Pool: SYN - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9052,6 +11932,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2f5c77eaf6fcc3691a3b12a7c117f95201a66a1d",
+		"Uniswap V3 Pool: midwit - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
 		"Uniswap V3 Pool: SHIB - WETH",
 		"Uniswap V3",
@@ -9066,6 +11952,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x3019d4e366576a88d28b623afaf3ecb9ec9d9580",
 		"Uniswap V3 Pool: AXS - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3067c3054b4a605f9e327bad82d9ba6049fe76a0",
+		"Uniswap V3 Pool: USDC - ZZ",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9094,6 +11986,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x32e12fe6f7f2af064aaed27fd612857944a0861c",
+		"Uniswap V3 Pool: WETH - AI",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3311bf503b5cd93fdb37776cb22dd47b75bf5a28",
 		"Uniswap V3 Pool: HEX - PLSD",
 		"Uniswap V3",
@@ -9106,6 +12004,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x33676385160f9d8f03a0db2821029882f7c79e93",
+		"Uniswap V3 Pool: RLB - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x33f6e97ea6f5dfa6691176b33ad5677e08fb6b38",
 		"Uniswap V3 Pool: LUNA - WETH",
 		"Uniswap V3",
@@ -9114,6 +12018,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x3416cf6c708da44db2624d63ea0aaef7113527c6",
 		"Uniswap V3 Pool: USDC - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3470447f3cecffac709d3e783a307790b0208d60",
+		"Uniswap V3 Pool: UNI - USDT",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9132,6 +12042,24 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x353bb62ed786cdf7624bd4049859182f3c1e9e5d",
 		"Uniswap V3 Pool: XEN - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x35e462cd5adde02da41f7f49e156b91b62f9373f",
+		"Uniswap V3 Pool: WETH - FUKBEN",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x363ab2dd5dcb55f8d8c82bd465c7be4271e6ae74",
+		"Uniswap V3 Pool: X - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3688ec45e6c03e78954f96a17d3dc4d7c4794ca4",
+		"Uniswap V3 Pool: UNIDX - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9166,6 +12094,30 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x38fee5f2ce469ebdfaa62863928e333ef4da485f",
+		"Uniswap V3 Pool: BLUR - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x391e8501b626c623d39474afca6f9e46c2686649",
+		"Uniswap V3 Pool: WBTC - DAI",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x39529e96c28807655b5856b3d342c6225111770e",
+		"Uniswap V3 Pool: TUSD - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5",
+		"Uniswap V3 Pool: FXS - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3aaf77ba7da262e34dffb9b10fc6777bfda79ab7",
 		"Uniswap V3 Pool: USDC - ICSA",
 		"Uniswap V3",
@@ -9190,6 +12142,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3be033b60bc4aa789368954595332fab143987ec",
+		"Uniswap V3 Pool: BONE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3e6e23198679419cd73bb6376518dcc5168c8260",
+		"Uniswap V3 Pool: WETH - BTRFLY",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3ee301ed8f42d106def4f9d9730ea3367880b771",
 		"Uniswap V3 Pool: ASH - WETH",
 		"Uniswap V3",
@@ -9202,6 +12166,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4006bed7bf103d70a1c6b7f1cef4ad059193dc25",
+		"Uniswap V3 Pool: GAMMA - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x42d403ab9b0603442ac991c0cfe124105dde0811",
+		"Uniswap V3 Pool: PSYOP - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x433a00819c771b33fa7223a5b3499b24fbcd1bbc",
+		"Uniswap V3 Pool: wTAO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
 		"Uniswap V3 Pool: WBTC - WETH",
 		"Uniswap V3",
@@ -9210,6 +12192,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x4628a0a564debfc8798eb55db5c91f2200486c24",
 		"Uniswap V3 Pool: RNDR - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x465e56cd21ad47d4d4790f17de5e0458f20c3719",
+		"Uniswap V3 Pool: WETH - GALA",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9244,6 +12232,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4a2987c255ad7f9409c54a4fce7823441e14f08b",
+		"Uniswap V3 Pool: WPLS - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4a73a7e29988f171910119d660c4dd548282bf2a",
 		"Uniswap V3 Pool: WETH - PSP",
 		"Uniswap V3",
@@ -9274,8 +12268,26 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4b9d0663acb7a774c327b679d423993c2a11a263",
+		"Uniswap V3 Pool: SDAO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4be410e2ff6a5f1718ada572afa9e8d26537242b",
+		"Uniswap V3 Pool: WETH - AURA",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b",
 		"Uniswap V3 Pool: WETH - EURT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4c52d01fb85b36cccf1647b99fb7b20f70fe669c",
+		"Uniswap V3 Pool: WETH - SHARES",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9288,6 +12300,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x4c83a7f819a5c37d64b4c5a2f8238ea082fa1f4e",
 		"Uniswap V3 Pool: WETH - CRV",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4cd48a9d93538fcb1d0a393c9b6ceb2d05403490",
+		"Uniswap V3 Pool: WETH - L",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+		"Uniswap V3 Pool: JASMY - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9310,6 +12334,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4ec7d47cfd3f35e47b86f9eaa31cb9d3ee1e801a",
+		"Uniswap V3 Pool: AGB - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4efc9e2e3e77732ce2f9612b8f050082c01688bd",
 		"Uniswap V3 Pool: GREEN - WETH",
 		"Uniswap V3",
@@ -9318,6 +12348,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x4fde70fdadfdb82295efacef32c48328f830ab75",
 		"Uniswap V3 Pool: UNQT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x4ff7e1e713e30b0d1fb9cd00477cef399ff9d493",
+		"Uniswap V3 Pool: BUSD - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x510100d5143e011db24e2aa38abe85d73d5b2177",
+		"Uniswap V3 Pool: RLB - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9334,6 +12376,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x537a0a5654045c52ec45c4c86ed0c1ffe893809d",
+		"Uniswap V3 Pool:  - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5764a6f2212d502bc5970f9f129ffcd61e5d7563",
 		"Uniswap V3 Pool: SHIB - WETH",
 		"Uniswap V3",
@@ -9342,6 +12390,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5777d92f208679db4b9778590fa3cab3ac9e2168",
 		"Uniswap V3 Pool: DAI - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x57af956d3e2cca3b86f3d8c6772c03ddca3eaacb",
+		"Uniswap V3 Pool: PENDLE - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9358,8 +12412,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x593965c0c4433ef4e2852c53169045c384e4a1fe",
+		"Uniswap V3 Pool: BIAO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x59b4bb1f5d943cf71a10df63f6b743ee4a4489ee",
 		"Uniswap V3 Pool: XMON - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x59c38b6775ded821f010dbd30ecabdcf84e04756",
+		"Uniswap V3 Pool: UNI - AAVE",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9388,6 +12454,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5b7e3e37a1aa6369386e5939053779abd3597508",
+		"Uniswap V3 Pool: WETH - RIO",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5b97b125cf8af96834f2d08c8f1291bd47724939",
 		"Uniswap V3 Pool: SAND - WETH",
 		"Uniswap V3",
@@ -9396,6 +12468,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5c128d25a21f681e678cb050e551a895c9309945",
 		"Uniswap V3 Pool: BIT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5c28b5f471d97f53fcf132f16f9f3c0c888c1a01",
+		"Uniswap V3 Pool: HEX - DAI",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5cd0ad98ba6288ed7819246a1ebc0386c32c314b",
+		"Uniswap V3 Pool: WETH - FOOM",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9418,6 +12502,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5eafef1f481acd69561ce02c3ef537cba1c5a02d",
+		"Uniswap V3 Pool: NXRA - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5f3c621d810c7c929fb440e03dadf8621fe61ab5",
+		"Uniswap V3 Pool: USDC - RSS3",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x60594a405d53811d3bc4766596efd80fd545a270",
 		"Uniswap V3 Pool: DAI - WETH",
 		"Uniswap V3",
@@ -9432,6 +12528,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x610a94f64d1d149623369e5bac9576065d23893b",
 		"Uniswap V3 Pool: ELON - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x620cd19eae24fb8a02df908bb71b81b6e3aa1ccc",
+		"Uniswap V3 Pool: cvxCRV - CRV",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9454,6 +12556,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x62cbac19051b130746ec4cf96113af5618f3a212",
+		"Uniswap V3 Pool: SGT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x632e675672f2657f227da8d9bb3fe9177838e726",
 		"Uniswap V3 Pool: RPL - WETH",
 		"Uniswap V3",
@@ -9466,6 +12574,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x64652315d86f5dfae30885fbd29d1da05b63add7",
+		"Uniswap V3 Pool: FTM - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x64a078926ad9f9e88016c199017aea196e3899e1",
 		"Uniswap V3 Pool: WETH - BTT",
 		"Uniswap V3",
@@ -9474,6 +12588,30 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x655e25fed94ddb846601705ace4349815e2a95d1",
 		"Uniswap V3 Pool: KYL - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x666ed8c2151f00e7e58b4d941f65a9df68d2245b",
+		"Uniswap V3 Pool: WOOF - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x66ad25b5aa3543cb7f4566851fe26da6abab205e",
+		"Uniswap V3 Pool: XTP - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x68d01efdfbe5c0eebe3b19b571b18ae6d6ee16fc",
+		"Uniswap V3 Pool: SUDO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x68f73e2180024db5b54e0e119d4f5128953f9417",
+		"Uniswap V3 Pool: MATIC - USDT",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9502,6 +12640,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6a9850e46518231b23e50467c975fa94026be5d5",
+		"Uniswap V3 Pool: sUSD - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6ae0cdc5d2b89a8dcb99ad6b3435b3e7f7290077",
 		"Uniswap V3 Pool: KROM - WETH",
 		"Uniswap V3",
@@ -9514,8 +12658,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x6c063a6e8cd45869b5eb75291e65a3de298f3aa8",
+		"Uniswap V3 Pool: WETH - INJ",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x6c4ab1907805adcb0b7ae911a5d1b0b99d608b3c",
 		"Uniswap V3 Pool: DYDX - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6c4c7f46d9d4ef6bc5c9e155f011ad19fc4ef321",
+		"Uniswap V3 Pool: RFD - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9534,6 +12690,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x6de28f1176311b7408329a4d21c2bd1441be157f",
 		"Uniswap V3 Pool: MOONEY - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6e5c0b204d8c5311687513f0e71c10cb9e114b6b",
+		"Uniswap V3 Pool: PEPE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x6f41040b9e098c2ac4b88e27b50d4e9ab486781b",
+		"Uniswap V3 Pool: BLUR - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9562,6 +12730,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7316f8dd242974f0fd7b16dbcc68920b96bc4db1",
+		"Uniswap V3 Pool: WOJAK - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x735a26a57a0a0069dfabd41595a970faf5e1ee8b",
 		"Uniswap V3 Pool: agEUR - USDC",
 		"Uniswap V3",
@@ -9576,6 +12750,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x73a6a761fe483ba19debb8f56ac5bbf14c0cdad1",
 		"Uniswap V3 Pool: SUSHI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x755e5a186f0469583bd2e80d1216e02ab88ec6ca",
+		"Uniswap V3 Pool: ARB - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x757a197b3b17b207d6de3840de09bcf2dfb75b72",
+		"Uniswap V3 Pool: PEPE - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9598,6 +12784,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7832310cd0de39c4ce0a635f34d9a4b5b47fd434",
+		"Uniswap V3 Pool: Mog - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7858e59e0c01ea06df3af3d20ac7b0003275d4bf",
 		"Uniswap V3 Pool: USDC - USDT",
 		"Uniswap V3",
@@ -9612,6 +12804,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x78d4704c65dfd869f7f44d78c3fbbbdb5b412c71",
 		"Uniswap V3 Pool: HDRN - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x78d4e81fc84a1ce367e90936e49a74a9052137e8",
+		"Uniswap V3 Pool: FUMO - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9634,8 +12832,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810",
+		"Uniswap V3 Pool: TURBO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7bea39867e4169dbe237d55c8242a8f2fcdcc387",
 		"Uniswap V3 Pool: USDC - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7c46e694d1ee0e577e64933d98dcbff3fdaca2d3",
+		"Uniswap V3 Pool: BOOP - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9648,6 +12858,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x7ec0b75a98997c927ace6d87958147a105147ea0",
 		"Uniswap V3 Pool: YGG - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7f808fd904ffa3eb6a6f259e6965fb1466a05372",
+		"Uniswap V3 Pool: DXN - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9672,6 +12888,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x824664650c789bf01b5bba80473977ca820fb1eb",
 		"Uniswap V3 Pool: EJS - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x824a30f2984f9013f2c8d0a29c0a3cc5fd5c0673",
+		"Uniswap V3 Pool: BLUR - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9718,6 +12940,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x855fa1b0c27fefc055c1880c5a5969ee731e9690",
+		"Uniswap V3 Pool: WETH - MMVG",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x85b5a7dc1630f9465d8409e2ac53313b70a71b9c",
 		"Uniswap V3 Pool: EFI - USDT",
 		"Uniswap V3",
@@ -9754,8 +12982,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x877f9474f02ea0b3d440bf1047971a52e79296e2",
+		"Uniswap V3 Pool: RBE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x87b1d1b59725209879cc5c5adeb99d8bc9eccf12",
 		"Uniswap V3 Pool: CRO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x88395224c3709be9a700624bd9246459585c56b0",
+		"Uniswap V3 Pool: WETH - FUND",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9814,6 +13054,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8df016708a66377dae191ca6f9fff4705a3d951f",
+		"Uniswap V3 Pool: NMR - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8e794abe66a4f65c0b6369ceb91af9d50d78fbfa",
 		"Uniswap V3 Pool: UFO - WETH",
 		"Uniswap V3",
@@ -9852,6 +13098,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x92995d179a5528334356cb4dc5c6cbb1c068696c",
 		"Uniswap V3 Pool: USDC - UST",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x92ab871abb9d567aa276b2ce58d0203d84e0181e",
+		"Uniswap V3 Pool: BLUR - USDC",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9910,6 +13162,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9445bd19767f73dcae6f2de90e6cd31192f62589",
+		"Uniswap V3 Pool: USDC - CRV",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x948b54a93f5ad1df6b8bff6dc249d99ca2eca052",
+		"Uniswap V3 Pool: FET - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x94981f69f7483af3ae218cbfe65233cc3c60d93a",
 		"Uniswap V3 Pool: RBN - WETH",
 		"Uniswap V3",
@@ -9930,6 +13194,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x959c7d5706ac0b5a29f506a1019ba7f2a1c70c70",
 		"Uniswap V3 Pool: SHI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x95ad5d38ad6bb17500e9a57bfeb6569b36a94ea5",
+		"Uniswap V3 Pool: $MONG - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x95dbb3c7546f22bce375900abfdd64a4e5bd73d6",
+		"Uniswap V3 Pool: EUROC - USDC",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9958,6 +13234,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9887507bea38d49b04ce06052ed32339264fef2c",
+		"Uniswap V3 Pool: TRG - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x99132b53ab44694eeb372e87bced3929e4ab8456",
+		"Uniswap V3 Pool: AGIX - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x99a6880748ceb61c3d9b6d4cd49edb59f79f405d",
+		"Uniswap V3 Pool: AGIX - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x99ac8ca7087fa4a2a1fb6357269965a2014abc35",
 		"Uniswap V3 Pool: WBTC - USDC",
 		"Uniswap V3",
@@ -9966,6 +13260,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x99c7550be72f05ec31c446cd536f8a29c89fdb77",
 		"Uniswap V3 Pool: MATIC - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9a134d5156b372b865b1f149a99aa2997188e70d",
+		"Uniswap V3 Pool: COPIUM - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -9994,8 +13294,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9af99712d45a972a23eabee205342f6055ada474",
+		"Uniswap V3 Pool: BOB - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9bd730ddcfe6b5b9ecba1cf66e153adaa807e238",
 		"Uniswap V3 Pool: GRPFT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9cb91e5451d29c84b51ffd40df0b724b639bf841",
+		"Uniswap V3 Pool: ARKM - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10030,6 +13342,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9e7809c21ba130c1a51c112928ea6474d9a9ae3c",
+		"Uniswap V3 Pool: BNB - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9ee5f9bf3c2619a443d1cc228aa67b6a9776f961",
 		"Uniswap V3 Pool: Nvir - WETH",
 		"Uniswap V3",
@@ -10042,8 +13360,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa06591252908576a0f64a8560ec0c8051782377c",
+		"Uniswap V3 Pool: PNDC - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa08d8ddf045f583e2cb3ef2ea99900ed60897d0b",
 		"Uniswap V3 Pool: WETH - SDAX",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa109209a2380fd4454b0364c4689f6de18ad18cc",
+		"Uniswap V3 Pool: USDT - MCADE",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa19f4ebe4cbb3c9b57c16eb4dfc7a52d46a5e891",
+		"Uniswap V3 Pool: D2T - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa1b4b8ee671123b49cd8a129b3c1c5b7944e5601",
+		"Uniswap V3 Pool: BEND - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10066,6 +13408,30 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa324a33a6bc402de1d81b7a501bdf8ac7bf845ab",
+		"Uniswap V3 Pool: WETH - BOSON",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa34f0d0314db32f41e1194816d56d55d1f7ca7b5",
+		"Uniswap V3 Pool: PRQ - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa3a9a863ed908aa95cb17e1781aa97e6693bf604",
+		"Uniswap V3 Pool: RSR - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa3bc069ce794103e68974b5dc38074fb112eea71",
+		"Uniswap V3 Pool: PSYOP - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa3f558aebaecaf0e11ca4b2199cc5ed341edfd74",
 		"Uniswap V3 Pool: LDO - WETH",
 		"Uniswap V3",
@@ -10084,6 +13450,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa5ef2a6bbe8852bd6fd2ef6ab9bb45081a6f531c",
+		"Uniswap V3 Pool: PLSB - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
 		"Uniswap V3 Pool: LINK - WETH",
 		"Uniswap V3",
@@ -10092,6 +13464,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xa7f72a1ec0ab189998a3eec8b886e6360aff39da",
 		"Uniswap V3 Pool: sILV - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa80838d2bb3d6ebaed1978fa23b38f91775d8378",
+		"Uniswap V3 Pool: ZERO - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10126,6 +13504,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xac63436b092b944cadea9243f9aff315421d4fee",
+		"Uniswap V3 Pool: LOYAL - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xad6d2f2cb7bf2c55c7493fd650d3a66a4c72c483",
 		"Uniswap V3 Pool: PAPER - WETH",
 		"Uniswap V3",
@@ -10144,14 +13528,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xaf9060d26826964c1b9329582e23b4adbf7679e3",
+		"Uniswap V3 Pool: WETH - JPEG",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xaff1025438da93bd86427f2f9f7d06088f720a8d",
 		"Uniswap V3 Pool: CELR - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb003df4b243f938132e8cadbeb237abc5a889fb4",
+		"Uniswap V3 Pool: WETH - EUL",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb011e4eb4111ef00b620a5ed195836dcd69db1ff",
 		"Uniswap V3 Pool: BONE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb0288f2b136f741b05ede945cc9c821749f4420b",
+		"Uniswap V3 Pool: WEWE - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10222,6 +13624,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb42eede6ad429b38da26817aeb163f216e34b7f8",
+		"Uniswap V3 Pool: WETH - VEGA",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb82d251b7e92832dccb7f3c6f03ae20f2d7ee597",
 		"Uniswap V3 Pool: SOS - WETH",
 		"Uniswap V3",
@@ -10270,6 +13678,24 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xbcc489a50f0e2f09aec2d6f33ffe950cb6c39295",
+		"Uniswap V3 Pool: WETH - PAW",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbe3cd9b751360a8030770425acf947c8cb4cab38",
+		"Uniswap V3 Pool: USDT - ACH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbf85f94d3233ee588f0907a9147fbb59d7246b54",
+		"Uniswap V3 Pool: MYRIA - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc00c5977395664267c118d71569dccf4bc37bf5f",
 		"Uniswap V3 Pool: BGLD - WETH",
 		"Uniswap V3",
@@ -10284,6 +13710,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xc0fbed3cbbf272e0649ddfefdec99f4eba7eca22",
 		"Uniswap V3 Pool: WETH - CAW",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc1409a2c5673299fb15da5f03c27eb1ac88f7d8c",
+		"Uniswap V3 Pool: WETH - CQT",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10312,8 +13744,32 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc34322097f48f2a42b471e0e892e8cf0c7e35ebb",
+		"Uniswap V3 Pool: HABIBI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc3881fbb90daf3066da30016d578ed024027317c",
+		"Uniswap V3 Pool: GLQ - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc3f6b81fb9e6db259272026601689e383f94c0b0",
 		"Uniswap V3 Pool: OVR - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc4472dcd0e42ffccc1dbb0b9b3855688c22f3a0f",
+		"Uniswap V3 Pool: WLD - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc4b186b57d584262dd73bea4b702805a408c8b20",
+		"Uniswap V3 Pool: POOH - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10336,6 +13792,30 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc64350c0eab6faed8f17cc2cdff0761c53fb4152",
+		"Uniswap V3 Pool: PNDC - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc72abb13b6bdfa64770cb5b1f57bebd36a91a29e",
+		"Uniswap V3 Pool: SD - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc987d503a9f78f6d1d782c1fff5af4cb34437e3f",
+		"Uniswap V3 Pool: gOHM - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xca9bee88db1833cd2f3e3912590242fcc8df468e",
+		"Uniswap V3 Pool: WETH - WAGMI",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcb0c5d9d92f4f2f80cce7aa271a1e148c226e19d",
 		"Uniswap V3 Pool: RAI - DAI",
 		"Uniswap V3",
@@ -10354,8 +13834,38 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcbbe436425a115dd0d38c576f4cc78bc2a3fb740",
+		"Uniswap V3 Pool: WETH - MTRM",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
 		"Uniswap V3 Pool: WBTC - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xccab9aab49e7ce843fec2be7db343fcb24ca6764",
+		"Uniswap V3 Pool: DUST - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xccc42cf5d6a2f3ed8f948541455950ed6ce14707",
+		"Uniswap V3 Pool: OS - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcd1a2cee37107767c59ac61102c9dae171ef76b2",
+		"Uniswap V3 Pool: RFD - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcd423f3ab39a11ff1d9208b7d37df56e902c932b",
+		"Uniswap V3 Pool: PRIME - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10374,6 +13884,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xcd9dab5e666de980cecdc180cb31f296733e2587",
 		"Uniswap V3 Pool: AKITA - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xce1f0626083a00eaef1d85dd2979abb5b1c3657c",
+		"Uniswap V3 Pool: XLON - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xcee31c846cbf003f4ceb5bbd234cba03c6e940c7",
+		"Uniswap V3 Pool: PEPE - USDC",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10408,6 +13930,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd10b1aa3a49cc06f65c723f14ea0e43edda3102f",
+		"Uniswap V3 Pool: WPEPE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd124c5808a0d89738e0aef655c0aa19ec6175811",
 		"Uniswap V3 Pool: WETH - SLP",
 		"Uniswap V3",
@@ -10416,6 +13944,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e",
 		"Uniswap V3 Pool: LQTY - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd1dff3959372c8680a752e8aec7e1bd38d760297",
+		"Uniswap V3 Pool: WETH - MATH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10438,6 +13972,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd3ca35355106cb8bc5fd7c534275509673319d83",
+		"Uniswap V3 Pool: XMON - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd5ad5ec825cac700d7deafe3102dc2b6da6d195d",
 		"Uniswap V3 Pool: BUSD - USDT",
 		"Uniswap V3",
@@ -10446,6 +13986,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xd6a309f49cf79542cea91df7b334eb4bd29aa0d7",
 		"Uniswap V3 Pool: USDC - STG",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd6eb9af2b8a37f5a7451e2a445cb93661a466a66",
+		"Uniswap V3 Pool: VMPX - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd738e6a2ef2846a643dc68092ad0fd7f5a8eb6f8",
+		"Uniswap V3 Pool: WETH - PEPE2.0",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10462,6 +14014,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd8857e7da2d6e05667c5b9218f97efaaa671f44a",
+		"Uniswap V3 Pool: SYN - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd8de6af55f618a7bc69835d55ddc6582220c36c0",
 		"Uniswap V3 Pool: DYDX - WETH",
 		"Uniswap V3",
@@ -10474,8 +14032,44 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd97a2bd632d32e85ebf88a705bdc47e3a25787ab",
+		"Uniswap V3 Pool: PSYOP - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdab040a387cb425357392a6693730e34a289770c",
+		"Uniswap V3 Pool: WSB - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdb02d6827220475ece91893255fdf57bed51aee3",
+		"Uniswap V3 Pool: USDC - GPT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdb1d1c9a42e3d10717c415bd06853ea7ae818823",
+		"Uniswap V3 Pool: MRF - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdc2c21f1b54ddaf39e944689a8f90cb844135cc9",
 		"Uniswap V3 Pool: BAL - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdcad279e517d7be07934ff85949fd6598758ce0b",
+		"Uniswap V3 Pool: LUNA - LUNA",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdce93ed9ae7c53143e19cf799d156b72d1cc2777",
+		"Uniswap V3 Pool: BEN - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10486,8 +14080,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xdd475ebcd9c560cdfdea0461615240071fb12077",
+		"Uniswap V3 Pool: HEX - HDRN",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xdd5a65da22031b6ae5205fd89f67b5141e4f0ead",
 		"Uniswap V3 Pool: UBT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xde90022e08a142d4a2d35aac8d1f2a0264d34ade",
+		"Uniswap V3 Pool: 똥코인 - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10504,6 +14110,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xdfde79f36d2a76a1e096504d241c7d82c5cd22fe",
+		"Uniswap V3 Pool: WETH - FINALE",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe0554a476a092703abdb3ef35c80e0d76d32939f",
 		"Uniswap V3 Pool: USDC - WETH",
 		"Uniswap V3",
@@ -10512,6 +14124,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xe05e653453f733786f2dabae0ffa1e96cfcc4b25",
 		"Uniswap V3 Pool: HEX - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe081eeab0adde30588ba8d5b3f6ae5284790f54a",
+		"Uniswap V3 Pool: USDC - FOLD",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10576,6 +14194,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe495bfa137b68a037b1f661ed47a44b4fb2a6563",
+		"Uniswap V3 Pool: PYR - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe744f5e2edfdcb9fdb43b288ecb8b21c8487e888",
 		"Uniswap V3 Pool: WETH - DOGEGF",
 		"Uniswap V3",
@@ -10584,6 +14208,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xe859041c9c6d70177f83de991b9d757e13cea26e",
 		"Uniswap V3 Pool: HDRN - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe8b0ce81e206e537fea0c90e085311b72cc7ec04",
+		"Uniswap V3 Pool: CNC - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10606,6 +14236,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe935fac6b950539f37450f80c76325a6b2232725",
+		"Uniswap V3 Pool: VINU - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe936f0073549ad8b1fa53583600d629ba9375161",
 		"Uniswap V3 Pool: RNDR - WETH",
 		"Uniswap V3",
@@ -10624,8 +14260,20 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xeb4626c5149894022c2066120ea7f20f217995fb",
+		"Uniswap V3 Pool: WETH - ACH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xeb5c52e8af57334fab0b5f3d888990c108545527",
 		"Uniswap V3 Pool: WETH - WRLD",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xecf678bf1850ac206f42c9e959f72a0ab0e86f77",
+		"Uniswap V3 Pool: LADYS - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10662,6 +14310,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b",
 		"Uniswap V3 Pool: OHM - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf205cae3e3e24024328553c7f1abc13d1cceff42",
+		"Uniswap V3 Pool: WBTC - XTP",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf239009a101b6b930a527deaab6961b6e7dec8a6",
+		"Uniswap V3 Pool: PEPE - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10726,6 +14386,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xf7f381315b218263aa1ef22895a1b20cc70e3651",
+		"Uniswap V3 Pool: DORKL - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf845cba831be88268b1415d976db0afc7b8c6357",
+		"Uniswap V3 Pool: DSLA - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364",
 		"Uniswap V3 Pool: WETH - TRIBE",
 		"Uniswap V3",
@@ -10734,6 +14406,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xf8a95b2409c27678a6d18d950c5d913d5c38ab03",
 		"Uniswap V3 Pool: GALA - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf8fe2525a9e23d0e8892d2a41c087e17eef19971",
+		"Uniswap V3 Pool: PSALE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xf935f557e06a7d040dea4691f90c9a755301818b",
+		"Uniswap V3 Pool: SPONGE - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10776,6 +14460,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xfd76be67fff3bac84e3d5444167bbc018f5968b6",
 		"Uniswap V3 Pool: WETH - IMX",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xfe0df74636bc25c7f2400f22fe7dae32d39443d2",
+		"Uniswap V3 Pool: RBN - USDC",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -10896,6 +14586,18 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
 		"Uniswap V2 Router 02",
+		"Uniswap",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+		"Uniswap V2 Router 02",
+		"Uniswap",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x000000000022d473030f116ddee9f6b43ac78ba3",
+		"Uniswap Permit2",
 		"Uniswap",
 		"images/contracts/uniswap.svg"
 	],
@@ -11343,6 +15045,11 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xfaff15c6cdaca61a4f87d329689293e07c98f578",
 		"Zapper.Fi: Zapper NFT",
 		"Zapper"
+	],
+	[
+		"0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401",
+		"ENS: Name Wrapper",
+		"ENS"
 	],
 	[
 		"0x311bb771e4f8952e6da169b425e7e92d6ac45756",

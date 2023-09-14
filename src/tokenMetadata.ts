@@ -1,4 +1,3 @@
-
 import { tokenMetadataData } from './tokenMetadataData.js';
 export type TokenDefinition = {
 	name: string,
@@ -15,5 +14,6 @@ export const tokenMetadata = new Map<string, TokenDefinition>(
 			symbol: token.data.symbol,
 			decimals: BigInt(token.data.decimals),
 			...'logoUri' in token.data ? {logoUri: token.data.logoUri} : {},
-		}]]);
-	}, [] as [string, TokenDefinition][]));
+		}]])
+	}, [] as [string, TokenDefinition][])
+)

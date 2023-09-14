@@ -1,13 +1,14 @@
 import * as fs from 'fs'
 import { tokenList } from './tokenList.js'
-import { allowedExtensions, downloadFile } from './utils.js'
+import { allowedExtensions, downloadFile, resizeAndConvertToPng } from './utils.js'
 import { getAaveV1Tokens, getAaveV2Tokens } from './aave.js'
 import { getCompoundV2Tokens } from './compound.js'
-import { OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants.js'
+import { CACHE, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants.js'
 
 const blackListedTokens = new Set<bigint>([])
 
 async function processTokens() {
+	if (!fs.existsSync(CACHE)) await fs.promises.mkdir(CACHE)
 	console.log('processTokens')
 	const tokens = []
 	for (const token of tokenList.tokens) {
@@ -18,10 +19,17 @@ async function processTokens() {
 			if (fileEnding === undefined) throw `Invalid logoUrl`
 			if (!(allowedExtensions.has(fileEnding))) throw `not allowed extension: '${fileEnding}'`
 
-			const fileLocation = `${OUTPUT_LIB_BASE_DIR}/images/tokens/${token.address}.${fileEnding}`
-			if (!fs.existsSync(fileLocation)) {
-				console.log(`downloading: ${fileLocation}`)
-				await downloadFile(token.logoURI, fileLocation)
+			const fileLocation = `${ CACHE }/${ token.address }.${ fileEnding }`
+			const renamed = `${OUTPUT_LIB_BASE_DIR}/images/tokens/${token.address}.png`
+			if (!fs.existsSync(renamed)) {
+				console.log(`downloading: ${ fileLocation }: ${ token.logoURI }`)
+				try {
+					await downloadFile(token.logoURI, fileLocation)
+				} catch(e) {
+					console.log(e)
+					continue
+				}
+				await resizeAndConvertToPng(fileLocation, MAX_NFT_IMAGE_WIDTH, MAX_NFT_IMAGE_HEIGHT, renamed)
 			}
 			tokens.push({
 				address: token.address,
@@ -29,7 +37,7 @@ async function processTokens() {
 					name: token.name,
 					symbol: token.symbol,
 					decimals: token.decimals,
-					logoUri: `images/tokens/${token.address}.${fileEnding}`,
+					logoUri: `/images/tokens/${token.address}.png`,
 				}
 			})
 		} else {

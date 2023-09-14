@@ -2,10 +2,10 @@ import * as funtypes from 'funtypes'
 import https from 'https'
 import fs from 'fs'
 import sharp from 'sharp'
-import path from 'path'
 import { keccak256, toUtf8Bytes } from 'ethers/lib/utils'
+import { CACHE } from './constants'
 
-export const allowedExtensions = new Set(['png', 'jpg', 'jpeg', 'gif', 'ico', 'svg', 'webp', 'svg+xml'])
+export const allowedExtensions = new Set(['png', 'jpg', 'jpeg', 'ico', 'gif', 'svg', 'webp', 'svg+xml'])
 
 export function addressString(address: bigint) {
 	return `0x${address.toString(16).padStart(40, '0')}`
@@ -58,9 +58,11 @@ export async function downloadFile(url: string, targetFile: string, populateExte
 			let addedExtension: string
 			try {
 				addedExtension = populateExtension ? '.' + extractExtensionFromContentType(response.headers['content-type']) : ''
+				console.log('added', addedExtension)
 			} catch (e) {
 				return reject(e)
 			}
+			console.log('write', targetFile + addedExtension)
 			const fileWriter = fs.createWriteStream(targetFile + addedExtension).on('finish', () => {
 				resolve(addedExtension)
 			})
@@ -71,18 +73,20 @@ export async function downloadFile(url: string, targetFile: string, populateExte
 	})
 }
 
-export async function scaleImage(imageFileToResize: string, width: number, height: number) {
-	return sharp(await fs.promises.readFile(imageFileToResize))
+export async function resizeAndConvertToPng(imageFileToResize: string, width: number, height: number, newFileName: string) {
+	await sharp(await fs.promises.readFile(imageFileToResize))
 		.resize(width)
 		.resize(width, height, { withoutEnlargement: true })
-		.toFile(imageFileToResize)
+		.toFormat('png')
+		.toFile(newFileName)
 }
 
-export async function cachedFetchJson(url: RequestInfo, init: RequestInit) {
-	const input = url.toString() + '|' + JSON.stringify(init)
+export async function cachedFetchJson(url: RequestInfo, init: RequestInit): Promise<unknown> {
+	const input = url.toString() + '|' + JSON.stringify(init.body)
 	const hash = keccak256(toUtf8Bytes(input))
-	const file = path.join(__dirname, `../cache/${ hash }.json`)
+	const file = `${ CACHE }/${ hash }.json`
 	if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'))
+	console.log('cache miss', file, input)
 	const data = await (await fetch(url, init)).json()
 	fs.writeFileSync(file, JSON.stringify(data), 'utf8')
 	return data

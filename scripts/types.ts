@@ -32,17 +32,18 @@ export const AlchemyNftSalesPage = funtypes.Object({
 	pageKey: funtypes.Union(funtypes.String, funtypes.Null, funtypes.Undefined),
 })
 
-export type AlchemyContractMetadataBatch = funtypes.Static<typeof AlchemyContractMetadataBatch>
-export const AlchemyContractMetadataBatch = funtypes.ReadonlyArray(funtypes.ReadonlyObject({
+
+export type AlchemyCollection = funtypes.Static<typeof AlchemyCollection>
+export const AlchemyCollection = funtypes.ReadonlyObject({
 	address: EthereumAddress,
 	contractMetadata: funtypes.ReadonlyObject({
 		name: funtypes.Union(funtypes.String, funtypes.Undefined),
 		symbol: funtypes.Union(funtypes.String, funtypes.Undefined),
 		totalSupply: funtypes.Union(funtypes.String, funtypes.Undefined),
 		tokenType: funtypes.String,
-		contractDeployer: EthereumAddress,
-		deployedBlockNumber: funtypes.Number,
-		openSea: funtypes.ReadonlyObject({
+		contractDeployer: funtypes.Union(EthereumAddress, funtypes.Undefined),
+		deployedBlockNumber: funtypes.Union(funtypes.Number, funtypes.Undefined),
+		openSea: funtypes.Union(funtypes.Undefined, funtypes.ReadonlyObject({
 			floorPrice: funtypes.Union(funtypes.Number, funtypes.Undefined),
 			collectionName: funtypes.Union(funtypes.String, funtypes.Undefined),
 			collectionSlug: funtypes.Union(funtypes.String, funtypes.Undefined),
@@ -54,6 +55,9 @@ export const AlchemyContractMetadataBatch = funtypes.ReadonlyArray(funtypes.Read
 			discordUrl: funtypes.Union(funtypes.String, funtypes.Undefined),
 			bannerImageUrl: funtypes.Union(funtypes.String, funtypes.Undefined),
 			lastIngestedAt: funtypes.Union(funtypes.String, funtypes.Undefined),
-		})
+		}))
 	})
-}))
+})
+
+export type AlchemyContractMetadataBatch = funtypes.Static<typeof AlchemyContractMetadataBatch>
+export const AlchemyContractMetadataBatch = funtypes.ReadonlyArray(AlchemyCollection)

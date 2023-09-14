@@ -22,7 +22,7 @@ async function processContracts() {
 	const tsJsonData = `
 export type Address = \`0x$\{string}\`
 export type Name = string
-export type Protocol = 'Uniswap' | 'Uniswap V2' | 'Uniswap V3' | 'ETH2' | 'Arbitrum' | 'Lido' | 'Matic' | 'OpenSea' | '0x' | 'Zapper' | 'Aave'
+export type Protocol = 'Uniswap' | 'Uniswap V2' | 'Uniswap V3' | 'ETH2' | 'Arbitrum' | 'Lido' | 'Matic' | 'OpenSea' | '0x' | 'Zapper' | 'Aave' | 'ENS'
 export type LogoRelativePath = string
 export type ContractMetadataDataWithLogo = readonly [Address, Name, Protocol, LogoRelativePath]
 export type ContractMetadataDataWithoutLogo = readonly [Address, Name, Protocol]
