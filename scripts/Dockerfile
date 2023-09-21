@@ -9,4 +9,4 @@ RUN npm install
 RUN npm install sharp@0.31.1 @types/sharp@0.30.0 ethers@5.7.1
 
 ENTRYPOINT [ "npx", "--no-install", "ts-node" ]
-CMD ["./processAndDownloadNFTs.ts"]
+CMD ["./processAndDownloadAlchemyNFTs.ts"]
