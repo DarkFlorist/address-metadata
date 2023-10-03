@@ -1,7 +1,8 @@
 import { Contract } from 'ethers'
 import { providers } from 'ethers/lib'
+import { ETHEREUM_RPC } from './constants'
 
-const provider = new providers.StaticJsonRpcProvider(process.env.ETHEREUM_RPC || 'http://127.0.0.1:8545')
+const provider = new providers.StaticJsonRpcProvider(ETHEREUM_RPC)
 
 const COMPOUND_LOGO_URI = `images/contracts/compound.png`
 

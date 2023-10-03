@@ -11,7 +11,6 @@
 	"exports": {
 		"import": "./lib/index.js"
 	},
-	"type": "module",
 	"homepage": "https://github.com/DarkFlorist/address-metadata#readme",
 	"files": [
 		"package.json",
