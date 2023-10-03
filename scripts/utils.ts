@@ -3,7 +3,7 @@ import https from 'https'
 import fs from 'fs'
 import sharp from 'sharp'
 import { keccak256, toUtf8Bytes } from 'ethers/lib/utils'
-import { CACHE } from './constants'
+import { CACHE } from './constants.js'
 
 export const allowedExtensions = new Set(['png', 'jpg', 'jpeg', 'ico', 'gif', 'svg', 'webp', 'svg+xml'])
 

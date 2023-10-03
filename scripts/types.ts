@@ -1,6 +1,6 @@
 
 import * as funtypes from 'funtypes'
-import { EthereumAddress } from './utils'
+import { EthereumAddress } from './utils.js'
 
 // not complete description
 export type AlchemyNftSalesPage = funtypes.Static<typeof AlchemyNftSalesPage>

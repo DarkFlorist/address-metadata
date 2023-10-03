@@ -1,6 +1,6 @@
 import { Contract } from 'ethers'
 import { providers } from 'ethers/lib'
-import { ETHEREUM_RPC } from './constants'
+import { ETHEREUM_RPC } from './constants.js'
 
 const provider = new providers.StaticJsonRpcProvider(ETHEREUM_RPC)
 
