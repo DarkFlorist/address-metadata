@@ -58,7 +58,6 @@ export async function downloadFile(url: string, targetFile: string, populateExte
 			let addedExtension: string
 			try {
 				addedExtension = populateExtension ? '.' + extractExtensionFromContentType(response.headers['content-type']) : ''
-				console.log('added', addedExtension)
 			} catch (e) {
 				return reject(e)
 			}
@@ -74,11 +73,23 @@ export async function downloadFile(url: string, targetFile: string, populateExte
 }
 
 export async function resizeAndConvertToPng(imageFileToResize: string, width: number, height: number, newFileName: string) {
-	await sharp(await fs.promises.readFile(imageFileToResize))
-		.resize(width)
-		.resize(width, height, { withoutEnlargement: true })
-		.toFormat('png')
-		.toFile(newFileName)
+	console.log('resize', imageFileToResize)
+	try {
+		await sharp(await fs.promises.readFile(imageFileToResize))
+			.resize(width)
+			.resize(width, height, { withoutEnlargement: true })
+			.toFormat('png')
+			.toFile(newFileName)
+	} finally {
+		if (fs.existsSync(newFileName)) {
+			const testImage = await fs.promises.readFile(newFileName)
+			console.log('img: ', imageFileToResize, testImage.byteLength)
+			if (testImage.byteLength === 0) {
+				await fs.promises.rm(newFileName)
+				throw new Error('the file length was zero')
+			}
+		}
+	}
 }
 
 export async function cachedFetchJson(url: RequestInfo, init: RequestInit): Promise<unknown> {

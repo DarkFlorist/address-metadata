@@ -7746,8 +7746,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0xe86f1be637c4f404f4f53ed327a80a1063eee5f7",
 		"PantyNectar 100",
 		"PNTY",
-		"ERC721",
-		"/images/nfts/0xe86f1be637c4f404f4f53ed327a80a1063eee5f7.png"
+		"ERC721"
 	],
 	[
 		"0x7255e21e25e6b3d669cc2a2a09697881b621f39d",
@@ -85057,6 +85056,13 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"/images/nfts/0xcd223812722faf45848a431a6e0387de7ffbc2b2.png"
 	],
 	[
+		"0x00afaaa9635c9c40015ec31f3f2bb1b10c766e58",
+		"Probably Something 2023 Lifeboat Pass",
+		"LBOAT",
+		"ERC721",
+		"/images/nfts/0x00afaaa9635c9c40015ec31f3f2bb1b10c766e58.png"
+	],
+	[
 		"0xcaca4e4c9f62760738d04bec350f7d83aea38e5d",
 		"HeadGame",
 		"HG",
@@ -100476,7 +100482,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x55700cd2e91f39bc56f589b346dac12a7907ea08",
-		"Travel Tiger Club by Travala.com",
+		"Travel Tiger Club",
 		"TTC",
 		"ERC721",
 		"/images/nfts/0x55700cd2e91f39bc56f589b346dac12a7907ea08.png"

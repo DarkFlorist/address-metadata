@@ -10776,7 +10776,7 @@ export const erc1155MetadataData: Erc1155MetadataData = [
 	],
 	[
 		"0xc62f536b47ce58dbb97d36b1bfdd814093392414",
-		"DANKBOTS FOUNDERS PASS // OFFICIAL",
+		"ARTIFACTX FOUNDERS PASS",
 		"DBFP",
 		"ERC1155",
 		"/images/nfts/0xc62f536b47ce58dbb97d36b1bfdd814093392414.png"
