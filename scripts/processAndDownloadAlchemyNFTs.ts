@@ -1,8 +1,8 @@
 import { providers } from 'ethers'
 import * as fs from 'fs'
-import { ALCHEMY_API_KEY, CACHE, ETHEREUM_RPC, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, NFT_IMAGE_DIR, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants'
-import { AlchemyCollection, AlchemyContractMetadataBatch, AlchemyNftSalesPage } from './types'
-import { addressString, cachedFetchJson, downloadFile, EthereumAddress, resizeAndConvertToPng } from './utils'
+import { ALCHEMY_API_KEY, CACHE, ETHEREUM_RPC, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, NFT_IMAGE_DIR, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants.js'
+import { AlchemyCollection, AlchemyContractMetadataBatch, AlchemyNftSalesPage } from './types.js'
+import { addressString, cachedFetchJson, downloadFile, EthereumAddress, resizeAndConvertToPng } from './utils.js'
 
 interface CleanedNftRecord {
 	address: bigint

@@ -1,4 +1,3 @@
-
 import { contractMetadataData } from './contractMetadataData.js';
 export type ContractDefinition = {
 	name: string,
