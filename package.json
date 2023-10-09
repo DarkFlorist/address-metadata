@@ -1,5 +1,6 @@
 {
 	"name": "@darkflorist/address-metadata",
+	"type": "module",
 	"devDependencies": {
 		"typescript": "4.9.4"
 	},
