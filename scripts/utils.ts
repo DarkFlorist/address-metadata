@@ -73,7 +73,6 @@ export async function downloadFile(url: string, targetFile: string, populateExte
 }
 
 export async function resizeAndConvertToPng(imageFileToResize: string, width: number, height: number, newFileName: string) {
-	console.log('resize', imageFileToResize)
 	try {
 		await sharp(await fs.promises.readFile(imageFileToResize))
 			.resize(width)
@@ -83,7 +82,6 @@ export async function resizeAndConvertToPng(imageFileToResize: string, width: nu
 	} finally {
 		if (fs.existsSync(newFileName)) {
 			const testImage = await fs.promises.readFile(newFileName)
-			console.log('img: ', imageFileToResize, testImage.byteLength)
 			if (testImage.byteLength === 0) {
 				await fs.promises.rm(newFileName)
 				throw new Error('the file length was zero')
@@ -101,4 +99,9 @@ export async function cachedFetchJson(url: RequestInfo, init: RequestInit): Prom
 	const data = await (await fetch(url, init)).json()
 	fs.writeFileSync(file, JSON.stringify(data), 'utf8')
 	return data
+}
+export const compareBigInt = (a: bigint, b: bigint) => {
+	if(a > b) return 1
+	if (a < b) return -1
+	return 0
 }

@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import { tokenList } from './tokenList.js'
-import { allowedExtensions, downloadFile, resizeAndConvertToPng } from './utils.js'
+import { allowedExtensions, compareBigInt, downloadFile, resizeAndConvertToPng } from './utils.js'
 import { getAaveV1Tokens, getAaveV2Tokens } from './aave.js'
 import { getCompoundV2Tokens } from './compound.js'
 import { CACHE, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants.js'
@@ -55,7 +55,7 @@ async function processTokens() {
 	tokens.push(...await getAaveV1Tokens())
 	tokens.push(...await getCompoundV2Tokens())
 
-	const jsonData = JSON.stringify(tokens, null, '\t')
+	const jsonData = JSON.stringify(tokens.sort((a, b) => compareBigInt(a.address, b.address)), null, '\t')
 	const tsJsonDoc = `
 export type TokenMetadataData = {
 	address: string

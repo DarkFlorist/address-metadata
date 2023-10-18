@@ -1,5 +1,5 @@
 import { fetchV2Pools, fetchV3Pools, getUniswapMiscAddresses } from './uniswap.js'
-import { addressString } from './utils.js'
+import { addressString, compareBigInt } from './utils.js'
 import * as fs from 'fs'
 import * as path from 'path'
 import { getAaveV2Misc } from './aave.js'
@@ -16,7 +16,7 @@ async function processContracts() {
 			...await getUniswapMiscAddresses(),
 			...await getMiscAddresses(),
 			...await getAaveV2Misc()
-		]
+		].sort((a, b) => compareBigInt(a.address, b.address))
 
 	const jsonData = JSON.stringify(contractData.map((x) => [addressString(x.address), x.data.name, x.data.protocol, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
 	const tsJsonData = `
