@@ -2,7 +2,7 @@ import { providers } from 'ethers'
 import * as fs from 'fs'
 import { ALCHEMY_API_KEY, CACHE, ETHEREUM_RPC, MAX_NFT_IMAGE_HEIGHT, MAX_NFT_IMAGE_WIDTH, NFT_IMAGE_DIR, OUTPUT_LIB_BASE_DIR, OUTPUT_SRC_DIR } from './constants.js'
 import { AlchemyCollection, AlchemyContractMetadataBatch, AlchemyNftSalesPage } from './types.js'
-import { addressString, cachedFetchJson, downloadFile, EthereumAddress, resizeAndConvertToPng } from './utils.js'
+import { addressString, cachedFetchJson, compareBigInt, downloadFile, EthereumAddress, resizeAndConvertToPng } from './utils.js'
 
 interface CleanedNftRecord {
 	address: bigint
@@ -59,11 +59,20 @@ const processNft = async (collection: AlchemyCollection, imageDirFileList: strin
 	})
 }
 
+function getTopAddresses(map: Map<string, number>, numberOfElements: number): Set<bigint> {
+	const mapEntries = Array.from(map.entries())
+	mapEntries.sort((a, b) => b[1] - a[1])
+	const top1000 = mapEntries.slice(0, numberOfElements)
+	console.log('top elements')
+	console.log(top1000)
+	return new Set(top1000.map((x) => EthereumAddress.parse(x[0])))
+}
+
 const forceAddAddresses = [
 	0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401n //ens
 ]
 async function querySalesNFTs() {
-	const result = new Set<EthereumAddress>()
+	const result = new Map<string, number>()
 	const nBlocks = 500
 	const startBlock = 15034865
 	const endBlock = await new providers.StaticJsonRpcProvider(ETHEREUM_RPC).getBlockNumber()
@@ -78,11 +87,20 @@ async function querySalesNFTs() {
 		const page = AlchemyNftSalesPage.parse(data)
 		if (page.nftSales.length === 0) break
 		console.log('sales:', currentBlock, '/', endBlock, '(', 100 - (endBlock - currentBlock)/(endBlock - startBlock) * 100, '%)' )
-		page.nftSales.forEach((sale) => result.add(sale.contractAddress))
+		page.nftSales.forEach((sale) => {
+			const contractAddressString = addressString(sale.contractAddress)
+			const previousResults = result.get(contractAddressString)
+			if (previousResults === undefined) {
+				result.set(contractAddressString, 1)
+			} else {
+				result.set(contractAddressString, previousResults + 1)
+			}
+		})
 		console.log(`we have ${ result.size } contracts atm`)
 	}
-	forceAddAddresses.forEach((addr) => result.add(addr))
-	return result
+
+	forceAddAddresses.forEach((addr) => result.set(addressString(addr), Number.MAX_SAFE_INTEGER))
+	return getTopAddresses(result, 1000)
 }
 
 
@@ -118,7 +136,7 @@ async function processNfts() {
 	if (!fs.existsSync(CACHE)) await fs.promises.mkdir(CACHE)
 	console.log('processNfts')
 	const nfts = await fetchNFTs()
-	const erc721 = nfts.filter((record) => record.data.tokenType === 'ERC721')
+	const erc721 = nfts.filter((record) => record.data.tokenType === 'ERC721').sort((a, b) => compareBigInt(a.address, b.address))
 	const erc721JsonData = JSON.stringify(erc721.map((x) => [addressString(x.address), x.data.name, x.data.symbol, x.data.tokenType, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
 	const erc721TsJsonData = `
 export type Address = \`0x$\{ string }\`
@@ -135,7 +153,7 @@ export const erc721MetadataData: Erc721MetadataData = ${ erc721JsonData } as con
 
 	fs.writeFileSync(`${ OUTPUT_SRC_DIR }/ERC721MetadataData.ts`, erc721TsJsonData, 'utf-8')
 
-	const erc1155 = nfts.filter((record) => record.data.tokenType === 'ERC1155')
+	const erc1155 = nfts.filter((record) => record.data.tokenType === 'ERC1155').sort((a, b) => compareBigInt(a.address, b.address))
 	const erc1155JsonData = JSON.stringify(erc1155.map((x) => [addressString(x.address), x.data.name, x.data.symbol, x.data.tokenType, ...'logoUri' in x.data ? [x.data.logoUri] : []]), null, '\t')
 	const erc1155TsJsonData = `
 export type Address = \`0x$\{ string }\`
