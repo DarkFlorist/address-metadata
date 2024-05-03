@@ -10,15 +10,6 @@ export type TokenMetadataData = {
 }
 export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
-		"address": "0x000000000000d0151e748d25b766e77efe2a6c83",
-		"data": {
-			"name": "XDEFI Governance",
-			"symbol": "XDEX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x000000000000d0151e748d25b766e77efe2a6c83.png"
-		}
-	},
-	{
 		"address": "0x0000000000085d4780b73119b644ae5ecd22b376",
 		"data": {
 			"name": "TrueUSD",
@@ -34,6 +25,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "LON",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0000000000095413afc295d19edeb1ad7b71c952.png"
+		}
+	},
+	{
+		"address": "0x0000000000300dd8b0230efcfef136ecdf6abcde",
+		"data": {
+			"name": "DegenX",
+			"symbol": "DGNX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0000000000300dd8b0230efcfef136ecdf6abcde.png"
+		}
+	},
+	{
+		"address": "0x000000000075f13bcf2e6652e84821e8b544f6f9",
+		"data": {
+			"name": "Signet",
+			"symbol": "SIG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x000000000075f13bcf2e6652e84821e8b544f6f9.png"
+		}
+	},
+	{
+		"address": "0x000000000503be77a5ed27bef2c19943a8b5ae73",
+		"data": {
+			"name": "Xtremeverse",
+			"symbol": "XTREME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x000000000503be77a5ed27bef2c19943a8b5ae73.png"
 		}
 	},
 	{
@@ -55,6 +73,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x000000000a1c6659ac226dbb1c5bdc648df72e9e",
+		"data": {
+			"name": "Looter",
+			"symbol": "LOOTER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x000000000a1c6659ac226dbb1c5bdc648df72e9e.png"
+		}
+	},
+	{
 		"address": "0x000000007a58f5f58e697e51ab0357bc9e260a04",
 		"data": {
 			"name": "Concave",
@@ -64,21 +91,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x00000000a82b4758df44fcb124e26a9b441e59a0",
+		"address": "0x00000000ba2ca30042001abc545871380f570b1f",
 		"data": {
-			"name": "Zenith Token",
-			"symbol": "ZTH",
+			"name": "ArithFi",
+			"symbol": "ATF",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x00000000a82b4758df44fcb124e26a9b441e59a0.png"
+			"logoUri": "/images/tokens/0x00000000ba2ca30042001abc545871380f570b1f.png"
 		}
 	},
 	{
-		"address": "0x00000000bd56856065c00b1ad1b5cdefbf32ba22",
+		"address": "0x00000000e88649dd6aab90088ca25d772d4607d0",
 		"data": {
-			"name": "Ham the Astrochimp",
-			"symbol": "HAM",
+			"name": "Underworld",
+			"symbol": "UDW",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x00000000bd56856065c00b1ad1b5cdefbf32ba22.png"
+			"logoUri": "/images/tokens/0x00000000e88649dd6aab90088ca25d772d4607d0.png"
 		}
 	},
 	{
@@ -97,6 +124,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ETE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x000000e29fa2bd3e5c215ffc71aa66b29c9769a2.png"
+		}
+	},
+	{
+		"address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+		"data": {
+			"name": "USDA",
+			"symbol": "USDA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0000206329b97db379d5e1bf586bbdb969c63274.png"
 		}
 	},
 	{
@@ -127,12 +163,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x001a8ffcb0f03e99141652ebcdecdb0384e3bd6c",
+		"address": "0x0022228a2cc5e7ef0274a7baa600d44da5ab5776",
 		"data": {
-			"name": "Polker",
-			"symbol": "PKR",
+			"name": "Angle Staked USDA",
+			"symbol": "STUSD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x001a8ffcb0f03e99141652ebcdecdb0384e3bd6c.png"
+			"logoUri": "/images/tokens/0x0022228a2cc5e7ef0274a7baa600d44da5ab5776.png"
+		}
+	},
+	{
+		"address": "0x0026dfbd8dbb6f8d0c88303cc1b1596409fda542",
+		"data": {
+			"name": "SANSHU ",
+			"symbol": "SANSHU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0026dfbd8dbb6f8d0c88303cc1b1596409fda542.png"
 		}
 	},
 	{
@@ -154,12 +199,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0038e74ff4dad34404e74b0cb96db8ca26efc24d",
+		"address": "0x004626a008b1acdc4c74ab51644093b155e59a23",
 		"data": {
-			"name": "Scooby Doo",
-			"symbol": "SODO",
+			"name": "Angle Staked EURA",
+			"symbol": "STEUR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0038e74ff4dad34404e74b0cb96db8ca26efc24d.png"
+			"logoUri": "/images/tokens/0x004626a008b1acdc4c74ab51644093b155e59a23.png"
+		}
+	},
+	{
+		"address": "0x0058c8581b9fed6864faa654505bc89890cdb2dd",
+		"data": {
+			"name": "BabySmurf9000",
+			"symbol": "BS9000",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0058c8581b9fed6864faa654505bc89890cdb2dd.png"
 		}
 	},
 	{
@@ -178,6 +232,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45.png"
+		}
+	},
+	{
+		"address": "0x0080428794a79a40ae03cf6e6c1d56bd5467a4a2",
+		"data": {
+			"name": "LONG  ETH ",
+			"symbol": "LONG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0080428794a79a40ae03cf6e6c1d56bd5467a4a2.png"
 		}
 	},
 	{
@@ -217,15 +280,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x00a8b738e453ffd858a7edf03bccfe20412f0eb0",
-		"data": {
-			"name": "AllianceBlock",
-			"symbol": "ALBT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x00a8b738e453ffd858a7edf03bccfe20412f0eb0.png"
-		}
-	},
-	{
 		"address": "0x00aba6fe5557de1a1d565658cbddddf7c710a1eb",
 		"data": {
 			"name": "EasyFi V2",
@@ -235,12 +289,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x00b7db6b4431e345eee5cc23d21e8dbc1d5cada3",
+		"address": "0x00b4651795193daca7e73b5ddd031dfde8ca5720",
 		"data": {
-			"name": "CyberTronchain",
-			"symbol": "CTC",
+			"name": "CHAINMAIL",
+			"symbol": "MAIL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x00b7db6b4431e345eee5cc23d21e8dbc1d5cada3.png"
+			"logoUri": "/images/tokens/0x00b4651795193daca7e73b5ddd031dfde8ca5720.png"
+		}
+	},
+	{
+		"address": "0x00b78238925c320159023c2ac9ef89da8f16d007",
+		"data": {
+			"name": "VPS Ai",
+			"symbol": "VPS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x00b78238925c320159023c2ac9ef89da8f16d007.png"
 		}
 	},
 	{
@@ -271,6 +334,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x00c8555542158fff0feb892c8e000a8d1831762c",
+		"data": {
+			"name": "Mori Finance",
+			"symbol": "MORI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x00c8555542158fff0feb892c8e000a8d1831762c.png"
+		}
+	},
+	{
 		"address": "0x00d8318e44780edeefcf3020a5448f636788883c",
 		"data": {
 			"name": "dAppstore",
@@ -289,15 +361,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x00fc270c9cc13e878ab5363d00354bebf6f05c15",
-		"data": {
-			"name": "VNX Exchange",
-			"symbol": "VNXLU",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x00fc270c9cc13e878ab5363d00354bebf6f05c15.png"
-		}
-	},
-	{
 		"address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
 		"data": {
 			"name": "Alchemix ETH",
@@ -307,39 +370,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x01022591fce0609b57670beba60102dfd2b95d77",
+		"address": "0x01194726b1b55bbf99cb083ba8e5dcc0834adbc3",
 		"data": {
-			"name": "Hitop",
-			"symbol": "HITOP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x01022591fce0609b57670beba60102dfd2b95d77.png"
+			"name": "ArcadeFi",
+			"symbol": "ARCADE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x01194726b1b55bbf99cb083ba8e5dcc0834adbc3.png"
 		}
 	},
 	{
-		"address": "0x0106a1122fe94a9cf151097c1fe17229ec78ffad",
+		"address": "0x01202c9a1adfc1475c960c23bdf7530698330fa0",
 		"data": {
-			"name": "Eco DeFi",
-			"symbol": "ECOP",
+			"name": "Judge AI",
+			"symbol": "JUDGE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0106a1122fe94a9cf151097c1fe17229ec78ffad.png"
-		}
-	},
-	{
-		"address": "0x0107c4aaa31940ef88760acb1f32424ca8d8bd80",
-		"data": {
-			"name": "Authencity",
-			"symbol": "AUTH",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x0107c4aaa31940ef88760acb1f32424ca8d8bd80.png"
-		}
-	},
-	{
-		"address": "0x010d14d36c3ea6570d240ae3ac9d660398f7c48e",
-		"data": {
-			"name": "XCF Token",
-			"symbol": "XCF",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x010d14d36c3ea6570d240ae3ac9d660398f7c48e.png"
+			"logoUri": "/images/tokens/0x01202c9a1adfc1475c960c23bdf7530698330fa0.png"
 		}
 	},
 	{
@@ -361,6 +406,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x014337b35167b3711195361bb85259009e50a8a4",
+		"data": {
+			"name": "DecentraNode",
+			"symbol": "DNODE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x014337b35167b3711195361bb85259009e50a8a4.png"
+		}
+	},
+	{
+		"address": "0x015628ce9150db1bce2fbb717a09e846f8a32436",
+		"data": {
+			"name": "Big Bonus Coin  ETH ",
+			"symbol": "BBC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x015628ce9150db1bce2fbb717a09e846f8a32436.png"
+		}
+	},
+	{
+		"address": "0x01597e397605bf280674bf292623460b4204c375",
+		"data": {
+			"name": "Bent Finance",
+			"symbol": "BENT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x01597e397605bf280674bf292623460b4204c375.png"
+		}
+	},
+	{
 		"address": "0x0173661769325565d4f011b2e5cda688689cc87c",
 		"data": {
 			"name": "Quantland",
@@ -370,12 +442,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x01792e1548dc317bde6123fe92da1fe6d7311c3c",
+		"address": "0x0176b898e92e814c06cc379e508ceb571f70bd40",
 		"data": {
-			"name": "Spiral",
-			"symbol": "SPIRAL",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x01792e1548dc317bde6123fe92da1fe6d7311c3c.png"
+			"name": "Tipcoin",
+			"symbol": "TIP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0176b898e92e814c06cc379e508ceb571f70bd40.png"
 		}
 	},
 	{
@@ -388,12 +460,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x018fb5af9d015af25592a014c4266a84143de7a0",
+		"address": "0x018008bfb33d285247a21d44e50697654f754e63",
 		"data": {
-			"name": "MP3",
-			"symbol": "MP3",
+			"name": "Aave v3 DAI",
+			"symbol": "ADAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x018fb5af9d015af25592a014c4266a84143de7a0.png"
+			"logoUri": "/images/tokens/0x018008bfb33d285247a21d44e50697654f754e63.png"
+		}
+	},
+	{
+		"address": "0x01824357d7d7eaf4677bc17786abd26cbdec9ad7",
+		"data": {
+			"name": "Forward",
+			"symbol": "FORWARD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x01824357d7d7eaf4677bc17786abd26cbdec9ad7.png"
+		}
+	},
+	{
+		"address": "0x018dd3a0dd7f213cc822076b3800816d3ce1ed86",
+		"data": {
+			"name": "HotKeySwap",
+			"symbol": "HOTKEY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x018dd3a0dd7f213cc822076b3800816d3ce1ed86.png"
 		}
 	},
 	{
@@ -406,21 +496,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x01b23286ff60a543ec29366ae8d6b6274ca20541",
-		"data": {
-			"name": "Brother Music Platform",
-			"symbol": "BMP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x01b23286ff60a543ec29366ae8d6b6274ca20541.png"
-		}
-	},
-	{
 		"address": "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf",
 		"data": {
 			"name": "Lyra Finance",
 			"symbol": "LYRA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x01ba67aac7f75f647d94220cc98fb30fcc5105bf.png"
+		}
+	},
+	{
+		"address": "0x01bf66becdcfd6d59a5ca18869f494fea086cdfd",
+		"data": {
+			"name": "KUMA Protocol US KUMA Interest Bearing ",
+			"symbol": "USK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x01bf66becdcfd6d59a5ca18869f494fea086cdfd.png"
 		}
 	},
 	{
@@ -433,6 +523,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x01e1d7cbd3bc0eb1030485f33708421011459459",
+		"data": {
+			"name": "TOAD",
+			"symbol": "TOAD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x01e1d7cbd3bc0eb1030485f33708421011459459.png"
+		}
+	},
+	{
 		"address": "0x01e87d74b11f656a673a3e7c441425816213eb0c",
 		"data": {
 			"name": "Sonic",
@@ -442,12 +541,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x01eeffcd9a10266ed00946121df097eed173b43d",
+		"data": {
+			"name": "XDoge",
+			"symbol": "XD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x01eeffcd9a10266ed00946121df097eed173b43d.png"
+		}
+	},
+	{
 		"address": "0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f",
 		"data": {
 			"name": "BnkToTheFuture",
 			"symbol": "BFT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f.png"
+		}
+	},
+	{
+		"address": "0x02020595e6a34a03a8e9c1f5624b1b7713810083",
+		"data": {
+			"name": "Spectra Chain",
+			"symbol": "SPCT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x02020595e6a34a03a8e9c1f5624b1b7713810083.png"
 		}
 	},
 	{
@@ -469,6 +586,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0257ffd7ea2ebba4aaa090c7adbdd032a08c1f74",
+		"data": {
+			"name": "ZELIX",
+			"symbol": "ZELIX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0257ffd7ea2ebba4aaa090c7adbdd032a08c1f74.png"
+		}
+	},
+	{
 		"address": "0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a",
 		"data": {
 			"name": "Orion",
@@ -478,30 +604,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0275e1001e293c46cfe158b3702aade0b99f88a5",
+		"address": "0x0262e9374e95b9667b78136c3897cb4e4ef7f0c2",
 		"data": {
-			"name": "Oiler",
-			"symbol": "OIL",
+			"name": "Medifakt",
+			"symbol": "FAKT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0275e1001e293c46cfe158b3702aade0b99f88a5.png"
+			"logoUri": "/images/tokens/0x0262e9374e95b9667b78136c3897cb4e4ef7f0c2.png"
 		}
 	},
 	{
-		"address": "0x027bf54126482b66b0f26a680f03029db3de37aa",
+		"address": "0x02795795196f563fdafce8dd97fca4871ded51c3",
 		"data": {
-			"name": "DiviDoge",
-			"symbol": "DVDOGE",
+			"name": "Winnerz",
+			"symbol": "WNZ",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x027bf54126482b66b0f26a680f03029db3de37aa.png"
-		}
-	},
-	{
-		"address": "0x02814f435dd04e254be7ae69f61fca19881a780d",
-		"data": {
-			"name": "Meme Dollar",
-			"symbol": "PINA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x02814f435dd04e254be7ae69f61fca19881a780d.png"
+			"logoUri": "/images/tokens/0x02795795196f563fdafce8dd97fca4871ded51c3.png"
 		}
 	},
 	{
@@ -523,30 +640,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x02a739710d5e469ffca483f898ee9aea27b8bb8f",
+		"address": "0x02a97fd243b8301bcd6ba3a87693162d6bd130bd",
 		"data": {
-			"name": "BasedPepe",
-			"symbol": "BPEPE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x02a739710d5e469ffca483f898ee9aea27b8bb8f.png"
-		}
-	},
-	{
-		"address": "0x02ad335dd3ca11c18cebbbb583b9613b6289d75f",
-		"data": {
-			"name": "BPEGd",
-			"symbol": "BPEG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x02ad335dd3ca11c18cebbbb583b9613b6289d75f.png"
-		}
-	},
-	{
-		"address": "0x02c3296c6eb50249f290ae596f2be9454bffadab",
-		"data": {
-			"name": "Rejuve AI",
-			"symbol": "RJV",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0x02c3296c6eb50249f290ae596f2be9454bffadab.png"
+			"name": "SempsunAi2 0",
+			"symbol": "SMAI20",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x02a97fd243b8301bcd6ba3a87693162d6bd130bd.png"
 		}
 	},
 	{
@@ -595,6 +694,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+		"data": {
+			"name": "Peapods Finance",
+			"symbol": "PEAS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x02f92800f57bcd74066f5709f1daa1a4302df875.png"
+		}
+	},
+	{
 		"address": "0x03042482d64577a7bdb282260e2ea4c8a89c064b",
 		"data": {
 			"name": "Centaur",
@@ -610,6 +718,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TBC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x03042ae6fcfd53e3a0baa1fab5ce70e0cb74e6fb.png"
+		}
+	},
+	{
+		"address": "0x03049b395147713ae53c0617093675b4b86dde78",
+		"data": {
+			"name": "BobaCat",
+			"symbol": "PSPS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x03049b395147713ae53c0617093675b4b86dde78.png"
+		}
+	},
+	{
+		"address": "0x0305f515fa978cf87226cf8a9776d25bcfb2cc0b",
+		"data": {
+			"name": "Pepe 2 0",
+			"symbol": "PEPE20",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0305f515fa978cf87226cf8a9776d25bcfb2cc0b.png"
 		}
 	},
 	{
@@ -633,10 +759,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x0316eb71485b0ab14103307bf65a021042c6d380",
 		"data": {
-			"name": "HTX BTC",
+			"name": "Huobi BTC",
 			"symbol": "HBTC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0316eb71485b0ab14103307bf65a021042c6d380.png"
+		}
+	},
+	{
+		"address": "0x032c3ec6d4c894844fd855874062a86592801cc9",
+		"data": {
+			"name": "Converge Bot",
+			"symbol": "CONVERGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x032c3ec6d4c894844fd855874062a86592801cc9.png"
 		}
 	},
 	{
@@ -646,6 +781,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "NITRO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0335a7610d817aeca1bebbefbd392ecc2ed587b8.png"
+		}
+	},
+	{
+		"address": "0x033bbde722ea3cdcec73cffea6581df9f9c257de",
+		"data": {
+			"name": "Velar",
+			"symbol": "VELAR",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x033bbde722ea3cdcec73cffea6581df9f9c257de.png"
 		}
 	},
 	{
@@ -703,6 +847,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0364e6c6f4f9ad90f11a39e681bd6c0156b3efdb",
+		"data": {
+			"name": "Bimbo The Dog",
+			"symbol": "BIMBO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0364e6c6f4f9ad90f11a39e681bd6c0156b3efdb.png"
+		}
+	},
+	{
 		"address": "0x037a54aab062628c9bbae1fdb1583c195585fe41",
 		"data": {
 			"name": "LCX",
@@ -721,15 +874,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0383e1c4af6fed9f127e901ca982fa61333e932c",
-		"data": {
-			"name": "Mr  Hankey",
-			"symbol": "HANKEY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0383e1c4af6fed9f127e901ca982fa61333e932c.png"
-		}
-	},
-	{
 		"address": "0x038a68ff68c393373ec894015816e33ad41bd564",
 		"data": {
 			"name": "Glitch Protocol",
@@ -739,12 +883,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x038ed1383763d704d4271fe856ac96b4557e9d06",
+		"data": {
+			"name": "Alphabet",
+			"symbol": "ALPHABET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x038ed1383763d704d4271fe856ac96b4557e9d06.png"
+		}
+	},
+	{
 		"address": "0x0391d2021f89dc339f60fff84546ea23e337750f",
 		"data": {
 			"name": "BarnBridge",
 			"symbol": "BOND",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0391d2021f89dc339f60fff84546ea23e337750f.png"
+		}
+	},
+	{
+		"address": "0x039d2e8f097331278bd6c1415d839310e0d5ece4",
+		"data": {
+			"name": "Linda",
+			"symbol": "LINDA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x039d2e8f097331278bd6c1415d839310e0d5ece4.png"
+		}
+	},
+	{
+		"address": "0x03a0657fc10d7169305a0179eb80d4f568cda705",
+		"data": {
+			"name": "Blitz Bots",
+			"symbol": "BLITZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x03a0657fc10d7169305a0179eb80d4f568cda705.png"
+		}
+	},
+	{
+		"address": "0x03a9d7c8caf836de35666c5f7e317306b54fdd4e",
+		"data": {
+			"name": "JC Coin",
+			"symbol": "JCC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x03a9d7c8caf836de35666c5f7e317306b54fdd4e.png"
+		}
+	},
+	{
+		"address": "0x03aa6298f1370642642415edc0db8b957783e8d6",
+		"data": {
+			"name": "NetMind Token",
+			"symbol": "NMT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x03aa6298f1370642642415edc0db8b957783e8d6.png"
 		}
 	},
 	{
@@ -766,6 +955,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x03cce75a4795c1cfab8b7c0a1fb38df46d2f4159",
+		"data": {
+			"name": "Major Dog",
+			"symbol": "MAJOR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x03cce75a4795c1cfab8b7c0a1fb38df46d2f4159.png"
+		}
+	},
+	{
 		"address": "0x03d1e72765545729a035e909edd9371a405f77fb",
 		"data": {
 			"name": "Nabox",
@@ -781,6 +979,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "EML",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x03dde9e5bb31ee40a471476e2fccf75c67921062.png"
+		}
+	},
+	{
+		"address": "0x03ee5026c07d85ff8ae791370dd0f4c1ae6c97fc",
+		"data": {
+			"name": "0x Leverage",
+			"symbol": "OXL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x03ee5026c07d85ff8ae791370dd0f4c1ae6c97fc.png"
 		}
 	},
 	{
@@ -811,12 +1018,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x043827a6dcfffb7fe21953d3bad32a1c74bb73bf",
+		"address": "0x043312456f73d8014d9b84f4337de54995cd2a5b",
 		"data": {
-			"name": "JPEX Coin",
-			"symbol": "JPC",
+			"name": "Bonk2 0",
+			"symbol": "BONK20",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x043312456f73d8014d9b84f4337de54995cd2a5b.png"
+		}
+	},
+	{
+		"address": "0x0447d3454b25935eed47f65b4bd22b9b23be326a",
+		"data": {
+			"name": "Opal",
+			"symbol": "GEM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x043827a6dcfffb7fe21953d3bad32a1c74bb73bf.png"
+			"logoUri": "/images/tokens/0x0447d3454b25935eed47f65b4bd22b9b23be326a.png"
 		}
 	},
 	{
@@ -847,15 +1063,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x045414e728067ab3da4bceafc0d992d59183463a",
-		"data": {
-			"name": "B watch Box",
-			"symbol": "BOX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x045414e728067ab3da4bceafc0d992d59183463a.png"
-		}
-	},
-	{
 		"address": "0x045da4bfe02b320f4403674b3b7d121737727a36",
 		"data": {
 			"name": "DeFi Franc",
@@ -874,12 +1081,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0478aa9246eb94c87fddb470d53330a8f8b0c65e",
+		"address": "0x04815313e9329e8905a77251a1781cfa7934259a",
 		"data": {
-			"name": "Antis Inu",
-			"symbol": "ANTIS",
+			"name": "wagmicatgirlkanye420etfmoon1000x",
+			"symbol": "HOOD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0478aa9246eb94c87fddb470d53330a8f8b0c65e.png"
+			"logoUri": "/images/tokens/0x04815313e9329e8905a77251a1781cfa7934259a.png"
 		}
 	},
 	{
@@ -889,15 +1096,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SRK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0488401c3f535193fa8df029d9ffe615a06e74e6.png"
-		}
-	},
-	{
-		"address": "0x048aa6e69d5117bd665af4128383a6982b8367b3",
-		"data": {
-			"name": "VoxNET",
-			"symbol": "VXON",
-			"decimals": 4,
-			"logoUri": "/images/tokens/0x048aa6e69d5117bd665af4128383a6982b8367b3.png"
 		}
 	},
 	{
@@ -946,12 +1144,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x04b77a1be2981c1ca353aaf251b0f11398413bfa",
+		"address": "0x04c154b66cb340f3ae24111cc767e0184ed00cc6",
 		"data": {
-			"name": "Doomer AI",
-			"symbol": "DOOMER",
+			"name": "Dinero Staked ETH",
+			"symbol": "PXETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x04b77a1be2981c1ca353aaf251b0f11398413bfa.png"
+			"logoUri": "/images/tokens/0x04c154b66cb340f3ae24111cc767e0184ed00cc6.png"
 		}
 	},
 	{
@@ -973,6 +1171,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x04cb855a5e5c4e92dd90bce82548669b4fe88702",
+		"data": {
+			"name": "BOOK",
+			"symbol": "BOOK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x04cb855a5e5c4e92dd90bce82548669b4fe88702.png"
+		}
+	},
+	{
 		"address": "0x04e0af0af1b7f0023c6b12af5a94df59b0e8cf59",
 		"data": {
 			"name": "Sensitrust",
@@ -991,6 +1198,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0501b9188436e35bb10f35998c40adc079003866",
+		"data": {
+			"name": "AI Analysis Token",
+			"symbol": "AIAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0501b9188436e35bb10f35998c40adc079003866.png"
+		}
+	},
+	{
 		"address": "0x05030203674173fa6df6f9f7e34d6e70e9a761d7",
 		"data": {
 			"name": "Muverse",
@@ -1000,30 +1216,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x05079687d35b93538cbd59fe5596380cae9054a9",
-		"data": {
-			"name": "BitSong",
-			"symbol": "BTSG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x05079687d35b93538cbd59fe5596380cae9054a9.png"
-		}
-	},
-	{
 		"address": "0x050d94685c6b0477e1fc555888af6e2bb8dfbda5",
 		"data": {
 			"name": "Inu ",
 			"symbol": "INU",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x050d94685c6b0477e1fc555888af6e2bb8dfbda5.png"
-		}
-	},
-	{
-		"address": "0x051d7e5609917bd9b73f04bac0ded8dd46a74301",
-		"data": {
-			"name": "Curve fi wBTC sBTC",
-			"symbol": "CRVWSBTC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x051d7e5609917bd9b73f04bac0ded8dd46a74301.png"
 		}
 	},
 	{
@@ -1054,15 +1252,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x056354f3ff20743aa4c0da365603871c7000b081",
-		"data": {
-			"name": "TriumphX",
-			"symbol": "TRIX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x056354f3ff20743aa4c0da365603871c7000b081.png"
-		}
-	},
-	{
 		"address": "0x0563dce613d559a47877ffd1593549fb9d3510d6",
 		"data": {
 			"name": "SuperBid",
@@ -1072,12 +1261,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x056c1d42fb1326f57da7f19ebb7dda4673f1ff55",
+		"data": {
+			"name": "Gains",
+			"symbol": "GAINS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x056c1d42fb1326f57da7f19ebb7dda4673f1ff55.png"
+		}
+	},
+	{
 		"address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
 		"data": {
 			"name": "Gemini Dollar",
 			"symbol": "GUSD",
 			"decimals": 2,
 			"logoUri": "/images/tokens/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd.png"
+		}
+	},
+	{
+		"address": "0x0590cc9232ebf68d81f6707a119898219342ecb9",
+		"data": {
+			"name": "BananaCat",
+			"symbol": "BCAT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0590cc9232ebf68d81f6707a119898219342ecb9.png"
+		}
+	},
+	{
+		"address": "0x059956483753947536204e89bfad909e1a434cc6",
+		"data": {
+			"name": "Mintlayer",
+			"symbol": "ML",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x059956483753947536204e89bfad909e1a434cc6.png"
 		}
 	},
 	{
@@ -1099,6 +1315,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x05bd6b9bc125fee6e670420f11d4e1817c0fc132",
+		"data": {
+			"name": "404WHEELS",
+			"symbol": "404WHEELS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x05bd6b9bc125fee6e670420f11d4e1817c0fc132.png"
+		}
+	},
+	{
 		"address": "0x05d3606d5c81eb9b7b18530995ec9b29da05faba",
 		"data": {
 			"name": "TomoChain ERC 20",
@@ -1114,6 +1339,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ABAT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1.png"
+		}
+	},
+	{
+		"address": "0x05f72d4555e71ef3f5862627828fc2f830d3ccb1",
+		"data": {
+			"name": "DegenMasters AI",
+			"symbol": "DMAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x05f72d4555e71ef3f5862627828fc2f830d3ccb1.png"
 		}
 	},
 	{
@@ -1135,21 +1369,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0642026e7f0b6ccac5925b4e7fa61384250e1701",
-		"data": {
-			"name": "H2O",
-			"symbol": "H2O",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0642026e7f0b6ccac5925b4e7fa61384250e1701.png"
-		}
-	},
-	{
 		"address": "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
 		"data": {
 			"name": "XEN Crypto",
 			"symbol": "XEN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x06450dee7fd2fb8e39061434babcfc05599a6fb8.png"
+		}
+	},
+	{
+		"address": "0x064797ac7f833d01faeeae0e69f3af5a52a91fc8",
+		"data": {
+			"name": "Smol Su",
+			"symbol": "SU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x064797ac7f833d01faeeae0e69f3af5a52a91fc8.png"
 		}
 	},
 	{
@@ -1180,12 +1414,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x066e941e168de3815cd6c8f63c46e8e3a2309ad7",
+		"address": "0x067def80d66fb69c276e53b641f37ff7525162f6",
 		"data": {
-			"name": "The Box",
-			"symbol": "BOX",
+			"name": "OPEN GPU",
+			"symbol": "OGPU",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x066e941e168de3815cd6c8f63c46e8e3a2309ad7.png"
+			"logoUri": "/images/tokens/0x067def80d66fb69c276e53b641f37ff7525162f6.png"
 		}
 	},
 	{
@@ -1204,6 +1438,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WUSD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x068e3563b1c19590f822c0e13445c4fa1b9eefa5.png"
+		}
+	},
+	{
+		"address": "0x069d89974f4edabde69450f9cf5cf7d8cbd2568d",
+		"data": {
+			"name": "BVM",
+			"symbol": "BVM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x069d89974f4edabde69450f9cf5cf7d8cbd2568d.png"
 		}
 	},
 	{
@@ -1234,21 +1477,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x06af07097c9eeb7fd685c692751d5c66db49c215",
-		"data": {
-			"name": "Chai",
-			"symbol": "CHAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x06af07097c9eeb7fd685c692751d5c66db49c215.png"
-		}
-	},
-	{
 		"address": "0x06b884e60794ce02aafab13791b59a2e6a07442f",
 		"data": {
 			"name": "Unbanked",
 			"symbol": "UNBNK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x06b884e60794ce02aafab13791b59a2e6a07442f.png"
+		}
+	},
+	{
+		"address": "0x06d6f0dd6703a1cfe16025dcc55f36f017887627",
+		"data": {
+			"name": "Montage Token",
+			"symbol": "MTGX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x06d6f0dd6703a1cfe16025dcc55f36f017887627.png"
+		}
+	},
+	{
+		"address": "0x06ddb3a8bc0abc14f85e974cf1a93a6f8d4909d9",
+		"data": {
+			"name": "8Pay",
+			"symbol": "8PAY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x06ddb3a8bc0abc14f85e974cf1a93a6f8d4909d9.png"
 		}
 	},
 	{
@@ -1267,15 +1519,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MASQ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x06f3c323f0238c72bf35011071f2b5b7f43a054c.png"
-		}
-	},
-	{
-		"address": "0x06f3cdabae564b0546529b4dd8fef1bcd4235753",
-		"data": {
-			"name": "TilWiki",
-			"symbol": "TLW",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x06f3cdabae564b0546529b4dd8fef1bcd4235753.png"
 		}
 	},
 	{
@@ -1342,12 +1585,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x078c4adf3fee52eb77f6018d9805dfc69e911d39",
+		"data": {
+			"name": "Eternity GLORY Token",
+			"symbol": "GLORY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x078c4adf3fee52eb77f6018d9805dfc69e911d39.png"
+		}
+	},
+	{
+		"address": "0x0799de3f4e111b70e845edb7a8646d934a51e210",
+		"data": {
+			"name": "50cal",
+			"symbol": "50CAL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0799de3f4e111b70e845edb7a8646d934a51e210.png"
+		}
+	},
+	{
 		"address": "0x07ac55797d4f43f57ca92a49e65ca582cc287c27",
 		"data": {
 			"name": "Rebasing TBT",
 			"symbol": "TBT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x07ac55797d4f43f57ca92a49e65ca582cc287c27.png"
+		}
+	},
+	{
+		"address": "0x07b701ac44aacb03d8bed42eb85ec38210bdf513",
+		"data": {
+			"name": "Taproot",
+			"symbol": "TAPROOT",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x07b701ac44aacb03d8bed42eb85ec38210bdf513.png"
 		}
 	},
 	{
@@ -1375,6 +1645,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XRP",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x07e0edf8ce600fb51d44f51e3348d77d67f298ae.png"
+		}
+	},
+	{
+		"address": "0x07e128e823d2b9b22edbda43820aa1a72de99613",
+		"data": {
+			"name": "Host AI",
+			"symbol": "HOSTAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x07e128e823d2b9b22edbda43820aa1a72de99613.png"
 		}
 	},
 	{
@@ -1414,12 +1693,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0808e6c4400bde1d70db0d02170b67de05e07ef5",
+		"data": {
+			"name": "Wrapped LYX  SigmaSwap ",
+			"symbol": "WLYX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0808e6c4400bde1d70db0d02170b67de05e07ef5.png"
+		}
+	},
+	{
 		"address": "0x081131434f93063751813c619ecca9c4dc7862a3",
 		"data": {
 			"name": "Mines of Dalarnia",
 			"symbol": "DAR",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x081131434f93063751813c619ecca9c4dc7862a3.png"
+		}
+	},
+	{
+		"address": "0x081a4c60fbc381dc861bae6629c93d835d5f9a89",
+		"data": {
+			"name": "Modulus Domain Service",
+			"symbol": "MODS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x081a4c60fbc381dc861bae6629c93d835d5f9a89.png"
 		}
 	},
 	{
@@ -1468,6 +1765,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x085780639cc2cacd35e474e71f4d000e2405d8f6",
+		"data": {
+			"name": "f x  Protocol fxUSD",
+			"symbol": "FXUSD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x085780639cc2cacd35e474e71f4d000e2405d8f6.png"
+		}
+	},
+	{
 		"address": "0x08711d3b02c8758f2fb3ab4e80228418a7f8e39c",
 		"data": {
 			"name": "Edgeless",
@@ -1486,12 +1792,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x089453742936dd35134383aee9d78bee63a69b01",
+		"data": {
+			"name": "Gold",
+			"symbol": "GOLD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x089453742936dd35134383aee9d78bee63a69b01.png"
+		}
+	},
+	{
 		"address": "0x089729b0786c8803cff972c16e402f3344d079ea",
 		"data": {
 			"name": "BlockGPT",
 			"symbol": "BGPT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x089729b0786c8803cff972c16e402f3344d079ea.png"
+		}
+	},
+	{
+		"address": "0x08a1c30bbb26425c1031ee9e43fa0b9960742539",
+		"data": {
+			"name": "LandX Governance Token",
+			"symbol": "LNDX",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x08a1c30bbb26425c1031ee9e43fa0b9960742539.png"
 		}
 	},
 	{
@@ -1549,6 +1873,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x08f5a9235b08173b7569f83645d2c7fb55e8ccd8",
+		"data": {
+			"name": "Tierion",
+			"symbol": "TNT",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x08f5a9235b08173b7569f83645d2c7fb55e8ccd8.png"
+		}
+	},
+	{
 		"address": "0x08f7be99ed83369541501d60f4e66f8e34c3f736",
 		"data": {
 			"name": "Cryptoku",
@@ -1567,21 +1900,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x090fc4d5436d98e13473c4d6109de6a18bcfb0d4",
+		"address": "0x09395a2a58db45db0da254c7eaa5ac469d8bdc85",
 		"data": {
-			"name": "SkyToken",
-			"symbol": "SKY",
+			"name": "SubQuery Network",
+			"symbol": "SQT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x090fc4d5436d98e13473c4d6109de6a18bcfb0d4.png"
-		}
-	},
-	{
-		"address": "0x0913ddae242839f8995c0375493f9a1a3bddc977",
-		"data": {
-			"name": "Marshall Inu",
-			"symbol": "MRI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0913ddae242839f8995c0375493f9a1a3bddc977.png"
+			"logoUri": "/images/tokens/0x09395a2a58db45db0da254c7eaa5ac469d8bdc85.png"
 		}
 	},
 	{
@@ -1648,15 +1972,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x099f8d9e004ce139c6f46572ea99c0db71889a78",
-		"data": {
-			"name": "Unichad",
-			"symbol": "UNICHAD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x099f8d9e004ce139c6f46572ea99c0db71889a78.png"
-		}
-	},
-	{
 		"address": "0x09a3ecafa817268f77be1283176b946c4ff2e608",
 		"data": {
 			"name": "Mirror Protocol",
@@ -1693,21 +2008,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0a266778c113a8f0d3d7aeacd12b74a7da5037a0",
+		"data": {
+			"name": "OLYMPUS",
+			"symbol": "OLAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0a266778c113a8f0d3d7aeacd12b74a7da5037a0.png"
+		}
+	},
+	{
 		"address": "0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d",
 		"data": {
 			"name": "iZUMi Bond USD",
 			"symbol": "IUSD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d.png"
-		}
-	},
-	{
-		"address": "0x0a41e6d4d4897e8cec819ce7d10b2d7cda61dc94",
-		"data": {
-			"name": "YCLUB",
-			"symbol": "SYC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0a41e6d4d4897e8cec819ce7d10b2d7cda61dc94.png"
 		}
 	},
 	{
@@ -1756,12 +2071,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0a6c7d5b442ddf53d963581d87932f25743dd3a0",
+		"data": {
+			"name": "SimpleHub",
+			"symbol": "SHUB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0a6c7d5b442ddf53d963581d87932f25743dd3a0.png"
+		}
+	},
+	{
 		"address": "0x0a6e18fb2842855c3af925310b0f50a4bfa17909",
 		"data": {
 			"name": "CoinPoker",
 			"symbol": "CHP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0a6e18fb2842855c3af925310b0f50a4bfa17909.png"
+		}
+	},
+	{
+		"address": "0x0a6e481cb5f2d976b2edac4f67dcc824ccdae4af",
+		"data": {
+			"name": "Audify",
+			"symbol": "AUDI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0a6e481cb5f2d976b2edac4f67dcc824ccdae4af.png"
 		}
 	},
 	{
@@ -1783,6 +2116,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0a8f4c4f23d72857745e26695dcd8dedf8e349b9",
+		"data": {
+			"name": "Marksman",
+			"symbol": "MARKS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0a8f4c4f23d72857745e26695dcd8dedf8e349b9.png"
+		}
+	},
+	{
 		"address": "0x0a913bead80f321e7ac35285ee10d9d922659cb7",
 		"data": {
 			"name": "DOS Network",
@@ -1792,12 +2134,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0aa1582bebf8d96ea384b6829a5d41278579cd88",
+		"data": {
+			"name": "Lyve Finance",
+			"symbol": "LYVE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0aa1582bebf8d96ea384b6829a5d41278579cd88.png"
+		}
+	},
+	{
 		"address": "0x0aa7efe4945db24d95ca6e117bba65ed326e291a",
 		"data": {
 			"name": "Ojamu",
 			"symbol": "OJA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0aa7efe4945db24d95ca6e117bba65ed326e291a.png"
+		}
+	},
+	{
+		"address": "0x0aa8a7d1fb4c64b3b1dcea9a7ade81c59c25b95b",
+		"data": {
+			"name": "AstraAI",
+			"symbol": "ASTRA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0aa8a7d1fb4c64b3b1dcea9a7ade81c59c25b95b.png"
 		}
 	},
 	{
@@ -1828,12 +2188,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0abd596070be270f04eb446128b3dc04969e7d29",
+		"address": "0x0ab902bd4de7521a565f3058fb43d6d01d0d2670",
 		"data": {
-			"name": "Nexus Pro",
-			"symbol": "NEXUS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0abd596070be270f04eb446128b3dc04969e7d29.png"
+			"name": "CogniTechAI",
+			"symbol": "CTI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0ab902bd4de7521a565f3058fb43d6d01d0d2670.png"
 		}
 	},
 	{
@@ -1852,15 +2212,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CLB",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0ad896863ce4cd84f10a9d30d4f509ceffd53c84.png"
-		}
-	},
-	{
-		"address": "0x0adcfdfe9e88d28cc4c1daac9cc021067aff9b0c",
-		"data": {
-			"name": "AnimalFam",
-			"symbol": "TOTOFO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0adcfdfe9e88d28cc4c1daac9cc021067aff9b0c.png"
 		}
 	},
 	{
@@ -1888,6 +2239,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SLICE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0aee8703d34dd9ae107386d3eff22ae75dd616d1.png"
+		}
+	},
+	{
+		"address": "0x0af0e83d064f160376303ac67dd9a7971af88d4c",
+		"data": {
+			"name": "Match Finance esLBR",
+			"symbol": "MESLBR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0af0e83d064f160376303ac67dd9a7971af88d4c.png"
 		}
 	},
 	{
@@ -1945,6 +2305,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0b4663216b812e4a2f0fc2029ff1232958f4bf8c",
+		"data": {
+			"name": "IUCN Coin",
+			"symbol": "IUCN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0b4663216b812e4a2f0fc2029ff1232958f4bf8c.png"
+		}
+	},
+	{
 		"address": "0x0b498ff89709d3838a063f1dfa463091f9801c2b",
 		"data": {
 			"name": "BTC 2x Flexible Leverage Index",
@@ -1981,12 +2350,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0b61c4f33bcdef83359ab97673cb5961c6435f4e",
+		"data": {
+			"name": "HOLD",
+			"symbol": "EARN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0b61c4f33bcdef83359ab97673cb5961c6435f4e.png"
+		}
+	},
+	{
 		"address": "0x0b63128c40737b13647552e0c926bcfeccc35f93",
 		"data": {
 			"name": "wLITI",
 			"symbol": "WLITI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0b63128c40737b13647552e0c926bcfeccc35f93.png"
+		}
+	},
+	{
+		"address": "0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9",
+		"data": {
+			"name": "Unagi Token",
+			"symbol": "UNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9.png"
 		}
 	},
 	{
@@ -1999,21 +2386,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0b8057c3cc676c329c25c1d0cd27776efa73762d",
+		"address": "0x0b925ed163218f6662a35e0f0371ac234f9e9371",
 		"data": {
-			"name": "Megaweapon",
-			"symbol": "WEAPON",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x0b8057c3cc676c329c25c1d0cd27776efa73762d.png"
+			"name": "Aave v3 wstETH",
+			"symbol": "AWSTETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0b925ed163218f6662a35e0f0371ac234f9e9371.png"
 		}
 	},
 	{
-		"address": "0x0b9570a0194ffb8bf9e60a95e8d905bf2358abcc",
+		"address": "0x0b9ae6b1d4f0eeed904d1cef68b9bd47499f3fff",
 		"data": {
-			"name": "Rat Roulette",
-			"symbol": "RAT",
+			"name": "IlluminatiCoin",
+			"symbol": "NATI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0b9570a0194ffb8bf9e60a95e8d905bf2358abcc.png"
+			"logoUri": "/images/tokens/0x0b9ae6b1d4f0eeed904d1cef68b9bd47499f3fff.png"
+		}
+	},
+	{
+		"address": "0x0ba470c6b349d2ae4c93d8c2072b8bfdab95e28a",
+		"data": {
+			"name": "Sword Bot",
+			"symbol": "SWORD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0ba470c6b349d2ae4c93d8c2072b8bfdab95e28a.png"
 		}
 	},
 	{
@@ -2053,15 +2449,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0c0725282cbf037e6781fe84e0361b01daa88ddf",
-		"data": {
-			"name": "HiPvPGame",
-			"symbol": "HIPVP",
-			"decimals": 16,
-			"logoUri": "/images/tokens/0x0c0725282cbf037e6781fe84e0361b01daa88ddf.png"
-		}
-	},
-	{
 		"address": "0x0c08638473cafbca3beb113616a1871f4bfad4f9",
 		"data": {
 			"name": "ZooCoin",
@@ -2080,12 +2467,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0c29ff5e5f27ed032eab2a97aa489e9c6da5a4a8",
+		"address": "0x0c21638d4bcb88568f88bc84a50e317715f8de8a",
 		"data": {
-			"name": "RouletteBot",
-			"symbol": "ROULETTEBO",
+			"name": "GrokDogeX",
+			"symbol": "GDX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0c29ff5e5f27ed032eab2a97aa489e9c6da5a4a8.png"
+			"logoUri": "/images/tokens/0x0c21638d4bcb88568f88bc84a50e317715f8de8a.png"
 		}
 	},
 	{
@@ -2100,7 +2487,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x0c48250eb1f29491f1efbeec0261eb556f0973c7",
 		"data": {
-			"name": "AimBot",
+			"name": "Aimbot AI",
 			"symbol": "AIMBOT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0c48250eb1f29491f1efbeec0261eb556f0973c7.png"
@@ -2113,6 +2500,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WAS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0c572544a4ee47904d54aaa6a970af96b6f00e1b.png"
+		}
+	},
+	{
+		"address": "0x0c5cb676e38d6973837b9496f6524835208145a2",
+		"data": {
+			"name": "KaboChan",
+			"symbol": "KABO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0c5cb676e38d6973837b9496f6524835208145a2.png"
+		}
+	},
+	{
+		"address": "0x0c79e09497c9862479c9e6499c61342b5fe3e6b2",
+		"data": {
+			"name": "HashPower AI",
+			"symbol": "HASH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0c79e09497c9862479c9e6499c61342b5fe3e6b2.png"
+		}
+	},
+	{
+		"address": "0x0c7b199ac2bca0dba8d1785480648f0318b9a7b8",
+		"data": {
+			"name": "OrdiBot",
+			"symbol": "ORDIBOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0c7b199ac2bca0dba8d1785480648f0318b9a7b8.png"
 		}
 	},
 	{
@@ -2170,6 +2584,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0cdbbc7fe1c8da0cc41ba96d7edb4cce5982f23f",
+		"data": {
+			"name": "UNITS LIMITED SUPPLY",
+			"symbol": "ULS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0cdbbc7fe1c8da0cc41ba96d7edb4cce5982f23f.png"
+		}
+	},
+	{
 		"address": "0x0cdf9acd87e940837ff21bb40c9fd55f68bba059",
 		"data": {
 			"name": "Public Mint",
@@ -2188,30 +2611,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0ceccd54323b953a5464fddefc47171c397043f7",
-		"data": {
-			"name": "Lumina Bot",
-			"symbol": "LBOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0ceccd54323b953a5464fddefc47171c397043f7.png"
-		}
-	},
-	{
 		"address": "0x0cf0ee63788a0849fe5297f3407f701e122cc023",
 		"data": {
 			"name": "Streamr XDATA",
 			"symbol": "XDATA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0cf0ee63788a0849fe5297f3407f701e122cc023.png"
-		}
-	},
-	{
-		"address": "0x0cf75471b0fbf76a315a75ebda6600ab92fdc924",
-		"data": {
-			"name": "DeathWolf",
-			"symbol": "DTH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0cf75471b0fbf76a315a75ebda6600ab92fdc924.png"
 		}
 	},
 	{
@@ -2233,21 +2638,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0d229c3ff2d76e4b88ca4f9d3d3353f4545ec53f",
-		"data": {
-			"name": "Sheikh Inu",
-			"symbol": "SHINU",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0d229c3ff2d76e4b88ca4f9d3d3353f4545ec53f.png"
-		}
-	},
-	{
 		"address": "0x0d248ce39e26fb00f911fb1e7a45a00d8c94341c",
 		"data": {
 			"name": "Butter",
 			"symbol": "BUTTER",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0d248ce39e26fb00f911fb1e7a45a00d8c94341c.png"
+		}
+	},
+	{
+		"address": "0x0d3bd40758df4f79aad316707fcb809cd4815ffe",
+		"data": {
+			"name": "21 co Wrapped XRP",
+			"symbol": "21XRP",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x0d3bd40758df4f79aad316707fcb809cd4815ffe.png"
+		}
+	},
+	{
+		"address": "0x0d3cbed3f69ee050668adf3d9ea57241cba33a2b",
+		"data": {
+			"name": "PlayDapp",
+			"symbol": "PDA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0d3cbed3f69ee050668adf3d9ea57241cba33a2b.png"
 		}
 	},
 	{
@@ -2269,12 +2683,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0d58df0929b6baf8ed231f3fa672f0e5dcd665f7",
+		"address": "0x0d827543d120f49f0614ca1cb2fa18f96ac817f0",
 		"data": {
-			"name": "BEER",
-			"symbol": "BEER",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x0d58df0929b6baf8ed231f3fa672f0e5dcd665f7.png"
+			"name": "Samurai Bot",
+			"symbol": "SAMBO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0d827543d120f49f0614ca1cb2fa18f96ac817f0.png"
+		}
+	},
+	{
+		"address": "0x0d85693b4cb4b8bb4d407e33ba1d9de861db80ca",
+		"data": {
+			"name": "Privago AI",
+			"symbol": "PVGO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0d85693b4cb4b8bb4d407e33ba1d9de861db80ca.png"
 		}
 	},
 	{
@@ -2314,21 +2737,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0d99482bb2c436b7183e7bd474cd65fa8711c8ec",
-		"data": {
-			"name": "NEO PEPE",
-			"symbol": "NEPE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0d99482bb2c436b7183e7bd474cd65fa8711c8ec.png"
-		}
-	},
-	{
 		"address": "0x0db8d8b76bc361bacbb72e2c491e06085a97ab31",
 		"data": {
 			"name": "IQeon",
 			"symbol": "IQN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0db8d8b76bc361bacbb72e2c491e06085a97ab31.png"
+		}
+	},
+	{
+		"address": "0x0dcee5f694e492f0dd842a7fbe5bed4c6e4665a6",
+		"data": {
+			"name": "Catboy",
+			"symbol": "CATBOY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0dcee5f694e492f0dd842a7fbe5bed4c6e4665a6.png"
 		}
 	},
 	{
@@ -2350,6 +2773,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0e13914f4fe838e96346ce42f588193eb17d92b6",
+		"data": {
+			"name": "Lemon Terminal",
+			"symbol": "LEMON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0e13914f4fe838e96346ce42f588193eb17d92b6.png"
+		}
+	},
+	{
+		"address": "0x0e186357c323c806c1efdad36d217f7a54b63d18",
+		"data": {
+			"name": "Curio Gas Token",
+			"symbol": "CGT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0e186357c323c806c1efdad36d217f7a54b63d18.png"
+		}
+	},
+	{
 		"address": "0x0e192d382a36de7011f795acc4391cd302003606",
 		"data": {
 			"name": "Futureswap",
@@ -2368,12 +2809,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0e2ef8aecb3c01ad5d596f1b67134e178199984d",
+		"address": "0x0e4188bda0a92ff4fff62392211b076c0119198d",
 		"data": {
-			"name": "LandBox",
-			"symbol": "LAND",
+			"name": "0xSnipeProAi",
+			"symbol": "0XSPAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0e2ef8aecb3c01ad5d596f1b67134e178199984d.png"
+			"logoUri": "/images/tokens/0x0e4188bda0a92ff4fff62392211b076c0119198d.png"
+		}
+	},
+	{
+		"address": "0x0e4e7f2aecf408aff4f82f067677050239bdc58a",
+		"data": {
+			"name": "Fungify Token",
+			"symbol": "FUNG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0e4e7f2aecf408aff4f82f067677050239bdc58a.png"
+		}
+	},
+	{
+		"address": "0x0e573ce2736dd9637a0b21058352e1667925c7a8",
+		"data": {
+			"name": "Verified USD",
+			"symbol": "USDV",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x0e573ce2736dd9637a0b21058352e1667925c7a8.png"
 		}
 	},
 	{
@@ -2386,6 +2845,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0e6641e62baa87d77e01ab1c7e9d2f323f26942b",
+		"data": {
+			"name": "AssetLink",
+			"symbol": "ASET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0e6641e62baa87d77e01ab1c7e9d2f323f26942b.png"
+		}
+	},
+	{
+		"address": "0x0e6d98de664a28a32b584c72e606ff7dea898dc6",
+		"data": {
+			"name": "Produce AI",
+			"symbol": "PRAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0e6d98de664a28a32b584c72e606ff7dea898dc6.png"
+		}
+	},
+	{
 		"address": "0x0e6fa9c050c8a707e7f56a2b3695665e4f9eac9b",
 		"data": {
 			"name": "Robo Inu Finance",
@@ -2395,12 +2872,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0e8d2eb7d6bdf28393c25a1966385ad32ff0259a",
+		"address": "0x0e74a58557555cb44415df5a960d9eb14e96142a",
 		"data": {
-			"name": "Streamer Inu",
-			"symbol": "STREAMERINU",
+			"name": "VegasBot",
+			"symbol": "VEGAS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x0e8d2eb7d6bdf28393c25a1966385ad32ff0259a.png"
+			"logoUri": "/images/tokens/0x0e74a58557555cb44415df5a960d9eb14e96142a.png"
 		}
 	},
 	{
@@ -2431,21 +2908,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0eb1e72204c42de2263d37db606fb25c21d649b8",
+		"data": {
+			"name": "Astro X",
+			"symbol": "ASTROX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0eb1e72204c42de2263d37db606fb25c21d649b8.png"
+		}
+	},
+	{
 		"address": "0x0eb3032bcac2be1fa95e296442f225edb80fc3cd",
 		"data": {
 			"name": "Aster",
 			"symbol": "ATC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0eb3032bcac2be1fa95e296442f225edb80fc3cd.png"
-		}
-	},
-	{
-		"address": "0x0ebb614204e47c09b6c3feb9aaecad8ee060e23e",
-		"data": {
-			"name": "Cryptopay",
-			"symbol": "CPAY",
-			"decimals": 0,
-			"logoUri": "/images/tokens/0x0ebb614204e47c09b6c3feb9aaecad8ee060e23e.png"
 		}
 	},
 	{
@@ -2469,8 +2946,8 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x0ec78ed49c2d27b315d462d43b5bab94d2c79bf8",
 		"data": {
-			"name": "Zero Tech",
-			"symbol": "ZERO",
+			"name": "MEOW",
+			"symbol": "MEOW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0ec78ed49c2d27b315d462d43b5bab94d2c79bf8.png"
 		}
@@ -2485,21 +2962,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0ede75b5f548e0d37f494368f4fa4982b6d0630a",
+		"address": "0x0ee27a1f959ea7ea2aa171a7e2e48fd9f17bb8eb",
 		"data": {
-			"name": "Meg4mint",
-			"symbol": "MEG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0ede75b5f548e0d37f494368f4fa4982b6d0630a.png"
+			"name": "First GROK AI",
+			"symbol": "GROK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0ee27a1f959ea7ea2aa171a7e2e48fd9f17bb8eb.png"
 		}
 	},
 	{
-		"address": "0x0edf9bc41bbc1354c70e2107f80c42cae7fbbca8",
+		"address": "0x0f0bbaf936f7ada2aca5b80bed7b655758d66950",
 		"data": {
-			"name": "Instrumental Finance",
-			"symbol": "STRM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0edf9bc41bbc1354c70e2107f80c42cae7fbbca8.png"
+			"name": "WIFPEPEMOGINU",
+			"symbol": "WIFPEPEMOG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0f0bbaf936f7ada2aca5b80bed7b655758d66950.png"
 		}
 	},
 	{
@@ -2509,6 +2986,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "JEUR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0f17bc9a994b87b5225cfb6a2cd4d667adb4f20b.png"
+		}
+	},
+	{
+		"address": "0x0f17eeccc84739b9450c88de0429020e2dec05eb",
+		"data": {
+			"name": "Otacon AI",
+			"symbol": "OTACON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0f17eeccc84739b9450c88de0429020e2dec05eb.png"
 		}
 	},
 	{
@@ -2539,12 +3025,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0f3b904172f937748af7f09353b016219a14562c",
+		"data": {
+			"name": "Polygon Star",
+			"symbol": "POS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0f3b904172f937748af7f09353b016219a14562c.png"
+		}
+	},
+	{
+		"address": "0x0f4dc5ada841cf5a7652e52d04ae786070cc9472",
+		"data": {
+			"name": "Aktionariat Green Monkey Club AG Tokeni",
+			"symbol": "GMCS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x0f4dc5ada841cf5a7652e52d04ae786070cc9472.png"
+		}
+	},
+	{
 		"address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
 		"data": {
 			"name": "DAO Maker",
 			"symbol": "DAO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x0f51bb10119727a7e5ea3538074fb341f56b09ad.png"
+		}
+	},
+	{
+		"address": "0x0f59bfdd1d95a3736d2e219f905ae9b2e69c6638",
+		"data": {
+			"name": "KIWI DEPLOYER BOT",
+			"symbol": "KIWI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x0f59bfdd1d95a3736d2e219f905ae9b2e69c6638.png"
+		}
+	},
+	{
+		"address": "0x0f5c78f152152dda52a2ea45b0a8c10733010748",
+		"data": {
+			"name": "XOX Labs",
+			"symbol": "XOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0f5c78f152152dda52a2ea45b0a8c10733010748.png"
 		}
 	},
 	{
@@ -2575,6 +3097,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x0f76d32cdccdcbd602a55af23eaf58fd1ee17245",
+		"data": {
+			"name": "Backed ERNA   Bond",
+			"symbol": "BERNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x0f76d32cdccdcbd602a55af23eaf58fd1ee17245.png"
+		}
+	},
+	{
 		"address": "0x0f7b3f5a8fed821c5eb60049538a548db2d479ce",
 		"data": {
 			"name": "AirTor Protocol",
@@ -2599,15 +3130,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XMX",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x0f8c45b896784a1e408526b9300519ef8660209c.png"
-		}
-	},
-	{
-		"address": "0x0fbe9cc858d7ad6e246fe9d01aed22abd2a66f0b",
-		"data": {
-			"name": "Danat Coin",
-			"symbol": "DNC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0fbe9cc858d7ad6e246fe9d01aed22abd2a66f0b.png"
 		}
 	},
 	{
@@ -2656,15 +3178,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x0ff534801e98a4976246d1f418e441783fc9aa15",
-		"data": {
-			"name": "Future AI",
-			"symbol": "FUTURE-AI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x0ff534801e98a4976246d1f418e441783fc9aa15.png"
-		}
-	},
-	{
 		"address": "0x0ff5a8451a839f5f0bb3562689d9a44089738d11",
 		"data": {
 			"name": "Dopex Rebate",
@@ -2710,21 +3223,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x102203517ce35ac5cab9a2cda80df03f26c7419b",
-		"data": {
-			"name": "SUMOTEX",
-			"symbol": "SMTX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x102203517ce35ac5cab9a2cda80df03f26c7419b.png"
-		}
-	},
-	{
 		"address": "0x1028083026fe1e8e1e79170ceae0edbad07b052d",
 		"data": {
 			"name": "MonkCoin",
 			"symbol": "MONK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1028083026fe1e8e1e79170ceae0edbad07b052d.png"
+		}
+	},
+	{
+		"address": "0x102c776ddb30c754ded4fdcc77a19230a60d4e4f",
+		"data": {
+			"name": "Floor Protocol",
+			"symbol": "FLC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x102c776ddb30c754ded4fdcc77a19230a60d4e4f.png"
+		}
+	},
+	{
+		"address": "0x102dc1840f0c3c179670f21fa63597e82df34e60",
+		"data": {
+			"name": "Virtucloud",
+			"symbol": "VIRTU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x102dc1840f0c3c179670f21fa63597e82df34e60.png"
+		}
+	},
+	{
+		"address": "0x102fa93ef3d2dc5b0b9ed3e7b3bf832796cb7b95",
+		"data": {
+			"name": "Boss Blockchain",
+			"symbol": "BBC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x102fa93ef3d2dc5b0b9ed3e7b3bf832796cb7b95.png"
 		}
 	},
 	{
@@ -2791,6 +3322,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x10703ca5e253306e2ababd68e963198be8887c81",
+		"data": {
+			"name": "0xScans",
+			"symbol": "SCAN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x10703ca5e253306e2ababd68e963198be8887c81.png"
+		}
+	},
+	{
 		"address": "0x107c4504cd79c5d2696ea0030a8dd4e92601b82e",
 		"data": {
 			"name": "Bloom",
@@ -2809,6 +3349,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x109548dc14c0b8d7908a168202a4ab08bb449613",
+		"data": {
+			"name": "Cloud Binary",
+			"symbol": "CBY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x109548dc14c0b8d7908a168202a4ab08bb449613.png"
+		}
+	},
+	{
 		"address": "0x10bc518c32fbae5e38ecb50a612160571bd81e44",
 		"data": {
 			"name": "VeraOne",
@@ -2818,12 +3367,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x10d07423fde4747542e76b7199b98a0d03cf465b",
+		"address": "0x10f2cf6ef155460c5b716080eb57928652867f2e",
 		"data": {
-			"name": "Shrooms",
-			"symbol": "SHROOMS",
+			"name": "Alan Musk",
+			"symbol": "MUSK",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x10d07423fde4747542e76b7199b98a0d03cf465b.png"
+			"logoUri": "/images/tokens/0x10f2cf6ef155460c5b716080eb57928652867f2e.png"
 		}
 	},
 	{
@@ -2863,12 +3412,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1123d17fcf93ed2b41440317503346a0fdfe3ed7",
+		"data": {
+			"name": "Prometheum Prodigy",
+			"symbol": "PMPY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1123d17fcf93ed2b41440317503346a0fdfe3ed7.png"
+		}
+	},
+	{
 		"address": "0x112b08621e27e10773ec95d250604a041f36c582",
 		"data": {
 			"name": "Wrapped Kaspa",
 			"symbol": "KAS",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x112b08621e27e10773ec95d250604a041f36c582.png"
+		}
+	},
+	{
+		"address": "0x113c65707c530502fef959308197353f6df97867",
+		"data": {
+			"name": "The Joker Coin",
+			"symbol": "JOKER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x113c65707c530502fef959308197353f6df97867.png"
 		}
 	},
 	{
@@ -2935,21 +3502,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x11f9e9b3c539368bea16dde2108b748a9672d714",
-		"data": {
-			"name": "Lint",
-			"symbol": "LINT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x11f9e9b3c539368bea16dde2108b748a9672d714.png"
-		}
-	},
-	{
 		"address": "0x120a3879da835a5af037bb2d1456bebd6b54d4ba",
 		"data": {
 			"name": "Revest Finance",
 			"symbol": "RVST",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x120a3879da835a5af037bb2d1456bebd6b54d4ba.png"
+		}
+	},
+	{
+		"address": "0x122303734c898e9d233affc234271f04e42e77ad",
+		"data": {
+			"name": "Maxwell the spinning cat",
+			"symbol": "CAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x122303734c898e9d233affc234271f04e42e77ad.png"
+		}
+	},
+	{
+		"address": "0x12272c264ca580d2190b16db14cea3815f52060c",
+		"data": {
+			"name": "GROKBOT",
+			"symbol": "GROKBOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x12272c264ca580d2190b16db14cea3815f52060c.png"
+		}
+	},
+	{
+		"address": "0x1234567461d3f8db7496581774bd869c83d51c93",
+		"data": {
+			"name": "BitClave",
+			"symbol": "CAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1234567461d3f8db7496581774bd869c83d51c93.png"
+		}
+	},
+	{
+		"address": "0x1236ea13c7339287cd00ab196aaa8217006b04dc",
+		"data": {
+			"name": "Epic League",
+			"symbol": "EPL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1236ea13c7339287cd00ab196aaa8217006b04dc.png"
 		}
 	},
 	{
@@ -2962,12 +3556,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1250b98cbde9f99f4c42dcdacee193221f17eb50",
+		"data": {
+			"name": "ArtCoin",
+			"symbol": "AC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1250b98cbde9f99f4c42dcdacee193221f17eb50.png"
+		}
+	},
+	{
+		"address": "0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870",
+		"data": {
+			"name": "NodeAI",
+			"symbol": "GPU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870.png"
+		}
+	},
+	{
+		"address": "0x12652c6d93fdb6f4f37d48a8687783c782bb0d10",
+		"data": {
+			"name": "Entangle",
+			"symbol": "NGL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x12652c6d93fdb6f4f37d48a8687783c782bb0d10.png"
+		}
+	},
+	{
 		"address": "0x128ad1ad707c3b36e6f2ac9739f9df7516fdb592",
 		"data": {
 			"name": "alfa society",
 			"symbol": "ALFA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x128ad1ad707c3b36e6f2ac9739f9df7516fdb592.png"
+		}
+	},
+	{
+		"address": "0x1294f4183763743c7c9519bec51773fb3acd78fd",
+		"data": {
+			"name": "Fideum",
+			"symbol": "FI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1294f4183763743c7c9519bec51773fb3acd78fd.png"
 		}
 	},
 	{
@@ -2980,12 +3610,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x12a7530d6f9e1a9b0351d78ab711f7c2c033873a",
+		"address": "0x12996c7b23c4012149bf9f5663ff9aa08a9cf2e4",
 		"data": {
-			"name": "Hoot",
-			"symbol": "HOOT",
+			"name": "White Yorkshire",
+			"symbol": "WSH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x12a7530d6f9e1a9b0351d78ab711f7c2c033873a.png"
+			"logoUri": "/images/tokens/0x12996c7b23c4012149bf9f5663ff9aa08a9cf2e4.png"
 		}
 	},
 	{
@@ -2995,15 +3625,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "HISAND33",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x12aef5c60c2c86c8ecd3079f22f285f326371340.png"
-		}
-	},
-	{
-		"address": "0x12b6893ce26ea6341919fe289212ef77e51688c8",
-		"data": {
-			"name": "Tamadoge",
-			"symbol": "TAMA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x12b6893ce26ea6341919fe289212ef77e51688c8.png"
 		}
 	},
 	{
@@ -3034,21 +3655,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x12e951934246186f50146235d541d3bd1d463e4d",
+		"address": "0x12ed0641242e4c6c220e3ca8f616e9d5470ac99a",
 		"data": {
-			"name": "Crypto International",
-			"symbol": "CRI",
+			"name": "Earn Network",
+			"symbol": "EARN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x12e951934246186f50146235d541d3bd1d463e4d.png"
+			"logoUri": "/images/tokens/0x12ed0641242e4c6c220e3ca8f616e9d5470ac99a.png"
 		}
 	},
 	{
-		"address": "0x12f649a9e821f90bb143089a6e56846945892ffb",
+		"address": "0x12ef10a4fc6e1ea44b4ca9508760ff51c647bb71",
 		"data": {
-			"name": "Hyprr",
-			"symbol": "UDOO",
+			"name": "Restake Finance",
+			"symbol": "RSTK",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x12f649a9e821f90bb143089a6e56846945892ffb.png"
+			"logoUri": "/images/tokens/0x12ef10a4fc6e1ea44b4ca9508760ff51c647bb71.png"
 		}
 	},
 	{
@@ -3070,6 +3691,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1317d2a56520e64bfe3c2ecd89b6a8b3fb1d6a08",
+		"data": {
+			"name": "HaiperAI",
+			"symbol": "HAIPERAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1317d2a56520e64bfe3c2ecd89b6a8b3fb1d6a08.png"
+		}
+	},
+	{
 		"address": "0x1337def16f9b486faed0293eb623dc8395dfe46a",
 		"data": {
 			"name": "ARMOR",
@@ -3088,12 +3718,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1353575d76444a11730d2f286e6303990eb1e357",
+		"address": "0x134359b7c852c82e4ebdd16a61020e6b81dd6a6b",
 		"data": {
-			"name": "Kek Guru",
-			"symbol": "KEK",
+			"name": "Bet Lounge",
+			"symbol": "BETZ",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1353575d76444a11730d2f286e6303990eb1e357.png"
+			"logoUri": "/images/tokens/0x134359b7c852c82e4ebdd16a61020e6b81dd6a6b.png"
+		}
+	},
+	{
+		"address": "0x13630da53ac2f3004e6e2a127546935ad932f92f",
+		"data": {
+			"name": "Wagyu",
+			"symbol": "WAGYU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x13630da53ac2f3004e6e2a127546935ad932f92f.png"
+		}
+	},
+	{
+		"address": "0x1376a81fe3ee7d0e431f1ac24286b00f3ccf44e7",
+		"data": {
+			"name": "Welle",
+			"symbol": "WELLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1376a81fe3ee7d0e431f1ac24286b00f3ccf44e7.png"
+		}
+	},
+	{
+		"address": "0x137ddb47ee24eaa998a535ab00378d6bfa84f893",
+		"data": {
+			"name": "Radiant Capital",
+			"symbol": "RDNT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x137ddb47ee24eaa998a535ab00378d6bfa84f893.png"
 		}
 	},
 	{
@@ -3124,12 +3781,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x13c4aa5c3f5bb1109c267e520a87c89684d3e73c",
+		"data": {
+			"name": "Verify Authentificator Bot",
+			"symbol": "VERIFY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x13c4aa5c3f5bb1109c267e520a87c89684d3e73c.png"
+		}
+	},
+	{
+		"address": "0x13c4b558f6663329c13c838cc0b5b796f7fc0531",
+		"data": {
+			"name": "Horizon",
+			"symbol": "HRZN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x13c4b558f6663329c13c838cc0b5b796f7fc0531.png"
+		}
+	},
+	{
 		"address": "0x13dbd5394c2c7e4bdb85b1838286faa66532a262",
 		"data": {
 			"name": "Sun Tzu",
 			"symbol": "TZU",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x13dbd5394c2c7e4bdb85b1838286faa66532a262.png"
+		}
+	},
+	{
+		"address": "0x13f7b4581df403542286563c2f762077b2a368da",
+		"data": {
+			"name": "Cloak",
+			"symbol": "CLOAK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x13f7b4581df403542286563c2f762077b2a368da.png"
 		}
 	},
 	{
@@ -3160,21 +3844,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1456688345527be1f37e9e627da0837d6f08c925",
+		"address": "0x142f4330ab3eda738cb373791c2e99cc325bed20",
 		"data": {
-			"name": "USDP Stablecoin",
-			"symbol": "USDP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1456688345527be1f37e9e627da0837d6f08c925.png"
+			"name": "Secured On Blockchain",
+			"symbol": "SOB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x142f4330ab3eda738cb373791c2e99cc325bed20.png"
 		}
 	},
 	{
-		"address": "0x146d8d942048ad517479c9bab1788712af180fde",
+		"address": "0x144805be43c48ef85435c94e0da4cb4efb1ab4f3",
 		"data": {
-			"name": "MIB Coin",
-			"symbol": "MIB",
+			"name": "MetaBlox",
+			"symbol": "MBX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x146d8d942048ad517479c9bab1788712af180fde.png"
+			"logoUri": "/images/tokens/0x144805be43c48ef85435c94e0da4cb4efb1ab4f3.png"
+		}
+	},
+	{
+		"address": "0x146ae546b7a2d676e5ed9e5d92647c8ddb8e2388",
+		"data": {
+			"name": "Grand Theft Degens",
+			"symbol": "GTD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x146ae546b7a2d676e5ed9e5d92647c8ddb8e2388.png"
 		}
 	},
 	{
@@ -3196,12 +3889,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1494951b4656075e473843161c4ff0201a235cec",
+		"address": "0x148255a3b10666d9788ec48bc61ea3e48974bf2c",
 		"data": {
-			"name": "soooooooooooooooooooooooooooooooooooooo",
-			"symbol": "SOOOOOOOOO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x1494951b4656075e473843161c4ff0201a235cec.png"
+			"name": "Decentralized Music Chain",
+			"symbol": "DMCC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x148255a3b10666d9788ec48bc61ea3e48974bf2c.png"
 		}
 	},
 	{
@@ -3214,10 +3907,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1495bc9e44af1f8bcb62278d2bec4540cf0c05ea",
+		"data": {
+			"name": "Zero1 Labs",
+			"symbol": "DEAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1495bc9e44af1f8bcb62278d2bec4540cf0c05ea.png"
+		}
+	},
+	{
 		"address": "0x149cac67f1cd5d80651e7c9bb359ec285d821a05",
 		"data": {
 			"name": "Minterest",
-			"symbol": "MNT",
+			"symbol": "MINTY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x149cac67f1cd5d80651e7c9bb359ec285d821a05.png"
 		}
@@ -3232,12 +3934,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x14a32f050facf226ec60882398a9bf36d91dbac2",
+		"address": "0x14c3f2ce251eb9385839d291c40bf085f3c6f266",
 		"data": {
-			"name": "Kyoko",
-			"symbol": "KYOKO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x14a32f050facf226ec60882398a9bf36d91dbac2.png"
+			"name": "Runes Glyphs",
+			"symbol": "RG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x14c3f2ce251eb9385839d291c40bf085f3c6f266.png"
 		}
 	},
 	{
@@ -3247,15 +3949,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KTT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x14cc8dfaf2258e1b8b2869300dba1b734dc0fe43.png"
-		}
-	},
-	{
-		"address": "0x14d4c7a788908fbbbd3c1a4bac4aff86fe1573eb",
-		"data": {
-			"name": "Tairyo Inu",
-			"symbol": "TAIRYO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x14d4c7a788908fbbbd3c1a4bac4aff86fe1573eb.png"
 		}
 	},
 	{
@@ -3310,15 +4003,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RAID",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x154e35c2b0024b3e079c5c5e4fc31c979c189ccb.png"
-		}
-	},
-	{
-		"address": "0x155040625d7ae3e9cada9a73e3e44f76d3ed1409",
-		"data": {
-			"name": "Revomon  OLD ",
-			"symbol": "REVO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x155040625d7ae3e9cada9a73e3e44f76d3ed1409.png"
 		}
 	},
 	{
@@ -3421,21 +4105,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x15eabb7500e44b7fdb6e4051ca8deca430cf9fb8",
+		"address": "0x15e5d3deff5c3a13adca4f313ff44735881ebd6c",
 		"data": {
-			"name": "Dexfin",
-			"symbol": "DXF",
+			"name": "Meta Art Connection",
+			"symbol": "MAC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x15eabb7500e44b7fdb6e4051ca8deca430cf9fb8.png"
+			"logoUri": "/images/tokens/0x15e5d3deff5c3a13adca4f313ff44735881ebd6c.png"
 		}
 	},
 	{
-		"address": "0x15f0eedf9ce24fc4b6826e590a8292ce5524a1da",
+		"address": "0x15e6e0d4ebeac120f9a97e71faa6a0235b85ed12",
 		"data": {
-			"name": "Decentralized Nations",
-			"symbol": "DENA",
+			"name": "SatoshiVM",
+			"symbol": "SAVM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x15f0eedf9ce24fc4b6826e590a8292ce5524a1da.png"
+			"logoUri": "/images/tokens/0x15e6e0d4ebeac120f9a97e71faa6a0235b85ed12.png"
 		}
 	},
 	{
@@ -3448,12 +4132,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x15f73a3ab443ee6ebf36c605c7868159ce5d028c",
+		"data": {
+			"name": "SmartsetToken",
+			"symbol": "SST",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x15f73a3ab443ee6ebf36c605c7868159ce5d028c.png"
+		}
+	},
+	{
 		"address": "0x15f74458ae0bfdaa1a96ca1aa779d715cc1eefe4",
 		"data": {
 			"name": "Grai",
 			"symbol": "GRAI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x15f74458ae0bfdaa1a96ca1aa779d715cc1eefe4.png"
+		}
+	},
+	{
+		"address": "0x15fa5d3dbd11a831b72b92c1705bc9f801e233cb",
+		"data": {
+			"name": "PointPay",
+			"symbol": "PXP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x15fa5d3dbd11a831b72b92c1705bc9f801e233cb.png"
 		}
 	},
 	{
@@ -3466,12 +4168,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x162433c934aa74ba147e05150b1206b2c922f71d",
+		"data": {
+			"name": "Creso  OLD ",
+			"symbol": "CRE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x162433c934aa74ba147e05150b1206b2c922f71d.png"
+		}
+	},
+	{
+		"address": "0x162bb2bb5fb03976a69dd25bb9afce6140db1433",
+		"data": {
+			"name": "dog",
+			"symbol": "DOG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x162bb2bb5fb03976a69dd25bb9afce6140db1433.png"
+		}
+	},
+	{
 		"address": "0x163f8c2467924be0ae7b5347228cabf260318753",
 		"data": {
 			"name": "Worldcoin",
 			"symbol": "WLD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x163f8c2467924be0ae7b5347228cabf260318753.png"
+		}
+	},
+	{
+		"address": "0x1650978997e5898db8eeffdb7c530bb223b71c79",
+		"data": {
+			"name": "Flashpad Token",
+			"symbol": "FLASH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1650978997e5898db8eeffdb7c530bb223b71c79.png"
 		}
 	},
 	{
@@ -3493,12 +4222,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x16756ec1deb89a2106c35e0b586a799d0a61837d",
+		"address": "0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc",
 		"data": {
-			"name": "Chedda",
-			"symbol": "CHEDDA",
+			"name": "LayerAI",
+			"symbol": "LAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x16756ec1deb89a2106c35e0b586a799d0a61837d.png"
+			"logoUri": "/images/tokens/0x168e209d7b2f58f1f24b8ae7b7d35e662bbf11cc.png"
 		}
 	},
 	{
@@ -3538,6 +4267,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x16c22a91c705ec3c2d5945dbe2aca37924f1d2ed",
+		"data": {
+			"name": "Elon s Pet Fish ERIC",
+			"symbol": "ERIC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x16c22a91c705ec3c2d5945dbe2aca37924f1d2ed.png"
+		}
+	},
+	{
 		"address": "0x16cc8367055ae7e9157dbcb9d86fd6ce82522b31",
 		"data": {
 			"name": "Voxel X Network",
@@ -3565,12 +4303,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x16f78145ad0b9af58747e9a97ebd99175378bd3d",
+		"address": "0x170dec83c7753aaad20c01a0016b5a2e143990d4",
 		"data": {
-			"name": "GroupDao",
-			"symbol": "GDO",
+			"name": "Wigger",
+			"symbol": "WIGGER",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x16f78145ad0b9af58747e9a97ebd99175378bd3d.png"
+			"logoUri": "/images/tokens/0x170dec83c7753aaad20c01a0016b5a2e143990d4.png"
+		}
+	},
+	{
+		"address": "0x171120219d3223e008558654ec3254a0f206edb2",
+		"data": {
+			"name": "XX Network",
+			"symbol": "XX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x171120219d3223e008558654ec3254a0f206edb2.png"
 		}
 	},
 	{
@@ -3592,6 +4339,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x174c47d6a4e548ed2b7d369dc0ffb2e60a6ac0f8",
+		"data": {
+			"name": "Amulet Protocol",
+			"symbol": "AMU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x174c47d6a4e548ed2b7d369dc0ffb2e60a6ac0f8.png"
+		}
+	},
+	{
+		"address": "0x176bc22e1855cd5cf5a840081c6c5b92b55e2210",
+		"data": {
+			"name": "Gambex",
+			"symbol": "GBE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x176bc22e1855cd5cf5a840081c6c5b92b55e2210.png"
+		}
+	},
+	{
+		"address": "0x17729f7ffddd4ed480cf4cfb1668ef90d1e6a24e",
+		"data": {
+			"name": "EventsX",
+			"symbol": "EVEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x17729f7ffddd4ed480cf4cfb1668ef90d1e6a24e.png"
+		}
+	},
+	{
 		"address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
 		"data": {
 			"name": "Numeraire",
@@ -3610,6 +4384,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x177c3973b16c16fb5d934ca92b6e6afb03383268",
+		"data": {
+			"name": "Potion 404",
+			"symbol": "P404",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x177c3973b16c16fb5d934ca92b6e6afb03383268.png"
+		}
+	},
+	{
 		"address": "0x177d39ac676ed1c67a2b268ad7f1e58826e5b0af",
 		"data": {
 			"name": "Blox",
@@ -3619,12 +4402,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1782bb88ae0aa07031bc05bbe2bd4150c9da223a",
+		"data": {
+			"name": "Clickart ai",
+			"symbol": "CLICKART",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1782bb88ae0aa07031bc05bbe2bd4150c9da223a.png"
+		}
+	},
+	{
 		"address": "0x17837004ea685690b32dbead02a274ec4333a26a",
 		"data": {
 			"name": "Bear Inu",
 			"symbol": "BEAR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x17837004ea685690b32dbead02a274ec4333a26a.png"
+		}
+	},
+	{
+		"address": "0x1783d3979038d986f3959adf7dbfc527f42c4269",
+		"data": {
+			"name": "Utopia Bot",
+			"symbol": "UB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1783d3979038d986f3959adf7dbfc527f42c4269.png"
 		}
 	},
 	{
@@ -3655,12 +4456,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x179cd91631d96e8fafee6a744eac6ffdbb923520",
+		"address": "0x179f782d7fbe745f40b20e0c7dbb6205d43fa4b9",
 		"data": {
-			"name": "IxiCash",
-			"symbol": "IXI",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x179cd91631d96e8fafee6a744eac6ffdbb923520.png"
+			"name": "Inspire AI",
+			"symbol": "INSP",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x179f782d7fbe745f40b20e0c7dbb6205d43fa4b9.png"
 		}
 	},
 	{
@@ -3673,12 +4474,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x17bb9f3572d0c69e017dcd048ec7304eecc981c8",
+		"address": "0x17be403329ced6df4fdb8278f039bc6ffd3d537f",
 		"data": {
-			"name": "Mr Potato Token",
-			"symbol": "MRPOTATO",
+			"name": "EMMI GG",
+			"symbol": "EMMI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x17bb9f3572d0c69e017dcd048ec7304eecc981c8.png"
+			"logoUri": "/images/tokens/0x17be403329ced6df4fdb8278f039bc6ffd3d537f.png"
+		}
+	},
+	{
+		"address": "0x17c50d62e6e8d20d2dc18e9ad79c43263d0720d9",
+		"data": {
+			"name": "Not Financial Advice",
+			"symbol": "NFAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x17c50d62e6e8d20d2dc18e9ad79c43263d0720d9.png"
 		}
 	},
 	{
@@ -3691,21 +4501,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a",
+		"address": "0x17f7fea5f87d0f289d9827be78fc96027f8ed724",
 		"data": {
-			"name": "Revolution Populi",
-			"symbol": "RVP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a.png"
-		}
-	},
-	{
-		"address": "0x17f8e6694080c07d7414c918dd9b9c32a2981ea1",
-		"data": {
-			"name": "Ascend",
-			"symbol": "ASC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x17f8e6694080c07d7414c918dd9b9c32a2981ea1.png"
+			"name": "Aktionariat EHC Kloten Sport AG Tokeniz",
+			"symbol": "EHCK",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x17f7fea5f87d0f289d9827be78fc96027f8ed724.png"
 		}
 	},
 	{
@@ -3727,12 +4528,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x183015a9ba6ff60230fdeadc3f43b3d788b13e21",
+		"address": "0x1814b8a33446549ed5766ab3250b670498699bd6",
 		"data": {
-			"name": "R",
-			"symbol": "R",
+			"name": "InnoviaTrust",
+			"symbol": "INVA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x183015a9ba6ff60230fdeadc3f43b3d788b13e21.png"
+			"logoUri": "/images/tokens/0x1814b8a33446549ed5766ab3250b670498699bd6.png"
+		}
+	},
+	{
+		"address": "0x182c00807f2d4904d02d5e0d179600ff6a3ae67c",
+		"data": {
+			"name": "BTEX",
+			"symbol": "BTEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x182c00807f2d4904d02d5e0d179600ff6a3ae67c.png"
+		}
+	},
+	{
+		"address": "0x183395dbd0b5e93323a7286d1973150697fffcb3",
+		"data": {
+			"name": "Convex FXN",
+			"symbol": "CVXFXN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x183395dbd0b5e93323a7286d1973150697fffcb3.png"
+		}
+	},
+	{
+		"address": "0x185ece9bc75164f9fc0fbe44738e8dd1863f8464",
+		"data": {
+			"name": "UNODEX",
+			"symbol": "UNDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x185ece9bc75164f9fc0fbe44738e8dd1863f8464.png"
 		}
 	},
 	{
@@ -3751,6 +4579,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TRAVA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x186d0ba3dfc3386c464eecd96a61fbb1e2da00bf.png"
+		}
+	},
+	{
+		"address": "0x186ef81fd8e77eec8bffc3039e7ec41d5fc0b457",
+		"data": {
+			"name": "Inspect",
+			"symbol": "INSP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x186ef81fd8e77eec8bffc3039e7ec41d5fc0b457.png"
 		}
 	},
 	{
@@ -3790,15 +4627,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x189fc141854bfc6146777406d53fbc89f4e70407",
-		"data": {
-			"name": "Ceji",
-			"symbol": "CEJI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x189fc141854bfc6146777406d53fbc89f4e70407.png"
-		}
-	},
-	{
 		"address": "0x18a1ea69a50a85752b7bc204a2c45a95ce6e429d",
 		"data": {
 			"name": "Spice Trade",
@@ -3812,7 +4640,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "EtherNexus",
 			"symbol": "ENXS",
-			"decimals": 18,
+			"decimals": 9,
 			"logoUri": "/images/tokens/0x18a3563c21062897950bb09339c82b9686a35667.png"
 		}
 	},
@@ -3823,24 +4651,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AUDIO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x18aaa7115705e8be94bffebde57af9bfc265b998.png"
-		}
-	},
-	{
-		"address": "0x18b52f500e6d9c8b0455ec3483846d9f8edd7e1b",
-		"data": {
-			"name": "Monopoly Meta",
-			"symbol": "MPM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x18b52f500e6d9c8b0455ec3483846d9f8edd7e1b.png"
-		}
-	},
-	{
-		"address": "0x18b7f4d5d8d1e36af2975be978fbb5438fd3c2a5",
-		"data": {
-			"name": "Betrock",
-			"symbol": "BETROCK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x18b7f4d5d8d1e36af2975be978fbb5438fd3c2a5.png"
 		}
 	},
 	{
@@ -3857,17 +4667,17 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "Monke",
 			"symbol": "MONKE",
-			"decimals": 18,
+			"decimals": 9,
 			"logoUri": "/images/tokens/0x18cc2ba8995c6307e355726244adb023cf00522f.png"
 		}
 	},
 	{
-		"address": "0x18e2190303d6454deaa5ba5529ea0100f99723a3",
+		"address": "0x18e5f92103d1b34623738ee79214b1659f2ee109",
 		"data": {
-			"name": "Trifecta TRIBOT",
-			"symbol": "TRIBOT",
+			"name": "Wrapped CellMates",
+			"symbol": "WCELL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x18e2190303d6454deaa5ba5529ea0100f99723a3.png"
+			"logoUri": "/images/tokens/0x18e5f92103d1b34623738ee79214b1659f2ee109.png"
 		}
 	},
 	{
@@ -3877,6 +4687,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CBG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1900e8b5619a3596745f715d0427fe617c729ba9.png"
+		}
+	},
+	{
+		"address": "0x1901f826dfcbfd9d3138936932366b3493a50893",
+		"data": {
+			"name": "Sphynx Labs",
+			"symbol": "SPHYNX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1901f826dfcbfd9d3138936932366b3493a50893.png"
+		}
+	},
+	{
+		"address": "0x1903be033d3e436dd79a8cf9030675bcf97ab589",
+		"data": {
+			"name": "Be ikta ",
+			"symbol": "BJK",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x1903be033d3e436dd79a8cf9030675bcf97ab589.png"
 		}
 	},
 	{
@@ -3907,48 +4735,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1936ae42b59876192a2e263b3807343c448e3c85",
-		"data": {
-			"name": "Ember",
-			"symbol": "EMBR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1936ae42b59876192a2e263b3807343c448e3c85.png"
-		}
-	},
-	{
-		"address": "0x1936c91190e901b7dd55229a574ae22b58ff498a",
-		"data": {
-			"name": "MEVFree",
-			"symbol": "MEVFREE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1936c91190e901b7dd55229a574ae22b58ff498a.png"
-		}
-	},
-	{
 		"address": "0x196c81385bc536467433014042788eb707703934",
 		"data": {
 			"name": "CryptoTask",
 			"symbol": "CTASK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x196c81385bc536467433014042788eb707703934.png"
-		}
-	},
-	{
-		"address": "0x196f4727526ea7fb1e17b2071b3d8eaa38486988",
-		"data": {
-			"name": "Reserve",
-			"symbol": "RSV",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x196f4727526ea7fb1e17b2071b3d8eaa38486988.png"
-		}
-	},
-	{
-		"address": "0x1977be49c33dfacf6590c16ca9a9cfa0463f663c",
-		"data": {
-			"name": "DoRen",
-			"symbol": "DRE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1977be49c33dfacf6590c16ca9a9cfa0463f663c.png"
 		}
 	},
 	{
@@ -3997,12 +4789,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x19a71179fd41c19f8dfb1f38343482bec0271e3c",
+		"data": {
+			"name": "Spectrum Marketplace",
+			"symbol": "SPEC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x19a71179fd41c19f8dfb1f38343482bec0271e3c.png"
+		}
+	},
+	{
 		"address": "0x19ac2659599fd01c853de846919544276ad26f50",
 		"data": {
 			"name": "Covenant",
 			"symbol": "COVN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x19ac2659599fd01c853de846919544276ad26f50.png"
+		}
+	},
+	{
+		"address": "0x19ae49b9f38dd836317363839a5f6bfbfa7e319a",
+		"data": {
+			"name": "SaitaChain Coin",
+			"symbol": "STC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x19ae49b9f38dd836317363839a5f6bfbfa7e319a.png"
+		}
+	},
+	{
+		"address": "0x19af07b52e5faa0c2b1e11721c52aa23172fe2f5",
+		"data": {
+			"name": "Memes Street",
+			"symbol": "MEMES",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x19af07b52e5faa0c2b1e11721c52aa23172fe2f5.png"
 		}
 	},
 	{
@@ -4015,21 +4834,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x19be3a0f1a6cccc99b3cdc13475613e559be551c",
+		"data": {
+			"name": "FrenBot",
+			"symbol": "MEF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x19be3a0f1a6cccc99b3cdc13475613e559be551c.png"
+		}
+	},
+	{
 		"address": "0x19d97d8fa813ee2f51ad4b4e04ea08baf4dffc28",
 		"data": {
 			"name": "Badger Sett Badger",
 			"symbol": "BBADGER",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x19d97d8fa813ee2f51ad4b4e04ea08baf4dffc28.png"
-		}
-	},
-	{
-		"address": "0x19dd1cc08a8bdb124a3f57a364f1d72b7a19c3ef",
-		"data": {
-			"name": "Rasta Kitty",
-			"symbol": "RAS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x19dd1cc08a8bdb124a3f57a364f1d72b7a19c3ef.png"
 		}
 	},
 	{
@@ -4051,6 +4870,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x19efa7d0fc88ffe461d1091f8cbe56dc2708a84f",
+		"data": {
+			"name": "UNITAO",
+			"symbol": "UNITAO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x19efa7d0fc88ffe461d1091f8cbe56dc2708a84f.png"
+		}
+	},
+	{
+		"address": "0x19f8ed44aa2f5580d44ca6ed2a0e9bb33a08922d",
+		"data": {
+			"name": "X Mass",
+			"symbol": "X-MASS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x19f8ed44aa2f5580d44ca6ed2a0e9bb33a08922d.png"
+		}
+	},
+	{
 		"address": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
 		"data": {
 			"name": "Aave interest bearing AMPL",
@@ -4060,12 +4897,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1a16b2b93b37a7ef5cb0a4f978ced45fe14a5486",
+		"address": "0x1a11ea9d61588d756d9f1014c3cf0d226aedd279",
 		"data": {
-			"name": "Collar",
-			"symbol": "COLLAR",
+			"name": "MILEI Token",
+			"symbol": "MILEI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1a16b2b93b37a7ef5cb0a4f978ced45fe14a5486.png"
+			"logoUri": "/images/tokens/0x1a11ea9d61588d756d9f1014c3cf0d226aedd279.png"
 		}
 	},
 	{
@@ -4078,6 +4915,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1a2eb478fa07125c9935a77b3c03a82470801e30",
+		"data": {
+			"name": "Amino",
+			"symbol": "AMO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1a2eb478fa07125c9935a77b3c03a82470801e30.png"
+		}
+	},
+	{
 		"address": "0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
 		"data": {
 			"name": "DEAPCOIN",
@@ -4087,21 +4933,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1a3a8cf347b2bf5890d3d6a1b981c4f4432c8661",
+		"data": {
+			"name": "Flying Avocado Cat",
+			"symbol": "FAC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1a3a8cf347b2bf5890d3d6a1b981c4f4432c8661.png"
+		}
+	},
+	{
 		"address": "0x1a3cbda3853494acab67648ee59afeb7ec3e9334",
 		"data": {
 			"name": "Collateral Network",
 			"symbol": "COLT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1a3cbda3853494acab67648ee59afeb7ec3e9334.png"
-		}
-	},
-	{
-		"address": "0x1a403e1c96792dfedb8232cf56400eb72ab95acb",
-		"data": {
-			"name": "Saltmarble",
-			"symbol": "SML",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1a403e1c96792dfedb8232cf56400eb72ab95acb.png"
 		}
 	},
 	{
@@ -4131,6 +4977,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1a59eec501745ad6bdfc37558ddacb38ca5a8c48",
+		"data": {
+			"name": "Cosmic",
+			"symbol": "COSMIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1a59eec501745ad6bdfc37558ddacb38ca5a8c48.png"
+		}
+	},
+	{
+		"address": "0x1a6658f40e51b372e593b7d2144c1402d5cf33e8",
+		"data": {
+			"name": "PUBLC",
+			"symbol": "PUBLX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1a6658f40e51b372e593b7d2144c1402d5cf33e8.png"
+		}
+	},
+	{
 		"address": "0x1a7a8bd9106f2b8d977e08582dc7d24c723ab0db",
 		"data": {
 			"name": "AppCoins",
@@ -4142,10 +5006,28 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x1a7e4e63778b4f12a199c062f3efdd288afcbce8",
 		"data": {
-			"name": "agEUR",
-			"symbol": "AGEUR",
+			"name": "EURA",
+			"symbol": "EURA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1a7e4e63778b4f12a199c062f3efdd288afcbce8.png"
+		}
+	},
+	{
+		"address": "0x1a88df1cfe15af22b3c4c783d4e6f7f9e0c1885d",
+		"data": {
+			"name": "Aave stkGHO",
+			"symbol": "STKGHO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1a88df1cfe15af22b3c4c783d4e6f7f9e0c1885d.png"
+		}
+	},
+	{
+		"address": "0x1a8b8e526d093476ac5c488a3ea057f8de9c0dee",
+		"data": {
+			"name": "JEFFWorld Token",
+			"symbol": "JEFF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1a8b8e526d093476ac5c488a3ea057f8de9c0dee.png"
 		}
 	},
 	{
@@ -4178,28 +5060,28 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
 		"data": {
-			"name": "Euro Coin",
-			"symbol": "EUROC",
+			"name": "EURC",
+			"symbol": "EURC",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c.png"
 		}
 	},
 	{
-		"address": "0x1ac1d4991edf93bd2e5594a9b38a9599071afdae",
+		"address": "0x1ae7e1d0ce06364ced9ad58225a1705b3e5db92b",
 		"data": {
-			"name": "Just Clone It",
-			"symbol": "CLONE",
+			"name": "lmeow",
+			"symbol": "LMEOW",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x1ac1d4991edf93bd2e5594a9b38a9599071afdae.png"
+			"logoUri": "/images/tokens/0x1ae7e1d0ce06364ced9ad58225a1705b3e5db92b.png"
 		}
 	},
 	{
-		"address": "0x1af2eaeaf2b1d9dda800861268e6bbb3995a6c3b",
+		"address": "0x1af4f195a8aaa7ffd752c28a13b719b84056f0d6",
 		"data": {
-			"name": "1eco",
-			"symbol": "1ECO",
+			"name": "NFT Track Protocol",
+			"symbol": "NTP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1af2eaeaf2b1d9dda800861268e6bbb3995a6c3b.png"
+			"logoUri": "/images/tokens/0x1af4f195a8aaa7ffd752c28a13b719b84056f0d6.png"
 		}
 	},
 	{
@@ -4230,15 +5112,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1b396cf90504686b7ede2760eebb053d30d1f389",
-		"data": {
-			"name": "Reality Metaverse",
-			"symbol": "RLTM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1b396cf90504686b7ede2760eebb053d30d1f389.png"
-		}
-	},
-	{
 		"address": "0x1b3c515f58857e141a966b33182f2f3feecc10e9",
 		"data": {
 			"name": "USK",
@@ -4257,21 +5130,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1b5036bec1b82d44d52fa953a370b3c6cd9328b5",
+		"address": "0x1b54a6fa1360bd71a0f28f77a1d6fba215d498c3",
 		"data": {
-			"name": "Elan",
-			"symbol": "ELAN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1b5036bec1b82d44d52fa953a370b3c6cd9328b5.png"
+			"name": "Casinu Inu",
+			"symbol": "CASINU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1b54a6fa1360bd71a0f28f77a1d6fba215d498c3.png"
 		}
 	},
 	{
-		"address": "0x1b5e16c5b20fb5ee87c61fe9afe735cca3b21a65",
+		"address": "0x1b6e9c73bee68102d9dd4a2627f97bff4183ab0a",
 		"data": {
-			"name": "Index Coop Large Cap Index",
-			"symbol": "IC21",
+			"name": "OpenLeverage",
+			"symbol": "OLE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1b5e16c5b20fb5ee87c61fe9afe735cca3b21a65.png"
+			"logoUri": "/images/tokens/0x1b6e9c73bee68102d9dd4a2627f97bff4183ab0a.png"
+		}
+	},
+	{
+		"address": "0x1b78ffbc66139466c4a432f763afce8d4c991060",
+		"data": {
+			"name": "Cloudnet Ai",
+			"symbol": "CNAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1b78ffbc66139466c4a432f763afce8d4c991060.png"
 		}
 	},
 	{
@@ -4284,6 +5166,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1ba9843bd4327c6c77011406de5fa8749f7e3479",
+		"data": {
+			"name": "Aave v3 STG",
+			"symbol": "ASTG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1ba9843bd4327c6c77011406de5fa8749f7e3479.png"
+		}
+	},
+	{
+		"address": "0x1bb9b64927e0c5e207c9db4093b3738eef5d8447",
+		"data": {
+			"name": "Vector Reserve",
+			"symbol": "VEC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1bb9b64927e0c5e207c9db4093b3738eef5d8447.png"
+		}
+	},
+	{
+		"address": "0x1bbe973bef3a977fc51cbed703e8ffdefe001fed",
+		"data": {
+			"name": "Portal",
+			"symbol": "PORTAL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1bbe973bef3a977fc51cbed703e8ffdefe001fed.png"
+		}
+	},
+	{
 		"address": "0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb",
 		"data": {
 			"name": "Vow",
@@ -4293,12 +5202,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1bc71108e898586068caba9ee09397a2d275c092",
+		"data": {
+			"name": "Carbon Crates",
+			"symbol": "CARB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1bc71108e898586068caba9ee09397a2d275c092.png"
+		}
+	},
+	{
 		"address": "0x1bd55090b8878630e57fae6ebd11fd61d16dfc9f",
 		"data": {
 			"name": "ArchLoot",
 			"symbol": "ALT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1bd55090b8878630e57fae6ebd11fd61d16dfc9f.png"
+		}
+	},
+	{
+		"address": "0x1bed97cbc3c24a4fb5c069c6e311a967386131f7",
+		"data": {
+			"name": "Yearn Ether",
+			"symbol": "YETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1bed97cbc3c24a4fb5c069c6e311a967386131f7.png"
 		}
 	},
 	{
@@ -4320,12 +5247,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1c11325ec05500dd587ffe0eeb2d4499b5b91e79",
+		"address": "0x1bfce574deff725a3f483c334b790e25c8fa9779",
 		"data": {
-			"name": "EcoTool",
-			"symbol": "ETO",
+			"name": "Tao Ce i",
+			"symbol": "CETI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1c11325ec05500dd587ffe0eeb2d4499b5b91e79.png"
+			"logoUri": "/images/tokens/0x1bfce574deff725a3f483c334b790e25c8fa9779.png"
+		}
+	},
+	{
+		"address": "0x1c001d1c9e8c7b8dc717c714d30b31480ab360f5",
+		"data": {
+			"name": "Gigantix Wallet",
+			"symbol": "GTX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1c001d1c9e8c7b8dc717c714d30b31480ab360f5.png"
+		}
+	},
+	{
+		"address": "0x1c2884c71629c7d4e378ec95d03bfaf9f6fa5afe",
+		"data": {
+			"name": "Bundl Tools",
+			"symbol": "BUNDL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1c2884c71629c7d4e378ec95d03bfaf9f6fa5afe.png"
 		}
 	},
 	{
@@ -4344,15 +5289,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "OKINAMI",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x1c4853ec0d55e420002c5efabc7ed8e0ba7a4121.png"
-		}
-	},
-	{
-		"address": "0x1c48f86ae57291f7686349f12601910bd8d470bb",
-		"data": {
-			"name": "USDK",
-			"symbol": "USDK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1c48f86ae57291f7686349f12601910bd8d470bb.png"
 		}
 	},
 	{
@@ -4392,12 +5328,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1cc30e2eac975416060ec6fe682041408420d414",
+		"address": "0x1cc7047e15825f639e0752eb1b89e4225f5327f2",
 		"data": {
-			"name": "Kollect",
-			"symbol": "KOL",
+			"name": "Pullix",
+			"symbol": "PLX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1cc30e2eac975416060ec6fe682041408420d414.png"
+			"logoUri": "/images/tokens/0x1cc7047e15825f639e0752eb1b89e4225f5327f2.png"
 		}
 	},
 	{
@@ -4437,6 +5373,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1cf3e03f7360288dd01d0a9cfab266cfcdb3e0c1",
+		"data": {
+			"name": "EchoLink",
+			"symbol": "EKO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1cf3e03f7360288dd01d0a9cfab266cfcdb3e0c1.png"
+		}
+	},
+	{
 		"address": "0x1cf4592ebffd730c7dc92c1bdffdfc3b9efcf29a",
 		"data": {
 			"name": "Waves",
@@ -4452,6 +5397,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CJPY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1cfa5641c01406ab8ac350ded7d735ec41298372.png"
+		}
+	},
+	{
+		"address": "0x1d00e86748573c322f4cc41518aa0e77bd912eb4",
+		"data": {
+			"name": "Ethereum Reserve Dollar USDE",
+			"symbol": "USDE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1d00e86748573c322f4cc41518aa0e77bd912eb4.png"
+		}
+	},
+	{
+		"address": "0x1d2d925887f442a27b5393bd5dfbe059910b1ac0",
+		"data": {
+			"name": "ORMIT",
+			"symbol": "ORMIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1d2d925887f442a27b5393bd5dfbe059910b1ac0.png"
 		}
 	},
 	{
@@ -4500,12 +5463,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1dd80016e3d4ae146ee2ebb484e8edd92dacc4ce",
+		"address": "0x1db06f39c14d813d7b1ccb275a93f5b052de1cac",
 		"data": {
-			"name": "Lead",
-			"symbol": "LEAD",
+			"name": "Xave",
+			"symbol": "XAV",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1dd80016e3d4ae146ee2ebb484e8edd92dacc4ce.png"
+			"logoUri": "/images/tokens/0x1db06f39c14d813d7b1ccb275a93f5b052de1cac.png"
+		}
+	},
+	{
+		"address": "0x1db11e86fa9b9a87813a4dd3f747eef12ed55a55",
+		"data": {
+			"name": "Digital Asset Right Token",
+			"symbol": "DAR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1db11e86fa9b9a87813a4dd3f747eef12ed55a55.png"
 		}
 	},
 	{
@@ -4536,12 +5508,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1e241521f4767853b376c2fe795a222a07d588ee",
+		"data": {
+			"name": "Uni Terminal",
+			"symbol": "UNIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1e241521f4767853b376c2fe795a222a07d588ee.png"
+		}
+	},
+	{
+		"address": "0x1e2c4fb7ede391d116e6b41cd0608260e8801d59",
+		"data": {
+			"name": "Backed CSPX Core S P 500",
+			"symbol": "BCSPX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1e2c4fb7ede391d116e6b41cd0608260e8801d59.png"
+		}
+	},
+	{
 		"address": "0x1e2f15302b90edde696593607b6bd444b64e8f02",
 		"data": {
 			"name": "Shiryo",
 			"symbol": "SHIRYO-INU",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x1e2f15302b90edde696593607b6bd444b64e8f02.png"
+		}
+	},
+	{
+		"address": "0x1e354f9ab5bcc9fb981f31b794c5fe13f7a89218",
+		"data": {
+			"name": "Neural Tensor Dynamics",
+			"symbol": "NTD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1e354f9ab5bcc9fb981f31b794c5fe13f7a89218.png"
+		}
+	},
+	{
+		"address": "0x1e3778dd6dbfdc1c5b89f95f7c098b21e80ec4fa",
+		"data": {
+			"name": "Victory Impact",
+			"symbol": "VIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1e3778dd6dbfdc1c5b89f95f7c098b21e80ec4fa.png"
 		}
 	},
 	{
@@ -4572,12 +5580,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1e5193ccc53f25638aa22a940af899b692e10b09",
+		"address": "0x1e610de0d7acfa1d820024948a91d96c5c9ce6b9",
 		"data": {
-			"name": "Alluo",
-			"symbol": "ALLUO",
+			"name": "FP  BoredApeYachtClub",
+			"symbol": "UBAYC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1e5193ccc53f25638aa22a940af899b692e10b09.png"
+			"logoUri": "/images/tokens/0x1e610de0d7acfa1d820024948a91d96c5c9ce6b9.png"
+		}
+	},
+	{
+		"address": "0x1e7572fb16e176d40d28090e51a7a9ea08f68199",
+		"data": {
+			"name": "Meow Coin",
+			"symbol": "MEOW",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1e7572fb16e176d40d28090e51a7a9ea08f68199.png"
 		}
 	},
 	{
@@ -4590,12 +5607,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1e7a53220c128d100b56970ce88ee963a9511370",
+		"data": {
+			"name": "PNPCoin",
+			"symbol": "PNPC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1e7a53220c128d100b56970ce88ee963a9511370.png"
+		}
+	},
+	{
+		"address": "0x1e87d63d11d1c16052bbca06d43ba4ceb4ee686c",
+		"data": {
+			"name": "BRC on the ERC",
+			"symbol": "BRC20",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1e87d63d11d1c16052bbca06d43ba4ceb4ee686c.png"
+		}
+	},
+	{
 		"address": "0x1e917e764bc34d3bc313fe8159a6bd9d9ffd450d",
 		"data": {
 			"name": "WEWE",
 			"symbol": "WEWE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1e917e764bc34d3bc313fe8159a6bd9d9ffd450d.png"
+		}
+	},
+	{
+		"address": "0x1e971b5b21367888239f00da16f0a6b0effecb03",
+		"data": {
+			"name": "LEEROY JENKINS",
+			"symbol": "LEEROY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1e971b5b21367888239f00da16f0a6b0effecb03.png"
 		}
 	},
 	{
@@ -4608,27 +5652,36 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1ea48b9965bb5086f3b468e50ed93888a661fc17",
+		"address": "0x1eb7bd905855c483db19f53c8c4d42db42a159fc",
 		"data": {
-			"name": "Moneta DAO",
-			"symbol": "MON",
+			"name": "Nordic Ai",
+			"symbol": "NRDC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1ea48b9965bb5086f3b468e50ed93888a661fc17.png"
+			"logoUri": "/images/tokens/0x1eb7bd905855c483db19f53c8c4d42db42a159fc.png"
 		}
 	},
 	{
-		"address": "0x1f05dee43df9fd0cd7f4b011b20b04870a30c29a",
+		"address": "0x1ef846ce0da79d8d4e111bf8c5117cd1209a0478",
 		"data": {
-			"name": "ShibWallet",
-			"symbol": "SWT",
+			"name": "Ethereum Inu",
+			"symbol": "ETHINU",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x1ef846ce0da79d8d4e111bf8c5117cd1209a0478.png"
+		}
+	},
+	{
+		"address": "0x1f0efa15e9cb7ea9596257da63fecc36ba469b30",
+		"data": {
+			"name": "Anon",
+			"symbol": "ANON",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x1f05dee43df9fd0cd7f4b011b20b04870a30c29a.png"
+			"logoUri": "/images/tokens/0x1f0efa15e9cb7ea9596257da63fecc36ba469b30.png"
 		}
 	},
 	{
 		"address": "0x1f16d41f9b3db03b462bdd6c92245ee708d1c103",
 		"data": {
-			"name": "Rangers Protocol",
+			"name": "Rangers Protocol Gas",
 			"symbol": "RPG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1f16d41f9b3db03b462bdd6c92245ee708d1c103.png"
@@ -4644,21 +5697,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1f19d846d99a0e75581913b64510fe0e18bbc31f",
+		"data": {
+			"name": "Feels Good Man",
+			"symbol": "FGM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1f19d846d99a0e75581913b64510fe0e18bbc31f.png"
+		}
+	},
+	{
 		"address": "0x1f19f83fc9a25f3c861260143e36c17706257986",
 		"data": {
 			"name": "DAO Invest",
 			"symbol": "VEST",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1f19f83fc9a25f3c861260143e36c17706257986.png"
-		}
-	},
-	{
-		"address": "0x1f1f26c966f483997728bed0f9814938b2b5e294",
-		"data": {
-			"name": "Meowl",
-			"symbol": "MEOWL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1f1f26c966f483997728bed0f9814938b2b5e294.png"
 		}
 	},
 	{
@@ -4698,12 +5751,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x1f557fb2aa33dce484902695ca1374f413875519",
+		"data": {
+			"name": "Vestate",
+			"symbol": "VES",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1f557fb2aa33dce484902695ca1374f413875519.png"
+		}
+	},
+	{
 		"address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
 		"data": {
 			"name": "Bancor Network",
 			"symbol": "BNT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c.png"
+		}
+	},
+	{
+		"address": "0x1f7505f486c22f4338ac2bde67a3e93a547644b9",
+		"data": {
+			"name": "Cat Intelligence Agency",
+			"symbol": "CIA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1f7505f486c22f4338ac2bde67a3e93a547644b9.png"
+		}
+	},
+	{
+		"address": "0x1f769203d2abcb78f5a77dd15c0078c50fb13287",
+		"data": {
+			"name": "Azure Wallet",
+			"symbol": "AZURE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1f769203d2abcb78f5a77dd15c0078c50fb13287.png"
+		}
+	},
+	{
+		"address": "0x1f7e5118521b550bb1a9b435727c003eb033fc51",
+		"data": {
+			"name": "Angola",
+			"symbol": "AGLA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1f7e5118521b550bb1a9b435727c003eb033fc51.png"
 		}
 	},
 	{
@@ -4722,6 +5811,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "UNI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png"
+		}
+	},
+	{
+		"address": "0x1fac00ccee478eced6a120a50ed2ab28ee7fe32b",
+		"data": {
+			"name": "Bitune",
+			"symbol": "TUNE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x1fac00ccee478eced6a120a50ed2ab28ee7fe32b.png"
 		}
 	},
 	{
@@ -4761,12 +5859,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x1fee5588cb1de19c70b6ad5399152d8c643fae7b",
+		"address": "0x1ffefd8036409cb6d652bd610de465933b226917",
 		"data": {
-			"name": "Phun Token",
-			"symbol": "PHTK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x1fee5588cb1de19c70b6ad5399152d8c643fae7b.png"
+			"name": "Everscale",
+			"symbol": "EVER",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x1ffefd8036409cb6d652bd610de465933b226917.png"
 		}
 	},
 	{
@@ -4797,12 +5895,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x201b5b64438843553e3c3671810ae671c93c685c",
+		"data": {
+			"name": "Megabot",
+			"symbol": "MEGABOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x201b5b64438843553e3c3671810ae671c93c685c.png"
+		}
+	},
+	{
 		"address": "0x2047ab3072b52561596ce5e0131bdbb7c848538d",
 		"data": {
 			"name": "Bored Token",
 			"symbol": "BORED",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x2047ab3072b52561596ce5e0131bdbb7c848538d.png"
+		}
+	},
+	{
+		"address": "0x2048e0d048224381cac3ea06012ced4a6f122d32",
+		"data": {
+			"name": "BANDS",
+			"symbol": "BANDS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2048e0d048224381cac3ea06012ced4a6f122d32.png"
+		}
+	},
+	{
+		"address": "0x20561172f791f915323241e885b4f7d5187c36e1",
+		"data": {
+			"name": "Calcium",
+			"symbol": "CAL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x20561172f791f915323241e885b4f7d5187c36e1.png"
+		}
+	},
+	{
+		"address": "0x2056ec69ac5afaf210b851ff74de4c194fcd986e",
+		"data": {
+			"name": "Port AI",
+			"symbol": "POAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2056ec69ac5afaf210b851ff74de4c194fcd986e.png"
 		}
 	},
 	{
@@ -4824,6 +5958,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x208bcf9cd1d694d1d3c630362e517940e3724d80",
+		"data": {
+			"name": "ORACLE",
+			"symbol": "ORACLE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x208bcf9cd1d694d1d3c630362e517940e3724d80.png"
+		}
+	},
+	{
+		"address": "0x20910e5b5f087f6439dfcb0dda4e27d1014ac2b8",
+		"data": {
+			"name": "BananaTok",
+			"symbol": "BNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x20910e5b5f087f6439dfcb0dda4e27d1014ac2b8.png"
+		}
+	},
+	{
 		"address": "0x20945ca1df56d237fd40036d47e866c7dccd2114",
 		"data": {
 			"name": "Nsure Network",
@@ -4833,12 +5985,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x209a78d23f825950a5df4d6d21288e5212b44f2c",
+		"data": {
+			"name": "AlphaNova",
+			"symbol": "ANVA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x209a78d23f825950a5df4d6d21288e5212b44f2c.png"
+		}
+	},
+	{
+		"address": "0x20a62aca58526836165ca53fe67dd884288c8abf",
+		"data": {
+			"name": "Rentible",
+			"symbol": "RNB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x20a62aca58526836165ca53fe67dd884288c8abf.png"
+		}
+	},
+	{
 		"address": "0x20a8cec5fffea65be7122bcab2ffe32ed4ebf03a",
 		"data": {
 			"name": "DinoX",
 			"symbol": "DNXC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x20a8cec5fffea65be7122bcab2ffe32ed4ebf03a.png"
+		}
+	},
+	{
+		"address": "0x20b3b07e9c0e37815e2892ab09496559f57c3603",
+		"data": {
+			"name": "USDV",
+			"symbol": "USDV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x20b3b07e9c0e37815e2892ab09496559f57c3603.png"
+		}
+	},
+	{
+		"address": "0x20bc71ddf242b88502d9819e02d45ad0d4a586c8",
+		"data": {
+			"name": "Gravitron",
+			"symbol": "GTRON",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x20bc71ddf242b88502d9819e02d45ad0d4a586c8.png"
 		}
 	},
 	{
@@ -4869,21 +6057,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x20c64dee8fda5269a78f2d5bdba861ca1d83df7a",
+		"data": {
+			"name": "Backed HIGH   High Yield Corp Bond",
+			"symbol": "BHIGH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x20c64dee8fda5269a78f2d5bdba861ca1d83df7a.png"
+		}
+	},
+	{
 		"address": "0x20cd2e7ec8f5d8b337fe46a4f565ccef1561b9a9",
 		"data": {
 			"name": "ESG",
 			"symbol": "ESG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x20cd2e7ec8f5d8b337fe46a4f565ccef1561b9a9.png"
-		}
-	},
-	{
-		"address": "0x20cdecbf5d56870b4068a255580a58d068446c92",
-		"data": {
-			"name": "Monkeys Token",
-			"symbol": "MONKEYS",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x20cdecbf5d56870b4068a255580a58d068446c92.png"
 		}
 	},
 	{
@@ -4914,6 +6102,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x20f031e2eca9e9247eb8c57bab5db9a1daa9c5d1",
+		"data": {
+			"name": "PiuAi",
+			"symbol": "PAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x20f031e2eca9e9247eb8c57bab5db9a1daa9c5d1.png"
+		}
+	},
+	{
+		"address": "0x20fcefa41045080764c48c2b9429e44c644e5dea",
+		"data": {
+			"name": "Foox  Ordinals ",
+			"symbol": "FOOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x20fcefa41045080764c48c2b9429e44c644e5dea.png"
+		}
+	},
+	{
 		"address": "0x21381e026ad6d8266244f2a583b35f9e4413fa2a",
 		"data": {
 			"name": "Formation FI",
@@ -4934,7 +6140,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x21413c119b0c11c5d96ae1bd328917bc5c8ed67e",
 		"data": {
-			"name": "GenomesDAO",
+			"name": "GenomesDAO GENE",
 			"symbol": "GENE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x21413c119b0c11c5d96ae1bd328917bc5c8ed67e.png"
@@ -4959,6 +6165,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x218de5e6324c5351c3a2bf0c40d76f585b8de04d",
+		"data": {
+			"name": "Stake Together",
+			"symbol": "STPETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x218de5e6324c5351c3a2bf0c40d76f585b8de04d.png"
+		}
+	},
+	{
+		"address": "0x21b8bfbbefc9e2b9a994871ecd742a5132b98aed",
+		"data": {
+			"name": "Crypto Real Estate",
+			"symbol": "CRE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x21b8bfbbefc9e2b9a994871ecd742a5132b98aed.png"
+		}
+	},
+	{
 		"address": "0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
 		"data": {
 			"name": "Ovr",
@@ -4968,21 +6192,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x21d5678a62dfe63a47062469ebb2fac2817d8832",
+		"address": "0x21e5c85a5b1f38bddde68307af77e38f747cd530",
 		"data": {
-			"name": "YOLOCash",
-			"symbol": "YLC",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x21d5678a62dfe63a47062469ebb2fac2817d8832.png"
-		}
-	},
-	{
-		"address": "0x21ead867c8c5181854f6f8ce71f75b173d2bc16a",
-		"data": {
-			"name": "LSDx Pool",
-			"symbol": "ETHX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x21ead867c8c5181854f6f8ce71f75b173d2bc16a.png"
+			"name": "Doggensnout Skeptic",
+			"symbol": "DOGS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x21e5c85a5b1f38bddde68307af77e38f747cd530.png"
 		}
 	},
 	{
@@ -5028,6 +6243,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KXA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2223bf1d7c19ef7c06dab88938ec7b85952ccd89.png"
+		}
+	},
+	{
+		"address": "0x223028738503838e89fc5fd5b1a42f1d024d9600",
+		"data": {
+			"name": "DegenInsure",
+			"symbol": "DGNS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x223028738503838e89fc5fd5b1a42f1d024d9600.png"
+		}
+	},
+	{
+		"address": "0x22514ffb0d7232a56f0c24090e7b68f179faa940",
+		"data": {
+			"name": "QORPO WORLD",
+			"symbol": "QORPO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x22514ffb0d7232a56f0c24090e7b68f179faa940.png"
 		}
 	},
 	{
@@ -5105,19 +6338,37 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x22b6c31c2beb8f2d0d5373146eed41ab9ede3caf",
 		"data": {
-			"name": "cocktailbar finance",
+			"name": "The Cocktailbar",
 			"symbol": "COC",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x22b6c31c2beb8f2d0d5373146eed41ab9ede3caf.png"
 		}
 	},
 	{
-		"address": "0x22c5543d1a35178cb03b33f929a959145e538532",
+		"address": "0x22fc5a29bd3d6cce19a06f844019fd506fce4455",
 		"data": {
-			"name": "The Wasted Lands",
-			"symbol": "WAL",
+			"name": "Equilibria Finance ePENDLE",
+			"symbol": "EPENDLE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x22c5543d1a35178cb03b33f929a959145e538532.png"
+			"logoUri": "/images/tokens/0x22fc5a29bd3d6cce19a06f844019fd506fce4455.png"
+		}
+	},
+	{
+		"address": "0x230f5ed78a45452f726365b8ad1d6866f5faa68f",
+		"data": {
+			"name": "Cryptoforce",
+			"symbol": "COF",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x230f5ed78a45452f726365b8ad1d6866f5faa68f.png"
+		}
+	},
+	{
+		"address": "0x23150e1db43a04ae1ea993b76dd3c37156cabe0f",
+		"data": {
+			"name": "Teq Network",
+			"symbol": "TEQ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23150e1db43a04ae1ea993b76dd3c37156cabe0f.png"
 		}
 	},
 	{
@@ -5139,30 +6390,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2341dd0a96a0dab62aa1efb93d59ff7f3bdb8932",
-		"data": {
-			"name": "ProStarter",
-			"symbol": "PROT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2341dd0a96a0dab62aa1efb93d59ff7f3bdb8932.png"
-		}
-	},
-	{
-		"address": "0x234d51ee02be808a0160b19b689660fb7bfa871b",
-		"data": {
-			"name": "CoinScan",
-			"symbol": "SCAN",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x234d51ee02be808a0160b19b689660fb7bfa871b.png"
-		}
-	},
-	{
 		"address": "0x235c8ee913d93c68d2902a8e0b5a643755705726",
 		"data": {
 			"name": "tehBag",
 			"symbol": "BAG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x235c8ee913d93c68d2902a8e0b5a643755705726.png"
+		}
+	},
+	{
+		"address": "0x236501327e701692a281934230af0b6be8df3353",
+		"data": {
+			"name": "Fluence",
+			"symbol": "FLT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x236501327e701692a281934230af0b6be8df3353.png"
 		}
 	},
 	{
@@ -5181,6 +6423,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "JPYC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53.png"
+		}
+	},
+	{
+		"address": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+		"data": {
+			"name": "Aave v3 USDT",
+			"symbol": "AUSDT",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png"
+		}
+	},
+	{
+		"address": "0x2388821b40f3ab780f09e97b42b7b577d37a6d5e",
+		"data": {
+			"name": "GROKX",
+			"symbol": "GROKX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2388821b40f3ab780f09e97b42b7b577d37a6d5e.png"
 		}
 	},
 	{
@@ -5211,6 +6471,78 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x239015de0f0121f2c80134558decbba75ea056c6",
+		"data": {
+			"name": "Wand",
+			"symbol": "WAND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x239015de0f0121f2c80134558decbba75ea056c6.png"
+		}
+	},
+	{
+		"address": "0x2391b8147caef113787972abbdaf77f4bae0cf22",
+		"data": {
+			"name": "ArcaneDEX",
+			"symbol": "ARC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2391b8147caef113787972abbdaf77f4bae0cf22.png"
+		}
+	},
+	{
+		"address": "0x23a2164d482fd2fec9c2d0b66528d42fee7b8817",
+		"data": {
+			"name": "met a meta metameme",
+			"symbol": "METAMEME",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x23a2164d482fd2fec9c2d0b66528d42fee7b8817.png"
+		}
+	},
+	{
+		"address": "0x23b586c0e79fb291ccb0244d468847eae9bb90f6",
+		"data": {
+			"name": "R4RE",
+			"symbol": "R4RE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23b586c0e79fb291ccb0244d468847eae9bb90f6.png"
+		}
+	},
+	{
+		"address": "0x23b608675a2b2fb1890d3abbd85c5775c51691d5",
+		"data": {
+			"name": "Unisocks",
+			"symbol": "SOCKS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23b608675a2b2fb1890d3abbd85c5775c51691d5.png"
+		}
+	},
+	{
+		"address": "0x23d7ff057c696fee679c60cef61fee6614218f04",
+		"data": {
+			"name": "Unipoly",
+			"symbol": "UNP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23d7ff057c696fee679c60cef61fee6614218f04.png"
+		}
+	},
+	{
+		"address": "0x23d894fb4a0f551f2f923fc85e09819d1f3894b2",
+		"data": {
+			"name": "Intellix",
+			"symbol": "ITX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23d894fb4a0f551f2f923fc85e09819d1f3894b2.png"
+		}
+	},
+	{
+		"address": "0x23dc3f6859e122b25b2cd5f3cf2335310b0f2b77",
+		"data": {
+			"name": "DeSME",
+			"symbol": "DESME",
+			"decimals": 5,
+			"logoUri": "/images/tokens/0x23dc3f6859e122b25b2cd5f3cf2335310b0f2b77.png"
+		}
+	},
+	{
 		"address": "0x23ddbd36547d43627afa9b42d4e9fb0515f48b09",
 		"data": {
 			"name": "hiBEANZ",
@@ -5220,12 +6552,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x24022539963319b0d6ca92797cfdc7cdf59c6930",
+		"address": "0x23fa3aa82858e7ad1f0f04352f4bb7f5e1bbfb68",
 		"data": {
-			"name": "Gold AI Network Token",
-			"symbol": "GAIN",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x24022539963319b0d6ca92797cfdc7cdf59c6930.png"
+			"name": "Frictionless",
+			"symbol": "FRIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23fa3aa82858e7ad1f0f04352f4bb7f5e1bbfb68.png"
+		}
+	},
+	{
+		"address": "0x23feef978f2f8e9aeb26028d09b5d303b6c6a057",
+		"data": {
+			"name": "Sacabambaspis",
+			"symbol": "SACA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x23feef978f2f8e9aeb26028d09b5d303b6c6a057.png"
+		}
+	},
+	{
+		"address": "0x2407d54b42a570aeb63819d433a63676163cb6d6",
+		"data": {
+			"name": "Renegade",
+			"symbol": "RNGD",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x2407d54b42a570aeb63819d433a63676163cb6d6.png"
 		}
 	},
 	{
@@ -5247,12 +6597,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x243da8a5561cf5642b852c4c4c3fada3f3116d2d",
+		"data": {
+			"name": "DefiPal",
+			"symbol": "PAL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x243da8a5561cf5642b852c4c4c3fada3f3116d2d.png"
+		}
+	},
+	{
 		"address": "0x244517dc59943e8cdfbd424bdb3262c5f04a1387",
 		"data": {
 			"name": "Fluid DAI",
 			"symbol": "FDAI",
-			"decimals": 18,
+			"decimals": 6,
 			"logoUri": "/images/tokens/0x244517dc59943e8cdfbd424bdb3262c5f04a1387.png"
+		}
+	},
+	{
+		"address": "0x244748587f145c0571e92e85429d711d1b4cc43a",
+		"data": {
+			"name": "Chooky",
+			"symbol": "CHOO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x244748587f145c0571e92e85429d711d1b4cc43a.png"
 		}
 	},
 	{
@@ -5301,12 +6669,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x24a5fe2c2240e58252cdfc43bb94ae67d2ead218",
+		"data": {
+			"name": "Mone Coin",
+			"symbol": "MONE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x24a5fe2c2240e58252cdfc43bb94ae67d2ead218.png"
+		}
+	},
+	{
 		"address": "0x24a6a37576377f63f194caa5f518a60f45b42921",
 		"data": {
 			"name": "Float Protocol",
 			"symbol": "BANK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x24a6a37576377f63f194caa5f518a60f45b42921.png"
+		}
+	},
+	{
+		"address": "0x24ae2da0f361aa4be46b48eb19c91e02c5e4f27e",
+		"data": {
+			"name": "mevETH",
+			"symbol": "MEVETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x24ae2da0f361aa4be46b48eb19c91e02c5e4f27e.png"
 		}
 	},
 	{
@@ -5319,15 +6705,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x24bcec1afda63e622a97f17cff9a61ffcfd9b735",
-		"data": {
-			"name": "Crab Market",
-			"symbol": "CRAB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x24bcec1afda63e622a97f17cff9a61ffcfd9b735.png"
-		}
-	},
-	{
 		"address": "0x24c19f7101c1731b85f1127eaa0407732e36ecdd",
 		"data": {
 			"name": "SharedStake Governance v2",
@@ -5337,12 +6714,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x24d86df61479982c90d2977f4ba839496895559d",
+		"address": "0x24d73bca2bd9c3a61e99dfc7cb86d3c379ebded7",
 		"data": {
-			"name": "HypeToken",
-			"symbol": "HYPE",
+			"name": "Micro AI",
+			"symbol": "MAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x24d86df61479982c90d2977f4ba839496895559d.png"
+			"logoUri": "/images/tokens/0x24d73bca2bd9c3a61e99dfc7cb86d3c379ebded7.png"
 		}
 	},
 	{
@@ -5355,15 +6732,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x24e3794605c84e580eea4972738d633e8a7127c8",
-		"data": {
-			"name": "Katalyo",
-			"symbol": "KTLYO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x24e3794605c84e580eea4972738d633e8a7127c8.png"
-		}
-	},
-	{
 		"address": "0x24e89bdf2f65326b94e36978a7edeac63623dafa",
 		"data": {
 			"name": "Tiger King Coin",
@@ -5373,12 +6741,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x24ec2ca132abf8f6f8a6e24a1b97943e31f256a7",
+		"address": "0x24edded3f03abb2e9d047464294133378bddb596",
 		"data": {
-			"name": "dotmoovs",
-			"symbol": "MOOV",
+			"name": "SECT BOT",
+			"symbol": "SECT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x24ec2ca132abf8f6f8a6e24a1b97943e31f256a7.png"
+			"logoUri": "/images/tokens/0x24edded3f03abb2e9d047464294133378bddb596.png"
+		}
+	},
+	{
+		"address": "0x24fcfc492c1393274b6bcd568ac9e225bec93584",
+		"data": {
+			"name": "Heroes of Mavia",
+			"symbol": "MAVIA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x24fcfc492c1393274b6bcd568ac9e225bec93584.png"
 		}
 	},
 	{
@@ -5391,12 +6768,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x251457b7c5d85251ca1ab384361c821330be2520",
+		"address": "0x2516e7b3f76294e03c42aa4c5b5b4dce9c436fb8",
 		"data": {
-			"name": "Hati",
-			"symbol": "HATI",
+			"name": "Aave v3 BAL",
+			"symbol": "ABAL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x251457b7c5d85251ca1ab384361c821330be2520.png"
+			"logoUri": "/images/tokens/0x2516e7b3f76294e03c42aa4c5b5b4dce9c436fb8.png"
 		}
 	},
 	{
@@ -5406,6 +6783,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PANDO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x252b9f56359901a0bde52d0675b1f1130d86f471.png"
+		}
+	},
+	{
+		"address": "0x2534588fa8ecddf160c6c0ae7d62523604df0a75",
+		"data": {
+			"name": "Arcade Arcoin",
+			"symbol": "ARCN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2534588fa8ecddf160c6c0ae7d62523604df0a75.png"
+		}
+	},
+	{
+		"address": "0x253a5b4f0a210b8d33b702a938b1d56d06b5449e",
+		"data": {
+			"name": "Omni Foundation",
+			"symbol": "OMN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x253a5b4f0a210b8d33b702a938b1d56d06b5449e.png"
 		}
 	},
 	{
@@ -5427,12 +6822,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x25644ea5be09d1266b5df3f96559ecdc2d0ad69b",
+		"address": "0x255f1b39172f65dc6406b8bee8b08155c45fe1b6",
 		"data": {
-			"name": "Shori",
-			"symbol": "YSHORI",
+			"name": "HarambeCoin",
+			"symbol": "HARAMBE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x25644ea5be09d1266b5df3f96559ecdc2d0ad69b.png"
+			"logoUri": "/images/tokens/0x255f1b39172f65dc6406b8bee8b08155c45fe1b6.png"
 		}
 	},
 	{
@@ -5456,10 +6851,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x25722cd432d02895d9be45f5deb60fc479c8781e",
 		"data": {
-			"name": "Sponge",
+			"name": "Sponge  OLD ",
 			"symbol": "SPONGE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x25722cd432d02895d9be45f5deb60fc479c8781e.png"
+		}
+	},
+	{
+		"address": "0x257508ca6341337dd243d54afd964e19375b4af9",
+		"data": {
+			"name": "Oracle Tools",
+			"symbol": "OT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x257508ca6341337dd243d54afd964e19375b4af9.png"
 		}
 	},
 	{
@@ -5481,6 +6885,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2598c30330d5771ae9f983979209486ae26de875",
+		"data": {
+			"name": "Any Inu",
+			"symbol": "AI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2598c30330d5771ae9f983979209486ae26de875.png"
+		}
+	},
+	{
 		"address": "0x259ce0cb3581995d40cbb03fd4badeaaba1edaff",
 		"data": {
 			"name": "SphereSXS",
@@ -5496,6 +6909,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AXL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x25b24b3c47918b7962b3e49c4f468367f73cc0e0.png"
+		}
+	},
+	{
+		"address": "0x25b4f5d4c314bcd5d7962734936c957b947cb7cf",
+		"data": {
+			"name": "TG Casino",
+			"symbol": "TGC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x25b4f5d4c314bcd5d7962734936c957b947cb7cf.png"
 		}
 	},
 	{
@@ -5544,30 +6966,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2604fa406be957e542beb89e6754fcde6815e83f",
-		"data": {
-			"name": "PlayKey",
-			"symbol": "PKT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2604fa406be957e542beb89e6754fcde6815e83f.png"
-		}
-	},
-	{
-		"address": "0x260e59a6e96c26cfefd9dec566a4d4e50031744d",
-		"data": {
-			"name": "OHearn",
-			"symbol": "MIKE",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x260e59a6e96c26cfefd9dec566a4d4e50031744d.png"
-		}
-	},
-	{
 		"address": "0x2610f0bfc21ef389fe4d03cfb7de9ac1e6c99d6e",
 		"data": {
 			"name": "Skyrim Finance",
 			"symbol": "SKYRIM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2610f0bfc21ef389fe4d03cfb7de9ac1e6c99d6e.png"
+		}
+	},
+	{
+		"address": "0x2614f29c39de46468a921fd0b41fdd99a01f2edf",
+		"data": {
+			"name": "HELIOS",
+			"symbol": "HLX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2614f29c39de46468a921fd0b41fdd99a01f2edf.png"
 		}
 	},
 	{
@@ -5586,15 +6999,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WMT",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x263b6b028f3e4ed8c4329eb2b5f409ee38d97296.png"
-		}
-	},
-	{
-		"address": "0x26524e35e44e265eb181c7ba6ec084983181aae3",
-		"data": {
-			"name": "Cydotori",
-			"symbol": "DOTR",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x26524e35e44e265eb181c7ba6ec084983181aae3.png"
 		}
 	},
 	{
@@ -5634,12 +7038,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x26946ada5ecb57f3a1f91605050ce45c482c9eb1",
+		"data": {
+			"name": "BitcoinSoV",
+			"symbol": "BSOV",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x26946ada5ecb57f3a1f91605050ce45c482c9eb1.png"
+		}
+	},
+	{
 		"address": "0x269616d549d7e8eaa82dfb17028d0b212d11232a",
 		"data": {
 			"name": "Punk Vault  NFTX ",
 			"symbol": "PUNK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x269616d549d7e8eaa82dfb17028d0b212d11232a.png"
+		}
+	},
+	{
+		"address": "0x269877f972622d3c293fca595c65cf34b7f527ce",
+		"data": {
+			"name": "Friends with Benefits Network",
+			"symbol": "FWB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x269877f972622d3c293fca595c65cf34b7f527ce.png"
+		}
+	},
+	{
+		"address": "0x26a37f5a0200ad622f6db7cd687c78b7049ee841",
+		"data": {
+			"name": "WatchTowers AI",
+			"symbol": "WTS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x26a37f5a0200ad622f6db7cd687c78b7049ee841.png"
 		}
 	},
 	{
@@ -5661,12 +7092,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x26cb3641aaa43911f1d4cb2ce544eb652aac7c47",
+		"address": "0x26c75c7d815efe6bf5a6decd17d20d1fdad96a08",
 		"data": {
-			"name": "Crystal CYL",
-			"symbol": "CYL",
+			"name": "OctopusWallet",
+			"symbol": "OCW",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x26cb3641aaa43911f1d4cb2ce544eb652aac7c47.png"
+			"logoUri": "/images/tokens/0x26c75c7d815efe6bf5a6decd17d20d1fdad96a08.png"
 		}
 	},
 	{
@@ -5679,12 +7110,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x26fb86579e371c7aedc461b2ddef0a8628c93d3b",
+		"address": "0x26f9111a358385dc46a832cf1a1a021ee72e58a1",
 		"data": {
-			"name": "BORA",
-			"symbol": "BORA",
+			"name": "Zook Protocol",
+			"symbol": "ZOOK",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x26fb86579e371c7aedc461b2ddef0a8628c93d3b.png"
+			"logoUri": "/images/tokens/0x26f9111a358385dc46a832cf1a1a021ee72e58a1.png"
 		}
 	},
 	{
@@ -5733,6 +7164,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x273b8e7adddcb4de101416300fcd3688c0612a27",
+		"data": {
+			"name": "Rabbit Games",
+			"symbol": "RAIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x273b8e7adddcb4de101416300fcd3688c0612a27.png"
+		}
+	},
+	{
 		"address": "0x274e7eb07b485cfde53d02270555213447570ac6",
 		"data": {
 			"name": "SubDAO",
@@ -5748,6 +7188,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MONA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x275f5ad03be0fa221b4c6649b8aee09a42d9412a.png"
+		}
+	},
+	{
+		"address": "0x276e84edc5bd94731b65c207dc1512fc5391572f",
+		"data": {
+			"name": "Potion Exchange",
+			"symbol": "PTN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x276e84edc5bd94731b65c207dc1512fc5391572f.png"
 		}
 	},
 	{
@@ -5796,12 +7245,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x27c57f84236780881be694a18e149bb5bb78c21f",
+		"data": {
+			"name": "LiquidityRush",
+			"symbol": "LIQR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x27c57f84236780881be694a18e149bb5bb78c21f.png"
+		}
+	},
+	{
 		"address": "0x27c70cd1946795b66be9d954418546998b546634",
 		"data": {
 			"name": "Doge Killer",
 			"symbol": "LEASH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x27c70cd1946795b66be9d954418546998b546634.png"
+		}
+	},
+	{
+		"address": "0x27eb7aa2cce204012f7d9cd4d49baa746ec5ab63",
+		"data": {
+			"name": "GGTKN",
+			"symbol": "GGTKN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x27eb7aa2cce204012f7d9cd4d49baa746ec5ab63.png"
 		}
 	},
 	{
@@ -5814,12 +7281,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2822f6d1b2f41f93f33d937bc7d84a8dfa4f4c21",
+		"address": "0x280df82db83abb0a4c734bb02afc7985a1c8eaf2",
 		"data": {
-			"name": "Poseidon Network",
-			"symbol": "QQQ",
+			"name": "Etherpets",
+			"symbol": "EPETS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x280df82db83abb0a4c734bb02afc7985a1c8eaf2.png"
+		}
+	},
+	{
+		"address": "0x2817cecf94465a9f7becf43d9b7c8025e88a4213",
+		"data": {
+			"name": "Weave6",
+			"symbol": "WX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2822f6d1b2f41f93f33d937bc7d84a8dfa4f4c21.png"
+			"logoUri": "/images/tokens/0x2817cecf94465a9f7becf43d9b7c8025e88a4213.png"
 		}
 	},
 	{
@@ -5847,6 +7323,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FUMO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2890df158d76e584877a1d17a85fea3aeeb85aa6.png"
+		}
+	},
+	{
+		"address": "0x289ff00235d2b98b0145ff5d4435d3e92f9540a6",
+		"data": {
+			"name": "Book of Ethereum",
+			"symbol": "BOOE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x289ff00235d2b98b0145ff5d4435d3e92f9540a6.png"
 		}
 	},
 	{
@@ -5886,6 +7371,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x28e67eb7aaa8f5dd9cb7be2b2e3dad6b25edb1ab",
+		"data": {
+			"name": "Freaky KEKE",
+			"symbol": "KEKE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x28e67eb7aaa8f5dd9cb7be2b2e3dad6b25edb1ab.png"
+		}
+	},
+	{
 		"address": "0x28fac5334c9f7262b3a3fe707e250e01053e07b5",
 		"data": {
 			"name": "IdleUSDT  Risk Adjusted ",
@@ -5904,6 +7398,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2903bd7db50f300b0884f7a15904baffc77f3ec7",
+		"data": {
+			"name": "Arcade",
+			"symbol": "ARC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2903bd7db50f300b0884f7a15904baffc77f3ec7.png"
+		}
+	},
+	{
 		"address": "0x2904b9b16652d7d0408eccfa23a19d4a3358230f",
 		"data": {
 			"name": "Puriever",
@@ -5913,12 +7416,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x29127fe04ffa4c32acac0ffe17280abd74eac313",
+		"address": "0x2907dcbc51191a5d7494077d1156fffc34f110ab",
 		"data": {
-			"name": "SIFU",
-			"symbol": "SIFU",
+			"name": "Dibbles 404",
+			"symbol": "ERRDB",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x29127fe04ffa4c32acac0ffe17280abd74eac313.png"
+			"logoUri": "/images/tokens/0x2907dcbc51191a5d7494077d1156fffc34f110ab.png"
+		}
+	},
+	{
+		"address": "0x291aa47c58558adfc2bcd6f060578fdae1f6570c",
+		"data": {
+			"name": "Minebase",
+			"symbol": "MBASE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x291aa47c58558adfc2bcd6f060578fdae1f6570c.png"
 		}
 	},
 	{
@@ -5928,6 +7440,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MONO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2920f7d6134f4669343e70122ca9b8f19ef8fa5d.png"
+		}
+	},
+	{
+		"address": "0x292fcdd1b104de5a00250febba9bc6a5092a0076",
+		"data": {
+			"name": "HashAI",
+			"symbol": "HASHAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x292fcdd1b104de5a00250febba9bc6a5092a0076.png"
 		}
 	},
 	{
@@ -5958,6 +7479,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2960d71855a521c8414d29a27218efdb67c34180",
+		"data": {
+			"name": "Leaxcoin",
+			"symbol": "LEAX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2960d71855a521c8414d29a27218efdb67c34180.png"
+		}
+	},
+	{
 		"address": "0x296233e84c1d7bff11121bf6d60f0ffa39c3f0cf",
 		"data": {
 			"name": "No One",
@@ -5985,21 +7515,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x29a5c1db7321c5c9eae57f9366ee8eef00ca11fb",
+		"address": "0x299a1503e88433c0fd1bd68625c25c5a703eb64f",
 		"data": {
-			"name": "SHKOOBY INU",
-			"symbol": "SHKOOBY",
+			"name": "TEAR",
+			"symbol": "TEAR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x29a5c1db7321c5c9eae57f9366ee8eef00ca11fb.png"
-		}
-	},
-	{
-		"address": "0x29c56e7cb9c840d2b2371b17e28bab44ad3c3ead",
-		"data": {
-			"name": "EsportsPro",
-			"symbol": "ESPRO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x29c56e7cb9c840d2b2371b17e28bab44ad3c3ead.png"
+			"logoUri": "/images/tokens/0x299a1503e88433c0fd1bd68625c25c5a703eb64f.png"
 		}
 	},
 	{
@@ -6021,21 +7542,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x29d578cec46b50fa5c88a99c6a4b70184c062953",
+		"address": "0x29d7139271398d0c2e22523fda06e023dcb07f8f",
 		"data": {
-			"name": "Everscale",
-			"symbol": "EVER",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x29d578cec46b50fa5c88a99c6a4b70184c062953.png"
+			"name": "KlubCoin",
+			"symbol": "KLUB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x29d7139271398d0c2e22523fda06e023dcb07f8f.png"
 		}
 	},
 	{
-		"address": "0x29de166064e1f9467b70bd561e516564a5a9ba3c",
+		"address": "0x29de856ee1e2b281c9f6dd3c670272e7c6ea63eb",
 		"data": {
-			"name": "POV Chain",
-			"symbol": "POVCHAIN",
+			"name": "Groge",
+			"symbol": "GROGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x29de856ee1e2b281c9f6dd3c670272e7c6ea63eb.png"
+		}
+	},
+	{
+		"address": "0x29ef81cc8737f19449d501396d4968d138140675",
+		"data": {
+			"name": "0xConnect",
+			"symbol": "0XCON",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x29de166064e1f9467b70bd561e516564a5a9ba3c.png"
+			"logoUri": "/images/tokens/0x29ef81cc8737f19449d501396d4968d138140675.png"
 		}
 	},
 	{
@@ -6057,15 +7587,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2a2550e0a75acec6d811ae3930732f7f3ad67588",
-		"data": {
-			"name": "PathDAO",
-			"symbol": "PATH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2a2550e0a75acec6d811ae3930732f7f3ad67588.png"
-		}
-	},
-	{
 		"address": "0x2a304fda5a85182dca1d03741bb2f07881b9e095",
 		"data": {
 			"name": "DCOMY",
@@ -6084,6 +7605,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2a5fa016ffb20c70e2ef36058c08547f344677aa",
+		"data": {
+			"name": "Vitalik Smart Gas",
+			"symbol": "VSG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2a5fa016ffb20c70e2ef36058c08547f344677aa.png"
+		}
+	},
+	{
 		"address": "0x2a69655c22eda32ff48d315bb26ed45f150700b4",
 		"data": {
 			"name": "StakerDAO Wrapped Tezos",
@@ -6093,12 +7623,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517",
+		"data": {
+			"name": "WAX",
+			"symbol": "WAXP",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517.png"
+		}
+	},
+	{
+		"address": "0x2a7cad775fd9c5c43f996a948660ffc21b4e628c",
+		"data": {
+			"name": "D Drops",
+			"symbol": "DOP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2a7cad775fd9c5c43f996a948660ffc21b4e628c.png"
+		}
+	},
+	{
 		"address": "0x2a7e415c169ce3a580c6f374dc26f6aaad1eccfe",
 		"data": {
 			"name": "Hachi",
 			"symbol": "HACHI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2a7e415c169ce3a580c6f374dc26f6aaad1eccfe.png"
+		}
+	},
+	{
+		"address": "0x2a85556a6701a02e75bc4de8ec340c6de1b29f72",
+		"data": {
+			"name": "TOKA",
+			"symbol": "TOKA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2a85556a6701a02e75bc4de8ec340c6de1b29f72.png"
+		}
+	},
+	{
+		"address": "0x2a8bf9e7c91c6e3237095e07eb3defbce358df00",
+		"data": {
+			"name": "OpClouds",
+			"symbol": "OPC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2a8bf9e7c91c6e3237095e07eb3defbce358df00.png"
+		}
+	},
+	{
+		"address": "0x2a8d8fcb18d132d77373eb02b22d8e7d378f4437",
+		"data": {
+			"name": "TeraHertz Capital",
+			"symbol": "THZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2a8d8fcb18d132d77373eb02b22d8e7d378f4437.png"
 		}
 	},
 	{
@@ -6120,15 +7695,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2aad9dbc82611485a52325923e1187734e951b78",
-		"data": {
-			"name": "BYTZ",
-			"symbol": "BYTZ",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x2aad9dbc82611485a52325923e1187734e951b78.png"
-		}
-	},
-	{
 		"address": "0x2ab6bb8408ca3199b8fa6c92d5b455f820af03c4",
 		"data": {
 			"name": "TE FOOD",
@@ -6144,6 +7710,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PLANET",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2ad9addd0d97ec3cdba27f92bf6077893b76ab0b.png"
+		}
+	},
+	{
+		"address": "0x2adcbee886d23eff5adecc7767bf102e4a1ce151",
+		"data": {
+			"name": "Aktionariat AyurVeda AG Tokenized Share",
+			"symbol": "VEDA",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x2adcbee886d23eff5adecc7767bf102e4a1ce151.png"
+		}
+	},
+	{
+		"address": "0x2ae21de576e0fe0367651ddcf76e04dd0608c076",
+		"data": {
+			"name": "Gambit",
+			"symbol": "GAMBIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2ae21de576e0fe0367651ddcf76e04dd0608c076.png"
+		}
+	},
+	{
+		"address": "0x2aeabde1ab736c59e9a19bed67681869eef39526",
+		"data": {
+			"name": "DOVU",
+			"symbol": "DOVU",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x2aeabde1ab736c59e9a19bed67681869eef39526.png"
 		}
 	},
 	{
@@ -6183,15 +7776,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2b218683178d029bab6c9789b1073aa6c96e5176",
-		"data": {
-			"name": "Balancer Savings DAI Boosted Pool",
-			"symbol": "BB-S-DAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2b218683178d029bab6c9789b1073aa6c96e5176.png"
-		}
-	},
-	{
 		"address": "0x2b46578b7f06f2b373ad0e0c9b28f800dcc80bf3",
 		"data": {
 			"name": "Echo Bot",
@@ -6210,12 +7794,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2b81945875f892aff04af0a298d35fb2cf848c7b",
+		"data": {
+			"name": "Web",
+			"symbol": "WEB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x2b81945875f892aff04af0a298d35fb2cf848c7b.png"
+		}
+	},
+	{
 		"address": "0x2b867efd2de4ad2b583ca0cb3df9c4040ef4d329",
 		"data": {
 			"name": "Lucky Block",
 			"symbol": "LBLOCK",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x2b867efd2de4ad2b583ca0cb3df9c4040ef4d329.png"
+		}
+	},
+	{
+		"address": "0x2b896c7f060ae441b76bbe47cddca934ba60f37f",
+		"data": {
+			"name": "BlackLatexFist",
+			"symbol": "BLF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2b896c7f060ae441b76bbe47cddca934ba60f37f.png"
 		}
 	},
 	{
@@ -6228,12 +7830,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2b95a1dcc3d405535f9ed33c219ab38e8d7e0884",
+		"address": "0x2b91c5a73b7c4a70a61536429a2bf45461d85b27",
 		"data": {
-			"name": "Aladdin cvxCRV",
-			"symbol": "ACRV",
+			"name": "Riggers",
+			"symbol": "RIG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2b95a1dcc3d405535f9ed33c219ab38e8d7e0884.png"
+			"logoUri": "/images/tokens/0x2b91c5a73b7c4a70a61536429a2bf45461d85b27.png"
 		}
 	},
 	{
@@ -6273,12 +7875,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2bd0fb740e403b505a3146f9ac02df883fd5c3fc",
+		"address": "0x2be056e595110b30ddd5eaf674bdac54615307d9",
 		"data": {
-			"name": "K9",
-			"symbol": "K9",
+			"name": "Airpuff",
+			"symbol": "APUFF",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2bd0fb740e403b505a3146f9ac02df883fd5c3fc.png"
+			"logoUri": "/images/tokens/0x2be056e595110b30ddd5eaf674bdac54615307d9.png"
 		}
 	},
 	{
@@ -6302,7 +7904,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x2c000c0093de75a8fa2fccd3d97b314e20b431c3",
 		"data": {
-			"name": "HTX Litecoin",
+			"name": "Huobi Litecoin",
 			"symbol": "HLTC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2c000c0093de75a8fa2fccd3d97b314e20b431c3.png"
@@ -6327,6 +7929,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2c06ba9e7f0daccbc1f6a33ea67e85bb68fbee3a",
+		"data": {
+			"name": "Lends",
+			"symbol": "LENDS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2c06ba9e7f0daccbc1f6a33ea67e85bb68fbee3a.png"
+		}
+	},
+	{
 		"address": "0x2c10c0de3362ff21f8ed6bc7f4ac5e391153fd2c",
 		"data": {
 			"name": "MARKETVIZ",
@@ -6336,21 +7947,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f",
+		"data": {
+			"name": "L3USD",
+			"symbol": "L3USD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f.png"
+		}
+	},
+	{
 		"address": "0x2c2f7e7c5604d162d75641256b80f1bf6f4dc796",
 		"data": {
 			"name": "Polkarare",
 			"symbol": "PRARE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2c2f7e7c5604d162d75641256b80f1bf6f4dc796.png"
-		}
-	},
-	{
-		"address": "0x2c33b28527a63cdf13c0b24ce4cf5bf9c9fb3bc6",
-		"data": {
-			"name": "Schrodinger",
-			"symbol": "KITTYDINGER",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x2c33b28527a63cdf13c0b24ce4cf5bf9c9fb3bc6.png"
 		}
 	},
 	{
@@ -6381,6 +7992,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2c540c3c7be7af98278dc6963e092cd450009d1f",
+		"data": {
+			"name": "Sparko",
+			"symbol": "SPARKO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2c540c3c7be7af98278dc6963e092cd450009d1f.png"
+		}
+	},
+	{
 		"address": "0x2c5bc2ba3614fd27fcc7022ea71d9172e2632c16",
 		"data": {
 			"name": "Shib Original Vision",
@@ -6408,21 +8028,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2c8ea636345a231e4b1a28f6eeb2072ed909c406",
+		"data": {
+			"name": "Meme Elon Doge Floki",
+			"symbol": "MEMELON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2c8ea636345a231e4b1a28f6eeb2072ed909c406.png"
+		}
+	},
+	{
 		"address": "0x2c95d751da37a5c1d9c5a7fd465c1d50f3d96160",
 		"data": {
 			"name": "WASSIE",
 			"symbol": "WASSIE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2c95d751da37a5c1d9c5a7fd465c1d50f3d96160.png"
-		}
-	},
-	{
-		"address": "0x2c9715d6d95443c3bdf29e473ad168ff6fa6627d",
-		"data": {
-			"name": "Crab Rave Token",
-			"symbol": "CRABS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2c9715d6d95443c3bdf29e473ad168ff6fa6627d.png"
 		}
 	},
 	{
@@ -6444,21 +8064,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2c9c19ce3b15ae77c6d80aec3c1194cfd6f7f3fa",
+		"address": "0x2cb5d9fd89d48c516f11904117c57e3934f39524",
 		"data": {
-			"name": "2crazyNFT",
-			"symbol": "2CRZ",
+			"name": "PEPE UWU",
+			"symbol": "CUTE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2c9c19ce3b15ae77c6d80aec3c1194cfd6f7f3fa.png"
+			"logoUri": "/images/tokens/0x2cb5d9fd89d48c516f11904117c57e3934f39524.png"
 		}
 	},
 	{
-		"address": "0x2d64750ec85f6ec442e3093d74c7b1b0a133be6a",
+		"address": "0x2d17b511a85b401980cc0fed15a8d57fdb8eec60",
 		"data": {
-			"name": "Point Coin",
-			"symbol": "POINT",
+			"name": "Pigeon Park",
+			"symbol": "PGENZ",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2d64750ec85f6ec442e3093d74c7b1b0a133be6a.png"
+			"logoUri": "/images/tokens/0x2d17b511a85b401980cc0fed15a8d57fdb8eec60.png"
+		}
+	},
+	{
+		"address": "0x2d3590fac07b91c9451e8d16c372ece9758f040f",
+		"data": {
+			"name": "ratsDAO",
+			"symbol": "RAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2d3590fac07b91c9451e8d16c372ece9758f040f.png"
 		}
 	},
 	{
@@ -6480,12 +8109,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2d869ae129e308f94cc47e66eaefb448cee0d03e",
+		"data": {
+			"name": "OraiDEX",
+			"symbol": "ORAIX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2d869ae129e308f94cc47e66eaefb448cee0d03e.png"
+		}
+	},
+	{
 		"address": "0x2d886570a0da04885bfd6eb48ed8b8ff01a0eb7e",
 		"data": {
 			"name": "Blockchain Bets",
 			"symbol": "BCB",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x2d886570a0da04885bfd6eb48ed8b8ff01a0eb7e.png"
+		}
+	},
+	{
+		"address": "0x2d94aa3e47d9d5024503ca8491fce9a2fb4da198",
+		"data": {
+			"name": "Bankless DAO",
+			"symbol": "BANK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2d94aa3e47d9d5024503ca8491fce9a2fb4da198.png"
+		}
+	},
+	{
+		"address": "0x2d9996f3b9d2e73540fdbfdfe81d71e9e08cbf03",
+		"data": {
+			"name": "BoysClub",
+			"symbol": "BOYSCLUB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x2d9996f3b9d2e73540fdbfdfe81d71e9e08cbf03.png"
 		}
 	},
 	{
@@ -6498,6 +8154,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2dc917b722184ece1dcb9bb9dddfb1d63ccd25eb",
+		"data": {
+			"name": "White Rhinoceros",
+			"symbol": "WHRH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2dc917b722184ece1dcb9bb9dddfb1d63ccd25eb.png"
+		}
+	},
+	{
 		"address": "0x2dca19e944453e46d9130950ca135461b3bc0c30",
 		"data": {
 			"name": "EYES Protocol",
@@ -6507,30 +8172,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2dd1b9410c73e16b60240e529e38e30425f00d4e",
-		"data": {
-			"name": "Kay Pacha",
-			"symbol": "PACHA",
-			"decimals": 10,
-			"logoUri": "/images/tokens/0x2dd1b9410c73e16b60240e529e38e30425f00d4e.png"
-		}
-	},
-	{
-		"address": "0x2dd7144b701bd66bc12ec17f1afaad409f0e32cf",
-		"data": {
-			"name": "Poope",
-			"symbol": "POOPE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2dd7144b701bd66bc12ec17f1afaad409f0e32cf.png"
-		}
-	},
-	{
 		"address": "0x2de509bf0014ddf697b220be628213034d320ece",
 		"data": {
 			"name": "Don t Buy Inu",
 			"symbol": "DBI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2de509bf0014ddf697b220be628213034d320ece.png"
+		}
+	},
+	{
+		"address": "0x2de7b02ae3b1f11d51ca7b2495e9094874a064c0",
+		"data": {
+			"name": "SHIB2",
+			"symbol": "SHIB2",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2de7b02ae3b1f11d51ca7b2495e9094874a064c0.png"
+		}
+	},
+	{
+		"address": "0x2df7d0e4903029717c949cad204075a3d75c8806",
+		"data": {
+			"name": "Sweet",
+			"symbol": "SWEET",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x2df7d0e4903029717c949cad204075a3d75c8806.png"
 		}
 	},
 	{
@@ -6552,6 +8217,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2e1cb26689a0b8763d15ffe9d7b1c637cd9282d4",
+		"data": {
+			"name": "OPTA Global",
+			"symbol": "OPTA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2e1cb26689a0b8763d15ffe9d7b1c637cd9282d4.png"
+		}
+	},
+	{
 		"address": "0x2e1e15c44ffe4df6a0cb7371cd00d5028e571d14",
 		"data": {
 			"name": "Mettalex",
@@ -6567,6 +8241,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "VOICE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2e2364966267b5d7d2ce6cd9a9b5bd19d9c7c6a9.png"
+		}
+	},
+	{
+		"address": "0x2e4e1093b4e80e3cc73c92264715ca984bad7e55",
+		"data": {
+			"name": "ZionWallet",
+			"symbol": "ZION",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2e4e1093b4e80e3cc73c92264715ca984bad7e55.png"
 		}
 	},
 	{
@@ -6594,6 +8277,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KATA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15.png"
+		}
+	},
+	{
+		"address": "0x2e880962a9609aa3eab4def919fe9e917e99073b",
+		"data": {
+			"name": "Aktionariat Boss Info AG Tokenized Shar",
+			"symbol": "BOSS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x2e880962a9609aa3eab4def919fe9e917e99073b.png"
 		}
 	},
 	{
@@ -6651,6 +8343,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2eead196943d6a140ee337a5536de01979ebac9d",
+		"data": {
+			"name": "Token Sentry Bot",
+			"symbol": "SENTRY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x2eead196943d6a140ee337a5536de01979ebac9d.png"
+		}
+	},
+	{
 		"address": "0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9",
 		"data": {
 			"name": "Revain",
@@ -6660,12 +8361,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2f09757b222642c649f1f9d80798b0123fa18ba9",
+		"address": "0x2ef8a2ccb058915e00e16aa13cc6e36f19d8893b",
 		"data": {
-			"name": "Reflex Staking Bot",
-			"symbol": "REFLEX",
+			"name": "ValiDAO",
+			"symbol": "VDO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2f09757b222642c649f1f9d80798b0123fa18ba9.png"
+			"logoUri": "/images/tokens/0x2ef8a2ccb058915e00e16aa13cc6e36f19d8893b.png"
 		}
 	},
 	{
@@ -6678,12 +8379,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86",
+		"data": {
+			"name": "Backed NIU Technologies",
+			"symbol": "BNIU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86.png"
+		}
+	},
+	{
+		"address": "0x2f123cf3f37ce3328cc9b5b8415f9ec5109b45e7",
+		"data": {
+			"name": "Backed GOVIES 0 6 months EURO",
+			"symbol": "BC3M",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2f123cf3f37ce3328cc9b5b8415f9ec5109b45e7.png"
+		}
+	},
+	{
 		"address": "0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd",
 		"data": {
 			"name": "FREEdom coin",
 			"symbol": "FREE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd.png"
+		}
+	},
+	{
+		"address": "0x2f1ee92524285012c02a4e638ec010fa7f61fd94",
+		"data": {
+			"name": "Siphon Life Spell",
+			"symbol": "SLS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2f1ee92524285012c02a4e638ec010fa7f61fd94.png"
 		}
 	},
 	{
@@ -6696,39 +8424,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2f3d0d2317802a65faac6e4cd94067c37b4d4804",
+		"data": {
+			"name": "DECENTRACARD",
+			"symbol": "DCARD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x2f3d0d2317802a65faac6e4cd94067c37b4d4804.png"
+		}
+	},
+	{
 		"address": "0x2f4404c4012476929b6503e1397707480bf23b7f",
 		"data": {
 			"name": "AITravis",
 			"symbol": "TAI",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x2f4404c4012476929b6503e1397707480bf23b7f.png"
-		}
-	},
-	{
-		"address": "0x2f4b36442687e943e587b45cccc92d60c3c3502f",
-		"data": {
-			"name": "BedlingtonTerrierToken",
-			"symbol": "BETT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2f4b36442687e943e587b45cccc92d60c3c3502f.png"
-		}
-	},
-	{
-		"address": "0x2f4eb100552ef93840d5adc30560e5513dfffacb",
-		"data": {
-			"name": "Balancer Boosted Aave USDT",
-			"symbol": "BB-A-USDT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
-		}
-	},
-	{
-		"address": "0x2f4eb47a1b1f4488c71fc10e39a4aa56af33dd49",
-		"data": {
-			"name": "UNCL",
-			"symbol": "UNCL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x2f4eb47a1b1f4488c71fc10e39a4aa56af33dd49.png"
 		}
 	},
 	{
@@ -6750,12 +8460,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x2f6f397332b0f8b4536430bcc97980aa838f62f9",
+		"address": "0x2f5fa8adf5f09a5f9de05b65fe82a404913f02c4",
 		"data": {
-			"name": "Yuna",
-			"symbol": "YUNA",
+			"name": "TROLL 2 0",
+			"symbol": "TROLL20",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x2f6f397332b0f8b4536430bcc97980aa838f62f9.png"
+			"logoUri": "/images/tokens/0x2f5fa8adf5f09a5f9de05b65fe82a404913f02c4.png"
 		}
 	},
 	{
@@ -6786,6 +8496,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x2fb652314c3d850e9049057bbe9813f1eee882d3",
+		"data": {
+			"name": "RocketX Exchange",
+			"symbol": "RVF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x2fb652314c3d850e9049057bbe9813f1eee882d3.png"
+		}
+	},
+	{
 		"address": "0x2fc246aa66f0da5bb1368f688548ecbbe9bdee5d",
 		"data": {
 			"name": "TEMCO",
@@ -6801,15 +8520,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SYM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x2fd61567c29e7adb4ca17e60e1f4a3fcfe68acb8.png"
-		}
-	},
-	{
-		"address": "0x2fd8bc03d9e827f77fac20b5130ee98b7f80149d",
-		"data": {
-			"name": "CRB Coin",
-			"symbol": "CRB",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x2fd8bc03d9e827f77fac20b5130ee98b7f80149d.png"
 		}
 	},
 	{
@@ -6831,12 +8541,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x300211def2a644b036a9bdd3e58159bb2074d388",
+		"address": "0x3001f57f8308b189eb412a64322aad5ef9951290",
 		"data": {
-			"name": "Crosschain IOTX",
-			"symbol": "CIOTX",
+			"name": "Geometric Energy Corporation",
+			"symbol": "GEC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x300211def2a644b036a9bdd3e58159bb2074d388.png"
+			"logoUri": "/images/tokens/0x3001f57f8308b189eb412a64322aad5ef9951290.png"
+		}
+	},
+	{
+		"address": "0x3005003bda885dee7c74182e5fe336e9e3df87bb",
+		"data": {
+			"name": "LENX XD",
+			"symbol": "XD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3005003bda885dee7c74182e5fe336e9e3df87bb.png"
 		}
 	},
 	{
@@ -6867,12 +8586,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x305de070488c8469dfac957226c9c900c4bfba22",
+		"address": "0x304645590f197d99fad9fa1d05e7bcdc563e1378",
 		"data": {
-			"name": "More",
-			"symbol": "MORE",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x305de070488c8469dfac957226c9c900c4bfba22.png"
+			"name": "Guardian AI",
+			"symbol": "GUARDIAN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x304645590f197d99fad9fa1d05e7bcdc563e1378.png"
+		}
+	},
+	{
+		"address": "0x30672ae2680c319ec1028b69670a4a786baa0f35",
+		"data": {
+			"name": "NodeSynapse",
+			"symbol": "NS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x30672ae2680c319ec1028b69670a4a786baa0f35.png"
+		}
+	},
+	{
+		"address": "0x3079f61704e9efa2bcf1db412f735d8d4cfa26f4",
+		"data": {
+			"name": "HappyFans",
+			"symbol": "HAPPY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3079f61704e9efa2bcf1db412f735d8d4cfa26f4.png"
 		}
 	},
 	{
@@ -6885,15 +8622,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x308516e6daac88d719af5a6d7ea2a82d8c8e7356",
-		"data": {
-			"name": "Meme Street Gang",
-			"symbol": "MSG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x308516e6daac88d719af5a6d7ea2a82d8c8e7356.png"
-		}
-	},
-	{
 		"address": "0x30b47e13ccee15d6fa7a80994c94bb9b4a4bb973",
 		"data": {
 			"name": "Scratch Meme Coin",
@@ -6903,12 +8631,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x30b593f8c3ab37615359b4e0e6df2e06d55bb55d",
+		"data": {
+			"name": "FXDX",
+			"symbol": "FXDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x30b593f8c3ab37615359b4e0e6df2e06d55bb55d.png"
+		}
+	},
+	{
 		"address": "0x30cf203b48edaa42c3b4918e955fed26cd012a3f",
 		"data": {
 			"name": "MetaGame",
 			"symbol": "SEED",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x30cf203b48edaa42c3b4918e955fed26cd012a3f.png"
+		}
+	},
+	{
+		"address": "0x30d0e4e6fb0330e45a13e1e06260837f27015de5",
+		"data": {
+			"name": "Year of the Dragon",
+			"symbol": "YOD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x30d0e4e6fb0330e45a13e1e06260837f27015de5.png"
 		}
 	},
 	{
@@ -6930,21 +8676,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x30df7d7ee52c1b03cd009e656f00ab875adceed2",
-		"data": {
-			"name": "MetaReset",
-			"symbol": "RESET",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x30df7d7ee52c1b03cd009e656f00ab875adceed2.png"
-		}
-	},
-	{
 		"address": "0x30f271c9e86d2b7d00a6376cd96a1cfbd5f0b9b3",
 		"data": {
 			"name": "Decentr",
 			"symbol": "DEC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x30f271c9e86d2b7d00a6376cd96a1cfbd5f0b9b3.png"
+		}
+	},
+	{
+		"address": "0x30f7c830e0c2f4bec871df809d73e27ef19eb151",
+		"data": {
+			"name": "FP  PudgyPenguins",
+			"symbol": "UPPG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x30f7c830e0c2f4bec871df809d73e27ef19eb151.png"
 		}
 	},
 	{
@@ -6957,6 +8703,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x310718274509a38cc5559a1ff48c5edbe75a382b",
+		"data": {
+			"name": "Eigenpie oETH",
+			"symbol": "MOETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x310718274509a38cc5559a1ff48c5edbe75a382b.png"
+		}
+	},
+	{
 		"address": "0x310c8f00b9de3c31ab95ea68feb6c877538f7947",
 		"data": {
 			"name": "Undead Blocks",
@@ -6966,12 +8721,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3127294f1fd3c097ef31e54301069346b29d0209",
+		"data": {
+			"name": "Blast Inu",
+			"symbol": "BLAST",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3127294f1fd3c097ef31e54301069346b29d0209.png"
+		}
+	},
+	{
+		"address": "0x312d43881860807fa04b193d69744d087fc3308a",
+		"data": {
+			"name": "BRC 20 DEX",
+			"symbol": "BD20",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x312d43881860807fa04b193d69744d087fc3308a.png"
+		}
+	},
+	{
 		"address": "0x3136ef851592acf49ca4c825131e364170fa32b3",
 		"data": {
 			"name": "CoinFi",
 			"symbol": "COFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3136ef851592acf49ca4c825131e364170fa32b3.png"
+		}
+	},
+	{
+		"address": "0x313cae7ad4454aac7b208c1f089da2b0e5825e46",
+		"data": {
+			"name": "RepubliK",
+			"symbol": "RPK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x313cae7ad4454aac7b208c1f089da2b0e5825e46.png"
 		}
 	},
 	{
@@ -6993,12 +8775,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x318ee488af8881f9945b6d3d69e8b395fb559bb1",
+		"address": "0x31a2e08f4232329e4eddb025c0275f43c9cd56d7",
 		"data": {
-			"name": "Monte",
-			"symbol": "MONTE",
+			"name": "LUSD",
+			"symbol": "LUSD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x318ee488af8881f9945b6d3d69e8b395fb559bb1.png"
+			"logoUri": "/images/tokens/0x31a2e08f4232329e4eddb025c0275f43c9cd56d7.png"
+		}
+	},
+	{
+		"address": "0x31adda225642a8f4d7e90d4152be6661ab22a5a2",
+		"data": {
+			"name": "Hypr Network",
+			"symbol": "HYPR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x31adda225642a8f4d7e90d4152be6661ab22a5a2.png"
+		}
+	},
+	{
+		"address": "0x31bd628c038f08537e0229f0d8c0a7b18b0cda7b",
+		"data": {
+			"name": "IntelliQuant",
+			"symbol": "INQU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x31bd628c038f08537e0229f0d8c0a7b18b0cda7b.png"
 		}
 	},
 	{
@@ -7017,6 +8817,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RAD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3.png"
+		}
+	},
+	{
+		"address": "0x31e4efe290973ebe91b3a875a7994f650942d28f",
+		"data": {
+			"name": "Shrapnel",
+			"symbol": "SHRAP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x31e4efe290973ebe91b3a875a7994f650942d28f.png"
+		}
+	},
+	{
+		"address": "0x31e6506751437428ae8f2e15ec4a3d2e33d4f8a4",
+		"data": {
+			"name": "AePos Network",
+			"symbol": "AEPOS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x31e6506751437428ae8f2e15ec4a3d2e33d4f8a4.png"
 		}
 	},
 	{
@@ -7074,6 +8892,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x320ed4c7243e35a00f9ca30a1ae60929d15eae37",
+		"data": {
+			"name": "The Blox Project",
+			"symbol": "BLOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x320ed4c7243e35a00f9ca30a1ae60929d15eae37.png"
+		}
+	},
+	{
 		"address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
 		"data": {
 			"name": "The Tokenized Bitcoin",
@@ -7128,12 +8955,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3252d4221f92b7af3774da8312f01600ec84b252",
+		"address": "0x3250577e12b9469915c1fa3a71c22817ca44c4d9",
 		"data": {
-			"name": "xoloitzcuintli",
-			"symbol": "XOLO",
+			"name": "Socrates",
+			"symbol": "SOC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3252d4221f92b7af3774da8312f01600ec84b252.png"
+			"logoUri": "/images/tokens/0x3250577e12b9469915c1fa3a71c22817ca44c4d9.png"
 		}
 	},
 	{
@@ -7155,6 +8982,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x328a268b191ef593b72498a9e8a481c086eb21be",
+		"data": {
+			"name": "MetaZero",
+			"symbol": "MZERO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x328a268b191ef593b72498a9e8a481c086eb21be.png"
+		}
+	},
+	{
 		"address": "0x328c4c80bc7aca0834db37e6600a6c49e12da4de",
 		"data": {
 			"name": "Aave SNX v1",
@@ -7170,6 +9006,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "aSNX ",
 			"decimals": 18,
 			"logoUri": "images/contracts/aave.png"
+		}
+	},
+	{
+		"address": "0x3294395e62f4eb6af3f1fcf89f5602d90fb3ef69",
+		"data": {
+			"name": "Celo  Wormhole ",
+			"symbol": "CELO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3294395e62f4eb6af3f1fcf89f5602d90fb3ef69.png"
 		}
 	},
 	{
@@ -7191,12 +9036,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x32a5fc22e20903e78171977359b500060b7316bf",
+		"data": {
+			"name": "Paw a Gotchi",
+			"symbol": "PAG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x32a5fc22e20903e78171977359b500060b7316bf.png"
+		}
+	},
+	{
 		"address": "0x32a7c02e79c4ea1008dd6564b35f131428673c41",
 		"data": {
 			"name": "Crust Network",
 			"symbol": "CRU",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x32a7c02e79c4ea1008dd6564b35f131428673c41.png"
+		}
+	},
+	{
+		"address": "0x32b053f2cba79f80ada5078cb6b305da92bde6e1",
+		"data": {
+			"name": "NEURALAI",
+			"symbol": "NEURAL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x32b053f2cba79f80ada5078cb6b305da92bde6e1.png"
 		}
 	},
 	{
@@ -7209,6 +9072,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x32bd822d615a3658a68b6fdd30c2fcb2c996d678",
+		"data": {
+			"name": "Eigenpie swETH",
+			"symbol": "MSWETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x32bd822d615a3658a68b6fdd30c2fcb2c996d678.png"
+		}
+	},
+	{
 		"address": "0x32c4adb9cf57f972bc375129de91c897b4f364f1",
 		"data": {
 			"name": "Flowchain",
@@ -7218,12 +9090,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x32d5b155e82c87c491ea14b59477ddd0957e242c",
+		"address": "0x32c6f1c1731ff8f98ee2ede8954f696446307846",
 		"data": {
-			"name": "X Bridge Bot",
-			"symbol": "XFER",
+			"name": "Bearded Dragon",
+			"symbol": "BEARDY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x32d5b155e82c87c491ea14b59477ddd0957e242c.png"
+			"logoUri": "/images/tokens/0x32c6f1c1731ff8f98ee2ede8954f696446307846.png"
 		}
 	},
 	{
@@ -7245,6 +9117,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x32eca61dc25d0742f238ce523e66b68867625dad",
+		"data": {
+			"name": "0xFair",
+			"symbol": "FAIR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x32eca61dc25d0742f238ce523e66b68867625dad.png"
+		}
+	},
+	{
+		"address": "0x32fd949e1953b21b7a8232ef4259cd708b4e0847",
+		"data": {
+			"name": "HyperBC",
+			"symbol": "HBT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x32fd949e1953b21b7a8232ef4259cd708b4e0847.png"
+		}
+	},
+	{
+		"address": "0x3300b02efa180c99a2f61f4731665b51e4e254c4",
+		"data": {
+			"name": "Hitmakr",
+			"symbol": "HMKR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3300b02efa180c99a2f61f4731665b51e4e254c4.png"
+		}
+	},
+	{
 		"address": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6",
 		"data": {
 			"name": "Akita Inu",
@@ -7260,6 +9159,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XBOT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x330528172778cc5196d5f6742886c72505e0613d.png"
+		}
+	},
+	{
+		"address": "0x332809a8bce4a589da992a4ae495f32fbf4089c6",
+		"data": {
+			"name": "Black Hole",
+			"symbol": "BLH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x332809a8bce4a589da992a4ae495f32fbf4089c6.png"
 		}
 	},
 	{
@@ -7317,6 +9225,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x337c8a3f0cd0580b29e9ee5d7829645709c8f6d2",
+		"data": {
+			"name": "BOBA",
+			"symbol": "BOBA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x337c8a3f0cd0580b29e9ee5d7829645709c8f6d2.png"
+		}
+	},
+	{
 		"address": "0x337dd23d05c27bff099d3604938bfc23a9b25820",
 		"data": {
 			"name": "Marshall Fighting Championship",
@@ -7332,15 +9249,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "EBOX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x33840024177a7daca3468912363bed8b425015c5.png"
-		}
-	},
-	{
-		"address": "0x33909c9ce97ce509dab3a038b3ec7ac3d1be3231",
-		"data": {
-			"name": "Terareum",
-			"symbol": "TERA2",
-			"decimals": 4,
-			"logoUri": "/images/tokens/0x33909c9ce97ce509dab3a038b3ec7ac3d1be3231.png"
 		}
 	},
 	{
@@ -7362,6 +9270,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x339e6c8d204b1aaa3fb74bc7ba15b9fb6648b7d2",
+		"data": {
+			"name": "Omega Cloud",
+			"symbol": "OMEGA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x339e6c8d204b1aaa3fb74bc7ba15b9fb6648b7d2.png"
+		}
+	},
+	{
+		"address": "0x33abe795f9c1b6136608c36db211bd7590f5fdae",
+		"data": {
+			"name": "Landwolf",
+			"symbol": "WOLF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x33abe795f9c1b6136608c36db211bd7590f5fdae.png"
+		}
+	},
+	{
+		"address": "0x33ba0f96980314cf962bd6224b5c3befa5946202",
+		"data": {
+			"name": "nsurance",
+			"symbol": "N",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x33ba0f96980314cf962bd6224b5c3befa5946202.png"
+		}
+	},
+	{
 		"address": "0x33bc4e44054fdb21d5a7cea5c03613782d821e45",
 		"data": {
 			"name": "Xudo",
@@ -7377,6 +9312,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "HIODBS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x33bd66c334274989b673a8e8c8d1a3f1b8de5889.png"
+		}
+	},
+	{
+		"address": "0x33c04bed4533e31f2afb8ac4a61a48eda38c4fa0",
+		"data": {
+			"name": "Gorilla",
+			"symbol": "GORILLA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x33c04bed4533e31f2afb8ac4a61a48eda38c4fa0.png"
+		}
+	},
+	{
+		"address": "0x33caf58d14d7cd284cc2d7f2bc878d2d63c8956a",
+		"data": {
+			"name": "Only Possible On Ethereum",
+			"symbol": "OPOE",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x33caf58d14d7cd284cc2d7f2bc878d2d63c8956a.png"
+		}
+	},
+	{
+		"address": "0x33cd63136d2f04826a9170b2ed6e09b6c9fb38a5",
+		"data": {
+			"name": "VEROPAD",
+			"symbol": "VPAD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x33cd63136d2f04826a9170b2ed6e09b6c9fb38a5.png"
 		}
 	},
 	{
@@ -7404,6 +9366,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XB",
 			"decimals": 2,
 			"logoUri": "/images/tokens/0x33e80a92a9ea73dd02f6e732d1702d58c68388ca.png"
+		}
+	},
+	{
+		"address": "0x33f289d91286535c47270c8479f6776fb3adeb3e",
+		"data": {
+			"name": "BoxBet",
+			"symbol": "BXBT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x33f289d91286535c47270c8479f6776fb3adeb3e.png"
 		}
 	},
 	{
@@ -7443,12 +9414,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x34103e1190b824a44c6a638438d425cba21143ba",
+		"address": "0x3419875b4d3bca7f3fdda2db7a476a79fd31b4fe",
 		"data": {
-			"name": "BITE",
-			"symbol": "BITE",
+			"name": "DizzyHavoc",
+			"symbol": "DZHV",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x34103e1190b824a44c6a638438d425cba21143ba.png"
+			"logoUri": "/images/tokens/0x3419875b4d3bca7f3fdda2db7a476a79fd31b4fe.png"
 		}
 	},
 	{
@@ -7461,6 +9432,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
+		"data": {
+			"name": "Pixels",
+			"symbol": "PIXEL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31.png"
+		}
+	},
+	{
+		"address": "0x342f4ca388896e6300bb899aca2d8619cbefcece",
+		"data": {
+			"name": "Innovai",
+			"symbol": "INO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x342f4ca388896e6300bb899aca2d8619cbefcece.png"
+		}
+	},
+	{
 		"address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
 		"data": {
 			"name": "Frax Share",
@@ -7470,12 +9459,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x343c6de13833bc7d9890eb6b1cd3fbebc730ebec",
+		"address": "0x343cf59a43bd7ddd38b7236a478139a86a26222b",
 		"data": {
-			"name": "Decentralized Activism",
-			"symbol": "DACT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x343c6de13833bc7d9890eb6b1cd3fbebc730ebec.png"
+			"name": "Caesar s Arena",
+			"symbol": "CAESAR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x343cf59a43bd7ddd38b7236a478139a86a26222b.png"
+		}
+	},
+	{
+		"address": "0x3442fbf264b6d723e01775a710850dcef6e6847c",
+		"data": {
+			"name": "VINU Network",
+			"symbol": "VNN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3442fbf264b6d723e01775a710850dcef6e6847c.png"
 		}
 	},
 	{
@@ -7497,30 +9495,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x344d6117ae0984f3afdd23e593f92d95a83dcd0e",
+		"data": {
+			"name": "Skibidi Toilet",
+			"symbol": "TOILET",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x344d6117ae0984f3afdd23e593f92d95a83dcd0e.png"
+		}
+	},
+	{
+		"address": "0x345887cdb19e12833ed376bbf8b8b38269f5f5c8",
+		"data": {
+			"name": "Carbon Browser",
+			"symbol": "CSIX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x345887cdb19e12833ed376bbf8b8b38269f5f5c8.png"
+		}
+	},
+	{
+		"address": "0x34635280737b5bfe6c7dc2fc3065d60d66e78185",
+		"data": {
+			"name": "Convex Prisma",
+			"symbol": "CVXPRISMA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x34635280737b5bfe6c7dc2fc3065d60d66e78185.png"
+		}
+	},
+	{
 		"address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
 		"data": {
-			"name": "Badger DAO",
+			"name": "Badger",
 			"symbol": "BADGER",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3472a5a71965499acd81997a54bba8d852c6e53d.png"
-		}
-	},
-	{
-		"address": "0x347a96a5bd06d2e15199b032f46fb724d6c73047",
-		"data": {
-			"name": "ASIC Token",
-			"symbol": "ASIC",
-			"decimals": 12,
-			"logoUri": "/images/tokens/0x347a96a5bd06d2e15199b032f46fb724d6c73047.png"
-		}
-	},
-	{
-		"address": "0x3486b751a36f731a1bebff779374bad635864919",
-		"data": {
-			"name": "Inedible Coin",
-			"symbol": "INEDIBLE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3486b751a36f731a1bebff779374bad635864919.png"
 		}
 	},
 	{
@@ -7544,7 +9551,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x3496b523e5c00a4b4150d6721320cddb234c3079",
 		"data": {
-			"name": "NUM Token",
+			"name": "Numbers Protocol",
 			"symbol": "NUM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3496b523e5c00a4b4150d6721320cddb234c3079.png"
@@ -7569,6 +9576,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x34bc13de8e5124a7c47d4b7ff7c5ade6ee34faba",
+		"data": {
+			"name": "Project Dojo",
+			"symbol": "DOJO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x34bc13de8e5124a7c47d4b7ff7c5ade6ee34faba.png"
+		}
+	},
+	{
 		"address": "0x34bdf48a8f753de4822a6cfb1fee275f9b4d662e",
 		"data": {
 			"name": "FACTS",
@@ -7587,15 +9603,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x34c8b3fe84410f9b3870549e037fd1ea7b168977",
-		"data": {
-			"name": "BRUCE pepe",
-			"symbol": "BRUCE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x34c8b3fe84410f9b3870549e037fd1ea7b168977.png"
-		}
-	},
-	{
 		"address": "0x34d6a0f5c2f5d0082141fe73d93b9dd00ca7ce11",
 		"data": {
 			"name": "Golden",
@@ -7605,21 +9612,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x34dce75a3d1910cc9d188aa5a75fb9addcae0fcc",
+		"data": {
+			"name": "XV",
+			"symbol": "XV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x34dce75a3d1910cc9d188aa5a75fb9addcae0fcc.png"
+		}
+	},
+	{
 		"address": "0x34df29dd880e9fe2cec0f85f7658b75606fb2870",
 		"data": {
 			"name": "Navy seal",
 			"symbol": "NAVYSEAL",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x34df29dd880e9fe2cec0f85f7658b75606fb2870.png"
-		}
-	},
-	{
-		"address": "0x34f0915a5f15a66eba86f6a58be1a471fb7836a7",
-		"data": {
-			"name": "PulseDogecoin",
-			"symbol": "PLSD",
-			"decimals": 12,
-			"logoUri": "/images/tokens/0x34f0915a5f15a66eba86f6a58be1a471fb7836a7.png"
 		}
 	},
 	{
@@ -7650,36 +9657,36 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x350d3f0f41b5b21f0e252fe2645ae9d55562150a",
+		"address": "0x35282d87011f87508d457f08252bc5bfa52e10a0",
 		"data": {
-			"name": "BananaClubToken",
-			"symbol": "BCT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x350d3f0f41b5b21f0e252fe2645ae9d55562150a.png"
-		}
-	},
-	{
-		"address": "0x35156b404c3f9bdaf45ab65ba315419bcde3775c",
-		"data": {
-			"name": "Chihiro Inu",
-			"symbol": "CHIRO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x35156b404c3f9bdaf45ab65ba315419bcde3775c.png"
-		}
-	},
-	{
-		"address": "0x351caa9045d65107b9d311d922d15887cfd634e4",
-		"data": {
-			"name": "Arowana",
-			"symbol": "ARW",
+			"name": "ULTRA",
+			"symbol": "ULTRA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x351caa9045d65107b9d311d922d15887cfd634e4.png"
+			"logoUri": "/images/tokens/0x35282d87011f87508d457f08252bc5bfa52e10a0.png"
+		}
+	},
+	{
+		"address": "0x352a3144e88d23427993938cfd780291d95ef091",
+		"data": {
+			"name": "Eigenpie OsETH",
+			"symbol": "MOSETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x352a3144e88d23427993938cfd780291d95ef091.png"
+		}
+	},
+	{
+		"address": "0x352a4b34b8e9f43b869f6f80728978cccdced406",
+		"data": {
+			"name": "Sound LinX",
+			"symbol": "SDLX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x352a4b34b8e9f43b869f6f80728978cccdced406.png"
 		}
 	},
 	{
 		"address": "0x3540abe4f288b280a0740ad5121aec337c404d15",
 		"data": {
-			"name": "TPRO",
+			"name": "TPRO Network",
 			"symbol": "TPRO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3540abe4f288b280a0740ad5121aec337c404d15.png"
@@ -7713,6 +9720,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x354c8cda7e3b737d360513a0dc5abcee8ee1cea3",
+		"data": {
+			"name": "BABYTRUMP",
+			"symbol": "BABYTRUMP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x354c8cda7e3b737d360513a0dc5abcee8ee1cea3.png"
+		}
+	},
+	{
 		"address": "0x355a824bea1adc22733978a3748271e1bbb34130",
 		"data": {
 			"name": "Metanept",
@@ -7731,12 +9747,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3576eff2be8b1a31782b3e8dfd962a6ddb087890",
+		"address": "0x356e17967206efb413b60ab0ba44e269063a26c9",
 		"data": {
-			"name": "Rabbit Race",
-			"symbol": "RABBITS",
+			"name": "Of Course I Still Love You",
+			"symbol": "OCISLY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x356e17967206efb413b60ab0ba44e269063a26c9.png"
+		}
+	},
+	{
+		"address": "0x357c915d7c12dc506d13332bb06c932af13e99a0",
+		"data": {
+			"name": "LuckysLeprecoin",
+			"symbol": "LUCKYSLP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3576eff2be8b1a31782b3e8dfd962a6ddb087890.png"
+			"logoUri": "/images/tokens/0x357c915d7c12dc506d13332bb06c932af13e99a0.png"
+		}
+	},
+	{
+		"address": "0x3585c1ee4a9c2144510084182b96af961f4ce10d",
+		"data": {
+			"name": "GenAi",
+			"symbol": "GENAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3585c1ee4a9c2144510084182b96af961f4ce10d.png"
 		}
 	},
 	{
@@ -7755,6 +9789,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AAMMBPTWBTCWETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x358bd0d980e031e23eba9aa793926857703783bd.png"
+		}
+	},
+	{
+		"address": "0x359108ca299ca693502ef217e2109ad02aa4277c",
+		"data": {
+			"name": "FP  MutantApeYachtClub",
+			"symbol": "UMAYC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x359108ca299ca693502ef217e2109ad02aa4277c.png"
 		}
 	},
 	{
@@ -7812,21 +9855,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x35ca1e5a9b1c09fa542fa18d1ba4d61c8edff852",
+		"data": {
+			"name": "Schrodi",
+			"symbol": "SCHRODI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x35ca1e5a9b1c09fa542fa18d1ba4d61c8edff852.png"
+		}
+	},
+	{
 		"address": "0x35e78b3982e87ecfd5b3f3265b601c046cdbe232",
 		"data": {
 			"name": "SideShift",
 			"symbol": "XAI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x35e78b3982e87ecfd5b3f3265b601c046cdbe232.png"
-		}
-	},
-	{
-		"address": "0x35f67c1d929e106fdff8d1a55226afe15c34dbe2",
-		"data": {
-			"name": "Beta",
-			"symbol": "BETA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x35f67c1d929e106fdff8d1a55226afe15c34dbe2.png"
 		}
 	},
 	{
@@ -7848,12 +9891,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3625b55f653f8c7c884ac668696881df43631d44",
+		"address": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
 		"data": {
-			"name": "Arti Project",
-			"symbol": "ARTI",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x3625b55f653f8c7c884ac668696881df43631d44.png"
+			"name": "ether fi Staked ETH",
+			"symbol": "EETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x35fa164735182de50811e8e2e824cfb9b6118ac2.png"
+		}
+	},
+	{
+		"address": "0x36096eb8c11729fdd7685d5e1b82b17d542c38ce",
+		"data": {
+			"name": "NousAI",
+			"symbol": "NOUS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x36096eb8c11729fdd7685d5e1b82b17d542c38ce.png"
 		}
 	},
 	{
@@ -7866,12 +9918,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x36520f6336490088c2455279c59cefac66984b36",
+		"address": "0x3632dc4d741bfa40dbf3b23b63dd3a25a3061de3",
 		"data": {
-			"name": "Copium",
-			"symbol": "COPIUM",
+			"name": "0xEngage",
+			"symbol": "ENGAGE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x36520f6336490088c2455279c59cefac66984b36.png"
+			"logoUri": "/images/tokens/0x3632dc4d741bfa40dbf3b23b63dd3a25a3061de3.png"
 		}
 	},
 	{
@@ -7884,6 +9936,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x365accfca291e7d3914637abf1f7635db165bb09",
+		"data": {
+			"name": "f x  Protocol",
+			"symbol": "FXN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x365accfca291e7d3914637abf1f7635db165bb09.png"
+		}
+	},
+	{
+		"address": "0x36705e789d0d1ba53fd9bb93512722018b0a089e",
+		"data": {
+			"name": "CortexLoop",
+			"symbol": "CRTX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x36705e789d0d1ba53fd9bb93512722018b0a089e.png"
+		}
+	},
+	{
+		"address": "0x36737b4ac153c762d6a767056e1af7b17573a6b9",
+		"data": {
+			"name": "GOLD",
+			"symbol": "GOLD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x36737b4ac153c762d6a767056e1af7b17573a6b9.png"
+		}
+	},
+	{
 		"address": "0x36880f14af2e85cae8e467827fa077d6bf12ea56",
 		"data": {
 			"name": "Jared From Subway",
@@ -7893,12 +9972,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x368c5290b13caa10284db58b4ad4f3e9ee8bf4c9",
+		"address": "0x368bf9f1a1ca767935e39f20439d9041707e2634",
 		"data": {
-			"name": "KKO Protocol",
-			"symbol": "KKO",
+			"name": "Chainflix",
+			"symbol": "CFXT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x368c5290b13caa10284db58b4ad4f3e9ee8bf4c9.png"
+			"logoUri": "/images/tokens/0x368bf9f1a1ca767935e39f20439d9041707e2634.png"
 		}
 	},
 	{
@@ -7920,12 +9999,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x36948a6809be82d3ba8de9f2be626101e2c9e473",
+		"address": "0x369733153e6e08d38f2bc72ae2432e855cfbe221",
 		"data": {
-			"name": "BoltBot",
-			"symbol": "BOLT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x36948a6809be82d3ba8de9f2be626101e2c9e473.png"
+			"name": "XALPHA AI",
+			"symbol": "XALPHA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x369733153e6e08d38f2bc72ae2432e855cfbe221.png"
+		}
+	},
+	{
+		"address": "0x36a17b52b5322846fcf894ee1535c8aa23df6765",
+		"data": {
+			"name": "FP  Potatoz",
+			"symbol": "UPOTATOZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x36a17b52b5322846fcf894ee1535c8aa23df6765.png"
 		}
 	},
 	{
@@ -7935,6 +10023,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XCM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25.png"
+		}
+	},
+	{
+		"address": "0x36c79f0b8a2e8a3c0230c254c452973e7a3ba155",
+		"data": {
+			"name": "BetAI",
+			"symbol": "BAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x36c79f0b8a2e8a3c0230c254c452973e7a3ba155.png"
 		}
 	},
 	{
@@ -7965,24 +10062,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x36feca97a4e81f4e1260119fae0c572a98832285",
-		"data": {
-			"name": "Chainswitch",
-			"symbol": "SWITCH",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x36feca97a4e81f4e1260119fae0c572a98832285.png"
-		}
-	},
-	{
-		"address": "0x36ff4dae0e88113d68b1209e245b0e3af92e9d58",
-		"data": {
-			"name": "Xenlon Mars",
-			"symbol": "XLON",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x36ff4dae0e88113d68b1209e245b0e3af92e9d58.png"
-		}
-	},
-	{
 		"address": "0x3700adfd26d5bc062cb8b8a77e68fbd43f58ecab",
 		"data": {
 			"name": "hiDOODLES",
@@ -8010,15 +10089,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x37268c4f56ebb13dfae9c16d57d17579312d0ee1",
-		"data": {
-			"name": "0xAuto io   Contract Auto Deployer",
-			"symbol": "0XA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x37268c4f56ebb13dfae9c16d57d17579312d0ee1.png"
-		}
-	},
-	{
 		"address": "0x374cb8c27130e2c9e04f44303f3c8351b9de61c1",
 		"data": {
 			"name": "Bao Finance",
@@ -8028,30 +10098,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x374fb05c96c36348b92e38fb088b26b8511e3b3d",
-		"data": {
-			"name": "CROWD",
-			"symbol": "CWD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x374fb05c96c36348b92e38fb088b26b8511e3b3d.png"
-		}
-	},
-	{
 		"address": "0x3757232b55e60da4a8793183ac030cfce4c3865d",
 		"data": {
 			"name": "YDragon",
 			"symbol": "YDR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3757232b55e60da4a8793183ac030cfce4c3865d.png"
-		}
-	},
-	{
-		"address": "0x3758e00b100876c854636ef8db61988931bb8025",
-		"data": {
-			"name": "Uniqly",
-			"symbol": "UNIQ",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3758e00b100876c854636ef8db61988931bb8025.png"
 		}
 	},
 	{
@@ -8073,12 +10125,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x377d552914e7a104bc22b4f3b6268ddc69615be7",
+		"address": "0x377de38159bf87111c1523055b4a8c3a1a971722",
 		"data": {
-			"name": "NEXT",
-			"symbol": "NEXT",
+			"name": "GrokGrow",
+			"symbol": "GROKGROW",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x377d552914e7a104bc22b4f3b6268ddc69615be7.png"
+			"logoUri": "/images/tokens/0x377de38159bf87111c1523055b4a8c3a1a971722.png"
+		}
+	},
+	{
+		"address": "0x378878af3228d23891de306cb2b123d837d0dcf1",
+		"data": {
+			"name": "Anonify",
+			"symbol": "ONI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x378878af3228d23891de306cb2b123d837d0dcf1.png"
 		}
 	},
 	{
@@ -8100,6 +10161,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x378e97d19cf319eb311748ff4d9971dc349c8ad4",
+		"data": {
+			"name": "AlphaScan AI",
+			"symbol": "ASCN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x378e97d19cf319eb311748ff4d9971dc349c8ad4.png"
+		}
+	},
+	{
 		"address": "0x37a15c92e67686aa268df03d4c881a76340907e8",
 		"data": {
 			"name": "Pixiu Finance",
@@ -8109,12 +10179,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x37c997b35c619c21323f3518b9357914e8b99525",
+		"address": "0x37ac5730cfb1549715647828a05b3a8ed781134b",
 		"data": {
-			"name": "Unipilot",
-			"symbol": "PILOT",
+			"name": "AiFi Protocol",
+			"symbol": "AIFI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x37c997b35c619c21323f3518b9357914e8b99525.png"
+			"logoUri": "/images/tokens/0x37ac5730cfb1549715647828a05b3a8ed781134b.png"
 		}
 	},
 	{
@@ -8199,12 +10269,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3810a4ddf41e586fa0dba1463a7951b748cecfca",
+		"address": "0x380bd08929d4ae51de22f708dccb6b4c534ab79a",
 		"data": {
-			"name": "Menapay",
-			"symbol": "MPAY",
+			"name": "TINFA",
+			"symbol": "TINFA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3810a4ddf41e586fa0dba1463a7951b748cecfca.png"
+			"logoUri": "/images/tokens/0x380bd08929d4ae51de22f708dccb6b4c534ab79a.png"
 		}
 	},
 	{
@@ -8217,6 +10287,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3824255df9eabc9347abcaa5872b1763fe9d47bc",
+		"data": {
+			"name": "NodeStation AI",
+			"symbol": "NDS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3824255df9eabc9347abcaa5872b1763fe9d47bc.png"
+		}
+	},
+	{
 		"address": "0x382a1667c9062f0621362f49076ef6e4fe4c9ec7",
 		"data": {
 			"name": "RushCoin",
@@ -8226,12 +10305,29 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3832d2f059e55934220881f831be501d180671a7",
+		"address": "0x382ac32e9abe17f424a74e8ce0a92c0f18788f9a",
 		"data": {
-			"name": "renDOGE",
-			"symbol": "RENDOGE",
+			"name": "Hottel",
+			"symbol": "HOTT",
+			"decimals": 18
+		}
+	},
+	{
+		"address": "0x382e57ca8e4c4db9649884ca77b0a355692d14ac",
+		"data": {
+			"name": "Xyxyx",
+			"symbol": "XYXYX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x382e57ca8e4c4db9649884ca77b0a355692d14ac.png"
+		}
+	},
+	{
+		"address": "0x382edfe4c6168858c81893fe00fcb7b68914d929",
+		"data": {
+			"name": "SJ741 Emeralds",
+			"symbol": "EMERALD",
 			"decimals": 8,
-			"logoUri": "/images/tokens/0x3832d2f059e55934220881f831be501d180671a7.png"
+			"logoUri": "/images/tokens/0x382edfe4c6168858c81893fe00fcb7b68914d929.png"
 		}
 	},
 	{
@@ -8250,6 +10346,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SAND",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3845badade8e6dff049820680d1f14bd3903a5d0.png"
+		}
+	},
+	{
+		"address": "0x3850952491606a0e420eb929b1a2e1a450d013f1",
+		"data": {
+			"name": "PanoVerse",
+			"symbol": "PANO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3850952491606a0e420eb929b1a2e1a450d013f1.png"
+		}
+	},
+	{
+		"address": "0x38547d918b9645f2d94336b6b61aeb08053e142c",
+		"data": {
+			"name": "USC",
+			"symbol": "USC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x38547d918b9645f2d94336b6b61aeb08053e142c.png"
+		}
+	},
+	{
+		"address": "0x38604d52d3a89b16a90053ae0c6d009504a9a5b8",
+		"data": {
+			"name": "Cloud AI",
+			"symbol": "CLD",
+			"decimals": 10,
+			"logoUri": "/images/tokens/0x38604d52d3a89b16a90053ae0c6d009504a9a5b8.png"
 		}
 	},
 	{
@@ -8307,6 +10430,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x38c2a4a7330b22788374b8ff70bba513c8d848ca",
+		"data": {
+			"name": "Truflation",
+			"symbol": "TRUF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x38c2a4a7330b22788374b8ff70bba513c8d848ca.png"
+		}
+	},
+	{
 		"address": "0x38cf11283de05cf1823b7804bc75068bd6296957",
 		"data": {
 			"name": "MoonBot",
@@ -8316,12 +10448,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x38cf6cea814aefd01027a0bbf8a78b7aa95a698e",
+		"data": {
+			"name": "Bypass",
+			"symbol": "BYPASS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x38cf6cea814aefd01027a0bbf8a78b7aa95a698e.png"
+		}
+	},
+	{
+		"address": "0x38d64ce1bdf1a9f24e0ec469c9cade61236fb4a0",
+		"data": {
+			"name": "Vector ETH",
+			"symbol": "VETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x38d64ce1bdf1a9f24e0ec469c9cade61236fb4a0.png"
+		}
+	},
+	{
 		"address": "0x38d9eb07a7b8df7d86f440a4a5c4a4c1a27e1a08",
 		"data": {
 			"name": "bloXmove",
 			"symbol": "BLXM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x38d9eb07a7b8df7d86f440a4a5c4a4c1a27e1a08.png"
+		}
+	},
+	{
+		"address": "0x38e382f74dfb84608f3c1f10187f6bef5951de93",
+		"data": {
+			"name": "Multibit",
+			"symbol": "MUBI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x38e382f74dfb84608f3c1f10187f6bef5951de93.png"
 		}
 	},
 	{
@@ -8343,12 +10502,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x38e68a37e401f7271568cecaac63c6b1e19130b4",
+		"data": {
+			"name": "Banana Gun",
+			"symbol": "BANANA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x38e68a37e401f7271568cecaac63c6b1e19130b4.png"
+		}
+	},
+	{
+		"address": "0x38f9bb135ea88033f4377b9ea0fb5cfb773fec2f",
+		"data": {
+			"name": "Alpha Shards",
+			"symbol": "ALPHA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x38f9bb135ea88033f4377b9ea0fb5cfb773fec2f.png"
+		}
+	},
+	{
+		"address": "0x390e61f798267fe7aa9bbe61be8bb1776250d44c",
+		"data": {
+			"name": "T2T2",
+			"symbol": "T2T2",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x390e61f798267fe7aa9bbe61be8bb1776250d44c.png"
+		}
+	},
+	{
 		"address": "0x39142c18b6db2a8a41b7018f49e1478837560cad",
 		"data": {
 			"name": "STATS",
 			"symbol": "STATS",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x39142c18b6db2a8a41b7018f49e1478837560cad.png"
+		}
+	},
+	{
+		"address": "0x39162d9f64c0f9d64d14eac3b6d5a15d3d569eea",
+		"data": {
+			"name": "MrWeb Finance",
+			"symbol": "AMA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x39162d9f64c0f9d64d14eac3b6d5a15d3d569eea.png"
+		}
+	},
+	{
+		"address": "0x3916ea28cccc5ce0a58535dd2635a5c12ddd4457",
+		"data": {
+			"name": "Tangle Network",
+			"symbol": "TNET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3916ea28cccc5ce0a58535dd2635a5c12ddd4457.png"
 		}
 	},
 	{
@@ -8361,6 +10565,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x391fb9429d8685d5d0f14a185fc0820c6ac2817e",
+		"data": {
+			"name": "NeonAI",
+			"symbol": "NEONAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x391fb9429d8685d5d0f14a185fc0820c6ac2817e.png"
+		}
+	},
+	{
 		"address": "0x39207d2e2feef178fbda8083914554c59d9f8c00",
 		"data": {
 			"name": "MultiPlanetary Inus",
@@ -8370,12 +10583,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x394a16744dcd805bb0ca7252e70691f0dcac56aa",
+		"address": "0x394d14d78850e516fa5eb88f843ef43196e136b0",
 		"data": {
-			"name": "Trazable",
-			"symbol": "TRZ",
+			"name": "Dignity Gold",
+			"symbol": "DIGAU",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x394a16744dcd805bb0ca7252e70691f0dcac56aa.png"
+			"logoUri": "/images/tokens/0x394d14d78850e516fa5eb88f843ef43196e136b0.png"
 		}
 	},
 	{
@@ -8385,6 +10598,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TFT",
 			"decimals": 7,
 			"logoUri": "/images/tokens/0x395e925834996e558bdec77cd648435d620afb5b.png"
+		}
+	},
+	{
+		"address": "0x396c95abe154b3b2ed204cf45c8726aa7ad47a4d",
+		"data": {
+			"name": "Gradient Protocol",
+			"symbol": "GDT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x396c95abe154b3b2ed204cf45c8726aa7ad47a4d.png"
 		}
 	},
 	{
@@ -8403,15 +10625,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SHARE",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x39795344cbcc76cc3fb94b9d1b15c23c2070c66d.png"
-		}
-	},
-	{
-		"address": "0x397b102deccace4aa8e5ba63eedb8e65ad83e20c",
-		"data": {
-			"name": "Encryption AI",
-			"symbol": "0XENCRYPT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x397b102deccace4aa8e5ba63eedb8e65ad83e20c.png"
 		}
 	},
 	{
@@ -8442,6 +10655,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x39a9728fb398583154e6cc5e3defa60908f58e2f",
+		"data": {
+			"name": "BEFY",
+			"symbol": "BEFY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x39a9728fb398583154e6cc5e3defa60908f58e2f.png"
+		}
+	},
+	{
 		"address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
 		"data": {
 			"name": "cUSDC",
@@ -8457,6 +10679,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "GGT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x39b0e13a29c2a27ce88cebd21262a232b0633613.png"
+		}
+	},
+	{
+		"address": "0x39b46b212bdf15b42b166779b9d1787a68b9d0c3",
+		"data": {
+			"name": "Dypius",
+			"symbol": "DYP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x39b46b212bdf15b42b166779b9d1787a68b9d0c3.png"
 		}
 	},
 	{
@@ -8478,12 +10709,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x39ea10e507720783c27edd5f96bf2d6e199579b8",
+		"address": "0x39d5313c3750140e5042887413ba8aa6145a9bd2",
 		"data": {
-			"name": "DeltaFlare",
-			"symbol": "HONR",
+			"name": "Empyreal",
+			"symbol": "EMP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x39ea10e507720783c27edd5f96bf2d6e199579b8.png"
+			"logoUri": "/images/tokens/0x39d5313c3750140e5042887413ba8aa6145a9bd2.png"
+		}
+	},
+	{
+		"address": "0x39de85301c78f4d623e5c05cde2fd119a3a92cd9",
+		"data": {
+			"name": "blobs",
+			"symbol": "BLOBS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x39de85301c78f4d623e5c05cde2fd119a3a92cd9.png"
 		}
 	},
 	{
@@ -8532,21 +10772,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3a2348dbb9250a43226a27e21edb94882bb7de8d",
+		"address": "0x3a429a151ad985e678a834f9db057163181f58e8",
 		"data": {
-			"name": "The AI Dev Bot",
-			"symbol": "AIDEV",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x3a2348dbb9250a43226a27e21edb94882bb7de8d.png"
+			"name": "ENCRYPT",
+			"symbol": "ENCR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3a429a151ad985e678a834f9db057163181f58e8.png"
 		}
 	},
 	{
-		"address": "0x3a3a65aab0dd2a17e3f1947ba16138cd37d08c04",
+		"address": "0x3a4c122243b53135e7f6bf5b4658092c3a3109ab",
 		"data": {
-			"name": "Aave ETH v1",
-			"symbol": "AETH",
+			"name": "HustleBot",
+			"symbol": "HUSTLE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3a3a65aab0dd2a17e3f1947ba16138cd37d08c04.png"
+			"logoUri": "/images/tokens/0x3a4c122243b53135e7f6bf5b4658092c3a3109ab.png"
 		}
 	},
 	{
@@ -8559,21 +10799,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430",
+		"address": "0x3a645ff83560231aab0f9c830ba108b06c94e34a",
 		"data": {
-			"name": "PlayDapp",
-			"symbol": "PLA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430.png"
-		}
-	},
-	{
-		"address": "0x3a529a8d4f2ea64d206339fa12a3af4d431f53c3",
-		"data": {
-			"name": "Vendetta Finance",
-			"symbol": "VEN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3a529a8d4f2ea64d206339fa12a3af4d431f53c3.png"
+			"name": "Lunar",
+			"symbol": "LUNAR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3a645ff83560231aab0f9c830ba108b06c94e34a.png"
 		}
 	},
 	{
@@ -8649,6 +10880,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3a97e00b48d56bd5e0502e1a2a8c036a040e1b99",
+		"data": {
+			"name": "JACKBOT",
+			"symbol": "JBOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3a97e00b48d56bd5e0502e1a2a8c036a040e1b99.png"
+		}
+	},
+	{
 		"address": "0x3aada3e213abf8529606924d8d1c55cbdc70bf74",
 		"data": {
 			"name": "XMON",
@@ -8667,12 +10907,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66",
+		"address": "0x3acfc40a19520d97648eb7c0891e747b7f2b0283",
 		"data": {
-			"name": "Juicebox",
-			"symbol": "JBX",
+			"name": "FP  Azuki",
+			"symbol": "UAZUKI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66.png"
+			"logoUri": "/images/tokens/0x3acfc40a19520d97648eb7c0891e747b7f2b0283.png"
 		}
 	},
 	{
@@ -8682,24 +10922,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SHILLD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3adf095d04311d7bf05c838f0d3dc34a83d81ab6.png"
-		}
-	},
-	{
-		"address": "0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a",
-		"data": {
-			"name": "Privatix",
-			"symbol": "PRIX",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a.png"
-		}
-	},
-	{
-		"address": "0x3aeff9536ced04e4443908cb0cebac952a5550c3",
-		"data": {
-			"name": "PengyX",
-			"symbol": "PENGYX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3aeff9536ced04e4443908cb0cebac952a5550c3.png"
 		}
 	},
 	{
@@ -8730,6 +10952,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3b0b09f5b14f6d50e6672ae158f9d71893feca18",
+		"data": {
+			"name": "hiBAKC",
+			"symbol": "HIBAKC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3b0b09f5b14f6d50e6672ae158f9d71893feca18.png"
+		}
+	},
+	{
+		"address": "0x3b0fccbd5dae0570a70f1fb6d8d666a33c89d71e",
+		"data": {
+			"name": "FloorDAO",
+			"symbol": "FLOOR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3b0fccbd5dae0570a70f1fb6d8d666a33c89d71e.png"
+		}
+	},
+	{
+		"address": "0x3b21418081528845a6df4e970bd2185545b712ba",
+		"data": {
+			"name": "Chi Protocol",
+			"symbol": "CHI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3b21418081528845a6df4e970bd2185545b712ba.png"
+		}
+	},
+	{
 		"address": "0x3b27f92c0e212c671ea351827edf93db27cc0c65",
 		"data": {
 			"name": "USDT yVault",
@@ -8745,6 +10994,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SOS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3b484b82567a09e2588a13d54d032153f0c0aee0.png"
+		}
+	},
+	{
+		"address": "0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+		"data": {
+			"name": "Renzo",
+			"symbol": "REZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3b50805453023a91a8bf641e279401a0b23fa6f9.png"
 		}
 	},
 	{
@@ -8766,21 +11024,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3b5e2df103a037509dcc8430e5462b9cd8f75f49",
-		"data": {
-			"name": "GEMX",
-			"symbol": "GEMX",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x3b5e2df103a037509dcc8430e5462b9cd8f75f49.png"
-		}
-	},
-	{
 		"address": "0x3b604747ad1720c01ded0455728b62c0d2f100f0",
 		"data": {
 			"name": "WAGMI Games",
 			"symbol": "WAGMIGAMES",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3b604747ad1720c01ded0455728b62c0d2f100f0.png"
+		}
+	},
+	{
+		"address": "0x3b6564b5da73a41d3a66e6558a98fd0e9e1e77ad",
+		"data": {
+			"name": "Unitus",
+			"symbol": "UTS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3b6564b5da73a41d3a66e6558a98fd0e9e1e77ad.png"
 		}
 	},
 	{
@@ -8811,15 +11069,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3b9e094d56103611f0acefdab43182347ba60df4",
-		"data": {
-			"name": "PANTHEON X",
-			"symbol": "XPN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3b9e094d56103611f0acefdab43182347ba60df4.png"
-		}
-	},
-	{
 		"address": "0x3ba925fdeae6b46d0bb4d424d829982cb2f7309e",
 		"data": {
 			"name": "RabbitX",
@@ -8829,48 +11078,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3bb86d867a9f3addf994cdadb210fa82f0d4157a",
+		"address": "0x3bbbb6a231d0a1a12c6b79ba5bc2ed6358db5160",
 		"data": {
-			"name": "Ghoul",
-			"symbol": "GHOUL",
+			"name": "Zenith",
+			"symbol": "ZEN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3bb86d867a9f3addf994cdadb210fa82f0d4157a.png"
+			"logoUri": "/images/tokens/0x3bbbb6a231d0a1a12c6b79ba5bc2ed6358db5160.png"
 		}
 	},
 	{
-		"address": "0x3bcea5a1612f50e5aad16b741ac473e4679daa2c",
+		"address": "0x3bd7d4f524d09f4e331577247a048d56e4b67a7f",
 		"data": {
-			"name": "Betted",
-			"symbol": "BETS",
+			"name": "5ire",
+			"symbol": "5IRE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3bcea5a1612f50e5aad16b741ac473e4679daa2c.png"
-		}
-	},
-	{
-		"address": "0x3bd8268791de798d4ed5d424d49412cf42b8ec3a",
-		"data": {
-			"name": "Opera Protocol",
-			"symbol": "OPERA",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x3bd8268791de798d4ed5d424d49412cf42b8ec3a.png"
-		}
-	},
-	{
-		"address": "0x3bdffa70f4b4e6985eed50453c7c0d4a15dcec52",
-		"data": {
-			"name": "TiTi Governance Token",
-			"symbol": "TITI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3bdffa70f4b4e6985eed50453c7c0d4a15dcec52.png"
-		}
-	},
-	{
-		"address": "0x3be65bd36c1ad28d33acc1c9dd8338a2706ca000",
-		"data": {
-			"name": "Kairos",
-			"symbol": "KAIROS",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x3be65bd36c1ad28d33acc1c9dd8338a2706ca000.png"
+			"logoUri": "/images/tokens/0x3bd7d4f524d09f4e331577247a048d56e4b67a7f.png"
 		}
 	},
 	{
@@ -8892,21 +11114,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3c03b4ec9477809072ff9cc9292c9b25d4a8e6c6",
+		"address": "0x3c0bb14e8367c384885a97bac6d5cceab474ed75",
 		"data": {
-			"name": "CoverCompared",
-			"symbol": "CVR",
+			"name": "Artificial idiot",
+			"symbol": "AII",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3c03b4ec9477809072ff9cc9292c9b25d4a8e6c6.png"
-		}
-	},
-	{
-		"address": "0x3c20ac688410be8f391be1fb00afc5c212972f86",
-		"data": {
-			"name": "CLever USD",
-			"symbol": "CLEVUSD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3c20ac688410be8f391be1fb00afc5c212972f86.png"
+			"logoUri": "/images/tokens/0x3c0bb14e8367c384885a97bac6d5cceab474ed75.png"
 		}
 	},
 	{
@@ -8916,15 +11129,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WPCI",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x3c2a309d9005433c1bc2c92ef1be06489e5bf258.png"
-		}
-	},
-	{
-		"address": "0x3c37577f1de12046aea6975862559a50d8f50158",
-		"data": {
-			"name": "ETH Coin",
-			"symbol": "ETHC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3c37577f1de12046aea6975862559a50d8f50158.png"
 		}
 	},
 	{
@@ -8957,7 +11161,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x3c4b6e6e1ea3d4863700d7f76b36b7f3d3f13e3d",
 		"data": {
-			"name": "Voyager VGX",
+			"name": "Voyager",
 			"symbol": "VGX",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x3c4b6e6e1ea3d4863700d7f76b36b7f3d3f13e3d.png"
@@ -8979,15 +11183,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FIT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3c72fca8523686fd9e5740b0826fa4bb376e0241.png"
-		}
-	},
-	{
-		"address": "0x3c79eb9d7a76f4eb7b2a5286aacfbbd4feabe79a",
-		"data": {
-			"name": "DogTick",
-			"symbol": "DOGTIC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3c79eb9d7a76f4eb7b2a5286aacfbbd4feabe79a.png"
 		}
 	},
 	{
@@ -9018,6 +11213,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3cb48aeb3d1abadc23d2d8a6894b3a68338381c2",
+		"data": {
+			"name": "PaladinAI",
+			"symbol": "PALAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3cb48aeb3d1abadc23d2d8a6894b3a68338381c2.png"
+		}
+	},
+	{
 		"address": "0x3cbb7f5d7499af626026e96a2f05df806f2200dc",
 		"data": {
 			"name": "PandaDAO",
@@ -9036,12 +11240,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3d000462fb9826804a45c0ea869b83b69587f2db",
+		"data": {
+			"name": "Spatial Computing",
+			"symbol": "CMPT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3d000462fb9826804a45c0ea869b83b69587f2db.png"
+		}
+	},
+	{
 		"address": "0x3d0293f06daf4311b482564330d57c8db6c10893",
 		"data": {
 			"name": "Y Coin",
 			"symbol": "YCO",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x3d0293f06daf4311b482564330d57c8db6c10893.png"
+		}
+	},
+	{
+		"address": "0x3d1c949a761c11e4cc50c3ae6bdb0f24fd7a39da",
+		"data": {
+			"name": "Neurahub",
+			"symbol": "NEURA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3d1c949a761c11e4cc50c3ae6bdb0f24fd7a39da.png"
+		}
+	},
+	{
+		"address": "0x3d1e5cf16077f349e999d6b21a4f646e83cd90c5",
+		"data": {
+			"name": "Stakehouse dETH",
+			"symbol": "DETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3d1e5cf16077f349e999d6b21a4f646e83cd90c5.png"
+		}
+	},
+	{
+		"address": "0x3d234a9d23f01c5556ad3dfa88f470f8982ab1b4",
+		"data": {
+			"name": "Vatra INU",
+			"symbol": "VATR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3d234a9d23f01c5556ad3dfa88f470f8982ab1b4.png"
 		}
 	},
 	{
@@ -9063,12 +11303,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3d371413dd5489f3a04c07c0c2ce369c20986ceb",
+		"address": "0x3d330b8d4eb25b0933e564d7284d462346d453ef",
 		"data": {
-			"name": "YOUcash",
-			"symbol": "YOUC",
-			"decimals": 10,
-			"logoUri": "/images/tokens/0x3d371413dd5489f3a04c07c0c2ce369c20986ceb.png"
+			"name": "GROQ",
+			"symbol": "GROQ",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3d330b8d4eb25b0933e564d7284d462346d453ef.png"
 		}
 	},
 	{
@@ -9078,15 +11318,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ANV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3d382228c54736d831fac2748f4734d9177c7332.png"
-		}
-	},
-	{
-		"address": "0x3d38f87bef0123f5764635c7e11048027e0721a8",
-		"data": {
-			"name": "EndlessWebWorlds",
-			"symbol": "EWW",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x3d38f87bef0123f5764635c7e11048027e0721a8.png"
 		}
 	},
 	{
@@ -9126,15 +11357,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9",
-		"data": {
-			"name": "Cardstarter",
-			"symbol": "CARDS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9.png"
-		}
-	},
-	{
 		"address": "0x3d806324b6df5af3c1a81acba14a8a62fe6d643f",
 		"data": {
 			"name": "BarbieCrashBandicootRFK88",
@@ -9144,21 +11366,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3d875a26d9afcbf4f58c920509c876b594499c87",
+		"data": {
+			"name": "K Chain",
+			"symbol": "KCT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3d875a26d9afcbf4f58c920509c876b594499c87.png"
+		}
+	},
+	{
 		"address": "0x3d9a4d8ab4f5bd1d5d08ae3a95e8ed8bb4d7e3b9",
 		"data": {
 			"name": "STONKSDAO",
 			"symbol": "STONKS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3d9a4d8ab4f5bd1d5d08ae3a95e8ed8bb4d7e3b9.png"
-		}
-	},
-	{
-		"address": "0x3da434f76226b9489ed4277eb6fdccdf03ff190e",
-		"data": {
-			"name": "Zion Token",
-			"symbol": "ZION",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3da434f76226b9489ed4277eb6fdccdf03ff190e.png"
 		}
 	},
 	{
@@ -9189,12 +11411,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3dd98c8a089dbcff7e8fc8d4f532bd493501ab7f",
+		"address": "0x3e156234501c41a041a178ff547e295609c4769a",
 		"data": {
-			"name": "Town Star",
-			"symbol": "TOWN",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x3dd98c8a089dbcff7e8fc8d4f532bd493501ab7f.png"
+			"name": "TeleCard",
+			"symbol": "TCARD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3e156234501c41a041a178ff547e295609c4769a.png"
+		}
+	},
+	{
+		"address": "0x3e2324342bf5b8a1dca42915f0489497203d640e",
+		"data": {
+			"name": "Barley Finance",
+			"symbol": "BARL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3e2324342bf5b8a1dca42915f0489497203d640e.png"
+		}
+	},
+	{
+		"address": "0x3e29793c9bdeb6ce5a84c2beced91ad50c530b16",
+		"data": {
+			"name": "ChainZoom",
+			"symbol": "ZOOM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3e29793c9bdeb6ce5a84c2beced91ad50c530b16.png"
+		}
+	},
+	{
+		"address": "0x3e2c956b4ab4807b2f942235c9074d9bd069e9f0",
+		"data": {
+			"name": "IPVERSE",
+			"symbol": "IPV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3e2c956b4ab4807b2f942235c9074d9bd069e9f0.png"
+		}
+	},
+	{
+		"address": "0x3e316791842a271ab1e138ff7408c015efd9c6be",
+		"data": {
+			"name": "Vortex AI",
+			"symbol": "VXAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3e316791842a271ab1e138ff7408c015efd9c6be.png"
 		}
 	},
 	{
@@ -9207,6 +11465,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3e362038fd3d08887d498944d489af7909619a9b",
+		"data": {
+			"name": "CHOW CHOW",
+			"symbol": "CHOW",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3e362038fd3d08887d498944d489af7909619a9b.png"
+		}
+	},
+	{
+		"address": "0x3e5d4ed373596f00a5fc78ceb49994d9dc665aa9",
+		"data": {
+			"name": "Gem AI",
+			"symbol": "GEMAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3e5d4ed373596f00a5fc78ceb49994d9dc665aa9.png"
+		}
+	},
+	{
 		"address": "0x3e5d9d8a63cc8a88748f229999cf59487e90721e",
 		"data": {
 			"name": "MetalSwap",
@@ -9216,21 +11492,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3e613d7f3ceb1f27dd22a44f35343dd234c51262",
+		"address": "0x3e70f6806171873d17d4bfc984a6f9d20f5a9018",
 		"data": {
-			"name": "Kryptonite",
-			"symbol": "SEILOR",
+			"name": "BrianArmstrongTrumpYellenGTA6",
+			"symbol": "COIN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3e613d7f3ceb1f27dd22a44f35343dd234c51262.png"
+			"logoUri": "/images/tokens/0x3e70f6806171873d17d4bfc984a6f9d20f5a9018.png"
 		}
 	},
 	{
-		"address": "0x3e7804c51a70ba26e904c2e0ab440c5623a8a83f",
+		"address": "0x3e8203e0b1d56984abc66f183a8d0b1a09a7e607",
 		"data": {
-			"name": "GPEX",
-			"symbol": "GPX",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x3e7804c51a70ba26e904c2e0ab440c5623a8a83f.png"
+			"name": "Liquid Protocol",
+			"symbol": "LP",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3e8203e0b1d56984abc66f183a8d0b1a09a7e607.png"
 		}
 	},
 	{
@@ -9243,15 +11519,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3e98253d316856df99c17686af1a6a0107956f0b",
-		"data": {
-			"name": "0xShield",
-			"symbol": "SHIELD",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x3e98253d316856df99c17686af1a6a0107956f0b.png"
-		}
-	},
-	{
 		"address": "0x3e9bc21c9b189c09df3ef1b824798658d5011937",
 		"data": {
 			"name": "Linear",
@@ -9261,12 +11528,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3ea4055ab599f5cbb580d2c5e56d2fcff7db98cb",
+		"data": {
+			"name": "TALYS",
+			"symbol": "TALYS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3ea4055ab599f5cbb580d2c5e56d2fcff7db98cb.png"
+		}
+	},
+	{
 		"address": "0x3ea8ea4237344c9931214796d9417af1a1180770",
 		"data": {
-			"name": "SEDA Protocol",
+			"name": "Flux Protocol",
 			"symbol": "FLX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3ea8ea4237344c9931214796d9417af1a1180770.png"
+		}
+	},
+	{
+		"address": "0x3eb9c7ee5f72e51f61e832137719fe8d1e53a2ce",
+		"data": {
+			"name": "DecentraMind",
+			"symbol": "DMIND",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x3eb9c7ee5f72e51f61e832137719fe8d1e53a2ce.png"
 		}
 	},
 	{
@@ -9285,15 +11570,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PICKLE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3ec15c4745e21ab3831d1f51c492e3b5582d6239.png"
-		}
-	},
-	{
-		"address": "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7",
-		"data": {
-			"name": "Gro DAO",
-			"symbol": "GRO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7.png"
 		}
 	},
 	{
@@ -9333,9 +11609,27 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3ef3b555842cdaff0f4f0b79c9dd65096d60ba63",
+		"data": {
+			"name": "CryptoPawCoin",
+			"symbol": "CPRC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3ef3b555842cdaff0f4f0b79c9dd65096d60ba63.png"
+		}
+	},
+	{
+		"address": "0x3f0c858c26775df75e45934b189154c436bd7335",
+		"data": {
+			"name": "SuperFrank",
+			"symbol": "CHFP",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x3f0c858c26775df75e45934b189154c436bd7335.png"
+		}
+	},
+	{
 		"address": "0x3f14920c99beb920afa163031c4e47a3e03b3e4a",
 		"data": {
-			"name": "Send",
+			"name": " send",
 			"symbol": "SEND",
 			"decimals": 0,
 			"logoUri": "/images/tokens/0x3f14920c99beb920afa163031c4e47a3e03b3e4a.png"
@@ -9378,12 +11672,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3f48cce3eabb02304f7cc16fd7a35f3a2df7be8e",
+		"data": {
+			"name": "Truck",
+			"symbol": "TRUCK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3f48cce3eabb02304f7cc16fd7a35f3a2df7be8e.png"
+		}
+	},
+	{
 		"address": "0x3f5294df68f871241c4b18fcf78ebd8ac18ab654",
 		"data": {
 			"name": "99Starz",
 			"symbol": "STZ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3f5294df68f871241c4b18fcf78ebd8ac18ab654.png"
+		}
+	},
+	{
+		"address": "0x3f57c35633cb29834bb7577ba8052eab90f52a02",
+		"data": {
+			"name": "Defender Bot",
+			"symbol": "DFNDR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3f57c35633cb29834bb7577ba8052eab90f52a02.png"
 		}
 	},
 	{
@@ -9405,12 +11717,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3f7d1c62a8456893c0f55c13e3b5993d2f68287a",
+		"address": "0x3f817b28da4940f018c6b5c0a11c555ebb1264f9",
 		"data": {
-			"name": "Froki",
-			"symbol": "FROKI",
+			"name": "3A",
+			"symbol": "A3A",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x3f7d1c62a8456893c0f55c13e3b5993d2f68287a.png"
+			"logoUri": "/images/tokens/0x3f817b28da4940f018c6b5c0a11c555ebb1264f9.png"
+		}
+	},
+	{
+		"address": "0x3f91ad19af450b44cf5176b4de719d77cb19eec7",
+		"data": {
+			"name": "Luxury Travel Token",
+			"symbol": "LTT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3f91ad19af450b44cf5176b4de719d77cb19eec7.png"
+		}
+	},
+	{
+		"address": "0x3f95aa88ddbb7d9d484aa3d482bf0a80009c52c9",
+		"data": {
+			"name": "Backed ERNX   Bond",
+			"symbol": "BERNX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3f95aa88ddbb7d9d484aa3d482bf0a80009c52c9.png"
 		}
 	},
 	{
@@ -9441,12 +11771,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x3fca2cd116121decd03043fbaba39f60651de903",
+		"data": {
+			"name": "Fuxion Labs",
+			"symbol": "FUXE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3fca2cd116121decd03043fbaba39f60651de903.png"
+		}
+	},
+	{
 		"address": "0x3fd8f39a962efda04956981c31ab89fab5fb8bc8",
 		"data": {
 			"name": "Rotharium",
 			"symbol": "RTH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x3fd8f39a962efda04956981c31ab89fab5fb8bc8.png"
+		}
+	},
+	{
+		"address": "0x3fe6a295459fae07df8a0cecc36f37160fe86aa9",
+		"data": {
+			"name": "Aave v3 LUSD",
+			"symbol": "ALUSD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x3fe6a295459fae07df8a0cecc36f37160fe86aa9.png"
 		}
 	},
 	{
@@ -9468,15 +11816,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x3ffdde70f128de8a5c8b116142d79889d6d5a551",
-		"data": {
-			"name": "HarryPotterOhtaniStreetFighter2CultInu",
-			"symbol": "XLM",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x3ffdde70f128de8a5c8b116142d79889d6d5a551.png"
-		}
-	},
-	{
 		"address": "0x400b1d8a7dd8c471026b2c8cbe1062b27d120538",
 		"data": {
 			"name": "Limestone Network",
@@ -9486,12 +11825,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x40370aed88933021e20cf7c4d67e00417cda2202",
+		"address": "0x4022754bf8857395383c63326391f289d1bb14b9",
 		"data": {
-			"name": "Xave",
-			"symbol": "XAV",
+			"name": "DRIVE3",
+			"symbol": "DRV3",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x40370aed88933021e20cf7c4d67e00417cda2202.png"
+			"logoUri": "/images/tokens/0x4022754bf8857395383c63326391f289d1bb14b9.png"
+		}
+	},
+	{
+		"address": "0x405154cfaf5ea4ef57b65b86959c73dd079fa312",
+		"data": {
+			"name": "Alice AI",
+			"symbol": "ALICE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x405154cfaf5ea4ef57b65b86959c73dd079fa312.png"
 		}
 	},
 	{
@@ -9501,24 +11849,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TFBX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4057db5bd9f67a566aa10e5587b1a964affc6a16.png"
-		}
-	},
-	{
-		"address": "0x405ce8b2eaeea7d4ba5fc160848cb2a6569e03f0",
-		"data": {
-			"name": "Metria Network",
-			"symbol": "METR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x405ce8b2eaeea7d4ba5fc160848cb2a6569e03f0.png"
-		}
-	},
-	{
-		"address": "0x406b9dca8b52f08385014ec1ed1cf6a0d5c01289",
-		"data": {
-			"name": "meishu",
-			"symbol": "MEISHU",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x406b9dca8b52f08385014ec1ed1cf6a0d5c01289.png"
 		}
 	},
 	{
@@ -9542,7 +11872,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x408e41876cccdc0f92210600ef50372656052a38",
 		"data": {
-			"name": "REN",
+			"name": "Ren",
 			"symbol": "REN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x408e41876cccdc0f92210600ef50372656052a38.png"
@@ -9567,6 +11897,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4096fc7119040175589387656f7c6073265f4096",
+		"data": {
+			"name": "4096",
+			"symbol": "4096",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x4096fc7119040175589387656f7c6073265f4096.png"
+		}
+	},
+	{
 		"address": "0x40986a85b4cfcdb054a6cbfb1210194fee51af88",
 		"data": {
 			"name": "UniFarm",
@@ -9585,12 +11924,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x40a32606a4ce9b4f350421642ebf65c052d5389b",
+		"data": {
+			"name": "TonUP",
+			"symbol": "UP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40a32606a4ce9b4f350421642ebf65c052d5389b.png"
+		}
+	},
+	{
+		"address": "0x40a7df3df8b56147b781353d379cb960120211d7",
+		"data": {
+			"name": "Moby",
+			"symbol": "MOBY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40a7df3df8b56147b781353d379cb960120211d7.png"
+		}
+	},
+	{
+		"address": "0x40a9a694197a0b4b92f2aad48da6bc1b6ff194e9",
+		"data": {
+			"name": "LFG",
+			"symbol": "LFG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40a9a694197a0b4b92f2aad48da6bc1b6ff194e9.png"
+		}
+	},
+	{
 		"address": "0x40a9d39aa50871df092538c5999b107f34409061",
 		"data": {
 			"name": "Instadapp DAI",
 			"symbol": "IDAI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x40a9d39aa50871df092538c5999b107f34409061.png"
+		}
+	},
+	{
+		"address": "0x40bb3f1be815ecc5e8279385a8f2893252a6ccbd",
+		"data": {
+			"name": "XVM",
+			"symbol": "XVM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40bb3f1be815ecc5e8279385a8f2893252a6ccbd.png"
+		}
+	},
+	{
+		"address": "0x40c3b81fb887016c0ad02436309c2b265d069a05",
+		"data": {
+			"name": "Chief Troll Officer",
+			"symbol": "CTO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40c3b81fb887016c0ad02436309c2b265d069a05.png"
 		}
 	},
 	{
@@ -9609,6 +11993,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "GOLD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x40d1f63b5d2048e67e9bedb1b4c2f1a9fb4b6817.png"
+		}
+	},
+	{
+		"address": "0x40e64405f18e4fb01c6fc39f4f0c78df5ef9d0e0",
+		"data": {
+			"name": "Cosmic Network",
+			"symbol": "COSMIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40e64405f18e4fb01c6fc39f4f0c78df5ef9d0e0.png"
+		}
+	},
+	{
+		"address": "0x40e9187078032afe1a30cfcf76e4fe3d7ab5c6c5",
+		"data": {
+			"name": "AIgentX",
+			"symbol": "AIX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x40e9187078032afe1a30cfcf76e4fe3d7ab5c6c5.png"
 		}
 	},
 	{
@@ -9657,12 +12059,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4116f14b6d462b32a1c10f98049e4b1765e34fa9",
+		"data": {
+			"name": "dotmoovs",
+			"symbol": "MOOV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4116f14b6d462b32a1c10f98049e4b1765e34fa9.png"
+		}
+	},
+	{
 		"address": "0x4123a133ae3c521fd134d7b13a2dec35b56c2463",
 		"data": {
-			"name": "Qredo",
-			"symbol": "QRDO",
+			"name": "Open Custody Protocol",
+			"symbol": "OPEN",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x4123a133ae3c521fd134d7b13a2dec35b56c2463.png"
+		}
+	},
+	{
+		"address": "0x414ac1853329b3704df0caf7749cd296c7f3b750",
+		"data": {
+			"name": "Anzen Private Credit",
+			"symbol": "PCT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x414ac1853329b3704df0caf7749cd296c7f3b750.png"
 		}
 	},
 	{
@@ -9711,6 +12131,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x416cdaf616a82d7dd46e0dbf36e7d6fe412bc40e",
+		"data": {
+			"name": "Luna28",
+			"symbol": "LUNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x416cdaf616a82d7dd46e0dbf36e7d6fe412bc40e.png"
+		}
+	},
+	{
 		"address": "0x4184aa04215e5d716dd4c213fed519acadc68f92",
 		"data": {
 			"name": "ONUS",
@@ -9720,21 +12149,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x418afee14a1fd9c05c4df05e033f7c3d46aeb905",
-		"data": {
-			"name": "Magic Bag",
-			"symbol": "FELIX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x418afee14a1fd9c05c4df05e033f7c3d46aeb905.png"
-		}
-	},
-	{
 		"address": "0x418d75f65a02b3d53b2418fb8e1fe493759c7605",
 		"data": {
 			"name": "Binance Coin  Wormhole ",
 			"symbol": "BNB",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x418d75f65a02b3d53b2418fb8e1fe493759c7605.png"
+		}
+	},
+	{
+		"address": "0x4190818ffeb4c7349fa59eeb08eb6e7ab70d9aa7",
+		"data": {
+			"name": "LFi",
+			"symbol": "LFI",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x4190818ffeb4c7349fa59eeb08eb6e7ab70d9aa7.png"
+		}
+	},
+	{
+		"address": "0x419777d3e39aa9b00405724eace5ea57620c9062",
+		"data": {
+			"name": "PAW",
+			"symbol": "PAW",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x419777d3e39aa9b00405724eace5ea57620c9062.png"
 		}
 	},
 	{
@@ -9756,15 +12194,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x419e35e3515c2fdb652c898bf7a0b21fb20497dc",
-		"data": {
-			"name": "Ordinals Finance",
-			"symbol": "OFI",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x419e35e3515c2fdb652c898bf7a0b21fb20497dc.png"
-		}
-	},
-	{
 		"address": "0x41a08648c3766f9f9d85598ff102a08f4ef84f84",
 		"data": {
 			"name": "Aave Balancer Pool Token",
@@ -9783,6 +12212,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x41aa9df60c41b07bf4f4cc1b8b3e6c9e25669a9e",
+		"data": {
+			"name": "Digipolis",
+			"symbol": "DIGI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x41aa9df60c41b07bf4f4cc1b8b3e6c9e25669a9e.png"
+		}
+	},
+	{
 		"address": "0x41b25ff6431074959532db7435dadaca65a21d1c",
 		"data": {
 			"name": "Claw",
@@ -9792,21 +12230,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x41bbd051e366d8437cb02374fbb0521c847f494e",
-		"data": {
-			"name": "Narfex",
-			"symbol": "NRFX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x41bbd051e366d8437cb02374fbb0521c847f494e.png"
-		}
-	},
-	{
 		"address": "0x41c21693e60fc1a5dbb7c50e54e7a6016aa44c99",
 		"data": {
 			"name": "SO COL",
 			"symbol": "SIMP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x41c21693e60fc1a5dbb7c50e54e7a6016aa44c99.png"
+		}
+	},
+	{
+		"address": "0x41d321e0365a42058a465dc5bf98242a92c2e9f3",
+		"data": {
+			"name": "XToolsAI",
+			"symbol": "XTAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x41d321e0365a42058a465dc5bf98242a92c2e9f3.png"
 		}
 	},
 	{
@@ -9837,6 +12275,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x41ea5d41eeacc2d5c4072260945118a13bb7ebce",
+		"data": {
+			"name": "Creso",
+			"symbol": "CRE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x41ea5d41eeacc2d5c4072260945118a13bb7ebce.png"
+		}
+	},
+	{
+		"address": "0x420698ebc9b7c225731c02d887d0729057339d39",
+		"data": {
+			"name": "Chuck",
+			"symbol": "CHUCK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x420698ebc9b7c225731c02d887d0729057339d39.png"
+		}
+	},
+	{
+		"address": "0x42069d11a2cc72388a2e06210921e839cfbd3280",
+		"data": {
+			"name": "GnomeLand",
+			"symbol": "GNOME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x42069d11a2cc72388a2e06210921e839cfbd3280.png"
+		}
+	},
+	{
 		"address": "0x4208aa4d7a9a10f4f8bb7f6400c1b2161d946969",
 		"data": {
 			"name": "DongCoin",
@@ -9861,6 +12326,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MPEPE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4216663ddc7bd10eaf44609df4dd0f91cd2be7f2.png"
+		}
+	},
+	{
+		"address": "0x423352f2c6e0e72422b69af03aba259310146d90",
+		"data": {
+			"name": "Reality Metaverse",
+			"symbol": "RMV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x423352f2c6e0e72422b69af03aba259310146d90.png"
 		}
 	},
 	{
@@ -9891,12 +12365,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x425d105913a04f4f95311788195ba13c3e82c3b9",
+		"address": "0x42496acd2c7b52ce90ed65ada6cafb0e893e2474",
 		"data": {
-			"name": "Apollo Token",
-			"symbol": "APOLLO",
+			"name": "BitSwap",
+			"symbol": "BITS",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x425d105913a04f4f95311788195ba13c3e82c3b9.png"
+			"logoUri": "/images/tokens/0x42496acd2c7b52ce90ed65ada6cafb0e893e2474.png"
+		}
+	},
+	{
+		"address": "0x426aedbed16726e3f220cb4fed4d4060b95cca46",
+		"data": {
+			"name": "Bahamas",
+			"symbol": "BAHAMAS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x426aedbed16726e3f220cb4fed4d4060b95cca46.png"
 		}
 	},
 	{
@@ -9918,6 +12401,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x427a03fb96d9a94a6727fbcfbba143444090dd64",
+		"data": {
+			"name": "PIXL",
+			"symbol": "PIXL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x427a03fb96d9a94a6727fbcfbba143444090dd64.png"
+		}
+	},
+	{
 		"address": "0x428487ad75dc9197cccb496629ab516974329dc1",
 		"data": {
 			"name": "RealAliensEnjoyingLiquidity",
@@ -9933,15 +12425,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MQL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x428dc22668e6f3468273634067e5545ed5417a3e.png"
-		}
-	},
-	{
-		"address": "0x428dca9537116148616a5a3e44035af17238fe9d",
-		"data": {
-			"name": "OxAI com",
-			"symbol": "OXAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x428dca9537116148616a5a3e44035af17238fe9d.png"
 		}
 	},
 	{
@@ -9972,21 +12455,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x429aca1ccd47296483d1281c85b24e842de0b758",
-		"data": {
-			"name": "YEET DAO",
-			"symbol": "YEET",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x429aca1ccd47296483d1281c85b24e842de0b758.png"
-		}
-	},
-	{
 		"address": "0x42a501903afaa1086b5975773375c80e363f4063",
 		"data": {
 			"name": "Cryptyk",
 			"symbol": "CTK",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x42a501903afaa1086b5975773375c80e363f4063.png"
+		}
+	},
+	{
+		"address": "0x42a7797351dfd281a80807196c8508eb70bb2af9",
+		"data": {
+			"name": "AISociety",
+			"symbol": "AIS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x42a7797351dfd281a80807196c8508eb70bb2af9.png"
 		}
 	},
 	{
@@ -10017,12 +12500,11 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x42d6622dece394b54999fbd73d108123806f6a18",
+		"address": "0x42dae489f1ca3764aabe1907c22bc18776415fcd",
 		"data": {
-			"name": "SpankChain",
-			"symbol": "SPANK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x42d6622dece394b54999fbd73d108123806f6a18.png"
+			"name": "VibingCatToken",
+			"symbol": "VCT",
+			"decimals": 18
 		}
 	},
 	{
@@ -10032,6 +12514,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MEM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x42dbbd5ae373fea2fc320f62d44c058522bb3758.png"
+		}
+	},
+	{
+		"address": "0x42e70913b53cfcc38b18ffbd124e8f65c706deaf",
+		"data": {
+			"name": "SALAMANDER",
+			"symbol": "SALLY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x42e70913b53cfcc38b18ffbd124e8f65c706deaf.png"
+		}
+	},
+	{
+		"address": "0x42f1ffeabd9551aec26d70257c8a4d4c31b72180",
+		"data": {
+			"name": "FP  0N1Force",
+			"symbol": "U0N1",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x42f1ffeabd9551aec26d70257c8a4d4c31b72180.png"
 		}
 	},
 	{
@@ -10080,6 +12580,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x433fb346139e4eb5e513ae5fd77bd98614b153b1",
+		"data": {
+			"name": "FP  Beanz",
+			"symbol": "UBEANZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x433fb346139e4eb5e513ae5fd77bd98614b153b1.png"
+		}
+	},
+	{
 		"address": "0x433fce7dfbec729a79999eaf056cb073b2153eba",
 		"data": {
 			"name": "CoinWealth",
@@ -10089,12 +12598,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4341a2c412b1b7bee50616de6e6e1172719c6351",
+		"address": "0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e",
 		"data": {
-			"name": "Guppi Finance",
-			"symbol": "GUPPI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4341a2c412b1b7bee50616de6e6e1172719c6351.png"
+			"name": "Superstate Short Duration U S  Governme",
+			"symbol": "USTB",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e.png"
 		}
 	},
 	{
@@ -10107,21 +12616,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x435998003ccb7abeaa392494c89f7799fe241db5",
+		"data": {
+			"name": "Interns",
+			"symbol": "INTERN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x435998003ccb7abeaa392494c89f7799fe241db5.png"
+		}
+	},
+	{
 		"address": "0x436da116249044e8b4464f0cf21dd93311d88190",
 		"data": {
 			"name": "Colizeum",
 			"symbol": "ZEUM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x436da116249044e8b4464f0cf21dd93311d88190.png"
-		}
-	},
-	{
-		"address": "0x4384b85fe228ae727b129230211194e4a50877c4",
-		"data": {
-			"name": "Tail Finance",
-			"symbol": "TAIL",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x4384b85fe228ae727b129230211194e4a50877c4.png"
 		}
 	},
 	{
@@ -10134,12 +12643,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x43a8f41644a3f07818a43455b975d940ce16a3fa",
+		"address": "0x438e48ed4ce6beecf503d43b9dbd3c30d516e7fd",
 		"data": {
-			"name": "Fren Nation",
-			"symbol": "FREN",
+			"name": "UWON",
+			"symbol": "UWON",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x43a8f41644a3f07818a43455b975d940ce16a3fa.png"
+			"logoUri": "/images/tokens/0x438e48ed4ce6beecf503d43b9dbd3c30d516e7fd.png"
 		}
 	},
 	{
@@ -10152,30 +12661,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x43a9c989597efeadf11faec609ad8df7d3c18cdb",
-		"data": {
-			"name": "McBase",
-			"symbol": "MCBASE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x43a9c989597efeadf11faec609ad8df7d3c18cdb.png"
-		}
-	},
-	{
 		"address": "0x43ab765ee05075d78ad8aa79dcb1978ca3079258",
 		"data": {
 			"name": "POW",
 			"symbol": "POW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x43ab765ee05075d78ad8aa79dcb1978ca3079258.png"
-		}
-	},
-	{
-		"address": "0x43af0944b34ad466dcea7fc8f77aafc6a4ec70fa",
-		"data": {
-			"name": "RavenFund",
-			"symbol": "RAVEN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x43af0944b34ad466dcea7fc8f77aafc6a4ec70fa.png"
 		}
 	},
 	{
@@ -10215,6 +12706,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x43fe2b0c5485c10e772a1843e32a7642ace5b88c",
+		"data": {
+			"name": "Red Pill",
+			"symbol": "RPILL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x43fe2b0c5485c10e772a1843e32a7642ace5b88c.png"
+		}
+	},
+	{
 		"address": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
 		"data": {
 			"name": "Across Protocol",
@@ -10233,15 +12733,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x441c3c2f4a92f1b90f916811514ebddbbd3bff4f",
-		"data": {
-			"name": "LFG coin",
-			"symbol": "LFG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x441c3c2f4a92f1b90f916811514ebddbbd3bff4f.png"
-		}
-	},
-	{
 		"address": "0x442bc47357919446eabc18c7211e57a13d983469",
 		"data": {
 			"name": "BeeChat",
@@ -10251,12 +12742,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x443b29fc978058abe3fc2f4c3c6b76c57fdecc02",
+		"address": "0x443459d45c30a03f90037d011cbe22e2183d3b12",
 		"data": {
-			"name": "IDEAS",
-			"symbol": "IDEAS",
+			"name": "TypeAI",
+			"symbol": "TYPE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x443b29fc978058abe3fc2f4c3c6b76c57fdecc02.png"
+			"logoUri": "/images/tokens/0x443459d45c30a03f90037d011cbe22e2183d3b12.png"
+		}
+	},
+	{
+		"address": "0x443f9ff91a72f1482d13dfd40eec107bb84ca1e5",
+		"data": {
+			"name": "FarmBot",
+			"symbol": "FARM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x443f9ff91a72f1482d13dfd40eec107bb84ca1e5.png"
 		}
 	},
 	{
@@ -10269,12 +12769,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4448d67ea26a2eaf286bc1045005f4cf15aaba11",
+		"address": "0x4447743d42680f7fbb56e87b3617463113ca649e",
 		"data": {
-			"name": "Shinjarium",
-			"symbol": "SJM",
+			"name": "MeshWave",
+			"symbol": "MWAVE",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x4448d67ea26a2eaf286bc1045005f4cf15aaba11.png"
+			"logoUri": "/images/tokens/0x4447743d42680f7fbb56e87b3617463113ca649e.png"
 		}
 	},
 	{
@@ -10323,12 +12823,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4485561db76614ff727f8e0a3ea95690b8b16022",
+		"address": "0x44971abf0251958492fee97da3e5c5ada88b9185",
 		"data": {
-			"name": "Invox Finance",
-			"symbol": "INVOX",
+			"name": "BasedAI",
+			"symbol": "BASEDAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x4485561db76614ff727f8e0a3ea95690b8b16022.png"
+			"logoUri": "/images/tokens/0x44971abf0251958492fee97da3e5c5ada88b9185.png"
 		}
 	},
 	{
@@ -10338,6 +12838,78 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SIMPSON",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x44aad22afbb2606d7828ca1f8f9e5af00e779ae1.png"
+		}
+	},
+	{
+		"address": "0x44af2390d7ed22966d3e570bffb648817e4335f0",
+		"data": {
+			"name": "Kaarigar Connect",
+			"symbol": "KARCON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x44af2390d7ed22966d3e570bffb648817e4335f0.png"
+		}
+	},
+	{
+		"address": "0x44c7272b212e033d71b694733c150ff8526c1a0e",
+		"data": {
+			"name": "Crimson",
+			"symbol": "CRM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x44c7272b212e033d71b694733c150ff8526c1a0e.png"
+		}
+	},
+	{
+		"address": "0x44d03e7ee25caee19172eaddf5fbfbff07990c7e",
+		"data": {
+			"name": "Duel Royale",
+			"symbol": "ROYALE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x44d03e7ee25caee19172eaddf5fbfbff07990c7e.png"
+		}
+	},
+	{
+		"address": "0x44f5909e97e1cbf5fbbdf0fc92fd83cde5d5c58a",
+		"data": {
+			"name": "Acria AI",
+			"symbol": "ACRIA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x44f5909e97e1cbf5fbbdf0fc92fd83cde5d5c58a.png"
+		}
+	},
+	{
+		"address": "0x44face2e310e543f6d85867eb06fb251e3bfe1fc",
+		"data": {
+			"name": "404 Bakery",
+			"symbol": "BAKE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x44face2e310e543f6d85867eb06fb251e3bfe1fc.png"
+		}
+	},
+	{
+		"address": "0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+		"data": {
+			"name": "Virtual Protocol",
+			"symbol": "VIRTUAL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73.png"
+		}
+	},
+	{
+		"address": "0x4501a82790ef2587dfeb93dc038541228e516597",
+		"data": {
+			"name": "Hydra",
+			"symbol": "HYDRA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4501a82790ef2587dfeb93dc038541228e516597.png"
+		}
+	},
+	{
+		"address": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+		"data": {
+			"name": "TokenFi",
+			"symbol": "TOKEN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4507cef57c46789ef8d1a19ea45f4216bae2b528.png"
 		}
 	},
 	{
@@ -10356,6 +12928,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "EGT",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x450e7f6e3a2f247a51b98c39297a9a5bfbdb3170.png"
+		}
+	},
+	{
+		"address": "0x451fd37983d494bce294295f78a426832376b7df",
+		"data": {
+			"name": "Xeno",
+			"symbol": "XENO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x451fd37983d494bce294295f78a426832376b7df.png"
 		}
 	},
 	{
@@ -10395,12 +12976,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x456125cd98107ae0480ba566f1b716d48ba31453",
+		"address": "0x4551d8ec1257092cd42b85824c45f944083c7885",
 		"data": {
-			"name": "Ultimate Champions",
-			"symbol": "CHAMP",
+			"name": "Cloud Mining Technologies",
+			"symbol": "CXM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x456125cd98107ae0480ba566f1b716d48ba31453.png"
+			"logoUri": "/images/tokens/0x4551d8ec1257092cd42b85824c45f944083c7885.png"
+		}
+	},
+	{
+		"address": "0x4554cc10898f92d45378b98d6d6c2dd54c687fb2",
+		"data": {
+			"name": "Juicebox",
+			"symbol": "JBX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4554cc10898f92d45378b98d6d6c2dd54c687fb2.png"
+		}
+	},
+	{
+		"address": "0x455ad1bc4e18fd4e369234b6e11d88acbc416758",
+		"data": {
+			"name": "BRC App",
+			"symbol": "BRCT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x455ad1bc4e18fd4e369234b6e11d88acbc416758.png"
+		}
+	},
+	{
+		"address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+		"data": {
+			"name": "Polygon Ecosystem Token",
+			"symbol": "POL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6.png"
 		}
 	},
 	{
@@ -10410,6 +13018,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CONI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4561de8e0c2bba725d38d266ef62426e62678d82.png"
+		}
+	},
+	{
+		"address": "0x4563554284aa7148d6e6d0351519e954ba3b6e02",
+		"data": {
+			"name": "Xend Finance",
+			"symbol": "RWA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4563554284aa7148d6e6d0351519e954ba3b6e02.png"
 		}
 	},
 	{
@@ -10440,6 +13057,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4581af35199bbde87a89941220e04e27ce4b0099",
+		"data": {
+			"name": "Maximus Pool Party",
+			"symbol": "PARTY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4581af35199bbde87a89941220e04e27ce4b0099.png"
+		}
+	},
+	{
 		"address": "0x4591dbff62656e7859afe5e45f6f47d3669fbb28",
 		"data": {
 			"name": "Prisma mkUSD",
@@ -10458,12 +13084,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x45b3cf56896c4547426a4145ad1d0ae971120214",
+		"data": {
+			"name": "404Blocks",
+			"symbol": "404BLOCKS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x45b3cf56896c4547426a4145ad1d0ae971120214.png"
+		}
+	},
+	{
 		"address": "0x45c2f8c9b4c0bdc76200448cc26c48ab6ffef83f",
 		"data": {
 			"name": "Domi",
 			"symbol": "DOMI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x45c2f8c9b4c0bdc76200448cc26c48ab6ffef83f.png"
+		}
+	},
+	{
+		"address": "0x45e412e1878080815d6d51d47b83d17869433459",
+		"data": {
+			"name": "Chief Troll Officer",
+			"symbol": "CTO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x45e412e1878080815d6d51d47b83d17869433459.png"
 		}
 	},
 	{
@@ -10482,6 +13126,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "USDS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x45fdb1b92a649fb6a64ef1511d3ba5bf60044838.png"
+		}
+	},
+	{
+		"address": "0x46305b2ebcd92809d5fcef577c20c28a185af03c",
+		"data": {
+			"name": "Shadowladys DN404",
+			"symbol": "SHADOW",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x46305b2ebcd92809d5fcef577c20c28a185af03c.png"
 		}
 	},
 	{
@@ -10568,10 +13221,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
 		"data": {
-			"name": "WOO Network",
+			"name": "WOO",
 			"symbol": "WOO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4691937a7508860f876c9c0a2a617e7d9e945d4b.png"
+		}
+	},
+	{
+		"address": "0x46947241be767bd05dc843755a991265170dac27",
+		"data": {
+			"name": "Bandwidth AI",
+			"symbol": "BPS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x46947241be767bd05dc843755a991265170dac27.png"
 		}
 	},
 	{
@@ -10581,6 +13243,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FLUX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x469eda64aed3a3ad6f868c44564291aa415cb1d9.png"
+		}
+	},
+	{
+		"address": "0x46c0f8259c4e4d50320124e52f3040cb9e4d04c7",
+		"data": {
+			"name": "Chatter Shield",
+			"symbol": "SHIELD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x46c0f8259c4e4d50320124e52f3040cb9e4d04c7.png"
 		}
 	},
 	{
@@ -10606,7 +13277,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "SurfExUtilityToken",
 			"symbol": "SURF",
-			"decimals": 8,
+			"decimals": 18,
 			"logoUri": "/images/tokens/0x46d473a0b3eeec9f55fade641bc576d5bc0b2246.png"
 		}
 	},
@@ -10620,21 +13291,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x470c8950c0c3aa4b09654bc73b004615119a44b5",
+		"data": {
+			"name": "Kizuna",
+			"symbol": "KIZUNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x470c8950c0c3aa4b09654bc73b004615119a44b5.png"
+		}
+	},
+	{
 		"address": "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
 		"data": {
 			"name": "TempleDAO",
 			"symbol": "TEMPLE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7.png"
-		}
-	},
-	{
-		"address": "0x47140a767a861f7a1f3b0dd22a2f463421c28814",
-		"data": {
-			"name": "All me",
-			"symbol": "ME",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x47140a767a861f7a1f3b0dd22a2f463421c28814.png"
 		}
 	},
 	{
@@ -10653,24 +13324,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KNG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x471d113059324321749e097705197a2b44a070fc.png"
-		}
-	},
-	{
-		"address": "0x471ea49dd8e60e697f4cac262b5fafcc307506e4",
-		"data": {
-			"name": "RMRK",
-			"symbol": "RMRK",
-			"decimals": 10,
-			"logoUri": "/images/tokens/0x471ea49dd8e60e697f4cac262b5fafcc307506e4.png"
-		}
-	},
-	{
-		"address": "0x4727a02269943b225a7de9ef28496f36d454b983",
-		"data": {
-			"name": "Flash Bot",
-			"symbol": "FBT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4727a02269943b225a7de9ef28496f36d454b983.png"
 		}
 	},
 	{
@@ -10737,6 +13390,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x477a3d269266994f15e9c43a8d9c0561c4928088",
+		"data": {
+			"name": " ",
+			"symbol": "YAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x477a3d269266994f15e9c43a8d9c0561c4928088.png"
+		}
+	},
+	{
+		"address": "0x478156deabfac918369044d52a6bdb5cc5597994",
+		"data": {
+			"name": "Schrodinger",
+			"symbol": "SGR",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x478156deabfac918369044d52a6bdb5cc5597994.png"
+		}
+	},
+	{
+		"address": "0x47879db9e657e644082071b48e2f33d80f369f02",
+		"data": {
+			"name": "XINU  ETH ",
+			"symbol": "XINU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x47879db9e657e644082071b48e2f33d80f369f02.png"
+		}
+	},
+	{
 		"address": "0x47b9f01b16e9c9cb99191dca68c9cc5bf6403957",
 		"data": {
 			"name": "Onston",
@@ -10746,12 +13426,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x47d20c7800906e01adfc890f283c110ba70a6c97",
+		"data": {
+			"name": "Azure",
+			"symbol": "AZR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x47d20c7800906e01adfc890f283c110ba70a6c97.png"
+		}
+	},
+	{
 		"address": "0x47da5456bc2e1ce391b645ce80f2e97192e4976a",
 		"data": {
 			"name": "PL Gnet",
 			"symbol": "PLUG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x47da5456bc2e1ce391b645ce80f2e97192e4976a.png"
+		}
+	},
+	{
+		"address": "0x47e5c76f155083f1aee39578311a2a5faa938a82",
+		"data": {
+			"name": "Trinique",
+			"symbol": "TNQ",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x47e5c76f155083f1aee39578311a2a5faa938a82.png"
 		}
 	},
 	{
@@ -10791,12 +13489,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x486c280024b5428459ec3360f99183a61d41d9a3",
+		"address": "0x486d95c40feba650c38e98cd9d7979d9cd88cea0",
 		"data": {
-			"name": "Ethlinq Tech",
-			"symbol": "ETHLINQ",
+			"name": "0xGPU ai",
+			"symbol": "0XG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x486c280024b5428459ec3360f99183a61d41d9a3.png"
+			"logoUri": "/images/tokens/0x486d95c40feba650c38e98cd9d7979d9cd88cea0.png"
 		}
 	},
 	{
@@ -10809,12 +13507,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x48783486ddd7fa85eca6b0c4ae8920bc25dfbcd7",
+		"address": "0x4872208c83acbfd7f6dea5aa6ce6d5d7aed2ac1c",
 		"data": {
-			"name": "GoMoney2",
-			"symbol": "GOM2",
-			"decimals": 0,
-			"logoUri": "/images/tokens/0x48783486ddd7fa85eca6b0c4ae8920bc25dfbcd7.png"
+			"name": "AiMage Tools",
+			"symbol": "AIMAGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4872208c83acbfd7f6dea5aa6ce6d5d7aed2ac1c.png"
+		}
+	},
+	{
+		"address": "0x487d62468282bd04ddf976631c23128a425555ee",
+		"data": {
+			"name": "UPCX",
+			"symbol": "UPC",
+			"decimals": 5,
+			"logoUri": "/images/tokens/0x487d62468282bd04ddf976631c23128a425555ee.png"
 		}
 	},
 	{
@@ -10824,6 +13531,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "GOF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x488e0369f9bc5c40c002ea7c1fe4fd01a198801c.png"
+		}
+	},
+	{
+		"address": "0x489d79959e6ad1e3fef7c939a2d889deff1668a8",
+		"data": {
+			"name": "Hottie Froggie",
+			"symbol": "HOTTIE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x489d79959e6ad1e3fef7c939a2d889deff1668a8.png"
+		}
+	},
+	{
+		"address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
+		"data": {
+			"name": "mpETH",
+			"symbol": "MPETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x48afbbd342f64ef8a9ab1c143719b63c2ad81710.png"
 		}
 	},
 	{
@@ -10863,12 +13588,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x490bbbc2485e99989ba39b34802fafa58e26aba4",
+		"address": "0x490bd60a5d3e1207fba9b699017561434cc8c675",
 		"data": {
-			"name": "Morpho Aave Wrapped Ether",
-			"symbol": "MAWETH",
+			"name": "Bugs Bunny",
+			"symbol": "BUGS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x490bbbc2485e99989ba39b34802fafa58e26aba4.png"
+			"logoUri": "/images/tokens/0x490bd60a5d3e1207fba9b699017561434cc8c675.png"
 		}
 	},
 	{
@@ -10908,6 +13633,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x49446a0874197839d15395b908328a74ccc96bc0",
+		"data": {
+			"name": "Eigenpie mstETH",
+			"symbol": "MSTETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x49446a0874197839d15395b908328a74ccc96bc0.png"
+		}
+	},
+	{
 		"address": "0x4946fcea7c692606e8908002e55a582af44ac121",
 		"data": {
 			"name": "FOAM",
@@ -10944,21 +13678,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x49bf0220c9ce17e52dcca3d217231746d676085b",
+		"address": "0x49c8efd98ac8114de2fce73d57e2944aebd5613d",
 		"data": {
-			"name": "Vixco",
-			"symbol": "VIX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x49bf0220c9ce17e52dcca3d217231746d676085b.png"
+			"name": "AnonTech",
+			"symbol": "ATEC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x49c8efd98ac8114de2fce73d57e2944aebd5613d.png"
 		}
 	},
 	{
-		"address": "0x49d72e3973900a195a155a46441f0c08179fdb64",
+		"address": "0x49e1cc8d19e4c52bde82412f900f35ea5e9b5901",
 		"data": {
-			"name": "Cream ETH 2",
-			"symbol": "CRETH2",
+			"name": "TAOVM",
+			"symbol": "TAOVM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x49d72e3973900a195a155a46441f0c08179fdb64.png"
+			"logoUri": "/images/tokens/0x49e1cc8d19e4c52bde82412f900f35ea5e9b5901.png"
 		}
 	},
 	{
@@ -10968,6 +13702,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "VALUE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x49e833337ece7afe375e44f4e3e8481029218e5c.png"
+		}
+	},
+	{
+		"address": "0x49fb8ad7578148e17c3ef0c344ce23a66ed372c4",
+		"data": {
+			"name": "tao bot",
+			"symbol": "TAOBOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x49fb8ad7578148e17c3ef0c344ce23a66ed372c4.png"
 		}
 	},
 	{
@@ -10989,6 +13732,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4a029f7bcf33acb03547d8fa7be840347973e24e",
+		"data": {
+			"name": "Mazze",
+			"symbol": "MAZZE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4a029f7bcf33acb03547d8fa7be840347973e24e.png"
+		}
+	},
+	{
 		"address": "0x4a1d542b52a95ad01ddc70c2e7df0c7bbaadc56f",
 		"data": {
 			"name": "Niftify",
@@ -11007,21 +13759,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4a27e9aab8f8ba9de06766c8476ed1d16494e35f",
+		"data": {
+			"name": "PEPEGOLD",
+			"symbol": "PEPE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4a27e9aab8f8ba9de06766c8476ed1d16494e35f.png"
+		}
+	},
+	{
 		"address": "0x4a3fe75762017db0ed73a71c9a06db7768db5e66",
 		"data": {
 			"name": "COMP yVault",
 			"symbol": "YVCOMP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4a3fe75762017db0ed73a71c9a06db7768db5e66.png"
-		}
-	},
-	{
-		"address": "0x4a527d8fc13c5203ab24ba0944f4cb14658d1db6",
-		"data": {
-			"name": "Morpheus Labs",
-			"symbol": "MITX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4a527d8fc13c5203ab24ba0944f4cb14658d1db6.png"
 		}
 	},
 	{
@@ -11040,6 +13792,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CYFM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4a621d9f1b19296d1c0f87637b3a8d4978e9bf82.png"
+		}
+	},
+	{
+		"address": "0x4a88ebf6f76b04f5e0e71a351a22e573f636affe",
+		"data": {
+			"name": "Yoyo Market",
+			"symbol": "YOYO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4a88ebf6f76b04f5e0e71a351a22e573f636affe.png"
 		}
 	},
 	{
@@ -11097,21 +13858,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4af8aa621df6dd3e2d653188a357fc2b35c6a037",
+		"data": {
+			"name": "SELFCrypto",
+			"symbol": "SELF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4af8aa621df6dd3e2d653188a357fc2b35c6a037.png"
+		}
+	},
+	{
 		"address": "0x4b0181102a0112a2ef11abee5563bb4a3176c9d7",
 		"data": {
 			"name": "cSUSHI",
 			"symbol": "CSUSHI",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x4b0181102a0112a2ef11abee5563bb4a3176c9d7.png"
-		}
-	},
-	{
-		"address": "0x4b0f027d0b694aae2761ed2d426295d4f949f5d0",
-		"data": {
-			"name": "Pollchain",
-			"symbol": "POLL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4b0f027d0b694aae2761ed2d426295d4f949f5d0.png"
 		}
 	},
 	{
@@ -11144,19 +13905,10 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8",
 		"data": {
-			"name": "Jupiter",
+			"name": "Jupiter Project",
 			"symbol": "JUP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8.png"
-		}
-	},
-	{
-		"address": "0x4b48068864f77261838c7849a12853fb94c77a91",
-		"data": {
-			"name": "Lith Token",
-			"symbol": "LITX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4b48068864f77261838c7849a12853fb94c77a91.png"
 		}
 	},
 	{
@@ -11178,6 +13930,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4b6d036d0bc62a633acca6d10956e9dbbb16748f",
+		"data": {
+			"name": "Blood Crystal",
+			"symbol": "BC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4b6d036d0bc62a633acca6d10956e9dbbb16748f.png"
+		}
+	},
+	{
+		"address": "0x4b7265d153886a7dc717e815862acde6ff7b5bc8",
+		"data": {
+			"name": "DENCHCOIN",
+			"symbol": "DENCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4b7265d153886a7dc717e815862acde6ff7b5bc8.png"
+		}
+	},
+	{
+		"address": "0x4b7c762af92dbd917d159eb282b85aa13e955739",
+		"data": {
+			"name": "Poodl Inu",
+			"symbol": "POODL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4b7c762af92dbd917d159eb282b85aa13e955739.png"
+		}
+	},
+	{
 		"address": "0x4b7ffcb2b92fb4890f22f62a52fb7a180eab818e",
 		"data": {
 			"name": "DIVA Protocol",
@@ -11196,21 +13975,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4ba942d56a3b95b03c0af7a91b7294e0e95271f4",
+		"data": {
+			"name": "Super Cycle",
+			"symbol": "RICH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4ba942d56a3b95b03c0af7a91b7294e0e95271f4.png"
+		}
+	},
+	{
 		"address": "0x4bb3205bf648b7f59ef90dee0f1b62f6116bc7ca",
 		"data": {
 			"name": "NBX",
 			"symbol": "BYN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4bb3205bf648b7f59ef90dee0f1b62f6116bc7ca.png"
-		}
-	},
-	{
-		"address": "0x4bc3263eb5bb2ef7ad9ab6fb68be80e43b43801f",
-		"data": {
-			"name": "Voucher Ethereum 2 0",
-			"symbol": "VETH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4bc3263eb5bb2ef7ad9ab6fb68be80e43b43801f.png"
 		}
 	},
 	{
@@ -11259,6 +14038,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4c0bc0b3c734a573d28c627a96b95a1f1a7596fb",
+		"data": {
+			"name": "Husbant",
+			"symbol": "HUSBANT",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x4c0bc0b3c734a573d28c627a96b95a1f1a7596fb.png"
+		}
+	},
+	{
+		"address": "0x4c0f743928ca8fa7fb24ad89669c8a7838f34917",
+		"data": {
+			"name": "STACKER AI",
+			"symbol": "STACK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4c0f743928ca8fa7fb24ad89669c8a7838f34917.png"
+		}
+	},
+	{
 		"address": "0x4c11249814f11b9346808179cf06e71ac328c1b5",
 		"data": {
 			"name": "Oraichain",
@@ -11283,6 +14080,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FODL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4c2e59d098df7b6cbae0848d66de2f8a4889b9c3.png"
+		}
+	},
+	{
+		"address": "0x4c341d939444e79e68074b0d1e96ddd3bc618104",
+		"data": {
+			"name": "Brick Block",
+			"symbol": "BB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4c341d939444e79e68074b0d1e96ddd3bc618104.png"
 		}
 	},
 	{
@@ -11313,6 +14119,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4c4a50a61bed3b9024d8ffc1f1d168dc8cb1c689",
+		"data": {
+			"name": "The Blu Arctic Water Comp",
+			"symbol": "BARC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4c4a50a61bed3b9024d8ffc1f1d168dc8cb1c689.png"
+		}
+	},
+	{
 		"address": "0x4c584cd339bdde73b7f5210486dd8bbeee3fde6d",
 		"data": {
 			"name": "ShibElon",
@@ -11322,12 +14137,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4c5cb5d87709387f8821709f7a6664f00dcf0c93",
+		"data": {
+			"name": "Raft",
+			"symbol": "RAFT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4c5cb5d87709387f8821709f7a6664f00dcf0c93.png"
+		}
+	},
+	{
 		"address": "0x4c601dc69affb0d4fc8de1ac303705e432a4a27e",
 		"data": {
 			"name": "Konnect",
 			"symbol": "KCT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4c601dc69affb0d4fc8de1ac303705e432a4a27e.png"
+		}
+	},
+	{
+		"address": "0x4c612e3b15b96ff9a6faed838f8d07d479a8dd4c",
+		"data": {
+			"name": "Aave v3 sDAI",
+			"symbol": "ASDAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4c612e3b15b96ff9a6faed838f8d07d479a8dd4c.png"
 		}
 	},
 	{
@@ -11349,12 +14182,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4c73c1c8c95de5674d53604b15d968485414cb32",
+		"data": {
+			"name": "Bomb Shelter Inu",
+			"symbol": "BOOM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4c73c1c8c95de5674d53604b15d968485414cb32.png"
+		}
+	},
+	{
+		"address": "0x4c746edf20762dc201ac40135e0c13e400d23d58",
+		"data": {
+			"name": "GOD Coin",
+			"symbol": "GOD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4c746edf20762dc201ac40135e0c13e400d23d58.png"
+		}
+	},
+	{
+		"address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+		"data": {
+			"name": "Ethena USDe",
+			"symbol": "USDE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4c9edd5852cd905f086c759e8383e09bff1e68b3.png"
+		}
+	},
+	{
+		"address": "0x4cb1e6c430bb4b874869fd6049ed07ae975b02f1",
+		"data": {
+			"name": "Bndr",
+			"symbol": "SWIPES",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4cb1e6c430bb4b874869fd6049ed07ae975b02f1.png"
+		}
+	},
+	{
 		"address": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
 		"data": {
 			"name": "SelfKey",
 			"symbol": "KEY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4cc19356f2d37338b9802aa8e8fc58b0373296e7.png"
+		}
+	},
+	{
+		"address": "0x4cce605ed955295432958d8951d0b176c10720d5",
+		"data": {
+			"name": "Novatti Australian Digital Dollar",
+			"symbol": "AUDD",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x4cce605ed955295432958d8951d0b176c10720d5.png"
 		}
 	},
 	{
@@ -11412,21 +14290,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4d243e8f511045f0d5f9d0288bc628737b10c079",
+		"data": {
+			"name": "Jason  Eth ",
+			"symbol": "JASON",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4d243e8f511045f0d5f9d0288bc628737b10c079.png"
+		}
+	},
+	{
 		"address": "0x4d2ee5dae46c86da2ff521f7657dad98834f97b8",
 		"data": {
 			"name": "Pepemon Pepeballs",
 			"symbol": "PPBLZ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4d2ee5dae46c86da2ff521f7657dad98834f97b8.png"
-		}
-	},
-	{
-		"address": "0x4d40ea8fab99544a64c6b7c2c98dd19d7bc170a7",
-		"data": {
-			"name": "XFather Bot",
-			"symbol": "XFBOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4d40ea8fab99544a64c6b7c2c98dd19d7bc170a7.png"
 		}
 	},
 	{
@@ -11445,6 +14323,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SUMMER",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4d4f3715050571a447fffa2cd4cf091c7014ca5c.png"
+		}
+	},
+	{
+		"address": "0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8",
+		"data": {
+			"name": "Aave v3 WETH",
+			"symbol": "AWETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png"
 		}
 	},
 	{
@@ -11556,6 +14443,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4dbc96275a78de1bf92facb2c165c55de62adab1",
+		"data": {
+			"name": "Orange BOT",
+			"symbol": "ORBOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4dbc96275a78de1bf92facb2c165c55de62adab1.png"
+		}
+	},
+	{
 		"address": "0x4dd28568d05f09b02220b09c2cb307bfd837cb95",
 		"data": {
 			"name": "FingerprintsDAO",
@@ -11601,21 +14497,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4e08f03079c5cd3083ea331ec61bcc87538b7665",
+		"address": "0x4dfae3690b93c47470b03036a17b23c1be05127c",
 		"data": {
-			"name": "DoubleDice",
-			"symbol": "DODI",
+			"name": "The Original Pepe",
+			"symbol": "PEPE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x4e08f03079c5cd3083ea331ec61bcc87538b7665.png"
-		}
-	},
-	{
-		"address": "0x4e114d405b9ba2f59524941733e505ae03fb1fb5",
-		"data": {
-			"name": "Joystick",
-			"symbol": "JOY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4e114d405b9ba2f59524941733e505ae03fb1fb5.png"
+			"logoUri": "/images/tokens/0x4dfae3690b93c47470b03036a17b23c1be05127c.png"
 		}
 	},
 	{
@@ -11634,6 +14521,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WFTM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4e15361fd6b4bb609fa63c81a2be19d873717870.png"
+		}
+	},
+	{
+		"address": "0x4e1a609ec87cf6477613f515f6eb64ef2d31089a",
+		"data": {
+			"name": "Aktionariat Green Consensus AG Tokenize",
+			"symbol": "DGCS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x4e1a609ec87cf6477613f515f6eb64ef2d31089a.png"
+		}
+	},
+	{
+		"address": "0x4e241a9ec66832a16bceaeb9156e524487f061d7",
+		"data": {
+			"name": "ETF Rocks",
+			"symbol": "ETF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4e241a9ec66832a16bceaeb9156e524487f061d7.png"
 		}
 	},
 	{
@@ -11673,6 +14578,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4e47951508fd4a4126f8ff9cf5e6fa3b7cc8e073",
+		"data": {
+			"name": "Fluid",
+			"symbol": "FLUID",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4e47951508fd4a4126f8ff9cf5e6fa3b7cc8e073.png"
+		}
+	},
+	{
+		"address": "0x4e4990e997e1df3f6b39ff49384e2e7e99bc55fe",
+		"data": {
+			"name": "Saudi Bonk",
+			"symbol": "SAUDIBONK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4e4990e997e1df3f6b39ff49384e2e7e99bc55fe.png"
+		}
+	},
+	{
 		"address": "0x4e4a47cac6a28a62dcc20990ed2cda9bc659469f",
 		"data": {
 			"name": "I will poop it NFT",
@@ -11700,21 +14623,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4e58ea38f4915850fbe1577cd818a09ba673c8ee",
+		"address": "0x4e8de529fe22dee9266b029cdfc52142b82e0e2f",
 		"data": {
-			"name": "OmniaBot",
-			"symbol": "OMNIA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4e58ea38f4915850fbe1577cd818a09ba673c8ee.png"
+			"name": "Aktionariat Outlawz Food AG Tokenized S",
+			"symbol": "VEGS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x4e8de529fe22dee9266b029cdfc52142b82e0e2f.png"
 		}
 	},
 	{
-		"address": "0x4eb5124d04227f1aab771a37e131e62f17c4ffdc",
+		"address": "0x4e9e4ab99cfc14b852f552f5fb3aa68617825b6c",
 		"data": {
-			"name": "Vocare ex Machina",
-			"symbol": "VOCARE",
+			"name": "Solarcoin",
+			"symbol": "SLR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x4eb5124d04227f1aab771a37e131e62f17c4ffdc.png"
+			"logoUri": "/images/tokens/0x4e9e4ab99cfc14b852f552f5fb3aa68617825b6c.png"
+		}
+	},
+	{
+		"address": "0x4e9fcd48af4738e3bf1382009dc1e93ebfce698f",
+		"data": {
+			"name": "TAO INU",
+			"symbol": "TAONU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4e9fcd48af4738e3bf1382009dc1e93ebfce698f.png"
 		}
 	},
 	{
@@ -11754,12 +14686,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4efe8665e564bf454ccf5c90ee16817f7485d5cf",
+		"address": "0x4eea762311be76f9071aa01058c047ad12a017a1",
 		"data": {
-			"name": "BlackDragon",
-			"symbol": "BDT",
+			"name": "GBURN",
+			"symbol": "GBURN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x4efe8665e564bf454ccf5c90ee16817f7485d5cf.png"
+			"logoUri": "/images/tokens/0x4eea762311be76f9071aa01058c047ad12a017a1.png"
+		}
+	},
+	{
+		"address": "0x4eea955f63d7e24ea7272651a29c7c70f7c2a9ae",
+		"data": {
+			"name": "EastGate Pharmaceuticals",
+			"symbol": "EGP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4eea955f63d7e24ea7272651a29c7c70f7c2a9ae.png"
+		}
+	},
+	{
+		"address": "0x4efce4c758ddfb3911a1a1282a29ce0bdb16ef86",
+		"data": {
+			"name": "WOW",
+			"symbol": "",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4efce4c758ddfb3911a1a1282a29ce0bdb16ef86.png"
 		}
 	},
 	{
@@ -11781,6 +14731,14 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4f27633e8b1cfd5e043c68cdcd81c0bbfdb1cf14",
+		"data": {
+			"name": "WhatBot",
+			"symbol": "WHAT",
+			"decimals": 18
+		}
+	},
+	{
 		"address": "0x4f311c430540db1d64e635eb55f969f1660b2016",
 		"data": {
 			"name": "Pepe Chain",
@@ -11796,6 +14754,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DGX",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf.png"
+		}
+	},
+	{
+		"address": "0x4f45acfd7361e283170e28394bbe18395407e0f0",
+		"data": {
+			"name": "LinkTensor",
+			"symbol": "LTS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4f45acfd7361e283170e28394bbe18395407e0f0.png"
+		}
+	},
+	{
+		"address": "0x4f4a556361b8b4869f97b8709ff47c1b057ea13b",
+		"data": {
+			"name": "MAGA",
+			"symbol": "TRUMP",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x4f4a556361b8b4869f97b8709ff47c1b057ea13b.png"
 		}
 	},
 	{
@@ -11826,15 +14802,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4f81c790581b240a5c948afd173620ecc8c71c8d",
-		"data": {
-			"name": "Decentral Games Governance",
-			"symbol": "XDG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4f81c790581b240a5c948afd173620ecc8c71c8d.png"
-		}
-	},
-	{
 		"address": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
 		"data": {
 			"name": "Celer Network",
@@ -11844,9 +14811,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4fa5836b58d6f1877a616e7833c7350781e21202",
+		"data": {
+			"name": "FP  Otherdeed",
+			"symbol": "UOTHR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4fa5836b58d6f1877a616e7833c7350781e21202.png"
+		}
+	},
+	{
 		"address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
 		"data": {
-			"name": "Binance USD",
+			"name": "BUSD",
 			"symbol": "BUSD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4fabb145d64652a948d72533023f6e7a623c7c53.png"
@@ -11898,15 +14874,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x4fd5b9b5dcc9a5d5931d007ba4ae573e760d9b64",
-		"data": {
-			"name": "MO",
-			"symbol": "MO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x4fd5b9b5dcc9a5d5931d007ba4ae573e760d9b64.png"
-		}
-	},
-	{
 		"address": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc",
 		"data": {
 			"name": "NuCypher",
@@ -11916,12 +14883,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x4fe8d4775b7cb2546b9ee86182081cdf8f77b053",
+		"data": {
+			"name": "KAIJUNO8",
+			"symbol": "KAIJU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4fe8d4775b7cb2546b9ee86182081cdf8f77b053.png"
+		}
+	},
+	{
 		"address": "0x4fee21439f2b95b72da2f9f901b3956f27fe91d5",
 		"data": {
 			"name": "FrogSwap",
 			"symbol": "FROG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x4fee21439f2b95b72da2f9f901b3956f27fe91d5.png"
+		}
+	},
+	{
+		"address": "0x4ffe9cc172527df1e40d0b2efe1e9f05884a13da",
+		"data": {
+			"name": "DEDPRZ",
+			"symbol": "USA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x4ffe9cc172527df1e40d0b2efe1e9f05884a13da.png"
 		}
 	},
 	{
@@ -11943,6 +14928,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5027fc44a7ba114b8f494b1e4970900c6652fedf",
+		"data": {
+			"name": "Arcana Network",
+			"symbol": "XAR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5027fc44a7ba114b8f494b1e4970900c6652fedf.png"
+		}
+	},
+	{
 		"address": "0x50327c6c5a14dcade707abad2e27eb517df87ab5",
 		"data": {
 			"name": "Wrapped Tron",
@@ -11958,6 +14952,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FOG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x503cd987998824192578d0d7950148445667287c.png"
+		}
+	},
+	{
+		"address": "0x5044d567f7b30891639d982a05726a6bfe8bae6a",
+		"data": {
+			"name": "Brainers",
+			"symbol": "BRAINERS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5044d567f7b30891639d982a05726a6bfe8bae6a.png"
+		}
+	},
+	{
+		"address": "0x5052fa4a2a147eaaa4c0242e9cc54a10a4f42070",
+		"data": {
+			"name": "HANePlatform",
+			"symbol": "HANEP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5052fa4a2a147eaaa4c0242e9cc54a10a4f42070.png"
 		}
 	},
 	{
@@ -11988,12 +15000,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x508626d9a29d13eba26f843a2bd7bf7b00a45be5",
+		"address": "0x50739bd5b6aff093ba2371365727c48a420a060d",
 		"data": {
-			"name": "Bluelight",
-			"symbol": "KALE",
+			"name": "CryptoGPT",
+			"symbol": "CRGPT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x508626d9a29d13eba26f843a2bd7bf7b00a45be5.png"
+			"logoUri": "/images/tokens/0x50739bd5b6aff093ba2371365727c48a420a060d.png"
+		}
+	},
+	{
+		"address": "0x508b27902c6c14972a10a4e413b9cfa449e9cedb",
+		"data": {
+			"name": "AISignal",
+			"symbol": "AISIG",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x508b27902c6c14972a10a4e413b9cfa449e9cedb.png"
 		}
 	},
 	{
@@ -12006,12 +15027,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x508e00d5cef397b02d260d035e5ee80775e4c821",
+		"data": {
+			"name": "Bitcoin Cats",
+			"symbol": "1CAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x508e00d5cef397b02d260d035e5ee80775e4c821.png"
+		}
+	},
+	{
 		"address": "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a",
 		"data": {
 			"name": "Blocksquare",
 			"symbol": "BST",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a.png"
+		}
+	},
+	{
+		"address": "0x50b0696468f42cab1ddc76413a1312aff3cabdf6",
+		"data": {
+			"name": "ClosedAI",
+			"symbol": "CLOSEDAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x50b0696468f42cab1ddc76413a1312aff3cabdf6.png"
+		}
+	},
+	{
+		"address": "0x50b275a15e4f5004aa96f972a30e6a9c718b203f",
+		"data": {
+			"name": "StorageChain",
+			"symbol": "WSTOR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x50b275a15e4f5004aa96f972a30e6a9c718b203f.png"
+		}
+	},
+	{
+		"address": "0x50b806c5fe274c07e46b96be8c68d2fd2d9597b4",
+		"data": {
+			"name": "TUCKER CARLSON",
+			"symbol": "TUCKER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x50b806c5fe274c07e46b96be8c68d2fd2d9597b4.png"
 		}
 	},
 	{
@@ -12024,21 +15081,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x50d1c8e131dca8b9226c0a0f78947557497374b3",
-		"data": {
-			"name": "Bridge Bot",
-			"symbol": "BRIDGE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x50d1c8e131dca8b9226c0a0f78947557497374b3.png"
-		}
-	},
-	{
 		"address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
 		"data": {
 			"name": "FTX",
 			"symbol": "FTT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9.png"
+		}
+	},
+	{
+		"address": "0x50d5118fb90d572b9d42ba65e0addc4900867809",
+		"data": {
+			"name": "Osean",
+			"symbol": "OSEAN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x50d5118fb90d572b9d42ba65e0addc4900867809.png"
 		}
 	},
 	{
@@ -12060,6 +15117,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x51015f4fefe3366c6f62539140149f8088888888",
+		"data": {
+			"name": "Nuk em Loans",
+			"symbol": "NUKEM",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x51015f4fefe3366c6f62539140149f8088888888.png"
+		}
+	},
+	{
 		"address": "0x510975eda48a97e0ca228dd04d1217292487bea6",
 		"data": {
 			"name": "PROJECT XENO",
@@ -12069,30 +15135,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x511686014f39f487e5cdd5c37b4b37606b795ae3",
-		"data": {
-			"name": "Loyalty Labs",
-			"symbol": "LOYAL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x511686014f39f487e5cdd5c37b4b37606b795ae3.png"
-		}
-	},
-	{
-		"address": "0x5136c98a80811c3f46bdda8b5c4555cfd9f812f0",
-		"data": {
-			"name": "indaHash",
-			"symbol": "IDH",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0x5136c98a80811c3f46bdda8b5c4555cfd9f812f0.png"
-		}
-	},
-	{
 		"address": "0x51395ade06eae126f590e7b06dc8f6baf511f13f",
 		"data": {
 			"name": "hiSQUIGGLE",
 			"symbol": "HISQUIGGLE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x51395ade06eae126f590e7b06dc8f6baf511f13f.png"
+		}
+	},
+	{
+		"address": "0x513c3200f227ebb62e3b3d00b7a83779643a71cf",
+		"data": {
+			"name": "Uplift",
+			"symbol": "LIFT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x513c3200f227ebb62e3b3d00b7a83779643a71cf.png"
 		}
 	},
 	{
@@ -12120,6 +15177,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ZDEX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5150956e082c748ca837a5dfa0a7c10ca4697f9c.png"
+		}
+	},
+	{
+		"address": "0x51573c4c228de0227d3b1e6e598981f8054e8807",
+		"data": {
+			"name": "NOMADS",
+			"symbol": "NOMADS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x51573c4c228de0227d3b1e6e598981f8054e8807.png"
 		}
 	},
 	{
@@ -12186,12 +15252,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x51acb1ea45c1ec2512ae4202b9076c13016dc8aa",
+		"address": "0x51a59a02ba906194285e81eb1f98ffa28e7cf4c9",
 		"data": {
-			"name": "Fractal Protocol Vault",
-			"symbol": "USDF",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0x51acb1ea45c1ec2512ae4202b9076c13016dc8aa.png"
+			"name": "Pepe King Prawn",
+			"symbol": "PEPE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x51a59a02ba906194285e81eb1f98ffa28e7cf4c9.png"
 		}
 	},
 	{
@@ -12204,21 +15270,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x51d29b072ff42c712e4185723a5a7974920995ed",
+		"data": {
+			"name": "ChartHub",
+			"symbol": "CHT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x51d29b072ff42c712e4185723a5a7974920995ed.png"
+		}
+	},
+	{
 		"address": "0x51db5ad35c671a87207d88fc11d593ac0c8415bd",
 		"data": {
 			"name": "Moeda Loyalty Points",
 			"symbol": "MDA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x51db5ad35c671a87207d88fc11d593ac0c8415bd.png"
-		}
-	},
-	{
-		"address": "0x51fa2efd62ee56a493f24ae963eace7d0051929e",
-		"data": {
-			"name": "Poseidon OCEAN",
-			"symbol": "PSDNOCEAN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x51fa2efd62ee56a493f24ae963eace7d0051929e.png"
 		}
 	},
 	{
@@ -12231,18 +15297,9 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x51fe2e572e97bfeb1d719809d743ec2675924edc",
-		"data": {
-			"name": "VLaunch",
-			"symbol": "VPAD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x51fe2e572e97bfeb1d719809d743ec2675924edc.png"
-		}
-	},
-	{
 		"address": "0x5218e472cfcfe0b64a064f055b43b4cdc9efd3a6",
 		"data": {
-			"name": "unFederalReserve",
+			"name": "Residual Token",
 			"symbol": "ERSDL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5218e472cfcfe0b64a064f055b43b4cdc9efd3a6.png"
@@ -12276,21 +15333,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x52498f8d9791736f1d6398fe95ba3bd868114d10",
+		"data": {
+			"name": "Netvrk",
+			"symbol": "NETVR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x52498f8d9791736f1d6398fe95ba3bd868114d10.png"
+		}
+	},
+	{
+		"address": "0x524d524b4c9366be706d3a90dcf70076ca037ae3",
+		"data": {
+			"name": "RMRK",
+			"symbol": "RMRK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x524d524b4c9366be706d3a90dcf70076ca037ae3.png"
+		}
+	},
+	{
 		"address": "0x524ebc93beef838f70b4ae54b675d3e971d5884e",
 		"data": {
 			"name": "Challenge Coin",
 			"symbol": "HERO",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x524ebc93beef838f70b4ae54b675d3e971d5884e.png"
-		}
-	},
-	{
-		"address": "0x525794473f7ab5715c81d06d10f52d11cc052804",
-		"data": {
-			"name": "12Ships",
-			"symbol": "TSHP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x525794473f7ab5715c81d06d10f52d11cc052804.png"
 		}
 	},
 	{
@@ -12321,6 +15387,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x527856315a4bcd2f428ea7fa05ea251f7e96a50a",
+		"data": {
+			"name": "CeDeFiAi",
+			"symbol": "CDFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x527856315a4bcd2f428ea7fa05ea251f7e96a50a.png"
+		}
+	},
+	{
 		"address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
 		"data": {
 			"name": "Blur",
@@ -12348,6 +15423,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x52a163f4cef6a42fa6b17e0f2a773fc149547c9c",
+		"data": {
+			"name": "BANGER",
+			"symbol": "BANGER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x52a163f4cef6a42fa6b17e0f2a773fc149547c9c.png"
+		}
+	},
+	{
 		"address": "0x52a8845df664d76c69d2eea607cd793565af42b8",
 		"data": {
 			"name": "ApeX",
@@ -12357,20 +15441,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x52b552c4a698c9b1de4c7fe0dd4462af141f7c3e",
+		"data": {
+			"name": "Alpha Bot Calls",
+			"symbol": "ABC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x52b552c4a698c9b1de4c7fe0dd4462af141f7c3e.png"
+		}
+	},
+	{
+		"address": "0x52d134c6db5889fad3542a09eaf7aa90c0fdf9e4",
+		"data": {
+			"name": "Backed IBTA   Treasury Bond 1 3yr",
+			"symbol": "BIBTA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x52d134c6db5889fad3542a09eaf7aa90c0fdf9e4.png"
+		}
+	},
+	{
 		"address": "0x52d30b949bdbc63780e5a263cf436d4df983fe58",
 		"data": {
 			"name": "Zenith Wallet",
 			"symbol": "ZW",
-			"decimals": 18
-		}
-	},
-	{
-		"address": "0x52dec19feef469d7a683963b7380ecd0b1aff9c7",
-		"data": {
-			"name": "Octo",
-			"symbol": "OCTO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x52dec19feef469d7a683963b7380ecd0b1aff9c7.png"
+			"logoUri": "/images/tokens/0x52d30b949bdbc63780e5a263cf436d4df983fe58.png"
 		}
 	},
 	{
@@ -12392,21 +15486,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x53011e93f21ec7a74cdfbb7e6548f1abce306833",
+		"address": "0x53020f42f6da51b50cf6e23e45266ef223122376",
 		"data": {
-			"name": "LendeXe Finance",
-			"symbol": "LEXE",
+			"name": "BlockSpot Network",
+			"symbol": "SPOT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x53011e93f21ec7a74cdfbb7e6548f1abce306833.png"
-		}
-	},
-	{
-		"address": "0x530824da86689c9c17cdc2871ff29b058345b44a",
-		"data": {
-			"name": "Short term T Bill Token",
-			"symbol": "STBT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x530824da86689c9c17cdc2871ff29b058345b44a.png"
+			"logoUri": "/images/tokens/0x53020f42f6da51b50cf6e23e45266ef223122376.png"
 		}
 	},
 	{
@@ -12428,39 +15513,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x53263d9ef74db583b15fbc6d5d4e8b83833fa134",
-		"data": {
-			"name": "LEAP Token",
-			"symbol": "LEAP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x53263d9ef74db583b15fbc6d5d4e8b83833fa134.png"
-		}
-	},
-	{
-		"address": "0x532997aced1d85d54bdd05696f45b7a1ba7df9ec",
-		"data": {
-			"name": "Libfi",
-			"symbol": "LIBX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x532997aced1d85d54bdd05696f45b7a1ba7df9ec.png"
-		}
-	},
-	{
 		"address": "0x53340a1ef3a0ddeba1d94bbd1e2ff55936f0ea60",
 		"data": {
 			"name": "Bark",
 			"symbol": "BARK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x53340a1ef3a0ddeba1d94bbd1e2ff55936f0ea60.png"
-		}
-	},
-	{
-		"address": "0x534d1f5e617e0f72a6b06a04aa599839af776a5e",
-		"data": {
-			"name": "Blockswap Network",
-			"symbol": "BSN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x534d1f5e617e0f72a6b06a04aa599839af776a5e.png"
 		}
 	},
 	{
@@ -12482,12 +15540,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5380442d3c4ec4f5777f551f5edd2fa0f691a27c",
+		"address": "0x537edd52ebcb9f48ff2f8a28c51fcdb9d6a6e0d4",
 		"data": {
-			"name": "UkraineDAO Flag NFT",
-			"symbol": "LOVE",
+			"name": "Small Doge",
+			"symbol": "SDOG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x5380442d3c4ec4f5777f551f5edd2fa0f691a27c.png"
+			"logoUri": "/images/tokens/0x537edd52ebcb9f48ff2f8a28c51fcdb9d6a6e0d4.png"
+		}
+	},
+	{
+		"address": "0x53805a76e1f5ebbfe7115f16f9c87c2f7e633726",
+		"data": {
+			"name": "f x  Protocol Fractional ETH",
+			"symbol": "FETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x53805a76e1f5ebbfe7115f16f9c87c2f7e633726.png"
 		}
 	},
 	{
@@ -12506,15 +15573,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AAMMUNIYFIWETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5394794be8b6ed5572fcd6b27103f46b5f390e8f.png"
-		}
-	},
-	{
-		"address": "0x5395df198fcbc9c13bec506004c9a8b6460a7712",
-		"data": {
-			"name": "Bubu",
-			"symbol": "BUBU",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5395df198fcbc9c13bec506004c9a8b6460a7712.png"
 		}
 	},
 	{
@@ -12563,21 +15621,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5408245a4d7c685f59ce6d3b8b35916dd6c11a99",
-		"data": {
-			"name": "AnonZK",
-			"symbol": "AZK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5408245a4d7c685f59ce6d3b8b35916dd6c11a99.png"
-		}
-	},
-	{
 		"address": "0x543ff227f64aa17ea132bf9886cab5db55dcaddf",
 		"data": {
 			"name": "DAOstack",
 			"symbol": "GEN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x543ff227f64aa17ea132bf9886cab5db55dcaddf.png"
+		}
+	},
+	{
+		"address": "0x5441765d3ab74e0347df52ffab5a69e5146b5d26",
+		"data": {
+			"name": "BTCMEME",
+			"symbol": "BTCMEME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5441765d3ab74e0347df52ffab5a69e5146b5d26.png"
 		}
 	},
 	{
@@ -12590,11 +15648,47 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x544d230f0362f3843fda5caa99b94cb2b336e384",
+		"data": {
+			"name": "Magnesium",
+			"symbol": "MAG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x544d230f0362f3843fda5caa99b94cb2b336e384.png"
+		}
+	},
+	{
+		"address": "0x545bd6c032efdde65a377a6719def2796c8e0f2e",
+		"data": {
+			"name": "Aave v3 ENS",
+			"symbol": "AENS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x545bd6c032efdde65a377a6719def2796c8e0f2e.png"
+		}
+	},
+	{
 		"address": "0x547b2f82cecfab9c2b1d36fdda96ef9f58c63b8c",
 		"data": {
 			"name": "Taxa Network",
 			"symbol": "TXT",
 			"decimals": 18
+		}
+	},
+	{
+		"address": "0x5483dc6abda5f094865120b2d251b5744fc2ecb5",
+		"data": {
+			"name": "TaoPad",
+			"symbol": "TPAD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5483dc6abda5f094865120b2d251b5744fc2ecb5.png"
+		}
+	},
+	{
+		"address": "0x5488eff1976e4a56b4255e926d419a7054df196a",
+		"data": {
+			"name": "Citty Meme Coin",
+			"symbol": "CITTY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5488eff1976e4a56b4255e926d419a7054df196a.png"
 		}
 	},
 	{
@@ -12607,30 +15701,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x54a02eae26e56d108dde3b836db32431228b44aa",
+		"address": "0x54d1c019c53501f76361bb656542fec427bf13aa",
 		"data": {
-			"name": "DollarSqueeze",
-			"symbol": "DSQ",
+			"name": "Peer to Peer",
+			"symbol": "P2P",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x54a02eae26e56d108dde3b836db32431228b44aa.png"
+			"logoUri": "/images/tokens/0x54d1c019c53501f76361bb656542fec427bf13aa.png"
 		}
 	},
 	{
-		"address": "0x54b8d105aa09342fad6b352d41a0bad3e1a9aa9d",
+		"address": "0x54da724e13d64619a36e1ee6f4bf92d5a410da41",
 		"data": {
-			"name": "Pantomime",
-			"symbol": "PANTO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x54b8d105aa09342fad6b352d41a0bad3e1a9aa9d.png"
+			"name": "Secured On Blockchain  OLD ",
+			"symbol": "SOB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x54da724e13d64619a36e1ee6f4bf92d5a410da41.png"
 		}
 	},
 	{
-		"address": "0x54c890411e97755ca69321f28bed31cafbb3c5a0",
+		"address": "0x550775e17ed6767621a1aed580e6eb29ede981e9",
 		"data": {
-			"name": "BitStubs",
-			"symbol": "STUB",
+			"name": "Agnus AI",
+			"symbol": "AGN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x54c890411e97755ca69321f28bed31cafbb3c5a0.png"
+			"logoUri": "/images/tokens/0x550775e17ed6767621a1aed580e6eb29ede981e9.png"
 		}
 	},
 	{
@@ -12652,6 +15746,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x551d0501cd5df92663c3d12c3201c9d70ba79998",
+		"data": {
+			"name": "All Your Base",
+			"symbol": "YOBASE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x551d0501cd5df92663c3d12c3201c9d70ba79998.png"
+		}
+	},
+	{
 		"address": "0x55296f69f40ea6d20e478533c15a6b08b654e758",
 		"data": {
 			"name": "XYO Network",
@@ -12661,39 +15764,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5543862ba50b6bbc198222a34d30e93a62adce24",
+		"address": "0x553531c45eabc2f3343d19885262ac784046fd5f",
 		"data": {
-			"name": "Build With Pepe",
-			"symbol": "BWP",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x5543862ba50b6bbc198222a34d30e93a62adce24.png"
+			"name": "CyOp",
+			"symbol": "CYOP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x553531c45eabc2f3343d19885262ac784046fd5f.png"
 		}
 	},
 	{
-		"address": "0x5549394cfeef53b08fa41317019f474bfc588528",
+		"address": "0x553afe6468949e0685959022217336717df5fbe8",
 		"data": {
-			"name": "Rapid Stakes",
-			"symbol": "RAPID",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x5549394cfeef53b08fa41317019f474bfc588528.png"
+			"name": "Palette",
+			"symbol": "PLT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x553afe6468949e0685959022217336717df5fbe8.png"
 		}
 	},
 	{
-		"address": "0x5552e5a89a70cb2ef5adbbc45a6be442fe7160ec",
+		"address": "0x553c7f9c780316fc1d34b8e14ac2465ab22a090b",
 		"data": {
-			"name": "Kawakami",
-			"symbol": "KAWA",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x5552e5a89a70cb2ef5adbbc45a6be442fe7160ec.png"
+			"name": "Aktionariat RealUnit Schweiz AG Tokeniz",
+			"symbol": "REALU",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x553c7f9c780316fc1d34b8e14ac2465ab22a090b.png"
 		}
 	},
 	{
-		"address": "0x556713e6a6a928af55bf3967f847c62402acbadc",
+		"address": "0x556bb0b27e855e6f2cebb47174495b9bbeb97ff1",
 		"data": {
-			"name": "Stick Man",
-			"symbol": "STICK",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x556713e6a6a928af55bf3967f847c62402acbadc.png"
+			"name": "Ctrl",
+			"symbol": "CTRL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x556bb0b27e855e6f2cebb47174495b9bbeb97ff1.png"
 		}
 	},
 	{
@@ -12733,12 +15836,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x55986c1dcbf2fa1f3402c5df256272621624821f",
+		"data": {
+			"name": "Bank BTC",
+			"symbol": "BANKBTC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x55986c1dcbf2fa1f3402c5df256272621624821f.png"
+		}
+	},
+	{
+		"address": "0x559b7bfc48a5274754b08819f75c5f27af53d53b",
+		"data": {
+			"name": "Qi Dao",
+			"symbol": "QI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x559b7bfc48a5274754b08819f75c5f27af53d53b.png"
+		}
+	},
+	{
+		"address": "0x559babc46a6ab52fd11b2790bce01f0a434a8b4e",
+		"data": {
+			"name": "TrendGuru",
+			"symbol": "TRENDGURU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x559babc46a6ab52fd11b2790bce01f0a434a8b4e.png"
+		}
+	},
+	{
+		"address": "0x559cc0850361afe1973c0ba5d0a3446c8a5ad678",
+		"data": {
+			"name": "Avatar404",
+			"symbol": "",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x559cc0850361afe1973c0ba5d0a3446c8a5ad678.png"
+		}
+	},
+	{
 		"address": "0x55a380d134d722006a5ce2d510562e1239d225b1",
 		"data": {
 			"name": "Marvin Inu",
 			"symbol": "MARVIN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x55a380d134d722006a5ce2d510562e1239d225b1.png"
+		}
+	},
+	{
+		"address": "0x55a8f6c6b3aa58ad6d1f26f6afeded78f32e19f4",
+		"data": {
+			"name": "Aegis Ai",
+			"symbol": "AEGIS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x55a8f6c6b3aa58ad6d1f26f6afeded78f32e19f4.png"
 		}
 	},
 	{
@@ -12751,6 +15899,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x55b2cfcfe99110c773f00b023560dd9ef6c8a13b",
+		"data": {
+			"name": "Index Coop CoinDesk ETH Trend Index",
+			"symbol": "CDETI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x55b2cfcfe99110c773f00b023560dd9ef6c8a13b.png"
+		}
+	},
+	{
 		"address": "0x55c08ca52497e2f1534b59e2917bf524d4765257",
 		"data": {
 			"name": "UwU Lend",
@@ -12760,12 +15917,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x55fb228730ed971269ebf284c7500d5ff572a141",
+		"address": "0x55c3a56e638e96c91f98735cc86f60a6820e6a44",
 		"data": {
-			"name": "Pepecola",
-			"symbol": "PEPECOLA",
+			"name": "GavCoin",
+			"symbol": "GAV",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x55fb228730ed971269ebf284c7500d5ff572a141.png"
+			"logoUri": "/images/tokens/0x55c3a56e638e96c91f98735cc86f60a6820e6a44.png"
+		}
+	},
+	{
+		"address": "0x55ff0f50f639e7acfe06694e6d018bd7678e6da9",
+		"data": {
+			"name": "Mineshield",
+			"symbol": "MNS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x55ff0f50f639e7acfe06694e6d018bd7678e6da9.png"
 		}
 	},
 	{
@@ -12778,12 +15944,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x562d8e607bed7fc183ca84c0362c853680b99638",
+		"address": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
 		"data": {
-			"name": "Rewardz  Network",
-			"symbol": "RAYN",
+			"name": "Seedify fund",
+			"symbol": "SFUND",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x562d8e607bed7fc183ca84c0362c853680b99638.png"
+			"logoUri": "/images/tokens/0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60.png"
+		}
+	},
+	{
+		"address": "0x561cf9121e89926c27fa1cfc78dfcc4c422937a4",
+		"data": {
+			"name": "Squid Game",
+			"symbol": "SQUID",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x561cf9121e89926c27fa1cfc78dfcc4c422937a4.png"
 		}
 	},
 	{
@@ -12805,12 +15980,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x564a80d0123bdd750fb6a9993834968fc595c09a",
+		"data": {
+			"name": "Super Best Friends",
+			"symbol": "SUBF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x564a80d0123bdd750fb6a9993834968fc595c09a.png"
+		}
+	},
+	{
+		"address": "0x56528c1df17fd5451451eb6efde297758bc8f9a1",
+		"data": {
+			"name": "Aktionariat Alan Frei Company Tokenized",
+			"symbol": "AFS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x56528c1df17fd5451451eb6efde297758bc8f9a1.png"
+		}
+	},
+	{
+		"address": "0x565d3902d6a5a2d5ce28ff427423e88933334dd2",
+		"data": {
+			"name": "Adult Playground",
+			"symbol": "ADULT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x565d3902d6a5a2d5ce28ff427423e88933334dd2.png"
+		}
+	},
+	{
 		"address": "0x56694577564fdd577a0abb20fe95c1e2756c2a11",
 		"data": {
 			"name": "AdaSwap",
 			"symbol": "ASW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x56694577564fdd577a0abb20fe95c1e2756c2a11.png"
+		}
+	},
+	{
+		"address": "0x566957ef80f9fd5526cd2bef8be67035c0b81130",
+		"data": {
+			"name": "Bridged USD Coin  Wormhole POS ",
+			"symbol": "USDCPO",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x566957ef80f9fd5526cd2bef8be67035c0b81130.png"
 		}
 	},
 	{
@@ -12832,21 +16043,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x56a86d648c435dc707c8405b78e2ae8eb4e60ba4",
+		"address": "0x569d0e52c3dbe95983bcc2434cb9f69d905be919",
 		"data": {
-			"name": "StackOS",
-			"symbol": "STACK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x56a86d648c435dc707c8405b78e2ae8eb4e60ba4.png"
+			"name": "Roaring Kitty",
+			"symbol": "ROAR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x569d0e52c3dbe95983bcc2434cb9f69d905be919.png"
 		}
 	},
 	{
-		"address": "0x56b4f8c39e07d4d5d91692acf9d0f6d4d3493763",
+		"address": "0x56b8be7c2d3ffe0d8d6feb4d4eb4650c3ea10bb6",
 		"data": {
-			"name": "Trism",
-			"symbol": "TRISM",
+			"name": "LocalAI",
+			"symbol": "LOCAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x56b4f8c39e07d4d5d91692acf9d0f6d4d3493763.png"
+			"logoUri": "/images/tokens/0x56b8be7c2d3ffe0d8d6feb4d4eb4650c3ea10bb6.png"
 		}
 	},
 	{
@@ -12856,24 +16067,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CANTO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x56c03b8c4fa80ba37f5a7b60caaaef749bb5b220.png"
-		}
-	},
-	{
-		"address": "0x56c9d5f1e727de03643af220b5ce52de23d4d973",
-		"data": {
-			"name": "Decentra Box",
-			"symbol": "DBOX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x56c9d5f1e727de03643af220b5ce52de23d4d973.png"
-		}
-	},
-	{
-		"address": "0x56d3d0b333d29b48dd7c01d516a737b8866fbee2",
-		"data": {
-			"name": "Naetion",
-			"symbol": "NTN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x56d3d0b333d29b48dd7c01d516a737b8866fbee2.png"
 		}
 	},
 	{
@@ -12895,15 +16088,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x570147337f1a2313fc35573f6a123ceb109eb901",
-		"data": {
-			"name": "0xFriend",
-			"symbol": "0XF",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x570147337f1a2313fc35573f6a123ceb109eb901.png"
-		}
-	},
-	{
 		"address": "0x570936840fa942c96ca4c57a170dda494dd9b9c6",
 		"data": {
 			"name": "Decentral ART",
@@ -12913,11 +16097,38 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x571042b7138ee957a96a6820fce79c48fe2da816",
+		"data": {
+			"name": "Escrowed LBR",
+			"symbol": "ESLBR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x571042b7138ee957a96a6820fce79c48fe2da816.png"
+		}
+	},
+	{
+		"address": "0x5713c26280647adad2f25bb54376943ecaa9d8e3",
+		"data": {
+			"name": "Elon Xmas",
+			"symbol": "XMAS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x5713c26280647adad2f25bb54376943ecaa9d8e3.png"
+		}
+	},
+	{
+		"address": "0x571d9b73dc04ed88b4e273e048c8d4848f83b779",
+		"data": {
+			"name": "Super Closed Source",
+			"symbol": "CLOSEDAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x571d9b73dc04ed88b4e273e048c8d4848f83b779.png"
+		}
+	},
+	{
 		"address": "0x571e21a545842c6ce596663cda5caa8196ac1c7a",
 		"data": {
 			"name": "Champignons of Arborethia",
 			"symbol": "CHAMPZ",
-			"decimals": 7,
+			"decimals": 8,
 			"logoUri": "/images/tokens/0x571e21a545842c6ce596663cda5caa8196ac1c7a.png"
 		}
 	},
@@ -12940,15 +16151,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x575b57ca64d2de54fe78fae6d952251bbb6d251a",
-		"data": {
-			"name": "BlockJack",
-			"symbol": "JACK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x575b57ca64d2de54fe78fae6d952251bbb6d251a.png"
-		}
-	},
-	{
 		"address": "0x576e2bed8f7b46d34016198911cdf9886f78bea7",
 		"data": {
 			"name": "MAGA",
@@ -12967,6 +16169,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x578b388528f159d026693c3c103100d36ac2ad65",
+		"data": {
+			"name": "SnackboxAI",
+			"symbol": "SNACK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x578b388528f159d026693c3c103100d36ac2ad65.png"
+		}
+	},
+	{
+		"address": "0x5796136ac98f83e732b99edf783ad247c997e8ef",
+		"data": {
+			"name": "zkArchive",
+			"symbol": "ZKARCH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x5796136ac98f83e732b99edf783ad247c997e8ef.png"
+		}
+	},
+	{
 		"address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
 		"data": {
 			"name": "IQ",
@@ -12976,12 +16196,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x57a5a0567187ff4a8dcc1a9bba86155e355878f2",
+		"data": {
+			"name": "Inception ETHx",
+			"symbol": "INETHX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x57a5a0567187ff4a8dcc1a9bba86155e355878f2.png"
+		}
+	},
+	{
 		"address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
 		"data": {
 			"name": "sUSD",
 			"symbol": "SUSD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png"
+		}
+	},
+	{
+		"address": "0x57b49219614859176ddb029298486b6c30193cbd",
+		"data": {
+			"name": "Oracle AI",
+			"symbol": "ORACLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x57b49219614859176ddb029298486b6c30193cbd.png"
 		}
 	},
 	{
@@ -13003,12 +16241,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x57c75eccc8557136d32619a191fbcdc88560d711",
+		"address": "0x57ca1f39b0757b8610617e90fa9b2980ccebfece",
 		"data": {
-			"name": "VeriDocGlobal",
-			"symbol": "VDG",
-			"decimals": 0,
-			"logoUri": "/images/tokens/0x57c75eccc8557136d32619a191fbcdc88560d711.png"
+			"name": "OrdinalsFi",
+			"symbol": "ORDIFI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x57ca1f39b0757b8610617e90fa9b2980ccebfece.png"
 		}
 	},
 	{
@@ -13018,6 +16256,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "OPENX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x57d579f483854c62fef850b8a5332b0d8424b7e2.png"
+		}
+	},
+	{
+		"address": "0x57e114b691db790c35207b2e685d4a43181e6061",
+		"data": {
+			"name": "Ethena",
+			"symbol": "ENA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x57e114b691db790c35207b2e685d4a43181e6061.png"
+		}
+	},
+	{
+		"address": "0x57f12fe6a4e5fe819eec699fadf9db2d06606bb4",
+		"data": {
+			"name": "Neptune Mutual",
+			"symbol": "NPM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x57f12fe6a4e5fe819eec699fadf9db2d06606bb4.png"
+		}
+	},
+	{
+		"address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+		"data": {
+			"name": "Wrapped USDM",
+			"symbol": "WUSDM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
 		}
 	},
 	{
@@ -13048,21 +16313,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x580e933d90091b9ce380740e3a4a39c67eb85b4c",
+		"data": {
+			"name": "GameSwift",
+			"symbol": "GSWIFT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x580e933d90091b9ce380740e3a4a39c67eb85b4c.png"
+		}
+	},
+	{
 		"address": "0x581911b360b6eb3a14ef295a83a91dc2bce2d6f7",
 		"data": {
 			"name": "MileVerse",
 			"symbol": "MVC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x581911b360b6eb3a14ef295a83a91dc2bce2d6f7.png"
-		}
-	},
-	{
-		"address": "0x581dafeba7bf8fa69e4387eff5eae9eb6401657c",
-		"data": {
-			"name": "Threads",
-			"symbol": "THREADS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x581dafeba7bf8fa69e4387eff5eae9eb6401657c.png"
 		}
 	},
 	{
@@ -13075,21 +16340,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x583019ff0f430721ada9cfb4fac8f06ca104d0b4",
+		"data": {
+			"name": "Staked Yearn Ether",
+			"symbol": "ST-YETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x583019ff0f430721ada9cfb4fac8f06ca104d0b4.png"
+		}
+	},
+	{
 		"address": "0x5833dbb0749887174b254ba4a5df747ff523a905",
 		"data": {
 			"name": "XRun",
 			"symbol": "XRUN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5833dbb0749887174b254ba4a5df747ff523a905.png"
-		}
-	},
-	{
-		"address": "0x583cc692aefe93c57cd55b6cd11d39cf1aa98c8f",
-		"data": {
-			"name": "NCAT",
-			"symbol": "NCAT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x583cc692aefe93c57cd55b6cd11d39cf1aa98c8f.png"
 		}
 	},
 	{
@@ -13138,6 +16403,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x58cb30368ceb2d194740b144eab4c2da8a917dcb",
+		"data": {
+			"name": "ZynCoin",
+			"symbol": "ZYN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x58cb30368ceb2d194740b144eab4c2da8a917dcb.png"
+		}
+	},
+	{
 		"address": "0x58f7345b5295e43aa454911571f13be186655be9",
 		"data": {
 			"name": "Garlicoin",
@@ -13174,21 +16448,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x590f820444fa3638e022776752c5eef34e2f89a6",
+		"data": {
+			"name": "Alephium",
+			"symbol": "ALPH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x590f820444fa3638e022776752c5eef34e2f89a6.png"
+		}
+	},
+	{
 		"address": "0x5919dea604631016c15c805e3d948a0384879892",
 		"data": {
 			"name": "The People s Coin",
 			"symbol": "PEEP",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x5919dea604631016c15c805e3d948a0384879892.png"
-		}
-	},
-	{
-		"address": "0x59276455177429ae2af1cc62b77ae31b34ec3890",
-		"data": {
-			"name": "Sturdy",
-			"symbol": "STRDY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x59276455177429ae2af1cc62b77ae31b34ec3890.png"
 		}
 	},
 	{
@@ -13201,39 +16475,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x594daad7d77592a2b97b725a7ad59d7e188b5bfa",
+		"data": {
+			"name": "Apu Apustaja",
+			"symbol": "APU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x594daad7d77592a2b97b725a7ad59d7e188b5bfa.png"
+		}
+	},
+	{
+		"address": "0x5957c351946d45f74d1a6f034cd9b6ac6654e0d7",
+		"data": {
+			"name": "Chart Roulette",
+			"symbol": "CR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5957c351946d45f74d1a6f034cd9b6ac6654e0d7.png"
+		}
+	},
+	{
 		"address": "0x595832f8fc6bf59c85c527fec3740a1b7a361269",
 		"data": {
-			"name": "Power Ledger",
+			"name": "Powerledger",
 			"symbol": "POWR",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x595832f8fc6bf59c85c527fec3740a1b7a361269.png"
 		}
 	},
 	{
-		"address": "0x5978708d6cce1cc9640eed47422d64c91bbd5171",
+		"address": "0x5972a9689ee53481ad6301d60e1e15092754ffa3",
 		"data": {
-			"name": "LOLTOKEN",
-			"symbol": "LOL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5978708d6cce1cc9640eed47422d64c91bbd5171.png"
+			"name": "Nodebet",
+			"symbol": "NBET",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x5972a9689ee53481ad6301d60e1e15092754ffa3.png"
 		}
 	},
 	{
-		"address": "0x597981eac8a293054a1826c7b60cbf92972a36c1",
+		"address": "0x599955aa9fbc197a1b717d8da6a7012cafe70ab3",
 		"data": {
-			"name": "Caacon",
-			"symbol": "CC",
+			"name": "Book of Pepe",
+			"symbol": "BOPE",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x597981eac8a293054a1826c7b60cbf92972a36c1.png"
-		}
-	},
-	{
-		"address": "0x59b44e9ac4ab8e29db6faf7bacd726c6b7bc94b9",
-		"data": {
-			"name": "Black Eyed Dragon",
-			"symbol": "BLEYD",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x59b44e9ac4ab8e29db6faf7bacd726c6b7bc94b9.png"
+			"logoUri": "/images/tokens/0x599955aa9fbc197a1b717d8da6a7012cafe70ab3.png"
 		}
 	},
 	{
@@ -13273,21 +16556,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a",
+		"data": {
+			"name": "Catcoin",
+			"symbol": "CAT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a.png"
+		}
+	},
+	{
 		"address": "0x5a035e3f1551a15230d0cde3357fb1bf89369261",
 		"data": {
 			"name": "Wooonen",
 			"symbol": "WOOO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5a035e3f1551a15230d0cde3357fb1bf89369261.png"
-		}
-	},
-	{
-		"address": "0x5a0fcd6247f37154b6ab433ab72dc2ac7b3ebb8b",
-		"data": {
-			"name": "DPRK Coin",
-			"symbol": "DPRK",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x5a0fcd6247f37154b6ab433ab72dc2ac7b3ebb8b.png"
 		}
 	},
 	{
@@ -13300,6 +16583,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5a4a503f4745c06a07e29d9a9dd88ab52f7a505b",
+		"data": {
+			"name": "Eigenpie ankrETH",
+			"symbol": "MANKRETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5a4a503f4745c06a07e29d9a9dd88ab52f7a505b.png"
+		}
+	},
+	{
 		"address": "0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37",
 		"data": {
 			"name": "Unmarshal",
@@ -13309,12 +16601,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5a7e6c8204a1359db9aacab7ba5fc309b7981efd",
+		"address": "0x5a8291d0f1836726aea75b979a92a47be1ff0cba",
 		"data": {
-			"name": "Offshift anonUSD",
-			"symbol": "ANONUSD",
+			"name": "Cremate",
+			"symbol": "CRMT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x5a7e6c8204a1359db9aacab7ba5fc309b7981efd.png"
+			"logoUri": "/images/tokens/0x5a8291d0f1836726aea75b979a92a47be1ff0cba.png"
+		}
+	},
+	{
+		"address": "0x5a9261b023692405f2f680240c6b010638e416dd",
+		"data": {
+			"name": "Storm Warfare",
+			"symbol": "JAN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5a9261b023692405f2f680240c6b010638e416dd.png"
 		}
 	},
 	{
@@ -13333,15 +16634,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ULX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5aa158404fed6b4730c13f49d3a7f820e14a636f.png"
-		}
-	},
-	{
-		"address": "0x5aa7c403c7de4b3bb0cc07079a03e389671a4771",
-		"data": {
-			"name": "Ibiza Token",
-			"symbol": "IBZ",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5aa7c403c7de4b3bb0cc07079a03e389671a4771.png"
 		}
 	},
 	{
@@ -13381,21 +16673,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5adebafbf2fd0d6808a7a1e823759de2df1df39e",
-		"data": {
-			"name": "FANTA",
-			"symbol": "FANTA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5adebafbf2fd0d6808a7a1e823759de2df1df39e.png"
-		}
-	},
-	{
 		"address": "0x5aef5bba19e6a1644805bd4f5c93c8557b87c62c",
 		"data": {
 			"name": "DeepFakeAI",
 			"symbol": "FAKEAI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5aef5bba19e6a1644805bd4f5c93c8557b87c62c.png"
+		}
+	},
+	{
+		"address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
+		"data": {
+			"name": "Safe",
+			"symbol": "SAFE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5afe3855358e112b5647b952709e6165e1c1eeee.png"
 		}
 	},
 	{
@@ -13426,12 +16718,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5b5065a95842ca8d51274ba9adf57861d60e8e19",
+		"address": "0x5b502e3796385e1e9755d7043b9c945c3accec9c",
 		"data": {
-			"name": "Evermars",
-			"symbol": "EMARS",
+			"name": "Aave v3 KNC",
+			"symbol": "AKNC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x5b5065a95842ca8d51274ba9adf57861d60e8e19.png"
+			"logoUri": "/images/tokens/0x5b502e3796385e1e9755d7043b9c945c3accec9c.png"
 		}
 	},
 	{
@@ -13498,30 +16790,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5bb15141bb6def6d2bafeed8ff84bf889c0c573b",
+		"data": {
+			"name": "LakeViewMeta",
+			"symbol": "LVM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5bb15141bb6def6d2bafeed8ff84bf889c0c573b.png"
+		}
+	},
+	{
 		"address": "0x5bb29c33c4a3c29f56f8aca40b4db91d8a5fe2c5",
 		"data": {
 			"name": "One Share",
 			"symbol": "ONS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5bb29c33c4a3c29f56f8aca40b4db91d8a5fe2c5.png"
-		}
-	},
-	{
-		"address": "0x5bb441fb23263b59e97e20b37a0534e33b9b88e8",
-		"data": {
-			"name": "Pokmon",
-			"symbol": "POKMON",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x5bb441fb23263b59e97e20b37a0534e33b9b88e8.png"
-		}
-	},
-	{
-		"address": "0x5bbe36152d3cd3eb7183a82470b39b29eedf068b",
-		"data": {
-			"name": "Hord hETH",
-			"symbol": "HETH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5bbe36152d3cd3eb7183a82470b39b29eedf068b.png"
 		}
 	},
 	{
@@ -13540,15 +16823,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5befbb272290dd5b8521d4a938f6c4757742c430.png"
-		}
-	},
-	{
-		"address": "0x5bffe8ddff21ca52d8371b14a6c39d6ae3c5d2c7",
-		"data": {
-			"name": "Hola Token",
-			"symbol": "HOLA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5bffe8ddff21ca52d8371b14a6c39d6ae3c5d2c7.png"
 		}
 	},
 	{
@@ -13576,6 +16850,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WFLOW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5c147e74d63b1d31aa3fd78eb229b65161983b2b.png"
+		}
+	},
+	{
+		"address": "0x5c1a467e12150864ea15bd394dac3801c2ca3cb0",
+		"data": {
+			"name": "Gamma Wallet",
+			"symbol": "GAMMA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x5c1a467e12150864ea15bd394dac3801c2ca3cb0.png"
+		}
+	},
+	{
+		"address": "0x5c1ac4e697a2814812a284509e1f1b8aa34a25f3",
+		"data": {
+			"name": "Avante",
+			"symbol": "AXT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5c1ac4e697a2814812a284509e1f1b8aa34a25f3.png"
 		}
 	},
 	{
@@ -13624,6 +16916,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5c77bffc54e33ee4ae303a168a4a0e45b238d09c",
+		"data": {
+			"name": "WORMZ",
+			"symbol": "WORMZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5c77bffc54e33ee4ae303a168a4a0e45b238d09c.png"
+		}
+	},
+	{
 		"address": "0x5c8190b76e90b4dd0702740cf6eb0f7ee01ab5e9",
 		"data": {
 			"name": "Archive AI",
@@ -13651,6 +16952,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5c99a6c14f8dc0c2c3655c64a2cef68ff9f771ba",
+		"data": {
+			"name": "Larry the Llama",
+			"symbol": "LARRY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5c99a6c14f8dc0c2c3655c64a2cef68ff9f771ba.png"
+		}
+	},
+	{
 		"address": "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e",
 		"data": {
 			"name": "Frax Price Index",
@@ -13662,10 +16972,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x5ca381bbfb58f0092df149bd3d243b08b9a8386e",
 		"data": {
-			"name": "MXC",
+			"name": "Moonchain",
 			"symbol": "MXC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e.png"
+		}
+	},
+	{
+		"address": "0x5ca83216fae72717332469e6a2eb28c4bf9af9ec",
+		"data": {
+			"name": "0xCalls",
+			"symbol": "0XC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5ca83216fae72717332469e6a2eb28c4bf9af9ec.png"
 		}
 	},
 	{
@@ -13714,12 +17033,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5ceaa82ffd3b1c0193ff65fc93510846dd56f22c",
+		"address": "0x5cc5e64ab764a0f1e97f23984e20fd4528356a6a",
 		"data": {
-			"name": "Strider Bot",
-			"symbol": "STRIDR",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x5ceaa82ffd3b1c0193ff65fc93510846dd56f22c.png"
+			"name": "XRGB",
+			"symbol": "XRGB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5cc5e64ab764a0f1e97f23984e20fd4528356a6a.png"
+		}
+	},
+	{
+		"address": "0x5ce6f2c0e2a1b4540894f286254bf13b1110d240",
+		"data": {
+			"name": "Bricks",
+			"symbol": "BRX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5ce6f2c0e2a1b4540894f286254bf13b1110d240.png"
 		}
 	},
 	{
@@ -13741,15 +17069,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5d259e3fbcadef1abfea5582e456bc7f0aebc2a1",
-		"data": {
-			"name": "Alpha Intelligence",
-			"symbol": "AI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5d259e3fbcadef1abfea5582e456bc7f0aebc2a1.png"
-		}
-	},
-	{
 		"address": "0x5d285f735998f36631f678ff41fb56a10a4d0429",
 		"data": {
 			"name": "MixMarvel",
@@ -13759,21 +17078,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5d303e548728c8c472fa23955afd2d6301db427d",
+		"data": {
+			"name": "Shibabitcoin",
+			"symbol": "SHIBTC",
+			"decimals": 20,
+			"logoUri": "/images/tokens/0x5d303e548728c8c472fa23955afd2d6301db427d.png"
+		}
+	},
+	{
 		"address": "0x5d30ad9c6374bf925d0a75454fa327aacf778492",
 		"data": {
 			"name": "PERI Finance",
 			"symbol": "PERI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5d30ad9c6374bf925d0a75454fa327aacf778492.png"
-		}
-	},
-	{
-		"address": "0x5d39957fc88566f14ae7e8ab8971d7c603f0ce5e",
-		"data": {
-			"name": "Eye Labs",
-			"symbol": "EYE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x5d39957fc88566f14ae7e8ab8971d7c603f0ce5e.png"
 		}
 	},
 	{
@@ -13813,6 +17132,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5d56b6581d2e7e7574adce2dc593f499a53d7505",
+		"data": {
+			"name": "Church of the Machina",
+			"symbol": "MACHINA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5d56b6581d2e7e7574adce2dc593f499a53d7505.png"
+		}
+	},
+	{
 		"address": "0x5d5e244660ca05c42073c9a526616d99f2c99516",
 		"data": {
 			"name": "Game Tree",
@@ -13831,21 +17159,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5d64d850c8368008afb39224e92ad0dceff3cf38",
-		"data": {
-			"name": "MINDOL",
-			"symbol": "MIN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5d64d850c8368008afb39224e92ad0dceff3cf38.png"
-		}
-	},
-	{
 		"address": "0x5d65d971895edc438f465c17db6992698a52318d",
 		"data": {
 			"name": "Nebulas",
 			"symbol": "NAS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5d65d971895edc438f465c17db6992698a52318d.png"
+		}
+	},
+	{
+		"address": "0x5d74468b69073f809d4fae90afec439e69bf6263",
+		"data": {
+			"name": "ClayStack Staked ETH",
+			"symbol": "CSETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5d74468b69073f809d4fae90afec439e69bf6263.png"
 		}
 	},
 	{
@@ -13873,6 +17201,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BAAS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5d929aa919e489505ccaad8a199619c6dca0c2de.png"
+		}
+	},
+	{
+		"address": "0x5d942f9872863645bcb181aba66c7d9646a91378",
+		"data": {
+			"name": "AltSignals",
+			"symbol": "ASI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5d942f9872863645bcb181aba66c7d9646a91378.png"
+		}
+	},
+	{
+		"address": "0x5da151b95657e788076d04d56234bd93e409cb09",
+		"data": {
+			"name": "OTSea",
+			"symbol": "OTSEA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5da151b95657e788076d04d56234bd93e409cb09.png"
 		}
 	},
 	{
@@ -13930,6 +17276,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5df2aa6d903410b2a747c90dbf2de0de7b15ac60",
+		"data": {
+			"name": "0xgambit",
+			"symbol": "0XG",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x5df2aa6d903410b2a747c90dbf2de0de7b15ac60.png"
+		}
+	},
+	{
+		"address": "0x5dfc78c4d073fd343bc6661668948178522a0de5",
+		"data": {
+			"name": "Derp",
+			"symbol": "DERP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5dfc78c4d073fd343bc6661668948178522a0de5.png"
+		}
+	},
+	{
 		"address": "0x5dfe42eea70a3e6f93ee54ed9c321af07a85535c",
 		"data": {
 			"name": "Union Finance",
@@ -13939,12 +17303,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5e05f367a1923b2a886e2f2bc45c2278a0b9b448",
+		"data": {
+			"name": "BRC20 BOT",
+			"symbol": "BRCBOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x5e05f367a1923b2a886e2f2bc45c2278a0b9b448.png"
+		}
+	},
+	{
+		"address": "0x5e21d1ee5cf0077b314c381720273ae82378d613",
+		"data": {
+			"name": "The Infinite Garden",
+			"symbol": "ETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5e21d1ee5cf0077b314c381720273ae82378d613.png"
+		}
+	},
+	{
 		"address": "0x5e3346444010135322268a4630d2ed5f8d09446c",
 		"data": {
 			"name": "LockTrip",
 			"symbol": "LOC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5e3346444010135322268a4630d2ed5f8d09446c.png"
+		}
+	},
+	{
+		"address": "0x5e67e49a95b8ccc7a46b68bcdc1c35dc799ef9e0",
+		"data": {
+			"name": "DigiFund V1",
+			"symbol": "DFUND",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x5e67e49a95b8ccc7a46b68bcdc1c35dc799ef9e0.png"
+		}
+	},
+	{
+		"address": "0x5e72ad4bf50c952b11a63b6769d02bb486a9a897",
+		"data": {
+			"name": "Lucky8",
+			"symbol": "888",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5e72ad4bf50c952b11a63b6769d02bb486a9a897.png"
 		}
 	},
 	{
@@ -13972,6 +17372,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FRXETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5e8422345238f34275888049021821e8e08caa1f.png"
+		}
+	},
+	{
+		"address": "0x5e8c8a7243651db1384c0ddfdbe39761e8e7e51a",
+		"data": {
+			"name": "Aave v3 LINK",
+			"symbol": "ALINK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5e8c8a7243651db1384c0ddfdbe39761e8e7e51a.png"
+		}
+	},
+	{
+		"address": "0x5ea49ff332b7ad99c486347c1c2bcc73d1e22b9b",
+		"data": {
+			"name": "Synthetic AI",
+			"symbol": "SAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5ea49ff332b7ad99c486347c1c2bcc73d1e22b9b.png"
 		}
 	},
 	{
@@ -14011,6 +17429,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8",
+		"data": {
+			"name": "Aave v3 WBTC",
+			"symbol": "AWBTC",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png"
+		}
+	},
+	{
 		"address": "0x5ee84583f67d5ecea5420dbb42b462896e7f8d06",
 		"data": {
 			"name": "PulseBitcoin",
@@ -14026,6 +17453,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "VPP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e.png"
+		}
+	},
+	{
+		"address": "0x5eed99d066a8caf10f3e4327c1b3d8b673485eed",
+		"data": {
+			"name": "Garden",
+			"symbol": "SEED",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5eed99d066a8caf10f3e4327c1b3d8b673485eed.png"
 		}
 	},
 	{
@@ -14092,24 +17528,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x5f32de250329b97aad84aae4cd3af548aff1ed37",
-		"data": {
-			"name": "BerylTrioChain",
-			"symbol": "BRIBIT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5f32de250329b97aad84aae4cd3af548aff1ed37.png"
-		}
-	},
-	{
-		"address": "0x5f3b3c37f47d8532836c800f75e7f262623aa3bb",
-		"data": {
-			"name": "Jarvis AI",
-			"symbol": "JAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5f3b3c37f47d8532836c800f75e7f262623aa3bb.png"
-		}
-	},
-	{
 		"address": "0x5f4361971667c8198706dec8c59cf7607e405c6e",
 		"data": {
 			"name": "Fileshare Platform",
@@ -14130,19 +17548,10 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x5f48d1fd6814cd1cd38aeb895755e57d519196d1",
 		"data": {
-			"name": "Wins",
+			"name": "Trophy",
 			"symbol": "WINS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5f48d1fd6814cd1cd38aeb895755e57d519196d1.png"
-		}
-	},
-	{
-		"address": "0x5f4c148d17effd165c2e2d46b46d2bd6e3ebdc3e",
-		"data": {
-			"name": "5KM RUN",
-			"symbol": "RUN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x5f4c148d17effd165c2e2d46b46d2bd6e3ebdc3e.png"
 		}
 	},
 	{
@@ -14152,6 +17561,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DEXTF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0.png"
+		}
+	},
+	{
+		"address": "0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+		"data": {
+			"name": "Societe Generale FORGE EURCV",
+			"symbol": "EURCV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5f7827fdeb7c20b443265fc2f40845b715385ff2.png"
 		}
 	},
 	{
@@ -14182,6 +17600,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d",
+		"data": {
+			"name": "Noggles",
+			"symbol": "NOGS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d.png"
+		}
+	},
+	{
+		"address": "0x5fa3418d828e5cd3c61a66e0fc7fa4a35dadf960",
+		"data": {
+			"name": "Avatly",
+			"symbol": "AVATLY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5fa3418d828e5cd3c61a66e0fc7fa4a35dadf960.png"
+		}
+	},
+	{
 		"address": "0x5fa54fddf1870c344dbfabb37dfab8700ec0def1",
 		"data": {
 			"name": "FrogeX",
@@ -14209,12 +17645,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x5fbc2ffe91ac74e3e286bd7504b233f0e5291c69",
+		"data": {
+			"name": "EarnBet",
+			"symbol": "EBET",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x5fbc2ffe91ac74e3e286bd7504b233f0e5291c69.png"
+		}
+	},
+	{
 		"address": "0x5fbc3cb8b428cc00a04808870295d39962cc7fee",
 		"data": {
 			"name": "Bitazza",
 			"symbol": "BTZ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x5fbc3cb8b428cc00a04808870295d39962cc7fee.png"
+		}
+	},
+	{
+		"address": "0x5fc111f3fa4c6b32eaf65659cfebdeed57234069",
+		"data": {
+			"name": "0xGasless",
+			"symbol": "0XGAS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5fc111f3fa4c6b32eaf65659cfebdeed57234069.png"
+		}
+	},
+	{
+		"address": "0x5fd82ad8a72252a7a449aded99efec7dd8efa690",
+		"data": {
+			"name": "The GameHub",
+			"symbol": "GHUB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x5fd82ad8a72252a7a449aded99efec7dd8efa690.png"
+		}
+	},
+	{
+		"address": "0x5fe72ed557d8a02fff49b3b826792c765d5ce162",
+		"data": {
+			"name": "Shezmu",
+			"symbol": "SHEZMU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x5fe72ed557d8a02fff49b3b826792c765d5ce162.png"
 		}
 	},
 	{
@@ -14227,12 +17699,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x600d601d8b9eb5de5ac90fefc68d0d08801bfd3f",
+		"data": {
+			"name": "Element",
+			"symbol": "ELMT",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x600d601d8b9eb5de5ac90fefc68d0d08801bfd3f.png"
+		}
+	},
+	{
+		"address": "0x60158131416f5e53d55d73a11be2e203cb26abcc",
+		"data": {
+			"name": "Hyper",
+			"symbol": "EON",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x60158131416f5e53d55d73a11be2e203cb26abcc.png"
+		}
+	},
+	{
 		"address": "0x602f65bb8b8098ad804e99db6760fd36208cd967",
 		"data": {
 			"name": "Mops",
 			"symbol": "MOPS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x602f65bb8b8098ad804e99db6760fd36208cd967.png"
+		}
+	},
+	{
+		"address": "0x6034e0d6999741f07cb6fb1162cbaa46a1d33d36",
+		"data": {
+			"name": "Molecules of Korolchuk IP NFT",
+			"symbol": "VITA-FAST",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6034e0d6999741f07cb6fb1162cbaa46a1d33d36.png"
 		}
 	},
 	{
@@ -14254,12 +17753,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x607229db773fa901215175aeb09a3a5695f813c7",
+		"address": "0x607496f14918891594177c24a983e901c1896e63",
 		"data": {
-			"name": "Dex Sniffer",
-			"symbol": "DS",
+			"name": "GOLD CAT",
+			"symbol": "GOLDCAT",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x607229db773fa901215175aeb09a3a5695f813c7.png"
+			"logoUri": "/images/tokens/0x607496f14918891594177c24a983e901c1896e63.png"
 		}
 	},
 	{
@@ -14269,6 +17768,42 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RLC",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x607f4c5bb672230e8672085532f7e901544a7375.png"
+		}
+	},
+	{
+		"address": "0x60867b79a68abecb78351b2dbb5fdec4282c5acb",
+		"data": {
+			"name": "VZZN",
+			"symbol": "VZZN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x60867b79a68abecb78351b2dbb5fdec4282c5acb.png"
+		}
+	},
+	{
+		"address": "0x60927b83ddd2096f38f22a8a2d84cf863402d1a1",
+		"data": {
+			"name": "Eternal AI",
+			"symbol": "MIND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x60927b83ddd2096f38f22a8a2d84cf863402d1a1.png"
+		}
+	},
+	{
+		"address": "0x609c117183c9264af6ee54fe3f290f212b31afbf",
+		"data": {
+			"name": " CryptoPunks 721",
+			"symbol": "721",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x609c117183c9264af6ee54fe3f290f212b31afbf.png"
+		}
+	},
+	{
+		"address": "0x60a26c05c5372dcded66940d2b56076bce925152",
+		"data": {
+			"name": "SILVER",
+			"symbol": "SILVER",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x60a26c05c5372dcded66940d2b56076bce925152.png"
 		}
 	},
 	{
@@ -14290,6 +17825,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x60c0d11c10a0c04acb47c6296156bdffac62ef97",
+		"data": {
+			"name": "BBCGoldCoin",
+			"symbol": "BBCG",
+			"decimals": 4,
+			"logoUri": "/images/tokens/0x60c0d11c10a0c04acb47c6296156bdffac62ef97.png"
+		}
+	},
+	{
 		"address": "0x60c24407d01782c2175d32fe7c8921ed732371d1",
 		"data": {
 			"name": "LemoChain",
@@ -14299,12 +17843,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x60d604890feaa0b5460b28a424407c24fe89374a",
+		"address": "0x60e254e35dd712394b3aba7a1d19114732e143dd",
 		"data": {
-			"name": "Balancer Aave v3 Boosted Pool  WETH ",
-			"symbol": "BB-A-WETH",
+			"name": "RivusDAO",
+			"symbol": "RIVUS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x60d604890feaa0b5460b28a424407c24fe89374a.png"
+			"logoUri": "/images/tokens/0x60e254e35dd712394b3aba7a1d19114732e143dd.png"
+		}
+	},
+	{
+		"address": "0x60e683c6514edd5f758a55b6f393bebbafaa8d5e",
+		"data": {
+			"name": "Page",
+			"symbol": "PAGE",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x60e683c6514edd5f758a55b6f393bebbafaa8d5e.png"
 		}
 	},
 	{
@@ -14337,10 +17890,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x6100dd79fcaa88420750dcee3f735d168abcb771",
 		"data": {
-			"name": "NONbeta",
-			"symbol": "NON",
+			"name": "Ethereans",
+			"symbol": "OS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6100dd79fcaa88420750dcee3f735d168abcb771.png"
+		}
+	},
+	{
+		"address": "0x61035ed28081c1acc38e399c416bfc08fd6e73a1",
+		"data": {
+			"name": "FrouBot",
+			"symbol": "FROBOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x61035ed28081c1acc38e399c416bfc08fd6e73a1.png"
 		}
 	},
 	{
@@ -14371,6 +17933,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x613577bfea8ba6571f6b7a86716d04c80a3fbeb4",
+		"data": {
+			"name": "LNDRY",
+			"symbol": "LNDRY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x613577bfea8ba6571f6b7a86716d04c80a3fbeb4.png"
+		}
+	},
+	{
+		"address": "0x614577036f0a024dbc1c88ba616b394dd65d105a",
+		"data": {
+			"name": "GENIUS AI",
+			"symbol": "GNUS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x614577036f0a024dbc1c88ba616b394dd65d105a.png"
+		}
+	},
+	{
 		"address": "0x6149c26cd2f7b5ccdb32029af817123f6e37df5b",
 		"data": {
 			"name": "Launchpool",
@@ -14386,6 +17966,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BLAST",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x614d7f40701132e25fe6fc17801fbd34212d2eda.png"
+		}
+	},
+	{
+		"address": "0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707",
+		"data": {
+			"name": "MMX",
+			"symbol": "MMX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707.png"
 		}
 	},
 	{
@@ -14407,6 +17996,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x617ead3c59ded3ea1bb17881118cf310144b450f",
+		"data": {
+			"name": "The Secret Coin",
+			"symbol": "TSC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x617ead3c59ded3ea1bb17881118cf310144b450f.png"
+		}
+	},
+	{
 		"address": "0x618679df9efcd19694bb1daa8d00718eacfa2883",
 		"data": {
 			"name": "Universe XYZ",
@@ -14425,12 +18023,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x619e398858a3110df4d89056a15a40338a01e65f",
+		"data": {
+			"name": "Garbage",
+			"symbol": "GARBAGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x619e398858a3110df4d89056a15a40338a01e65f.png"
+		}
+	},
+	{
 		"address": "0x61a35258107563f6b6f102ae25490901c8760b12",
 		"data": {
 			"name": "Kitty Inu",
 			"symbol": "KITTY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x61a35258107563f6b6f102ae25490901c8760b12.png"
+		}
+	},
+	{
+		"address": "0x61b34a012646cd7357f58ee9c0160c6d0021fa41",
+		"data": {
+			"name": "Elosys",
+			"symbol": "ELO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x61b34a012646cd7357f58ee9c0160c6d0021fa41.png"
 		}
 	},
 	{
@@ -14443,6 +18059,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x61db59daf2af68310fffa003d3b2f452260b673c",
+		"data": {
+			"name": "Laurion 404",
+			"symbol": "LAURION",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x61db59daf2af68310fffa003d3b2f452260b673c.png"
+		}
+	},
+	{
 		"address": "0x61e90a50137e1f645c9ef4a0d3a4f01477738406",
 		"data": {
 			"name": "League of Kingdoms",
@@ -14452,30 +18077,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x61f7fdaae910f3ed65fb1a3ab59354e38b06cf8e",
+		"address": "0x61ec85ab89377db65762e234c946b5c25a56e99e",
 		"data": {
-			"name": "BitcoinPepe",
-			"symbol": "BTCPEP",
+			"name": "HTX DAO",
+			"symbol": "HTX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x61f7fdaae910f3ed65fb1a3ab59354e38b06cf8e.png"
+			"logoUri": "/images/tokens/0x61ec85ab89377db65762e234c946b5c25a56e99e.png"
 		}
 	},
 	{
-		"address": "0x61fd1c62551850d0c04c76fce614cbced0094498",
+		"address": "0x62126ec407eae34393ab88b1f5d57e8566e570be",
 		"data": {
-			"name": "IDK",
-			"symbol": "IDK",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x61fd1c62551850d0c04c76fce614cbced0094498.png"
+			"name": "Virtumate",
+			"symbol": "MATE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x62126ec407eae34393ab88b1f5d57e8566e570be.png"
 		}
 	},
 	{
-		"address": "0x62199b909fb8b8cf870f97bef2ce6783493c4908",
+		"address": "0x621879c6239d8ab9b82712fb56e7be880ce0c6ee",
 		"data": {
-			"name": "pTokens BTC",
-			"symbol": "PBTC",
+			"name": "OmniBotX",
+			"symbol": "OMNIX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x62199b909fb8b8cf870f97bef2ce6783493c4908.png"
+			"logoUri": "/images/tokens/0x621879c6239d8ab9b82712fb56e7be880ce0c6ee.png"
 		}
 	},
 	{
@@ -14488,12 +18113,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x622dffcc4e83c64ba959530a5a5580687a57581b",
+		"address": "0x622984873c958e00aa0f004cbdd2b5301cf0b132",
 		"data": {
-			"name": "Cube Intelligence",
-			"symbol": "AUTO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x622dffcc4e83c64ba959530a5a5580687a57581b.png"
+			"name": "Gauss0x",
+			"symbol": "GAUSS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x622984873c958e00aa0f004cbdd2b5301cf0b132.png"
 		}
 	},
 	{
@@ -14521,6 +18146,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FIWT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x62406995cafd18f57e7375e8e0060725acebce58.png"
+		}
+	},
+	{
+		"address": "0x62431de84c503e152a8957ff51c8945aaaa7d929",
+		"data": {
+			"name": "BlastAI",
+			"symbol": "BLAST",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x62431de84c503e152a8957ff51c8945aaaa7d929.png"
 		}
 	},
 	{
@@ -14614,15 +18248,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x62939f78a9a1cc4f9f1ea41cff95cd4f6b912d1b",
-		"data": {
-			"name": "Numisme2",
-			"symbol": "NUME2",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x62939f78a9a1cc4f9f1ea41cff95cd4f6b912d1b.png"
-		}
-	},
-	{
 		"address": "0x6293bbe52c3682057163172850002f18f993da6a",
 		"data": {
 			"name": "TruthGPT  ETH ",
@@ -14641,24 +18266,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x62a116b9ffe7338bee13c87e69552de9cc67627d",
-		"data": {
-			"name": "FUBT Token",
-			"symbol": "FUC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x62a116b9ffe7338bee13c87e69552de9cc67627d.png"
-		}
-	},
-	{
-		"address": "0x62a8c2818bd7034dc24cd22368c3e53e8eb47c18",
-		"data": {
-			"name": "InnitForTheTECH",
-			"symbol": "INNIT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x62a8c2818bd7034dc24cd22368c3e53e8eb47c18.png"
-		}
-	},
-	{
 		"address": "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7",
 		"data": {
 			"name": "Convex CRV",
@@ -14668,12 +18275,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x62cf53a8d024c785e6bd49b83d94a74e1f9c48b1",
+		"data": {
+			"name": "Aimee",
+			"symbol": "AIMEE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x62cf53a8d024c785e6bd49b83d94a74e1f9c48b1.png"
+		}
+	},
+	{
 		"address": "0x62d04c79c1f3a2d7230ffcd3ab01794e1d153239",
 		"data": {
 			"name": "CryptoPirates",
 			"symbol": "OGMF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x62d04c79c1f3a2d7230ffcd3ab01794e1d153239.png"
+		}
+	},
+	{
+		"address": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+		"data": {
+			"name": "Beam",
+			"symbol": "BEAM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce.png"
 		}
 	},
 	{
@@ -14713,15 +18338,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6311fcfef61e75e11c6e78949d7849f3b07e3a15",
-		"data": {
-			"name": "ZeusAiTrading",
-			"symbol": "ZAT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x6311fcfef61e75e11c6e78949d7849f3b07e3a15.png"
-		}
-	},
-	{
 		"address": "0x634239cfa331df0291653139d1a6083b9cf705e3",
 		"data": {
 			"name": "DeSpace Protocol",
@@ -14758,15 +18374,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x636d585f40a7a445da7403fcf92e03f89dc3ebd0",
-		"data": {
-			"name": "pepeGPT",
-			"symbol": "PEPEGPT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x636d585f40a7a445da7403fcf92e03f89dc3ebd0.png"
-		}
-	},
-	{
 		"address": "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70",
 		"data": {
 			"name": "Premia",
@@ -14776,12 +18383,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x63a60c5469379149757cc3e58453202ebdb7e933",
+		"address": "0x63a0db25159672326ac8fbf512c409598801b145",
 		"data": {
-			"name": "Wager",
-			"symbol": "VS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x63a60c5469379149757cc3e58453202ebdb7e933.png"
+			"name": "XPayPro Tech",
+			"symbol": "XPPT",
+			"decimals": 4,
+			"logoUri": "/images/tokens/0x63a0db25159672326ac8fbf512c409598801b145.png"
 		}
 	},
 	{
@@ -14794,12 +18401,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x63f314c44d164d5be423199afbfbe129d72d3ea6",
+		"address": "0x63e28547f0997e8ab265b24b7e5df302f3498ff3",
 		"data": {
-			"name": "Battleground",
-			"symbol": "BATTLE",
+			"name": "FP  WorldOfWomen",
+			"symbol": "UWOW",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x63f314c44d164d5be423199afbfbe129d72d3ea6.png"
+			"logoUri": "/images/tokens/0x63e28547f0997e8ab265b24b7e5df302f3498ff3.png"
 		}
 	},
 	{
@@ -14830,15 +18437,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6400b5522f8d448c0803e6245436dd1c81df09ce",
-		"data": {
-			"name": "Conscious Value Network",
-			"symbol": "CVNT",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x6400b5522f8d448c0803e6245436dd1c81df09ce.png"
-		}
-	},
-	{
 		"address": "0x641927e970222b10b2e8cdbc96b1b4f427316f16",
 		"data": {
 			"name": "MEEB Vault  NFTX ",
@@ -14848,12 +18446,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x642b62daebd3b46b03208a5e590a9d87a88fbdac",
+		"address": "0x642ac912a58428767fa14a26a749f9a1b001ba92",
 		"data": {
-			"name": "All In Coin",
-			"symbol": "ALLIN",
+			"name": "XX",
+			"symbol": "XX",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x642b62daebd3b46b03208a5e590a9d87a88fbdac.png"
+			"logoUri": "/images/tokens/0x642ac912a58428767fa14a26a749f9a1b001ba92.png"
 		}
 	},
 	{
@@ -14866,21 +18464,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x64323d606cfcb1b50998636a182334ad97637987",
+		"data": {
+			"name": "xperp",
+			"symbol": "XPERP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64323d606cfcb1b50998636a182334ad97637987.png"
+		}
+	},
+	{
 		"address": "0x644192291cc835a93d6330b24ea5f5fedd0eef9e",
 		"data": {
 			"name": "AllianceBlock Nexera",
 			"symbol": "NXRA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x644192291cc835a93d6330b24ea5f5fedd0eef9e.png"
-		}
-	},
-	{
-		"address": "0x64551fa4093c2d6c298cf1792740f884084a8f69",
-		"data": {
-			"name": "SPGBB",
-			"symbol": "SPGBB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x64551fa4093c2d6c298cf1792740f884084a8f69.png"
 		}
 	},
 	{
@@ -14893,12 +18491,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x649004e1c9fd8b0241d544bd78fc4eb3d3b4d199",
+		"data": {
+			"name": "INOVAI",
+			"symbol": "INOVAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x649004e1c9fd8b0241d544bd78fc4eb3d3b4d199.png"
+		}
+	},
+	{
+		"address": "0x64a5b80089c0fb4858a8c2ca9c2988a484539fd8",
+		"data": {
+			"name": "Print Mining",
+			"symbol": "PRINT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64a5b80089c0fb4858a8c2ca9c2988a484539fd8.png"
+		}
+	},
+	{
 		"address": "0x64a60493d888728cf42616e034a0dfeae38efcf0",
 		"data": {
 			"name": "OneLedger",
 			"symbol": "OLT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x64a60493d888728cf42616e034a0dfeae38efcf0.png"
+		}
+	},
+	{
+		"address": "0x64a77277e37d44957fe5815d6ff442ab8b16cc29",
+		"data": {
+			"name": "SpaceDawgs",
+			"symbol": "DAWGS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x64a77277e37d44957fe5815d6ff442ab8b16cc29.png"
 		}
 	},
 	{
@@ -14911,21 +18536,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x64b5a241b829bca14eb42d00097ba8fd8135841e",
-		"data": {
-			"name": "MEFLEX",
-			"symbol": "MEF",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x64b5a241b829bca14eb42d00097ba8fd8135841e.png"
-		}
-	},
-	{
 		"address": "0x64b78325d7495d6d4be92f234fa3f3b8d8964b8b",
 		"data": {
 			"name": "Shopping io",
 			"symbol": "SHOP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x64b78325d7495d6d4be92f234fa3f3b8d8964b8b.png"
+		}
+	},
+	{
+		"address": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
+		"data": {
+			"name": "Big Time",
+			"symbol": "BIGTIME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64bc2ca1be492be7185faa2c8835d9b824c8a194.png"
+		}
+	},
+	{
+		"address": "0x64c79c8c59a2be17c8d651f73e5ee7942eebdc9e",
+		"data": {
+			"name": "Elon Cat",
+			"symbol": "SCHRODINGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64c79c8c59a2be17c8d651f73e5ee7942eebdc9e.png"
+		}
+	},
+	{
+		"address": "0x64d0f55cd8c7133a9d7102b13987235f486f2224",
+		"data": {
+			"name": "SwissBorg",
+			"symbol": "BORG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64d0f55cd8c7133a9d7102b13987235f486f2224.png"
+		}
+	},
+	{
+		"address": "0x64d5fea7d2d600918b76159285994d6ed218f264",
+		"data": {
+			"name": "Tao Accounting System",
+			"symbol": "TAS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64d5fea7d2d600918b76159285994d6ed218f264.png"
 		}
 	},
 	{
@@ -14938,6 +18590,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x64d93cf499054170f4c211f91f867f902afaece6",
+		"data": {
+			"name": "Quant AI",
+			"symbol": "QAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x64d93cf499054170f4c211f91f867f902afaece6.png"
+		}
+	},
+	{
 		"address": "0x64df3aab3b21cc275bb76c4a581cf8b726478ee0",
 		"data": {
 			"name": "Cramer Coin",
@@ -14947,21 +18608,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x65032604dab202aff9adf89300cdb4bd0d059f55",
+		"address": "0x6522f491df42651cf5e6636b7261adaa096d095f",
 		"data": {
-			"name": "SOBA",
-			"symbol": "SOBA",
+			"name": "Asap Sniper Bot",
+			"symbol": "ASAP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x65032604dab202aff9adf89300cdb4bd0d059f55.png"
-		}
-	},
-	{
-		"address": "0x651e44d0df89055c00513d0efb9e8d1a0c843378",
-		"data": {
-			"name": "HappyBear",
-			"symbol": "HAPPY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x651e44d0df89055c00513d0efb9e8d1a0c843378.png"
+			"logoUri": "/images/tokens/0x6522f491df42651cf5e6636b7261adaa096d095f.png"
 		}
 	},
 	{
@@ -14971,6 +18623,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BZN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6524b87960c2d573ae514fd4181777e7842435d4.png"
+		}
+	},
+	{
+		"address": "0x653aab62056b92641116d63927de6141d780e596",
+		"data": {
+			"name": "Anchored Coins ACHF",
+			"symbol": "ACHF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x653aab62056b92641116d63927de6141d780e596.png"
+		}
+	},
+	{
+		"address": "0x6553565eac5daa9bfc5e2892b36291634c9b2ad6",
+		"data": {
+			"name": "Rake com",
+			"symbol": "RAKE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6553565eac5daa9bfc5e2892b36291634c9b2ad6.png"
 		}
 	},
 	{
@@ -15028,6 +18698,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x65c4c0517025ec0843c9146af266a2c5a2d148a2",
+		"data": {
+			"name": "Index Coop Ethereum 2x Index",
+			"symbol": "ETH2X",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x65c4c0517025ec0843c9146af266a2c5a2d148a2.png"
+		}
+	},
+	{
 		"address": "0x65ccd72c0813ce6f2703593b633202a0f3ca6a0c",
 		"data": {
 			"name": "Nestree",
@@ -15037,12 +18716,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x65def5029a0e7591e46b38742bfedd1fb7b24436",
+		"address": "0x65d72aa8da931f047169112fcf34f52dbaae7d18",
 		"data": {
-			"name": "Kanpeki",
-			"symbol": "KAE",
+			"name": "f x  rUSD",
+			"symbol": "RUSD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x65def5029a0e7591e46b38742bfedd1fb7b24436.png"
+			"logoUri": "/images/tokens/0x65d72aa8da931f047169112fcf34f52dbaae7d18.png"
 		}
 	},
 	{
@@ -15052,6 +18731,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PIXEL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x65e6b60ea01668634d68d0513fe814679f925bad.png"
+		}
+	},
+	{
+		"address": "0x65e9ed59a6c03e97ae984b6c4ff912448ebd3566",
+		"data": {
+			"name": "Ryoshi Research",
+			"symbol": "RYOSHI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x65e9ed59a6c03e97ae984b6c4ff912448ebd3566.png"
 		}
 	},
 	{
@@ -15073,6 +18761,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6602e9319f2c5ec0ba31ffcdc4301d7ef03b709e",
+		"data": {
+			"name": "Wrapped OrdBridge",
+			"symbol": "WBRGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6602e9319f2c5ec0ba31ffcdc4301d7ef03b709e.png"
+		}
+	},
+	{
+		"address": "0x661013bb8d1c95d86d9c85f76e9004561f1bb36f",
+		"data": {
+			"name": "DeFi Robot",
+			"symbol": "DRBT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x661013bb8d1c95d86d9c85f76e9004561f1bb36f.png"
+		}
+	},
+	{
 		"address": "0x66186008c1050627f979d464eabb258860563dbe",
 		"data": {
 			"name": "MediShares",
@@ -15082,12 +18788,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x661ab0ed68000491d98c796146bcf28c20d7c559",
+		"address": "0x661c70333aa1850ccdbae82776bb436a0fcfeefb",
 		"data": {
-			"name": "Shadows",
-			"symbol": "DOWS",
+			"name": "eBTC",
+			"symbol": "EBTC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x661ab0ed68000491d98c796146bcf28c20d7c559.png"
+			"logoUri": "/images/tokens/0x661c70333aa1850ccdbae82776bb436a0fcfeefb.png"
+		}
+	},
+	{
+		"address": "0x661ecf29b533e7d09f67f597af77eeaf3cc6b1e7",
+		"data": {
+			"name": "0xNude",
+			"symbol": "NUDE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x661ecf29b533e7d09f67f597af77eeaf3cc6b1e7.png"
 		}
 	},
 	{
@@ -15109,12 +18824,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x664c6e221c77313307467b121528ad563107bd01",
+		"address": "0x6630e3a2ec1e7e0a2f9f1d2289a9a89b0551683a",
 		"data": {
-			"name": "Tax Haven Inu",
-			"symbol": "TAXHAVENINU",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x664c6e221c77313307467b121528ad563107bd01.png"
+			"name": "dogwifsaudihat",
+			"symbol": "WIFSA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6630e3a2ec1e7e0a2f9f1d2289a9a89b0551683a.png"
 		}
 	},
 	{
@@ -15124,6 +18839,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "LQW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x66580f80a00deafab4519dc33c35bf44d8a12b00.png"
+		}
+	},
+	{
+		"address": "0x665f4709940f557e9dde63df0fd9cf6425852b4d",
+		"data": {
+			"name": "Halving",
+			"symbol": "HALVING",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x665f4709940f557e9dde63df0fd9cf6425852b4d.png"
 		}
 	},
 	{
@@ -15154,6 +18878,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x667210a731447f8b385e068205759be2311b86d4",
+		"data": {
+			"name": "ETF The Token",
+			"symbol": "ETF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x667210a731447f8b385e068205759be2311b86d4.png"
+		}
+	},
+	{
 		"address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
 		"data": {
 			"name": "Clearpool",
@@ -15169,6 +18902,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AGS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x667fd83e24ca1d935d36717d305d54fa0cac991c.png"
+		}
+	},
+	{
+		"address": "0x668308d77be3533c909a692302cb4d135bf8041c",
+		"data": {
+			"name": "Inception sfrxETH",
+			"symbol": "INSFRXETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x668308d77be3533c909a692302cb4d135bf8041c.png"
 		}
 	},
 	{
@@ -15190,21 +18932,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x668d78571f124415581b38d32fa9a16f1aaa8417",
+		"data": {
+			"name": "1ex",
+			"symbol": "1EX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x668d78571f124415581b38d32fa9a16f1aaa8417.png"
+		}
+	},
+	{
 		"address": "0x668dbf100635f593a3847c0bdaf21f0a09380188",
 		"data": {
 			"name": "BNSD Finance",
 			"symbol": "BNSD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x668dbf100635f593a3847c0bdaf21f0a09380188.png"
-		}
-	},
-	{
-		"address": "0x6692de64716a177c15360d8d010bc522bbc530a0",
-		"data": {
-			"name": "Talent",
-			"symbol": "TNT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6692de64716a177c15360d8d010bc522bbc530a0.png"
 		}
 	},
 	{
@@ -15253,39 +18995,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x66a4868f1829ab78ffd5aac5fe68fe508eb96e66",
+		"address": "0x66d5c66e7c83e0682d947176534242c9f19b3365",
 		"data": {
-			"name": "Yieldara",
-			"symbol": "YARA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x66a4868f1829ab78ffd5aac5fe68fe508eb96e66.png"
+			"name": "Staked Vector",
+			"symbol": "SVEC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x66d5c66e7c83e0682d947176534242c9f19b3365.png"
 		}
 	},
 	{
-		"address": "0x66a64a8a9cdc54ef97e45a051ba1c8f3d4b41a1d",
+		"address": "0x66e535e8d2ebf13f49f3d49e5c50395a97c137b1",
 		"data": {
-			"name": "Baby Shiba Coin",
-			"symbol": "BABYSHIBA",
+			"name": "Molten",
+			"symbol": "MOLTEN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x66a64a8a9cdc54ef97e45a051ba1c8f3d4b41a1d.png"
-		}
-	},
-	{
-		"address": "0x66c0dded8433c9ea86c8cf91237b14e10b4d70b7",
-		"data": {
-			"name": "Mars",
-			"symbol": "MARS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x66c0dded8433c9ea86c8cf91237b14e10b4d70b7.png"
-		}
-	},
-	{
-		"address": "0x66eff5221ca926636224650fd3b9c497ff828f7d",
-		"data": {
-			"name": "MultiBTC",
-			"symbol": "MULTIBTC",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x66eff5221ca926636224650fd3b9c497ff828f7d.png"
+			"logoUri": "/images/tokens/0x66e535e8d2ebf13f49f3d49e5c50395a97c137b1.png"
 		}
 	},
 	{
@@ -15298,24 +19022,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x66fd97a78d8854fec445cd1c80a07896b0b4851f",
-		"data": {
-			"name": "Lunch Money",
-			"symbol": "LMY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x66fd97a78d8854fec445cd1c80a07896b0b4851f.png"
-		}
-	},
-	{
-		"address": "0x6706e05f3bafdba97de268483bc3a54bf92a883c",
-		"data": {
-			"name": "HYPE",
-			"symbol": "HYPE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x6706e05f3bafdba97de268483bc3a54bf92a883c.png"
-		}
-	},
-	{
 		"address": "0x670ec8893da9c339d52fa70189756a92cafbe654",
 		"data": {
 			"name": "Potter Predator",
@@ -15325,21 +19031,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x670f9d9a26d3d42030794ff035d35a67aa092ead",
-		"data": {
-			"name": "XBullion",
-			"symbol": "GOLD",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x670f9d9a26d3d42030794ff035d35a67aa092ead.png"
-		}
-	},
-	{
 		"address": "0x6710c63432a2de02954fc0f851db07146a6c0312",
 		"data": {
 			"name": "Smart MFG",
 			"symbol": "MFG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6710c63432a2de02954fc0f851db07146a6c0312.png"
+		}
+	},
+	{
+		"address": "0x6715515f5aa98e8bd3624922e1ba91e6f5fc4402",
+		"data": {
+			"name": "SatoshiSync",
+			"symbol": "SSNC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6715515f5aa98e8bd3624922e1ba91e6f5fc4402.png"
 		}
 	},
 	{
@@ -15354,7 +19060,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x672f4fa517894496b8a958b4b3fca068ce513a39",
 		"data": {
-			"name": "DexCheck",
+			"name": "DexCheck AI",
 			"symbol": "DCK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x672f4fa517894496b8a958b4b3fca068ce513a39.png"
@@ -15376,6 +19082,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SAFETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6732efaf6f39926346bef8b821a04b6361c4f3e5.png"
+		}
+	},
+	{
+		"address": "0x6733f0283711f225a447e759d859a70b0c0fd2bc",
+		"data": {
+			"name": "Vector Reserve Staked vETH",
+			"symbol": "SVETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6733f0283711f225a447e759d859a70b0c0fd2bc.png"
+		}
+	},
+	{
+		"address": "0x67466be17df832165f8c80a5a120ccc652bd7e69",
+		"data": {
+			"name": "Landwolf 0x67",
+			"symbol": "WOLF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x67466be17df832165f8c80a5a120ccc652bd7e69.png"
 		}
 	},
 	{
@@ -15460,12 +19184,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x67cc621ab2d086a101cff3340df0a065ac75827c",
+		"address": "0x67c5870b4a41d4ebef24d2456547a03f1f3e094b",
 		"data": {
-			"name": "Floki Musk",
-			"symbol": "FLOKI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x67cc621ab2d086a101cff3340df0a065ac75827c.png"
+			"name": "GoodDollar",
+			"symbol": "G",
+			"decimals": 2,
+			"logoUri": "/images/tokens/0x67c5870b4a41d4ebef24d2456547a03f1f3e094b.png"
 		}
 	},
 	{
@@ -15478,12 +19202,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x67f3086f7823eaf35f5aaadfb2e9b9c5b09578cf",
+		"data": {
+			"name": "InsightX",
+			"symbol": "INX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x67f3086f7823eaf35f5aaadfb2e9b9c5b09578cf.png"
+		}
+	},
+	{
+		"address": "0x67f4c72a50f8df6487720261e188f2abe83f57d7",
+		"data": {
+			"name": "Wrapped POKT",
+			"symbol": "WPOKT",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x67f4c72a50f8df6487720261e188f2abe83f57d7.png"
+		}
+	},
+	{
 		"address": "0x68037790a0229e9ce6eaa8a99ea92964106c4703",
 		"data": {
 			"name": "Parallel",
 			"symbol": "PAR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x68037790a0229e9ce6eaa8a99ea92964106c4703.png"
+		}
+	},
+	{
+		"address": "0x680c89c40de9d14aa608a1122363cad18783f837",
+		"data": {
+			"name": "EPICBOTS",
+			"symbol": "EPIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x680c89c40de9d14aa608a1122363cad18783f837.png"
 		}
 	},
 	{
@@ -15496,6 +19247,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x682f3317a8db21ba205dc84a0b7bd5010333bda7",
+		"data": {
+			"name": "DAOGAME",
+			"symbol": "DAOG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x682f3317a8db21ba205dc84a0b7bd5010333bda7.png"
+		}
+	},
+	{
 		"address": "0x683923dB55Fead99A79Fa01A27EeC3cB19679cC3",
 		"data": {
 			"name": "Aave interest bearing FEI",
@@ -15505,12 +19265,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x68449870eea84453044bd430822827e21fd8f101",
+		"data": {
+			"name": "Zaibot",
+			"symbol": "ZAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x68449870eea84453044bd430822827e21fd8f101.png"
+		}
+	},
+	{
+		"address": "0x68592c5c98c4f4a8a4bc6da2121e65da3d1c0917",
+		"data": {
+			"name": "Stable USDLR",
+			"symbol": "USDLR",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x68592c5c98c4f4a8a4bc6da2121e65da3d1c0917.png"
+		}
+	},
+	{
 		"address": "0x685fb6960ea7f7b24f02e17c8d893b8c33239d48",
 		"data": {
 			"name": "Saiko   The Revival",
 			"symbol": "SAIKO",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x685fb6960ea7f7b24f02e17c8d893b8c33239d48.png"
+		}
+	},
+	{
+		"address": "0x686d1596e5632fe0471961e7977e8efe371b0b21",
+		"data": {
+			"name": "SurrealVerse",
+			"symbol": "AZEE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x686d1596e5632fe0471961e7977e8efe371b0b21.png"
 		}
 	},
 	{
@@ -15550,12 +19337,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x68aae81b4241ffe03d3552d42a69940604fe28bf",
+		"data": {
+			"name": "Muffin",
+			"symbol": "MUFFIN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x68aae81b4241ffe03d3552d42a69940604fe28bf.png"
+		}
+	},
+	{
+		"address": "0x68b36248477277865c64dfc78884ef80577078f3",
+		"data": {
+			"name": "Everybody",
+			"symbol": "HOLD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x68b36248477277865c64dfc78884ef80577078f3.png"
+		}
+	},
+	{
 		"address": "0x68b429161ec09a6c1d65ba70727ab1faa5bc4026",
 		"data": {
 			"name": "Ordinal Doge",
 			"symbol": "ODOGE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x68b429161ec09a6c1d65ba70727ab1faa5bc4026.png"
+		}
+	},
+	{
+		"address": "0x68bbed6a47194eff1cf514b50ea91895597fc91e",
+		"data": {
+			"name": "ANDY ETH",
+			"symbol": "ANDY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x68bbed6a47194eff1cf514b50ea91895597fc91e.png"
 		}
 	},
 	{
@@ -15568,12 +19382,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x68d009f251ff3a271477f77acb704c3b0f32a0c0",
+		"data": {
+			"name": "CHAD",
+			"symbol": "CHAD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x68d009f251ff3a271477f77acb704c3b0f32a0c0.png"
+		}
+	},
+	{
+		"address": "0x68d1c2a170bac7f73d7680970345fcf8ddec79bb",
+		"data": {
+			"name": "VirtuBlock",
+			"symbol": "VB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x68d1c2a170bac7f73d7680970345fcf8ddec79bb.png"
+		}
+	},
+	{
 		"address": "0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25",
 		"data": {
 			"name": "Sirin Labs",
 			"symbol": "SRN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25.png"
+		}
+	},
+	{
+		"address": "0x68f108fb7141ffe36b832c5c225d9e7e474bd664",
+		"data": {
+			"name": "Pepinu",
+			"symbol": "PEPINU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x68f108fb7141ffe36b832c5c225d9e7e474bd664.png"
 		}
 	},
 	{
@@ -15586,12 +19427,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6911f552842236bd9e8ea8ddbb3fb414e2c5fa9d",
+		"address": "0x6923f9b683111dcc0e20124e9a031deeae5dad93",
 		"data": {
-			"name": "Synapse Network",
-			"symbol": "SNP",
+			"name": "Crypto Hub",
+			"symbol": "HUB",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x6911f552842236bd9e8ea8ddbb3fb414e2c5fa9d.png"
+			"logoUri": "/images/tokens/0x6923f9b683111dcc0e20124e9a031deeae5dad93.png"
 		}
 	},
 	{
@@ -15604,21 +19445,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x693c216aa181ebf776730d16c7ba06842548415e",
+		"address": "0x6930450a416252c7206fbce76c01ecc850a36cb9",
 		"data": {
-			"name": "PAPI",
-			"symbol": "PAPI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x693c216aa181ebf776730d16c7ba06842548415e.png"
+			"name": "SHEBOSHIS",
+			"symbol": "SHEB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6930450a416252c7206fbce76c01ecc850a36cb9.png"
 		}
 	},
 	{
-		"address": "0x69570f3e84f51ea70b7b68055c8d667e77735a25",
+		"address": "0x693170bd3c37dcd46168d8b399aa7551a32de2af",
 		"data": {
-			"name": "Betswap gg",
-			"symbol": "BSGG",
+			"name": "TAO Subnet Sharding",
+			"symbol": "TAOSHARD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x69570f3e84f51ea70b7b68055c8d667e77735a25.png"
+			"logoUri": "/images/tokens/0x693170bd3c37dcd46168d8b399aa7551a32de2af.png"
+		}
+	},
+	{
+		"address": "0x69420e3a3aa9e17dea102bb3a9b3b73dcddb9528",
+		"data": {
+			"name": "Elon",
+			"symbol": "ELON",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x69420e3a3aa9e17dea102bb3a9b3b73dcddb9528.png"
+		}
+	},
+	{
+		"address": "0x69457a1c9ec492419344da01daf0df0e0369d5d0",
+		"data": {
+			"name": "Fjord Foundry",
+			"symbol": "FJO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x69457a1c9ec492419344da01daf0df0e0369d5d0.png"
+		}
+	},
+	{
+		"address": "0x6953f27db0701e22616e701dba91acc2e4b6deca",
+		"data": {
+			"name": "Starbot",
+			"symbol": "STAR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6953f27db0701e22616e701dba91acc2e4b6deca.png"
 		}
 	},
 	{
@@ -15628,6 +19496,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WMOXY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x695afdb42edff97af470a15920a66df81a234c0e.png"
+		}
+	},
+	{
+		"address": "0x695d38eb4e57e0f137e36df7c1f0f2635981246b",
+		"data": {
+			"name": "Meme AI Coin",
+			"symbol": "MEMEAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x695d38eb4e57e0f137e36df7c1f0f2635981246b.png"
+		}
+	},
+	{
+		"address": "0x697a79af2de4af9e9aa0d08905374556ad1353bb",
+		"data": {
+			"name": "NinaPumps",
+			"symbol": "NINA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x697a79af2de4af9e9aa0d08905374556ad1353bb.png"
 		}
 	},
 	{
@@ -15667,15 +19553,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6995923faa52f1d0cd3ed7870eb273ebb1b0970b",
-		"data": {
-			"name": "MixerBot",
-			"symbol": "MXRBOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6995923faa52f1d0cd3ed7870eb273ebb1b0970b.png"
-		}
-	},
-	{
 		"address": "0x69a95185ee2a045cdc4bcd1b1df10710395e4e23",
 		"data": {
 			"name": "Poolz Finance  OLD ",
@@ -15691,6 +19568,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MASK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
+		}
+	},
+	{
+		"address": "0x69b14e8d3cebfdd8196bfe530954a0c226e5008e",
+		"data": {
+			"name": "SpacePi Token",
+			"symbol": "SPACEPI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x69b14e8d3cebfdd8196bfe530954a0c226e5008e.png"
 		}
 	},
 	{
@@ -15712,6 +19598,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x69cbaf6c147086c3c234385556f8a0c6488d3420",
+		"data": {
+			"name": "69420",
+			"symbol": "69420",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x69cbaf6c147086c3c234385556f8a0c6488d3420.png"
+		}
+	},
+	{
 		"address": "0x69cd13d248830602a60b1f20ab11f5049385877d",
 		"data": {
 			"name": "Baby Pepe",
@@ -15721,12 +19616,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x69d47846bb7b884062fabc08a4a7deadcd98c45b",
+		"address": "0x69d29f1b0cc37d8d3b61583c99ad0ab926142069",
 		"data": {
-			"name": "AlphaRushAI",
-			"symbol": "RUSHAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x69d47846bb7b884062fabc08a4a7deadcd98c45b.png"
+			"name": "Pepe Inverted",
+			"symbol": "",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x69d29f1b0cc37d8d3b61583c99ad0ab926142069.png"
 		}
 	},
 	{
@@ -15775,15 +19670,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x69fa10cac03047a47ff32d7cddd6085ff1583d03",
-		"data": {
-			"name": "Hyper",
-			"symbol": "HYPER",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x69fa10cac03047a47ff32d7cddd6085ff1583d03.png"
-		}
-	},
-	{
 		"address": "0x69fa8e7f6bf1ca1fb0de61e1366f7412b827cc51",
 		"data": {
 			"name": "Enreach",
@@ -15820,21 +19706,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6a1d3d36e1be3da88a2268ebeb1a055758bdd9a9",
+		"address": "0x6a26edf3bbc9f154ca9175216ceb9812f5305e6e",
 		"data": {
-			"name": "RFK Coin",
-			"symbol": "RFKC",
+			"name": "Pixel",
+			"symbol": "PIXE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x6a1d3d36e1be3da88a2268ebeb1a055758bdd9a9.png"
-		}
-	},
-	{
-		"address": "0x6a36481af18289f80af4a1b21e4f6d323fabc712",
-		"data": {
-			"name": "PVPTrading",
-			"symbol": "PVPBOT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x6a36481af18289f80af4a1b21e4f6d323fabc712.png"
+			"logoUri": "/images/tokens/0x6a26edf3bbc9f154ca9175216ceb9812f5305e6e.png"
 		}
 	},
 	{
@@ -15856,12 +19733,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6a68de599e8e0b1856e322ce5bd11c5c3c79712b",
+		"address": "0x6a4f9a1372235c3fea4fb07170a635b26417382b",
 		"data": {
-			"name": "iBetYou",
-			"symbol": "IBY",
+			"name": "Wonderland Capital",
+			"symbol": "ALICE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x6a68de599e8e0b1856e322ce5bd11c5c3c79712b.png"
+			"logoUri": "/images/tokens/0x6a4f9a1372235c3fea4fb07170a635b26417382b.png"
 		}
 	},
 	{
@@ -15874,12 +19751,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6a6b457becae7ef1cf9f22510d136c4aac0fc6d2",
+		"data": {
+			"name": "Molly AI",
+			"symbol": "MOLLY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6a6b457becae7ef1cf9f22510d136c4aac0fc6d2.png"
+		}
+	},
+	{
+		"address": "0x6a6bfdd2174ade27258fe96b9afae3758dec14f2",
+		"data": {
+			"name": "Solareum",
+			"symbol": "SOLAR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6a6bfdd2174ade27258fe96b9afae3758dec14f2.png"
+		}
+	},
+	{
 		"address": "0x6a6c2ada3ce053561c2fbc3ee211f23d9b8c520a",
 		"data": {
 			"name": "TON Community",
 			"symbol": "TON",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6a6c2ada3ce053561c2fbc3ee211f23d9b8c520a.png"
+		}
+	},
+	{
+		"address": "0x6a7ef4998eb9d0f706238756949f311a59e05745",
+		"data": {
+			"name": "Keysians Network",
+			"symbol": "KEN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6a7ef4998eb9d0f706238756949f311a59e05745.png"
+		}
+	},
+	{
+		"address": "0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98",
+		"data": {
+			"name": "OpSec",
+			"symbol": "OPSEC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98.png"
 		}
 	},
 	{
@@ -15901,6 +19814,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6aa3ecec75ceb388d2e929814ead4fc4cd0648fc",
+		"data": {
+			"name": "Reversal",
+			"symbol": "RVSL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6aa3ecec75ceb388d2e929814ead4fc4cd0648fc.png"
+		}
+	},
+	{
 		"address": "0x6aa40d02115090d40dc33c7c5f3cf05112fa4f83",
 		"data": {
 			"name": "PWRCASH",
@@ -15910,12 +19832,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6ab4a7d75b0a42b6bc83e852dab9e121f9c610aa",
+		"address": "0x6ab98d9e04cfb57c6b6e9800a5a43a9946a6523d",
 		"data": {
-			"name": "Elitium",
-			"symbol": "EUM",
+			"name": "RUNodE",
+			"symbol": "RUDES",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x6ab4a7d75b0a42b6bc83e852dab9e121f9c610aa.png"
+			"logoUri": "/images/tokens/0x6ab98d9e04cfb57c6b6e9800a5a43a9946a6523d.png"
+		}
+	},
+	{
+		"address": "0x6abaf438f098f75c5892e1fabf08b1896c805967",
+		"data": {
+			"name": "Bloodboy",
+			"symbol": "BLOOD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6abaf438f098f75c5892e1fabf08b1896c805967.png"
+		}
+	},
+	{
+		"address": "0x6ad2d2c22bb58ea94be18cff11ef67e8bb97b652",
+		"data": {
+			"name": "Trestle Wrapped TIA",
+			"symbol": "WTIA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6ad2d2c22bb58ea94be18cff11ef67e8bb97b652.png"
 		}
 	},
 	{
@@ -15937,12 +19877,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6ae2a128cd07d672164ca9f2712ea737d198dd41",
+		"data": {
+			"name": "Goat Trading",
+			"symbol": "GOAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6ae2a128cd07d672164ca9f2712ea737d198dd41.png"
+		}
+	},
+	{
 		"address": "0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c",
 		"data": {
 			"name": "Rentberry",
 			"symbol": "BERRY",
 			"decimals": 14,
 			"logoUri": "/images/tokens/0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c.png"
+		}
+	},
+	{
+		"address": "0x6af53c6ec427525f7240e211941223288a0e7c66",
+		"data": {
+			"name": "Warped Games",
+			"symbol": "WARPED",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6af53c6ec427525f7240e211941223288a0e7c66.png"
 		}
 	},
 	{
@@ -15970,6 +19928,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ALI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6b0b3a982b4634ac68dd83a4dbf02311ce324181.png"
+		}
+	},
+	{
+		"address": "0x6b0faca7ba905a86f221ceb5ca404f605e5b3131",
+		"data": {
+			"name": "DeFi",
+			"symbol": "DEFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6b0faca7ba905a86f221ceb5ca404f605e5b3131.png"
+		}
+	},
+	{
+		"address": "0x6b15602f008a05d9694d777dead2f05586216cb4",
+		"data": {
+			"name": "Cyclix Games",
+			"symbol": "CYG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6b15602f008a05d9694d777dead2f05586216cb4.png"
 		}
 	},
 	{
@@ -16009,6 +19985,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+		"data": {
+			"name": "CorgiAI",
+			"symbol": "CORGIAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6b431b8a964bfcf28191b07c91189ff4403957d0.png"
+		}
+	},
+	{
+		"address": "0x6b448aeb3bfd1dcbe337d59f6dee159daab52768",
+		"data": {
+			"name": "Resistor AI",
+			"symbol": "TOR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6b448aeb3bfd1dcbe337d59f6dee159daab52768.png"
+		}
+	},
+	{
 		"address": "0x6b4c7a5e3f0b99fcd83e9c089bddd6c7fce5c611",
 		"data": {
 			"name": "Million",
@@ -16018,12 +20012,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6b4ceb0beb0dcf0043c9389e01e3f1c84b422e4f",
+		"address": "0x6b66ccd1340c479b07b390d326eadcbb84e726ba",
 		"data": {
-			"name": "Ultimate Tipbot",
-			"symbol": "ULTIMATEBO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x6b4ceb0beb0dcf0043c9389e01e3f1c84b422e4f.png"
+			"name": "Seamless Protocol",
+			"symbol": "SEAM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6b66ccd1340c479b07b390d326eadcbb84e726ba.png"
 		}
 	},
 	{
@@ -16042,6 +20036,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CHAD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6b89b97169a797d94f057f4a0b01e2ca303155e4.png"
+		}
+	},
+	{
+		"address": "0x6b96c78d4472031f1fbed2d1c4bd3895e9212344",
+		"data": {
+			"name": "TAOx",
+			"symbol": "TAOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6b96c78d4472031f1fbed2d1c4bd3895e9212344.png"
+		}
+	},
+	{
+		"address": "0x6b985d38b1fc891bb57bff59573626b1896d4aa1",
+		"data": {
+			"name": "Fido",
+			"symbol": "FIDO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6b985d38b1fc891bb57bff59573626b1896d4aa1.png"
 		}
 	},
 	{
@@ -16090,30 +20102,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6bc40d4099f9057b23af309c08d935b890d7adc0",
-		"data": {
-			"name": "SnailBrook",
-			"symbol": "SNAIL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6bc40d4099f9057b23af309c08d935b890d7adc0.png"
-		}
-	},
-	{
 		"address": "0x6bd361e10c1afed0d95259e7c0115f3a60e4ea99",
 		"data": {
 			"name": "BollyCoin",
 			"symbol": "BOLLY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6bd361e10c1afed0d95259e7c0115f3a60e4ea99.png"
-		}
-	},
-	{
-		"address": "0x6be61833fc4381990e82d7d4a9f4c9b3f67ea941",
-		"data": {
-			"name": "Hotbit",
-			"symbol": "HTB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6be61833fc4381990e82d7d4a9f4c9b3f67ea941.png"
 		}
 	},
 	{
@@ -16135,12 +20129,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6bfdb6f4e65ead27118592a41eb927cea6956198",
+		"data": {
+			"name": "FAME AI",
+			"symbol": "FMC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6bfdb6f4e65ead27118592a41eb927cea6956198.png"
+		}
+	},
+	{
 		"address": "0x6c059413686565d5ad6cce6eed7742c42dbc44ca",
 		"data": {
 			"name": "Laelaps",
 			"symbol": "LAELAPS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6c059413686565d5ad6cce6eed7742c42dbc44ca.png"
+		}
+	},
+	{
+		"address": "0x6c061d18d2b5bbfbe8a8d1eeb9ee27efd544cc5d",
+		"data": {
+			"name": "Monarch",
+			"symbol": "MNRCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6c061d18d2b5bbfbe8a8d1eeb9ee27efd544cc5d.png"
+		}
+	},
+	{
+		"address": "0x6c10d1611a5a95cb967e4bcab5791fd101194949",
+		"data": {
+			"name": "X Project ERC",
+			"symbol": "XERS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6c10d1611a5a95cb967e4bcab5791fd101194949.png"
 		}
 	},
 	{
@@ -16234,12 +20255,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6c6e2c5a4eb108a1f3c985d5a7f4f233483e952f",
+		"data": {
+			"name": "Etherscape",
+			"symbol": "SCAPE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6c6e2c5a4eb108a1f3c985d5a7f4f233483e952f.png"
+		}
+	},
+	{
 		"address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
 		"data": {
 			"name": "Holo",
 			"symbol": "HOT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6c6ee5e31d828de241282b9606c8e98ea48526e2.png"
+		}
+	},
+	{
+		"address": "0x6c74ebb3d9b4a1e77558f1871cd9c8ef07b4dfb2",
+		"data": {
+			"name": "The Autism Token",
+			"symbol": "TISM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6c74ebb3d9b4a1e77558f1871cd9c8ef07b4dfb2.png"
 		}
 	},
 	{
@@ -16297,12 +20336,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6cb7d80bdefef3f820a3a77ee56f06afcb20ea7e",
+		"data": {
+			"name": "HUNDRED  ETH ",
+			"symbol": "HUNDRED",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6cb7d80bdefef3f820a3a77ee56f06afcb20ea7e.png"
+		}
+	},
+	{
 		"address": "0x6cd079f296c10eb84a64239b893d4edfa2e1d779",
 		"data": {
 			"name": "PulseCrypt",
 			"symbol": "PLSCX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6cd079f296c10eb84a64239b893d4edfa2e1d779.png"
+		}
+	},
+	{
+		"address": "0x6cd7fc3118a8ffa40af0f99f3cbda54b0c6d4d1d",
+		"data": {
+			"name": "FP  Milady",
+			"symbol": "UMIL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6cd7fc3118a8ffa40af0f99f3cbda54b0c6d4d1d.png"
+		}
+	},
+	{
+		"address": "0x6cf9788cda282aeb729477f6bda9c4db082b5746",
+		"data": {
+			"name": "KingdomGame",
+			"symbol": "KINGDOM",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x6cf9788cda282aeb729477f6bda9c4db082b5746.png"
+		}
+	},
+	{
+		"address": "0x6d0bb9b6ce385e28ea4ebb7d76dcb3a1aaf7bc4b",
+		"data": {
+			"name": "CREAT OR",
+			"symbol": "CRET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6d0bb9b6ce385e28ea4ebb7d76dcb3a1aaf7bc4b.png"
 		}
 	},
 	{
@@ -16342,20 +20417,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6d4695f7e8d7f9615314a743335702d7eaba4575",
-		"data": {
-			"name": "LiquiShield",
-			"symbol": "LIQS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6d4695f7e8d7f9615314a743335702d7eaba4575.png"
-		}
-	},
-	{
 		"address": "0x6d47a7be5d410910eef7ee2a3d34931f98f36812",
 		"data": {
 			"name": "INDEX20",
 			"symbol": "I20",
-			"decimals": 18
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6d47a7be5d410910eef7ee2a3d34931f98f36812.png"
+		}
+	},
+	{
+		"address": "0x6d48206b97b164555c8fc7a40d59a7230e055166",
+		"data": {
+			"name": "Sendpicks",
+			"symbol": "SEND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6d48206b97b164555c8fc7a40d59a7230e055166.png"
 		}
 	},
 	{
@@ -16377,12 +20453,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6d56cddd23a693ed3851fa0a5d8c67a8739537c8",
+		"address": "0x6d551bd441fb65513c0d815747b3409c1eb56886",
 		"data": {
-			"name": "Hedgehog Racer",
-			"symbol": "SONIC",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x6d56cddd23a693ed3851fa0a5d8c67a8739537c8.png"
+			"name": "Sky Raiders",
+			"symbol": "SKY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6d551bd441fb65513c0d815747b3409c1eb56886.png"
+		}
+	},
+	{
+		"address": "0x6d5777dce2541175adf6d49cadd666f3ab0ac142",
+		"data": {
+			"name": "Cartman",
+			"symbol": "CARTMAN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6d5777dce2541175adf6d49cadd666f3ab0ac142.png"
 		}
 	},
 	{
@@ -16413,12 +20498,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6d6554939d646f274d0fc3cecb7dab5d76bc908f",
+		"address": "0x6d7497751656618fc38cfb5478994a20f7e235df",
 		"data": {
-			"name": "Morphswap",
-			"symbol": "MS",
+			"name": "SPYRO",
+			"symbol": "SPYRO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x6d6554939d646f274d0fc3cecb7dab5d76bc908f.png"
+			"logoUri": "/images/tokens/0x6d7497751656618fc38cfb5478994a20f7e235df.png"
 		}
 	},
 	{
@@ -16428,6 +20513,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "YVSUSHI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6d765cbe5bc922694afe112c140b8878b9fb0390.png"
+		}
+	},
+	{
+		"address": "0x6d791ff76d2780f7c0403b8ad52de7b369a6154b",
+		"data": {
+			"name": "AFK Trading Bot",
+			"symbol": "AFK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6d791ff76d2780f7c0403b8ad52de7b369a6154b.png"
 		}
 	},
 	{
@@ -16449,12 +20543,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6dc6a27822ae2ca3a47da39a2f2bbd525dd693f8",
+		"data": {
+			"name": "Cyberdoge",
+			"symbol": "CYDOGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6dc6a27822ae2ca3a47da39a2f2bbd525dd693f8.png"
+		}
+	},
+	{
 		"address": "0x6dca182ac5e3f99985bc4ee0f726d6472ab1ec55",
 		"data": {
 			"name": "Ushi",
 			"symbol": "USHI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6dca182ac5e3f99985bc4ee0f726d6472ab1ec55.png"
+		}
+	},
+	{
+		"address": "0x6dd5f0038474dc29a0adc6ad34d37b0ba53e5435",
+		"data": {
+			"name": "DEXED",
+			"symbol": "DEXED",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6dd5f0038474dc29a0adc6ad34d37b0ba53e5435.png"
+		}
+	},
+	{
+		"address": "0x6dda263994aab33f5ed612294e26f2a13df0da05",
+		"data": {
+			"name": "IQ Protocol",
+			"symbol": "IQT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6dda263994aab33f5ed612294e26f2a13df0da05.png"
 		}
 	},
 	{
@@ -16521,15 +20642,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6e39a587691b8c9d4341ce0a960998ed6f537af6",
-		"data": {
-			"name": "Meta Masters Guild",
-			"symbol": "MEMAG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6e39a587691b8c9d4341ce0a960998ed6f537af6.png"
-		}
-	},
-	{
 		"address": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1",
 		"data": {
 			"name": "Polytrade",
@@ -16554,6 +20666,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KANGAL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6e765d26388a17a6e86c49a8e41df3f58abcd337.png"
+		}
+	},
+	{
+		"address": "0x6e79b51959cf968d87826592f46f819f92466615",
+		"data": {
+			"name": "Hoppy",
+			"symbol": "HOPPY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6e79b51959cf968d87826592f46f819f92466615.png"
 		}
 	},
 	{
@@ -16611,12 +20732,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6ee9742d17b527e682248dca85952e4fe190061d",
+		"address": "0x6eef75b8f067b5853a36da5561f52a8f22faa9af",
 		"data": {
-			"name": "Neon Coin",
-			"symbol": "NEON",
+			"name": "TaoStack",
+			"symbol": "TST",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6eef75b8f067b5853a36da5561f52a8f22faa9af.png"
+		}
+	},
+	{
+		"address": "0x6ef3d766dfe02dc4bf04aae9122eb9a0ded25615",
+		"data": {
+			"name": "Prime Staked ETH",
+			"symbol": "PRIMEETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x6ee9742d17b527e682248dca85952e4fe190061d.png"
+			"logoUri": "/images/tokens/0x6ef3d766dfe02dc4bf04aae9122eb9a0ded25615.png"
 		}
 	},
 	{
@@ -16658,7 +20788,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161",
 		"data": {
-			"name": "HTX",
+			"name": "Huobi",
 			"symbol": "HT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6f259637dcd74c767781e37bc6133cd6a68aa161.png"
@@ -16692,6 +20822,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6f3cbe18e9381dec6026e6cb8166c13944fcfee1",
+		"data": {
+			"name": "FELIX",
+			"symbol": "FELIX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6f3cbe18e9381dec6026e6cb8166c13944fcfee1.png"
+		}
+	},
+	{
 		"address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
 		"data": {
 			"name": "Instadapp",
@@ -16701,30 +20840,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6f620ec89b8479e97a6985792d0c64f237566746",
-		"data": {
-			"name": "WePiggy Coin",
-			"symbol": "WPC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6f620ec89b8479e97a6985792d0c64f237566746.png"
-		}
-	},
-	{
 		"address": "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8",
 		"data": {
 			"name": "Silo Finance",
 			"symbol": "SILO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8.png"
-		}
-	},
-	{
-		"address": "0x6f85e53b3c563d82925dc9ee1f37897afdc912e3",
-		"data": {
-			"name": "FRESH Bot",
-			"symbol": "FRESH",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x6f85e53b3c563d82925dc9ee1f37897afdc912e3.png"
 		}
 	},
 	{
@@ -16746,12 +20867,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6f9c26fa731c7ea4139fa669962cf8f1ce6c8b0b",
+		"address": "0x6f91d21de4e40b3b80636b6b3ba425b636b798cf",
 		"data": {
-			"name": "OATH",
-			"symbol": "OATH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6f9c26fa731c7ea4139fa669962cf8f1ce6c8b0b.png"
+			"name": "Wall Street Bets",
+			"symbol": "WSB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6f91d21de4e40b3b80636b6b3ba425b636b798cf.png"
 		}
 	},
 	{
@@ -16800,12 +20921,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x6fc73113fc1afab4c28d3dd4c537a1da6045d47d",
+		"address": "0x6fc16de36e040e0c7d1a70d039ef701516516b32",
 		"data": {
-			"name": "TrendAI",
-			"symbol": "TRENDAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6fc73113fc1afab4c28d3dd4c537a1da6045d47d.png"
+			"name": "ScopexAI",
+			"symbol": "SCOPEX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x6fc16de36e040e0c7d1a70d039ef701516516b32.png"
 		}
 	},
 	{
@@ -16827,21 +20948,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x6fdb90535c09b82825e38d41edf5e66211d4b442",
+		"data": {
+			"name": "Yield Magnet",
+			"symbol": "MAGNET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x6fdb90535c09b82825e38d41edf5e66211d4b442.png"
+		}
+	},
+	{
 		"address": "0x6fe56c0bcdd471359019fcbc48863d6c3e9d4f41",
 		"data": {
 			"name": "Props",
 			"symbol": "PROPS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x6fe56c0bcdd471359019fcbc48863d6c3e9d4f41.png"
-		}
-	},
-	{
-		"address": "0x6ff1bfa14a57594a5874b37ff6ac5efbd9f9599a",
-		"data": {
-			"name": "TotemFi",
-			"symbol": "TOTM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x6ff1bfa14a57594a5874b37ff6ac5efbd9f9599a.png"
 		}
 	},
 	{
@@ -16863,6 +20984,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7016c6f4dba9a9a48a47a2fe73a1b9271432d1d5",
+		"data": {
+			"name": "Fanbase",
+			"symbol": "WFNB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7016c6f4dba9a9a48a47a2fe73a1b9271432d1d5.png"
+		}
+	},
+	{
 		"address": "0x701c244b988a513c945973defa05de933b23fe1d",
 		"data": {
 			"name": "OAX",
@@ -16872,12 +21002,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x703293d32aea894cca91d6c282db9efffe47c308",
+		"address": "0x7039cd6d7966672f194e8139074c3d5c4e6dcf65",
 		"data": {
-			"name": "Aerie",
-			"symbol": "AER",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x703293d32aea894cca91d6c282db9efffe47c308.png"
+			"name": "Super Trump",
+			"symbol": "STRUMP",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7039cd6d7966672f194e8139074c3d5c4e6dcf65.png"
 		}
 	},
 	{
@@ -16899,6 +21029,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x70715e133f3b98af9dcb4897657cd4608d395d49",
+		"data": {
+			"name": "NeuralByte",
+			"symbol": "NBT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x70715e133f3b98af9dcb4897657cd4608d395d49.png"
+		}
+	},
+	{
+		"address": "0x7086e014fd59e66567a986e7b401a5810c2361ce",
+		"data": {
+			"name": "QUANTUM HUB",
+			"symbol": "QUANTUM",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7086e014fd59e66567a986e7b401a5810c2361ce.png"
+		}
+	},
+	{
 		"address": "0x70881d5c8a5950ceedf1f1b4b5d4105718642548",
 		"data": {
 			"name": "Bagholder",
@@ -16908,12 +21056,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x70b02a7d6d86c8ed2193d3c167468ebae28b9538",
+		"data": {
+			"name": "WorldTao",
+			"symbol": "WTAO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x70b02a7d6d86c8ed2193d3c167468ebae28b9538.png"
+		}
+	},
+	{
 		"address": "0x70b790d0948a760e80bc3f892b142f7779b538b2",
 		"data": {
 			"name": "Dora Factory",
 			"symbol": "DORA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x70b790d0948a760e80bc3f892b142f7779b538b2.png"
+		}
+	},
+	{
+		"address": "0x70bc0dc6414eb8974bc70685f798838a87d8cce4",
+		"data": {
+			"name": "Chirpley",
+			"symbol": "CHRP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x70bc0dc6414eb8974bc70685f798838a87d8cce4.png"
 		}
 	},
 	{
@@ -16932,6 +21098,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "NST",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d.png"
+		}
+	},
+	{
+		"address": "0x70c4430f9d98b4184a4ef3e44ce10c320a8b7383",
+		"data": {
+			"name": "Gyroscope",
+			"symbol": "GYFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x70c4430f9d98b4184a4ef3e44ce10c320a8b7383.png"
 		}
 	},
 	{
@@ -17007,30 +21182,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7102dc82ef61bfb0410b1b1bf8ea74575bf0a105",
+		"address": "0x710287d1d39dcf62094a83ebb3e736e79400068a",
 		"data": {
-			"name": "X7102",
-			"symbol": "X7102",
+			"name": "enqAI",
+			"symbol": "ENQAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7102dc82ef61bfb0410b1b1bf8ea74575bf0a105.png"
-		}
-	},
-	{
-		"address": "0x7103ebdbf1f89be2d53eff9b3cf996c9e775c105",
-		"data": {
-			"name": "X7103",
-			"symbol": "X7103",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7103ebdbf1f89be2d53eff9b3cf996c9e775c105.png"
-		}
-	},
-	{
-		"address": "0x7104d1f179cc9cc7fb5c79be6da846e3fbc4c105",
-		"data": {
-			"name": "X7104",
-			"symbol": "X7104",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7104d1f179cc9cc7fb5c79be6da846e3fbc4c105.png"
+			"logoUri": "/images/tokens/0x710287d1d39dcf62094a83ebb3e736e79400068a.png"
 		}
 	},
 	{
@@ -17043,15 +21200,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7105faa4a26ed1c67b8b2b41bec98f06ee21d105",
-		"data": {
-			"name": "X7105",
-			"symbol": "X7105",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7105faa4a26ed1c67b8b2b41bec98f06ee21d105.png"
-		}
-	},
-	{
 		"address": "0x7118057ff0f4fd0994fb9d2d94de8231d5cca79e",
 		"data": {
 			"name": "ReSource Protocol",
@@ -17061,12 +21209,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+		"data": {
+			"name": "StakeStone ETH",
+			"symbol": "STONE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7122985656e38bdc0302db86685bb972b145bd3c.png"
+		}
+	},
+	{
 		"address": "0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40",
 		"data": {
 			"name": "Aave ENJ v1",
 			"symbol": "AENJ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40.png"
+		}
+	},
+	{
+		"address": "0x7137e8a3b069c3f787c4ffbb901b91e4ba47d082",
+		"data": {
+			"name": "Zeus",
+			"symbol": "ZEUS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7137e8a3b069c3f787c4ffbb901b91e4ba47d082.png"
 		}
 	},
 	{
@@ -17088,12 +21254,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7169ba45cf03e0377b464462aacbccdf1f721125",
+		"address": "0x718dab2c7bbd2d9503dc1ce1dbc215abc41a3545",
 		"data": {
-			"name": "1peco",
-			"symbol": "1PECO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7169ba45cf03e0377b464462aacbccdf1f721125.png"
+			"name": "XAIGROK",
+			"symbol": "XAIGROK",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x718dab2c7bbd2d9503dc1ce1dbc215abc41a3545.png"
+		}
+	},
+	{
+		"address": "0x7199b5a15c7fb79aa861780230adc65fff99ec73",
+		"data": {
+			"name": "0xAnon",
+			"symbol": "0XANON",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x7199b5a15c7fb79aa861780230adc65fff99ec73.png"
 		}
 	},
 	{
@@ -17124,30 +21299,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x71aef7b30728b9bb371578f36c5a1f1502a5723e",
+		"data": {
+			"name": "Aave v3 1INCH",
+			"symbol": "A1INCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x71aef7b30728b9bb371578f36c5a1f1502a5723e.png"
+		}
+	},
+	{
 		"address": "0x71dc40668682a124231301414167e4cf7f55383c",
 		"data": {
 			"name": "Mimir",
 			"symbol": "MIMIR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x71dc40668682a124231301414167e4cf7f55383c.png"
-		}
-	},
-	{
-		"address": "0x71dc640b99faaf03544bdbce87018c2ae8ebe849",
-		"data": {
-			"name": "OmniaVerse",
-			"symbol": "OMNIA",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x71dc640b99faaf03544bdbce87018c2ae8ebe849.png"
-		}
-	},
-	{
-		"address": "0x71de2285ec83bb6517d2b3ec8deb2a6c44d8c5da",
-		"data": {
-			"name": "Unimoon",
-			"symbol": "UMOON",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x71de2285ec83bb6517d2b3ec8deb2a6c44d8c5da.png"
 		}
 	},
 	{
@@ -17205,12 +21371,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7220e92d418e2eb59d0c25d195fa004bfd3afc42",
+		"address": "0x722383e1e8994cb8a55cbc1621dc068b62403b1e",
 		"data": {
-			"name": "Ad Flex",
-			"symbol": "ADF",
+			"name": "RunesBot",
+			"symbol": "RBOT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7220e92d418e2eb59d0c25d195fa004bfd3afc42.png"
+			"logoUri": "/images/tokens/0x722383e1e8994cb8a55cbc1621dc068b62403b1e.png"
+		}
+	},
+	{
+		"address": "0x722a89f1b925fe41883978219c2176aecc7d6699",
+		"data": {
+			"name": "Kinka",
+			"symbol": "XNK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x722a89f1b925fe41883978219c2176aecc7d6699.png"
 		}
 	},
 	{
@@ -17220,6 +21395,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "UCM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x722f97a435278b7383a1e3c47f41773bebf3232c.png"
+		}
+	},
+	{
+		"address": "0x723696965f47b990dff00064fcaca95f0ee01123",
+		"data": {
+			"name": "Alpha Radar AI",
+			"symbol": "ARBOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x723696965f47b990dff00064fcaca95f0ee01123.png"
+		}
+	},
+	{
+		"address": "0x7236a7ad67976ee07961ab26ed6f4cd23f7a9bd1",
+		"data": {
+			"name": "TXN Club",
+			"symbol": "TXN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7236a7ad67976ee07961ab26ed6f4cd23f7a9bd1.png"
 		}
 	},
 	{
@@ -17241,15 +21434,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x723bd1f87a327e94ceabf68d8f022e0f54b9cc1a",
-		"data": {
-			"name": "Philcoin",
-			"symbol": "PHL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x723bd1f87a327e94ceabf68d8f022e0f54b9cc1a.png"
-		}
-	},
-	{
 		"address": "0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab",
 		"data": {
 			"name": "Bitcoin Pro",
@@ -17265,6 +21449,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "OCTO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7240ac91f01233baaf8b064248e80feaa5912ba3.png"
+		}
+	},
+	{
+		"address": "0x724313985dcb55d432d3888ddc0b9e3d3859e86d",
+		"data": {
+			"name": "BitRunes",
+			"symbol": "BRUNE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x724313985dcb55d432d3888ddc0b9e3d3859e86d.png"
+		}
+	},
+	{
+		"address": "0x725024200cd4e1f259fcf2b7153d37fb477e139c",
+		"data": {
+			"name": "Flovi Inu",
+			"symbol": "FLOVI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x725024200cd4e1f259fcf2b7153d37fb477e139c.png"
 		}
 	},
 	{
@@ -17295,6 +21497,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x72831eebef4e3f3697a6b216e3713958210ae8cd",
+		"data": {
+			"name": "Blob",
+			"symbol": "BLOB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x72831eebef4e3f3697a6b216e3713958210ae8cd.png"
+		}
+	},
+	{
 		"address": "0x728f30fa2f100742c7949d1961804fa8e0b1387d",
 		"data": {
 			"name": "GamerCoin",
@@ -17313,15 +21524,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x72955ecff76e48f2c8abcce11d54e5734d6f3657",
-		"data": {
-			"name": "TrustVerse",
-			"symbol": "TRV",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x72955ecff76e48f2c8abcce11d54e5734d6f3657.png"
-		}
-	},
-	{
 		"address": "0x72a66e54b66892ae3bbe54df7bb7dd5ae927a6f9",
 		"data": {
 			"name": "Crypto Village Accelerator CVAG",
@@ -17331,9 +21533,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x72a93697a5ac73cfee39ff87298220f77c538611",
+		"data": {
+			"name": "The Dare",
+			"symbol": "DARE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x72a93697a5ac73cfee39ff87298220f77c538611.png"
+		}
+	},
+	{
 		"address": "0x72adadb447784dd7ab1f472467750fc485e4cb2d",
 		"data": {
-			"name": "Worldcore",
+			"name": "Worldcore  OLD ",
 			"symbol": "WRC",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x72adadb447784dd7ab1f472467750fc485e4cb2d.png"
@@ -17349,12 +21560,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x72bab498fa50a33a03362d0024bb27efbc50a7b7",
+		"address": "0x72cdb56e9d96c64fb52e8cdeda7475f3aa843f59",
 		"data": {
-			"name": "BlockEscrow",
-			"symbol": "BET",
+			"name": "TAOPlay",
+			"symbol": "TAOP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x72bab498fa50a33a03362d0024bb27efbc50a7b7.png"
+			"logoUri": "/images/tokens/0x72cdb56e9d96c64fb52e8cdeda7475f3aa843f59.png"
 		}
 	},
 	{
@@ -17421,12 +21632,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x730f8c56c709c5f5b4a6e91f98fa7a7c410e990d",
+		"address": "0x72f713d11480dcf08b37e1898670e736688d218d",
 		"data": {
-			"name": "Ether Futures",
-			"symbol": "ETHF",
+			"name": "Nettensor",
+			"symbol": "NAO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x730f8c56c709c5f5b4a6e91f98fa7a7c410e990d.png"
+			"logoUri": "/images/tokens/0x72f713d11480dcf08b37e1898670e736688d218d.png"
+		}
+	},
+	{
+		"address": "0x72fc1c1c926bd26712f62e7485392cd405478f05",
+		"data": {
+			"name": "Bark Gas Token",
+			"symbol": "BARK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x72fc1c1c926bd26712f62e7485392cd405478f05.png"
+		}
+	},
+	{
+		"address": "0x72fca22c6070b4cf68abdb719fa484d9ef10a73b",
+		"data": {
+			"name": "Sowa AI",
+			"symbol": "SOWA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x72fca22c6070b4cf68abdb719fa484d9ef10a73b.png"
+		}
+	},
+	{
+		"address": "0x730bcbe5cdc1a3061dfe700774b7b8dd1d4173db",
+		"data": {
+			"name": "DaVinci",
+			"symbol": "WTF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x730bcbe5cdc1a3061dfe700774b7b8dd1d4173db.png"
 		}
 	},
 	{
@@ -17448,6 +21686,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7340ea46360576dc46ef49bce99bc5072c32421d",
+		"data": {
+			"name": "DollarSqueeze",
+			"symbol": "DSQ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7340ea46360576dc46ef49bce99bc5072c32421d.png"
+		}
+	},
+	{
+		"address": "0x73454acfddb7a36a3cd8eb171fbea86c6a55e550",
+		"data": {
+			"name": "BuildAI",
+			"symbol": "BUILD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x73454acfddb7a36a3cd8eb171fbea86c6a55e550.png"
+		}
+	},
+	{
 		"address": "0x73484a262730d1d422610729e828346f9b2ff480",
 		"data": {
 			"name": "BRCP",
@@ -17463,6 +21719,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TSX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x734c90044a0ba31b3f2e640c10dc5d3540499bfd.png"
+		}
+	},
+	{
+		"address": "0x735fa792e731a2e8f83f32eb539841b7b72e6d8f",
+		"data": {
+			"name": "ARYZE eEUR",
+			"symbol": "EEUR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x735fa792e731a2e8f83f32eb539841b7b72e6d8f.png"
 		}
 	},
 	{
@@ -17493,21 +21758,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x73a9fb46e228628f8f9bb9004eca4f4f529d3998",
+		"address": "0x73af41fe7054057218e0eb07fe43ba5f25c7d79f",
 		"data": {
-			"name": "Wrapped LEO",
-			"symbol": "WLEO",
-			"decimals": 3,
-			"logoUri": "/images/tokens/0x73a9fb46e228628f8f9bb9004eca4f4f529d3998.png"
-		}
-	},
-	{
-		"address": "0x73b708e84837ffccde2933e3a1531fe61d5e80ef",
-		"data": {
-			"name": "Betero",
-			"symbol": "BTE",
+			"name": "CASHCAB",
+			"symbol": "CAB",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x73b708e84837ffccde2933e3a1531fe61d5e80ef.png"
+			"logoUri": "/images/tokens/0x73af41fe7054057218e0eb07fe43ba5f25c7d79f.png"
 		}
 	},
 	{
@@ -17529,6 +21785,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x73c9275c3a2dd84b5741fd59aebf102c91eb033f",
+		"data": {
+			"name": "Bitball Treasure",
+			"symbol": "BTRS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x73c9275c3a2dd84b5741fd59aebf102c91eb033f.png"
+		}
+	},
+	{
 		"address": "0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
 		"data": {
 			"name": "IX Swap",
@@ -17544,6 +21809,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SOPH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x73fbd93bfda83b111ddc092aa3a4ca77fd30d380.png"
+		}
+	},
+	{
+		"address": "0x740a5ac14d0096c81d331adc1611cf2fd28ae317",
+		"data": {
+			"name": "Plebz",
+			"symbol": "PLEB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x740a5ac14d0096c81d331adc1611cf2fd28ae317.png"
 		}
 	},
 	{
@@ -17583,15 +21857,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7449c93abe66457e83b3799bcf1a99e92d58a93b",
-		"data": {
-			"name": "CryptMi",
-			"symbol": "CYMI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7449c93abe66457e83b3799bcf1a99e92d58a93b.png"
-		}
-	},
-	{
 		"address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
 		"data": {
 			"name": "Status",
@@ -17610,12 +21875,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7458fd786b2fe8cd801c0381f88b61c5071a006f",
+		"address": "0x74588af8de14287e91d89758636d277d66f217b6",
 		"data": {
-			"name": "LOA Protocol",
-			"symbol": "LOA",
+			"name": "0xOS AI",
+			"symbol": "0XOS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7458fd786b2fe8cd801c0381f88b61c5071a006f.png"
+			"logoUri": "/images/tokens/0x74588af8de14287e91d89758636d277d66f217b6.png"
+		}
+	},
+	{
+		"address": "0x7468d234a8db6f1085dbf4e403553bfed41df95c",
+		"data": {
+			"name": "IO",
+			"symbol": "IO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7468d234a8db6f1085dbf4e403553bfed41df95c.png"
 		}
 	},
 	{
@@ -17628,12 +21902,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7495e5cc8f27e0bd5bd4cb86d17f0d841ca58ee4",
+		"address": "0x747e550a7b848ace786c3cfe754aa78febc8a022",
 		"data": {
-			"name": "Arnoya classic",
-			"symbol": "ARNC",
+			"name": "DODO",
+			"symbol": "DODO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7495e5cc8f27e0bd5bd4cb86d17f0d841ca58ee4.png"
+			"logoUri": "/images/tokens/0x747e550a7b848ace786c3cfe754aa78febc8a022.png"
+		}
+	},
+	{
+		"address": "0x748509433ef209c4d11ada51347d5724a5da0ca5",
+		"data": {
+			"name": "Andy on ETH",
+			"symbol": "ANDY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x748509433ef209c4d11ada51347d5724a5da0ca5.png"
+		}
+	},
+	{
+		"address": "0x74a85f68cd947d05585f76118e51b2ed1484a838",
+		"data": {
+			"name": "Diamault",
+			"symbol": "DVT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x74a85f68cd947d05585f76118e51b2ed1484a838.png"
 		}
 	},
 	{
@@ -17655,12 +21947,56 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x74be64b45d394fa57816c1950e94dbb8d7a7b306",
+		"address": "0x74d2d73b455540b037298c0e0925bc702aedbe4a",
 		"data": {
-			"name": "Givewell Inu",
-			"symbol": "GINU",
+			"name": "Schrodinger",
+			"symbol": "MEOW",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x74be64b45d394fa57816c1950e94dbb8d7a7b306.png"
+			"logoUri": "/images/tokens/0x74d2d73b455540b037298c0e0925bc702aedbe4a.png"
+		}
+	},
+	{
+		"address": "0x74e5e53056526b2609d82e85486005ef2a2db001",
+		"data": {
+			"name": "TruMATIC MATIC Stable Pool",
+			"symbol": "TRUMATIC-MATIC",
+			"decimals": 18
+		}
+	},
+	{
+		"address": "0x74e9fee3fcb56bccac22e726cce7a78ca90185e1",
+		"data": {
+			"name": "Rizo",
+			"symbol": "RIZO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x74e9fee3fcb56bccac22e726cce7a78ca90185e1.png"
+		}
+	},
+	{
+		"address": "0x74faab6986560fd1140508e4266d8a7b87274ffd",
+		"data": {
+			"name": "HyperDAO",
+			"symbol": "HDAO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x74faab6986560fd1140508e4266d8a7b87274ffd.png"
+		}
+	},
+	{
+		"address": "0x74fe27e70db10147f8b6b38b3c9d12bbdcf3b5af",
+		"data": {
+			"name": "iRYDE",
+			"symbol": "IRYDE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x74fe27e70db10147f8b6b38b3c9d12bbdcf3b5af.png"
+		}
+	},
+	{
+		"address": "0x750c3a0a0ce9984eeb8c5d146dff024b584e5e33",
+		"data": {
+			"name": "zkHive",
+			"symbol": "ZKHIVE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x750c3a0a0ce9984eeb8c5d146dff024b584e5e33.png"
 		}
 	},
 	{
@@ -17682,6 +22018,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x753cd33a41a7b4857681ab2498ce66ae977aa3de",
+		"data": {
+			"name": "VaxLabs",
+			"symbol": "VLABS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x753cd33a41a7b4857681ab2498ce66ae977aa3de.png"
+		}
+	},
+	{
 		"address": "0x75430d0782a443bd4f1c92c69009599dea53a206",
 		"data": {
 			"name": "Pick Or Rick",
@@ -17691,21 +22036,20 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x75459a499a79ccd7c5fae3201738f9e4677d69e4",
+		"address": "0x755582d6db18003e67eccaa7090421a775280a36",
 		"data": {
-			"name": "Prometheus Trading",
-			"symbol": "PROME",
+			"name": "FP  JeerGirl",
+			"symbol": "JEERGIRL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x75459a499a79ccd7c5fae3201738f9e4677d69e4.png"
+			"logoUri": "/images/tokens/0x755582d6db18003e67eccaa7090421a775280a36.png"
 		}
 	},
 	{
-		"address": "0x755be920943ea95e39ee2dc437b268917b580d6e",
+		"address": "0x7567d006f6be77e3d87aa831855cb4102e37b17d",
 		"data": {
-			"name": "VersoView",
-			"symbol": "VVT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x755be920943ea95e39ee2dc437b268917b580d6e.png"
+			"name": "Three Hundred AI",
+			"symbol": "THND",
+			"decimals": 18
 		}
 	},
 	{
@@ -17745,12 +22089,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x75cb71325a44fb102a742626b723054acb7e1394",
+		"data": {
+			"name": "Anime",
+			"symbol": "ANI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x75cb71325a44fb102a742626b723054acb7e1394.png"
+		}
+	},
+	{
 		"address": "0x75ce16d11b83605aa039d40d7d846ff23064fb65",
 		"data": {
 			"name": "DUBX",
 			"symbol": "DUB",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x75ce16d11b83605aa039d40d7d846ff23064fb65.png"
+		}
+	},
+	{
+		"address": "0x75d86078625d1e2f612de2627d34c7bc411c18b8",
+		"data": {
+			"name": "AGII",
+			"symbol": "AGII",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x75d86078625d1e2f612de2627d34c7bc411c18b8.png"
 		}
 	},
 	{
@@ -17763,21 +22125,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x760ea31711ac14cb9ba81ac25453c6f378fa5794",
+		"address": "0x761a3557184cbc07b7493da0661c41177b2f97fa",
 		"data": {
-			"name": "BOWL SHIBARIUM",
-			"symbol": "BOWL",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x760ea31711ac14cb9ba81ac25453c6f378fa5794.png"
-		}
-	},
-	{
-		"address": "0x7616113782aadab041d7b10d474f8a0c04eff258",
-		"data": {
-			"name": "Zeeverse",
-			"symbol": "VEE",
+			"name": "ValleyDAO",
+			"symbol": "GROW",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7616113782aadab041d7b10d474f8a0c04eff258.png"
+			"logoUri": "/images/tokens/0x761a3557184cbc07b7493da0661c41177b2f97fa.png"
 		}
 	},
 	{
@@ -17787,24 +22140,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ELON",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3.png"
-		}
-	},
-	{
-		"address": "0x76306f029f8f99effe509534037ba7030999e3cf",
-		"data": {
-			"name": "Acreage Coin",
-			"symbol": "ACR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x76306f029f8f99effe509534037ba7030999e3cf.png"
-		}
-	},
-	{
-		"address": "0x7635b612792e4bfb7f2fa12a3e5d5a3f2e3c34bc",
-		"data": {
-			"name": "Alternity CNY",
-			"symbol": "LCNY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7635b612792e4bfb7f2fa12a3e5d5a3f2e3c34bc.png"
 		}
 	},
 	{
@@ -17826,6 +22161,14 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7658b8cd4719080ad377dfe28dfc19c761a3cb75",
+		"data": {
+			"name": "MevAI",
+			"symbol": "MAI",
+			"decimals": 18
+		}
+	},
+	{
 		"address": "0x7659ce147d0e714454073a5dd7003544234b6aa0",
 		"data": {
 			"name": "XCAD Network",
@@ -17844,12 +22187,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x766a824314bd1d9fa27c8461754c276772bc666a",
+		"address": "0x766d2fcece1e3eef32aae8711ab886ee95fd5b2a",
 		"data": {
-			"name": "Scam Coin",
-			"symbol": "SCAM",
+			"name": "MAGA VP",
+			"symbol": "MVP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x766a824314bd1d9fa27c8461754c276772bc666a.png"
+			"logoUri": "/images/tokens/0x766d2fcece1e3eef32aae8711ab886ee95fd5b2a.png"
 		}
 	},
 	{
@@ -17871,6 +22214,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x76952fc1087fdae2e6aa4e5a1cec9e1117a60b00",
+		"data": {
+			"name": "NY Blockchain",
+			"symbol": "NYBC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x76952fc1087fdae2e6aa4e5a1cec9e1117a60b00.png"
+		}
+	},
+	{
 		"address": "0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f",
 		"data": {
 			"name": "Red",
@@ -17889,21 +22241,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x76aab5fd2243d99eac92d4d9ebf23525d3ace4ec",
+		"data": {
+			"name": "GG MetaGame",
+			"symbol": "GGMT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x76aab5fd2243d99eac92d4d9ebf23525d3ace4ec.png"
+		}
+	},
+	{
+		"address": "0x76af4cb74c8d4da51403d672a799e94b5958c230",
+		"data": {
+			"name": "Feels Good Man",
+			"symbol": "GOOD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x76af4cb74c8d4da51403d672a799e94b5958c230.png"
+		}
+	},
+	{
 		"address": "0x76bc677d444f1e9d57daf5187ee2b7dc852745ae",
 		"data": {
 			"name": "Offshift",
 			"symbol": "XFT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x76bc677d444f1e9d57daf5187ee2b7dc852745ae.png"
-		}
-	},
-	{
-		"address": "0x76c81e322fe678f9391029d571453fad9bc9e73e",
-		"data": {
-			"name": "EdFi",
-			"symbol": "EDFI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x76c81e322fe678f9391029d571453fad9bc9e73e.png"
 		}
 	},
 	{
@@ -17916,12 +22277,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x76f187059039c13a93d43b6b6dc929f5f9806929",
+		"address": "0x76e222b07c53d28b89b0bac18602810fc22b49a8",
 		"data": {
-			"name": "Woofie",
-			"symbol": "WOOFIE",
+			"name": "Joe Coin",
+			"symbol": "JOE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x76f187059039c13a93d43b6b6dc929f5f9806929.png"
+			"logoUri": "/images/tokens/0x76e222b07c53d28b89b0bac18602810fc22b49a8.png"
 		}
 	},
 	{
@@ -17943,6 +22304,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+		"data": {
+			"name": "BlackRock USD Institutional Digital Liq",
+			"symbol": "BUIDL",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x7712c34205737192402172409a8f7ccef8aa2aec.png"
+		}
+	},
+	{
 		"address": "0x7713DD9Ca933848F6819F38B8352D9A15EA73F67",
 		"data": {
 			"name": "Compound Fei USD",
@@ -17958,6 +22328,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TUP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7714f320adca62b149df2579361afec729c5fe6a.png"
+		}
+	},
+	{
+		"address": "0x7717f2828fe4dac8558d23ee4cdfed9544e9321f",
+		"data": {
+			"name": "OTX EXCHANGE",
+			"symbol": "OTX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7717f2828fe4dac8558d23ee4cdfed9544e9321f.png"
 		}
 	},
 	{
@@ -17979,15 +22358,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x772c44b5166647b135bb4836abc4e06c28e94978",
-		"data": {
-			"name": "Normie",
-			"symbol": "NORMIE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x772c44b5166647b135bb4836abc4e06c28e94978.png"
-		}
-	},
-	{
 		"address": "0x77571a64342667f7818520ef004b2b91f47a266b",
 		"data": {
 			"name": "SnailMoon",
@@ -18006,30 +22376,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x776280f68ad33c4d49e6846507b7dbaf7811c89f",
-		"data": {
-			"name": "ZeroLiquid ETH",
-			"symbol": "ZETH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x776280f68ad33c4d49e6846507b7dbaf7811c89f.png"
-		}
-	},
-	{
-		"address": "0x77700005bea4de0a78b956517f099260c2ca9a26",
-		"data": {
-			"name": "Root",
-			"symbol": "ROOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x77700005bea4de0a78b956517f099260c2ca9a26.png"
-		}
-	},
-	{
 		"address": "0x777172d858dc1599914a1c4c6c9fc48c99a60990",
 		"data": {
 			"name": "Solidly",
 			"symbol": "SOLID",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x777172d858dc1599914a1c4c6c9fc48c99a60990.png"
+		}
+	},
+	{
+		"address": "0x77774a06271d6a305caccdbc06f847def05c7777",
+		"data": {
+			"name": "Gyrowin",
+			"symbol": "GW",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x77774a06271d6a305caccdbc06f847def05c7777.png"
 		}
 	},
 	{
@@ -18069,15 +22430,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7797c85b46f548eacc07c229f6cd207d6370442f",
-		"data": {
-			"name": "Dog Tag",
-			"symbol": "TAG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7797c85b46f548eacc07c229f6cd207d6370442f.png"
-		}
-	},
-	{
 		"address": "0x77a1f4e744d810239f465043e35d067ca33de259",
 		"data": {
 			"name": "Voice Street",
@@ -18096,12 +22448,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x77a9b858aa8417fd318ecee01c1d6d9fef31a71f",
+		"address": "0x77be1ba1cd2d7a63bffc772d361168cc327dd8bc",
 		"data": {
-			"name": "Definet",
-			"symbol": "NET",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x77a9b858aa8417fd318ecee01c1d6d9fef31a71f.png"
+			"name": "Meow Meow Coin",
+			"symbol": "MEOW",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x77be1ba1cd2d7a63bffc772d361168cc327dd8bc.png"
 		}
 	},
 	{
@@ -18138,6 +22490,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "WTAO",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44.png"
+		}
+	},
+	{
+		"address": "0x77ebcf0659bbf4e68d8ce6d84bb25c5cde207b97",
+		"data": {
+			"name": "MOOxMOO",
+			"symbol": "MOOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x77ebcf0659bbf4e68d8ce6d84bb25c5cde207b97.png"
 		}
 	},
 	{
@@ -18186,6 +22547,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x781fbc4c6edf7a37dcc08a3b323f122e8a09eac5",
+		"data": {
+			"name": "OAT Network",
+			"symbol": "OAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x781fbc4c6edf7a37dcc08a3b323f122e8a09eac5.png"
+		}
+	},
+	{
 		"address": "0x78223d31298107f3e310b09797b07967832046a6",
 		"data": {
 			"name": "ROYAL SMART FUTURE TOKEN",
@@ -18213,12 +22583,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7865af71cf0b288b4e7f654f4f7851eb46a2b7f8",
+		"address": "0x7865ec47bef9823ad0010c4970ed90a5e8107e53",
 		"data": {
-			"name": "Sentivate",
-			"symbol": "SNTVT",
+			"name": "NeoAudit AI",
+			"symbol": "NAAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7865af71cf0b288b4e7f654f4f7851eb46a2b7f8.png"
+			"logoUri": "/images/tokens/0x7865ec47bef9823ad0010c4970ed90a5e8107e53.png"
 		}
 	},
 	{
@@ -18228,24 +22598,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KIT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4.png"
-		}
-	},
-	{
-		"address": "0x786e995a975c2ab7c1dd252a9019fb0c91c9ca83",
-		"data": {
-			"name": "Landworld",
-			"symbol": "LWD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x786e995a975c2ab7c1dd252a9019fb0c91c9ca83.png"
-		}
-	},
-	{
-		"address": "0x7884f51dc1410387371ce61747cb6264e1daee0b",
-		"data": {
-			"name": "Binance Wrapped DOT",
-			"symbol": "BDOT",
-			"decimals": 10,
-			"logoUri": "/images/tokens/0x7884f51dc1410387371ce61747cb6264e1daee0b.png"
 		}
 	},
 	{
@@ -18267,12 +22619,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x78993f9bee8b68f2531a92427595405f294161db",
+		"data": {
+			"name": "0xBET",
+			"symbol": "0XBET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x78993f9bee8b68f2531a92427595405f294161db.png"
+		}
+	},
+	{
 		"address": "0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f",
 		"data": {
 			"name": "Open Exchange Token",
-			"symbol": "OX",
+			"symbol": "OXOLD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f.png"
+		}
+	},
+	{
+		"address": "0x78ba134c3ace18e69837b01703d07f0db6fb0a60",
+		"data": {
+			"name": "Sentinel Bot Ai",
+			"symbol": "SNT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x78ba134c3ace18e69837b01703d07f0db6fb0a60.png"
 		}
 	},
 	{
@@ -18285,12 +22655,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x78e3b2ee11950df78a35fd924e92fbb8d1403780",
+		"data": {
+			"name": "Helga Inu",
+			"symbol": "HELGA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x78e3b2ee11950df78a35fd924e92fbb8d1403780.png"
+		}
+	},
+	{
 		"address": "0x79126d32a86e6663f3aaac4527732d0701c1ae6c",
 		"data": {
 			"name": "Dark Matter",
 			"symbol": "DMT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x79126d32a86e6663f3aaac4527732d0701c1ae6c.png"
+		}
+	},
+	{
+		"address": "0x792833b894775bd769b3c602ba7172e59a83ab3f",
+		"data": {
+			"name": "City Boys",
+			"symbol": "TOONS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x792833b894775bd769b3c602ba7172e59a83ab3f.png"
+		}
+	},
+	{
+		"address": "0x79349edd0b8e83ffaa1af2e6ba0c8ce87731c267",
+		"data": {
+			"name": "WcDonalds",
+			"symbol": "WCD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x79349edd0b8e83ffaa1af2e6ba0c8ce87731c267.png"
 		}
 	},
 	{
@@ -18303,12 +22700,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x793a5d8b30aab326f83d20a9370c827fea8fdc51",
+		"data": {
+			"name": "Gorilla In A Coupe",
+			"symbol": "GIAC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x793a5d8b30aab326f83d20a9370c827fea8fdc51.png"
+		}
+	},
+	{
 		"address": "0x794baab6b878467f93ef17e2f2851ce04e3e34c8",
 		"data": {
 			"name": "YIN Finance",
 			"symbol": "YIN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x794baab6b878467f93ef17e2f2851ce04e3e34c8.png"
+		}
+	},
+	{
+		"address": "0x794fcee2c16e9495c3f590958b1209400751ba80",
+		"data": {
+			"name": "Syntax AI",
+			"symbol": "SYNTX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x794fcee2c16e9495c3f590958b1209400751ba80.png"
+		}
+	},
+	{
+		"address": "0x795a7e7a0f6b84ee1f2bc9e70a74dbbb49cef9a3",
+		"data": {
+			"name": "Intrinsic Number Up",
+			"symbol": "INU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x795a7e7a0f6b84ee1f2bc9e70a74dbbb49cef9a3.png"
 		}
 	},
 	{
@@ -18375,6 +22799,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x79c6ffe2ccbca761e9e289a69432bffb0b744876",
+		"data": {
+			"name": "Pineapple Owl",
+			"symbol": "PINEOWL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x79c6ffe2ccbca761e9e289a69432bffb0b744876.png"
+		}
+	},
+	{
 		"address": "0x79c9e0410b6615e7ba9dd69614b0519325a2b047",
 		"data": {
 			"name": "hiFLUF",
@@ -18384,12 +22817,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x79ca240990ec3f11381a8f80529828aad0628658",
+		"data": {
+			"name": "DiVinciPay",
+			"symbol": "DVNCI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x79ca240990ec3f11381a8f80529828aad0628658.png"
+		}
+	},
+	{
 		"address": "0x79d4f0232a66c4c91b89c76362016a1707cfbf4f",
 		"data": {
 			"name": "VNX Swiss Franc",
 			"symbol": "VCHF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x79d4f0232a66c4c91b89c76362016a1707cfbf4f.png"
+		}
+	},
+	{
+		"address": "0x79f05c263055ba20ee0e814acd117c20caa10e0c",
+		"data": {
+			"name": "Ice Open Network",
+			"symbol": "ICE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x79f05c263055ba20ee0e814acd117c20caa10e0c.png"
 		}
 	},
 	{
@@ -18447,12 +22898,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7a65cb87f596caf31a4932f074c59c0592be77d7",
+		"data": {
+			"name": "Zypto Token",
+			"symbol": "ZYPTO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7a65cb87f596caf31a4932f074c59c0592be77d7.png"
+		}
+	},
+	{
 		"address": "0x7a73839bd0e5cded853cb01aa9773f8989381065",
 		"data": {
 			"name": "UpBots",
 			"symbol": "UBXN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7a73839bd0e5cded853cb01aa9773f8989381065.png"
+		}
+	},
+	{
+		"address": "0x7a771a90b8f2a10afd9a75b8e49d646d1139bb98",
+		"data": {
+			"name": "Stealth Deals",
+			"symbol": "DEAL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7a771a90b8f2a10afd9a75b8e49d646d1139bb98.png"
 		}
 	},
 	{
@@ -18471,6 +22940,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "HIOD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7a83ff237e7870d8d6c3485920ebe654d2841315.png"
+		}
+	},
+	{
+		"address": "0x7a8946eda77817126ffe301249f6dc4c7df293c3",
+		"data": {
+			"name": "Dyl",
+			"symbol": "DYL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7a8946eda77817126ffe301249f6dc4c7df293c3.png"
 		}
 	},
 	{
@@ -18501,12 +22979,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547",
+		"address": "0x7ab7d54f8cb054141142f04ba0b3d41ac4c4d61c",
 		"data": {
-			"name": "Staked ACME",
-			"symbol": "STACME",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547.png"
+			"name": "NOTHING",
+			"symbol": "NOTHING",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7ab7d54f8cb054141142f04ba0b3d41ac4c4d61c.png"
+		}
+	},
+	{
+		"address": "0x7acc3f723419fa0c1f789618f798e75c5189c24f",
+		"data": {
+			"name": "DADA",
+			"symbol": "DADA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7acc3f723419fa0c1f789618f798e75c5189c24f.png"
+		}
+	},
+	{
+		"address": "0x7ad16874759348f04b6b6119463d66c07ae54899",
+		"data": {
+			"name": "PIRB",
+			"symbol": "PIRB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7ad16874759348f04b6b6119463d66c07ae54899.png"
 		}
 	},
 	{
@@ -18537,21 +23033,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7b123f53421b1bf8533339bfbdc7c98aa94163db",
+		"address": "0x7ae4f8885f6cfa41a692cb9da3789cfa6a83e9f2",
 		"data": {
-			"name": "dfohub",
-			"symbol": "BUIDL",
+			"name": "GenomesDAO GENOME",
+			"symbol": "GENOME",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7b123f53421b1bf8533339bfbdc7c98aa94163db.png"
+			"logoUri": "/images/tokens/0x7ae4f8885f6cfa41a692cb9da3789cfa6a83e9f2.png"
 		}
 	},
 	{
-		"address": "0x7b3296198f8a548edf89bdb16864da8f37b7d9cb",
+		"address": "0x7b18e5d77622ba37173801f77745a0654df825ff",
 		"data": {
-			"name": "GoldeNugget",
-			"symbol": "GNTO",
+			"name": "TraderX",
+			"symbol": "TX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7b3296198f8a548edf89bdb16864da8f37b7d9cb.png"
+			"logoUri": "/images/tokens/0x7b18e5d77622ba37173801f77745a0654df825ff.png"
+		}
+	},
+	{
+		"address": "0x7b37a55ffb30c11d95f943672ae98f28cfb7b087",
+		"data": {
+			"name": "Fufu Token",
+			"symbol": "FUFU",
+			"decimals": 2,
+			"logoUri": "/images/tokens/0x7b37a55ffb30c11d95f943672ae98f28cfb7b087.png"
 		}
 	},
 	{
@@ -18582,12 +23087,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7b9432881fff2a9527cfc2efb4d33fc0d7f8e861",
+		"address": "0x7b95ec873268a6bfc6427e7a28e396db9d0ebc65",
 		"data": {
-			"name": "Contrax",
-			"symbol": "CONTRAX",
+			"name": "Aave v3 CRV",
+			"symbol": "ACRV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7b95ec873268a6bfc6427e7a28e396db9d0ebc65.png"
+		}
+	},
+	{
+		"address": "0x7ba441772fdd56dda03e7e91284db2ea2ba237da",
+		"data": {
+			"name": "ALPHABYTE",
+			"symbol": "ALPHA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7ba441772fdd56dda03e7e91284db2ea2ba237da.png"
+		}
+	},
+	{
+		"address": "0x7ba5273d53d8a964b0a338e25def0c082f5c29d3",
+		"data": {
+			"name": "WEN",
+			"symbol": "WEN",
 			"decimals": 8,
-			"logoUri": "/images/tokens/0x7b9432881fff2a9527cfc2efb4d33fc0d7f8e861.png"
+			"logoUri": "/images/tokens/0x7ba5273d53d8a964b0a338e25def0c082f5c29d3.png"
 		}
 	},
 	{
@@ -18618,12 +23141,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7c32db0645a259fae61353c1f891151a2e7f8c1e",
+		"address": "0x7c28310cc0b8d898c57b93913098e74a3ba23228",
 		"data": {
-			"name": "Potentiam",
-			"symbol": "PTM",
+			"name": "PEACE COIN",
+			"symbol": "PCE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7c32db0645a259fae61353c1f891151a2e7f8c1e.png"
+			"logoUri": "/images/tokens/0x7c28310cc0b8d898c57b93913098e74a3ba23228.png"
 		}
 	},
 	{
@@ -18636,12 +23159,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7c5095bb2dae81bb9a21ee9f1b7815cd710194e5",
+		"data": {
+			"name": "Obama6900",
+			"symbol": "OBX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7c5095bb2dae81bb9a21ee9f1b7815cd710194e5.png"
+		}
+	},
+	{
 		"address": "0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098",
 		"data": {
 			"name": "Santiment Network",
 			"symbol": "SAN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098.png"
+		}
+	},
+	{
+		"address": "0x7c5b267ed81009aa7374b5ca7e5137da47045ba8",
+		"data": {
+			"name": "TAIKAI",
+			"symbol": "TKAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7c5b267ed81009aa7374b5ca7e5137da47045ba8.png"
 		}
 	},
 	{
@@ -18669,6 +23210,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SHPING",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7c84e62859d0715eb77d1b1c4154ecd6abb21bec.png"
+		}
+	},
+	{
+		"address": "0x7c95e7ad2b349dc2f82d0f1117a44b561fa2699a",
+		"data": {
+			"name": "Gracy",
+			"symbol": "GRACY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7c95e7ad2b349dc2f82d0f1117a44b561fa2699a.png"
+		}
+	},
+	{
+		"address": "0x7c9f4c87d911613fe9ca58b579f737911aad2d43",
+		"data": {
+			"name": "MATIC  Wormhole ",
+			"symbol": "MATICPO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7c9f4c87d911613fe9ca58b579f737911aad2d43.png"
 		}
 	},
 	{
@@ -18717,12 +23276,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7cf551258d6871b72ee1bd1624588a6245bf48c4",
+		"address": "0x7cdbfc86a0bfa20f133748b0cf5cea5b787b182c",
 		"data": {
-			"name": "ChitCAT",
-			"symbol": "CHITCAT",
+			"name": "TokenSight",
+			"symbol": "TKST",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7cf551258d6871b72ee1bd1624588a6245bf48c4.png"
+			"logoUri": "/images/tokens/0x7cdbfc86a0bfa20f133748b0cf5cea5b787b182c.png"
 		}
 	},
 	{
@@ -18735,6 +23294,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7d0c49057c09501595a8ce23b773bb36a40b521f",
+		"data": {
+			"name": "PREME Token",
+			"symbol": "PREME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7d0c49057c09501595a8ce23b773bb36a40b521f.png"
+		}
+	},
+	{
+		"address": "0x7d0fe0db46ec0017a89478e98c9ff86109ad4673",
+		"data": {
+			"name": "RuneStone Bot",
+			"symbol": "RSB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7d0fe0db46ec0017a89478e98c9ff86109ad4673.png"
+		}
+	},
+	{
 		"address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
 		"data": {
 			"name": "Polygon",
@@ -18744,12 +23321,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7d225c4cc612e61d26523b099b0718d03152edef",
+		"data": {
+			"name": "FlokiFork",
+			"symbol": "FORK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7d225c4cc612e61d26523b099b0718d03152edef.png"
+		}
+	},
+	{
 		"address": "0x7d29a64504629172a429e64183d6673b9dacbfce",
 		"data": {
 			"name": "Vectorspace AI",
 			"symbol": "VXV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7d29a64504629172a429e64183d6673b9dacbfce.png"
+		}
+	},
+	{
+		"address": "0x7d3b4f8d5dd14a0c263c4bee7be434c15e188d3e",
+		"data": {
+			"name": "Moe",
+			"symbol": "MOE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7d3b4f8d5dd14a0c263c4bee7be434c15e188d3e.png"
 		}
 	},
 	{
@@ -18771,6 +23366,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7d51888c5abb7cdfa9cdd6a50673c7f8afaccd7f",
+		"data": {
+			"name": "DuckDAO",
+			"symbol": "DD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7d51888c5abb7cdfa9cdd6a50673c7f8afaccd7f.png"
+		}
+	},
+	{
 		"address": "0x7d60de2e7d92cb5c863bc82f8d59b37c59fc0a7a",
 		"data": {
 			"name": "DeeLance",
@@ -18780,12 +23384,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7d647b1a0dcd5525e9c6b3d14be58f27674f8c95",
+		"address": "0x7d7513bba1af295574c24bbe425873d0c431ff9f",
 		"data": {
-			"name": "Neo Tokyo",
-			"symbol": "BYTES",
+			"name": "Worldcore coin",
+			"symbol": "WCC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x7d647b1a0dcd5525e9c6b3d14be58f27674f8c95.png"
+			"logoUri": "/images/tokens/0x7d7513bba1af295574c24bbe425873d0c431ff9f.png"
 		}
 	},
 	{
@@ -18825,6 +23429,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7dc85f00715c9d9ec1b50731a9bcc8df95087c55",
+		"data": {
+			"name": "Clexy",
+			"symbol": "CLEXY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7dc85f00715c9d9ec1b50731a9bcc8df95087c55.png"
+		}
+	},
+	{
 		"address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
 		"data": {
 			"name": "Golem",
@@ -18837,7 +23450,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"address": "0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
 		"data": {
 			"name": "Gomining Token",
-			"symbol": "GMT",
+			"symbol": "GOMINING",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7ddc52c4de30e94be3a6a0a2b259b2850f421989.png"
 		}
@@ -18881,10 +23494,46 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x7df18e4efd6e6f73cfb462937dac40fe42533016",
 		"data": {
-			"name": "Zkitty Bot",
+			"name": "ZKitty Bot",
 			"symbol": "ZKITTY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7df18e4efd6e6f73cfb462937dac40fe42533016.png"
+		}
+	},
+	{
+		"address": "0x7df4122d3eae29fc8fb6be58d9177e8e560be4fb",
+		"data": {
+			"name": "BlockChainCoinX",
+			"symbol": "XCCX",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x7df4122d3eae29fc8fb6be58d9177e8e560be4fb.png"
+		}
+	},
+	{
+		"address": "0x7df571694b35ef60e9b6651967486c8017491f9b",
+		"data": {
+			"name": "DOGE 1 Moon Mission",
+			"symbol": "DOGE-1",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7df571694b35ef60e9b6651967486c8017491f9b.png"
+		}
+	},
+	{
+		"address": "0x7e5981c2e072f53a0323d3d80baca3e31fb1550c",
+		"data": {
+			"name": "JovJou",
+			"symbol": "JOVJOU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7e5981c2e072f53a0323d3d80baca3e31fb1550c.png"
+		}
+	},
+	{
+		"address": "0x7e6f60e237c34307d516ef80218c2b04bccbca40",
+		"data": {
+			"name": "Trackr",
+			"symbol": "TRACKR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7e6f60e237c34307d516ef80218c2b04bccbca40.png"
 		}
 	},
 	{
@@ -18897,38 +23546,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7e85b369d170ebf127367400b1f399cb18027309",
+		"address": "0x7e877b99897d514da01bd1d177e693ec639961af",
 		"data": {
-			"name": "JUSTANEGG",
-			"symbol": "EGG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7e85b369d170ebf127367400b1f399cb18027309.png"
-		}
-	},
-	{
-		"address": "0x7e9afd25f5ec0eb24d7d4b089ae7ecb9651c8b1f",
-		"data": {
-			"name": "baoUSD LUSD StablePool",
-			"symbol": "BAOUSD-LUSD-STABLEP",
-			"decimals": 18
-		}
-	},
-	{
-		"address": "0x7e9c15c43f0d6c4a12e6bdff7c7d55d0f80e3e23",
-		"data": {
-			"name": "Astra DAO",
-			"symbol": "ASTRADAO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7e9c15c43f0d6c4a12e6bdff7c7d55d0f80e3e23.png"
-		}
-	},
-	{
-		"address": "0x7e9d8f07a64e363e97a648904a89fb4cd5fb94cd",
-		"data": {
-			"name": "Forefront",
-			"symbol": "FF",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7e9d8f07a64e363e97a648904a89fb4cd5fb94cd.png"
+			"name": "Oggy Inu  ETH ",
+			"symbol": "OGGY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7e877b99897d514da01bd1d177e693ec639961af.png"
 		}
 	},
 	{
@@ -18995,15 +23618,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7f3e4dbd84f5c8a5f15ef927557748cf2fbb77af",
-		"data": {
-			"name": "Broccoli",
-			"symbol": "BRO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x7f3e4dbd84f5c8a5f15ef927557748cf2fbb77af.png"
-		}
-	},
-	{
 		"address": "0x7f3edcdd180dbe4819bd98fee8929b5cedb3adeb",
 		"data": {
 			"name": "xToken",
@@ -19022,12 +23636,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x7f59b64c6ee521c0d7e590cf8e4b843caa236f96",
+		"data": {
+			"name": "CellMates",
+			"symbol": "CELL",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x7f59b64c6ee521c0d7e590cf8e4b843caa236f96.png"
+		}
+	},
+	{
+		"address": "0x7f5e1a2424ebdd141b0df15f974ddcb87751a012",
+		"data": {
+			"name": "LLM eth",
+			"symbol": "LLM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7f5e1a2424ebdd141b0df15f974ddcb87751a012.png"
+		}
+	},
+	{
+		"address": "0x7f716b4777169ebd8ff132acfff59399049a137b",
+		"data": {
+			"name": "Gameluk",
+			"symbol": "GAME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7f716b4777169ebd8ff132acfff59399049a137b.png"
+		}
+	},
+	{
 		"address": "0x7f792db54b0e580cdc755178443f0430cf799aca",
 		"data": {
 			"name": "Volt Inu",
 			"symbol": "VOLT",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x7f792db54b0e580cdc755178443f0430cf799aca.png"
+		}
+	},
+	{
+		"address": "0x7f9b09f4717072cf4dc18b95d1b09e2b30c76790",
+		"data": {
+			"name": "VaultTech",
+			"symbol": "VAULT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7f9b09f4717072cf4dc18b95d1b09e2b30c76790.png"
+		}
+	},
+	{
+		"address": "0x7fa768e035f956c41d6aeaa3bd857e7e5141cad5",
+		"data": {
+			"name": "Inception stETH",
+			"symbol": "INSTETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x7fa768e035f956c41d6aeaa3bd857e7e5141cad5.png"
 		}
 	},
 	{
@@ -19040,21 +23699,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x7fc09a4f6182e835a97c42980f7235e8c0cbfa56",
-		"data": {
-			"name": "X Wizard",
-			"symbol": "XWIZARD",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x7fc09a4f6182e835a97c42980f7235e8c0cbfa56.png"
-		}
-	},
-	{
 		"address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
 		"data": {
 			"name": "Aave",
 			"symbol": "AAVE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png"
+		}
+	},
+	{
+		"address": "0x7fd4d7737597e7b4ee22acbf8d94362343ae0a79",
+		"data": {
+			"name": "Wrapped MistCoin",
+			"symbol": "WMC",
+			"decimals": 2,
+			"logoUri": "/images/tokens/0x7fd4d7737597e7b4ee22acbf8d94362343ae0a79.png"
+		}
+	},
+	{
+		"address": "0x7fed466b893c716235e1b8d685c913f7d2797463",
+		"data": {
+			"name": "TensorHub",
+			"symbol": "THUB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x7fed466b893c716235e1b8d685c913f7d2797463.png"
 		}
 	},
 	{
@@ -19085,6 +23753,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x80286b475969e032bdfb85639fed4d4f30ea9526",
+		"data": {
+			"name": "FREECZ",
+			"symbol": "FREECZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x80286b475969e032bdfb85639fed4d4f30ea9526.png"
+		}
+	},
+	{
 		"address": "0x8052327f1baf94a9dc8b26b9100f211ee3774f54",
 		"data": {
 			"name": "A2DAO",
@@ -19094,12 +23771,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x805c2077f3ab224d889f9c3992b41b2f4722c787",
+		"address": "0x80592d613a383f2ba3c42e4c247067289ee60152",
 		"data": {
-			"name": "art Q NFT Investment Fund",
-			"symbol": "ARTEQ",
-			"decimals": 0,
-			"logoUri": "/images/tokens/0x805c2077f3ab224d889f9c3992b41b2f4722c787.png"
+			"name": "TurboBot",
+			"symbol": "TURBO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x80592d613a383f2ba3c42e4c247067289ee60152.png"
 		}
 	},
 	{
@@ -19118,6 +23795,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PENDLE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x808507121b80c02388fad14726482e061b8da827.png"
+		}
+	},
+	{
+		"address": "0x808632424440f6483d9be7509812b53ed0f00344",
+		"data": {
+			"name": "Mechazilla",
+			"symbol": "MECHA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x808632424440f6483d9be7509812b53ed0f00344.png"
+		}
+	},
+	{
+		"address": "0x808688c820ab080a6ff1019f03e5ec227d9b522b",
+		"data": {
+			"name": "Bag",
+			"symbol": "BAG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x808688c820ab080a6ff1019f03e5ec227d9b522b.png"
 		}
 	},
 	{
@@ -19175,15 +23870,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x80cd73badb406ea36b9a7cdeb8df06aefa7e12d9",
-		"data": {
-			"name": "SleepFuture",
-			"symbol": "SLEEPEE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x80cd73badb406ea36b9a7cdeb8df06aefa7e12d9.png"
-		}
-	},
-	{
 		"address": "0x80ce3027a70e0a928d9268994e9b85d03bd4cdcf",
 		"data": {
 			"name": "Lokr",
@@ -19199,6 +23885,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "OPUL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x80d55c03180349fff4a229102f62328220a96444.png"
+		}
+	},
+	{
+		"address": "0x80d69e79258fe9d056c822461c4eb0b4ca8802e2",
+		"data": {
+			"name": "Inception rETH",
+			"symbol": "INRETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x80d69e79258fe9d056c822461c4eb0b4ca8802e2.png"
+		}
+	},
+	{
+		"address": "0x80ee5c641a8ffc607545219a3856562f56427fe9",
+		"data": {
+			"name": "Brett ETH",
+			"symbol": "BRETT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x80ee5c641a8ffc607545219a3856562f56427fe9.png"
 		}
 	},
 	{
@@ -19220,6 +23924,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8110af6bd2af3f5c4586032ff813c8934451abbe",
+		"data": {
+			"name": "Cypher AI",
+			"symbol": "CYPHER",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8110af6bd2af3f5c4586032ff813c8934451abbe.png"
+		}
+	},
+	{
+		"address": "0x814a870726edb7dfc4798300ae1ce3e5da0ac467",
+		"data": {
+			"name": "daCat",
+			"symbol": "DACAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x814a870726edb7dfc4798300ae1ce3e5da0ac467.png"
+		}
+	},
+	{
 		"address": "0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26",
 		"data": {
 			"name": "Measurable Data",
@@ -19229,12 +23951,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x816fce1cc93473b2d54bd8c0dae4cae911f6dd41",
+		"address": "0x8162b5bc8f651007cc38a09f557bab2bf4cefb5b",
 		"data": {
-			"name": "Mech X",
-			"symbol": "MECHX",
+			"name": "Streamer Inu",
+			"symbol": "STRM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x816fce1cc93473b2d54bd8c0dae4cae911f6dd41.png"
+			"logoUri": "/images/tokens/0x8162b5bc8f651007cc38a09f557bab2bf4cefb5b.png"
 		}
 	},
 	{
@@ -19256,21 +23978,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8189afbe7b0e81dae735ef027cd31371b3974feb",
-		"data": {
-			"name": "Bean",
-			"symbol": "BEAN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8189afbe7b0e81dae735ef027cd31371b3974feb.png"
-		}
-	},
-	{
 		"address": "0x81994b9607e06ab3d5cf3afff9a67374f05f27d7",
 		"data": {
 			"name": "Flux USDT",
 			"symbol": "FUSDT",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x81994b9607e06ab3d5cf3afff9a67374f05f27d7.png"
+		}
+	},
+	{
+		"address": "0x81994dfbbe69c9e03226c2ebe62f7352dc3db812",
+		"data": {
+			"name": "RaidSharksBot",
+			"symbol": "SHARX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x81994dfbbe69c9e03226c2ebe62f7352dc3db812.png"
 		}
 	},
 	{
@@ -19283,12 +24005,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x81ef51fce2b14874cb840515facf5be667ea4d8f",
+		"address": "0x81db1949d0e888557bc632f7c0f6698b1f8c9106",
 		"data": {
-			"name": "MadApe",
-			"symbol": "MADAPE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x81ef51fce2b14874cb840515facf5be667ea4d8f.png"
+			"name": "d acc",
+			"symbol": "D/ACC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x81db1949d0e888557bc632f7c0f6698b1f8c9106.png"
 		}
 	},
 	{
@@ -19319,11 +24041,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x822f1a51e534723ec1305e6eb5c96aecfeb4c629",
+		"address": "0x821a278dfff762c76410264303f25bf42e195c0c",
 		"data": {
-			"name": "Metaus",
-			"symbol": "MTU",
-			"decimals": 18
+			"name": "pETH",
+			"symbol": "PETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x821a278dfff762c76410264303f25bf42e195c0c.png"
 		}
 	},
 	{
@@ -19342,6 +24065,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "COIL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x823e1b82ce1dc147bbdb25a203f046afab1ce918.png"
+		}
+	},
+	{
+		"address": "0x8248270620aa532e4d64316017be5e873e37cc09",
+		"data": {
+			"name": "DevvE",
+			"symbol": "DEVVE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8248270620aa532e4d64316017be5e873e37cc09.png"
 		}
 	},
 	{
@@ -19372,12 +24104,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x82698aecc9e28e9bb27608bd52cf57f704bd1b83",
+		"address": "0x826180541412d574cf1336d22c0c0a287822678a",
 		"data": {
-			"name": "Balancer Boosted Aave USDC",
-			"symbol": "BB-A-USDC",
+			"name": "Chainflip",
+			"symbol": "FLIP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
+			"logoUri": "/images/tokens/0x826180541412d574cf1336d22c0c0a287822678a.png"
 		}
 	},
 	{
@@ -19390,12 +24122,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x828eb9a1934c143808e325754c54ae2c1741ec49",
+		"data": {
+			"name": "Addy",
+			"symbol": "ADDY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x828eb9a1934c143808e325754c54ae2c1741ec49.png"
+		}
+	},
+	{
 		"address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
 		"data": {
 			"name": "Ankr Network",
 			"symbol": "ANKR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8290333cef9e6d528dd5618fb97a76f268f3edd4.png"
+		}
+	},
+	{
+		"address": "0x82967568a57625675b260ebab1294038c9accc6e",
+		"data": {
+			"name": "Nova DAO",
+			"symbol": "NOVA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x82967568a57625675b260ebab1294038c9accc6e.png"
+		}
+	},
+	{
+		"address": "0x82a605d6d9114f4ad6d5ee461027477eeed31e34",
+		"data": {
+			"name": "Sensay",
+			"symbol": "SNSY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x82a605d6d9114f4ad6d5ee461027477eeed31e34.png"
+		}
+	},
+	{
+		"address": "0x82a77710495a35549d2add797412b4a4497d33ef",
+		"data": {
+			"name": "Dogz",
+			"symbol": "DOGZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x82a77710495a35549d2add797412b4a4497d33ef.png"
+		}
+	},
+	{
+		"address": "0x82f13ab56cc0d1b727e8253a943f0de75b048b0b",
+		"data": {
+			"name": "PlayFi",
+			"symbol": "PLAYFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x82f13ab56cc0d1b727e8253a943f0de75b048b0b.png"
 		}
 	},
 	{
@@ -19417,6 +24194,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x830eb1204380e9c44434db8700257025358707c6",
+		"data": {
+			"name": "Goons of Balatroon",
+			"symbol": "GOB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x830eb1204380e9c44434db8700257025358707c6.png"
+		}
+	},
+	{
 		"address": "0x83249c6794bca5a77eb8c0af9f1a86e055459cea",
 		"data": {
 			"name": "GigaSwap",
@@ -19432,15 +24218,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DOGU",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8326bf664704966c984a3a46fa37d7a80a52dcf4.png"
-		}
-	},
-	{
-		"address": "0x833d94797cbea8279a689572b01f310ff5ffa31b",
-		"data": {
-			"name": "PixiaAI",
-			"symbol": "PIXIA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x833d94797cbea8279a689572b01f310ff5ffa31b.png"
 		}
 	},
 	{
@@ -19471,21 +24248,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x836a808d4828586a69364065a1e064609f5078c7",
-		"data": {
-			"name": "pETH",
-			"symbol": "PETH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x836a808d4828586a69364065a1e064609f5078c7.png"
-		}
-	},
-	{
 		"address": "0x837d904a3799c0769079be9ecbaddf1abd4ccd6e",
 		"data": {
-			"name": "Tarot",
+			"name": "Tarot V1",
 			"symbol": "TAROT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x837d904a3799c0769079be9ecbaddf1abd4ccd6e.png"
+		}
+	},
+	{
+		"address": "0x837ee5a664d51bc2e7d26eb63cffeb48e037bde2",
+		"data": {
+			"name": "NomotaAI",
+			"symbol": "NMAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x837ee5a664d51bc2e7d26eb63cffeb48e037bde2.png"
 		}
 	},
 	{
@@ -19498,12 +24275,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8387c2d1b0eea6b91b910aff66a7bd2710a5946a",
+		"address": "0x8390a1da07e376ef7add4be859ba74fb83aa02d5",
 		"data": {
-			"name": "Fomo Eth",
-			"symbol": "FOMO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8387c2d1b0eea6b91b910aff66a7bd2710a5946a.png"
+			"name": "Grok",
+			"symbol": "GROK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8390a1da07e376ef7add4be859ba74fb83aa02d5.png"
 		}
 	},
 	{
@@ -19543,6 +24320,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x83e817e1574e2201a005ec0f7e700ed5606f555e",
+		"data": {
+			"name": "mPendle",
+			"symbol": "MPENDLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x83e817e1574e2201a005ec0f7e700ed5606f555e.png"
+		}
+	},
+	{
 		"address": "0x83e9f223e1edb3486f876ee888d76bfba26c475a",
 		"data": {
 			"name": "BlockchainSpace",
@@ -19552,12 +24338,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+		"data": {
+			"name": "Savings Dai",
+			"symbol": "SDAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x83f20f44975d03b1b09e64809b757c47f942beea.png"
+		}
+	},
+	{
+		"address": "0x83f5b9c25cc8fce0a7d4a1bda904bf13cfcdd9da",
+		"data": {
+			"name": "FP  DeGods",
+			"symbol": "UDEGODS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x83f5b9c25cc8fce0a7d4a1bda904bf13cfcdd9da.png"
+		}
+	},
+	{
 		"address": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
 		"data": {
 			"name": "Unibright",
 			"symbol": "UBT",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e.png"
+		}
+	},
+	{
+		"address": "0x84018071282d4b2996272659d9c01cb08dd7327f",
+		"data": {
+			"name": "Blendr Network",
+			"symbol": "BLENDR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x84018071282d4b2996272659d9c01cb08dd7327f.png"
 		}
 	},
 	{
@@ -19606,6 +24419,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
+		"data": {
+			"name": "AltLayer",
+			"symbol": "ALT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb.png"
+		}
+	},
+	{
 		"address": "0x845e2e8b42dced7dedcdba9bde32c9e338224f97",
 		"data": {
 			"name": "Satozhi",
@@ -19621,15 +24443,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PMA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x846c66cf71c43f80403b51fe3906b3599d63336f.png"
-		}
-	},
-	{
-		"address": "0x84777600c51996b2ce92a514ff2583b7d7c2239b",
-		"data": {
-			"name": "Recovery Value USD",
-			"symbol": "RVUSD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x84777600c51996b2ce92a514ff2583b7d7c2239b.png"
 		}
 	},
 	{
@@ -19696,6 +24509,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x84fad63f8f26335f4f1bebc9fbf5ba277fd23c9e",
+		"data": {
+			"name": "Arma Block",
+			"symbol": "AB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x84fad63f8f26335f4f1bebc9fbf5ba277fd23c9e.png"
+		}
+	},
+	{
 		"address": "0x8503a7b00b4b52692cc6c14e5b96f142e30547b7",
 		"data": {
 			"name": "Meeds DAO",
@@ -19759,21 +24581,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x85516e8862ab543ea15972b7809256efec0696ea",
+		"data": {
+			"name": "ROCK",
+			"symbol": "ROCK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x85516e8862ab543ea15972b7809256efec0696ea.png"
+		}
+	},
+	{
+		"address": "0x85614a474dbeed440d5bbdb8ac50b0f22367f997",
+		"data": {
+			"name": "Verge  ETH ",
+			"symbol": "XVG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x85614a474dbeed440d5bbdb8ac50b0f22367f997.png"
+		}
+	},
+	{
 		"address": "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3",
 		"data": {
 			"name": "Origin Ether",
 			"symbol": "OETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3.png"
-		}
-	},
-	{
-		"address": "0x85705ec9f2e11b8a70607d93ffaf9d73ec84cc34",
-		"data": {
-			"name": "Alien Chain",
-			"symbol": "ALIEN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x85705ec9f2e11b8a70607d93ffaf9d73ec84cc34.png"
 		}
 	},
 	{
@@ -19786,12 +24617,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x857d4d47a707cb4e409e14ac63b2e79114acd102",
+		"address": "0x857de36f92330e1b9a21e8745c692f2ce13866cb",
 		"data": {
-			"name": "Titter",
-			"symbol": "TITR",
+			"name": "Meta Masters Guild Games",
+			"symbol": "MEMAGX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x857d4d47a707cb4e409e14ac63b2e79114acd102.png"
+			"logoUri": "/images/tokens/0x857de36f92330e1b9a21e8745c692f2ce13866cb.png"
+		}
+	},
+	{
+		"address": "0x85b6acaba696b9e4247175274f8263f99b4b9180",
+		"data": {
+			"name": "Spiral",
+			"symbol": "SPR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x85b6acaba696b9e4247175274f8263f99b4b9180.png"
+		}
+	},
+	{
+		"address": "0x85d19fb57ca7da715695fcf347ca2169144523a7",
+		"data": {
+			"name": "Conan",
+			"symbol": "CONAN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x85d19fb57ca7da715695fcf347ca2169144523a7.png"
+		}
+	},
+	{
+		"address": "0x85e0b9d3e7e4dba7e59090c533906d0e9211d8b6",
+		"data": {
+			"name": "Ishi",
+			"symbol": "ISHI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x85e0b9d3e7e4dba7e59090c533906d0e9211d8b6.png"
 		}
 	},
 	{
@@ -19804,12 +24662,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x85f138bfee4ef8e540890cfb48f620571d67eda3",
+		"data": {
+			"name": "Avalanche  Wormhole ",
+			"symbol": "AVAX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x85f138bfee4ef8e540890cfb48f620571d67eda3.png"
+		}
+	},
+	{
 		"address": "0x85f6eb2bd5a062f5f8560be93fb7147e16c81472",
 		"data": {
 			"name": "Franklin",
 			"symbol": "FLY",
 			"decimals": 4,
 			"logoUri": "/images/tokens/0x85f6eb2bd5a062f5f8560be93fb7147e16c81472.png"
+		}
+	},
+	{
+		"address": "0x85f7cfe910393fb5593c65230622aa597e4223f1",
+		"data": {
+			"name": "Nitefeeder",
+			"symbol": "NITEFEEDER",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x85f7cfe910393fb5593c65230622aa597e4223f1.png"
 		}
 	},
 	{
@@ -19822,12 +24698,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8640353cdc9778deab0df45d12fb3013deac079c",
+		"address": "0x861950d091704c80b2a0f69d4b3431f0aed7dc7a",
 		"data": {
-			"name": "DEVITA",
-			"symbol": "LIFE",
+			"name": "Magic BOT",
+			"symbol": "MAGIC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8640353cdc9778deab0df45d12fb3013deac079c.png"
+			"logoUri": "/images/tokens/0x861950d091704c80b2a0f69d4b3431f0aed7dc7a.png"
 		}
 	},
 	{
@@ -19837,6 +24713,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PROS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8642a849d0dcb7a15a974794668adcfbe4794b56.png"
+		}
+	},
+	{
+		"address": "0x864ac60596435031cdd28257091c26c62e53e44d",
+		"data": {
+			"name": "AMAX",
+			"symbol": "AMAX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x864ac60596435031cdd28257091c26c62e53e44d.png"
 		}
 	},
 	{
@@ -19903,12 +24788,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x86d1d12523b65203851c571fcc029bf90903fb6d",
+		"address": "0x86b5e2642d094078ad7fe4e0a61f1f4eb4e3280c",
 		"data": {
-			"name": "Bintex Futures",
-			"symbol": "BNTX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x86d1d12523b65203851c571fcc029bf90903fb6d.png"
+			"name": "SynthAI",
+			"symbol": "SYNTHAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x86b5e2642d094078ad7fe4e0a61f1f4eb4e3280c.png"
 		}
 	},
 	{
@@ -19939,15 +24824,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x86f0cdb38a853420be4dbf6a3a9a3fe0756bc701",
-		"data": {
-			"name": "Leverage Protocol",
-			"symbol": "LEVX",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x86f0cdb38a853420be4dbf6a3a9a3fe0756bc701.png"
-		}
-	},
-	{
 		"address": "0x8716fc5da009d3a208f0178b637a50f4ef42400f",
 		"data": {
 			"name": "Ultrain",
@@ -19966,6 +24842,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x872952d3c1caf944852c5adda65633f1ef218a26",
+		"data": {
+			"name": "Liquid Crypto",
+			"symbol": "LQDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x872952d3c1caf944852c5adda65633f1ef218a26.png"
+		}
+	},
+	{
 		"address": "0x873fb544277fd7b977b196a826459a69e27ea4ea",
 		"data": {
 			"name": "RAI yVault",
@@ -19975,12 +24860,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x875154c31b8858fdda9c7ccbed7ec15dc95943ae",
+		"address": "0x8747a3114ef7f0eebd3eb337f745e31dbf81a952",
 		"data": {
-			"name": "Chopbot",
-			"symbol": "CHOP",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x875154c31b8858fdda9c7ccbed7ec15dc95943ae.png"
+			"name": "Aktionariat ServiceHunter AG Tokenized ",
+			"symbol": "DQTS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x8747a3114ef7f0eebd3eb337f745e31dbf81a952.png"
 		}
 	},
 	{
@@ -20002,30 +24887,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x876a76c80b32e5cfbb27fd840a1a530ef828ebec",
+		"address": "0x876a87e17d76e1487186e00792985918abadca6b",
 		"data": {
-			"name": "Spotted Turtle",
-			"symbol": "ST",
+			"name": "MemeDefi",
+			"symbol": "MEMEFI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x876a76c80b32e5cfbb27fd840a1a530ef828ebec.png"
-		}
-	},
-	{
-		"address": "0x8770b7dd89e5f759ee3b226e0c45e890f87ddc48",
-		"data": {
-			"name": "Made In Real Life",
-			"symbol": "MIRL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8770b7dd89e5f759ee3b226e0c45e890f87ddc48.png"
-		}
-	},
-	{
-		"address": "0x877dd180f71369d9bd70e658baba110a55ee3f1f",
-		"data": {
-			"name": "Fat Pickle",
-			"symbol": "FATP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x877dd180f71369d9bd70e658baba110a55ee3f1f.png"
+			"logoUri": "/images/tokens/0x876a87e17d76e1487186e00792985918abadca6b.png"
 		}
 	},
 	{
@@ -20044,6 +24911,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DERP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x878fcc2bdcccff8c56812607b9a58f29b274c4f0.png"
+		}
+	},
+	{
+		"address": "0x879054273cb2dad631980fa4efe6d25eefe08aa4",
+		"data": {
+			"name": "Eigenpie frxETH",
+			"symbol": "MSFRXETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x879054273cb2dad631980fa4efe6d25eefe08aa4.png"
 		}
 	},
 	{
@@ -20092,6 +24968,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x87c22db324b8b0637c8f09d2670ae7777651dbb8",
+		"data": {
+			"name": "Root Protocol",
+			"symbol": "ISME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x87c22db324b8b0637c8f09d2670ae7777651dbb8.png"
+		}
+	},
+	{
 		"address": "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776",
 		"data": {
 			"name": "NFTX",
@@ -20101,12 +24986,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x87da7bbd398d6610ded42617e34069d0083ff8ab",
+		"address": "0x87d907568a0761ea45d2917e324557920668f224",
 		"data": {
-			"name": "Mind Connect",
-			"symbol": "MIND",
+			"name": "Grok2 0",
+			"symbol": "GROK20",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x87da7bbd398d6610ded42617e34069d0083ff8ab.png"
+			"logoUri": "/images/tokens/0x87d907568a0761ea45d2917e324557920668f224.png"
 		}
 	},
 	{
@@ -20119,12 +25004,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x87edffde3e14c7a66c9b9724747a1c5696b742e6",
+		"address": "0x87e75025d6607564ad005088ab549dd76ca2ce48",
 		"data": {
-			"name": "SWAG Finance",
-			"symbol": "SWAG",
+			"name": "Pier Protocol",
+			"symbol": "PIER",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x87edffde3e14c7a66c9b9724747a1c5696b742e6.png"
+			"logoUri": "/images/tokens/0x87e75025d6607564ad005088ab549dd76ca2ce48.png"
+		}
+	},
+	{
+		"address": "0x87fd01183ba0235e1568995884a78f61081267ef",
+		"data": {
+			"name": "Open Mind Network",
+			"symbol": "OPMND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x87fd01183ba0235e1568995884a78f61081267ef.png"
+		}
+	},
+	{
+		"address": "0x87fdd1e031b356bdc1c55a3231cfe266552d8284",
+		"data": {
+			"name": "PBM Coin",
+			"symbol": "PBMC",
+			"decimals": 14,
+			"logoUri": "/images/tokens/0x87fdd1e031b356bdc1c55a3231cfe266552d8284.png"
 		}
 	},
 	{
@@ -20134,33 +25037,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "UQC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2.png"
-		}
-	},
-	{
-		"address": "0x8810c63470d38639954c6b41aac545848c46484a",
-		"data": {
-			"name": "Aditus",
-			"symbol": "ADI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8810c63470d38639954c6b41aac545848c46484a.png"
-		}
-	},
-	{
-		"address": "0x881145e5a28b6411cb80d0350497217f549b050c",
-		"data": {
-			"name": "Farmer Moe",
-			"symbol": "MOE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x881145e5a28b6411cb80d0350497217f549b050c.png"
-		}
-	},
-	{
-		"address": "0x8811e4dd5ec5eb8764b97cc814b1339089717ada",
-		"data": {
-			"name": "Bithachi",
-			"symbol": "BITH",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x8811e4dd5ec5eb8764b97cc814b1339089717ada.png"
 		}
 	},
 	{
@@ -20188,15 +25064,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CRFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8848812bd31aeee33313c10a840ffc3169078c5b.png"
-		}
-	},
-	{
-		"address": "0x884ddbb5dc6c2cef77d3e74c6ccca315797d655b",
-		"data": {
-			"name": "Carnomaly",
-			"symbol": "CARR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x884ddbb5dc6c2cef77d3e74c6ccca315797d655b.png"
 		}
 	},
 	{
@@ -20236,6 +25103,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8881562783028f5c1bcb985d2283d5e170d88888",
+		"data": {
+			"name": "Shuffle",
+			"symbol": "SHFL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8881562783028f5c1bcb985d2283d5e170d88888.png"
+		}
+	},
+	{
 		"address": "0x8888801af4d980682e47f1a9036e589479e835c5",
 		"data": {
 			"name": "88mph",
@@ -20263,30 +25139,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x888888888888f195e27a2e0f98d712952ab9348e",
-		"data": {
-			"name": "Shorter Finance",
-			"symbol": "IPISTR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x888888888888f195e27a2e0f98d712952ab9348e.png"
-		}
-	},
-	{
 		"address": "0x888888888889c00c67689029d7856aac1065ec11",
 		"data": {
 			"name": "Opium",
 			"symbol": "OPIUM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x888888888889c00c67689029d7856aac1065ec11.png"
-		}
-	},
-	{
-		"address": "0x888cea2bbdd5d47a4032cf63668d7525c74af57a",
-		"data": {
-			"name": "Poof Token",
-			"symbol": "POOF",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x888cea2bbdd5d47a4032cf63668d7525c74af57a.png"
 		}
 	},
 	{
@@ -20301,7 +25159,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x88aa4a6c5050b9a1b2aa7e34d0582025ca6ab745",
 		"data": {
-			"name": "Vela Exchange",
+			"name": "Dexpools",
 			"symbol": "DXP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x88aa4a6c5050b9a1b2aa7e34d0582025ca6ab745.png"
@@ -20335,6 +25193,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x890a60b4450484847380bddca0c3c3ee2ff0dfbe",
+		"data": {
+			"name": "X Ratio AI",
+			"symbol": "XRAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x890a60b4450484847380bddca0c3c3ee2ff0dfbe.png"
+		}
+	},
+	{
+		"address": "0x891de5f139791ddf9dbabf519cfe2a049f8fc6d3",
+		"data": {
+			"name": "Dibbles",
+			"symbol": "DIBBLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x891de5f139791ddf9dbabf519cfe2a049f8fc6d3.png"
+		}
+	},
+	{
+		"address": "0x891e33c8a49ed9f59be3726834ad78cf597b56e9",
+		"data": {
+			"name": "Green Games",
+			"symbol": "BETTED",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x891e33c8a49ed9f59be3726834ad78cf597b56e9.png"
+		}
+	},
+	{
 		"address": "0x8929e9dbd2785e3ba16175e596cdd61520fee0d1",
 		"data": {
 			"name": "Altitude",
@@ -20353,12 +25238,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x89303500a7abfb178b274fd89f2469c264951e1f",
+		"address": "0x893c47bc1ff55c2269236ac7a4288681532161e0",
 		"data": {
-			"name": "Ref",
-			"symbol": "REF",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x89303500a7abfb178b274fd89f2469c264951e1f.png"
+			"name": "Error 404",
+			"symbol": "ERR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x893c47bc1ff55c2269236ac7a4288681532161e0.png"
 		}
 	},
 	{
@@ -20386,15 +25271,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TX",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x8954d907520532c1f0d89d42569232fd0f995fdf.png"
-		}
-	},
-	{
-		"address": "0x89551b940e2a8ed8eccf509935bac9213fe30584",
-		"data": {
-			"name": "DoDreamChain",
-			"symbol": "DRM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x89551b940e2a8ed8eccf509935bac9213fe30584.png"
 		}
 	},
 	{
@@ -20443,6 +25319,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x89d584a1edb3a70b3b07963f9a3ea5399e38b136",
+		"data": {
+			"name": "AIT Protocol",
+			"symbol": "AIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x89d584a1edb3a70b3b07963f9a3ea5399e38b136.png"
+		}
+	},
+	{
+		"address": "0x89deb6c8918a42457bd6ddbcaaf979216c4d774c",
+		"data": {
+			"name": "HapticAI",
+			"symbol": "HAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x89deb6c8918a42457bd6ddbcaaf979216c4d774c.png"
+		}
+	},
+	{
 		"address": "0x89fb927240750c1b15d4743cd58440fc5f14a11c",
 		"data": {
 			"name": "Attila",
@@ -20461,12 +25355,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8a0c816a52e71a1e9b6719580ebe754709c55198",
+		"address": "0x8a053350ca5f9352a16ded26ab333e2d251dad7c",
 		"data": {
-			"name": "zkSync Labs",
-			"symbol": "ZKLAB",
+			"name": "Eigenpie mETH",
+			"symbol": "MMETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8a0c816a52e71a1e9b6719580ebe754709c55198.png"
+			"logoUri": "/images/tokens/0x8a053350ca5f9352a16ded26ab333e2d251dad7c.png"
+		}
+	},
+	{
+		"address": "0x8a0a9b663693a22235b896f70a229c4a22597623",
+		"data": {
+			"name": "Scalia Infrastructure",
+			"symbol": "SCALE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8a0a9b663693a22235b896f70a229c4a22597623.png"
 		}
 	},
 	{
@@ -20515,6 +25418,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8a458a9dc9048e005d22849f470891b840296619",
+		"data": {
+			"name": "Aave v3 MKR",
+			"symbol": "AMKR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8a458a9dc9048e005d22849f470891b840296619.png"
+		}
+	},
+	{
 		"address": "0x8a6aca71a218301c7081d4e96d64292d3b275ce0",
 		"data": {
 			"name": "S Finance",
@@ -20542,12 +25454,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8a7adc1b690e81c758f1bd0f72dfe27ae6ec56a5",
+		"address": "0x8a7b7b9b2f7d0c63f66171721339705a6188a7d5",
 		"data": {
-			"name": "Bolide",
-			"symbol": "BLID",
+			"name": "EtherDoge",
+			"symbol": "EDOGE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8a7adc1b690e81c758f1bd0f72dfe27ae6ec56a5.png"
+			"logoUri": "/images/tokens/0x8a7b7b9b2f7d0c63f66171721339705a6188a7d5.png"
+		}
+	},
+	{
+		"address": "0x8a8116a794744977941c7d3743517410969aacbb",
+		"data": {
+			"name": "Shiba Punkz",
+			"symbol": "SPUNK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8a8116a794744977941c7d3743517410969aacbb.png"
 		}
 	},
 	{
@@ -20569,6 +25490,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8ab2ff0116a279a99950c66a12298962d152b83c",
+		"data": {
+			"name": "Ordiswap",
+			"symbol": "ORDS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8ab2ff0116a279a99950c66a12298962d152b83c.png"
+		}
+	},
+	{
 		"address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
 		"data": {
 			"name": "Akropolis",
@@ -20578,21 +25508,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8acee0fcee91cedad1c5013f031762c814740587",
+		"address": "0x8ab98330473101309db94b625f9997366a518223",
 		"data": {
-			"name": "SAUDI PEPE",
-			"symbol": "SAUDIPEPE",
+			"name": "PlasticHero",
+			"symbol": "PTH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8acee0fcee91cedad1c5013f031762c814740587.png"
-		}
-	},
-	{
-		"address": "0x8ae452d9f8f08f21ff81c94260cb85302a31ac30",
-		"data": {
-			"name": "XFL",
-			"symbol": "XFL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8ae452d9f8f08f21ff81c94260cb85302a31ac30.png"
+			"logoUri": "/images/tokens/0x8ab98330473101309db94b625f9997366a518223.png"
 		}
 	},
 	{
@@ -20605,12 +25526,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8aec4bbdcfb451aa289bfbd3c2f4e34a44ada1be",
+		"data": {
+			"name": "dogwifhat Eth",
+			"symbol": "DOGWIFHAT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8aec4bbdcfb451aa289bfbd3c2f4e34a44ada1be.png"
+		}
+	},
+	{
 		"address": "0x8af78f0c818302164f73b2365fe152c2d1fe80e1",
 		"data": {
 			"name": "Financie Token",
 			"symbol": "FNCT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8af78f0c818302164f73b2365fe152c2d1fe80e1.png"
+		}
+	},
+	{
+		"address": "0x8afe4055ebc86bd2afb3940c0095c9aca511d852",
+		"data": {
+			"name": "Arbius",
+			"symbol": "AIUS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8afe4055ebc86bd2afb3940c0095c9aca511d852.png"
 		}
 	},
 	{
@@ -20623,6 +25562,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8b12bd54ca9b2311960057c8f3c88013e79316e3",
+		"data": {
+			"name": "Reach",
+			"symbol": "REACH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8b12bd54ca9b2311960057c8f3c88013e79316e3.png"
+		}
+	},
+	{
 		"address": "0x8b1f49491477e0fb46a29fef53f1ea320d13c349",
 		"data": {
 			"name": "MicroMoney",
@@ -20632,9 +25580,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8b227d72570d3ead66014bca8305cbef7f90d1ee",
+		"data": {
+			"name": "LIZA",
+			"symbol": "LIZA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8b227d72570d3ead66014bca8305cbef7f90d1ee.png"
+		}
+	},
+	{
 		"address": "0x8b3870df408ff4d7c3a26df852d41034eda11d81",
 		"data": {
-			"name": "IOI",
+			"name": "IOI Token",
 			"symbol": "IOI",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x8b3870df408ff4d7c3a26df852d41034eda11d81.png"
@@ -20650,21 +25607,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8b6cda5cc518c904e8844f445e1a7c7d2db0ff16",
+		"address": "0x8b4d316e40ac4baf08957963210c6cff683a152b",
 		"data": {
-			"name": "SF Capital",
-			"symbol": "SFCP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8b6cda5cc518c904e8844f445e1a7c7d2db0ff16.png"
+			"name": "No Decimal",
+			"symbol": "SCARCE",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0x8b4d316e40ac4baf08957963210c6cff683a152b.png"
 		}
 	},
 	{
-		"address": "0x8b79656fc38a04044e495e22fad747126ca305c4",
+		"address": "0x8b802513d4aa6f349b197a4ea4c26563cd6fd5b2",
 		"data": {
-			"name": "AgaveCoin",
-			"symbol": "AGVC",
+			"name": "HIgher IMO",
+			"symbol": "HIGHER",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8b79656fc38a04044e495e22fad747126ca305c4.png"
+			"logoUri": "/images/tokens/0x8b802513d4aa6f349b197a4ea4c26563cd6fd5b2.png"
+		}
+	},
+	{
+		"address": "0x8b8aa7777e18408c07b0ed52ca3dd5bdab34eb7e",
+		"data": {
+			"name": "Paradox",
+			"symbol": "PDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8b8aa7777e18408c07b0ed52ca3dd5bdab34eb7e.png"
+		}
+	},
+	{
+		"address": "0x8b91f277501cf8322ebe34f137dd35b384b353c7",
+		"data": {
+			"name": "CoreAI",
+			"symbol": "CORE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8b91f277501cf8322ebe34f137dd35b384b353c7.png"
 		}
 	},
 	{
@@ -20674,6 +25649,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "JIZZ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8b937af714ac7e2129bd33d93641f52b665ca352.png"
+		}
+	},
+	{
+		"address": "0x8b9b95292f890df47fff5ac9cbe93d5fc242bd51",
+		"data": {
+			"name": "BeFi Labs",
+			"symbol": "BEFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8b9b95292f890df47fff5ac9cbe93d5fc242bd51.png"
 		}
 	},
 	{
@@ -20713,6 +25697,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8bc2bcb1b1896291942c36f3cca3c1afa0aaa7fd",
+		"data": {
+			"name": "3SPACE ART",
+			"symbol": "PACE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8bc2bcb1b1896291942c36f3cca3c1afa0aaa7fd.png"
+		}
+	},
+	{
 		"address": "0x8bcbef61acd66537362f38167f11875134ffcd63",
 		"data": {
 			"name": "Pepe Girl",
@@ -20728,6 +25721,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BLKC",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x8bcd06492416a749c9369009b3429861b7f27f6e.png"
+		}
+	},
+	{
+		"address": "0x8be8b0dde627dd6be9a4b7fcadd04899aabdb2b1",
+		"data": {
+			"name": "Rand",
+			"symbol": "RND",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x8be8b0dde627dd6be9a4b7fcadd04899aabdb2b1.png"
+		}
+	},
+	{
+		"address": "0x8bf30e9f44e5d068a9d0c20da22660997a532e33",
+		"data": {
+			"name": "GhostDAG org",
+			"symbol": "GDAG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8bf30e9f44e5d068a9d0c20da22660997a532e33.png"
 		}
 	},
 	{
@@ -20767,12 +25778,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310",
+		"address": "0x8c213ae332274e6314bf4cf989604e7f61162967",
 		"data": {
-			"name": "NFTEarth",
-			"symbol": "NFTE",
+			"name": "Dongo AI",
+			"symbol": "DONGO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8c213ae332274e6314bf4cf989604e7f61162967.png"
+		}
+	},
+	{
+		"address": "0x8c282c35b5e1088bb208991c151182a782637699",
+		"data": {
+			"name": "Monai",
+			"symbol": "MONAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8c223a82e07fecb49d602150d7c2b3a4c9630310.png"
+			"logoUri": "/images/tokens/0x8c282c35b5e1088bb208991c151182a782637699.png"
+		}
+	},
+	{
+		"address": "0x8c3d11360a70fb708762b394be8ef23e3a633e3f",
+		"data": {
+			"name": "FP  BoredApeKennelClub",
+			"symbol": "UBAKC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8c3d11360a70fb708762b394be8ef23e3a633e3f.png"
 		}
 	},
 	{
@@ -20794,12 +25823,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8c661806f716652b637728355cc4e2620d428f99",
+		"address": "0x8c6778023c3d4fd79ddd14810079f64c39e9e43d",
 		"data": {
-			"name": "Delio DSP",
-			"symbol": "DSP",
+			"name": "0xAISwap",
+			"symbol": "0XAISWAP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8c661806f716652b637728355cc4e2620d428f99.png"
+			"logoUri": "/images/tokens/0x8c6778023c3d4fd79ddd14810079f64c39e9e43d.png"
+		}
+	},
+	{
+		"address": "0x8c688327c9371bb3bd69f6e1f1a6d8c9ca0880a7",
+		"data": {
+			"name": "   D D ",
+			"symbol": "DADA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8c688327c9371bb3bd69f6e1f1a6d8c9ca0880a7.png"
 		}
 	},
 	{
@@ -20812,12 +25850,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8c6fa66c21ae3fc435790e451946a9ea82e6e523",
+		"address": "0x8c7ac134ed985367eadc6f727d79e8295e11435c",
 		"data": {
-			"name": "MetaFabric",
-			"symbol": "FABRIC",
+			"name": "The Balkan Dwarf",
+			"symbol": "KEKEC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8c6fa66c21ae3fc435790e451946a9ea82e6e523.png"
+			"logoUri": "/images/tokens/0x8c7ac134ed985367eadc6f727d79e8295e11435c.png"
 		}
 	},
 	{
@@ -20830,6 +25868,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8cb73eb53fa81f808f704bea15a677b6464a1f90",
+		"data": {
+			"name": "Gauro",
+			"symbol": "GAURO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8cb73eb53fa81f808f704bea15a677b6464a1f90.png"
+		}
+	},
+	{
 		"address": "0x8cc0f052fff7ead7f2edcccac895502e884a8a71",
 		"data": {
 			"name": "ARTH",
@@ -20839,30 +25886,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8cc5aba81a610f4fc01b42c83508ce7a59b8cc10",
+		"address": "0x8cc379a292a47cb8406fb1bd8a6d98f442275f0e",
 		"data": {
-			"name": "Hydra Ecosystem",
-			"symbol": "HDR",
+			"name": "Uranium3o8",
+			"symbol": "U",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8cc379a292a47cb8406fb1bd8a6d98f442275f0e.png"
+		}
+	},
+	{
+		"address": "0x8ccd897ca6160ed76755383b201c1948394328c7",
+		"data": {
+			"name": "Balance AI",
+			"symbol": "BAI",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x8cc5aba81a610f4fc01b42c83508ce7a59b8cc10.png"
+			"logoUri": "/images/tokens/0x8ccd897ca6160ed76755383b201c1948394328c7.png"
+		}
+	},
+	{
+		"address": "0x8ce55da273fb5cf4b1ffc5d4066bd62445a43543",
+		"data": {
+			"name": "Burners",
+			"symbol": "BRNR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8ce55da273fb5cf4b1ffc5d4066bd62445a43543.png"
 		}
 	},
 	{
 		"address": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
 		"data": {
-			"name": "SXP",
+			"name": "Solar",
 			"symbol": "SXP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9.png"
-		}
-	},
-	{
-		"address": "0x8d008cac1a5cb08ac962b1e34e977b79abeee88d",
-		"data": {
-			"name": "Pepe Analytics",
-			"symbol": "PEPEAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8d008cac1a5cb08ac962b1e34e977b79abeee88d.png"
 		}
 	},
 	{
@@ -20884,18 +25940,9 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8d6482b757f29e7b06440ddeebcceed3af49b4ce",
-		"data": {
-			"name": "Rocket Raccoon Token",
-			"symbol": "ROCKET",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x8d6482b757f29e7b06440ddeebcceed3af49b4ce.png"
-		}
-	},
-	{
 		"address": "0x8d6cebd76f18e1558d4db88138e2defb3909fad6",
 		"data": {
-			"name": "MAI",
+			"name": "MAI  Ethereum ",
 			"symbol": "MIMATIC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
@@ -20911,12 +25958,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8d85b9553896bd8159e608cb958628e01ed10916",
+		"data": {
+			"name": "STONED",
+			"symbol": "STONED",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8d85b9553896bd8159e608cb958628e01ed10916.png"
+		}
+	},
+	{
 		"address": "0x8d96b4ab6c741a4c8679ae323a100d74f085ba8f",
 		"data": {
 			"name": "Bazaars",
 			"symbol": "BZR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8d96b4ab6c741a4c8679ae323a100d74f085ba8f.png"
+		}
+	},
+	{
+		"address": "0x8d9d725aaa3f6236763ff548051657a342c37623",
+		"data": {
+			"name": "NED",
+			"symbol": "NED",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8d9d725aaa3f6236763ff548051657a342c37623.png"
 		}
 	},
 	{
@@ -20965,6 +26030,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8dba4bc68126bd186fbb62c976539d1558c9fe73",
+		"data": {
+			"name": "PEPEBOMB",
+			"symbol": "PEPE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8dba4bc68126bd186fbb62c976539d1558c9fe73.png"
+		}
+	},
+	{
+		"address": "0x8dbd1331b1de57835b24657ed21d0691e2e7362a",
+		"data": {
+			"name": "SentimentAI",
+			"symbol": "SENT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8dbd1331b1de57835b24657ed21d0691e2e7362a.png"
+		}
+	},
+	{
 		"address": "0x8dbf9a4c99580fc7fd4024ee08f3994420035727",
 		"data": {
 			"name": "ECO",
@@ -20974,30 +26057,75 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8dc89f4716e027394bba225b82328c1ea2ea58bf",
+		"address": "0x8dcaec45365e5ada5676073a07b418c2f538145a",
 		"data": {
-			"name": "Galaxy Villains",
-			"symbol": "GVC",
+			"name": "Shell",
+			"symbol": "SHELL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x8dc89f4716e027394bba225b82328c1ea2ea58bf.png"
+			"logoUri": "/images/tokens/0x8dcaec45365e5ada5676073a07b418c2f538145a.png"
 		}
 	},
 	{
-		"address": "0x8de2b2104b6ac8f9dce7755ff70f0fa452680d9a",
+		"address": "0x8dce83eca4af45dbe618da1779f9aaca43201084",
 		"data": {
-			"name": "First Sirius",
-			"symbol": "SIRIUS",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x8de2b2104b6ac8f9dce7755ff70f0fa452680d9a.png"
+			"name": "AlphaKEK AI",
+			"symbol": "AIKEK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8dce83eca4af45dbe618da1779f9aaca43201084.png"
 		}
 	},
 	{
-		"address": "0x8df60cfc67c1bf51fe3dd61b34b156f14f538f5d",
+		"address": "0x8dd09822e83313adca54c75696ae80c5429697ff",
 		"data": {
-			"name": "Wojak 2 69",
-			"symbol": "WOJAK269",
+			"name": "Sifu Vision",
+			"symbol": "SIFU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8dd09822e83313adca54c75696ae80c5429697ff.png"
+		}
+	},
+	{
+		"address": "0x8de43c9c1cd0a039b945b388f7b038b51f949baf",
+		"data": {
+			"name": "MoonCloud ai",
+			"symbol": "MCLOUD",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x8df60cfc67c1bf51fe3dd61b34b156f14f538f5d.png"
+			"logoUri": "/images/tokens/0x8de43c9c1cd0a039b945b388f7b038b51f949baf.png"
+		}
+	},
+	{
+		"address": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+		"data": {
+			"name": "Vanar Chain",
+			"symbol": "VANRY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8de5b80a0c1b02fe4976851d030b36122dbb8624.png"
+		}
+	},
+	{
+		"address": "0x8decef6c5d56a07e532b014fbb97db05c7380cbe",
+		"data": {
+			"name": "FairEx",
+			"symbol": "FRX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8decef6c5d56a07e532b014fbb97db05c7380cbe.png"
+		}
+	},
+	{
+		"address": "0x8df4197669cf7af9fd29d768c932251a0c2e3e94",
+		"data": {
+			"name": "Ninja404",
+			"symbol": "NINJA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8df4197669cf7af9fd29d768c932251a0c2e3e94.png"
+		}
+	},
+	{
+		"address": "0x8df5066cf67d909eb67b82854cf54026d31fffae",
+		"data": {
+			"name": "KOI",
+			"symbol": "KOI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8df5066cf67d909eb67b82854cf54026d31fffae.png"
 		}
 	},
 	{
@@ -21007,15 +26135,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "OKAGE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8dfc8cc3201425669fae803e1eb125cddd4189ec.png"
-		}
-	},
-	{
-		"address": "0x8e01397163b21f64cec1f06ca6cc7d9aa8f718e9",
-		"data": {
-			"name": "LIF3 LSHARE",
-			"symbol": "LSHARE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8e01397163b21f64cec1f06ca6cc7d9aa8f718e9.png"
 		}
 	},
 	{
@@ -21037,6 +26156,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8e1308f4808788767a864eee9a4927e38c790352",
+		"data": {
+			"name": "Physics",
+			"symbol": "PHYSICS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8e1308f4808788767a864eee9a4927e38c790352.png"
+		}
+	},
+	{
+		"address": "0x8e1a7f380963945061c4460b0f9c6dc0bdafd94f",
+		"data": {
+			"name": "XMas Santa Rally",
+			"symbol": "XMRY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8e1a7f380963945061c4460b0f9c6dc0bdafd94f.png"
+		}
+	},
+	{
 		"address": "0x8e235f491ae66b82296d58332adc2a021c449c10",
 		"data": {
 			"name": "Tipja",
@@ -21052,6 +26189,42 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DVP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8e30ea2329d95802fd804f4291220b0e2f579812.png"
+		}
+	},
+	{
+		"address": "0x8e32b8a41f2e86a3ee198912ac8d756c84295b40",
+		"data": {
+			"name": "Track The Funds Bot",
+			"symbol": "TTF",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8e32b8a41f2e86a3ee198912ac8d756c84295b40.png"
+		}
+	},
+	{
+		"address": "0x8e3a59427b1d87db234dd4ff63b25e4bf94672f4",
+		"data": {
+			"name": "Kelp Earned Points",
+			"symbol": "KEP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8e3a59427b1d87db234dd4ff63b25e4bf94672f4.png"
+		}
+	},
+	{
+		"address": "0x8e3fa615392688ddd9bf8f25d1f8dc744ac1a12c",
+		"data": {
+			"name": "DumbMoney",
+			"symbol": "GME",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8e3fa615392688ddd9bf8f25d1f8dc744ac1a12c.png"
+		}
+	},
+	{
+		"address": "0x8e4d27d772099e18900caf5dcc36cb612dcee886",
+		"data": {
+			"name": "Architex",
+			"symbol": "ARCX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8e4d27d772099e18900caf5dcc36cb612dcee886.png"
 		}
 	},
 	{
@@ -21073,6 +26246,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8e729198d1c59b82bd6bba579310c40d740a11c2",
+		"data": {
+			"name": "Alvara Protocol",
+			"symbol": "ALVA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8e729198d1c59b82bd6bba579310c40d740a11c2.png"
+		}
+	},
+	{
+		"address": "0x8e81d527f8fa05d82c514401c8144275174557cd",
+		"data": {
+			"name": " CCB    ",
+			"symbol": "CCB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8e81d527f8fa05d82c514401c8144275174557cd.png"
+		}
+	},
+	{
 		"address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
 		"data": {
 			"name": "Pax Dollar",
@@ -21088,33 +26279,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FLZ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8e964e35a76103af4c7d7318e1b1a82c682ae296.png"
-		}
-	},
-	{
-		"address": "0x8e9a29e7ed21db7c5b2e1cd75e676da0236dfb45",
-		"data": {
-			"name": "Minter Hub",
-			"symbol": "HUB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8e9a29e7ed21db7c5b2e1cd75e676da0236dfb45.png"
-		}
-	},
-	{
-		"address": "0x8ea9bedb8bb7e99643844ec79543f4faa78453e4",
-		"data": {
-			"name": "Marble Bet",
-			"symbol": "MARBLE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8ea9bedb8bb7e99643844ec79543f4faa78453e4.png"
-		}
-	},
-	{
-		"address": "0x8eb1779a32678452eb273a22d413207299904d90",
-		"data": {
-			"name": "Pochi Inu",
-			"symbol": "POCHI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8eb1779a32678452eb273a22d413207299904d90.png"
 		}
 	},
 	{
@@ -21145,6 +26309,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8ed955a2b7d2c3a17a9d05daca95e01818f8c11e",
+		"data": {
+			"name": "APF coin",
+			"symbol": "APFC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8ed955a2b7d2c3a17a9d05daca95e01818f8c11e.png"
+		}
+	},
+	{
 		"address": "0x8ed97a637a790be1feff5e888d43629dc05408f6",
 		"data": {
 			"name": "Non Playable Coin",
@@ -21154,21 +26327,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8edc62648236c20e528adb675ad3f3047697186f",
+		"data": {
+			"name": "ApePudgyCloneXAzukiMilady",
+			"symbol": "NFT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8edc62648236c20e528adb675ad3f3047697186f.png"
+		}
+	},
+	{
+		"address": "0x8edc6f7d2f23c10653972e611f707ce0562d61b1",
+		"data": {
+			"name": "MultiDEX AI",
+			"symbol": "MDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8edc6f7d2f23c10653972e611f707ce0562d61b1.png"
+		}
+	},
+	{
 		"address": "0x8ee325ae3e54e83956ef2d5952d3c8bc1fa6ec27",
 		"data": {
 			"name": "Fable Of The Dragon",
 			"symbol": "TYRANT",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x8ee325ae3e54e83956ef2d5952d3c8bc1fa6ec27.png"
-		}
-	},
-	{
-		"address": "0x8eecaad83a1ea77bd88a818d4628fafc4cad7969",
-		"data": {
-			"name": "Not Financial Advice",
-			"symbol": "NFAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8eecaad83a1ea77bd88a818d4628fafc4cad7969.png"
 		}
 	},
 	{
@@ -21194,7 +26376,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "Bullet Gate Betting Token",
 			"symbol": "BULLET",
-			"decimals": 18,
+			"decimals": 8,
 			"logoUri": "/images/tokens/0x8ef32a03784c8fd63bbf027251b9620865bd54b6.png"
 		}
 	},
@@ -21244,12 +26426,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8f0f56472c3e5730b1ea2f444e7829288da261e6",
+		"data": {
+			"name": "Rogue MAV",
+			"symbol": "RMAV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8f0f56472c3e5730b1ea2f444e7829288da261e6.png"
+		}
+	},
+	{
+		"address": "0x8f1cece048cade6b8a05dfa2f90ee4025f4f2662",
+		"data": {
+			"name": "Galaxy Fox",
+			"symbol": "GFOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8f1cece048cade6b8a05dfa2f90ee4025f4f2662.png"
+		}
+	},
+	{
 		"address": "0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374",
 		"data": {
 			"name": "Veritaseum",
 			"symbol": "VERI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374.png"
+		}
+	},
+	{
+		"address": "0x8f43ee50942e96d84052253ab13f59c1d942fb98",
+		"data": {
+			"name": "Paragon Network",
+			"symbol": "PARA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x8f43ee50942e96d84052253ab13f59c1d942fb98.png"
+		}
+	},
+	{
+		"address": "0x8f602ee5b1f8de67120c427717cbe2770f3cf320",
+		"data": {
+			"name": "Starry",
+			"symbol": "STARRY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8f602ee5b1f8de67120c427717cbe2770f3cf320.png"
 		}
 	},
 	{
@@ -21275,17 +26493,8 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "Rinia Inu",
 			"symbol": "RINIA",
-			"decimals": 8,
+			"decimals": 9,
 			"logoUri": "/images/tokens/0x8f828a0644f12fa352888e645a90333d30f6fd7d.png"
-		}
-	},
-	{
-		"address": "0x8f8ed076e61a27db72a5724ea0907a66fb0ddb32",
-		"data": {
-			"name": "gold pieces",
-			"symbol": "GP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x8f8ed076e61a27db72a5724ea0907a66fb0ddb32.png"
 		}
 	},
 	{
@@ -21307,6 +26516,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x8fc17671d853341d9e8b001f5fc3c892d09cb53a",
+		"data": {
+			"name": "BlockGames",
+			"symbol": "BLOCK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8fc17671d853341d9e8b001f5fc3c892d09cb53a.png"
+		}
+	},
+	{
 		"address": "0x8fc8f8269ebca376d046ce292dc7eac40c8d358a",
 		"data": {
 			"name": "DeFiChain",
@@ -21325,12 +26543,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x8ffe40a3d0f80c0ce6b203d5cdc1a6a86d9acaea",
+		"address": "0x8fe815417913a93ea99049fc0718ee1647a2a07c",
 		"data": {
-			"name": "IG Gold",
-			"symbol": "IGG",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0x8ffe40a3d0f80c0ce6b203d5cdc1a6a86d9acaea.png"
+			"name": "XSwap",
+			"symbol": "XSWAP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8fe815417913a93ea99049fc0718ee1647a2a07c.png"
+		}
+	},
+	{
+		"address": "0x8ff62c1b0868e1a8905eb0d0cbb04f20667dcf88",
+		"data": {
+			"name": "BTCrewards",
+			"symbol": "BTCR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x8ff62c1b0868e1a8905eb0d0cbb04f20667dcf88.png"
 		}
 	},
 	{
@@ -21349,6 +26576,42 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "GIV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x900db999074d9277c5da2a43f252d74366230da0.png"
+		}
+	},
+	{
+		"address": "0x9012744b7a564623b6c3e40b144fc196bdedf1a9",
+		"data": {
+			"name": "0xNumber",
+			"symbol": "OXN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9012744b7a564623b6c3e40b144fc196bdedf1a9.png"
+		}
+	},
+	{
+		"address": "0x901ea3606d567f9f1e964639d5cbb8659080be8a",
+		"data": {
+			"name": "CoinW",
+			"symbol": "CWT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x901ea3606d567f9f1e964639d5cbb8659080be8a.png"
+		}
+	},
+	{
+		"address": "0x902169d471b62f22ffadc690ca292ec454d0b260",
+		"data": {
+			"name": "Reboot World",
+			"symbol": "RBT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x902169d471b62f22ffadc690ca292ec454d0b260.png"
+		}
+	},
+	{
+		"address": "0x9028c2a7f8c8530450549915c5338841db2a5fea",
+		"data": {
+			"name": "FOMO Network",
+			"symbol": "FOMO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9028c2a7f8c8530450549915c5338841db2a5fea.png"
 		}
 	},
 	{
@@ -21379,12 +26642,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x905e337c6c8645263d3521205aa37bf4d034e745",
+		"address": "0x9047b76d7fb3d8bc3342616c56028430ebc74290",
 		"data": {
-			"name": "Doc com",
-			"symbol": "MTC",
+			"name": "Bishop",
+			"symbol": "BISHOP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x905e337c6c8645263d3521205aa37bf4d034e745.png"
+			"logoUri": "/images/tokens/0x9047b76d7fb3d8bc3342616c56028430ebc74290.png"
+		}
+	},
+	{
+		"address": "0x904f36d74bed2ef2729eaa1c7a5b70dea2966a02",
+		"data": {
+			"name": "Blueberry",
+			"symbol": "BLB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x904f36d74bed2ef2729eaa1c7a5b70dea2966a02.png"
 		}
 	},
 	{
@@ -21397,12 +26669,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9094c15f2f535a765e8a2dac20b05148be7044cd",
+		"data": {
+			"name": "Fusion Ai",
+			"symbol": "FUSION",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9094c15f2f535a765e8a2dac20b05148be7044cd.png"
+		}
+	},
+	{
+		"address": "0x909c1b012d1a56584484bc39969da13ee11e8fa6",
+		"data": {
+			"name": "ARENA SUPPLY CRATE",
+			"symbol": "SPLY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x909c1b012d1a56584484bc39969da13ee11e8fa6.png"
+		}
+	},
+	{
 		"address": "0x909e34d3f6124c324ac83dcca84b74398a6fa173",
 		"data": {
 			"name": "Panther Protocol",
 			"symbol": "ZKP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x909e34d3f6124c324ac83dcca84b74398a6fa173.png"
+		}
+	},
+	{
+		"address": "0x90b7e285ab6cf4e3a2487669dba3e339db8a3320",
+		"data": {
+			"name": "Yellow Duckies",
+			"symbol": "DUCKIES",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0x90b7e285ab6cf4e3a2487669dba3e339db8a3320.png"
 		}
 	},
 	{
@@ -21451,6 +26750,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x911d86c72155c33993d594b0ec7e6206b4c803da",
+		"data": {
+			"name": "Wrapped Staked LINK",
+			"symbol": "WSTLINK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x911d86c72155c33993d594b0ec7e6206b4c803da.png"
+		}
+	},
+	{
+		"address": "0x912529007bc0d2a5464a6a211ebfe217dfb75dff",
+		"data": {
+			"name": "Cadence Protocol",
+			"symbol": "CAD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x912529007bc0d2a5464a6a211ebfe217dfb75dff.png"
+		}
+	},
+	{
 		"address": "0x91368eef9ab8bdc727e4506897656abb87282003",
 		"data": {
 			"name": "Network Spirituality",
@@ -21469,21 +26786,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x915ea4a94b61b138b568169122903ed707a8e704",
-		"data": {
-			"name": "Wrapped Ordichains",
-			"symbol": "WOICH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x915ea4a94b61b138b568169122903ed707a8e704.png"
-		}
-	},
-	{
 		"address": "0x916c5de09cf63f6602d1e1793fb41f6437814a62",
 		"data": {
 			"name": "JACY",
 			"symbol": "JACY",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x916c5de09cf63f6602d1e1793fb41f6437814a62.png"
+		}
+	},
+	{
+		"address": "0x9181f633e9b9f15a32d5e37094f4c93b333e0e92",
+		"data": {
+			"name": "Inception oETH",
+			"symbol": "INOETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9181f633e9b9f15a32d5e37094f4c93b333e0e92.png"
+		}
+	},
+	{
+		"address": "0x9194337c06405623c0f374e63fa1cc94e2788c58",
+		"data": {
+			"name": "CYBONK",
+			"symbol": "CYBONK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9194337c06405623c0f374e63fa1cc94e2788c58.png"
 		}
 	},
 	{
@@ -21514,21 +26840,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x91bdf1eb4215bc1c6d9a6bd83ecfceeb17cd4343",
+		"address": "0x91be752d438d5f804345b5acb18de0c431ad470f",
 		"data": {
-			"name": "Richard",
-			"symbol": "RICHARD",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x91bdf1eb4215bc1c6d9a6bd83ecfceeb17cd4343.png"
-		}
-	},
-	{
-		"address": "0x91cdacba4559ade84daa1a51b6fbd94ec3f1202e",
-		"data": {
-			"name": "BRRRRR",
-			"symbol": "BRRRRR",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x91cdacba4559ade84daa1a51b6fbd94ec3f1202e.png"
+			"name": "ETHETF",
+			"symbol": "ETHETF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x91be752d438d5f804345b5acb18de0c431ad470f.png"
 		}
 	},
 	{
@@ -21538,6 +26855,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BONDLY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x91dfbee3965baaee32784c2d546b7a0c62f268c9.png"
+		}
+	},
+	{
+		"address": "0x91fbb2503ac69702061f1ac6885759fc853e6eae",
+		"data": {
+			"name": "K9 Finance DAO",
+			"symbol": "KNINE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x91fbb2503ac69702061f1ac6885759fc853e6eae.png"
+		}
+	},
+	{
+		"address": "0x92098551e613dfdcd4d7c7b2c35615709e4e0397",
+		"data": {
+			"name": "ArtemisAI",
+			"symbol": "ATAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x92098551e613dfdcd4d7c7b2c35615709e4e0397.png"
+		}
+	},
+	{
+		"address": "0x922d8563631b03c2c4cf817f4d18f6883aba0109",
+		"data": {
+			"name": "Houdini Swap",
+			"symbol": "LOCK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x922d8563631b03c2c4cf817f4d18f6883aba0109.png"
 		}
 	},
 	{
@@ -21568,12 +26912,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x927159670c50042109d7c0f4aed0cee89452433e",
+		"address": "0x926ff6584b5905cc793cfb19bfc0ad6443671f47",
 		"data": {
-			"name": "DGPayment",
-			"symbol": "DGP",
+			"name": "Pablo DeFi",
+			"symbol": "PABLO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x927159670c50042109d7c0f4aed0cee89452433e.png"
+			"logoUri": "/images/tokens/0x926ff6584b5905cc793cfb19bfc0ad6443671f47.png"
 		}
 	},
 	{
@@ -21586,12 +26930,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x92cfbec26c206c90aee3b7c66a9ae673754fab7e",
+		"address": "0x92a42db88ed0f02c71d439e55962ca7cab0168b5",
 		"data": {
-			"name": "OpenLeverage",
-			"symbol": "OLE",
+			"name": "TRDGtoken",
+			"symbol": "TRDG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x92a42db88ed0f02c71d439e55962ca7cab0168b5.png"
+		}
+	},
+	{
+		"address": "0x92cc36d66e9d739d50673d1f27929a371fb83a67",
+		"data": {
+			"name": "Wagmi",
+			"symbol": "WAGMI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x92cfbec26c206c90aee3b7c66a9ae673754fab7e.png"
+			"logoUri": "/images/tokens/0x92cc36d66e9d739d50673d1f27929a371fb83a67.png"
 		}
 	},
 	{
@@ -21607,7 +26960,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
 		"data": {
 			"name": "dYdX",
-			"symbol": "DYDX",
+			"symbol": "ETHDYDX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x92d6c1e31e14520e676a687f0a93788b716beff5.png"
 		}
@@ -21640,6 +26993,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x92f419fb7a750aed295b0ddf536276bf5a40124f",
+		"data": {
+			"name": "Tatsu",
+			"symbol": "TATSU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x92f419fb7a750aed295b0ddf536276bf5a40124f.png"
+		}
+	},
+	{
 		"address": "0x9303eabc860a743aabcc3a1629014cabcc3f8d36",
 		"data": {
 			"name": "Aave AMM UniDAIWETH",
@@ -21655,6 +27017,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SAITAMA",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0x930ae5999210724248b36265e8d3696128115946.png"
+		}
+	},
+	{
+		"address": "0x93109af5638be68ed2d0e094f618777ff1051d28",
+		"data": {
+			"name": "UNIT DAO",
+			"symbol": "UN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x93109af5638be68ed2d0e094f618777ff1051d28.png"
 		}
 	},
 	{
@@ -21676,6 +27047,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9352ec6d3e8b54a96b6903a79635c1e2d298b101",
+		"data": {
+			"name": "Bad Santa",
+			"symbol": "BAD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9352ec6d3e8b54a96b6903a79635c1e2d298b101.png"
+		}
+	},
+	{
 		"address": "0x9355372396e3f6daf13359b7b607a3374cc638e0",
 		"data": {
 			"name": "WHALE",
@@ -21694,12 +27074,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9360c489056b64d5003bf22f4f31458e31cc8028",
+		"address": "0x9377e3c3180dddfcda4e4217ed21f2f7c3b235a0",
 		"data": {
-			"name": "Bank",
-			"symbol": "BANK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9360c489056b64d5003bf22f4f31458e31cc8028.png"
+			"name": "Cavada",
+			"symbol": "CAVADA",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x9377e3c3180dddfcda4e4217ed21f2f7c3b235a0.png"
 		}
 	},
 	{
@@ -21712,6 +27092,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x93999d3fcab15cc052cf96b739580fc11e015944",
+		"data": {
+			"name": "NoGas",
+			"symbol": "NGS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x93999d3fcab15cc052cf96b739580fc11e015944.png"
+		}
+	},
+	{
 		"address": "0x939b462ee3311f8926c047d2b576c389092b1649",
 		"data": {
 			"name": "LiquidApps",
@@ -21721,12 +27110,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x93ad9b819c88d98b4c9641470a96e24769ae7922",
+		"data": {
+			"name": "KRYZA Exchange",
+			"symbol": "KRX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x93ad9b819c88d98b4c9641470a96e24769ae7922.png"
+		}
+	},
+	{
 		"address": "0x93b1e78a3e652cd2e71c4a767595b77282344932",
 		"data": {
 			"name": "BITO Coin",
 			"symbol": "BITO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x93b1e78a3e652cd2e71c4a767595b77282344932.png"
+		}
+	},
+	{
+		"address": "0x93c5a00b41fb5f3906b421b2399ac64b79fdbd42",
+		"data": {
+			"name": "Voidz",
+			"symbol": "VDZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x93c5a00b41fb5f3906b421b2399ac64b79fdbd42.png"
 		}
 	},
 	{
@@ -21775,15 +27182,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x93ef1ea305d11a9b2a3ebb9bb4fcc34695292e7d",
-		"data": {
-			"name": "queenETH",
-			"symbol": "QETH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x93ef1ea305d11a9b2a3ebb9bb4fcc34695292e7d.png"
-		}
-	},
-	{
 		"address": "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5",
 		"data": {
 			"name": "BetSwirl",
@@ -21795,7 +27193,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
 		"data": {
-			"name": "DUSK Network",
+			"name": "Dusk",
 			"symbol": "DUSK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551.png"
@@ -21811,6 +27209,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9424fde68418b71ea1d3de95547ef67f4dc8f573",
+		"data": {
+			"name": "BandZai Token",
+			"symbol": "BZAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9424fde68418b71ea1d3de95547ef67f4dc8f573.png"
+		}
+	},
+	{
+		"address": "0x943af2ece93118b973c95c2f698ee9d15002e604",
+		"data": {
+			"name": "GameGPT",
+			"symbol": "DUEL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x943af2ece93118b973c95c2f698ee9d15002e604.png"
+		}
+	},
+	{
 		"address": "0x943ed852dadb5c3938ecdc6883718df8142de4c8",
 		"data": {
 			"name": "FansTime",
@@ -21820,30 +27236,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x944eee930933be5e23b690c8589021ec8619a301",
+		"address": "0x944824290cc12f31ae18ef51216a223ba4063092",
 		"data": {
-			"name": "Munch",
-			"symbol": "MUNCH",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x944eee930933be5e23b690c8589021ec8619a301.png"
-		}
-	},
-	{
-		"address": "0x94501b6a153c8973fd1f321fcc8188d40dc5d72d",
-		"data": {
-			"name": "DigiDinar Token",
-			"symbol": "DDRT",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x94501b6a153c8973fd1f321fcc8188d40dc5d72d.png"
-		}
-	},
-	{
-		"address": "0x946112efab61c3636cbd52de2e1392d7a75a6f01",
-		"data": {
-			"name": "Hydro",
-			"symbol": "HYDRO",
+			"name": "Masa",
+			"symbol": "MASA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x946112efab61c3636cbd52de2e1392d7a75a6f01.png"
+			"logoUri": "/images/tokens/0x944824290cc12f31ae18ef51216a223ba4063092.png"
 		}
 	},
 	{
@@ -21874,6 +27272,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x947aeb02304391f8fbe5b25d7d98d649b57b1788",
+		"data": {
+			"name": "Mandala Exchange",
+			"symbol": "MDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x947aeb02304391f8fbe5b25d7d98d649b57b1788.png"
+		}
+	},
+	{
 		"address": "0x94804dc4948184ffd7355f62ccbb221c9765886f",
 		"data": {
 			"name": "Rage Fan",
@@ -21883,21 +27290,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9488936e4a36e3585afeb63377e2393aeac253ea",
+		"address": "0x9482c407d32204462d8cbbc0755e96c39b79878e",
 		"data": {
-			"name": "GAMB",
-			"symbol": "GMB",
+			"name": "Archly Finance",
+			"symbol": "ARC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x9488936e4a36e3585afeb63377e2393aeac253ea.png"
-		}
-	},
-	{
-		"address": "0x948c70dc6169bfb10028fdbe96cbc72e9562b2ac",
-		"data": {
-			"name": "PolkaFantasy",
-			"symbol": "XP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x948c70dc6169bfb10028fdbe96cbc72e9562b2ac.png"
+			"logoUri": "/images/tokens/0x9482c407d32204462d8cbbc0755e96c39b79878e.png"
 		}
 	},
 	{
@@ -21910,9 +27308,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x94b888e11a9e960a9c3b3528eb6ac807b27ca62e",
+		"data": {
+			"name": "Inception lsETH",
+			"symbol": "INLSETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x94b888e11a9e960a9c3b3528eb6ac807b27ca62e.png"
+		}
+	},
+	{
 		"address": "0x94be6962be41377d5beda8dfe1b100f3bf0eacf3",
 		"data": {
-			"name": "DORK LORD",
+			"name": "DORK LORD  ETH ",
 			"symbol": "DORKL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x94be6962be41377d5beda8dfe1b100f3bf0eacf3.png"
@@ -21937,12 +27344,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x94e0bab2f6ab1f19f4750e42d7349f2740513ad5",
+		"address": "0x94dd57da120c7c564d9aa438773068705e828781",
 		"data": {
-			"name": "Unicly",
-			"symbol": "UNIC",
+			"name": "Journey",
+			"symbol": "JRNY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x94e0bab2f6ab1f19f4750e42d7349f2740513ad5.png"
+			"logoUri": "/images/tokens/0x94dd57da120c7c564d9aa438773068705e828781.png"
 		}
 	},
 	{
@@ -21973,6 +27380,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9511ff502f982643935a39206f98a6c18d4527cf",
+		"data": {
+			"name": "BlockDefend AI",
+			"symbol": "DEFEND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9511ff502f982643935a39206f98a6c18d4527cf.png"
+		}
+	},
+	{
 		"address": "0x952749E07d7157bb9644A894dFAF3Bad5eF6D918",
 		"data": {
 			"name": "Aave interest bearing CVX",
@@ -21997,6 +27413,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BLOOD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x95392f142af1c12f6e39897ff9b09c599666b50c.png"
+		}
+	},
+	{
+		"address": "0x954a75564cb355ea2d6fccc6c1212fd01fdcb06f",
+		"data": {
+			"name": "PLUMPY DRAGONS",
+			"symbol": "LOONG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x954a75564cb355ea2d6fccc6c1212fd01fdcb06f.png"
 		}
 	},
 	{
@@ -22027,12 +27452,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9565c2036963697786705120fc59310f747bcfd0",
+		"address": "0x95640a134721475bc78594c8ea66c0182c7b9a50",
 		"data": {
-			"name": "PoorPleb",
-			"symbol": "PP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9565c2036963697786705120fc59310f747bcfd0.png"
+			"name": "Metroxynth",
+			"symbol": "MXH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x95640a134721475bc78594c8ea66c0182c7b9a50.png"
 		}
 	},
 	{
@@ -22045,6 +27470,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x958a03181806cb8807bef40e864e55f89b3393d3",
+		"data": {
+			"name": "UTIX",
+			"symbol": "UTX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x958a03181806cb8807bef40e864e55f89b3393d3.png"
+		}
+	},
+	{
+		"address": "0x95987b0cdc7f65d989a30b3b7132a38388c548eb",
+		"data": {
+			"name": "Pundi X PURSE",
+			"symbol": "PURSE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x95987b0cdc7f65d989a30b3b7132a38388c548eb.png"
+		}
+	},
+	{
 		"address": "0x95a4492f028aa1fd432ea71146b433e7b4446611",
 		"data": {
 			"name": "APY Finance",
@@ -22054,12 +27497,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x95aa5d2dbd3c16ee3fdea82d5c6ec3e38ce3314f",
+		"address": "0x95ac17ce4021417e25b8edf807366fc3be091b5e",
 		"data": {
-			"name": "PointPay",
-			"symbol": "PXP",
+			"name": "Zaar",
+			"symbol": "ZAAR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x95aa5d2dbd3c16ee3fdea82d5c6ec3e38ce3314f.png"
+			"logoUri": "/images/tokens/0x95ac17ce4021417e25b8edf807366fc3be091b5e.png"
 		}
 	},
 	{
@@ -22090,6 +27533,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x95cba664fa19d2c24b6d60b707dfa7879b51fd57",
+		"data": {
+			"name": "ApeGPT",
+			"symbol": "APEGPT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x95cba664fa19d2c24b6d60b707dfa7879b51fd57.png"
+		}
+	},
+	{
+		"address": "0x95ccffae3eb8767d4a941ec43280961dde89f4de",
+		"data": {
+			"name": "TaoBank",
+			"symbol": "TBANK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x95ccffae3eb8767d4a941ec43280961dde89f4de.png"
+		}
+	},
+	{
+		"address": "0x95d8bf2f57cf973251972b496dc6b1d9c6b5bce3",
+		"data": {
+			"name": "Blue",
+			"symbol": "BLUE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x95d8bf2f57cf973251972b496dc6b1d9c6b5bce3.png"
+		}
+	},
+	{
 		"address": "0x95e05e2abbd26943874ac000d87c3d9e115b543c",
 		"data": {
 			"name": "Raptor",
@@ -22108,30 +27578,38 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x95efd1fe6099f65a7ed524def487483221094947",
+		"address": "0x95fe3151105ad90c6dc30dc51fdf038ae7bb7f77",
 		"data": {
-			"name": "CryptoBonusMiles",
-			"symbol": "CBM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x95efd1fe6099f65a7ed524def487483221094947.png"
+			"name": "Blackder AI",
+			"symbol": "BLD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x95fe3151105ad90c6dc30dc51fdf038ae7bb7f77.png"
 		}
 	},
 	{
-		"address": "0x96184d9c811ea0624fc30c80233b1d749b9e485b",
+		"address": "0x9609b540e5dedddb147abbf9812ade06b1e61b2c",
 		"data": {
-			"name": "Dapp com",
-			"symbol": "DAPPT",
+			"name": "Steamboat Willie",
+			"symbol": "MICKEY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x96184d9c811ea0624fc30c80233b1d749b9e485b.png"
+			"logoUri": "/images/tokens/0x9609b540e5dedddb147abbf9812ade06b1e61b2c.png"
 		}
 	},
 	{
 		"address": "0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17",
 		"data": {
-			"name": "Dypius",
+			"name": "Dypius  OLD ",
 			"symbol": "DYP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17.png"
+		}
+	},
+	{
+		"address": "0x961d4921e1718e633bac8ded88c4a1cae44b785a",
+		"data": {
+			"name": "Thunderhead Staked FLIP",
+			"symbol": "STFLIP",
+			"decimals": 18
 		}
 	},
 	{
@@ -22144,12 +27622,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x963035453633f6f7433032c958f82eb3043d8cd2",
+		"address": "0x96362879529c15c484eabc861c435940e7af22bb",
 		"data": {
-			"name": "USD Freedom",
-			"symbol": "USDF",
+			"name": "RPG Maker Ai",
+			"symbol": "RPGMAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x963035453633f6f7433032c958f82eb3043d8cd2.png"
+			"logoUri": "/images/tokens/0x96362879529c15c484eabc861c435940e7af22bb.png"
 		}
 	},
 	{
@@ -22159,6 +27637,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KUJI",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x96543ef8d2c75c26387c1a319ae69c0bee6f3fe7.png"
+		}
+	},
+	{
+		"address": "0x965697b4ef02f0de01384d0d4f9f782b1670c163",
+		"data": {
+			"name": "Oxygen",
+			"symbol": "OXY",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x965697b4ef02f0de01384d0d4f9f782b1670c163.png"
+		}
+	},
+	{
+		"address": "0x9657477ac915f56ca87c253db1320218ec2d5ddd",
+		"data": {
+			"name": "Jake Newman Enterprises",
+			"symbol": "JNE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9657477ac915f56ca87c253db1320218ec2d5ddd.png"
 		}
 	},
 	{
@@ -22234,6 +27730,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x96884fcaac082db4b32601ada5b177fd6cbffa88",
+		"data": {
+			"name": "ZkLock",
+			"symbol": "ZKLK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x96884fcaac082db4b32601ada5b177fd6cbffa88.png"
+		}
+	},
+	{
 		"address": "0x968cbe62c830a0ccf4381614662398505657a2a9",
 		"data": {
 			"name": "Thrupenny",
@@ -22270,6 +27775,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x96a5399d07896f757bd4c6ef56461f58db951862",
+		"data": {
+			"name": "DragonX win",
+			"symbol": "DRAGONX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x96a5399d07896f757bd4c6ef56461f58db951862.png"
+		}
+	},
+	{
+		"address": "0x96add417293a49e80f024734e96cfd8b355bcc14",
+		"data": {
+			"name": "LiquidLayer",
+			"symbol": "LILA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x96add417293a49e80f024734e96cfd8b355bcc14.png"
+		}
+	},
+	{
 		"address": "0x96c645d3d3706f793ef52c19bbace441900ed47d",
 		"data": {
 			"name": "Mt Pelerin Shares",
@@ -22285,15 +27808,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "IBEUR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27.png"
-		}
-	},
-	{
-		"address": "0x96eafff5bedf18566b18fce71c2323b69c795623",
-		"data": {
-			"name": "Astropup Coin",
-			"symbol": "ASPC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x96eafff5bedf18566b18fce71c2323b69c795623.png"
 		}
 	},
 	{
@@ -22324,21 +27838,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x97225fae89b370e7721f961d1145e64df56f2482",
+		"data": {
+			"name": "Smoked Token Burn",
+			"symbol": "BURN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x97225fae89b370e7721f961d1145e64df56f2482.png"
+		}
+	},
+	{
+		"address": "0x973e00eee6d180b5a0eb08ce3047ac4ea7a45cd5",
+		"data": {
+			"name": "TOTO",
+			"symbol": "TOTO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x973e00eee6d180b5a0eb08ce3047ac4ea7a45cd5.png"
+		}
+	},
+	{
 		"address": "0x973e52691176d36453868d9d86572788d27041a9",
 		"data": {
 			"name": "DxChain",
 			"symbol": "DX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x973e52691176d36453868d9d86572788d27041a9.png"
-		}
-	},
-	{
-		"address": "0x9754d5e5ea788c62f11d34a818aeae927aeac84c",
-		"data": {
-			"name": "YoloNolo",
-			"symbol": "NOLO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9754d5e5ea788c62f11d34a818aeae927aeac84c.png"
 		}
 	},
 	{
@@ -22351,12 +27874,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9776191f4ebbba7f358c1663bf82c0a0906c77fa",
+		"address": "0x9778ac3d5a2f916aa9abf1eb85c207d990ca2655",
 		"data": {
-			"name": "Phoenix Chain",
-			"symbol": "PHX",
+			"name": "OG SMINEM",
+			"symbol": "OGSM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x9776191f4ebbba7f358c1663bf82c0a0906c77fa.png"
+			"logoUri": "/images/tokens/0x9778ac3d5a2f916aa9abf1eb85c207d990ca2655.png"
+		}
+	},
+	{
+		"address": "0x977b6fc5de62598b08c85ac8cf2b745874e8b78c",
+		"data": {
+			"name": "Aave v3 cbETH",
+			"symbol": "ACBETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x977b6fc5de62598b08c85ac8cf2b745874e8b78c.png"
 		}
 	},
 	{
@@ -22375,15 +27907,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STRP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x97872eafd79940c7b24f7bcc1eadb1457347adc9.png"
-		}
-	},
-	{
-		"address": "0x9798df2f5d213a872c787bd03b2b91f54d0d04a1",
-		"data": {
-			"name": "TeraBlock",
-			"symbol": "TBC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9798df2f5d213a872c787bd03b2b91f54d0d04a1.png"
 		}
 	},
 	{
@@ -22432,12 +27955,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x97bbbc5d96875fb78d2f14b7ff8d7a3a74106f17",
+		"address": "0x97bd0d0a3e9635325ec0b383cff62914a7d50642",
 		"data": {
-			"name": "Astrafer",
-			"symbol": "ASTRAFER",
+			"name": "FP  SappySeals",
+			"symbol": "USAPS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x97bbbc5d96875fb78d2f14b7ff8d7a3a74106f17.png"
+			"logoUri": "/images/tokens/0x97bd0d0a3e9635325ec0b383cff62914a7d50642.png"
+		}
+	},
+	{
+		"address": "0x97c8321b9434db4110b1d75a551e561036ff2e6a",
+		"data": {
+			"name": "WagerOn",
+			"symbol": "WAGER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x97c8321b9434db4110b1d75a551e561036ff2e6a.png"
+		}
+	},
+	{
+		"address": "0x97d0cfeb4fde54b430307c9482d6f79c761fe9b6",
+		"data": {
+			"name": "Epoch Island",
+			"symbol": "EPOCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x97d0cfeb4fde54b430307c9482d6f79c761fe9b6.png"
+		}
+	},
+	{
+		"address": "0x97d2fc7d16bc34121c3311f2e2e05d298c19956f",
+		"data": {
+			"name": "WoofOracle",
+			"symbol": "WFO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x97d2fc7d16bc34121c3311f2e2e05d298c19956f.png"
 		}
 	},
 	{
@@ -22459,20 +28009,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x97e19e2a5458294842036404e6a05571d8bc2fa3",
+		"address": "0x97effb790f2fbb701d88f89db4521348a2b77be8",
 		"data": {
-			"name": "G ",
-			"symbol": "G",
-			"decimals": 18
-		}
-	},
-	{
-		"address": "0x97e3c21f27182498382f81e32fbe0ea3a0e3d79b",
-		"data": {
-			"name": "Flipped Pepe",
-			"symbol": "EPEP",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x97e3c21f27182498382f81e32fbe0ea3a0e3d79b.png"
+			"name": "Convergence Finance",
+			"symbol": "CVG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x97effb790f2fbb701d88f89db4521348a2b77be8.png"
 		}
 	},
 	{
@@ -22491,15 +28033,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ECOTERRA",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x982b50e55394641ca975a0eec630b120b671391a.png"
-		}
-	},
-	{
-		"address": "0x9839675308f4a83e45f4b0c89b8fa264d68b7812",
-		"data": {
-			"name": "Ciphercore",
-			"symbol": "CIPHER",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9839675308f4a83e45f4b0c89b8fa264d68b7812.png"
 		}
 	},
 	{
@@ -22539,21 +28072,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x987441856ba4f463544fc68ccbf6a80f434a7956",
-		"data": {
-			"name": "NOWAI",
-			"symbol": "NOWAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x987441856ba4f463544fc68ccbf6a80f434a7956.png"
-		}
-	},
-	{
 		"address": "0x98968f0747e0a261532cacc0be296375f5c08398",
 		"data": {
 			"name": "MOONCAT Vault  NFTX ",
 			"symbol": "MOONCAT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x98968f0747e0a261532cacc0be296375f5c08398.png"
+		}
+	},
+	{
+		"address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+		"data": {
+			"name": "Aave v3 USDC",
+			"symbol": "AUSDC",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c.png"
+		}
+	},
+	{
+		"address": "0x98e1f56b334438e3f0bde22d92f5bfd746e0631f",
+		"data": {
+			"name": "Illuminati",
+			"symbol": "ILUM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x98e1f56b334438e3f0bde22d92f5bfd746e0631f.png"
+		}
+	},
+	{
+		"address": "0x98e35f5599b57998900e5e0675721c90a5499327",
+		"data": {
+			"name": "BuddyAI",
+			"symbol": "BUDDY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x98e35f5599b57998900e5e0675721c90a5499327.png"
 		}
 	},
 	{
@@ -22602,21 +28153,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x994a258c7dec633b5b15376f850d5ea701179e79",
+		"address": "0x994bf19e32584255d82896d1477488e87012f209",
 		"data": {
-			"name": "0xGasless",
-			"symbol": "0XGAS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x994a258c7dec633b5b15376f850d5ea701179e79.png"
-		}
-	},
-	{
-		"address": "0x995a6c0944322b7285d0712824acf0cf9bf3993a",
-		"data": {
-			"name": "First Ever NFT",
-			"symbol": "FEN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x995a6c0944322b7285d0712824acf0cf9bf3993a.png"
+			"name": "ComputingAi",
+			"symbol": "CPU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x994bf19e32584255d82896d1477488e87012f209.png"
 		}
 	},
 	{
@@ -22626,15 +28168,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BHIG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x996229d0c6a485c7f4b52e092eaa907cb2def5c6.png"
-		}
-	},
-	{
-		"address": "0x996dc5dfc819408dd98cd92c9a76f64b0738dc3d",
-		"data": {
-			"name": "Skillchain",
-			"symbol": "SKI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x996dc5dfc819408dd98cd92c9a76f64b0738dc3d.png"
 		}
 	},
 	{
@@ -22692,6 +28225,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x99bb69ee1bbfc7706c3ebb79b21c5b698fe58ec0",
+		"data": {
+			"name": "DeHub",
+			"symbol": "DHB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x99bb69ee1bbfc7706c3ebb79b21c5b698fe58ec0.png"
+		}
+	},
+	{
 		"address": "0x99c6e435ec259a7e8d65e1955c9423db624ba54c",
 		"data": {
 			"name": "Finminity",
@@ -22701,12 +28243,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x99cf786dad3c68019f9919d153a3f1f949a18171",
+		"address": "0x99cffb50aad37d17955253f3a4070556b5127a0b",
 		"data": {
-			"name": "Uni01cinoSamabOrettoPyrra",
-			"symbol": "NIOCTIB",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x99cf786dad3c68019f9919d153a3f1f949a18171.png"
+			"name": "MEGALODON",
+			"symbol": "MEGA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x99cffb50aad37d17955253f3a4070556b5127a0b.png"
 		}
 	},
 	{
@@ -22716,24 +28258,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MIM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3.png"
-		}
-	},
-	{
-		"address": "0x99e186e8671db8b10d45b7a1c430952a9fbe0d40",
-		"data": {
-			"name": "ShopBot",
-			"symbol": "SHOP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x99e186e8671db8b10d45b7a1c430952a9fbe0d40.png"
-		}
-	},
-	{
-		"address": "0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d",
-		"data": {
-			"name": "Quantstamp",
-			"symbol": "QSP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d.png"
 		}
 	},
 	{
@@ -22748,7 +28272,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x99fe3b1391503a1bc1788051347a1324bff41452",
 		"data": {
-			"name": "SX Network",
+			"name": "SX Network  OLD ",
 			"symbol": "SX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x99fe3b1391503a1bc1788051347a1324bff41452.png"
@@ -22782,12 +28306,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9a257c90fa239fba07771ef7da2d554d148c2e89",
+		"address": "0x9a1722b1f4a1bb2f271211ade8e851afc54f77e5",
 		"data": {
-			"name": "MEDIA EYE",
-			"symbol": "EYE",
+			"name": "Eigenpie ETHx",
+			"symbol": "METHX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x9a257c90fa239fba07771ef7da2d554d148c2e89.png"
+			"logoUri": "/images/tokens/0x9a1722b1f4a1bb2f271211ade8e851afc54f77e5.png"
 		}
 	},
 	{
@@ -22800,21 +28324,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9a3bbc0ee2d6300bca88c4ff820e2987d62b4f63",
+		"address": "0x9a44fd41566876a39655f74971a3a6ea0a17a454",
 		"data": {
-			"name": "HedgBet",
-			"symbol": "HDG",
+			"name": "Aave v3 LDO",
+			"symbol": "ALDO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x9a3bbc0ee2d6300bca88c4ff820e2987d62b4f63.png"
+			"logoUri": "/images/tokens/0x9a44fd41566876a39655f74971a3a6ea0a17a454.png"
 		}
 	},
 	{
-		"address": "0x9a6aea7c2b0d563eab701e3255110d30f08b5a64",
+		"address": "0x9a64977ebf739dff35ed4281a4b5e833bfdb1314",
 		"data": {
-			"name": "Metapolitans",
-			"symbol": "MAPS",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0x9a6aea7c2b0d563eab701e3255110d30f08b5a64.png"
+			"name": "NFTFN",
+			"symbol": "NFTFN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9a64977ebf739dff35ed4281a4b5e833bfdb1314.png"
 		}
 	},
 	{
@@ -22824,15 +28348,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CHIKUN",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x9a7703338730b82a803ba050df55f9b3959f3fb2.png"
-		}
-	},
-	{
-		"address": "0x9a96e767bfcce8e80370be00821ed5ba283d4a17",
-		"data": {
-			"name": "GOGO Finance",
-			"symbol": "GOGO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9a96e767bfcce8e80370be00821ed5ba283d4a17.png"
 		}
 	},
 	{
@@ -22854,12 +28369,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9aaf731799e824a74a4d3a14e6b00bcc28c327db",
+		"data": {
+			"name": "Jable",
+			"symbol": "JAB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9aaf731799e824a74a4d3a14e6b00bcc28c327db.png"
+		}
+	},
+	{
 		"address": "0x9ab165d795019b6d8b3e971dda91071421305e5a",
 		"data": {
 			"name": "Aurora Chain",
 			"symbol": "AOA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9ab165d795019b6d8b3e971dda91071421305e5a.png"
+		}
+	},
+	{
+		"address": "0x9ab51734fc5d5fdd8abb58941840a5df1e3f3a99",
+		"data": {
+			"name": "Olympia AI",
+			"symbol": "PIA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9ab51734fc5d5fdd8abb58941840a5df1e3f3a99.png"
 		}
 	},
 	{
@@ -22881,21 +28414,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9abfc0f085c82ec1be31d30843965fcc63053ffe",
+		"data": {
+			"name": "QSTAR",
+			"symbol": "Q",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9abfc0f085c82ec1be31d30843965fcc63053ffe.png"
+		}
+	},
+	{
 		"address": "0x9ac07635ddbde5db18648c360defb00f5f22537e",
 		"data": {
 			"name": "Museum of Crypto Art",
 			"symbol": "MOCA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9ac07635ddbde5db18648c360defb00f5f22537e.png"
-		}
-	},
-	{
-		"address": "0x9acbd8315d81253f1ba7c0d24cdbd4e01be44a9b",
-		"data": {
-			"name": "Psycho",
-			"symbol": "PSYCHO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9acbd8315d81253f1ba7c0d24cdbd4e01be44a9b.png"
 		}
 	},
 	{
@@ -22926,9 +28459,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9afa9999e45484adf5d8eed8d9dfe0693bacd838",
+		"data": {
+			"name": "Everyworld",
+			"symbol": "EVERY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9afa9999e45484adf5d8eed8d9dfe0693bacd838.png"
+		}
+	},
+	{
 		"address": "0x9afb950948c2370975fb91a441f36fdc02737cd4",
 		"data": {
-			"name": "HTX FIL",
+			"name": "Huobi FIL",
 			"symbol": "HFIL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9afb950948c2370975fb91a441f36fdc02737cd4.png"
@@ -23007,30 +28549,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9b31bb425d8263fa1b8b9d090b83cf0c31665355",
+		"address": "0x9b3a8159e119eb09822115ae08ee1526849e1116",
 		"data": {
-			"name": "CoinsPaid",
-			"symbol": "CPD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9b31bb425d8263fa1b8b9d090b83cf0c31665355.png"
-		}
-	},
-	{
-		"address": "0x9b355fee784768a7b9ac388c19e818e1c0a19b76",
-		"data": {
-			"name": "Multi Wallet Suite",
-			"symbol": "MWS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9b355fee784768a7b9ac388c19e818e1c0a19b76.png"
-		}
-	},
-	{
-		"address": "0x9b39a0b97319a9bd5fed217c1db7b030453bac91",
-		"data": {
-			"name": "TigerCash",
-			"symbol": "TCH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9b39a0b97319a9bd5fed217c1db7b030453bac91.png"
+			"name": "Meme Alliance",
+			"symbol": "MMA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9b3a8159e119eb09822115ae08ee1526849e1116.png"
 		}
 	},
 	{
@@ -23040,6 +28564,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PVP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9b44793a0177c84dd01ad81137db696531902871.png"
+		}
+	},
+	{
+		"address": "0x9b4a69de6ca0defdd02c0c4ce6cb84de5202944e",
+		"data": {
+			"name": "PROOF Platform",
+			"symbol": "PROOF",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9b4a69de6ca0defdd02c0c4ce6cb84de5202944e.png"
 		}
 	},
 	{
@@ -23061,12 +28594,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9b62ec1453cea5dde760aaf662048ca6eeb66e7f",
+		"address": "0x9b5c38cc2d1ba05ed87c8f8a2418475bacb20073",
 		"data": {
-			"name": "Consensus Cell Network",
-			"symbol": "ECELL",
-			"decimals": 2,
-			"logoUri": "/images/tokens/0x9b62ec1453cea5dde760aaf662048ca6eeb66e7f.png"
+			"name": "Vector Space Biosciences  Inc ",
+			"symbol": "SBIO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9b5c38cc2d1ba05ed87c8f8a2418475bacb20073.png"
 		}
 	},
 	{
@@ -23097,15 +28630,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9b99cca871be05119b2012fd4474731dd653febe",
-		"data": {
-			"name": "AntiMatter",
-			"symbol": "MATTER",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9b99cca871be05119b2012fd4474731dd653febe.png"
-		}
-	},
-	{
 		"address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
 		"data": {
 			"name": "Aave USDC v1",
@@ -23124,12 +28648,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9ba021b0a9b958b5e75ce9f6dff97c7ee52cb3e6",
+		"data": {
+			"name": "Dinero apxETH",
+			"symbol": "APXETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9ba021b0a9b958b5e75ce9f6dff97c7ee52cb3e6.png"
+		}
+	},
+	{
 		"address": "0x9baa12a9e3b9dc355f162082762f95626367d087",
 		"data": {
 			"name": "Handz of Gods",
 			"symbol": "HANDZ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9baa12a9e3b9dc355f162082762f95626367d087.png"
+		}
+	},
+	{
+		"address": "0x9bd69bc59118ce0fbce9b03551a765a779bd25cf",
+		"data": {
+			"name": "zkEra Finance",
+			"symbol": "ZKE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9bd69bc59118ce0fbce9b03551a765a779bd25cf.png"
+		}
+	},
+	{
+		"address": "0x9be236ee350d18aaaf18619c5776d4096e94a0c7",
+		"data": {
+			"name": "RATIO",
+			"symbol": "RATIO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9be236ee350d18aaaf18619c5776d4096e94a0c7.png"
 		}
 	},
 	{
@@ -23160,12 +28711,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9bf601da3aba6d4401ca2b9af85a8bd63b98e8ab",
+		"address": "0x9bf3be1e445d5d386f891a1eccc3245e5a3670a4",
 		"data": {
-			"name": "Custom Wallet Bot",
-			"symbol": "WALLET",
+			"name": "FACET",
+			"symbol": "FACET",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0x9bf601da3aba6d4401ca2b9af85a8bd63b98e8ab.png"
+			"logoUri": "/images/tokens/0x9bf3be1e445d5d386f891a1eccc3245e5a3670a4.png"
+		}
+	},
+	{
+		"address": "0x9c0241e7538b35454735ae453423daf470a25b3a",
+		"data": {
+			"name": "UnityBot",
+			"symbol": "UNITYBOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9c0241e7538b35454735ae453423daf470a25b3a.png"
+		}
+	},
+	{
+		"address": "0x9c05d54645306d4c4ead6f75846000e1554c0360",
+		"data": {
+			"name": "21 co Wrapped ADA",
+			"symbol": "21ADA",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0x9c05d54645306d4c4ead6f75846000e1554c0360.png"
 		}
 	},
 	{
@@ -23178,9 +28747,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9c2b4b0da5ebd20c29ef20758064554a55a88b68",
+		"data": {
+			"name": "ByteAI",
+			"symbol": "BYTE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9c2b4b0da5ebd20c29ef20758064554a55a88b68.png"
+		}
+	},
+	{
 		"address": "0x9c2dc0c3cc2badde84b0025cf4df1c5af288d835",
 		"data": {
-			"name": "COR Token",
+			"name": "Coreto",
 			"symbol": "COR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9c2dc0c3cc2badde84b0025cf4df1c5af288d835.png"
@@ -23214,15 +28792,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9c5476af06590a9277c7706fe70c0a42a480f8a0",
-		"data": {
-			"name": "Chooky Inu",
-			"symbol": "CHOO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9c5476af06590a9277c7706fe70c0a42a480f8a0.png"
-		}
-	},
-	{
 		"address": "0x9c6666d5ff4b53b5eb3bd866664c15d0bfcecaa7",
 		"data": {
 			"name": "Edoverse Zeni",
@@ -23238,6 +28807,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MUST",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f.png"
+		}
+	},
+	{
+		"address": "0x9c7d4fb43919def524c1a9d92fe836169eaf0615",
+		"data": {
+			"name": "Landwolf",
+			"symbol": "WOLF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9c7d4fb43919def524c1a9d92fe836169eaf0615.png"
+		}
+	},
+	{
+		"address": "0x9ca98c8b217c3b45074834908555d36af2ac6449",
+		"data": {
+			"name": "SatsBridge",
+			"symbol": "SABR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9ca98c8b217c3b45074834908555d36af2ac6449.png"
 		}
 	},
 	{
@@ -23259,39 +28846,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9cbf044bc535db4c93a9f11205a69631d9dcef26",
+		"address": "0x9cb6dd255a6bbe32130ce645ec45c0a3e9d87a4a",
 		"data": {
-			"name": "Billy Token",
-			"symbol": "BILLY",
+			"name": "NOVAMIND",
+			"symbol": "NMD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x9cbf044bc535db4c93a9f11205a69631d9dcef26.png"
+			"logoUri": "/images/tokens/0x9cb6dd255a6bbe32130ce645ec45c0a3e9d87a4a.png"
 		}
 	},
 	{
-		"address": "0x9cc83d580180f0d37d00e5d86ce868f73b6e3d0a",
+		"address": "0x9cdb8ea1002541a816b271363d64b2787631885f",
 		"data": {
-			"name": "Bitcointry Token",
-			"symbol": "BTTY",
+			"name": "Wrapped Trade AI",
+			"symbol": "WTAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0x9cc83d580180f0d37d00e5d86ce868f73b6e3d0a.png"
+			"logoUri": "/images/tokens/0x9cdb8ea1002541a816b271363d64b2787631885f.png"
 		}
 	},
 	{
-		"address": "0x9ccf191169a613eca433a249d3f40131178caebc",
+		"address": "0x9ce07410673206c693bcec9b07710767637a564c",
 		"data": {
-			"name": "MicroChains Gov Token",
-			"symbol": "MCG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9ccf191169a613eca433a249d3f40131178caebc.png"
-		}
-	},
-	{
-		"address": "0x9cdafb9fae77e7c1bd7cf28c389008ca8dacf48c",
-		"data": {
-			"name": "Liquidity money",
-			"symbol": "LIM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9cdafb9fae77e7c1bd7cf28c389008ca8dacf48c.png"
+			"name": "Monkeys Token",
+			"symbol": "MONKEYS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9ce07410673206c693bcec9b07710767637a564c.png"
 		}
 	},
 	{
@@ -23322,6 +28900,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9cf0ed013e67db12ca3af8e7506fe401aa14dad6",
+		"data": {
+			"name": "Spectre AI",
+			"symbol": "SPECTRE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9cf0ed013e67db12ca3af8e7506fe401aa14dad6.png"
+		}
+	},
+	{
 		"address": "0x9cf98eb8a8b28c83e8612046cf55701ce3eb0063",
 		"data": {
 			"name": "Unreal Finance",
@@ -23331,21 +28918,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9d0b65a76274645b29e4cc41b8f23081fa09f4a3",
-		"data": {
-			"name": "iMe Lab",
-			"symbol": "LIME",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9d0b65a76274645b29e4cc41b8f23081fa09f4a3.png"
-		}
-	},
-	{
 		"address": "0x9d1089802ee608ba84c5c98211afe5f37f96b36c",
 		"data": {
 			"name": "Fluid USDC",
 			"symbol": "FUSDC",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0x9d1089802ee608ba84c5c98211afe5f37f96b36c.png"
+		}
+	},
+	{
+		"address": "0x9d14bce1daddf408d77295bb1be9b343814f44de",
+		"data": {
+			"name": "Koi",
+			"symbol": "KOI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9d14bce1daddf408d77295bb1be9b343814f44de.png"
+		}
+	},
+	{
+		"address": "0x9d1a74967eca155782edf8e84782c74db33fc499",
+		"data": {
+			"name": "AI COM",
+			"symbol": "AICOM",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9d1a74967eca155782edf8e84782c74db33fc499.png"
+		}
+	},
+	{
+		"address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+		"data": {
+			"name": "Ethena Staked USDe",
+			"symbol": "SUSDE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9d39a5de30e57443bff2a8307a4256c8797a3497.png"
+		}
+	},
+	{
+		"address": "0x9d3d07439069c9bbc8d626397cf98cb343ac0a72",
+		"data": {
+			"name": "Technology Metal Network Global",
+			"symbol": "TMNG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9d3d07439069c9bbc8d626397cf98cb343ac0a72.png"
 		}
 	},
 	{
@@ -23373,6 +28987,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SSV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54.png"
+		}
+	},
+	{
+		"address": "0x9d67d207b0cbdbd6dc50f465555cc777bd51159e",
+		"data": {
+			"name": "Useless Utility",
+			"symbol": "UU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9d67d207b0cbdbd6dc50f465555cc777bd51159e.png"
+		}
+	},
+	{
+		"address": "0x9d69a8ccb7cbc03d3dbb2c4ab03c0c1fad3e74b0",
+		"data": {
+			"name": "Creatopy Builder",
+			"symbol": "CREATOPY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9d69a8ccb7cbc03d3dbb2c4ab03c0c1fad3e74b0.png"
 		}
 	},
 	{
@@ -23416,7 +29048,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "Dede",
 			"symbol": "DEDE",
-			"decimals": 10,
+			"decimals": 9,
 			"logoUri": "/images/tokens/0x9d7b68970d2be6dc93124477b4e2e1c9a6b180aa.png"
 		}
 	},
@@ -23448,15 +29080,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9d95486e1b0e0ea8a5361e853901f731b7f8e403",
-		"data": {
-			"name": "Bored Pepe VIP Club",
-			"symbol": "BPVC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9d95486e1b0e0ea8a5361e853901f731b7f8e403.png"
-		}
-	},
-	{
 		"address": "0x9d9e399e5385e2b9a58d4f775a1e16441b571afb",
 		"data": {
 			"name": "Metano",
@@ -23475,12 +29098,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9dc251f27a7477313242a022181d4b5a3a1e4a0f",
+		"data": {
+			"name": "Unibets AI",
+			"symbol": "BETS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9dc251f27a7477313242a022181d4b5a3a1e4a0f.png"
+		}
+	},
+	{
 		"address": "0x9dc7094530cb1bcf5442c3b9389ee386738a190c",
 		"data": {
 			"name": "Morpho Aave Curve DAO Token",
 			"symbol": "MACRV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9dc7094530cb1bcf5442c3b9389ee386738a190c.png"
+		}
+	},
+	{
+		"address": "0x9dc9d1c18060b45f3dc15fb8d6ab1895022c63b3",
+		"data": {
+			"name": "BitBullBot",
+			"symbol": "BBB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9dc9d1c18060b45f3dc15fb8d6ab1895022c63b3.png"
 		}
 	},
 	{
@@ -23520,6 +29161,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9e18d5bab2fa94a6a95f509ecb38f8f68322abd3",
+		"data": {
+			"name": "AMATERASU OMIKAMI",
+			"symbol": "OMIKAMI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9e18d5bab2fa94a6a95f509ecb38f8f68322abd3.png"
+		}
+	},
+	{
+		"address": "0x9e20461bc2c4c980f62f1b279d71734207a6a356",
+		"data": {
+			"name": "OmniCat",
+			"symbol": "OMNI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9e20461bc2c4c980f62f1b279d71734207a6a356.png"
+		}
+	},
+	{
+		"address": "0x9e22b4f836a461ddc7765e5fad693688e76e6069",
+		"data": {
+			"name": "Chad Frog",
+			"symbol": "CHAD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9e22b4f836a461ddc7765e5fad693688e76e6069.png"
+		}
+	},
+	{
 		"address": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
 		"data": {
 			"name": "Metis",
@@ -23547,12 +29215,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0x9e64ea4e67371de7ea8039c6f992f3029836cf4d",
+		"address": "0x9e68250f3031dba94a0b430b881e574a500aa78c",
 		"data": {
-			"name": "GunBet",
-			"symbol": "GUNBET",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x9e64ea4e67371de7ea8039c6f992f3029836cf4d.png"
+			"name": "CortexLPU",
+			"symbol": "LPU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9e68250f3031dba94a0b430b881e574a500aa78c.png"
 		}
 	},
 	{
@@ -23574,12 +29242,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9e91f79070926a191e41367d40ad582686f9e66d",
+		"data": {
+			"name": "STYLE Protocol",
+			"symbol": "STYLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9e91f79070926a191e41367d40ad582686f9e66d.png"
+		}
+	},
+	{
 		"address": "0x9e976f211daea0d652912ab99b0dc21a7fd728e4",
 		"data": {
 			"name": "MAP Protocol",
-			"symbol": "MAP",
+			"symbol": "MAPO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9e976f211daea0d652912ab99b0dc21a7fd728e4.png"
+		}
+	},
+	{
+		"address": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+		"data": {
+			"name": "Pandora",
+			"symbol": "PANDORA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9e9fbde7c7a83c43913bddc8779158f1368f0413.png"
 		}
 	},
 	{
@@ -23589,24 +29275,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DELTA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9ea3b5b4ec044b70375236a281986106457b20ef.png"
-		}
-	},
-	{
-		"address": "0x9eac760d89805558d1a657b59bed313766e09e61",
-		"data": {
-			"name": "Membot",
-			"symbol": "MEMBOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9eac760d89805558d1a657b59bed313766e09e61.png"
-		}
-	},
-	{
-		"address": "0x9ed1439d328647bdb148c20316ea024c719a735b",
-		"data": {
-			"name": "Hope money LightDAO",
-			"symbol": "LT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9ed1439d328647bdb148c20316ea024c719a735b.png"
 		}
 	},
 	{
@@ -23628,30 +29296,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9ee8c380e1926730ad89e91665ff27063b13c90a",
+		"data": {
+			"name": "Coupon Assets",
+			"symbol": "CA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9ee8c380e1926730ad89e91665ff27063b13c90a.png"
+		}
+	},
+	{
 		"address": "0x9ee91f9f426fa633d227f7a9b000e28b9dfd8599",
 		"data": {
 			"name": "Lido Staked Matic",
 			"symbol": "STMATIC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9ee91f9f426fa633d227f7a9b000e28b9dfd8599.png"
-		}
-	},
-	{
-		"address": "0x9eec1a4814323a7396c938bc86aec46b97f1bd82",
-		"data": {
-			"name": "Toku",
-			"symbol": "TOKU",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9eec1a4814323a7396c938bc86aec46b97f1bd82.png"
-		}
-	},
-	{
-		"address": "0x9f1c9741cb9bcb2adc062f23e2ed90c3eb47cb80",
-		"data": {
-			"name": "V BUCKS",
-			"symbol": "VBUCK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9f1c9741cb9bcb2adc062f23e2ed90c3eb47cb80.png"
 		}
 	},
 	{
@@ -23673,21 +29332,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9f4a8167ca311a87b0d03aafa44e0d2c3d8a3631",
+		"data": {
+			"name": "BlockBox",
+			"symbol": "BBOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9f4a8167ca311a87b0d03aafa44e0d2c3d8a3631.png"
+		}
+	},
+	{
 		"address": "0x9f52c8ecbee10e00d9faaac5ee9ba0ff6550f511",
 		"data": {
-			"name": "Sipher",
+			"name": "SIPHER",
 			"symbol": "SIPHER",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9f52c8ecbee10e00d9faaac5ee9ba0ff6550f511.png"
 		}
 	},
 	{
-		"address": "0x9f549ebfd4974cd4ed4a1550d40394b44a7382aa",
+		"address": "0x9f5e508182e1cbd23ea5ef65d1d6c342beb7d6d3",
 		"data": {
-			"name": "LinkCoin",
-			"symbol": "LKN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9f549ebfd4974cd4ed4a1550d40394b44a7382aa.png"
+			"name": " JONES",
+			"symbol": "JONES",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9f5e508182e1cbd23ea5ef65d1d6c342beb7d6d3.png"
 		}
 	},
 	{
@@ -23697,15 +29365,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DDD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9f5f3cfd7a32700c93f971637407ff17b91c7342.png"
-		}
-	},
-	{
-		"address": "0x9f5f463a7666e04cdabd22bd83569a5c72cb4f4d",
-		"data": {
-			"name": "Smol Su",
-			"symbol": "SU",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0x9f5f463a7666e04cdabd22bd83569a5c72cb4f4d.png"
 		}
 	},
 	{
@@ -23727,12 +29386,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9f83ed4fdf636e8b0562ac704267346712b44c36",
+		"data": {
+			"name": "FP  Mfers",
+			"symbol": "UMFER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9f83ed4fdf636e8b0562ac704267346712b44c36.png"
+		}
+	},
+	{
 		"address": "0x9f891b5ecbd89dd8a5ee4d1d80efc3fe78b306cb",
 		"data": {
 			"name": "SONIK",
 			"symbol": "SONIK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9f891b5ecbd89dd8a5ee4d1d80efc3fe78b306cb.png"
+		}
+	},
+	{
+		"address": "0x9f8ae89b695fd1773175ccb9106a90ce868acab0",
+		"data": {
+			"name": "AltFi",
+			"symbol": "ALT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9f8ae89b695fd1773175ccb9106a90ce868acab0.png"
 		}
 	},
 	{
@@ -23749,7 +29426,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "Crosschain IOTX",
 			"symbol": "CIOTX",
-			"decimals": 17,
+			"decimals": 18,
 			"logoUri": "/images/tokens/0x9f90b457dea25ef802e38d470dda7343691d8fe1.png"
 		}
 	},
@@ -23760,6 +29437,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "HAVOC",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0x9f94b198ce85c19a846c2b1a4d523f40a747a850.png"
+		}
+	},
+	{
+		"address": "0x9f9643209dcce8d7399d7bf932354768069ebc64",
+		"data": {
+			"name": "Invest Club Global",
+			"symbol": "ICG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9f9643209dcce8d7399d7bf932354768069ebc64.png"
 		}
 	},
 	{
@@ -23774,7 +29460,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24",
 		"data": {
-			"name": "GraphLinq Protocol",
+			"name": "GraphLinq Chain",
 			"symbol": "GLQ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24.png"
@@ -23787,15 +29473,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DERC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9fa69536d1cda4a04cfb50688294de75b505a9ae.png"
-		}
-	},
-	{
-		"address": "0x9fb41be7688a1ae9759185d7cacb10e9a9d22ece",
-		"data": {
-			"name": "HOLD",
-			"symbol": "HOLD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0x9fb41be7688a1ae9759185d7cacb10e9a9d22ece.png"
 		}
 	},
 	{
@@ -23817,12 +29494,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0x9fd22a17b4a96da3f83797d122172c450381fb88",
+		"data": {
+			"name": "Jefe",
+			"symbol": "JEFE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0x9fd22a17b4a96da3f83797d122172c450381fb88.png"
+		}
+	},
+	{
+		"address": "0x9fd5555d0360adc2b5d92179e9bc36802bba8621",
+		"data": {
+			"name": "APES",
+			"symbol": "APES",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9fd5555d0360adc2b5d92179e9bc36802bba8621.png"
+		}
+	},
+	{
 		"address": "0x9fda7ceec4c18008096c2fe2b85f05dc300f94d0",
 		"data": {
 			"name": "Gaj Finance",
 			"symbol": "GAJ",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9fda7ceec4c18008096c2fe2b85f05dc300f94d0.png"
+		}
+	},
+	{
+		"address": "0x9fdfb933ee990955d3219d4f892fd1f786b47c9b",
+		"data": {
+			"name": "Meme Kombat",
+			"symbol": "MK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0x9fdfb933ee990955d3219d4f892fd1f786b47c9b.png"
 		}
 	},
 	{
@@ -23855,7 +29559,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0x9ffc3bcde7b68c46a6dc34f0718009925c1867cb",
 		"data": {
-			"name": "HTX Polkadot",
+			"name": "Huobi Polkadot",
 			"symbol": "HDOT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0x9ffc3bcde7b68c46a6dc34f0718009925c1867cb.png"
@@ -24015,6 +29719,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa059b81568fee88791de88232e838465826cf419",
+		"data": {
+			"name": "THREE",
+			"symbol": "THREE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa059b81568fee88791de88232e838465826cf419.png"
+		}
+	},
+	{
+		"address": "0xa067237f8016d5e3770cf08b20e343ab9ee813d5",
+		"data": {
+			"name": "Greelance",
+			"symbol": "GRL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa067237f8016d5e3770cf08b20e343ab9ee813d5.png"
+		}
+	},
+	{
+		"address": "0xa069add2d093f9df0e82ab64ec7dd0320cb4f65d",
+		"data": {
+			"name": "GPUBot",
+			"symbol": "GPUBOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa069add2d093f9df0e82ab64ec7dd0320cb4f65d.png"
+		}
+	},
+	{
 		"address": "0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0",
 		"data": {
 			"name": "Aave interest bearing LINK",
@@ -24033,6 +29764,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa07dcc1abfe20d29d87a32e2ba89876145dafb0a",
+		"data": {
+			"name": "FP  Doodle",
+			"symbol": "UDOODLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa07dcc1abfe20d29d87a32e2ba89876145dafb0a.png"
+		}
+	},
+	{
 		"address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
 		"data": {
 			"name": "Cronos",
@@ -24044,19 +29784,10 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
 		"data": {
-			"name": "USD Coin",
+			"name": "USDC",
 			"symbol": "USDC",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
-		}
-	},
-	{
-		"address": "0xa0b93b9e90ab887e53f9fb8728c009746e989b53",
-		"data": {
-			"name": "The Standard Token",
-			"symbol": "TST",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa0b93b9e90ab887e53f9fb8728c009746e989b53.png"
 		}
 	},
 	{
@@ -24066,6 +29797,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DEPAY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa0bed124a09ac2bd941b10349d8d224fe3c955eb.png"
+		}
+	},
+	{
+		"address": "0xa0cc4428fbb652c396f28dce8868b8743742a71c",
+		"data": {
+			"name": "Purple AI",
+			"symbol": "PAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa0cc4428fbb652c396f28dce8868b8743742a71c.png"
 		}
 	},
 	{
@@ -24096,6 +29836,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa0dd6dd7775e93eb842db0aa142c9c581031ed3b",
+		"data": {
+			"name": "Mind",
+			"symbol": "MND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa0dd6dd7775e93eb842db0aa142c9c581031ed3b.png"
+		}
+	},
+	{
+		"address": "0xa0e7626287bd02cbe3531c65148261bf0c0ed98b",
+		"data": {
+			"name": "Shill Guard Token",
+			"symbol": "SGT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa0e7626287bd02cbe3531c65148261bf0c0ed98b.png"
+		}
+	},
+	{
 		"address": "0xa0ed3c520dc0632657ad2eaaf19e26c4fd431a84",
 		"data": {
 			"name": "Hippo Wallet",
@@ -24123,12 +29881,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa100eafdef0099700933538ee795cfad5505b689",
+		"data": {
+			"name": "FP  Captainz",
+			"symbol": "UCAPTAINZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa100eafdef0099700933538ee795cfad5505b689.png"
+		}
+	},
+	{
+		"address": "0xa10bf0aba0c7953f279c4cb8192d3b5de5ea56e8",
+		"data": {
+			"name": "Tarot",
+			"symbol": "TAROT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa10bf0aba0c7953f279c4cb8192d3b5de5ea56e8.png"
+		}
+	},
+	{
 		"address": "0xa1116930326d21fb917d5a27f1e9943a9595fb47",
 		"data": {
 			"name": "Staked Aave Balancer Pool Token",
 			"symbol": "STKABPT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa1116930326d21fb917d5a27f1e9943a9595fb47.png"
+		}
+	},
+	{
+		"address": "0xa1147413cbf11737eff228fb0073c5ce101e9d87",
+		"data": {
+			"name": " CRATE",
+			"symbol": "CRATE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa1147413cbf11737eff228fb0073c5ce101e9d87.png"
 		}
 	},
 	{
@@ -24147,6 +29932,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ABR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa11bd36801d8fa4448f0ac4ea7a62e3634ce8c7c.png"
+		}
+	},
+	{
+		"address": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+		"data": {
+			"name": "Kelp DAO Restaked ETH",
+			"symbol": "RSETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa1290d69c65a6fe4df752f95823fae25cb99e5a7.png"
 		}
 	},
 	{
@@ -24222,6 +30016,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa187927c9185108458647aeec193ef4a62d3bd80",
+		"data": {
+			"name": "Meta Minigames",
+			"symbol": "MMG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa187927c9185108458647aeec193ef4a62d3bd80.png"
+		}
+	},
+	{
+		"address": "0xa19f5264f7d7be11c451c093d8f92592820bea86",
+		"data": {
+			"name": "Neo Tokyo",
+			"symbol": "BYTES",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa19f5264f7d7be11c451c093d8f92592820bea86.png"
+		}
+	},
+	{
 		"address": "0xa1a36d3537bbe375cc9694795f663ddc8d516db9",
 		"data": {
 			"name": "Polinate",
@@ -24237,6 +30049,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CVNX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa1a4e303e9c56962f201c5e834abc1e677a3c4f3.png"
+		}
+	},
+	{
+		"address": "0xa1abecc1b3958da78259fa2793653fc48e976420",
+		"data": {
+			"name": "Dogggo",
+			"symbol": "DOGGGO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa1abecc1b3958da78259fa2793653fc48e976420.png"
+		}
+	},
+	{
+		"address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+		"data": {
+			"name": "reflect finance",
+			"symbol": "RFI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7.png"
 		}
 	},
 	{
@@ -24276,12 +30106,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa1db57defd15be659cfbc612a13195adf5b237c6",
+		"data": {
+			"name": "ManaCoin",
+			"symbol": "MNC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa1db57defd15be659cfbc612a13195adf5b237c6.png"
+		}
+	},
+	{
+		"address": "0xa1e349fac47e50b42cd323c4285ef4622b60a5e0",
+		"data": {
+			"name": "Pepy coin",
+			"symbol": "PEPY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa1e349fac47e50b42cd323c4285ef4622b60a5e0.png"
+		}
+	},
+	{
 		"address": "0xa1e770be76bde604f8ebb66f640250a787b9422b",
 		"data": {
 			"name": "Anduschain",
 			"symbol": "DEB",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa1e770be76bde604f8ebb66f640250a787b9422b.png"
+		}
+	},
+	{
+		"address": "0xa1f3aca66403d29b909605040c30ae1f1245d14c",
+		"data": {
+			"name": "Adapt3r Digital Treasury Bill Fund",
+			"symbol": "TFBILL",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0xa1f3aca66403d29b909605040c30ae1f1245d14c.png"
+		}
+	},
+	{
+		"address": "0xa1f410f13b6007fca76833ee7eb58478d47bc5ef",
+		"data": {
+			"name": "Rejuve AI",
+			"symbol": "RJV",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0xa1f410f13b6007fca76833ee7eb58478d47bc5ef.png"
+		}
+	},
+	{
+		"address": "0xa1f830aa68b53fd3ee3bb86d7f8254e604740c8b",
+		"data": {
+			"name": "ChainSwap",
+			"symbol": "CHAINS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa1f830aa68b53fd3ee3bb86d7f8254e604740c8b.png"
 		}
 	},
 	{
@@ -24357,12 +30232,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa27a6fa698a63f82e559914c11c6cd888060660b",
+		"address": "0xa2762ba628b962f93498d8893b6e4346140fe96d",
 		"data": {
-			"name": "Shinsekai",
-			"symbol": "SHIN",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xa27a6fa698a63f82e559914c11c6cd888060660b.png"
+			"name": "Intrepid Token",
+			"symbol": "INT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa2762ba628b962f93498d8893b6e4346140fe96d.png"
 		}
 	},
 	{
@@ -24402,12 +30277,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa2c798f6456e4928f1e029c971007a09416a3db0",
+		"address": "0xa2c2c937333165d4c5f2dc5f31a43e1239fecfeb",
 		"data": {
-			"name": "Soaps Tech",
-			"symbol": "SOAPS",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xa2c798f6456e4928f1e029c971007a09416a3db0.png"
+			"name": "Hera Finance",
+			"symbol": "HERA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa2c2c937333165d4c5f2dc5f31a43e1239fecfeb.png"
 		}
 	},
 	{
@@ -24420,6 +30295,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa2d6b59758d307df27d5809426252d91a060cb24",
+		"data": {
+			"name": "Aktionariat Parknsleep AG Tokenized Sha",
+			"symbol": "PNS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xa2d6b59758d307df27d5809426252d91a060cb24.png"
+		}
+	},
+	{
 		"address": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
 		"data": {
 			"name": "Wrapped Beacon ETH",
@@ -24429,12 +30313,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa2fe5e51729be71261bcf42854012827bc44c044",
+		"data": {
+			"name": "BURN",
+			"symbol": "BURN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa2fe5e51729be71261bcf42854012827bc44c044.png"
+		}
+	},
+	{
+		"address": "0xa318a1277e26dfcdf6f4095b90d137743d900e61",
+		"data": {
+			"name": "SmartAudit AI",
+			"symbol": "AUDIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa318a1277e26dfcdf6f4095b90d137743d900e61.png"
+		}
+	},
+	{
 		"address": "0xa31b1767e09f842ecfd4bc471fe44f830e3891aa",
 		"data": {
 			"name": "Roobee",
 			"symbol": "ROOBEE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa31b1767e09f842ecfd4bc471fe44f830e3891aa.png"
+		}
+	},
+	{
+		"address": "0xa338b5a4bbd8053994bb6c55d770fc2447d66b88",
+		"data": {
+			"name": "Emerging Assets Group",
+			"symbol": "EAG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa338b5a4bbd8053994bb6c55d770fc2447d66b88.png"
 		}
 	},
 	{
@@ -24492,21 +30403,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9",
+		"address": "0xa364a9f85f61dc5e3118be282a23edc5e09f62ac",
 		"data": {
-			"name": "Tempus",
-			"symbol": "TEMP",
+			"name": "Golden Zen Token",
+			"symbol": "GZT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9.png"
-		}
-	},
-	{
-		"address": "0xa381e7073ea828fb963157dcc4b414da4344e3fd",
-		"data": {
-			"name": "Cartel Coin",
-			"symbol": "CARTEL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa381e7073ea828fb963157dcc4b414da4344e3fd.png"
+			"logoUri": "/images/tokens/0xa364a9f85f61dc5e3118be282a23edc5e09f62ac.png"
 		}
 	},
 	{
@@ -24519,21 +30421,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa3a80559bbc1989654e6b8385f5001fa1333332f",
-		"data": {
-			"name": "RaiseR Token",
-			"symbol": "RZR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa3a80559bbc1989654e6b8385f5001fa1333332f.png"
-		}
-	},
-	{
 		"address": "0xa3ad8c7ab6b731045b5b16e3fdf77975c71abe79",
 		"data": {
 			"name": "Dinerobet",
 			"symbol": "DINERO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa3ad8c7ab6b731045b5b16e3fdf77975c71abe79.png"
+		}
+	},
+	{
+		"address": "0xa3b3beaf9c0a6160a8e47f000c094d34121f1a57",
+		"data": {
+			"name": "Coffee Club Token",
+			"symbol": "COFFEE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa3b3beaf9c0a6160a8e47f000c094d34121f1a57.png"
 		}
 	},
 	{
@@ -24555,12 +30457,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa3c519683010d59fa54a4a6c4cac0f55cb20bb3f",
+		"data": {
+			"name": "BetIT",
+			"symbol": "BETIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa3c519683010d59fa54a4a6c4cac0f55cb20bb3f.png"
+		}
+	},
+	{
 		"address": "0xa3cb87080e68ad54d00573983d935fa85d168fde",
 		"data": {
 			"name": "InfinityBit Token",
 			"symbol": "IBIT",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xa3cb87080e68ad54d00573983d935fa85d168fde.png"
+		}
+	},
+	{
+		"address": "0xa3d4bee77b05d4a0c943877558ce21a763c4fa29",
+		"data": {
+			"name": "The Root Network",
+			"symbol": "ROOT",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0xa3d4bee77b05d4a0c943877558ce21a763c4fa29.png"
+		}
+	},
+	{
+		"address": "0xa3d59c6d24f428dcfedc09724869e7af4d281fdd",
+		"data": {
+			"name": "DeviantsFactions",
+			"symbol": "DEV",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0xa3d59c6d24f428dcfedc09724869e7af4d281fdd.png"
 		}
 	},
 	{
@@ -24573,12 +30502,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa41161af8d4ee421ba5fed4328f2b12034796a21",
+		"address": "0xa40640458fbc27b6eefedea1e9c9e17d4cee7a21",
 		"data": {
-			"name": "Artify",
-			"symbol": "AFY",
+			"name": "Anchored Coins AEUR",
+			"symbol": "AEUR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa41161af8d4ee421ba5fed4328f2b12034796a21.png"
+			"logoUri": "/images/tokens/0xa40640458fbc27b6eefedea1e9c9e17d4cee7a21.png"
+		}
+	},
+	{
+		"address": "0xa406844323f1603701e6ad95adc8a082213a68ce",
+		"data": {
+			"name": "PolyBet",
+			"symbol": "PBT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa406844323f1603701e6ad95adc8a082213a68ce.png"
+		}
+	},
+	{
+		"address": "0xa408090a36cef0b23c3f518484a4e06c7c7df27c",
+		"data": {
+			"name": "FuzangLong",
+			"symbol": "LONG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa408090a36cef0b23c3f518484a4e06c7c7df27c.png"
+		}
+	},
+	{
+		"address": "0xa41d2f8ee4f47d3b860a149765a7df8c3287b7f0",
+		"data": {
+			"name": "Syncus",
+			"symbol": "SYNC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa41d2f8ee4f47d3b860a149765a7df8c3287b7f0.png"
 		}
 	},
 	{
@@ -24591,12 +30547,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa43a8fc632d809fb2c16f590c0ff6423e311c67d",
+		"address": "0xa4335da338ec4c07c391fc1a9bf75f306adadc08",
 		"data": {
-			"name": "Modulus Domain Service",
-			"symbol": "MODS",
+			"name": "ARYZE eUSD",
+			"symbol": "EUSD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa43a8fc632d809fb2c16f590c0ff6423e311c67d.png"
+			"logoUri": "/images/tokens/0xa4335da338ec4c07c391fc1a9bf75f306adadc08.png"
+		}
+	},
+	{
+		"address": "0xa43a7c62d56df036c187e1966c03e2799d8987ed",
+		"data": {
+			"name": "TruFin Staked MATIC",
+			"symbol": "TRUMATIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa43a7c62d56df036c187e1966c03e2799d8987ed.png"
 		}
 	},
 	{
@@ -24654,24 +30619,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa4bbe66f151b22b167127c770016b15ff97dd35c",
-		"data": {
-			"name": "Umbria Network",
-			"symbol": "UMBR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa4bbe66f151b22b167127c770016b15ff97dd35c.png"
-		}
-	},
-	{
-		"address": "0xa4bdb11dc0a2bec88d24a3aa1e6bb17201112ebe",
-		"data": {
-			"name": "Stably USDS Classic",
-			"symbol": "USDSC",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0xa4bdb11dc0a2bec88d24a3aa1e6bb17201112ebe.png"
-		}
-	},
-	{
 		"address": "0xa4be4cdc552891a6702e1ae9645ef445179a4463",
 		"data": {
 			"name": "INOFi",
@@ -24687,15 +30634,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BAKED",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa4cb0dce4849bdcad2d553e9e68644cf40e26cce.png"
-		}
-	},
-	{
-		"address": "0xa4cb3ef5f41a4d89d6fced22ea8a1c57957629aa",
-		"data": {
-			"name": "MetaRuffy  MR ",
-			"symbol": "MR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa4cb3ef5f41a4d89d6fced22ea8a1c57957629aa.png"
 		}
 	},
 	{
@@ -24717,21 +30655,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa4eb9c64ec359d093eac7b65f51ef933d6e5f7cd",
-		"data": {
-			"name": "Stablz",
-			"symbol": "STABLZ",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa4eb9c64ec359d093eac7b65f51ef933d6e5f7cd.png"
-		}
-	},
-	{
 		"address": "0xa4ef4b0b23c1fc81d3f9ecf93510e64f58a4a016",
 		"data": {
 			"name": "1MillionNFTs",
 			"symbol": "1MIL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa4ef4b0b23c1fc81d3f9ecf93510e64f58a4a016.png"
+		}
+	},
+	{
+		"address": "0xa4ffdf3208f46898ce063e25c1c43056fa754739",
+		"data": {
+			"name": "AthenaDAO",
+			"symbol": "ATH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa4ffdf3208f46898ce063e25c1c43056fa754739.png"
 		}
 	},
 	{
@@ -24744,6 +30682,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa52b7ea0365310ca87ab73aef4f2f75c9a999af3",
+		"data": {
+			"name": "Mass Protocol",
+			"symbol": "MASS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa52b7ea0365310ca87ab73aef4f2f75c9a999af3.png"
+		}
+	},
+	{
 		"address": "0xa52bffad02b1fe3f86a543a4e81962d3b3bb01a7",
 		"data": {
 			"name": "Duckereum",
@@ -24753,12 +30700,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa53e968b8d8a5be52d66e5bb35d9b6b6b5a5cd2f",
+		"address": "0xa53f9dd70055113e13176e291eddb773f85b2650",
 		"data": {
-			"name": "BIDSHOP",
-			"symbol": "BIDS",
+			"name": "ZEUS AI",
+			"symbol": "ZEUS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa53e968b8d8a5be52d66e5bb35d9b6b6b5a5cd2f.png"
+			"logoUri": "/images/tokens/0xa53f9dd70055113e13176e291eddb773f85b2650.png"
+		}
+	},
+	{
+		"address": "0xa562912e1328eea987e04c2650efb5703757850c",
+		"data": {
+			"name": "Drops",
+			"symbol": "DROPS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa562912e1328eea987e04c2650efb5703757850c.png"
 		}
 	},
 	{
@@ -24789,12 +30745,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa59ea1b2d012619a8b9ce16431894cf0be516a73",
+		"address": "0xa58a83361936471b50e2d1c7f99d422e6d73d397",
 		"data": {
-			"name": "Friend Tech Farm",
-			"symbol": "FTF",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xa59ea1b2d012619a8b9ce16431894cf0be516a73.png"
+			"name": "X Rise",
+			"symbol": "XRISE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa58a83361936471b50e2d1c7f99d422e6d73d397.png"
+		}
+	},
+	{
+		"address": "0xa599ab9ee3837be7c5f7b8abf0ce10bc49a2b779",
+		"data": {
+			"name": "Spider",
+			"symbol": "SPIDER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa599ab9ee3837be7c5f7b8abf0ce10bc49a2b779.png"
 		}
 	},
 	{
@@ -24816,12 +30781,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa5e412ba6fca1e07b15defcaa4236ff7b5a7f086",
+		"address": "0xa5e0b9118ce23dd1eec52cd93cf59e8ea3b3ff56",
 		"data": {
-			"name": "Crypto Bank",
-			"symbol": "CBANK",
+			"name": "JUDAS",
+			"symbol": "JUDAS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa5e412ba6fca1e07b15defcaa4236ff7b5a7f086.png"
+			"logoUri": "/images/tokens/0xa5e0b9118ce23dd1eec52cd93cf59e8ea3b3ff56.png"
 		}
 	},
 	{
@@ -24852,12 +30817,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa60b6c2537078b903e3e965d4e36b7280b0b53a9",
+		"address": "0xa6089dbfed19d1bcd43146bbdca2b8f9d9f84a9a",
 		"data": {
-			"name": "Pepe of Yellow",
-			"symbol": "PYPY",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xa60b6c2537078b903e3e965d4e36b7280b0b53a9.png"
+			"name": "UGOLD Inc ",
+			"symbol": "UGOLD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa6089dbfed19d1bcd43146bbdca2b8f9d9f84a9a.png"
 		}
 	},
 	{
@@ -24876,6 +30841,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STMX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa62cc35625b0c8dc1faea39d33625bb4c15bd71c.png"
+		}
+	},
+	{
+		"address": "0xa6345ffadfa23dfc9014bce72ff2fa8712e54231",
+		"data": {
+			"name": "Pepe Prophet",
+			"symbol": "KEK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa6345ffadfa23dfc9014bce72ff2fa8712e54231.png"
 		}
 	},
 	{
@@ -24942,9 +30916,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
+		"data": {
+			"name": "Staked FRAX",
+			"symbol": "SFRAX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32.png"
+		}
+	},
+	{
 		"address": "0xa66daa57432024023db65477ba87d4e7f5f95213",
 		"data": {
-			"name": "HTX Pool",
+			"name": "Huobi Pool",
 			"symbol": "HPT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa66daa57432024023db65477ba87d4e7f5f95213.png"
@@ -24960,12 +30943,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa67d87058b2f4e958b38717909565b6daefb95fe",
+		"data": {
+			"name": "Ionic Pocket Token",
+			"symbol": "INP",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa67d87058b2f4e958b38717909565b6daefb95fe.png"
+		}
+	},
+	{
 		"address": "0xa67e9f021b9d208f7e3365b2a155e3c55b27de71",
 		"data": {
 			"name": "KleeKai",
 			"symbol": "KLEE",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xa67e9f021b9d208f7e3365b2a155e3c55b27de71.png"
+		}
+	},
+	{
+		"address": "0xa685406eff334b1368318d0325fc2cdc0e7086f1",
+		"data": {
+			"name": "PARTY",
+			"symbol": "PARTY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa685406eff334b1368318d0325fc2cdc0e7086f1.png"
 		}
 	},
 	{
@@ -25016,7 +31017,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee",
 		"data": {
-			"name": "EchoLink",
+			"name": "EchoLink  OLD ",
 			"symbol": "EKO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee.png"
@@ -25032,12 +31033,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa6f7645ed967faf708a614a2fca8d4790138586f",
+		"address": "0xa6ed258e3126be568a5f53ade7b6a1e478e5ef98",
 		"data": {
-			"name": "MoonieNFT",
-			"symbol": "MNY",
+			"name": "Exynos Protocol",
+			"symbol": "XYN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa6f7645ed967faf708a614a2fca8d4790138586f.png"
+			"logoUri": "/images/tokens/0xa6ed258e3126be568a5f53ade7b6a1e478e5ef98.png"
+		}
+	},
+	{
+		"address": "0xa700b4eb416be35b2911fd5dee80678ff64ff6c9",
+		"data": {
+			"name": "Aave v3 AAVE",
+			"symbol": "AAAVE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa700b4eb416be35b2911fd5dee80678ff64ff6c9.png"
+		}
+	},
+	{
+		"address": "0xa704662ecb62be83f88ca1a3b5277a381cb32dce",
+		"data": {
+			"name": "Bee Tools",
+			"symbol": "BUZZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa704662ecb62be83f88ca1a3b5277a381cb32dce.png"
+		}
+	},
+	{
+		"address": "0xa711bcc2b6f5c4fc3dfaccc2a01148765cbbab1c",
+		"data": {
+			"name": "Grok1 5",
+			"symbol": "GROK15",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa711bcc2b6f5c4fc3dfaccc2a01148765cbbab1c.png"
 		}
 	},
 	{
@@ -25059,12 +31087,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa71dcaaf5ba390b1b2012323a8810fac121f90dd",
+		"address": "0xa72332af4a7efbce221903e7a09175be64f0400d",
 		"data": {
-			"name": "SafeGrow",
-			"symbol": "SFG",
+			"name": "Gumball Machine",
+			"symbol": "GUM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa71dcaaf5ba390b1b2012323a8810fac121f90dd.png"
+			"logoUri": "/images/tokens/0xa72332af4a7efbce221903e7a09175be64f0400d.png"
+		}
+	},
+	{
+		"address": "0xa728aa2de568766e2fa4544ec7a77f79c0bf9f97",
+		"data": {
+			"name": "JokInTheBox",
+			"symbol": "JOK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa728aa2de568766e2fa4544ec7a77f79c0bf9f97.png"
 		}
 	},
 	{
@@ -25077,12 +31114,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa74a05b17d72e9b0781d973e7963dfaacd266b94",
+		"data": {
+			"name": "Oasis",
+			"symbol": "OASIS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa74a05b17d72e9b0781d973e7963dfaacd266b94.png"
+		}
+	},
+	{
 		"address": "0xa75e7928d3de682e3f44da60c26f33117c4e6c5c",
 		"data": {
 			"name": "Propel",
 			"symbol": "PEL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa75e7928d3de682e3f44da60c26f33117c4e6c5c.png"
+		}
+	},
+	{
+		"address": "0xa76cec201e939660f8afb1fb8d5865d069df0750",
+		"data": {
+			"name": "Wanna Bot",
+			"symbol": "WANNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa76cec201e939660f8afb1fb8d5865d069df0750.png"
 		}
 	},
 	{
@@ -25131,6 +31186,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa80505c408c4defd9522981cd77e026f5a49fe63",
+		"data": {
+			"name": "NEUY",
+			"symbol": "NEUY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa80505c408c4defd9522981cd77e026f5a49fe63.png"
+		}
+	},
+	{
+		"address": "0xa80f2c8f61c56546001f5fc2eb8d6e4e72c45d4c",
+		"data": {
+			"name": "Unique Utility",
+			"symbol": "UNQT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa80f2c8f61c56546001f5fc2eb8d6e4e72c45d4c.png"
+		}
+	},
+	{
 		"address": "0xa8262eb913fccea4c3f77fc95b8b4043b384cfbb",
 		"data": {
 			"name": "Krypton Galaxy Coin",
@@ -25149,12 +31222,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa848a1d33d8ef1633397a6acf617620fab8e5da8",
+		"address": "0xa849cd6239906f23b63ba34441b73a5c6eba8a00",
 		"data": {
-			"name": "MouseWorm",
-			"symbol": "MOUSEWORM",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0xa848a1d33d8ef1633397a6acf617620fab8e5da8.png"
+			"name": "HashMind",
+			"symbol": "HASH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa849cd6239906f23b63ba34441b73a5c6eba8a00.png"
 		}
 	},
 	{
@@ -25167,18 +31240,9 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa86a0da9d05d0771955df05b44ca120661af16de",
-		"data": {
-			"name": "OTCBTC",
-			"symbol": "OTB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa86a0da9d05d0771955df05b44ca120661af16de.png"
-		}
-	},
-	{
 		"address": "0xa87135285ae208e22068acdbff64b11ec73eaa5a",
 		"data": {
-			"name": "Lunr",
+			"name": "LunarCrush",
 			"symbol": "LUNR",
 			"decimals": 4,
 			"logoUri": "/images/tokens/0xa87135285ae208e22068acdbff64b11ec73eaa5a.png"
@@ -25212,12 +31276,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa891cf72aeda692570928efe1a832342e9783cdc",
+		"address": "0xa88920b4a35f7d0e81bc586ce1875036fced9154",
 		"data": {
-			"name": "Interfinex Bills",
-			"symbol": "IFEX",
+			"name": "Kabuni",
+			"symbol": "KBC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa891cf72aeda692570928efe1a832342e9783cdc.png"
+			"logoUri": "/images/tokens/0xa88920b4a35f7d0e81bc586ce1875036fced9154.png"
+		}
+	},
+	{
+		"address": "0xa89b728708be04f57c7a33c6f790b6f077298e26",
+		"data": {
+			"name": "ReptilianZuckerBidenBartcoin",
+			"symbol": "BART",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa89b728708be04f57c7a33c6f790b6f077298e26.png"
 		}
 	},
 	{
@@ -25227,6 +31300,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa89bf95c5f15a847c8eb8d348cd7fed719ad7d80.png"
+		}
+	},
+	{
+		"address": "0xa89e2871a850e0e6fd8f0018ec1fc62fa75440d4",
+		"data": {
+			"name": "Ready to Fight",
+			"symbol": "RTF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa89e2871a850e0e6fd8f0018ec1fc62fa75440d4.png"
 		}
 	},
 	{
@@ -25266,12 +31348,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa8c08d8bb15a2d1a4d3b78def9c635ef1e340e16",
+		"data": {
+			"name": "SERBIAN DANCING LADY",
+			"symbol": "",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa8c08d8bb15a2d1a4d3b78def9c635ef1e340e16.png"
+		}
+	},
+	{
 		"address": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
 		"data": {
-			"name": "Syntropy",
+			"name": "Synternet",
 			"symbol": "NOIA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca.png"
+		}
+	},
+	{
+		"address": "0xa8dfdfdf9d288e909a96178e15731a6f4048a7aa",
+		"data": {
+			"name": "ScanAI",
+			"symbol": "SCAN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa8dfdfdf9d288e909a96178e15731a6f4048a7aa.png"
 		}
 	},
 	{
@@ -25284,21 +31384,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa91464abd4625a23ab719e3f0fce84dadd54e546",
-		"data": {
-			"name": "Inoovi",
-			"symbol": "IVI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xa91464abd4625a23ab719e3f0fce84dadd54e546.png"
-		}
-	},
-	{
 		"address": "0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14",
 		"data": {
 			"name": "Bella Protocol",
 			"symbol": "BEL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14.png"
+		}
+	},
+	{
+		"address": "0xa922a70569a7555518bf4ded5094661a965e23ca",
+		"data": {
+			"name": "MN Bridge",
+			"symbol": "MNB",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xa922a70569a7555518bf4ded5094661a965e23ca.png"
 		}
 	},
 	{
@@ -25320,12 +31420,20 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa9598333b99d14d90bc81cad8af82c4c70625e75",
+		"address": "0xa939c02dba8f237b40d2a3e96ad4252b00bb8a72",
 		"data": {
-			"name": "Metis MTS",
-			"symbol": "MTS",
+			"name": "Eigenpie LsETH",
+			"symbol": "MLSETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xa9598333b99d14d90bc81cad8af82c4c70625e75.png"
+			"logoUri": "/images/tokens/0xa939c02dba8f237b40d2a3e96ad4252b00bb8a72.png"
+		}
+	},
+	{
+		"address": "0xa946fb6b6b860c68df3c293f1e2c3881b243e08c",
+		"data": {
+			"name": "Dragon",
+			"symbol": "DRAGON",
+			"decimals": 18
 		}
 	},
 	{
@@ -25338,11 +31446,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xa962fc9d092c1e2de00bf600e261cf058b5685b1",
+		"address": "0xa97cd1c5bcee878496fadb4edee081d05239051f",
 		"data": {
-			"name": "STYLE Protocol",
-			"symbol": "STYLE",
-			"decimals": 18
+			"name": "AICB",
+			"symbol": "AICB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa97cd1c5bcee878496fadb4edee081d05239051f.png"
+		}
+	},
+	{
+		"address": "0xa995d67fd0187b4b8fea3a60e11f31a08e4ac40b",
+		"data": {
+			"name": "Aktionariat Pension Dynamics AG Tokeniz",
+			"symbol": "PDS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xa995d67fd0187b4b8fea3a60e11f31a08e4ac40b.png"
 		}
 	},
 	{
@@ -25364,6 +31482,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xa9c1eae6b76c09f84a89ff785ee4001a2b7294ce",
+		"data": {
+			"name": "EchoBlock",
+			"symbol": "EBLOCK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xa9c1eae6b76c09f84a89ff785ee4001a2b7294ce.png"
+		}
+	},
+	{
+		"address": "0xa9d54f37ebb99f83b603cc95fc1a5f3907aaccfd",
+		"data": {
+			"name": "Pikaboss",
+			"symbol": "PIKA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa9d54f37ebb99f83b603cc95fc1a5f3907aaccfd.png"
+		}
+	},
+	{
 		"address": "0xa9e201a4e269d6cd5e9f0fcbcb78520cf815878b",
 		"data": {
 			"name": "Aave AMM UniRENWETH",
@@ -25379,6 +31515,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PEPECOIN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xa9e8acf069c58aec8825542845fd754e41a9489a.png"
+		}
+	},
+	{
+		"address": "0xa9fbcc25435ad713a9468d8c89dd7baae8914e3a",
+		"data": {
+			"name": "Prophet",
+			"symbol": "PROPHET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xa9fbcc25435ad713a9468d8c89dd7baae8914e3a.png"
 		}
 	},
 	{
@@ -25409,6 +31554,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xaa247c0d81b83812e1abf8bab078e4540d87e3fb",
+		"data": {
+			"name": "Meson Network",
+			"symbol": "MSN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaa247c0d81b83812e1abf8bab078e4540d87e3fb.png"
+		}
+	},
+	{
 		"address": "0xaa2ce7ae64066175e0b90497ce7d9c190c315db4",
 		"data": {
 			"name": "Suterusu",
@@ -25427,15 +31581,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xaa3573cc3761133375b0c504146b93f6827f945a",
-		"data": {
-			"name": "All Time High",
-			"symbol": "ATH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xaa3573cc3761133375b0c504146b93f6827f945a.png"
-		}
-	},
-	{
 		"address": "0xaa4e3edb11afa93c41db59842b29de64b72e355b",
 		"data": {
 			"name": "Marginswap",
@@ -25451,15 +31596,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ZMT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xaa602de53347579f86b996d2add74bb6f79462b2.png"
-		}
-	},
-	{
-		"address": "0xaa61d5dec73971cd4a026ef2820bb87b4a4ed8d6",
-		"data": {
-			"name": "CRE8R DAO",
-			"symbol": "CRE8R",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xaa61d5dec73971cd4a026ef2820bb87b4a4ed8d6.png"
 		}
 	},
 	{
@@ -25496,6 +31632,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "POLC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xaa8330fb2b4d5d07abfe7a72262752a8505c6b37.png"
+		}
+	},
+	{
+		"address": "0xaa846b1ec76cdf864ea03e1df665f6c8d5510923",
+		"data": {
+			"name": "LeaderDAO",
+			"symbol": "LDAO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaa846b1ec76cdf864ea03e1df665f6c8d5510923.png"
+		}
+	},
+	{
+		"address": "0xaa95f26e30001251fb905d264aa7b00ee9df6c18",
+		"data": {
+			"name": "Kendu Inu",
+			"symbol": "KENDU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaa95f26e30001251fb905d264aa7b00ee9df6c18.png"
 		}
 	},
 	{
@@ -25555,19 +31709,10 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xaac679720204aaa68b6c5000aa87d789a3ca0aa5",
 		"data": {
-			"name": "HTX Bitcoin Cash",
+			"name": "Huobi Bitcoin Cash",
 			"symbol": "HBCH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xaac679720204aaa68b6c5000aa87d789a3ca0aa5.png"
-		}
-	},
-	{
-		"address": "0xaac88e48767988119b84dea3fc93ceec012f3530",
-		"data": {
-			"name": "BlockbyBlock",
-			"symbol": "BXB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xaac88e48767988119b84dea3fc93ceec012f3530.png"
 		}
 	},
 	{
@@ -25625,9 +31770,27 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xaaf449bf8a33a32575c31ba8cbb90612dd95acfa",
+		"data": {
+			"name": "MBD Financials",
+			"symbol": "MBD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaaf449bf8a33a32575c31ba8cbb90612dd95acfa.png"
+		}
+	},
+	{
+		"address": "0xab14f1262ea8d910756828cbe08e6cedfb66360d",
+		"data": {
+			"name": "TORO",
+			"symbol": "TORO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xab14f1262ea8d910756828cbe08e6cedfb66360d.png"
+		}
+	},
+	{
 		"address": "0xab2a7b5876d707e0126b3a75ef7781c77c8877ee",
 		"data": {
-			"name": "Quadency",
+			"name": "Quadency Token",
 			"symbol": "QUAD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xab2a7b5876d707e0126b3a75ef7781c77c8877ee.png"
@@ -25652,6 +31815,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xab5d6508e4726141d29c6074ab366afa03f4ec8d",
+		"data": {
+			"name": "Cybertruck",
+			"symbol": "TRUCK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xab5d6508e4726141d29c6074ab366afa03f4ec8d.png"
+		}
+	},
+	{
+		"address": "0xab622b253e441928affa6e2efb2f0f9a8bf6890d",
+		"data": {
+			"name": "NutCoin",
+			"symbol": "NUT",
+			"decimals": 4,
+			"logoUri": "/images/tokens/0xab622b253e441928affa6e2efb2f0f9a8bf6890d.png"
+		}
+	},
+	{
 		"address": "0xab846fb6c81370327e784ae7cbb6d6a6af6ff4bf",
 		"data": {
 			"name": "Paladin",
@@ -25661,12 +31842,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xab85fc558d722a2b7c040ffb77db676bd9e7d322",
+		"data": {
+			"name": "MOROS NET",
+			"symbol": "MOROS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xab85fc558d722a2b7c040ffb77db676bd9e7d322.png"
+		}
+	},
+	{
 		"address": "0xab93df617f51e1e415b5b4f8111f122d6b48e55c",
 		"data": {
 			"name": "Delta Exchange",
 			"symbol": "DETO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xab93df617f51e1e415b5b4f8111f122d6b48e55c.png"
+		}
+	},
+	{
+		"address": "0xab97bf5fb097e503bba2c86b7c56c0059ac0dc06",
+		"data": {
+			"name": "Chanalog",
+			"symbol": "CHAN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xab97bf5fb097e503bba2c86b7c56c0059ac0dc06.png"
+		}
+	},
+	{
+		"address": "0xabc93b1c8ffa3a69f478068676360021bbaab4bf",
+		"data": {
+			"name": "DigiFund Capital V2",
+			"symbol": "DFUND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xabc93b1c8ffa3a69f478068676360021bbaab4bf.png"
+		}
+	},
+	{
+		"address": "0xabd0e3535ecfbf6959b1798220335faf1b7ada3a",
+		"data": {
+			"name": "Predict Crypto",
+			"symbol": "PREAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xabd0e3535ecfbf6959b1798220335faf1b7ada3a.png"
+		}
+	},
+	{
+		"address": "0xabd601423a2cd5723cb546acc5c40fb01c3422cf",
+		"data": {
+			"name": "Baby X",
+			"symbol": "BABYX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xabd601423a2cd5723cb546acc5c40fb01c3422cf.png"
 		}
 	},
 	{
@@ -25688,18 +31914,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xac0c8da4a4748d8d821a0973d00b157aa78c473d",
+		"address": "0xac1419ee74f203c6b9daa3635ad7169b7ebb5c1a",
 		"data": {
-			"name": "YFIONE",
-			"symbol": "YFO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xac0c8da4a4748d8d821a0973d00b157aa78c473d.png"
+			"name": "Nebula",
+			"symbol": "NEBULA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xac1419ee74f203c6b9daa3635ad7169b7ebb5c1a.png"
 		}
 	},
 	{
 		"address": "0xac3211a5025414af2866ff09c23fc18bc97e79b1",
 		"data": {
-			"name": "Dovu",
+			"name": "Dovu  OLD ",
 			"symbol": "DOV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xac3211a5025414af2866ff09c23fc18bc97e79b1.png"
@@ -25712,6 +31938,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SFRXETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xac3e018457b222d93114458476f3e3416abbe38f.png"
+		}
+	},
+	{
+		"address": "0xac506c7dc601500e997cad42ea446624ed40c743",
+		"data": {
+			"name": "XCeption",
+			"symbol": "XCEPT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xac506c7dc601500e997cad42ea446624ed40c743.png"
 		}
 	},
 	{
@@ -25751,21 +31986,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xac8e13ecc30da7ff04b842f21a62a1fb0f10ebd5",
+		"address": "0xac87d4cbb82ce7f4bcf31dbdc0024306cfd3ec5a",
 		"data": {
-			"name": "BabyDoge ETH",
-			"symbol": "BABYDOGE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xac8e13ecc30da7ff04b842f21a62a1fb0f10ebd5.png"
+			"name": "KEI Finance",
+			"symbol": "KEI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xac87d4cbb82ce7f4bcf31dbdc0024306cfd3ec5a.png"
 		}
 	},
 	{
-		"address": "0xaca55d5a5f58e29bd1e00e4b1bdeda62d2ecf33f",
+		"address": "0xac9518ba93eeb2336a03137d254d8cc2e4d0fa38",
 		"data": {
-			"name": "MrsPepe",
-			"symbol": "MRSPEPE",
+			"name": "EDUM",
+			"symbol": "EDUM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xaca55d5a5f58e29bd1e00e4b1bdeda62d2ecf33f.png"
+			"logoUri": "/images/tokens/0xac9518ba93eeb2336a03137d254d8cc2e4d0fa38.png"
 		}
 	},
 	{
@@ -25784,6 +32019,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "N1",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xacbd826394189cf2623c6df98a18b41fc8ffc16d.png"
+		}
+	},
+	{
+		"address": "0xacc48f65f8701f376bc4ba13f4bc103f31dda74e",
+		"data": {
+			"name": "Swift",
+			"symbol": "SWIFT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xacc48f65f8701f376bc4ba13f4bc103f31dda74e.png"
+		}
+	},
+	{
+		"address": "0xacd2c239012d17beb128b0944d49015104113650",
+		"data": {
+			"name": "Karrat",
+			"symbol": "KARRAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xacd2c239012d17beb128b0944d49015104113650.png"
+		}
+	},
+	{
+		"address": "0xacdbfcbd4d6d4e9fe72c3ba4280d728ab2ace30f",
+		"data": {
+			"name": "TargetWatch Bot",
+			"symbol": "TWB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xacdbfcbd4d6d4e9fe72c3ba4280d728ab2ace30f.png"
 		}
 	},
 	{
@@ -25823,6 +32085,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xad161afae7db2a048b042bd68e11c38c9c042cc1",
+		"data": {
+			"name": "FP  Nakamigos",
+			"symbol": "UNKMGS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xad161afae7db2a048b042bd68e11c38c9c042cc1.png"
+		}
+	},
+	{
 		"address": "0xad1a5b8538a866ecd56ddd328b50ed57ced5d936",
 		"data": {
 			"name": "Good Gensler",
@@ -25832,30 +32103,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xad22f63404f7305e4713ccbd4f296f34770513f4",
+		"address": "0xad53ed3fee57160f026189eb91e73e9317fa92f1",
 		"data": {
-			"name": "Atomic Wallet Coin",
-			"symbol": "AWC",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xad22f63404f7305e4713ccbd4f296f34770513f4.png"
+			"name": "zkTAO",
+			"symbol": "ZAO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xad53ed3fee57160f026189eb91e73e9317fa92f1.png"
 		}
 	},
 	{
-		"address": "0xad32a8e6220741182940c5abf610bde99e737b2d",
+		"address": "0xad5fdc8c3c18d50315331fca7f66efe5033f6c4c",
 		"data": {
-			"name": "PieDAO DOUGH v2",
-			"symbol": "DOUGH",
+			"name": "Crazy Frog Coin",
+			"symbol": "CRAZY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xad32a8e6220741182940c5abf610bde99e737b2d.png"
-		}
-	},
-	{
-		"address": "0xad497ee6a70accc3cbb5eb874e60d87593b86f2f",
-		"data": {
-			"name": "SCOOBY",
-			"symbol": "SCOOBY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xad497ee6a70accc3cbb5eb874e60d87593b86f2f.png"
+			"logoUri": "/images/tokens/0xad5fdc8c3c18d50315331fca7f66efe5033f6c4c.png"
 		}
 	},
 	{
@@ -25868,21 +32130,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xad6250f0bd49f7a1eb11063af2ce9f25b9597b0f",
+		"address": "0xad6eefb4f4a6ce3e2cd2049c3104f5ce5ed082f0",
 		"data": {
-			"name": "OpenEden TBILL",
-			"symbol": "TBILL",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0xad6250f0bd49f7a1eb11063af2ce9f25b9597b0f.png"
+			"name": "Simpson6900",
+			"symbol": "SIMPSON690",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xad6eefb4f4a6ce3e2cd2049c3104f5ce5ed082f0.png"
 		}
 	},
 	{
-		"address": "0xad83b92cdd542db07445597f7f06963b31cf9444",
+		"address": "0xad78d154baec2e9b4e78182d02388981b5093f80",
 		"data": {
-			"name": "Bumble C",
-			"symbol": "BUMBLEC",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xad83b92cdd542db07445597f7f06963b31cf9444.png"
+			"name": "Soyjak",
+			"symbol": "SOY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xad78d154baec2e9b4e78182d02388981b5093f80.png"
 		}
 	},
 	{
@@ -25892,6 +32154,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "NARUTO",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xad8d0de33c43eefe104a279cdb6ae250c12e6214.png"
+		}
+	},
+	{
+		"address": "0xad8f047d9b742565bb9e10c7655bd3ee9c1eab75",
+		"data": {
+			"name": "Grok Chain",
+			"symbol": "GROC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xad8f047d9b742565bb9e10c7655bd3ee9c1eab75.png"
+		}
+	},
+	{
+		"address": "0xad913dcd987fe54ce823e4b755f90598cd62bb15",
+		"data": {
+			"name": "MFERS",
+			"symbol": "MFERS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xad913dcd987fe54ce823e4b755f90598cd62bb15.png"
 		}
 	},
 	{
@@ -25940,12 +32220,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xadd353fb2e2c563383ff3272a500f3e7134dafe4",
+		"data": {
+			"name": "Tunachain",
+			"symbol": "TUNA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xadd353fb2e2c563383ff3272a500f3e7134dafe4.png"
+		}
+	},
+	{
 		"address": "0xadd5e881984783dd432f80381fb52f45b53f3e70",
 		"data": {
 			"name": "Vite",
 			"symbol": "VITE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xadd5e881984783dd432f80381fb52f45b53f3e70.png"
+		}
+	},
+	{
+		"address": "0xadd8abdea5cb95f4dcd8e128eeef64f023615a6a",
+		"data": {
+			"name": "Cheezburger",
+			"symbol": "CHZB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xadd8abdea5cb95f4dcd8e128eeef64f023615a6a.png"
 		}
 	},
 	{
@@ -25958,21 +32256,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xadf86e75d8f0f57e0288d0970e7407eaa49b3cab",
+		"address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
 		"data": {
-			"name": "Apollo Crypto",
-			"symbol": "APOLLO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xadf86e75d8f0f57e0288d0970e7407eaa49b3cab.png"
+			"name": "Backed ZPR1   1 3 Month T Bill",
+			"symbol": "BZPR1",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xade6057fcafa57d6d51ffa341c64ce4814995995.png"
 		}
 	},
 	{
-		"address": "0xae0585a259a3bcab258d6ee02fb583f7b33c2a12",
+		"address": "0xade6fdaba1643e4d1eef68da7170f234470938c6",
 		"data": {
-			"name": "TemDAO",
-			"symbol": "TEM",
+			"name": "Harambe",
+			"symbol": "HARAMBE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xae0585a259a3bcab258d6ee02fb583f7b33c2a12.png"
+			"logoUri": "/images/tokens/0xade6fdaba1643e4d1eef68da7170f234470938c6.png"
+		}
+	},
+	{
+		"address": "0xae05559e5bc86ecca132956fa0482dd7d4b2d76d",
+		"data": {
+			"name": "FP  CloneX",
+			"symbol": "UCLONEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xae05559e5bc86ecca132956fa0482dd7d4b2d76d.png"
 		}
 	},
 	{
@@ -25985,6 +32292,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xae3359ed3c567482fb0102c584c23daa2693eacf",
+		"data": {
+			"name": "DORK",
+			"symbol": "DORK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xae3359ed3c567482fb0102c584c23daa2693eacf.png"
+		}
+	},
+	{
+		"address": "0xae35dc90bb0bb9139f25fba6282b43aa02a9b9ca",
+		"data": {
+			"name": "Runebound",
+			"symbol": "RUNE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xae35dc90bb0bb9139f25fba6282b43aa02a9b9ca.png"
+		}
+	},
+	{
 		"address": "0xae36155a55f04a696b8362777620027882b31db5",
 		"data": {
 			"name": "Kishimoto",
@@ -25994,21 +32319,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xae377ed00df9b9663b253be93035ef1cfecbc1fb",
+		"address": "0xae41b275aaaf484b541a5881a2dded9515184cca",
 		"data": {
-			"name": "ALERT",
-			"symbol": "ALERT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xae377ed00df9b9663b253be93035ef1cfecbc1fb.png"
+			"name": "ChainSwap",
+			"symbol": "CSWAP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xae41b275aaaf484b541a5881a2dded9515184cca.png"
 		}
 	},
 	{
-		"address": "0xae37d54ae477268b9997d4161b96b8200755935c",
+		"address": "0xae4533189c7281501f04ba4b7c37e3aded402902",
 		"data": {
-			"name": "Balancer Boosted Aave DAI",
-			"symbol": "BB-A-DAI",
+			"name": "World Friendship Cash",
+			"symbol": "WFCA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xae37d54ae477268b9997d4161b96b8200755935c.png"
+			"logoUri": "/images/tokens/0xae4533189c7281501f04ba4b7c37e3aded402902.png"
+		}
+	},
+	{
+		"address": "0xae54e48c2263e889399ad29bfff401feaf08fd57",
+		"data": {
+			"name": "DiversityEquity Inclusion",
+			"symbol": "DEI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xae54e48c2263e889399ad29bfff401feaf08fd57.png"
 		}
 	},
 	{
@@ -26057,12 +32391,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xae83511c4ef07358e2d95b0c219a5f9eb8656a61",
+		"address": "0xae9d553c85eef99c0ef9169f0d49ef33f5275f94",
 		"data": {
-			"name": "Baby Floki",
-			"symbol": "BABYFLOKI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xae83511c4ef07358e2d95b0c219a5f9eb8656a61.png"
+			"name": "Dex Sniffer",
+			"symbol": "DS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xae9d553c85eef99c0ef9169f0d49ef33f5275f94.png"
 		}
 	},
 	{
@@ -26072,6 +32406,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FET",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85.png"
+		}
+	},
+	{
+		"address": "0xaeb3607ec434454ceb308f5cd540875efb54309a",
+		"data": {
+			"name": "Sturdy",
+			"symbol": "STRDY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaeb3607ec434454ceb308f5cd540875efb54309a.png"
 		}
 	},
 	{
@@ -26104,7 +32447,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xaecc217a749c2405b5ebc9857a16d58bdc1c367f",
 		"data": {
-			"name": "Pawthereum",
+			"name": "Pawthereum  OLD ",
 			"symbol": "PAWTH",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xaecc217a749c2405b5ebc9857a16d58bdc1c367f.png"
@@ -26129,21 +32472,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xaee9ba9ce49fe810417a36408e34d9962b653e78",
+		"data": {
+			"name": "Snibbu",
+			"symbol": "SNIBBU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xaee9ba9ce49fe810417a36408e34d9962b653e78.png"
+		}
+	},
+	{
 		"address": "0xaef420fd77477d9dc8b46d704d44dd09d6c27866",
 		"data": {
-			"name": "Cogito Protocol",
+			"name": "Cogito Finance",
 			"symbol": "CGV",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xaef420fd77477d9dc8b46d704d44dd09d6c27866.png"
 		}
 	},
 	{
-		"address": "0xaf1250fa68d7decd34fd75de8742bc03b29bd58e",
+		"address": "0xaf05ce8a2cef336006e933c02fc89887f5b3c726",
 		"data": {
-			"name": "Invictus Hyperion Fund",
-			"symbol": "IHF",
+			"name": "Lockheed Martin Inu",
+			"symbol": "LMI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xaf1250fa68d7decd34fd75de8742bc03b29bd58e.png"
+			"logoUri": "/images/tokens/0xaf05ce8a2cef336006e933c02fc89887f5b3c726.png"
+		}
+	},
+	{
+		"address": "0xaf1eeb83c364ad9ffeb5f97f223c1705d4810033",
+		"data": {
+			"name": "MoneyArk",
+			"symbol": "MARK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xaf1eeb83c364ad9ffeb5f97f223c1705d4810033.png"
+		}
+	},
+	{
+		"address": "0xaf2ca40d3fc4459436d11b94d21fa4b8a89fb51d",
+		"data": {
+			"name": "COTI Governance Token",
+			"symbol": "GCOTI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaf2ca40d3fc4459436d11b94d21fa4b8a89fb51d.png"
+		}
+	},
+	{
+		"address": "0xaf4ce7cd4f8891ecf1799878c3e9a35b8be57e09",
+		"data": {
+			"name": "KUMA Protocol Wrapped USK",
+			"symbol": "WUSK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaf4ce7cd4f8891ecf1799878c3e9a35b8be57e09.png"
 		}
 	},
 	{
@@ -26162,6 +32541,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png"
+		}
+	},
+	{
+		"address": "0xaf69d0518d341af4961b5fcfdb86a3e3453f1dc5",
+		"data": {
+			"name": "Longchenchen",
+			"symbol": "LONG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xaf69d0518d341af4961b5fcfdb86a3e3453f1dc5.png"
+		}
+	},
+	{
+		"address": "0xaf6a1125d4cc55a4110dc63cd2ff6e005afb8676",
+		"data": {
+			"name": "PunkCity",
+			"symbol": "PUNK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xaf6a1125d4cc55a4110dc63cd2ff6e005afb8676.png"
+		}
+	},
+	{
+		"address": "0xaf6aca2769be86b9910165bff78fea643c086c61",
+		"data": {
+			"name": "Decentra Ecosystem",
+			"symbol": "DCE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xaf6aca2769be86b9910165bff78fea643c086c61.png"
 		}
 	},
 	{
@@ -26198,6 +32604,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RFUEL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xaf9f549774ecedbd0966c52f250acc548d3f36e5.png"
+		}
+	},
+	{
+		"address": "0xafa42b8ba6ba9dace46dae129a2a1ef54b73fa8b",
+		"data": {
+			"name": "MODAI",
+			"symbol": "MODAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xafa42b8ba6ba9dace46dae129a2a1ef54b73fa8b.png"
 		}
 	},
 	{
@@ -26300,6 +32715,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb08c567824cdcb530b9da4adc3a3001ee2f170ae",
+		"data": {
+			"name": "Wh1t3h1v3",
+			"symbol": "HIVE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb08c567824cdcb530b9da4adc3a3001ee2f170ae.png"
+		}
+	},
+	{
 		"address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
 		"data": {
 			"name": "BOB",
@@ -26333,6 +32757,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ZERO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb0ed33f79d89541dfdcb04a8f04bc2c6be025ecc.png"
+		}
+	},
+	{
+		"address": "0xb0f92f94d02a4d634fd394c1889fe3cab1fcffc7",
+		"data": {
+			"name": "DogeBoy",
+			"symbol": "DOGB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb0f92f94d02a4d634fd394c1889fe3cab1fcffc7.png"
+		}
+	},
+	{
+		"address": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+		"data": {
+			"name": "Wormhole",
+			"symbol": "W",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91.png"
 		}
 	},
 	{
@@ -26381,6 +32823,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
+		"data": {
+			"name": "Memecoin",
+			"symbol": "MEME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74.png"
+		}
+	},
+	{
 		"address": "0xb13de094cc5cee6c4cc0a3737bf0290166d9ca5d",
 		"data": {
 			"name": "GoWithMi",
@@ -26399,30 +32850,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb167b290d172eb33e221309592df0c042ab9dcdd",
+		"address": "0xb15a5aab2a65745314fcd0d7f5080bfa65bd7c03",
 		"data": {
-			"name": "SonicBOT",
-			"symbol": "SONICBOT",
+			"name": "tupelothedog",
+			"symbol": "TUPELO",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0xb167b290d172eb33e221309592df0c042ab9dcdd.png"
-		}
-	},
-	{
-		"address": "0xb16ada27e4bc05bc7b113d0b0fd4962fe1ce2813",
-		"data": {
-			"name": "RugBet",
-			"symbol": "RBET",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb16ada27e4bc05bc7b113d0b0fd4962fe1ce2813.png"
-		}
-	},
-	{
-		"address": "0xb16d3ed603d62b125c6bd45519eda40829549489",
-		"data": {
-			"name": "Insureum",
-			"symbol": "ISR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb16d3ed603d62b125c6bd45519eda40829549489.png"
+			"logoUri": "/images/tokens/0xb15a5aab2a65745314fcd0d7f5080bfa65bd7c03.png"
 		}
 	},
 	{
@@ -26444,21 +32877,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb17d69c91135516b0256c67e8bd32cd238b56161",
+		"data": {
+			"name": "Gravitas",
+			"symbol": "GRAVITAS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb17d69c91135516b0256c67e8bd32cd238b56161.png"
+		}
+	},
+	{
 		"address": "0xb186035490c8602ead853ec98be05e3461521ab2",
 		"data": {
 			"name": "Pack",
 			"symbol": "PACK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb186035490c8602ead853ec98be05e3461521ab2.png"
-		}
-	},
-	{
-		"address": "0xb18f98822c22492bd6b77d19cae9367f3d60fcbf",
-		"data": {
-			"name": "StealthPad",
-			"symbol": "STEALTH",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xb18f98822c22492bd6b77d19cae9367f3d60fcbf.png"
 		}
 	},
 	{
@@ -26498,21 +32931,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb1a822ce8c799b0777ed1f260113819247e1bf26",
+		"data": {
+			"name": "HairyPlotterFTX",
+			"symbol": "FTX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb1a822ce8c799b0777ed1f260113819247e1bf26.png"
+		}
+	},
+	{
 		"address": "0xb1c064c3f2908f741c9dea4afc5773238b53e6cc",
 		"data": {
 			"name": "WarioXRPDumbledoreYugioh69Inu",
 			"symbol": "XRP",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xb1c064c3f2908f741c9dea4afc5773238b53e6cc.png"
-		}
-	},
-	{
-		"address": "0xb1e4a5f70090947e6ad3fa2dc648cba7b6f913e9",
-		"data": {
-			"name": "Philosoraptor",
-			"symbol": "RAP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb1e4a5f70090947e6ad3fa2dc648cba7b6f913e9.png"
 		}
 	},
 	{
@@ -26525,15 +32958,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb1e93236ab6073fdac58ada5564897177d4bcc43",
-		"data": {
-			"name": "Seele",
-			"symbol": "SEELE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb1e93236ab6073fdac58ada5564897177d4bcc43.png"
-		}
-	},
-	{
 		"address": "0xb1f136a74e18e4e2921febbf25820d1bb65b5647",
 		"data": {
 			"name": "hiPunks",
@@ -26543,12 +32967,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb1f1f47061a7be15c69f378cb3f69423bd58f2f8",
+		"address": "0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1",
 		"data": {
-			"name": "Flashstake",
-			"symbol": "FLASH",
+			"name": "Beefy",
+			"symbol": "BIFI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb1f1f47061a7be15c69f378cb3f69423bd58f2f8.png"
+			"logoUri": "/images/tokens/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1.png"
 		}
 	},
 	{
@@ -26570,30 +32994,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb208b1a5664574f72d22e9e9981837310cacfed6",
-		"data": {
-			"name": "Blossom",
-			"symbol": "SAKURA",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xb208b1a5664574f72d22e9e9981837310cacfed6.png"
-		}
-	},
-	{
-		"address": "0xb2114e5420927932666a5c5bd1ac4e14d9ede32b",
-		"data": {
-			"name": "Pig 2 0",
-			"symbol": "PIG20",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xb2114e5420927932666a5c5bd1ac4e14d9ede32b.png"
-		}
-	},
-	{
 		"address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
 		"data": {
 			"name": "Echelon Prime",
 			"symbol": "PRIME",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb23d80f5fefcddaa212212f028021b41ded428cf.png"
+		}
+	},
+	{
+		"address": "0xb244b3574a5627849fca2057e3854340def63071",
+		"data": {
+			"name": "Veil Exchange",
+			"symbol": "VEIL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb244b3574a5627849fca2057e3854340def63071.png"
 		}
 	},
 	{
@@ -26606,21 +33021,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb24cd494fae4c180a89975f1328eab2a7d5d8f11",
+		"address": "0xb2606492712d311be8f41d940afe8ce742a52d44",
 		"data": {
-			"name": "Developer DAO",
-			"symbol": "CODE",
+			"name": "zkLend",
+			"symbol": "ZEND",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb24cd494fae4c180a89975f1328eab2a7d5d8f11.png"
-		}
-	},
-	{
-		"address": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
-		"data": {
-			"name": "Promethios",
-			"symbol": "FIRE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776.png"
+			"logoUri": "/images/tokens/0xb2606492712d311be8f41d940afe8ce742a52d44.png"
 		}
 	},
 	{
@@ -26651,6 +33057,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb281d84989c06e2a6ccdc5ea7bf1663c79a1c31a",
+		"data": {
+			"name": "stoicDAO",
+			"symbol": "ZETA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb281d84989c06e2a6ccdc5ea7bf1663c79a1c31a.png"
+		}
+	},
+	{
 		"address": "0xb28f803a8772e6584a65ab6dfc535ae6fef8a0b2",
 		"data": {
 			"name": "Lunafi",
@@ -26660,12 +33075,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb29663aa4e2e81e425294193616c1b102b70a158",
+		"address": "0xb299751b088336e165da313c33e3195b8c6663a6",
 		"data": {
-			"name": "Ludena Protocol",
-			"symbol": "LDN",
+			"name": "StarHeroes",
+			"symbol": "STAR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb29663aa4e2e81e425294193616c1b102b70a158.png"
+			"logoUri": "/images/tokens/0xb299751b088336e165da313c33e3195b8c6663a6.png"
+		}
+	},
+	{
+		"address": "0xb29dc1703facd2967bb8ade2e392385644c6dca9",
+		"data": {
+			"name": "Gaga  Pepe ",
+			"symbol": "GAGA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb29dc1703facd2967bb8ade2e392385644c6dca9.png"
 		}
 	},
 	{
@@ -26687,6 +33111,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb2cb83e8e1b326373b7f1068d10c50ebfa04f070",
+		"data": {
+			"name": "Pepito",
+			"symbol": "PEPI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb2cb83e8e1b326373b7f1068d10c50ebfa04f070.png"
+		}
+	},
+	{
+		"address": "0xb2d007293a421471586d6bc3fbfeb1990fdfa2e6",
+		"data": {
+			"name": "Governance VEC",
+			"symbol": "GVEC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb2d007293a421471586d6bc3fbfeb1990fdfa2e6.png"
+		}
+	},
+	{
 		"address": "0xb2d2e1309db33b38a19ee2a7cd9cb5de39d76663",
 		"data": {
 			"name": "colR Coin",
@@ -26702,6 +33144,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MOFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb2dbf14d0b47ed3ba02bdb7c954e05a72deb7544.png"
+		}
+	},
+	{
+		"address": "0xb2e0f591191ee5f6fb8a7f1777a733b6aa92bb55",
+		"data": {
+			"name": "WojakPepe",
+			"symbol": "WOPE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb2e0f591191ee5f6fb8a7f1777a733b6aa92bb55.png"
 		}
 	},
 	{
@@ -26732,30 +33183,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb30f5d11b94efbbfdeaa4de38edffceec0be6513",
-		"data": {
-			"name": "Play It Forward DAO",
-			"symbol": "PIF",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb30f5d11b94efbbfdeaa4de38edffceec0be6513.png"
-		}
-	},
-	{
 		"address": "0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515",
 		"data": {
 			"name": "DOSE",
 			"symbol": "DOSE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515.png"
-		}
-	},
-	{
-		"address": "0xb3207935ff56120f3499e8ad08461dd403bf16b8",
-		"data": {
-			"name": "dAMM",
-			"symbol": "DAMM",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb3207935ff56120f3499e8ad08461dd403bf16b8.png"
 		}
 	},
 	{
@@ -26768,12 +33201,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb37ea37de1075b7d2f6b64e768917b174639a59c",
+		"address": "0xb369daca21ee035312176eb8cf9d88ce97e0aa95",
 		"data": {
-			"name": "AggrX",
-			"symbol": "AGGRX",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xb37ea37de1075b7d2f6b64e768917b174639a59c.png"
+			"name": "Skol",
+			"symbol": "SKOL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb369daca21ee035312176eb8cf9d88ce97e0aa95.png"
+		}
+	},
+	{
+		"address": "0xb36cf340a35f9860d0bb59afb0355580f0000dad",
+		"data": {
+			"name": "Padre",
+			"symbol": "PADRE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb36cf340a35f9860d0bb59afb0355580f0000dad.png"
 		}
 	},
 	{
@@ -26786,21 +33228,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb39364b51d2c97b62b838bc5213b8627eb469101",
+		"data": {
+			"name": "Swot AI",
+			"symbol": "SWOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb39364b51d2c97b62b838bc5213b8627eb469101.png"
+		}
+	},
+	{
+		"address": "0xb399511642fe1666c6a07f83483e6e4feaed9a00",
+		"data": {
+			"name": "The Standard EURO",
+			"symbol": "EUROS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb399511642fe1666c6a07f83483e6e4feaed9a00.png"
+		}
+	},
+	{
 		"address": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
 		"data": {
 			"name": "Hashflow",
 			"symbol": "HFT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb3999f658c0391d94a37f7ff328f3fec942bcadc.png"
-		}
-	},
-	{
-		"address": "0xb3a58eb551b5f80ec70b7f69ab7b664453271412",
-		"data": {
-			"name": "Mixaverse",
-			"symbol": "MIXCOIN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb3a58eb551b5f80ec70b7f69ab7b664453271412.png"
 		}
 	},
 	{
@@ -26840,24 +33291,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb4039240e71535100be947116c778d5d98bd9f62",
-		"data": {
-			"name": "Magic Shiba Starter",
-			"symbol": "MSHIB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb4039240e71535100be947116c778d5d98bd9f62.png"
-		}
-	},
-	{
-		"address": "0xb40b6608b2743e691c9b54ddbdee7bf03cd79f1c",
-		"data": {
-			"name": "Zunami USD",
-			"symbol": "UZD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb40b6608b2743e691c9b54ddbdee7bf03cd79f1c.png"
-		}
-	},
-	{
 		"address": "0xb40c535c8899f95e3b722df2f0619ebd28c4a4ea",
 		"data": {
 			"name": "Kenda",
@@ -26867,12 +33300,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb41380174d0b06181513a5677b60200b93b5efb4",
+		"address": "0xb418ded94300913fccbef784a49150f46f0fb827",
 		"data": {
-			"name": "Chainsquare",
-			"symbol": "CHS",
+			"name": "TERRIER",
+			"symbol": "BULL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb41380174d0b06181513a5677b60200b93b5efb4.png"
+			"logoUri": "/images/tokens/0xb418ded94300913fccbef784a49150f46f0fb827.png"
 		}
 	},
 	{
@@ -26882,6 +33315,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "XCHF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb4272071ecadd69d933adcd19ca99fe80664fc08.png"
+		}
+	},
+	{
+		"address": "0xb4357054c3da8d46ed642383f03139ac7f090343",
+		"data": {
+			"name": "Port3 Network",
+			"symbol": "PORT3",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb4357054c3da8d46ed642383f03139ac7f090343.png"
 		}
 	},
 	{
@@ -26903,12 +33345,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb444cb2bcb19180602328fa774738cb8dbd6677b",
+		"address": "0xb446566d6d644249d5d82aab5fea8a5b7da3f691",
 		"data": {
-			"name": "Mumon Ginsen",
-			"symbol": "MG",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xb444cb2bcb19180602328fa774738cb8dbd6677b.png"
+			"name": "Aktionariat TBo c o Comon Accelerator H",
+			"symbol": "TBOS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xb446566d6d644249d5d82aab5fea8a5b7da3f691.png"
 		}
 	},
 	{
@@ -26930,21 +33372,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb4622193ca7c7580ac0ecc09c3b7bd74aef0318d",
+		"address": "0xb45ad160634c528cc3d2926d9807104fa3157305",
 		"data": {
-			"name": "Cloak Protocol",
-			"symbol": "CLOAK",
+			"name": "sDOLA",
+			"symbol": "SDOLA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb4622193ca7c7580ac0ecc09c3b7bd74aef0318d.png"
+			"logoUri": "/images/tokens/0xb45ad160634c528cc3d2926d9807104fa3157305.png"
 		}
 	},
 	{
-		"address": "0xb46eda6219ba121ce9280388e7afb7dc84be3ff2",
+		"address": "0xb4725590574bb8afae4a3f44f05f9c0f5ebd8f4b",
 		"data": {
-			"name": "The Youth Pay",
-			"symbol": "TYP",
-			"decimals": 0,
-			"logoUri": "/images/tokens/0xb46eda6219ba121ce9280388e7afb7dc84be3ff2.png"
+			"name": "Hole Guys",
+			"symbol": "HOLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb4725590574bb8afae4a3f44f05f9c0f5ebd8f4b.png"
 		}
 	},
 	{
@@ -26966,12 +33408,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb48ee8f8fa3885fc08831ff366ec8df608159ee9",
+		"address": "0xb48361032956d52f1ade21c73c273644f4ea24ca",
 		"data": {
-			"name": "LiquidLock",
-			"symbol": "LOCK",
+			"name": "MOONERIUM",
+			"symbol": "MOONERIUM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb48ee8f8fa3885fc08831ff366ec8df608159ee9.png"
+			"logoUri": "/images/tokens/0xb48361032956d52f1ade21c73c273644f4ea24ca.png"
+		}
+	},
+	{
+		"address": "0xb48fe88717c1a6020cc256a7d6f0e4a285bc9660",
+		"data": {
+			"name": "Scom Coin",
+			"symbol": "SCOM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb48fe88717c1a6020cc256a7d6f0e4a285bc9660.png"
 		}
 	},
 	{
@@ -27004,7 +33455,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35",
 		"data": {
-			"name": "Sweatcoin  Sweat Economy ",
+			"name": "Sweat Economy",
 			"symbol": "SWEAT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35.png"
@@ -27017,6 +33468,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FRETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb4bd4628e6efb0cb521d9ec35050c75840320374.png"
+		}
+	},
+	{
+		"address": "0xb4c25205f7a76ae08cbe95e27864106e1b93732c",
+		"data": {
+			"name": "Extropic AI",
+			"symbol": "EXTROPIC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb4c25205f7a76ae08cbe95e27864106e1b93732c.png"
 		}
 	},
 	{
@@ -27038,12 +33498,66 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb4fc1fc74effa5dc15a031eb8159302cfa4f1288",
+		"data": {
+			"name": "OrdiZK",
+			"symbol": "OZK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb4fc1fc74effa5dc15a031eb8159302cfa4f1288.png"
+		}
+	},
+	{
+		"address": "0xb504035a11e672e12a099f32b1672b9c4a78b22f",
+		"data": {
+			"name": "SAFEREUM",
+			"symbol": "SAFEREUM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb504035a11e672e12a099f32b1672b9c4a78b22f.png"
+		}
+	},
+	{
 		"address": "0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
 		"data": {
 			"name": "Arbitrum",
 			"symbol": "ARB",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1.png"
+		}
+	},
+	{
+		"address": "0xb51b97dd5569fab69495316b5a065cccff4b829d",
+		"data": {
+			"name": "Astrafer",
+			"symbol": "ASTRAFER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb51b97dd5569fab69495316b5a065cccff4b829d.png"
+		}
+	},
+	{
+		"address": "0xb528edbef013aff855ac3c50b381f253af13b997",
+		"data": {
+			"name": "Aevo",
+			"symbol": "AEVO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb528edbef013aff855ac3c50b381f253af13b997.png"
+		}
+	},
+	{
+		"address": "0xb533687ef77459093368c43e95f8df1c2b5a1f7a",
+		"data": {
+			"name": "Nekoverse  City of Greed Anima Spirit G",
+			"symbol": "ASG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb533687ef77459093368c43e95f8df1c2b5a1f7a.png"
+		}
+	},
+	{
+		"address": "0xb53b9e28b98c47e87acfd5a85eeb44a0940ecb12",
+		"data": {
+			"name": "Ordible",
+			"symbol": "ORB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb53b9e28b98c47e87acfd5a85eeb44a0940ecb12.png"
 		}
 	},
 	{
@@ -27056,12 +33570,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb549116ac57b47c1b365a890e1d04fd547dfff97",
+		"data": {
+			"name": "MindAI",
+			"symbol": "MDAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb549116ac57b47c1b365a890e1d04fd547dfff97.png"
+		}
+	},
+	{
 		"address": "0xb551b43af192965f74e3dfaa476c890b403cad95",
 		"data": {
-			"name": "Data bot",
+			"name": "DataBot",
 			"symbol": "DATA",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xb551b43af192965f74e3dfaa476c890b403cad95.png"
+		}
+	},
+	{
+		"address": "0xb55ee890426341fe45ee6dc788d2d93d25b59063",
+		"data": {
+			"name": "Love io",
+			"symbol": "LOVE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb55ee890426341fe45ee6dc788d2d93d25b59063.png"
 		}
 	},
 	{
@@ -27074,6 +33606,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb58e26ac9cc14c0422c2b419b0ca555ee4dcb7cb",
+		"data": {
+			"name": "Niza Global",
+			"symbol": "NIZA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb58e26ac9cc14c0422c2b419b0ca555ee4dcb7cb.png"
+		}
+	},
+	{
+		"address": "0xb58e61c3098d85632df34eecfb899a1ed80921cb",
+		"data": {
+			"name": "Frankencoin",
+			"symbol": "ZCHF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png"
+		}
+	},
+	{
 		"address": "0xb59490ab09a0f526cc7305822ac65f2ab12f9723",
 		"data": {
 			"name": "Litentry",
@@ -27083,12 +33633,29 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb5be7557fe8f69a2b5707d25fa0aee80dfda512e",
+		"address": "0xb5b29320d2dde5ba5bafa1ebcd270052070483ec",
 		"data": {
-			"name": "POLYSPORTS",
-			"symbol": "PS1",
+			"name": "YieldETH  Sommelier ",
+			"symbol": "YIELDETH",
+			"decimals": 18
+		}
+	},
+	{
+		"address": "0xb5c23f694810a8a6a37fede38004150ee0dd3821",
+		"data": {
+			"name": "0xTools",
+			"symbol": "0XT",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xb5c23f694810a8a6a37fede38004150ee0dd3821.png"
+		}
+	},
+	{
+		"address": "0xb5c457ddb4ce3312a6c5a2b056a1652bd542a208",
+		"data": {
+			"name": "EtherRock404",
+			"symbol": "ROCK",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb5be7557fe8f69a2b5707d25fa0aee80dfda512e.png"
+			"logoUri": "/images/tokens/0xb5c457ddb4ce3312a6c5a2b056a1652bd542a208.png"
 		}
 	},
 	{
@@ -27110,6 +33677,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb5d730d442e1d5b119fb4e5c843c48a64202ef92",
+		"data": {
+			"name": "Sabai Ecoverse",
+			"symbol": "SABAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb5d730d442e1d5b119fb4e5c843c48a64202ef92.png"
+		}
+	},
+	{
 		"address": "0xb5f1457d6fba1956fb8d31b0b7caca14bde0be4b",
 		"data": {
 			"name": "Stilton",
@@ -27128,12 +33704,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb60acd2057067dc9ed8c083f5aa227a244044fd6",
+		"data": {
+			"name": "Tensorplex Staked TAO",
+			"symbol": "STTAO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png"
+		}
+	},
+	{
+		"address": "0xb61ebb6bceb7635ecd7e59884ee2e2bcdfd810ba",
+		"data": {
+			"name": "XSHIB",
+			"symbol": "XSHIB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb61ebb6bceb7635ecd7e59884ee2e2bcdfd810ba.png"
+		}
+	},
+	{
 		"address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
 		"data": {
 			"name": "NEXO",
 			"symbol": "NEXO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206.png"
+		}
+	},
+	{
+		"address": "0xb622907fbff6cbf7c3ce355173251e3edb13a606",
+		"data": {
+			"name": "FortuneBets",
+			"symbol": "FRT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb622907fbff6cbf7c3ce355173251e3edb13a606.png"
 		}
 	},
 	{
@@ -27146,21 +33749,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb62d46a21fef0fadb5b92fc5ef7077e71e65631c",
+		"address": "0xb627a1bf727f578384ba18b2a2b46f4fb924ab3b",
 		"data": {
-			"name": "AlchemyAi",
-			"symbol": "ACOIN",
+			"name": "P3PE HACKER",
+			"symbol": "P3PE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb62d46a21fef0fadb5b92fc5ef7077e71e65631c.png"
+			"logoUri": "/images/tokens/0xb627a1bf727f578384ba18b2a2b46f4fb924ab3b.png"
 		}
 	},
 	{
-		"address": "0xb6387e8e928c9face4d44a6aca72e5a6c939a829",
+		"address": "0xb62e24b747eaa41454857cf6011832117df59cb8",
 		"data": {
-			"name": "Salty Coin",
-			"symbol": "SALTY",
+			"name": "Epiko",
+			"symbol": "EPIKO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb6387e8e928c9face4d44a6aca72e5a6c939a829.png"
+			"logoUri": "/images/tokens/0xb62e24b747eaa41454857cf6011832117df59cb8.png"
 		}
 	},
 	{
@@ -27170,15 +33773,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STORJ",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac.png"
-		}
-	},
-	{
-		"address": "0xb64fde8f199f073f41c132b9ec7ad5b61de0b1b7",
-		"data": {
-			"name": "Incognito",
-			"symbol": "PRV",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xb64fde8f199f073f41c132b9ec7ad5b61de0b1b7.png"
 		}
 	},
 	{
@@ -27227,39 +33821,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb68d792329bbca81c2b823e9dbe066db53ef7b16",
-		"data": {
-			"name": "X Chain",
-			"symbol": "XCHAIN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb68d792329bbca81c2b823e9dbe066db53ef7b16.png"
-		}
-	},
-	{
 		"address": "0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371",
 		"data": {
 			"name": "POOH",
 			"symbol": "POOH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371.png"
-		}
-	},
-	{
-		"address": "0xb69d946d8cdc5238b0658188e1babb41b8652a29",
-		"data": {
-			"name": "Bet2Bank",
-			"symbol": "BXB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb69d946d8cdc5238b0658188e1babb41b8652a29.png"
-		}
-	},
-	{
-		"address": "0xb6a7a1d8f64fc6f984a6f3b52b7426f7b0abab5b",
-		"data": {
-			"name": "Maxwell The Cat",
-			"symbol": "MAXCAT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb6a7a1d8f64fc6f984a6f3b52b7426f7b0abab5b.png"
 		}
 	},
 	{
@@ -27272,21 +33839,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb6c4267c4877bb0d6b1685cfd85b0fbe82f105ec",
-		"data": {
-			"name": "Relevant",
-			"symbol": "REL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb6c4267c4877bb0d6b1685cfd85b0fbe82f105ec.png"
-		}
-	},
-	{
 		"address": "0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81",
 		"data": {
 			"name": "Muse DAO",
 			"symbol": "MUSE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81.png"
+		}
+	},
+	{
+		"address": "0xb6d78683a4e54b91031acb41510bd8e144fed025",
+		"data": {
+			"name": "CoinForge",
+			"symbol": "CNFRG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb6d78683a4e54b91031acb41510bd8e144fed025.png"
+		}
+	},
+	{
+		"address": "0xb6dc73987848ba6cb3ce297562723c1a78f85fce",
+		"data": {
+			"name": "Borzoi Coin",
+			"symbol": "BORZOI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb6dc73987848ba6cb3ce297562723c1a78f85fce.png"
 		}
 	},
 	{
@@ -27308,15 +33884,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb6eda82597808c96969c21a88bf6c749b441c44a",
-		"data": {
-			"name": "Smart Medical Coin",
-			"symbol": "SMC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb6eda82597808c96969c21a88bf6c749b441c44a.png"
-		}
-	},
-	{
 		"address": "0xb6ee9668771a79be7967ee29a63d4184f8097143",
 		"data": {
 			"name": "CargoX",
@@ -27332,6 +33899,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SYNC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb6ff96b8a8d214544ca0dbc9b33f7ad6503efd32.png"
+		}
+	},
+	{
+		"address": "0xb7037457de15fed6cbecc0c62d5d610834b958ec",
+		"data": {
+			"name": "Whirl",
+			"symbol": "WHIRL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb7037457de15fed6cbecc0c62d5d610834b958ec.png"
 		}
 	},
 	{
@@ -27353,12 +33929,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb70eaf5d316192881aac8786c90b7907b83f02e8",
+		"data": {
+			"name": "MetaReset",
+			"symbol": "RESET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb70eaf5d316192881aac8786c90b7907b83f02e8.png"
+		}
+	},
+	{
+		"address": "0xb712d62fe84258292d1961b5150a19bc4ab49026",
+		"data": {
+			"name": "Chainge",
+			"symbol": "XCHNG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb712d62fe84258292d1961b5150a19bc4ab49026.png"
+		}
+	},
+	{
+		"address": "0xb71bdc7014f3740d0267d41d632cab8371f8ba3c",
+		"data": {
+			"name": "MILEI",
+			"symbol": "MILEI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb71bdc7014f3740d0267d41d632cab8371f8ba3c.png"
+		}
+	},
+	{
+		"address": "0xb7446b185085e019f0008f1d338de26486a4db10",
+		"data": {
+			"name": "Bull Moon",
+			"symbol": "BULLMOON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb7446b185085e019f0008f1d338de26486a4db10.png"
+		}
+	},
+	{
 		"address": "0xb753428af26e81097e7fd17f40c88aaa3e04902c",
 		"data": {
 			"name": "saffron finance",
 			"symbol": "SFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb753428af26e81097e7fd17f40c88aaa3e04902c.png"
+		}
+	},
+	{
+		"address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
+		"data": {
+			"name": "ZARP Stablecoin",
+			"symbol": "ZARP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb755506531786c8ac63b756bab1ac387bacb0c04.png"
 		}
 	},
 	{
@@ -27371,12 +33992,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb777eb033557490abb7fb8f3948000826423ea07",
+		"address": "0xb76cf92076adbf1d9c39294fa8e7a67579fde357",
 		"data": {
-			"name": "Chad Index",
-			"symbol": "CHAD",
+			"name": "Aave v3 RPL",
+			"symbol": "ARPL",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb777eb033557490abb7fb8f3948000826423ea07.png"
+			"logoUri": "/images/tokens/0xb76cf92076adbf1d9c39294fa8e7a67579fde357.png"
 		}
 	},
 	{
@@ -27386,6 +34007,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RIBBIT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb794ad95317f75c44090f64955954c3849315ffe.png"
+		}
+	},
+	{
+		"address": "0xb7955695d1df86f35bfbda5e5b7d3069a5639a19",
+		"data": {
+			"name": "Bully",
+			"symbol": "BULLY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb7955695d1df86f35bfbda5e5b7d3069a5639a19.png"
 		}
 	},
 	{
@@ -27407,12 +34037,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb7c2fcd6d7922eddd2a7a9b0524074a60d5b472c",
+		"address": "0xb7be27ba608641f0b6f152c8b432757f3685d2b0",
 		"data": {
-			"name": "VentiSwap",
-			"symbol": "VST",
+			"name": "FP  Meebits",
+			"symbol": "U",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb7c2fcd6d7922eddd2a7a9b0524074a60d5b472c.png"
+			"logoUri": "/images/tokens/0xb7be27ba608641f0b6f152c8b432757f3685d2b0.png"
 		}
 	},
 	{
@@ -27425,39 +34055,75 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb7dfa8eac59361b1d9f0c2641b516159c5306f60",
+		"address": "0xb7cfe05915ef0c040c6dde2007c9ddab26259e04",
 		"data": {
-			"name": "Livestreambets",
-			"symbol": "LIVE",
+			"name": "Molly",
+			"symbol": "MOLLY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb7dfa8eac59361b1d9f0c2641b516159c5306f60.png"
+			"logoUri": "/images/tokens/0xb7cfe05915ef0c040c6dde2007c9ddab26259e04.png"
 		}
 	},
 	{
-		"address": "0xb81c3edb46f9054f2b1edb477674a19f690c9a83",
+		"address": "0xb7cffebb06621287c7850ffefb22c30252e78e6b",
 		"data": {
-			"name": "ScapesMania",
-			"symbol": "MANIA",
+			"name": "Drift Token",
+			"symbol": "DRIFT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb81c3edb46f9054f2b1edb477674a19f690c9a83.png"
+			"logoUri": "/images/tokens/0xb7cffebb06621287c7850ffefb22c30252e78e6b.png"
 		}
 	},
 	{
-		"address": "0xb8366948b4a3f07bcbf14eb1739daa42a26b07c4",
+		"address": "0xb8112a01744fe88bc8672cd977378169e33eb9a5",
 		"data": {
-			"name": "VALOBIT",
-			"symbol": "VBIT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb8366948b4a3f07bcbf14eb1739daa42a26b07c4.png"
+			"name": "Ordinals Inscription Bot",
+			"symbol": "OIB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb8112a01744fe88bc8672cd977378169e33eb9a5.png"
 		}
 	},
 	{
-		"address": "0xb83c27805aaca5c7082eb45c868d955cf04c337f",
+		"address": "0xb813322cd994a2f7808c340ea12e0a2283a7a757",
 		"data": {
-			"name": "JungleKing TigerCoin",
-			"symbol": "TIGER",
+			"name": "Cosmo Baby",
+			"symbol": "CBABY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb83c27805aaca5c7082eb45c868d955cf04c337f.png"
+			"logoUri": "/images/tokens/0xb813322cd994a2f7808c340ea12e0a2283a7a757.png"
+		}
+	},
+	{
+		"address": "0xb81408a1cc2f4be70a6a3178d351ca95a77c5a06",
+		"data": {
+			"name": "Xodex",
+			"symbol": "XODEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb81408a1cc2f4be70a6a3178d351ca95a77c5a06.png"
+		}
+	},
+	{
+		"address": "0xb8176941f1b5173dfdbadcc5d387829b27e98138",
+		"data": {
+			"name": "DeOrbit Network",
+			"symbol": "DEORBIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb8176941f1b5173dfdbadcc5d387829b27e98138.png"
+		}
+	},
+	{
+		"address": "0xb81914f05daf95802eb30726a399733e0696cd79",
+		"data": {
+			"name": "Hola",
+			"symbol": "HOLA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb81914f05daf95802eb30726a399733e0696cd79.png"
+		}
+	},
+	{
+		"address": "0xb831717e73dba259ce632b54cfe233d5ead60a1a",
+		"data": {
+			"name": "Telenode",
+			"symbol": "TNODE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb831717e73dba259ce632b54cfe233d5ead60a1a.png"
 		}
 	},
 	{
@@ -27467,6 +34133,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STREETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb840d10d840ef47c233fec1fd040f5b145a6dfa5.png"
+		}
+	},
+	{
+		"address": "0xb84f00b5ab187bc795d61389ac2418d4e7c77bb0",
+		"data": {
+			"name": "Balance Network Finance",
+			"symbol": "BALANCE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb84f00b5ab187bc795d61389ac2418d4e7c77bb0.png"
 		}
 	},
 	{
@@ -27488,12 +34163,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb892249939adbf6d7851864ca9a5c7d2d537af97",
+		"address": "0xb87b96868644d99cc70a8565ba7311482edebf6e",
 		"data": {
-			"name": "Gambler Shiba",
-			"symbol": "GSHIBA",
+			"name": "OnChain Pepe 404",
+			"symbol": "OCP404",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb892249939adbf6d7851864ca9a5c7d2d537af97.png"
+			"logoUri": "/images/tokens/0xb87b96868644d99cc70a8565ba7311482edebf6e.png"
 		}
 	},
 	{
@@ -27506,12 +34181,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb8a768cd332e4461fccfbdb1d0292ceffbb2bb8a",
+		"address": "0xb8a87405d9a4f2f866319b77004e88dff66c0d92",
 		"data": {
-			"name": "COLLIE INU",
-			"symbol": "COLLIE",
+			"name": "Sora AI",
+			"symbol": "SORA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xb8a768cd332e4461fccfbdb1d0292ceffbb2bb8a.png"
+			"logoUri": "/images/tokens/0xb8a87405d9a4f2f866319b77004e88dff66c0d92.png"
 		}
 	},
 	{
@@ -27569,15 +34244,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xb8e2e2101ed11e9138803cd3e06e16dd19910647",
-		"data": {
-			"name": "ArdCoin",
-			"symbol": "ARDX",
-			"decimals": 2,
-			"logoUri": "/images/tokens/0xb8e2e2101ed11e9138803cd3e06e16dd19910647.png"
-		}
-	},
-	{
 		"address": "0xb8e3bb633f7276cc17735d86154e0ad5ec9928c0",
 		"data": {
 			"name": "VelasPad",
@@ -27587,21 +34253,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb8e3e431ffb17dac4bedec04b901a3c03179fd1b",
+		"data": {
+			"name": "DogePepe",
+			"symbol": "DOPE",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xb8e3e431ffb17dac4bedec04b901a3c03179fd1b.png"
+		}
+	},
+	{
 		"address": "0xb8fa12f8409da31a4fc43d15c4c78c33d8213b9b",
 		"data": {
 			"name": "CaliCoin",
 			"symbol": "CALI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb8fa12f8409da31a4fc43d15c4c78c33d8213b9b.png"
-		}
-	},
-	{
-		"address": "0xb9098d3669a78e9afe8b94a97290407400d9da31",
-		"data": {
-			"name": "Protectorate Protocol",
-			"symbol": "PRTC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xb9098d3669a78e9afe8b94a97290407400d9da31.png"
 		}
 	},
 	{
@@ -27632,6 +34298,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb93746dc7a8bf5e381ffb278085b1f62bd0a1fc8",
+		"data": {
+			"name": "Sendex AI",
+			"symbol": "SENDEX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb93746dc7a8bf5e381ffb278085b1f62bd0a1fc8.png"
+		}
+	},
+	{
 		"address": "0xb939da54f9748440a1b279d42be1296942732288",
 		"data": {
 			"name": "Fonzy",
@@ -27641,12 +34316,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb94acdf8662cd955f137e0c9c9fba535c87b57b4",
+		"data": {
+			"name": "Mona Token",
+			"symbol": "LISA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb94acdf8662cd955f137e0c9c9fba535c87b57b4.png"
+		}
+	},
+	{
 		"address": "0xb97048628db6b661d4c2aa833e95dbe1a905b280",
 		"data": {
 			"name": "TenX",
 			"symbol": "PAY",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xb97048628db6b661d4c2aa833e95dbe1a905b280.png"
+		}
+	},
+	{
+		"address": "0xb970e14df2161c0a2f32eba35901f2446581b482",
+		"data": {
+			"name": "Reaktor",
+			"symbol": "RKR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xb970e14df2161c0a2f32eba35901f2446581b482.png"
 		}
 	},
 	{
@@ -27665,6 +34358,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PIRATE",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xb990d93c308a31c737aa91839e8ba8eaf4017d7a.png"
+		}
+	},
+	{
+		"address": "0xb9d27bc093ed0a3b7c18366266704cfe5e7af77b",
+		"data": {
+			"name": "Carbify",
+			"symbol": "CBY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb9d27bc093ed0a3b7c18366266704cfe5e7af77b.png"
+		}
+	},
+	{
+		"address": "0xb9d4b6dc1e1ee3577cc442de015cc11f238b35ed",
+		"data": {
+			"name": "Magnum",
+			"symbol": "MAG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb9d4b6dc1e1ee3577cc442de015cc11f238b35ed.png"
 		}
 	},
 	{
@@ -27704,6 +34415,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xb9f599ce614feb2e1bbe58f180f370d05b39344e",
+		"data": {
+			"name": "PepeFork",
+			"symbol": "PORK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb9f599ce614feb2e1bbe58f180f370d05b39344e.png"
+		}
+	},
+	{
+		"address": "0xb9f69c75a3b67425474f8bcab9a3626d8b8249e1",
+		"data": {
+			"name": "Memefi Toybox 404",
+			"symbol": "TOYBOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xb9f69c75a3b67425474f8bcab9a3626d8b8249e1.png"
+		}
+	},
+	{
+		"address": "0xba0dda8762c24da9487f5fa026a9b64b695a07ea",
+		"data": {
+			"name": "OX Coin",
+			"symbol": "OX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xba0dda8762c24da9487f5fa026a9b64b695a07ea.png"
+		}
+	},
+	{
 		"address": "0xba100000625a3754423978a60c9317c58a424e3d",
 		"data": {
 			"name": "Balancer",
@@ -27713,12 +34451,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xba10085f901ae4048134e556d579cfd1bfaf89cf",
+		"data": {
+			"name": "FP  Elemental",
+			"symbol": "UELEM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xba10085f901ae4048134e556d579cfd1bfaf89cf.png"
+		}
+	},
+	{
 		"address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
 		"data": {
 			"name": "Band Protocol",
 			"symbol": "BAND",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55.png"
+		}
+	},
+	{
+		"address": "0xba25b2281214300e4e649fead9a6d6acd25f1c0a",
+		"data": {
+			"name": "Tree",
+			"symbol": "TREE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xba25b2281214300e4e649fead9a6d6acd25f1c0a.png"
 		}
 	},
 	{
@@ -27746,15 +34502,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "aAAVE",
 			"decimals": 18,
 			"logoUri": "images/contracts/aave.png"
-		}
-	},
-	{
-		"address": "0xba3e5f8b4200a5eb856ff2c3e001ab29444491aa",
-		"data": {
-			"name": "Minebase",
-			"symbol": "MBASE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xba3e5f8b4200a5eb856ff2c3e001ab29444491aa.png"
 		}
 	},
 	{
@@ -27830,30 +34577,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xba9d4199fab4f26efe3551d490e3821486f135ba",
-		"data": {
-			"name": "SwissBorg",
-			"symbol": "CHSB",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xba9d4199fab4f26efe3551d490e3821486f135ba.png"
-		}
-	},
-	{
 		"address": "0xbaac2b4491727d78d2b78815144570b9f2fe8899",
 		"data": {
 			"name": "The Doge NFT",
 			"symbol": "DOG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbaac2b4491727d78d2b78815144570b9f2fe8899.png"
-		}
-	},
-	{
-		"address": "0xbad96ea5d43156a99a94cd1fd36a330aa7e2273e",
-		"data": {
-			"name": "JDB",
-			"symbol": "JDB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbad96ea5d43156a99a94cd1fd36a330aa7e2273e.png"
 		}
 	},
 	{
@@ -27911,6 +34640,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbb3d7f42c58abd83616ad7c8c72473ee46df2678",
+		"data": {
+			"name": "VectorChat ai",
+			"symbol": "CHAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbb3d7f42c58abd83616ad7c8c72473ee46df2678.png"
+		}
+	},
+	{
 		"address": "0xbb4f3ad7a2cf75d8effc4f6d7bd21d95f06165ca",
 		"data": {
 			"name": "Sheesh",
@@ -27929,6 +34667,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbb63a9b64a80e9338b8ea298c51765e57c4f159c",
+		"data": {
+			"name": "Picasso",
+			"symbol": "PICA",
+			"decimals": 12,
+			"logoUri": "/images/tokens/0xbb63a9b64a80e9338b8ea298c51765e57c4f159c.png"
+		}
+	},
+	{
 		"address": "0xbb63e6be33bc5b5386d7ab0529dc6c400f2ac2ec",
 		"data": {
 			"name": "Cuckadoodledoo",
@@ -27938,12 +34685,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbb6881874825e60e1160416d6c426eae65f2459e",
+		"address": "0xbb6cf73a00f480d0951ba979a7606857cdde626b",
 		"data": {
-			"name": "Balancer Boosted Aave WETH",
-			"symbol": "BB-A-WETH",
+			"name": "Arix",
+			"symbol": "ARIX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbb6881874825e60e1160416d6c426eae65f2459e.png"
+			"logoUri": "/images/tokens/0xbb6cf73a00f480d0951ba979a7606857cdde626b.png"
 		}
 	},
 	{
@@ -27974,12 +34721,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbbb32f99e6f2cb29337eebaa43c5069386de6e6c",
+		"data": {
+			"name": "Phemex Token",
+			"symbol": "PT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbbb32f99e6f2cb29337eebaa43c5069386de6e6c.png"
+		}
+	},
+	{
 		"address": "0xbbbbbbb5aa847a2003fbc6b5c16df0bd1e725f61",
 		"data": {
 			"name": "B Protocol",
 			"symbol": "BPRO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbbbbbbb5aa847a2003fbc6b5c16df0bd1e725f61.png"
+		}
+	},
+	{
+		"address": "0xbbbbbbbb46a1da0f0c3f64522c275baa4c332636",
+		"data": {
+			"name": "ZKBase",
+			"symbol": "ZKB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbbbbbbbb46a1da0f0c3f64522c275baa4c332636.png"
 		}
 	},
 	{
@@ -28010,6 +34775,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9",
+		"data": {
+			"name": "Backed Coinbase Global",
+			"symbol": "BCOIN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9.png"
+		}
+	},
+	{
 		"address": "0xbbeca80a4c99c3b1bd3c10e64595d0fc7dc26ee0",
 		"data": {
 			"name": "hiMEEBITS",
@@ -28028,12 +34802,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbc17729fdf562723f0267f79ff25ade441056d87",
+		"address": "0xbc0899e527007f1b8ced694508fcb7a2b9a46f53",
 		"data": {
-			"name": "Karus Starter",
-			"symbol": "KST",
+			"name": "Basket",
+			"symbol": "BSKT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbc17729fdf562723f0267f79ff25ade441056d87.png"
+			"logoUri": "/images/tokens/0xbc0899e527007f1b8ced694508fcb7a2b9a46f53.png"
+		}
+	},
+	{
+		"address": "0xbc0e2969d23a084a0bb65a2b9a4242e7f9ea65b6",
+		"data": {
+			"name": "Clippy AI",
+			"symbol": "CLIPPY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc0e2969d23a084a0bb65a2b9a4242e7f9ea65b6.png"
+		}
+	},
+	{
+		"address": "0xbc188b5dbb155b6ea693d46d98bf60b8482939b9",
+		"data": {
+			"name": "Apollo FTW",
+			"symbol": "FTW",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc188b5dbb155b6ea693d46d98bf60b8482939b9.png"
 		}
 	},
 	{
@@ -28055,6 +34847,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbc391e78b0ea0d1db04890732742494e7fbfc118",
+		"data": {
+			"name": "NIRVANA",
+			"symbol": "VANA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc391e78b0ea0d1db04890732742494e7fbfc118.png"
+		}
+	},
+	{
 		"address": "0xbc396689893d065f41bc2c6ecbee5e0085233447",
 		"data": {
 			"name": "Perpetual Protocol",
@@ -28073,12 +34874,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbc526a4ae9632d42291ad9d5ef29d36dd4d0ce26",
+		"data": {
+			"name": "FP  MoonBirds",
+			"symbol": "UMOONBIRDS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc526a4ae9632d42291ad9d5ef29d36dd4d0ce26.png"
+		}
+	},
+	{
+		"address": "0xbc544207ff1c5b2bc47a35f745010b603b97e99e",
+		"data": {
+			"name": "AI PIN",
+			"symbol": "AI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc544207ff1c5b2bc47a35f745010b603b97e99e.png"
+		}
+	},
+	{
 		"address": "0xbc5991ccd8caceba01edc44c2bb9832712c29cab",
 		"data": {
 			"name": "Unagii USD Coin",
 			"symbol": "UUSDC",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xbc5991ccd8caceba01edc44c2bb9832712c29cab.png"
+		}
+	},
+	{
+		"address": "0xbc61e13ca6830fc7f035fd0e90a01cd08be6dcaa",
+		"data": {
+			"name": "Mars Battle",
+			"symbol": "SHOOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc61e13ca6830fc7f035fd0e90a01cd08be6dcaa.png"
+		}
+	},
+	{
+		"address": "0xbc6378faae98fb2207bb6c35c0f8ce5846fd4c6c",
+		"data": {
+			"name": "8Bit Chain",
+			"symbol": "W8BIT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc6378faae98fb2207bb6c35c0f8ce5846fd4c6c.png"
 		}
 	},
 	{
@@ -28100,21 +34937,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbc8b7ff89eb2b73ecdd579f81424a3b582200808",
+		"data": {
+			"name": "Curve Inu",
+			"symbol": "CRVY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbc8b7ff89eb2b73ecdd579f81424a3b582200808.png"
+		}
+	},
+	{
 		"address": "0xbc8e35221904f61b4200ca44a08e4dac387ac83a",
 		"data": {
 			"name": "Fair BERC20",
 			"symbol": "BERC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbc8e35221904f61b4200ca44a08e4dac387ac83a.png"
-		}
-	},
-	{
-		"address": "0xbc953fccbcc9e95dafb35d46992cee966aa972cd",
-		"data": {
-			"name": "DaWae",
-			"symbol": "DAWAE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbc953fccbcc9e95dafb35d46992cee966aa972cd.png"
 		}
 	},
 	{
@@ -28127,18 +34964,9 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbcc66ed2ab491e9ae7bf8386541fb17421fa9d35",
-		"data": {
-			"name": "Skull",
-			"symbol": "SKULL",
-			"decimals": 4,
-			"logoUri": "/images/tokens/0xbcc66ed2ab491e9ae7bf8386541fb17421fa9d35.png"
-		}
-	},
-	{
 		"address": "0xbcca60bb61934080951369a648fb03df4f96263c",
 		"data": {
-			"name": "Aave USDC",
+			"name": "Aave v2 USDC",
 			"symbol": "AUSDC",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xbcca60bb61934080951369a648fb03df4f96263c.png"
@@ -28163,12 +34991,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbcd657377d4086cc582b215294c3611b997ef1be",
+		"address": "0xbcd4d5ac29e06e4973a1ddcd782cd035d04bc0b7",
 		"data": {
-			"name": "SnakeBot",
-			"symbol": "SNAKEBOT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xbcd657377d4086cc582b215294c3611b997ef1be.png"
+			"name": "Quick Intel",
+			"symbol": "QKNTL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbcd4d5ac29e06e4973a1ddcd782cd035d04bc0b7.png"
 		}
 	},
 	{
@@ -28217,15 +35045,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbd2f0cd039e0bfcf88901c98c0bfac5ab27566e3",
-		"data": {
-			"name": "Dynamic Set Dollar",
-			"symbol": "DSD",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbd2f0cd039e0bfcf88901c98c0bfac5ab27566e3.png"
-		}
-	},
-	{
 		"address": "0xbd356a39bff2cada8e9248532dd879147221cf76",
 		"data": {
 			"name": "WOM Protocol",
@@ -28253,12 +35072,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbd617a1359086e33ff339ea0b9c6de479a3f5943",
+		"data": {
+			"name": "Ide x ai",
+			"symbol": "IDE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbd617a1359086e33ff339ea0b9c6de479a3f5943.png"
+		}
+	},
+	{
+		"address": "0xbd6323a83b613f668687014e8a5852079494fb68",
+		"data": {
+			"name": "BlackrockTradingCurrency",
+			"symbol": "BTC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbd6323a83b613f668687014e8a5852079494fb68.png"
+		}
+	},
+	{
+		"address": "0xbd713f15673b9861b6123840f6e0eba03d6aae51",
+		"data": {
+			"name": "Eyebot",
+			"symbol": "EYEBOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbd713f15673b9861b6123840f6e0eba03d6aae51.png"
+		}
+	},
+	{
 		"address": "0xbd7e92cf6f857be8541fca6abfb72aef8e16c307",
 		"data": {
 			"name": "Prodigy Bot",
 			"symbol": "PRO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbd7e92cf6f857be8541fca6abfb72aef8e16c307.png"
+		}
+	},
+	{
+		"address": "0xbd89b8d708809e7022135313683663911826977e",
+		"data": {
+			"name": "O MEE",
+			"symbol": "OME",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbd89b8d708809e7022135313683663911826977e.png"
+		}
+	},
+	{
+		"address": "0xbd8fdda057de7e0162b7a386bec253844b5e07a5",
+		"data": {
+			"name": "Jarvis",
+			"symbol": "JARVIS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbd8fdda057de7e0162b7a386bec253844b5e07a5.png"
 		}
 	},
 	{
@@ -28280,6 +35144,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbdcd291c32e06bbf2d7b1ffc823959e3258e3583",
+		"data": {
+			"name": "WASD Studios",
+			"symbol": "WASD",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbdcd291c32e06bbf2d7b1ffc823959e3258e3583.png"
+		}
+	},
+	{
+		"address": "0xbddc20ed7978b7d59ef190962f441cd18c14e19f",
+		"data": {
+			"name": "Crypto Asset Governance Alliance",
+			"symbol": "CAGA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbddc20ed7978b7d59ef190962f441cd18c14e19f.png"
+		}
+	},
+	{
 		"address": "0xbddf903f43dc7d9801f3f0034ba306169074ef8e",
 		"data": {
 			"name": "Apes Go Bananas",
@@ -28289,12 +35171,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbde4c4a9057595fa16d38e0bd7871ef119045a84",
+		"address": "0xbded8a4dc74a940eab68703167db89b1712b68ea",
 		"data": {
-			"name": "Friend Room",
-			"symbol": "FRIEND",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbde4c4a9057595fa16d38e0bd7871ef119045a84.png"
+			"name": "KASPAMINING",
+			"symbol": "KMN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbded8a4dc74a940eab68703167db89b1712b68ea.png"
 		}
 	},
 	{
@@ -28304,6 +35186,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ORD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbe00734799a67a62af2819825580318ac1b1e4ec.png"
+		}
+	},
+	{
+		"address": "0xbe03e60757f21f4b6fc8f16676ad9d5b1002e512",
+		"data": {
+			"name": "Raini Studios Token",
+			"symbol": "RST",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbe03e60757f21f4b6fc8f16676ad9d5b1002e512.png"
 		}
 	},
 	{
@@ -28334,15 +35225,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbe1bea3f6e5f29648fdc88b1622785a1666246e7",
-		"data": {
-			"name": "Block 0",
-			"symbol": "BLOCK-0",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xbe1bea3f6e5f29648fdc88b1622785a1666246e7.png"
-		}
-	},
-	{
 		"address": "0xbe1dbe6741fb988fb571ab1e28cffb36e3c62629",
 		"data": {
 			"name": "Massive Protocol",
@@ -28352,21 +35234,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbe30f684d62c9f7883a75a29c162c332c0d98f23",
+		"address": "0xbe33f57f41a20b2f00dec91dcc1169597f36221f",
 		"data": {
-			"name": "Global Human Trust",
-			"symbol": "GHT",
+			"name": "Rug",
+			"symbol": "RUG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbe30f684d62c9f7883a75a29c162c332c0d98f23.png"
-		}
-	},
-	{
-		"address": "0xbe393aa534f82c0ffac31bf06a23e283acb3352b",
-		"data": {
-			"name": "TokenAsset",
-			"symbol": "NTB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbe393aa534f82c0ffac31bf06a23e283acb3352b.png"
+			"logoUri": "/images/tokens/0xbe33f57f41a20b2f00dec91dcc1169597f36221f.png"
 		}
 	},
 	{
@@ -28388,21 +35261,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbe74a95d159e8e323b8c1a70f825efc85fed27c4",
+		"address": "0xbe579b687fd9cd4fd6cb85abc8fbe069ab0be2cb",
 		"data": {
-			"name": "SharesGram",
-			"symbol": "SG",
+			"name": "Raw Chicken Experiment",
+			"symbol": "RCE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbe74a95d159e8e323b8c1a70f825efc85fed27c4.png"
+			"logoUri": "/images/tokens/0xbe579b687fd9cd4fd6cb85abc8fbe069ab0be2cb.png"
 		}
 	},
 	{
-		"address": "0xbe82bbd9c47e05f1fac183b106a768717588be73",
+		"address": "0xbe59baad09b07086ee6c39bd0fc234c157c31ccc",
 		"data": {
-			"name": "Crypto Threads",
-			"symbol": "CT",
+			"name": "LONG TOTEM",
+			"symbol": "LONG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbe82bbd9c47e05f1fac183b106a768717588be73.png"
+			"logoUri": "/images/tokens/0xbe59baad09b07086ee6c39bd0fc234c157c31ccc.png"
+		}
+	},
+	{
+		"address": "0xbe6be64e9e5042b6e84e4c27956cce6353efa5f5",
+		"data": {
+			"name": "Beg",
+			"symbol": "BEG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbe6be64e9e5042b6e84e4c27956cce6353efa5f5.png"
+		}
+	},
+	{
+		"address": "0xbe7458bc543cf2df43ac109d2f713dffe6417aa4",
+		"data": {
+			"name": "Athenas AI",
+			"symbol": "ATH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbe7458bc543cf2df43ac109d2f713dffe6417aa4.png"
 		}
 	},
 	{
@@ -28412,15 +35303,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DEGEN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbe92b510007bd3ec0adb3d1fca338dd631e98de7.png"
-		}
-	},
-	{
-		"address": "0xbe9385116fbbff5fdbaea0b52c3003b92be7f81c",
-		"data": {
-			"name": "The Reaper Coin",
-			"symbol": "REAPER",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbe9385116fbbff5fdbaea0b52c3003b92be7f81c.png"
 		}
 	},
 	{
@@ -28439,6 +35321,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TOMS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbe9ab37a414c517b2be2bfa5945665bb07379054.png"
+		}
+	},
+	{
+		"address": "0xbe9f4f6c8dadb2ac61f31eb1f5171e27d8552df7",
+		"data": {
+			"name": "Chiba Neko",
+			"symbol": "CHIBA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbe9f4f6c8dadb2ac61f31eb1f5171e27d8552df7.png"
+		}
+	},
+	{
+		"address": "0xbe9f61555f50dd6167f2772e9cf7519790d96624",
+		"data": {
+			"name": "SX Network",
+			"symbol": "SX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbe9f61555f50dd6167f2772e9cf7519790d96624.png"
 		}
 	},
 	{
@@ -28478,21 +35378,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbec771d15f7e67bc0bb4571c7eb409228cc6fef9",
+		"data": {
+			"name": "BribeAI",
+			"symbol": "BRAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbec771d15f7e67bc0bb4571c7eb409228cc6fef9.png"
+		}
+	},
+	{
 		"address": "0xbed4ab0019ff361d83ddeb74883dac8a70f5ea1e",
 		"data": {
 			"name": "MerchDAO",
 			"symbol": "MRCH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbed4ab0019ff361d83ddeb74883dac8a70f5ea1e.png"
-		}
-	},
-	{
-		"address": "0xbede1f59fa4412556fef69f1b9969f2003e3f8c1",
-		"data": {
-			"name": "Meta MVRS",
-			"symbol": "MVRS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xbede1f59fa4412556fef69f1b9969f2003e3f8c1.png"
 		}
 	},
 	{
@@ -28505,21 +35405,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbee709aa42375ace642338f7f657ff859a19c9bc",
+		"address": "0xbeef8e0982874e0292e6c5751c5a4092b3e1beef",
 		"data": {
-			"name": "Muverse Token",
-			"symbol": "MCT",
+			"name": "Staked BIFI",
+			"symbol": "MOOBIFI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbee709aa42375ace642338f7f657ff859a19c9bc.png"
+			"logoUri": "/images/tokens/0xbeef8e0982874e0292e6c5751c5a4092b3e1beef.png"
 		}
 	},
 	{
-		"address": "0xbeef3bb9da340ebdf0f5bae2e85368140d7d85d0",
+		"address": "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406",
 		"data": {
-			"name": "BuyMORE",
-			"symbol": "MORE",
+			"name": "bitsCrunch Token",
+			"symbol": "BCUT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbeef3bb9da340ebdf0f5bae2e85368140d7d85d0.png"
+			"logoUri": "/images/tokens/0xbef26bd568e421d6708cca55ad6e35f8bfa0c406.png"
 		}
 	},
 	{
@@ -28529,6 +35429,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ABI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbf0b8b7475edb32d103001efd19fdd2753d7b76d.png"
+		}
+	},
+	{
+		"address": "0xbf19eead55a6b100667f04f8fbc5371e03e8ab2e",
+		"data": {
+			"name": "Inception cbETH",
+			"symbol": "INCBETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbf19eead55a6b100667f04f8fbc5371e03e8ab2e.png"
+		}
+	},
+	{
+		"address": "0xbf1aa3a0e1294b3b996533f5d648dec2e59bad05",
+		"data": {
+			"name": "Funarcade",
+			"symbol": "FAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbf1aa3a0e1294b3b996533f5d648dec2e59bad05.png"
 		}
 	},
 	{
@@ -28550,6 +35468,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbf40440703a3f7092b2e73c2f7868727275dbbda",
+		"data": {
+			"name": "Keep Finance",
+			"symbol": "KEEP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbf40440703a3f7092b2e73c2f7868727275dbbda.png"
+		}
+	},
+	{
 		"address": "0xbf52f2ab39e26e0951d2a02b49b7702abe30406a",
 		"data": {
 			"name": "ODEM",
@@ -28559,12 +35486,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbf628dfd72cf51752574a970c91f42591b173a77",
+		"address": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
 		"data": {
-			"name": "X Social Network",
-			"symbol": "X-AI",
+			"name": "Renzo Restaked ETH",
+			"symbol": "EZETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbf628dfd72cf51752574a970c91f42591b173a77.png"
+			"logoUri": "/images/tokens/0xbf5495efe5db9ce00f80364c8b423567e58d2110.png"
+		}
+	},
+	{
+		"address": "0xbf72ee725f9b06dc564324774801acebad061946",
+		"data": {
+			"name": "DApp AI",
+			"symbol": "DAP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbf72ee725f9b06dc564324774801acebad061946.png"
 		}
 	},
 	{
@@ -28577,12 +35513,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbf7bc9e63635dc11b335d52b0349d0100a53a1a7",
+		"data": {
+			"name": "LinkTao",
+			"symbol": "LTAO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xbf7bc9e63635dc11b335d52b0349d0100a53a1a7.png"
+		}
+	},
+	{
 		"address": "0xbf9e72eeb5adb8b558334c8672950b7a379d4266",
 		"data": {
 			"name": "CubToken",
 			"symbol": "CUBT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xbf9e72eeb5adb8b558334c8672950b7a379d4266.png"
+		}
+	},
+	{
+		"address": "0xbfabde619ed5c4311811cf422562709710db587d",
+		"data": {
+			"name": "Diva Staking",
+			"symbol": "DIVA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbfabde619ed5c4311811cf422562709710db587d.png"
 		}
 	},
 	{
@@ -28595,6 +35549,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xbfba57800bce200915499078289299c86af4a379",
+		"data": {
+			"name": "ORDINAL BITCOIN",
+			"symbol": "OBTC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xbfba57800bce200915499078289299c86af4a379.png"
+		}
+	},
+	{
 		"address": "0xbfc66d8cce39e668fd5d3c10fd1b1eabb82c27b7",
 		"data": {
 			"name": "OVO",
@@ -28604,12 +35567,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xbffaa2bf647e5ae6280a8138d884c3a9a95ece7e",
+		"address": "0xbfe178cf147fda6490f69fe7e6ae038ff09d2980",
 		"data": {
-			"name": "DYOR Analyzer",
-			"symbol": "DYOR",
+			"name": "PSI Gate",
+			"symbol": "PSI/ACC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xbffaa2bf647e5ae6280a8138d884c3a9a95ece7e.png"
+			"logoUri": "/images/tokens/0xbfe178cf147fda6490f69fe7e6ae038ff09d2980.png"
 		}
 	},
 	{
@@ -28619,6 +35582,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "COMP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc00e94cb662c3520282e6f5717214004a7f26888.png"
+		}
+	},
+	{
+		"address": "0xc01154b4ccb518232d6bbfc9b9e6c5068b766f82",
+		"data": {
+			"name": "NEXUS",
+			"symbol": "NEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc01154b4ccb518232d6bbfc9b9e6c5068b766f82.png"
 		}
 	},
 	{
@@ -28640,12 +35612,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc01b733b2ef479086b80949676a673346b531aa2",
+		"address": "0xc01b1979e2244dc94e67891df0af4f7885e57fd4",
 		"data": {
-			"name": "League Bot",
-			"symbol": "LEAGUE",
+			"name": "Lanify",
+			"symbol": "LAN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc01b733b2ef479086b80949676a673346b531aa2.png"
+			"logoUri": "/images/tokens/0xc01b1979e2244dc94e67891df0af4f7885e57fd4.png"
 		}
 	},
 	{
@@ -28676,15 +35648,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc05c3af62f5f3663f2c415473aa4d5ad69200033",
-		"data": {
-			"name": "PIRB",
-			"symbol": "PIRB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc05c3af62f5f3663f2c415473aa4d5ad69200033.png"
-		}
-	},
-	{
 		"address": "0xc05d14442a510de4d3d71a3d316585aa0ce32b50",
 		"data": {
 			"name": "LINA",
@@ -28700,6 +35663,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "LM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc064f4f215b6a1e4e7f39bd8530c4de0fc43ee9d.png"
+		}
+	},
+	{
+		"address": "0xc06d9013a1d3f25f76ee5291bbc04a181985814e",
+		"data": {
+			"name": "Yertle The Turtle",
+			"symbol": "YERTLE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc06d9013a1d3f25f76ee5291bbc04a181985814e.png"
 		}
 	},
 	{
@@ -28730,10 +35702,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc092a137df3cf2b9e5971ba1874d26487c12626d",
+		"data": {
+			"name": "Ring AI",
+			"symbol": "RING",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc092a137df3cf2b9e5971ba1874d26487c12626d.png"
+		}
+	},
+	{
 		"address": "0xc0a4df35568f116c370e6a6a6022ceb908eeddac",
 		"data": {
-			"name": "Umee",
-			"symbol": "UMEE",
+			"name": "UX Chain",
+			"symbol": "UX",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xc0a4df35568f116c370e6a6a6022ceb908eeddac.png"
 		}
@@ -28757,6 +35738,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc0b68eb52c89e3fffa62d78012ac8b661bfaa323",
+		"data": {
+			"name": "Vixco",
+			"symbol": "VIX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc0b68eb52c89e3fffa62d78012ac8b661bfaa323.png"
+		}
+	},
+	{
+		"address": "0xc0b6addde76be6a09231edc12a5e3794c11f594f",
+		"data": {
+			"name": "FlexGPU",
+			"symbol": "FGPU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc0b6addde76be6a09231edc12a5e3794c11f594f.png"
+		}
+	},
+	{
 		"address": "0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f",
 		"data": {
 			"name": "DLP Duck",
@@ -28772,6 +35771,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AURA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc0c293ce456ff0ed870add98a0828dd4d2903dbf.png"
+		}
+	},
+	{
+		"address": "0xc0da2786176dac9eda661c566828950ca571348c",
+		"data": {
+			"name": "Aktionariat Art Leasing And Invest AG T",
+			"symbol": "ARTS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xc0da2786176dac9eda661c566828950ca571348c.png"
+		}
+	},
+	{
+		"address": "0xc0db17bc219c5ca8746c29ee47862ee3ad742f4a",
+		"data": {
+			"name": "ScottyTheAi",
+			"symbol": "SCOTTY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc0db17bc219c5ca8746c29ee47862ee3ad742f4a.png"
 		}
 	},
 	{
@@ -28811,6 +35828,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc106b98c4d0b3f1c92da0e9a6089e9c63ceacbb0",
+		"data": {
+			"name": "TrendAppend",
+			"symbol": "TRND",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc106b98c4d0b3f1c92da0e9a6089e9c63ceacbb0.png"
+		}
+	},
+	{
 		"address": "0xc12d099be31567add4e4e4d0d45691c3f58f5663",
 		"data": {
 			"name": "Auctus",
@@ -28826,15 +35852,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TOOLS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc14b4d4ca66f40f352d7a50fd230ef8b2fb3b8d4.png"
-		}
-	},
-	{
-		"address": "0xc150a5841e5b0f046a46e85fb22cbd05185b20f2",
-		"data": {
-			"name": "Flash Analytics",
-			"symbol": "FLASH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc150a5841e5b0f046a46e85fb22cbd05185b20f2.png"
 		}
 	},
 	{
@@ -28892,6 +35909,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc1c146e09640fe9e5d670288cc43c6269949d9a1",
+		"data": {
+			"name": "Robotrade",
+			"symbol": "ROBO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc1c146e09640fe9e5d670288cc43c6269949d9a1.png"
+		}
+	},
+	{
 		"address": "0xc1ecfaf43c53bec9b9143ab274f35603fd10b886",
 		"data": {
 			"name": "StarShip ERC20",
@@ -28907,15 +35933,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SPOT",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xc1f33e0cf7e40a67375007104b929e49a581bafe.png"
-		}
-	},
-	{
-		"address": "0xc1f976b91217e240885536af8b63bc8b5269a9be",
-		"data": {
-			"name": "Public Index Network",
-			"symbol": "PIN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc1f976b91217e240885536af8b63bc8b5269a9be.png"
 		}
 	},
 	{
@@ -28961,6 +35978,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FPIS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc2544a32872a91f4a553b404c6950e89de901fdb.png"
+		}
+	},
+	{
+		"address": "0xc256f81d35a54c3599b424171d719e9ae87b2e9b",
+		"data": {
+			"name": "Zoopia",
+			"symbol": "ZOOA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc256f81d35a54c3599b424171d719e9ae87b2e9b.png"
 		}
 	},
 	{
@@ -29018,12 +36044,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc2a2e9b87b37938d934fd51cfec0c5fd5cb14c31",
+		"address": "0xc28eb2250d1ae32c7e74cfb6d6b86afc9beb6509",
 		"data": {
-			"name": "Fluffy Token",
-			"symbol": "FLUFFY",
+			"name": "OPEN Ticketing Ecosystem",
+			"symbol": "OPN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc2a2e9b87b37938d934fd51cfec0c5fd5cb14c31.png"
+			"logoUri": "/images/tokens/0xc28eb2250d1ae32c7e74cfb6d6b86afc9beb6509.png"
+		}
+	},
+	{
+		"address": "0xc2aeedc081d4cb6797a681e9403a82211f97b308",
+		"data": {
+			"name": "Zeal AI",
+			"symbol": "ZAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc2aeedc081d4cb6797a681e9403a82211f97b308.png"
 		}
 	},
 	{
@@ -29045,12 +36080,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc30fba978743a43e736fc32fbeed364b8a2039cd",
+		"address": "0xc30769d445d1cbbc5f85fcdb4294b827bd3e7dda",
 		"data": {
-			"name": "Money Market Index",
-			"symbol": "ICSMMT",
+			"name": "MissionMars",
+			"symbol": "MMARS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc30fba978743a43e736fc32fbeed364b8a2039cd.png"
+			"logoUri": "/images/tokens/0xc30769d445d1cbbc5f85fcdb4294b827bd3e7dda.png"
 		}
 	},
 	{
@@ -29108,12 +36143,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc36ad98e62598ae24d4487d8012209f687c30d45",
+		"address": "0xc36983d3d9d379ddfb306dfb919099cb6730e355",
 		"data": {
-			"name": "Asap Sniper Bot",
-			"symbol": "ASAP",
+			"name": "Colle AI",
+			"symbol": "COLLE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc36ad98e62598ae24d4487d8012209f687c30d45.png"
+			"logoUri": "/images/tokens/0xc36983d3d9d379ddfb306dfb919099cb6730e355.png"
 		}
 	},
 	{
@@ -29144,12 +36179,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc39a048353842caf1b94ce5967a04149bb435b98",
+		"address": "0xc3960227e41c3f54e9b399ce216149dea5315c34",
 		"data": {
-			"name": "Reset News",
-			"symbol": "NEWS",
+			"name": "Changpeng Zhao",
+			"symbol": "CZ",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0xc39a048353842caf1b94ce5967a04149bb435b98.png"
+			"logoUri": "/images/tokens/0xc3960227e41c3f54e9b399ce216149dea5315c34.png"
+		}
+	},
+	{
+		"address": "0xc3ade5ace1bbb033ccae8177c12ecbfa16bd6a9d",
+		"data": {
+			"name": "Inception swETH",
+			"symbol": "INSWETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc3ade5ace1bbb033ccae8177c12ecbfa16bd6a9d.png"
+		}
+	},
+	{
+		"address": "0xc3b36424c70e0e6aee3b91d1894c2e336447dbd3",
+		"data": {
+			"name": "TokenWatch",
+			"symbol": "TOKENWATCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc3b36424c70e0e6aee3b91d1894c2e336447dbd3.png"
 		}
 	},
 	{
@@ -29162,21 +36215,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc3d222685f1acacddd4bf8ae566a288702252f0d",
+		"address": "0xc3c7b03335eb950a2a9207ac5cac0571de34d844",
 		"data": {
-			"name": "Roso Elite Gamblers Mansion",
-			"symbol": "ROSO",
+			"name": "BABY WALL STREET MEMES",
+			"symbol": "BWSM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc3d222685f1acacddd4bf8ae566a288702252f0d.png"
+			"logoUri": "/images/tokens/0xc3c7b03335eb950a2a9207ac5cac0571de34d844.png"
 		}
 	},
 	{
-		"address": "0xc3dbd99da846ea38d34430d852795684a211428b",
+		"address": "0xc3cc3076cb304494775b3193ef1aa080ba6bf962",
 		"data": {
-			"name": "Lillian Token",
-			"symbol": "LYF",
+			"name": "OrdiGen",
+			"symbol": "ODGN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc3dbd99da846ea38d34430d852795684a211428b.png"
+			"logoUri": "/images/tokens/0xc3cc3076cb304494775b3193ef1aa080ba6bf962.png"
+		}
+	},
+	{
+		"address": "0xc3d2b3e23855001508e460a6dbe9f9e3116201af",
+		"data": {
+			"name": "GATEWAY TO MARS",
+			"symbol": "MARS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc3d2b3e23855001508e460a6dbe9f9e3116201af.png"
 		}
 	},
 	{
@@ -29198,12 +36260,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc3ffbe26e9446ac52008ffc8c1191d60a12bdc48",
+		"address": "0xc3f8143212871014b472ea83285af7f25928dee4",
 		"data": {
-			"name": "Medifakt",
-			"symbol": "FAKT",
+			"name": "SOHOTRN",
+			"symbol": "SOHOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc3f8143212871014b472ea83285af7f25928dee4.png"
+		}
+	},
+	{
+		"address": "0xc4058f6a829ddd684e1b7589b33312827f0a47bb",
+		"data": {
+			"name": "aNDY",
+			"symbol": "ANDY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc3ffbe26e9446ac52008ffc8c1191d60a12bdc48.png"
+			"logoUri": "/images/tokens/0xc4058f6a829ddd684e1b7589b33312827f0a47bb.png"
+		}
+	},
+	{
+		"address": "0xc40af1e4fecfa05ce6bab79dcd8b373d2e436c4e",
+		"data": {
+			"name": "Hokkaidu Inu",
+			"symbol": "HOKK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc40af1e4fecfa05ce6bab79dcd8b373d2e436c4e.png"
 		}
 	},
 	{
@@ -29216,12 +36296,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc443c15033fcb6cf72cc24f1bda0db070ddd9786",
+		"address": "0xc4170fd71eced3c80badca77f4e12e8aac1e3436",
 		"data": {
-			"name": "Balancer Boosted Aave USD",
-			"symbol": "BB-A-USD",
+			"name": "Kryptomon",
+			"symbol": "KMON",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc443c15033fcb6cf72cc24f1bda0db070ddd9786.png"
+			"logoUri": "/images/tokens/0xc4170fd71eced3c80badca77f4e12e8aac1e3436.png"
+		}
+	},
+	{
+		"address": "0xc434268603ca8854e0be1a3ff15cad73bd6ec49a",
+		"data": {
+			"name": "Zapicorn",
+			"symbol": "ZAPI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc434268603ca8854e0be1a3ff15cad73bd6ec49a.png"
+		}
+	},
+	{
+		"address": "0xc4727c419acfb49c8660736506ca023a4e8509e0",
+		"data": {
+			"name": "NodifiAI",
+			"symbol": "NODIFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc4727c419acfb49c8660736506ca023a4e8509e0.png"
 		}
 	},
 	{
@@ -29234,6 +36332,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc47b0443f8608943c596168504bb6d4a062e0edc",
+		"data": {
+			"name": "Lacostoken",
+			"symbol": "LCSN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc47b0443f8608943c596168504bb6d4a062e0edc.png"
+		}
+	},
+	{
 		"address": "0xc47ef9b19c3e29317a50f5fbe594eba361dada4a",
 		"data": {
 			"name": "Edelcoin",
@@ -29243,12 +36350,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc4b7af50644c661e270fbb8da770049c9fc0bbe1",
+		"data": {
+			"name": "Gelios",
+			"symbol": "GOS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc4b7af50644c661e270fbb8da770049c9fc0bbe1.png"
+		}
+	},
+	{
 		"address": "0xc4bb7277a74678f053259cb1f96140347efbfd46",
 		"data": {
 			"name": "Coin of the champions",
 			"symbol": "COC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc4bb7277a74678f053259cb1f96140347efbfd46.png"
+		}
+	},
+	{
+		"address": "0xc4c244f1dbca07083fee35220d2169957c275e68",
+		"data": {
+			"name": "Steak",
+			"symbol": "STEAK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc4c244f1dbca07083fee35220d2169957c275e68.png"
 		}
 	},
 	{
@@ -29288,6 +36413,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc4d5545392f5fc57eba3af8981815669bb7e2a48",
+		"data": {
+			"name": "HEdpAY",
+			"symbol": "HDP",
+			"decimals": 4,
+			"logoUri": "/images/tokens/0xc4d5545392f5fc57eba3af8981815669bb7e2a48.png"
+		}
+	},
+	{
 		"address": "0xc4de189abf94c57f396bd4c52ab13b954febefd8",
 		"data": {
 			"name": "B20",
@@ -29324,15 +36458,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc4f521d163d593a759f526dabf012cc7581d808f",
-		"data": {
-			"name": "Digital Files",
-			"symbol": "DIFI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc4f521d163d593a759f526dabf012cc7581d808f.png"
-		}
-	},
-	{
 		"address": "0xc4f6e93aeddc11dc22268488465babcaf09399ac",
 		"data": {
 			"name": "hi Dollar",
@@ -29348,15 +36473,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "GNFT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc502002aeb1b9309fccb016adf50507987fc6c2b.png"
-		}
-	},
-	{
-		"address": "0xc5068471fe18eda3b362231d01ae30ba6a91ff0d",
-		"data": {
-			"name": "Cut It Off",
-			"symbol": "CUT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc5068471fe18eda3b362231d01ae30ba6a91ff0d.png"
 		}
 	},
 	{
@@ -29378,20 +36494,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc5253c32bb72921b77ae18cf329dad5e6c3de5a4",
+		"address": "0xc5190e7fec4d97a3a3b1ab42dfedac608e2d0793",
 		"data": {
-			"name": "NOBI",
-			"symbol": "NOBI",
-			"decimals": 18
+			"name": "FX1Sports",
+			"symbol": "FXI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc5190e7fec4d97a3a3b1ab42dfedac608e2d0793.png"
 		}
 	},
 	{
-		"address": "0xc528c28fec0a90c083328bc45f587ee215760a0f",
+		"address": "0xc525abf65169e6d443f698276761eb9ea7d921a4",
 		"data": {
-			"name": "Endor Protocol",
-			"symbol": "EDR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc528c28fec0a90c083328bc45f587ee215760a0f.png"
+			"name": "Bitnex AI",
+			"symbol": "BTX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc525abf65169e6d443f698276761eb9ea7d921a4.png"
 		}
 	},
 	{
@@ -29440,12 +36557,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa",
+		"address": "0xc57bf43f8ca4458309386f9a3e8246a8cadcca51",
 		"data": {
-			"name": "ZUSD",
-			"symbol": "ZUSD",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa.png"
+			"name": "DOXcoin",
+			"symbol": "DOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc57bf43f8ca4458309386f9a3e8246a8cadcca51.png"
 		}
 	},
 	{
@@ -29476,6 +36593,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc5842df170b8c8d09eb851a8d5db3dfa00669e3f",
+		"data": {
+			"name": "Xero AI",
+			"symbol": "XEROAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc5842df170b8c8d09eb851a8d5db3dfa00669e3f.png"
+		}
+	},
+	{
 		"address": "0xc58f53a8adff2fb4eb16ed56635772075e2ee123",
 		"data": {
 			"name": "Aave AMM UniWBTCWETH",
@@ -29485,21 +36611,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc590c348d431d544172f5ec4e4c8ea44537b8f4d",
-		"data": {
-			"name": "AntNetworX",
-			"symbol": "ANTX",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xc590c348d431d544172f5ec4e4c8ea44537b8f4d.png"
-		}
-	},
-	{
 		"address": "0xc5b3d3231001a776123194cf1290068e8b0c783b",
 		"data": {
 			"name": "LIT",
 			"symbol": "LIT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc5b3d3231001a776123194cf1290068e8b0c783b.png"
+		}
+	},
+	{
+		"address": "0xc5b490371870201e2fe6308850507db6e9cba732",
+		"data": {
+			"name": "Baby GROK",
+			"symbol": "BROK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc5b490371870201e2fe6308850507db6e9cba732.png"
+		}
+	},
+	{
+		"address": "0xc5ba042bf8832999b17c9036e8212f49dce0501a",
+		"data": {
+			"name": "YOUR AI",
+			"symbol": "YOURAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc5ba042bf8832999b17c9036e8212f49dce0501a.png"
 		}
 	},
 	{
@@ -29518,6 +36653,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "YVE-CRVDAO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc5bddf9843308380375a611c18b50fb9341f502a.png"
+		}
+	},
+	{
+		"address": "0xc5d27f27f08d1fd1e3ebbaa50b3442e6c0d50439",
+		"data": {
+			"name": "Moon App",
+			"symbol": "APP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc5d27f27f08d1fd1e3ebbaa50b3442e6c0d50439.png"
 		}
 	},
 	{
@@ -29548,30 +36692,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc608557d966f6b7568e5c9345285f0c8c90a96a2",
+		"address": "0xc60d6662027f5797cf873bfe80bcf048e30fc35e",
 		"data": {
-			"name": "XCatge",
-			"symbol": "XCATGE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xc608557d966f6b7568e5c9345285f0c8c90a96a2.png"
+			"name": "SORA Synthetics",
+			"symbol": "XST",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc60d6662027f5797cf873bfe80bcf048e30fc35e.png"
 		}
 	},
 	{
-		"address": "0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532",
+		"address": "0xc61edb127f58f42f47a8be8aebe83cf602a53878",
 		"data": {
-			"name": "Freedom Reserve",
-			"symbol": "FR",
+			"name": "Castle Of Blackwater",
+			"symbol": "COBE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532.png"
+			"logoUri": "/images/tokens/0xc61edb127f58f42f47a8be8aebe83cf602a53878.png"
 		}
 	},
 	{
-		"address": "0xc62def1701309bb76e6b39b6ab8b5fac910a3c87",
+		"address": "0xc6221ac4e99066ea5443acd67d6108f874e2533d",
 		"data": {
-			"name": "MetaRare",
-			"symbol": "MTRA",
+			"name": "Decentralized Cloud Infra",
+			"symbol": "DCI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc62def1701309bb76e6b39b6ab8b5fac910a3c87.png"
+			"logoUri": "/images/tokens/0xc6221ac4e99066ea5443acd67d6108f874e2533d.png"
 		}
 	},
 	{
@@ -29599,6 +36743,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DGTX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc666081073e8dff8d3d1c2292a29ae1a2153ec09.png"
+		}
+	},
+	{
+		"address": "0xc668695dcbcf682de106da94bde65c9bc79362d3",
+		"data": {
+			"name": "Shadow Node",
+			"symbol": "SVPN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc668695dcbcf682de106da94bde65c9bc79362d3.png"
 		}
 	},
 	{
@@ -29656,24 +36809,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc6979ff406f6cd88908009a80fac0fa7cc1d4fbd",
-		"data": {
-			"name": "Socio",
-			"symbol": "SOCIO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xc6979ff406f6cd88908009a80fac0fa7cc1d4fbd.png"
-		}
-	},
-	{
-		"address": "0xc6980fa29a42e44852e29492268d9285d89c9dac",
-		"data": {
-			"name": "MeGods",
-			"symbol": "MEGODS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc6980fa29a42e44852e29492268d9285d89c9dac.png"
-		}
-	},
-	{
 		"address": "0xc6bdb96e29c38dc43f014eed44de4106a6a8eb5f",
 		"data": {
 			"name": "Inu Inu",
@@ -29692,23 +36827,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc6cd44f9630886a7492cea3d9860e0510933a600",
-		"data": {
-			"name": "Fake Market Cap",
-			"symbol": "CAP",
-			"decimals": 18
-		}
-	},
-	{
-		"address": "0xc6d1f1d5a46de07e73091f1c8793293b203f01a1",
-		"data": {
-			"name": "Mission Helios",
-			"symbol": "HELIOS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc6d1f1d5a46de07e73091f1c8793293b203f01a1.png"
-		}
-	},
-	{
 		"address": "0xc6dddb5bc6e61e0841c54f3e723ae1f3a807260b",
 		"data": {
 			"name": "Aurox",
@@ -29724,6 +36842,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CPRX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc6e145421fd494b26dcf2bfeb1b02b7c5721978f.png"
+		}
+	},
+	{
+		"address": "0xc7026a20a640bc71b9074f7aed52a00cd9147091",
+		"data": {
+			"name": "Tegro",
+			"symbol": "TGR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc7026a20a640bc71b9074f7aed52a00cd9147091.png"
 		}
 	},
 	{
@@ -29754,12 +36881,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc71b5f631354be6853efe9c3ab6b9590f8302e81",
+		"data": {
+			"name": "Polyhedra Network",
+			"symbol": "ZK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc71b5f631354be6853efe9c3ab6b9590f8302e81.png"
+		}
+	},
+	{
 		"address": "0xc71d8baaa436aa7e42da1f40bec48f11ab3c9e4a",
 		"data": {
 			"name": "iEthereum",
 			"symbol": "IETH",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xc71d8baaa436aa7e42da1f40bec48f11ab3c9e4a.png"
+		}
+	},
+	{
+		"address": "0xc72633f995e98ac3bb8a89e6a9c4af335c3d6e44",
+		"data": {
+			"name": "Omnisea",
+			"symbol": "OSEA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc72633f995e98ac3bb8a89e6a9c4af335c3d6e44.png"
 		}
 	},
 	{
@@ -29772,9 +36917,18 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc73abe8d7a0da644743fe2ad24f4e16bb7ed43f8",
+		"data": {
+			"name": "Website AI",
+			"symbol": "WEBAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc73abe8d7a0da644743fe2ad24f4e16bb7ed43f8.png"
+		}
+	},
+	{
 		"address": "0xc73c167e7a4ba109e4052f70d5466d0c312a344d",
 		"data": {
-			"name": "Sanshu Inu",
+			"name": "Sanshu Inu  OLD ",
 			"symbol": "SANSHU",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xc73c167e7a4ba109e4052f70d5466d0c312a344d.png"
@@ -29796,15 +36950,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RED",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc744df3419a8c9bd4d6b9852a503eb1c5308a326.png"
-		}
-	},
-	{
-		"address": "0xc74b43cc61b627667a608c3f650c2558f88028a1",
-		"data": {
-			"name": "Astral AI",
-			"symbol": "ASTRAL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc74b43cc61b627667a608c3f650c2558f88028a1.png"
 		}
 	},
 	{
@@ -29844,6 +36989,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc78b628b060258300218740b1a7a5b3c82b3bd9f",
+		"data": {
+			"name": "Commune AI",
+			"symbol": "COMAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc78b628b060258300218740b1a7a5b3c82b3bd9f.png"
+		}
+	},
+	{
+		"address": "0xc7937b44532bf4c0a1f0de3a46c79dddb6dd169d",
+		"data": {
+			"name": "Deez Nuts  ERC404 ",
+			"symbol": "DN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc7937b44532bf4c0a1f0de3a46c79dddb6dd169d.png"
+		}
+	},
+	{
 		"address": "0xc7a2572fa8fdb0f7e81d6d3c4e3ccf78fb0dc374",
 		"data": {
 			"name": "Ben s Finale",
@@ -29853,12 +37016,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc7b89491bb148551547837ea6ccb4bb5144d8e47",
+		"address": "0xc7b4c17861357b8abb91f25581e7263e08dcb59c",
 		"data": {
-			"name": "Sonar",
-			"symbol": "PING",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xc7b89491bb148551547837ea6ccb4bb5144d8e47.png"
+			"name": "Aave v3 SNX",
+			"symbol": "ASNX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc7b4c17861357b8abb91f25581e7263e08dcb59c.png"
 		}
 	},
 	{
@@ -29868,6 +37031,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "GEM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc7bba5b765581efb2cdd2679db5bea9ee79b201f.png"
+		}
+	},
+	{
+		"address": "0xc7c53760375530e5af29fded5e13989325299382",
+		"data": {
+			"name": "WORLD PEACE COIN",
+			"symbol": "WPC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc7c53760375530e5af29fded5e13989325299382.png"
 		}
 	},
 	{
@@ -29895,6 +37067,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "NIOX",
 			"decimals": 4,
 			"logoUri": "/images/tokens/0xc813ea5e3b48bebeedb796ab42a30c5599b01740.png"
+		}
+	},
+	{
+		"address": "0xc8168d5665f4418353728ac970713e09c0b7c20e",
+		"data": {
+			"name": "Monke",
+			"symbol": "MONKE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc8168d5665f4418353728ac970713e09c0b7c20e.png"
+		}
+	},
+	{
+		"address": "0xc819617f360f6347d222f260e9f4987ca1d0f879",
+		"data": {
+			"name": "ICLICK Inu",
+			"symbol": "ICLICK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc819617f360f6347d222f260e9f4987ca1d0f879.png"
 		}
 	},
 	{
@@ -29934,6 +37124,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc881255e4d639b42e326158c7b8ccb7f33459261",
+		"data": {
+			"name": "AMMX",
+			"symbol": "AMMX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc881255e4d639b42e326158c7b8ccb7f33459261.png"
+		}
+	},
+	{
 		"address": "0xc8871267e07408b89aa5aecc58adca5e574557f8",
 		"data": {
 			"name": "Instadapp USDC",
@@ -29949,6 +37148,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TRENDX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc89d9aa9d9e54bb196319c6195aea1038d2bc936.png"
+		}
+	},
+	{
+		"address": "0xc8bf8bc34874e07f6a0d4abc8be22ba9e372631b",
+		"data": {
+			"name": "SmartWorld Global Token",
+			"symbol": "SWGT",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xc8bf8bc34874e07f6a0d4abc8be22ba9e372631b.png"
 		}
 	},
 	{
@@ -29979,21 +37187,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc8dfb57d83bf561457b1a3f6ce22956bb554bcab",
+		"data": {
+			"name": "TradeMaster ninja",
+			"symbol": "TRDM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc8dfb57d83bf561457b1a3f6ce22956bb554bcab.png"
+		}
+	},
+	{
 		"address": "0xc8ef1460277ea47d179dec66d1c5f8b7f7ae5a28",
 		"data": {
 			"name": "Rikkei Finance",
 			"symbol": "RIFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc8ef1460277ea47d179dec66d1c5f8b7f7ae5a28.png"
-		}
-	},
-	{
-		"address": "0xc90906d45046059221e908de5cc8fcfaca859235",
-		"data": {
-			"name": "Shibarium Pad",
-			"symbol": "SHIBP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc90906d45046059221e908de5cc8fcfaca859235.png"
 		}
 	},
 	{
@@ -30015,15 +37223,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc949fc82a15964fb5b97e5cf8f9ffed139086821",
-		"data": {
-			"name": "PGPay",
-			"symbol": "PGPAY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc949fc82a15964fb5b97e5cf8f9ffed139086821.png"
-		}
-	},
-	{
 		"address": "0xc961da88bb5e8ee2ba7dfd4c62a875ef80f7202f",
 		"data": {
 			"name": "Haram",
@@ -30042,21 +37241,29 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc97232527b62efb0d8ed38cf3ea103a6cca4037e",
+		"data": {
+			"name": "LP Yearn CRV Vault",
+			"symbol": "LP-YCRV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc97232527b62efb0d8ed38cf3ea103a6cca4037e.png"
+		}
+	},
+	{
+		"address": "0xc975342a95ccb75378ddc646b8620fa3cd5bc051",
+		"data": {
+			"name": "MetaStreet V2 mwstETH WPUNKS 20",
+			"symbol": "PUNKETH-20",
+			"decimals": 18
+		}
+	},
+	{
 		"address": "0xc97d6c52f3add91fa1c5287a453d7444aecbca83",
 		"data": {
 			"name": "Degen Zoo",
 			"symbol": "DZOO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xc97d6c52f3add91fa1c5287a453d7444aecbca83.png"
-		}
-	},
-	{
-		"address": "0xc983c1bd8393dd5c630a3d6c4fe9e5c92e582328",
-		"data": {
-			"name": "Kekya",
-			"symbol": "KEKYA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xc983c1bd8393dd5c630a3d6c4fe9e5c92e582328.png"
 		}
 	},
 	{
@@ -30078,6 +37285,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xc9a1f104fbbda8b8752946f7d56d59d28284037f",
+		"data": {
+			"name": "Doug",
+			"symbol": "DOUG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc9a1f104fbbda8b8752946f7d56d59d28284037f.png"
+		}
+	},
+	{
+		"address": "0xc9b6a17ebb43491635f603a01f8bb3e4b5d22228",
+		"data": {
+			"name": "MAGA Coin ETH",
+			"symbol": "MAGA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc9b6a17ebb43491635f603a01f8bb3e4b5d22228.png"
+		}
+	},
+	{
 		"address": "0xc9bc48c72154ef3e5425641a3c747242112a46af",
 		"data": {
 			"name": "Aave RAI",
@@ -30096,12 +37321,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xc9d21e5a24110b67af31af464edfdc2dae5ec7d5",
+		"address": "0xc9cb16ac87c43697b838c64ee416d748817f2b77",
 		"data": {
-			"name": "Bitmeme",
-			"symbol": "BTM",
+			"name": "Groooook",
+			"symbol": "GROOOOOK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xc9cb16ac87c43697b838c64ee416d748817f2b77.png"
+		}
+	},
+	{
+		"address": "0xc9eb61ffb66d5815d643bbb8195e17c49687ae1e",
+		"data": {
+			"name": "Morpheus Labs",
+			"symbol": "MIND",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xc9d21e5a24110b67af31af464edfdc2dae5ec7d5.png"
+			"logoUri": "/images/tokens/0xc9eb61ffb66d5815d643bbb8195e17c49687ae1e.png"
+		}
+	},
+	{
+		"address": "0xc9f00080d96cea3ef92d2e2e563d4cd41fb5bb36",
+		"data": {
+			"name": "BLOX",
+			"symbol": "BLOX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xc9f00080d96cea3ef92d2e2e563d4cd41fb5bb36.png"
 		}
 	},
 	{
@@ -30141,12 +37384,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xca1308e38340c69e848061aa2c3880daeb958187",
+		"address": "0xca14007eff0db1f8135f4c25b34de49ab0d42766",
 		"data": {
-			"name": "Hackerlabs DAO",
-			"symbol": "HLD",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xca1308e38340c69e848061aa2c3880daeb958187.png"
+			"name": "Starknet",
+			"symbol": "STRK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xca14007eff0db1f8135f4c25b34de49ab0d42766.png"
+		}
+	},
+	{
+		"address": "0xca30c93b02514f86d5c86a6e375e3a330b435fb5",
+		"data": {
+			"name": "Backed IB01   Treasury Bond 0 1yr",
+			"symbol": "BIB01",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xca30c93b02514f86d5c86a6e375e3a330b435fb5.png"
 		}
 	},
 	{
@@ -30168,15 +37420,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xca5001bc5134302dbe0f798a2d0b95ef3cf0803f",
-		"data": {
-			"name": "FrenBot",
-			"symbol": "MEF",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xca5001bc5134302dbe0f798a2d0b95ef3cf0803f.png"
-		}
-	},
-	{
 		"address": "0xca5b0ae1d104030a9b8f879523508efd86c14483",
 		"data": {
 			"name": "Benji Bananas",
@@ -30195,12 +37438,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xca9f9671765f8d1a7e19ae2639e01fff730f0d9b",
+		"address": "0xca9d8ef4ba15ae66347b3d22afe2970b89980f88",
 		"data": {
-			"name": "Jaypeggers USDC",
-			"symbol": "JUSDC",
+			"name": "Innova DeFi",
+			"symbol": "INNOVA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xca9f9671765f8d1a7e19ae2639e01fff730f0d9b.png"
+			"logoUri": "/images/tokens/0xca9d8ef4ba15ae66347b3d22afe2970b89980f88.png"
 		}
 	},
 	{
@@ -30222,6 +37465,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcac1277aa6ecb68b84fad070910d37029e810b79",
+		"data": {
+			"name": "BitDelta",
+			"symbol": "BDT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcac1277aa6ecb68b84fad070910d37029e810b79.png"
+		}
+	},
+	{
 		"address": "0xcadc0acd4b445166f12d2c07eac6e2544fbe2eef",
 		"data": {
 			"name": "CAD Coin",
@@ -30231,30 +37483,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcae0dd4bda7ff3e700355c7629b24d5d728bd2ce",
+		"data": {
+			"name": "Bowie",
+			"symbol": "BOWIE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcae0dd4bda7ff3e700355c7629b24d5d728bd2ce.png"
+		}
+	},
+	{
 		"address": "0xcae3faa4b6cf660aef18474074949ba0948bc025",
 		"data": {
 			"name": "Generational Wealth",
 			"symbol": "GEN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcae3faa4b6cf660aef18474074949ba0948bc025.png"
-		}
-	},
-	{
-		"address": "0xcae636167db2369bd746f2bcba79a6e8b0d4e000",
-		"data": {
-			"name": "Education Assessment Cult",
-			"symbol": "EAC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcae636167db2369bd746f2bcba79a6e8b0d4e000.png"
-		}
-	},
-	{
-		"address": "0xcae72a7a0fd9046cf6b165ca54c9e3a3872109e0",
-		"data": {
-			"name": "AnRKey X",
-			"symbol": "ANRX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcae72a7a0fd9046cf6b165ca54c9e3a3872109e0.png"
 		}
 	},
 	{
@@ -30276,21 +37519,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcaeda9650ccd356af7776057a105f9e6ffe68213",
+		"data": {
+			"name": "Loong",
+			"symbol": "LOONG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcaeda9650ccd356af7776057a105f9e6ffe68213.png"
+		}
+	},
+	{
 		"address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
 		"data": {
 			"name": "ParaSwap",
 			"symbol": "PSP",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcafe001067cdef266afb7eb5a286dcfd277f3de5.png"
-		}
-	},
-	{
-		"address": "0xcafe34bae6f1b23a6b575303edcc0578d2188131",
-		"data": {
-			"name": "Minter Network",
-			"symbol": "BIP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcafe34bae6f1b23a6b575303edcc0578d2188131.png"
 		}
 	},
 	{
@@ -30303,12 +37546,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcb129aa11ceaa00da1a92d12e26bb776ef3c3628",
+		"data": {
+			"name": "PowBlocks",
+			"symbol": "XPB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcb129aa11ceaa00da1a92d12e26bb776ef3c3628.png"
+		}
+	},
+	{
+		"address": "0xcb19b6b4971bd4206bab176c75b1efe3e28ee5a8",
+		"data": {
+			"name": "Seneca",
+			"symbol": "SEN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcb19b6b4971bd4206bab176c75b1efe3e28ee5a8.png"
+		}
+	},
+	{
+		"address": "0xcb21311d3b91b5324f6c11b4f5a656fcacbff122",
+		"data": {
+			"name": "QuantixAI",
+			"symbol": "QAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcb21311d3b91b5324f6c11b4f5a656fcacbff122.png"
+		}
+	},
+	{
 		"address": "0xcb27e0b9530d5107302e3e0691dd0f64faf498b0",
 		"data": {
 			"name": "Pepe Of Wallstreet",
 			"symbol": "POW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcb27e0b9530d5107302e3e0691dd0f64faf498b0.png"
+		}
+	},
+	{
+		"address": "0xcb2b9b5b136dc29feb0548dff315021b9b6c2ba0",
+		"data": {
+			"name": "GigaToken",
+			"symbol": "GIGA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcb2b9b5b136dc29feb0548dff315021b9b6c2ba0.png"
 		}
 	},
 	{
@@ -30327,6 +37606,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "CIG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcb56b52316041a62b6b5d0583dce4a8ae7a3c629.png"
+		}
+	},
+	{
+		"address": "0xcb69b067d9d8d6dd1209fe4557c43586e54f9045",
+		"data": {
+			"name": "Possum",
+			"symbol": "PSM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcb69b067d9d8d6dd1209fe4557c43586e54f9045.png"
 		}
 	},
 	{
@@ -30384,15 +37672,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcbc1aa6961b28cccb11e1cddd84ad8b42ec920b1",
-		"data": {
-			"name": "ZEUS10000",
-			"symbol": "ZEUS10000",
-			"decimals": 4,
-			"logoUri": "/images/tokens/0xcbc1aa6961b28cccb11e1cddd84ad8b42ec920b1.png"
-		}
-	},
-	{
 		"address": "0xcbcc0f036ed4788f63fc0fee32873d6a7487b908",
 		"data": {
 			"name": "Humaniq",
@@ -30429,15 +37708,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcbee6459728019cb1f2bb971dde2ee3271bc7617",
-		"data": {
-			"name": "WemergeToken",
-			"symbol": "MRG",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcbee6459728019cb1f2bb971dde2ee3271bc7617.png"
-		}
-	},
-	{
 		"address": "0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d",
 		"data": {
 			"name": "Kine Protocol",
@@ -30447,12 +37717,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcc0d1b36d88fd8f5f26fd00e4e769e2dab4e3e07",
+		"address": "0xcc09f34accdb36ee3ed98358a3b8a6ae5c29ea07",
 		"data": {
-			"name": "Lightning Bot",
-			"symbol": "LIGHT",
+			"name": "Anon Web3",
+			"symbol": "AW3",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xcc0d1b36d88fd8f5f26fd00e4e769e2dab4e3e07.png"
+			"logoUri": "/images/tokens/0xcc09f34accdb36ee3ed98358a3b8a6ae5c29ea07.png"
 		}
 	},
 	{
@@ -30492,15 +37762,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcc779bbbd17b2e68ecdccaea3d8c791b1573c66b",
-		"data": {
-			"name": "Fetch",
-			"symbol": "FETCH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcc779bbbd17b2e68ecdccaea3d8c791b1573c66b.png"
-		}
-	},
-	{
 		"address": "0xcc7ab8d78dba187dc95bf3bb86e65e0c26d0041f",
 		"data": {
 			"name": "Spacelens",
@@ -30537,6 +37798,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcc9e0bd9438ca0056653d134de794abeaff8c676",
+		"data": {
+			"name": "Leslie",
+			"symbol": "LESLIE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xcc9e0bd9438ca0056653d134de794abeaff8c676.png"
+		}
+	},
+	{
+		"address": "0xcc9ee9483f662091a1de4795249e24ac0ac2630f",
+		"data": {
+			"name": "Aave v3 rETH",
+			"symbol": "ARETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcc9ee9483f662091a1de4795249e24ac0ac2630f.png"
+		}
+	},
+	{
 		"address": "0xccF4429DB6322D5C611ee964527D42E5d685DD6a",
 		"data": {
 			"name": "Compound Wrapped BTC",
@@ -30566,7 +37845,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xccccb68e1a848cbdb5b60a974e07aae143ed40c3",
 		"data": {
-			"name": "Hytopia",
+			"name": "HYCHAIN",
 			"symbol": "TOPIA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xccccb68e1a848cbdb5b60a974e07aae143ed40c3.png"
@@ -30579,15 +37858,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ECOX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcccd1ba9f7acd6117834e0d28f25645decb1736a.png"
-		}
-	},
-	{
-		"address": "0xccdae12162566e3f29fefa7bf7f5b24c644493b5",
-		"data": {
-			"name": "Leveraged rETH Staking Yield",
-			"symbol": "ICRETH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xccdae12162566e3f29fefa7bf7f5b24c644493b5.png"
 		}
 	},
 	{
@@ -30609,21 +37879,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcd14517c7397a003aec7404cb8159f16a90f9fe9",
-		"data": {
-			"name": "AirBot",
-			"symbol": "AIRBOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcd14517c7397a003aec7404cb8159f16a90f9fe9.png"
-		}
-	},
-	{
 		"address": "0xcd17fa52528f37facb3028688e62ec82d9417581",
 		"data": {
 			"name": "Materium",
 			"symbol": "MTRM",
 			"decimals": 0,
 			"logoUri": "/images/tokens/0xcd17fa52528f37facb3028688e62ec82d9417581.png"
+		}
+	},
+	{
+		"address": "0xcd24181edaa0394e1d978d5011e36f67fe41a499",
+		"data": {
+			"name": "ORB WIZZ COUNCIL",
+			"symbol": "ORB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcd24181edaa0394e1d978d5011e36f67fe41a499.png"
+		}
+	},
+	{
+		"address": "0xcd24ba0e3364233ee9301c1d608a14753c8739c5",
+		"data": {
+			"name": "DeepSouth AI",
+			"symbol": "SOUTH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcd24ba0e3364233ee9301c1d608a14753c8739c5.png"
 		}
 	},
 	{
@@ -30636,12 +37915,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcd58d56906318ce6ad9ef4ae5fb21f61e05c417d",
+		"address": "0xcd4ee6c8052df6742e4b342cf720ff3ac74f415e",
 		"data": {
-			"name": "PepManCity",
-			"symbol": "PEPMCITY",
+			"name": "StellaryAI",
+			"symbol": "STELAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xcd4ee6c8052df6742e4b342cf720ff3ac74f415e.png"
+		}
+	},
+	{
+		"address": "0xcd54df3c19a7ae672897f2a09821d2c287d36326",
+		"data": {
+			"name": "Baby Memecoin",
+			"symbol": "BABYMEME",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xcd54df3c19a7ae672897f2a09821d2c287d36326.png"
+		}
+	},
+	{
+		"address": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+		"data": {
+			"name": "Wrapped eETH",
+			"symbol": "WEETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xcd58d56906318ce6ad9ef4ae5fb21f61e05c417d.png"
+			"logoUri": "/images/tokens/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee.png"
 		}
 	},
 	{
@@ -30654,15 +37951,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcd6adc6b8bd396e2d53ccd7d7257b4de55be4fbe",
-		"data": {
-			"name": "CFL365 Finance",
-			"symbol": "CFL365",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcd6adc6b8bd396e2d53ccd7d7257b4de55be4fbe.png"
-		}
-	},
-	{
 		"address": "0xcd7492db29e2ab436e819b249452ee1bbdf52214",
 		"data": {
 			"name": "SafeMoon Inu",
@@ -30672,12 +37960,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcd74cf66c43e45abd5703f3642f73d0675d6aff7",
+		"address": "0xcd8c163cc0ec3a53ce6bec89e665fb97cce51c42",
 		"data": {
-			"name": "Erugo World Coin",
-			"symbol": "EWC",
+			"name": "beecasinogames",
+			"symbol": "BEECASINO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xcd8c163cc0ec3a53ce6bec89e665fb97cce51c42.png"
+		}
+	},
+	{
+		"address": "0xcda2f16c6aa895d533506b426aff827b709c87f5",
+		"data": {
+			"name": "Fairum",
+			"symbol": "FAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xcd74cf66c43e45abd5703f3642f73d0675d6aff7.png"
+			"logoUri": "/images/tokens/0xcda2f16c6aa895d533506b426aff827b709c87f5.png"
 		}
 	},
 	{
@@ -30699,6 +37996,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcdb4a8742ed7d0259b51e3454c46c9d6c48d5e88",
+		"data": {
+			"name": "GPT Protocol",
+			"symbol": "GPT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcdb4a8742ed7d0259b51e3454c46c9d6c48d5e88.png"
+		}
+	},
+	{
 		"address": "0xcdb9d30a3ba48cdfcb0ecbe19317e6cf783672f1",
 		"data": {
 			"name": "Mondo Community Coin",
@@ -30708,12 +38014,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcdeee767bed58c5325f68500115d4b722b3724ee",
+		"address": "0xcdbb2498fa9e7b5849bed5d3661386d0ce2733b2",
 		"data": {
-			"name": "Carbon",
-			"symbol": "CRBN",
+			"name": "FuturesAI",
+			"symbol": "FAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xcdeee767bed58c5325f68500115d4b722b3724ee.png"
+			"logoUri": "/images/tokens/0xcdbb2498fa9e7b5849bed5d3661386d0ce2733b2.png"
+		}
+	},
+	{
+		"address": "0xcdd0d11de0225b528b3a20d6436392c8260969d0",
+		"data": {
+			"name": "Trade Bionic",
+			"symbol": "ONIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcdd0d11de0225b528b3a20d6436392c8260969d0.png"
+		}
+	},
+	{
+		"address": "0xcdeb595293511115d9d9d44b189cc0da4a08cfaf",
+		"data": {
+			"name": "Jellyfish Mobile",
+			"symbol": "JFISH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcdeb595293511115d9d9d44b189cc0da4a08cfaf.png"
 		}
 	},
 	{
@@ -30723,6 +38047,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "T",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcdf7028ceab81fa0c6971208e83fa7872994bee5.png"
+		}
+	},
+	{
+		"address": "0xce108380c39e4fe9dace9d5597e048bcc5ef743b",
+		"data": {
+			"name": "Blueshift",
+			"symbol": "BLUES",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce108380c39e4fe9dace9d5597e048bcc5ef743b.png"
 		}
 	},
 	{
@@ -30744,6 +38077,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xce246eea10988c495b4a90a905ee9237a0f91543",
+		"data": {
+			"name": "VaultCraft",
+			"symbol": "VCX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce246eea10988c495b4a90a905ee9237a0f91543.png"
+		}
+	},
+	{
 		"address": "0xce391315b414d4c7555956120461d21808a69f3a",
 		"data": {
 			"name": "Bao Finance V2",
@@ -30753,12 +38095,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xce3f08e664693ca792cace4af1364d5e220827b2",
+		"address": "0xce3ee7435a5bedbe73b92f39828b0cfd9d0ff568",
 		"data": {
-			"name": "Saitama",
-			"symbol": "SAITAMA",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xce3f08e664693ca792cace4af1364d5e220827b2.png"
+			"name": "UniDexAI",
+			"symbol": "UDX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce3ee7435a5bedbe73b92f39828b0cfd9d0ff568.png"
+		}
+	},
+	{
+		"address": "0xce5464b006a10d20c5fc56a19618212a129eed45",
+		"data": {
+			"name": "Egostation",
+			"symbol": "ESTA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce5464b006a10d20c5fc56a19618212a129eed45.png"
 		}
 	},
 	{
@@ -30771,6 +38122,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xce6e54daa1ea95fb3530859d69d4bdb978dd821b",
+		"data": {
+			"name": "Ordibank",
+			"symbol": "ORBK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce6e54daa1ea95fb3530859d69d4bdb978dd821b.png"
+		}
+	},
+	{
+		"address": "0xce722f60f35c37ab295adc4e6ba45bcc7ca89dd6",
+		"data": {
+			"name": "JPEG d",
+			"symbol": "JPGD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce722f60f35c37ab295adc4e6ba45bcc7ca89dd6.png"
+		}
+	},
+	{
+		"address": "0xce872db165d4f5623af9c29e03afd416bc5f67bc",
+		"data": {
+			"name": "StakeVault Network",
+			"symbol": "SVN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xce872db165d4f5623af9c29e03afd416bc5f67bc.png"
+		}
+	},
+	{
 		"address": "0xce9de5365739b1bed5c8546867aee4209fbb8538",
 		"data": {
 			"name": "Thug Life",
@@ -30780,12 +38158,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xceb53519a2b891d33b36e3826962d2a48f878e45",
+		"address": "0xced6a1b885ee79899422d3a2f61fa9c77282c573",
 		"data": {
-			"name": "YellowHeart Protocol",
-			"symbol": "HRTS",
+			"name": "CodeGenie",
+			"symbol": "CODEG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xceb53519a2b891d33b36e3826962d2a48f878e45.png"
+			"logoUri": "/images/tokens/0xced6a1b885ee79899422d3a2f61fa9c77282c573.png"
 		}
 	},
 	{
@@ -30807,12 +38185,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xceec4ae5cf5300ac9a49a816961af9393b214674",
+		"address": "0xcef46305d096fa876dd23048bf80f9345282e3fc",
 		"data": {
-			"name": "Insight AI",
-			"symbol": "INSAI",
-			"decimals": 6,
-			"logoUri": "/images/tokens/0xceec4ae5cf5300ac9a49a816961af9393b214674.png"
+			"name": "Banque Universal",
+			"symbol": "CBU",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xcef46305d096fa876dd23048bf80f9345282e3fc.png"
+		}
+	},
+	{
+		"address": "0xcefde37817da4fc51ddc24e3820ad316784ee04b",
+		"data": {
+			"name": "Sonata Network",
+			"symbol": "SONA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcefde37817da4fc51ddc24e3820ad316784ee04b.png"
 		}
 	},
 	{
@@ -30825,18 +38212,9 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xcf1e086a145dd7b5b771b1e6acbbc1d2b58d7e80",
-		"data": {
-			"name": "Gen Wealth",
-			"symbol": "GENW",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xcf1e086a145dd7b5b771b1e6acbbc1d2b58d7e80.png"
-		}
-	},
-	{
 		"address": "0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a",
 		"data": {
-			"name": "BEPRO Network",
+			"name": "Bepro",
 			"symbol": "BEPRO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a.png"
@@ -30852,6 +38230,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcf60870dcedcad18d987af20687ca4717cae0533",
+		"data": {
+			"name": "Degen Fighting Championship",
+			"symbol": "DFC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcf60870dcedcad18d987af20687ca4717cae0533.png"
+		}
+	},
+	{
+		"address": "0xcf67815cce72e682eb4429eca46843bed81ca739",
+		"data": {
+			"name": "GAM3S GG",
+			"symbol": "G3",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcf67815cce72e682eb4429eca46843bed81ca739.png"
+		}
+	},
+	{
+		"address": "0xcf91b70017eabde82c9671e30e5502d312ea6eb2",
+		"data": {
+			"name": "I love puppies",
+			"symbol": "PUPPIES",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xcf91b70017eabde82c9671e30e5502d312ea6eb2.png"
+		}
+	},
+	{
 		"address": "0xcf9560b9e952b195d408be966e4f6cf4ab8206e5",
 		"data": {
 			"name": "Doctor Evil",
@@ -30861,12 +38266,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcf9fbffec9e0e5bbc62e79bf1965f5db76955661",
+		"data": {
+			"name": "MeshBox",
+			"symbol": "MESH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcf9fbffec9e0e5bbc62e79bf1965f5db76955661.png"
+		}
+	},
+	{
 		"address": "0xcfa0885131f602d11d4da248d2c65a62063567a9",
 		"data": {
 			"name": "TORG",
 			"symbol": "TORG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xcfa0885131f602d11d4da248d2c65a62063567a9.png"
+		}
+	},
+	{
+		"address": "0xcfc5bd99915aaa815401c5a41a927ab7a38d29cf",
+		"data": {
+			"name": "Threshold USD",
+			"symbol": "THUSD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcfc5bd99915aaa815401c5a41a927ab7a38d29cf.png"
 		}
 	},
 	{
@@ -30906,6 +38329,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xcffcfdada28ab44d5440301470dcd410e75c4765",
+		"data": {
+			"name": "Parifi",
+			"symbol": "PRF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xcffcfdada28ab44d5440301470dcd410e75c4765.png"
+		}
+	},
+	{
 		"address": "0xd01409314acb3b245cea9500ece3f6fd4d70ea30",
 		"data": {
 			"name": "LTO Network",
@@ -30915,39 +38347,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd031edafac6a6ae5425e77f936022e506444c242",
+		"address": "0xd015422879a1308ba557510345e944b912b9ab73",
 		"data": {
-			"name": "HERUKA TSANGNYON",
-			"symbol": "TSANGNYON",
+			"name": "FreeTrump",
+			"symbol": "TRUMP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd031edafac6a6ae5425e77f936022e506444c242.png"
+			"logoUri": "/images/tokens/0xd015422879a1308ba557510345e944b912b9ab73.png"
 		}
 	},
 	{
-		"address": "0xd049206fb408a611e543791f2d8f102a8bc253dc",
+		"address": "0xd01d133166820557db7138963bcd9009c54e4c33",
 		"data": {
-			"name": "NFTDAO",
-			"symbol": "NAO",
+			"name": "ChainEx",
+			"symbol": "CEX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd049206fb408a611e543791f2d8f102a8bc253dc.png"
+			"logoUri": "/images/tokens/0xd01d133166820557db7138963bcd9009c54e4c33.png"
 		}
 	},
 	{
-		"address": "0xd04e772bc0d591fbd288f2e2a86afa3d3cb647f8",
+		"address": "0xd05728038681bcc79b2d5aeb4d9b002e66c93a40",
 		"data": {
-			"name": "LayerAI",
-			"symbol": "LAI",
+			"name": "Eigenpie rETH",
+			"symbol": "MRETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd04e772bc0d591fbd288f2e2a86afa3d3cb647f8.png"
+			"logoUri": "/images/tokens/0xd05728038681bcc79b2d5aeb4d9b002e66c93a40.png"
 		}
 	},
 	{
-		"address": "0xd060e09cbc5de2c474499a0bd5323508f57f1ae6",
+		"address": "0xd05d90a656fc375ac1478689d7bcd31098f2dd1f",
 		"data": {
-			"name": "De Genius Casino",
-			"symbol": "DEGEN",
+			"name": "ChainFactory",
+			"symbol": "FACTORY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd060e09cbc5de2c474499a0bd5323508f57f1ae6.png"
+			"logoUri": "/images/tokens/0xd05d90a656fc375ac1478689d7bcd31098f2dd1f.png"
 		}
 	},
 	{
@@ -30978,15 +38410,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd07d9fe2d2cc067015e2b4917d24933804f42cfa",
-		"data": {
-			"name": "Tolar",
-			"symbol": "TOL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd07d9fe2d2cc067015e2b4917d24933804f42cfa.png"
-		}
-	},
-	{
 		"address": "0xd084944d3c05cd115c09d072b9f44ba3e0e45921",
 		"data": {
 			"name": "Manifold Finance",
@@ -30998,7 +38421,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
 		"data": {
-			"name": "The Virtua Kolect",
+			"name": "Virtua",
 			"symbol": "TVK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988.png"
@@ -31014,12 +38437,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd09124e8a1e3d620e8807ad1d968021a5495cee8",
+		"data": {
+			"name": "Eigenpie cbETH",
+			"symbol": "MCBETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd09124e8a1e3d620e8807ad1d968021a5495cee8.png"
+		}
+	},
+	{
 		"address": "0xd0929d411954c47438dc1d871dd6081f5c5e149c",
 		"data": {
 			"name": "Refereum",
 			"symbol": "RFR",
 			"decimals": 4,
 			"logoUri": "/images/tokens/0xd0929d411954c47438dc1d871dd6081f5c5e149c.png"
+		}
+	},
+	{
+		"address": "0xd0a6053f087e87a25dc60701ba6e663b1a548e85",
+		"data": {
+			"name": "BLOCKLORDS",
+			"symbol": "LRDS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd0a6053f087e87a25dc60701ba6e663b1a548e85.png"
 		}
 	},
 	{
@@ -31032,6 +38473,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd0bcb2c156a3507670f9bedc319a6409c41ba68e",
+		"data": {
+			"name": "DeepL",
+			"symbol": "DEEPL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd0bcb2c156a3507670f9bedc319a6409c41ba68e.png"
+		}
+	},
+	{
 		"address": "0xd0cd466b34a24fcb2f87676278af2005ca8a78c4",
 		"data": {
 			"name": "Popcorn",
@@ -31041,21 +38491,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd0d19f52ad8705e60ff31df75a7aca8f1399a69e",
+		"data": {
+			"name": "404Aliens",
+			"symbol": "404A",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd0d19f52ad8705e60ff31df75a7aca8f1399a69e.png"
+		}
+	},
+	{
 		"address": "0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933",
 		"data": {
 			"name": "Foom",
 			"symbol": "FOOM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933.png"
-		}
-	},
-	{
-		"address": "0xd0e94bf2466979b81d738c34058d4a6559c4d8be",
-		"data": {
-			"name": "Aardvark",
-			"symbol": "ARDVRK",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd0e94bf2466979b81d738c34058d4a6559c4d8be.png"
 		}
 	},
 	{
@@ -31081,26 +38531,17 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		"data": {
 			"name": "Jesus",
 			"symbol": "RAPTOR",
-			"decimals": 18,
+			"decimals": 9,
 			"logoUri": "/images/tokens/0xd115a61a25c059c78cd34b97fab7ab25dfc84bc3.png"
 		}
 	},
 	{
-		"address": "0xd12443d642d021dc52d0af8f5f6191e02d1e9419",
+		"address": "0xd12b2859227b88c8065b6216e6e1b980d8dfe152",
 		"data": {
-			"name": "Ignite The Chain",
-			"symbol": "IGNT",
+			"name": "SatNode",
+			"symbol": "SND",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd12443d642d021dc52d0af8f5f6191e02d1e9419.png"
-		}
-	},
-	{
-		"address": "0xd139a81d8422bb2ee1f21ce0301e6e28e7696425",
-		"data": {
-			"name": "XSale",
-			"symbol": "XS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd139a81d8422bb2ee1f21ce0301e6e28e7696425.png"
+			"logoUri": "/images/tokens/0xd12b2859227b88c8065b6216e6e1b980d8dfe152.png"
 		}
 	},
 	{
@@ -31128,6 +38569,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AGOV",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd1420af453fd7bf940573431d416cace7ff8280c.png"
+		}
+	},
+	{
+		"address": "0xd155fa55c40d010335aa152891aa687e2f3090bd",
+		"data": {
+			"name": "AInalysis",
+			"symbol": "AIL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd155fa55c40d010335aa152891aa687e2f3090bd.png"
 		}
 	},
 	{
@@ -31185,6 +38635,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd1c8fa30fded3e0031dc24c1646d74108b096cc2",
+		"data": {
+			"name": "Luckyinu",
+			"symbol": "LUCKY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd1c8fa30fded3e0031dc24c1646d74108b096cc2.png"
+		}
+	},
+	{
 		"address": "0xd1cd47746b8e72359b28c1c84a4f6a19dc1a0ee5",
 		"data": {
 			"name": "Sonic Suite",
@@ -31212,21 +38671,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd1e06952708771f71e6dd18f06ee418f6e8fc564",
+		"address": "0xd1e64bcc904cfdc19d0faba155a9edc69b4bcdae",
 		"data": {
-			"name": "GazeTV",
-			"symbol": "GAZE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd1e06952708771f71e6dd18f06ee418f6e8fc564.png"
+			"name": "Pikamoon",
+			"symbol": "PIKA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd1e64bcc904cfdc19d0faba155a9edc69b4bcdae.png"
 		}
 	},
 	{
-		"address": "0xd212046f89680ac9f106b9c63f314cc9808e18d5",
+		"address": "0xd1f17b7a6bff962659ed608bcd6d318bb5fbb249",
 		"data": {
-			"name": "Sukiyaki",
-			"symbol": "SUKI",
+			"name": "Zuzalu Inu",
+			"symbol": "ZUZALU",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd212046f89680ac9f106b9c63f314cc9808e18d5.png"
+			"logoUri": "/images/tokens/0xd1f17b7a6bff962659ed608bcd6d318bb5fbb249.png"
+		}
+	},
+	{
+		"address": "0xd20523b39faf1d6e9023a4d6085f87b7b0de7926",
+		"data": {
+			"name": "OATH",
+			"symbol": "OATH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd20523b39faf1d6e9023a4d6085f87b7b0de7926.png"
 		}
 	},
 	{
@@ -31239,6 +38707,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd22a61e8503bea5842e5e0126ca9ffc4dd492084",
+		"data": {
+			"name": "Strawberry Elephant",
+			"symbol": "",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd22a61e8503bea5842e5e0126ca9ffc4dd492084.png"
+		}
+	},
+	{
 		"address": "0xd23ac27148af6a2f339bd82d0e3cff380b5093de",
 		"data": {
 			"name": "Siren",
@@ -31248,12 +38725,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd23ed8ca350ce2631f7ecdc5e6bf80d0a1debb7b",
+		"address": "0xd23b160e4a0db09ca35a79948e04cf6eafb5283a",
 		"data": {
-			"name": "Planq",
-			"symbol": "PLQ",
+			"name": "Blend Protocol",
+			"symbol": "BLEND",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd23ed8ca350ce2631f7ecdc5e6bf80d0a1debb7b.png"
+			"logoUri": "/images/tokens/0xd23b160e4a0db09ca35a79948e04cf6eafb5283a.png"
 		}
 	},
 	{
@@ -31284,12 +38761,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd26b94dbf1bbc840774b9d6ba7a0b9145d118589",
+		"address": "0xd27b128dc6536309cdebf7f1aff0cb7717bc0268",
 		"data": {
-			"name": "Techno Mechanicus",
-			"symbol": "TAU",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xd26b94dbf1bbc840774b9d6ba7a0b9145d118589.png"
+			"name": "Etherempires",
+			"symbol": "ETE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd27b128dc6536309cdebf7f1aff0cb7717bc0268.png"
 		}
 	},
 	{
@@ -31302,12 +38779,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd289ea09aeece390629e9414d41b4d9d9bf43fd9",
+		"data": {
+			"name": "AI Technology",
+			"symbol": "AITEK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd289ea09aeece390629e9414d41b4d9d9bf43fd9.png"
+		}
+	},
+	{
 		"address": "0xd291e7a03283640fdc51b121ac401383a46cc623",
 		"data": {
 			"name": "Rari Governance",
 			"symbol": "RGT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd291e7a03283640fdc51b121ac401383a46cc623.png"
+		}
+	},
+	{
+		"address": "0xd2960d83c53085b5631f4d0be4916806e40ef1f3",
+		"data": {
+			"name": "OOFP",
+			"symbol": "OOFP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd2960d83c53085b5631f4d0be4916806e40ef1f3.png"
+		}
+	},
+	{
+		"address": "0xd298fe9fa71ad553e35997b19af19fb435038521",
+		"data": {
+			"name": "Frog Wif Hat",
+			"symbol": "FWIF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd298fe9fa71ad553e35997b19af19fb435038521.png"
+		}
+	},
+	{
+		"address": "0xd2ac55ca3bbd2dd1e9936ec640dcb4b745fde759",
+		"data": {
+			"name": "Index Coop Bitcoin 2x Index",
+			"symbol": "BTC2X",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd2ac55ca3bbd2dd1e9936ec640dcb4b745fde759.png"
 		}
 	},
 	{
@@ -31320,12 +38833,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62",
+		"data": {
+			"name": "Wrapped OUSD",
+			"symbol": "WOUSD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62.png"
+		}
+	},
+	{
 		"address": "0xd2b274cfbf9534f56b59ad0fb7e645e0354f4941",
 		"data": {
 			"name": "XDOGE",
 			"symbol": "XDOGE",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xd2b274cfbf9534f56b59ad0fb7e645e0354f4941.png"
+		}
+	},
+	{
+		"address": "0xd2ba23de8a19316a638dc1e7a9adda1d74233368",
+		"data": {
+			"name": "Quickswap",
+			"symbol": "QUICK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd2ba23de8a19316a638dc1e7a9adda1d74233368.png"
 		}
 	},
 	{
@@ -31356,12 +38887,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd2ce625515600b7799a5750a853ec8d2a44fbe27",
+		"address": "0xd2ca93093e05366dbc2bf88c3bb189a5141fb6f6",
 		"data": {
-			"name": "Sugarbaby",
-			"symbol": "SUGAR",
+			"name": "SignAI",
+			"symbol": "SAI",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0xd2ce625515600b7799a5750a853ec8d2a44fbe27.png"
+			"logoUri": "/images/tokens/0xd2ca93093e05366dbc2bf88c3bb189a5141fb6f6.png"
 		}
 	},
 	{
@@ -31383,6 +38914,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd3131fb503e9a20261402aec98caf0603cb913f5",
+		"data": {
+			"name": "Calico Cat",
+			"symbol": "CALIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd3131fb503e9a20261402aec98caf0603cb913f5.png"
+		}
+	},
+	{
 		"address": "0xd31695a1d35e489252ce57b129fd4b1b05e6acac",
 		"data": {
 			"name": "TOKPIE",
@@ -31398,6 +38938,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "SOL",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xd31a59c85ae9d8edefec411d448f90841571b89c.png"
+		}
+	},
+	{
+		"address": "0xd31e53966bf212e860d48a3a8651a23d09a7fdc3",
+		"data": {
+			"name": "DogeAi",
+			"symbol": "DOGEAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd31e53966bf212e860d48a3a8651a23d09a7fdc3.png"
+		}
+	},
+	{
+		"address": "0xd3210f246ae54c5a45a7b4a83315bf718f591bfc",
+		"data": {
+			"name": "ArkiTech",
+			"symbol": "ARKI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd3210f246ae54c5a45a7b4a83315bf718f591bfc.png"
 		}
 	},
 	{
@@ -31437,21 +38995,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd35c06a2781f648c75290976ecf71e71582188b7",
-		"data": {
-			"name": "Quarashi",
-			"symbol": "QUA",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd35c06a2781f648c75290976ecf71e71582188b7.png"
-		}
-	},
-	{
 		"address": "0xd373576a9e738f37dc6882328358ff69c4caf4c6",
 		"data": {
 			"name": "Zam io",
 			"symbol": "ZAM",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd373576a9e738f37dc6882328358ff69c4caf4c6.png"
+		}
+	},
+	{
+		"address": "0xd377f28245bc505190c8f34d2bfe5f215754f634",
+		"data": {
+			"name": "0xLiquidity",
+			"symbol": "0XLP",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd377f28245bc505190c8f34d2bfe5f215754f634.png"
 		}
 	},
 	{
@@ -31464,6 +39022,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd3843c6be03520f45871874375d618b3c7923019",
+		"data": {
+			"name": "Ordinal Bridge",
+			"symbol": "ORDIBRIDGE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd3843c6be03520f45871874375d618b3c7923019.png"
+		}
+	},
+	{
 		"address": "0xd38bb40815d2b0c2d2c866e0c72c5728ffc76dd9",
 		"data": {
 			"name": "Symbiosis",
@@ -31473,39 +39040,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd38de430d355a7a8337204c2a4c80392e61475a6",
-		"data": {
-			"name": "DuckyCoinAI",
-			"symbol": "DUCKYAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd38de430d355a7a8337204c2a4c80392e61475a6.png"
-		}
-	},
-	{
-		"address": "0xd38e031f4529a07996aab977d2b79f0e00656c56",
-		"data": {
-			"name": "wTBT",
-			"symbol": "WTBT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd38e031f4529a07996aab977d2b79f0e00656c56.png"
-		}
-	},
-	{
-		"address": "0xd39a2cecba2657e125ba6a5c98ad2f6b6d7e83fd",
-		"data": {
-			"name": "Luxo",
-			"symbol": "LUXO",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd39a2cecba2657e125ba6a5c98ad2f6b6d7e83fd.png"
-		}
-	},
-	{
 		"address": "0xd3ac016b1b8c80eeadde4d186a9138c9324e4189",
 		"data": {
 			"name": "Okcash",
 			"symbol": "OK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd3ac016b1b8c80eeadde4d186a9138c9324e4189.png"
+		}
+	},
+	{
+		"address": "0xd3b9a9e5ee4aab3963c95dd715882def4f22b449",
+		"data": {
+			"name": "Revhub",
+			"symbol": "REVHUB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd3b9a9e5ee4aab3963c95dd715882def4f22b449.png"
 		}
 	},
 	{
@@ -31527,12 +39076,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd3c89cac4a4283edba6927e2910fd1ebc14fe006",
+		"address": "0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a",
 		"data": {
-			"name": "Moona ",
-			"symbol": "MOOI",
+			"name": "Venus",
+			"symbol": "XVS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd3c89cac4a4283edba6927e2910fd1ebc14fe006.png"
+			"logoUri": "/images/tokens/0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a.png"
 		}
 	},
 	{
@@ -31563,6 +39112,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd4318fa09c45cfb6355ded6085b0d698b64ec1cd",
+		"data": {
+			"name": "Federal AI",
+			"symbol": "FEDAI",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xd4318fa09c45cfb6355ded6085b0d698b64ec1cd.png"
+		}
+	},
+	{
 		"address": "0xd433138d12beb9929ff6fd583dc83663eea6aaa5",
 		"data": {
 			"name": "Bitrue Coin",
@@ -31587,6 +39145,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "TRAXX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd43be54c1aedf7ee4099104f2dae4ea88b18a249.png"
+		}
+	},
+	{
+		"address": "0xd4568d313fa2d5c6eba37c9f30f6fb8d1c552ddd",
+		"data": {
+			"name": "Ledgity Token",
+			"symbol": "LDY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd4568d313fa2d5c6eba37c9f30f6fb8d1c552ddd.png"
 		}
 	},
 	{
@@ -31626,6 +39193,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd488321ef57ab16b4f334558b1fc4e0213c82db1",
+		"data": {
+			"name": "WCTrades",
+			"symbol": "WCT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd488321ef57ab16b4f334558b1fc4e0213c82db1.png"
+		}
+	},
+	{
 		"address": "0xd4937682df3C8aEF4FE912A96A74121C0829E664",
 		"data": {
 			"name": "Aave interest bearing FRAX",
@@ -31644,6 +39220,14 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd4ae236a5080a09c0f7bd6e6b84919523573a43b",
+		"data": {
+			"name": "Future T I M E Dividend",
+			"symbol": "FUTURE",
+			"decimals": 18
+		}
+	},
+	{
 		"address": "0xd4c435f5b09f855c3317c8524cb1f586e42795fa",
 		"data": {
 			"name": "Cindicator",
@@ -31653,30 +39237,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd4d4b7b55b30fb096c30ad202e746d010b47dc30",
+		"address": "0xd4e245848d6e1220dbe62e155d89fa327e43cb06",
 		"data": {
-			"name": "Alpha Bot Calls",
-			"symbol": "ABC",
+			"name": "Aave v3 FRAX",
+			"symbol": "AFRAX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd4d4b7b55b30fb096c30ad202e746d010b47dc30.png"
+			"logoUri": "/images/tokens/0xd4e245848d6e1220dbe62e155d89fa327e43cb06.png"
 		}
 	},
 	{
-		"address": "0xd4df22556e07148e591b4c7b4f555a17188cf5cf",
+		"address": "0xd4f4d0a10bcae123bb6655e8fe93a30d01eebd04",
 		"data": {
-			"name": "Twitfi",
-			"symbol": "TWT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xd4df22556e07148e591b4c7b4f555a17188cf5cf.png"
-		}
-	},
-	{
-		"address": "0xd4f6f9ae14399fd5eb8dfc7725f0094a1a7f5d80",
-		"data": {
-			"name": "Bitsten  OLD ",
-			"symbol": "BST",
+			"name": "LinqAI",
+			"symbol": "LNQ",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd4f6f9ae14399fd5eb8dfc7725f0094a1a7f5d80.png"
+			"logoUri": "/images/tokens/0xd4f4d0a10bcae123bb6655e8fe93a30d01eebd04.png"
 		}
 	},
 	{
@@ -31695,6 +39270,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ITGR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd502f487e1841fdc805130e13eae80c61186bc98.png"
+		}
+	},
+	{
+		"address": "0xd51e4965ad973e8c1e1f22369bb884e6914b012c",
+		"data": {
+			"name": "ZenoCard",
+			"symbol": "ZENO",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd51e4965ad973e8c1e1f22369bb884e6914b012c.png"
 		}
 	},
 	{
@@ -31734,6 +39318,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd55210bb6898c021a19de1f58d27b71f095921ee",
+		"data": {
+			"name": "Chickencoin",
+			"symbol": "CHKN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd55210bb6898c021a19de1f58d27b71f095921ee.png"
+		}
+	},
+	{
+		"address": "0xd555498a524612c67f286df0e0a9a64a73a7cdc7",
+		"data": {
+			"name": "DeFrogs",
+			"symbol": "DEFROGS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd555498a524612c67f286df0e0a9a64a73a7cdc7.png"
+		}
+	},
+	{
 		"address": "0xd559f20296ff4895da39b5bd9add54b442596a61",
 		"data": {
 			"name": "FintruX",
@@ -31743,12 +39345,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd561a593d9dd8b9a0e3a487dfb517c9371d6dda7",
+		"data": {
+			"name": "Meow Meme",
+			"symbol": "MEOW",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd561a593d9dd8b9a0e3a487dfb517c9371d6dda7.png"
+		}
+	},
+	{
 		"address": "0xd567b5f02b9073ad3a982a099a23bf019ff11d1c",
 		"data": {
 			"name": "Gamestarter",
 			"symbol": "GAME",
 			"decimals": 5,
 			"logoUri": "/images/tokens/0xd567b5f02b9073ad3a982a099a23bf019ff11d1c.png"
+		}
+	},
+	{
+		"address": "0xd57187e56e5b31b4d7813d7ceea1e9f9b97ee82f",
+		"data": {
+			"name": "zkInfra",
+			"symbol": "ZKIN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd57187e56e5b31b4d7813d7ceea1e9f9b97ee82f.png"
 		}
 	},
 	{
@@ -31779,12 +39399,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd5a98e77d1feb091344096301ea336a5c07a6a41",
+		"address": "0xd59d7d2e955533fcd21641da8a70eae9624a3c49",
 		"data": {
-			"name": "Alpha Capital",
-			"symbol": "ACAP",
+			"name": "MagicRing",
+			"symbol": "MRING",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd5a98e77d1feb091344096301ea336a5c07a6a41.png"
+			"logoUri": "/images/tokens/0xd59d7d2e955533fcd21641da8a70eae9624a3c49.png"
 		}
 	},
 	{
@@ -31815,6 +39435,51 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd5eb7e91ae88ea2550f9bfd04208399c95df4dc7",
+		"data": {
+			"name": "DogLibre",
+			"symbol": "DOGL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd5eb7e91ae88ea2550f9bfd04208399c95df4dc7.png"
+		}
+	},
+	{
+		"address": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+		"data": {
+			"name": "Mantle Staked Ether",
+			"symbol": "METH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa.png"
+		}
+	},
+	{
+		"address": "0xd5fa38027462691769b8a8ba6c444890103b5b94",
+		"data": {
+			"name": "Dawg Coin",
+			"symbol": "DAWG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd5fa38027462691769b8a8ba6c444890103b5b94.png"
+		}
+	},
+	{
+		"address": "0xd624e5c89466a15812c1d45ce1533be1f16c1702",
+		"data": {
+			"name": "UBD Network",
+			"symbol": "UBDN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd624e5c89466a15812c1d45ce1533be1f16c1702.png"
+		}
+	},
+	{
+		"address": "0xd62baa6f3c579316b2798262a219b367c549c7dc",
+		"data": {
+			"name": "Reflect Audit",
+			"symbol": "REF",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd62baa6f3c579316b2798262a219b367c549c7dc.png"
+		}
+	},
+	{
 		"address": "0xd6327ce1fb9d6020e8c2c0e124a1ec23dcab7536",
 		"data": {
 			"name": "Cuminu",
@@ -31833,21 +39498,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd6710559656f2ecd336b153b0719500fff8c2435",
+		"address": "0xd69a0a9682f679f50e34de40105a93bebb2ff43d",
 		"data": {
-			"name": "Platonic Quintessence",
-			"symbol": "PLAQ",
+			"name": "Mackerel",
+			"symbol": "MACKE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd6710559656f2ecd336b153b0719500fff8c2435.png"
-		}
-	},
-	{
-		"address": "0xd6929179d752d5d25c5efe2d9729eb77d7138a80",
-		"data": {
-			"name": "Goons of Balatroon",
-			"symbol": "GOB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd6929179d752d5d25c5efe2d9729eb77d7138a80.png"
+			"logoUri": "/images/tokens/0xd69a0a9682f679f50e34de40105a93bebb2ff43d.png"
 		}
 	},
 	{
@@ -31878,6 +39534,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd6c67b93a7b248df608a653d82a100556144c5da",
+		"data": {
+			"name": "ExNetwork",
+			"symbol": "EXNT",
+			"decimals": 16,
+			"logoUri": "/images/tokens/0xd6c67b93a7b248df608a653d82a100556144c5da.png"
+		}
+	},
+	{
 		"address": "0xd6caf5bd23cf057f5fccce295dcc50c01c198707",
 		"data": {
 			"name": "Evanesco Network",
@@ -31887,12 +39552,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd6e460f70e1cf60e55b770f66e568b44bf3657d0",
+		"address": "0xd6d9f4385bff8670d66a708b258969913619a673",
 		"data": {
-			"name": "Funex",
-			"symbol": "FUNEX",
+			"name": "LEETCoin",
+			"symbol": "LEET",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd6d9f4385bff8670d66a708b258969913619a673.png"
+		}
+	},
+	{
+		"address": "0xd711d7d893de57dc13ff465763218770bd42db1d",
+		"data": {
+			"name": "ARYZE eGBP",
+			"symbol": "EGBP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd6e460f70e1cf60e55b770f66e568b44bf3657d0.png"
+			"logoUri": "/images/tokens/0xd711d7d893de57dc13ff465763218770bd42db1d.png"
 		}
 	},
 	{
@@ -31914,21 +39588,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd7394087e1dbbe477fe4f1cf373b9ac9459565ff",
+		"address": "0xd721706581d97ecd202bbab5c71b5a85f0f78e69",
 		"data": {
-			"name": "RealTract",
-			"symbol": "RET",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xd7394087e1dbbe477fe4f1cf373b9ac9459565ff.png"
-		}
-	},
-	{
-		"address": "0xd75c5aa683485780940cf0f78c08aac051e5573d",
-		"data": {
-			"name": "Awoke",
-			"symbol": "AWOKE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd75c5aa683485780940cf0f78c08aac051e5573d.png"
+			"name": "DOGE 1",
+			"symbol": "DOGE1",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd721706581d97ecd202bbab5c71b5a85f0f78e69.png"
 		}
 	},
 	{
@@ -31941,12 +39606,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd77401a76d6cdb7ac3bb031bf25dec07615509e7",
+		"address": "0xd76050f75627e508fa14b84036fbf40b8cc549bd",
 		"data": {
-			"name": "Metropoly",
-			"symbol": "METRO",
+			"name": "SCRIV",
+			"symbol": "SCRIV",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xd76050f75627e508fa14b84036fbf40b8cc549bd.png"
+		}
+	},
+	{
+		"address": "0xd775997452923437ca96065ba15ed02f4a33ed39",
+		"data": {
+			"name": "dragon wif hat",
+			"symbol": "DWIF",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd77401a76d6cdb7ac3bb031bf25dec07615509e7.png"
+			"logoUri": "/images/tokens/0xd775997452923437ca96065ba15ed02f4a33ed39.png"
 		}
 	},
 	{
@@ -31959,12 +39633,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd78cb66b3affd27569782737fa5b842277e1add7",
+		"data": {
+			"name": "GTROK",
+			"symbol": "GTROK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd78cb66b3affd27569782737fa5b842277e1add7.png"
+		}
+	},
+	{
 		"address": "0xd794dd1cada4cf79c9eebaab8327a1b0507ef7d4",
 		"data": {
 			"name": "Hyve",
 			"symbol": "HYVE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd794dd1cada4cf79c9eebaab8327a1b0507ef7d4.png"
+		}
+	},
+	{
+		"address": "0xd7b2c1a7f3c67fb0ea57a7ef29bc1f18d7be3195",
+		"data": {
+			"name": "VoluMint",
+			"symbol": "VMINT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd7b2c1a7f3c67fb0ea57a7ef29bc1f18d7be3195.png"
+		}
+	},
+	{
+		"address": "0xd7b675cd5c84a13d1d0f84509345530f6421b57c",
+		"data": {
+			"name": "Corridor Finance",
+			"symbol": "OOOI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd7b675cd5c84a13d1d0f84509345530f6421b57c.png"
+		}
+	},
+	{
+		"address": "0xd7c1eb0fe4a30d3b2a846c04aa6300888f087a5f",
+		"data": {
+			"name": "Points",
+			"symbol": "POINTS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd7c1eb0fe4a30d3b2a846c04aa6300888f087a5f.png"
 		}
 	},
 	{
@@ -32001,15 +39711,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "STA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd7d05bda4bf5876ba1254b3eaaf8b47d2f5676eb.png"
-		}
-	},
-	{
-		"address": "0xd7d706ed3598a354a4adfce5d8c5383df99a4461",
-		"data": {
-			"name": "Dain",
-			"symbol": "DAIN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd7d706ed3598a354a4adfce5d8c5383df99a4461.png"
 		}
 	},
 	{
@@ -32085,12 +39786,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd83ae04c9ed29d6d3e6bf720c71bc7beb424393e",
+		"address": "0xd836d22531d810f192ba6bd0ba3c28c35d4606c2",
 		"data": {
-			"name": "InsureDAO",
-			"symbol": "INSURE",
+			"name": "BONKBEST",
+			"symbol": "BONKBEST",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xd836d22531d810f192ba6bd0ba3c28c35d4606c2.png"
+		}
+	},
+	{
+		"address": "0xd849882983f1ba8a3c23b16b65bb0173a7f63b63",
+		"data": {
+			"name": "De Layer",
+			"symbol": "DEAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd83ae04c9ed29d6d3e6bf720c71bc7beb424393e.png"
+			"logoUri": "/images/tokens/0xd849882983f1ba8a3c23b16b65bb0173a7f63b63.png"
 		}
 	},
 	{
@@ -32148,6 +39858,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd88611a629265c9af294ffdd2e7fa4546612273e",
+		"data": {
+			"name": "MPRO Lab",
+			"symbol": "MPRO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd88611a629265c9af294ffdd2e7fa4546612273e.png"
+		}
+	},
+	{
 		"address": "0xd8912c10681d8b21fd3742244f44658dba12264e",
 		"data": {
 			"name": "Pluton",
@@ -32168,10 +39887,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xd8b90d2e680ea535eacce1b025c998b347892f68",
 		"data": {
-			"name": "Chatter Shield",
+			"name": "Chatter Shield  OLD ",
 			"symbol": "SHIELD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd8b90d2e680ea535eacce1b025c998b347892f68.png"
+		}
+	},
+	{
+		"address": "0xd8c0b13b551718b808fc97ead59499d5ef862775",
+		"data": {
+			"name": "Gala Music",
+			"symbol": "MUSIC",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xd8c0b13b551718b808fc97ead59499d5ef862775.png"
 		}
 	},
 	{
@@ -32204,7 +39932,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xd8f1460044925d2d5c723c7054cd9247027415b7",
 		"data": {
-			"name": "SAIL",
+			"name": "Clipper SAIL",
 			"symbol": "SAIL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd8f1460044925d2d5c723c7054cd9247027415b7.png"
@@ -32229,21 +39957,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd909c5862cdb164adb949d92622082f0092efc3d",
-		"data": {
-			"name": "Interest Protocol Token",
-			"symbol": "IPT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xd909c5862cdb164adb949d92622082f0092efc3d.png"
-		}
-	},
-	{
 		"address": "0xd90e69f67203ebe02c917b5128629e77b4cd92dc",
 		"data": {
 			"name": "One Cash",
 			"symbol": "ONC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd90e69f67203ebe02c917b5128629e77b4cd92dc.png"
+		}
+	},
+	{
+		"address": "0xd939212f16560447ed82ce46ca40a63db62419b5",
+		"data": {
+			"name": "Mega Yacht Cult",
+			"symbol": "MYC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd939212f16560447ed82ce46ca40a63db62419b5.png"
 		}
 	},
 	{
@@ -32256,12 +39984,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd971a3f840359ac4a23a9e75038934855e5ed8d5",
+		"address": "0xd94a8f9caed25e63ecc90edfefaf3635ea1e182a",
 		"data": {
-			"name": "Okiku Kento",
-			"symbol": "OKEN",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xd971a3f840359ac4a23a9e75038934855e5ed8d5.png"
+			"name": "Stablecomp",
+			"symbol": "SCOMP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd94a8f9caed25e63ecc90edfefaf3635ea1e182a.png"
+		}
+	},
+	{
+		"address": "0xd96e84ddbc7cbe1d73c55b6fe8c64f3a6550deea",
+		"data": {
+			"name": "Gemach",
+			"symbol": "GMAC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd96e84ddbc7cbe1d73c55b6fe8c64f3a6550deea.png"
 		}
 	},
 	{
@@ -32274,6 +40011,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xd979c468a68062e7bdff4ba6df7842dfd3492e0f",
+		"data": {
+			"name": "Beoble",
+			"symbol": "BBL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd979c468a68062e7bdff4ba6df7842dfd3492e0f.png"
+		}
+	},
+	{
+		"address": "0xd9812f24f34e0d727bbf6ea7caaee05b7f7a2603",
+		"data": {
+			"name": "TensorSpace",
+			"symbol": "TPU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd9812f24f34e0d727bbf6ea7caaee05b7f7a2603.png"
+		}
+	},
+	{
 		"address": "0xd98f75b1a3261dab9eed4956c93f33749027a964",
 		"data": {
 			"name": "Share",
@@ -32283,12 +40038,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xd9b312d77bc7bed9b9cecb56636300bed4fe5ce9",
+		"address": "0xd9a442856c234a39a81a089c06451ebaa4306a72",
 		"data": {
-			"name": "Gains",
-			"symbol": "GAINS",
+			"name": "pufETH",
+			"symbol": "PUFETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xd9b312d77bc7bed9b9cecb56636300bed4fe5ce9.png"
+			"logoUri": "/images/tokens/0xd9a442856c234a39a81a089c06451ebaa4306a72.png"
+		}
+	},
+	{
+		"address": "0xd9adfb67381d392c6e9671f64cdd9014bfcd74f2",
+		"data": {
+			"name": "Morra",
+			"symbol": "MORRA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd9adfb67381d392c6e9671f64cdd9014bfcd74f2.png"
 		}
 	},
 	{
@@ -32298,6 +40062,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "HAPI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54.png"
+		}
+	},
+	{
+		"address": "0xd9dcd611bed2be9a4700c725a3810870b9bff094",
+		"data": {
+			"name": "MaxxChain",
+			"symbol": "PWR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xd9dcd611bed2be9a4700c725a3810870b9bff094.png"
 		}
 	},
 	{
@@ -32319,12 +40092,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xda16cf041e2780618c49dbae5d734b89a6bac9b3",
+		"data": {
+			"name": "Betswap gg",
+			"symbol": "BSGG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xda16cf041e2780618c49dbae5d734b89a6bac9b3.png"
+		}
+	},
+	{
+		"address": "0xda23d301761e4e2bf474951f978f6dfb6f3c9f14",
+		"data": {
+			"name": "Tsuki Inu",
+			"symbol": "TKINU",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xda23d301761e4e2bf474951f978f6dfb6f3c9f14.png"
+		}
+	},
+	{
+		"address": "0xda251891e21e6edb0e6828e77621c7b98ea4e8ba",
+		"data": {
+			"name": "Meme Moguls",
+			"symbol": "MGLS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xda251891e21e6edb0e6828e77621c7b98ea4e8ba.png"
+		}
+	},
+	{
 		"address": "0xda30f261a962d5aae94c9ecd170544600d193766",
 		"data": {
 			"name": "Orbler",
 			"symbol": "ORBR",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xda30f261a962d5aae94c9ecd170544600d193766.png"
+		}
+	},
+	{
+		"address": "0xda31d0d1bc934fc34f7189e38a413ca0a5e8b44f",
+		"data": {
+			"name": "BitStable Finance",
+			"symbol": "BSSB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xda31d0d1bc934fc34f7189e38a413ca0a5e8b44f.png"
 		}
 	},
 	{
@@ -32346,12 +40155,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xda70fbac9e1c9ac3475c24a3a847f85f1388c429",
+		"address": "0xda558a295e8d2c1438f7b4806e283940dec7e6db",
 		"data": {
-			"name": "YourWallet ETH",
-			"symbol": "YOURWALLET",
+			"name": "Tracker AI",
+			"symbol": "TRACK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xda558a295e8d2c1438f7b4806e283940dec7e6db.png"
+		}
+	},
+	{
+		"address": "0xda5fab7affc6dffd24d60e23153d241a3d9f9603",
+		"data": {
+			"name": "Cryptiq WEB3",
+			"symbol": "CRYPTIQ",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xda70fbac9e1c9ac3475c24a3a847f85f1388c429.png"
+			"logoUri": "/images/tokens/0xda5fab7affc6dffd24d60e23153d241a3d9f9603.png"
+		}
+	},
+	{
+		"address": "0xda63feff6e6d75cd7a862cd56c625045dcf26e88",
+		"data": {
+			"name": "ChainMiner",
+			"symbol": "CMINER",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xda63feff6e6d75cd7a862cd56c625045dcf26e88.png"
 		}
 	},
 	{
@@ -32382,12 +40209,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xda9b11cd701e10c2ec1a284f80820edd128c5246",
+		"data": {
+			"name": "Inception wbETH",
+			"symbol": "INWBETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xda9b11cd701e10c2ec1a284f80820edd128c5246.png"
+		}
+	},
+	{
 		"address": "0xda9fdab21bc4a5811134a6e0ba6ca06624e67c07",
 		"data": {
 			"name": "Quidd",
 			"symbol": "QUIDD",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xda9fdab21bc4a5811134a6e0ba6ca06624e67c07.png"
+		}
+	},
+	{
+		"address": "0xdaa7699352ac8709f3d2fd092226d3dd7da40474",
+		"data": {
+			"name": "OPCAT",
+			"symbol": "OPCAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdaa7699352ac8709f3d2fd092226d3dd7da40474.png"
 		}
 	},
 	{
@@ -32517,12 +40362,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xdb81f7b3f0b2baebd5009cddade5c9a9c82378bb",
+		"data": {
+			"name": "Jjmoji",
+			"symbol": "JJ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdb81f7b3f0b2baebd5009cddade5c9a9c82378bb.png"
+		}
+	},
+	{
+		"address": "0xdb82c0d91e057e05600c8f8dc836beb41da6df14",
+		"data": {
+			"name": "Smart Layer Network",
+			"symbol": "SLN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdb82c0d91e057e05600c8f8dc836beb41da6df14.png"
+		}
+	},
+	{
 		"address": "0xdb85f6685950e285b1e611037bebe5b34e2b7d78",
 		"data": {
 			"name": "Zano",
 			"symbol": "ZANO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdb85f6685950e285b1e611037bebe5b34e2b7d78.png"
+		}
+	},
+	{
+		"address": "0xdb8ad3c6d7f9f364d59af9a62c3139cf5c6be88e",
+		"data": {
+			"name": "XNOVA",
+			"symbol": "XNOVA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdb8ad3c6d7f9f364d59af9a62c3139cf5c6be88e.png"
 		}
 	},
 	{
@@ -32535,12 +40407,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdbbe358fead311b4089b8bf30f455c041e67f5f4",
+		"address": "0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
 		"data": {
-			"name": "DED",
-			"symbol": "DED",
+			"name": "Zentry",
+			"symbol": "ZENT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xdbbe358fead311b4089b8bf30f455c041e67f5f4.png"
+			"logoUri": "/images/tokens/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa.png"
 		}
 	},
 	{
@@ -32553,21 +40425,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5",
-		"data": {
-			"name": "UniWhales",
-			"symbol": "UWL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5.png"
-		}
-	},
-	{
 		"address": "0xdbecdd726f6ad8e24afc78fe3cc8eb7b73c2d94d",
 		"data": {
 			"name": "Chaintools",
 			"symbol": "CTLS",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdbecdd726f6ad8e24afc78fe3cc8eb7b73c2d94d.png"
+		}
+	},
+	{
+		"address": "0xdc0327d50e6c73db2f8117760592c8bbf1cdcf38",
+		"data": {
+			"name": "Stronger",
+			"symbol": "STRNGR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdc0327d50e6c73db2f8117760592c8bbf1cdcf38.png"
+		}
+	},
+	{
+		"address": "0xdc1de096ed4ec5b48f4b0496a6ecee3d63e74f53",
+		"data": {
+			"name": "ERROR404",
+			"symbol": "PNF",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdc1de096ed4ec5b48f4b0496a6ecee3d63e74f53.png"
+		}
+	},
+	{
+		"address": "0xdc247546a6551117c8ea82db2cc0ad6e048e5f6e",
+		"data": {
+			"name": "Lush AI",
+			"symbol": "LUSH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdc247546a6551117c8ea82db2cc0ad6e048e5f6e.png"
 		}
 	},
 	{
@@ -32598,6 +40488,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xdc580d4dc6b702b72a3511ac1802fa700ad182bb",
+		"data": {
+			"name": "Pumpkin",
+			"symbol": "PUMPKIN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xdc580d4dc6b702b72a3511ac1802fa700ad182bb.png"
+		}
+	},
+	{
 		"address": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
 		"data": {
 			"name": "Falcon Project",
@@ -32625,30 +40524,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdc8af07a7861bedd104b8093ae3e9376fc8596d2",
+		"address": "0xdc7d16b1e7c54f35a67af95d5a6eecaec27b2a62",
 		"data": {
-			"name": "RocketX exchange",
-			"symbol": "RVF",
+			"name": "Pulse AI",
+			"symbol": "PULSE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xdc8af07a7861bedd104b8093ae3e9376fc8596d2.png"
+			"logoUri": "/images/tokens/0xdc7d16b1e7c54f35a67af95d5a6eecaec27b2a62.png"
 		}
 	},
 	{
-		"address": "0xdc9a328a55a9241fe14abc03498d57124063665b",
+		"address": "0xdc7da87115d4464e8aac99920a533d401bf72a50",
 		"data": {
-			"name": "Garden",
-			"symbol": "GRDN",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xdc9a328a55a9241fe14abc03498d57124063665b.png"
+			"name": "ICE NET",
+			"symbol": "ICE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdc7da87115d4464e8aac99920a533d401bf72a50.png"
 		}
 	},
 	{
 		"address": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
 		"data": {
-			"name": "Utrust",
+			"name": "xMoney",
 			"symbol": "UTK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c.png"
+		}
+	},
+	{
+		"address": "0xdc9cb148ecb70876db0abeb92f515a5e1dc9f580",
+		"data": {
+			"name": "Green Bitcoin",
+			"symbol": "GBTC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdc9cb148ecb70876db0abeb92f515a5e1dc9f580.png"
 		}
 	},
 	{
@@ -32658,6 +40566,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PAYB",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdcb5645eda1ed34c5641d81b927d33ebae9cf2a4.png"
+		}
+	},
+	{
+		"address": "0xdcc97d2c1048e8f3f2fc58ace9024ab8b350e4b1",
+		"data": {
+			"name": "BENCOIN",
+			"symbol": "BEN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdcc97d2c1048e8f3f2fc58ace9024ab8b350e4b1.png"
 		}
 	},
 	{
@@ -32685,15 +40602,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PACT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdcfa8c46ec015d4bf13d6be492cb7a8eb4580899.png"
-		}
-	},
-	{
-		"address": "0xdd0020b1d5ba47a54e2eb16800d73beb6546f91a",
-		"data": {
-			"name": "Moola",
-			"symbol": "AXPR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xdd0020b1d5ba47a54e2eb16800d73beb6546f91a.png"
 		}
 	},
 	{
@@ -32733,6 +40641,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xdd23410f1fff27279c7314ff4735e71852084ddf",
+		"data": {
+			"name": "Volume AI",
+			"symbol": "VAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdd23410f1fff27279c7314ff4735e71852084ddf.png"
+		}
+	},
+	{
 		"address": "0xdd2a36ae937bc134ea694d77fc7e2e36f5d86de0",
 		"data": {
 			"name": "WELD",
@@ -32748,6 +40665,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FOHO",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xdd2e93924bdd4e20c3cf4a8736e5955224fa450e.png"
+		}
+	},
+	{
+		"address": "0xdd4ce03b97085e5023d3a5fbff6e4f2c4dffb7c3",
+		"data": {
+			"name": "PORA AI",
+			"symbol": "PORA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdd4ce03b97085e5023d3a5fbff6e4f2c4dffb7c3.png"
+		}
+	},
+	{
+		"address": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+		"data": {
+			"name": "OpenEden TBILL",
+			"symbol": "TBILL",
+			"decimals": 6,
+			"logoUri": "/images/tokens/0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a.png"
+		}
+	},
+	{
+		"address": "0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d",
+		"data": {
+			"name": "AxonDAO Governance Token",
+			"symbol": "AXGT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d.png"
 		}
 	},
 	{
@@ -32769,15 +40713,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdd78b3e430361560a70b9cbb7d98d961f0428b61",
-		"data": {
-			"name": "Patrick",
-			"symbol": "PAT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xdd78b3e430361560a70b9cbb7d98d961f0428b61.png"
-		}
-	},
-	{
 		"address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
 		"data": {
 			"name": "Kyber Network Crystal Legacy",
@@ -32787,12 +40722,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xdda31d354a519ecfb0bc2a536b5e7be147c0f7f4",
+		"data": {
+			"name": "Everlodge",
+			"symbol": "ELDG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdda31d354a519ecfb0bc2a536b5e7be147c0f7f4.png"
+		}
+	},
+	{
 		"address": "0xddb3422497e61e13543bea06989c0789117555c5",
 		"data": {
 			"name": "COTI",
 			"symbol": "COTI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xddb3422497e61e13543bea06989c0789117555c5.png"
+		}
+	},
+	{
+		"address": "0xddcc69879e1d2376ce799051afa98c689f234cca",
+		"data": {
+			"name": "SmartMoney",
+			"symbol": "SMRT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xddcc69879e1d2376ce799051afa98c689f234cca.png"
 		}
 	},
 	{
@@ -32832,6 +40785,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xddf688e96cb2531a69bf6347c02f069266c1aa81",
+		"data": {
+			"name": "MEMEVENGERS",
+			"symbol": "MMVG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xddf688e96cb2531a69bf6347c02f069266c1aa81.png"
+		}
+	},
+	{
 		"address": "0xddf7fd345d54ff4b40079579d4c4670415dbfd0a",
 		"data": {
 			"name": "SocialGood",
@@ -32856,15 +40818,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "BBF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xde075d9adbd0240b4462f124af926452ad0bac91.png"
-		}
-	},
-	{
-		"address": "0xde0e9bd25dc63a629f40e1ec7959b57726e94d88",
-		"data": {
-			"name": "MemeStation",
-			"symbol": "MEMES",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xde0e9bd25dc63a629f40e1ec7959b57726e94d88.png"
 		}
 	},
 	{
@@ -32895,6 +40848,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xde342a3e269056fc3305f9e315f4c40d917ba521",
+		"data": {
+			"name": "Byte",
+			"symbol": "BYTE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xde342a3e269056fc3305f9e315f4c40d917ba521.png"
+		}
+	},
+	{
+		"address": "0xde3ae6f3458db211d298da97fdcf13b6c1c8c87f",
+		"data": {
+			"name": "Anonym Chain",
+			"symbol": "ANC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xde3ae6f3458db211d298da97fdcf13b6c1c8c87f.png"
+		}
+	},
+	{
 		"address": "0xde4ce5447ce0c67920a1371605a39187cb6847c8",
 		"data": {
 			"name": "Deesse",
@@ -32913,12 +40884,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xde5ea375ffbdc8b25a80fe13d631e8ba0ab4bb02",
+		"address": "0xde5d2530a877871f6f0fc240b9fce117246dadae",
 		"data": {
-			"name": "Gera Coin",
-			"symbol": "GERA",
+			"name": "Juice",
+			"symbol": "JUICE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xde5ea375ffbdc8b25a80fe13d631e8ba0ab4bb02.png"
+			"logoUri": "/images/tokens/0xde5d2530a877871f6f0fc240b9fce117246dadae.png"
 		}
 	},
 	{
@@ -32940,21 +40911,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xde6cec925d3e76e2cb94cf5805159244ba4cbb91",
-		"data": {
-			"name": "Hermes Bot",
-			"symbol": "HERMES",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xde6cec925d3e76e2cb94cf5805159244ba4cbb91.png"
-		}
-	},
-	{
 		"address": "0xde7d85157d9714eadf595045cc12ca4a5f3e2adb",
 		"data": {
 			"name": "STP",
 			"symbol": "STPT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xde7d85157d9714eadf595045cc12ca4a5f3e2adb.png"
+		}
+	},
+	{
+		"address": "0xde8cd13b812bcd82218754a740b27e76ec1e86ad",
+		"data": {
+			"name": "TRESTLE",
+			"symbol": "TRESTLE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xde8cd13b812bcd82218754a740b27e76ec1e86ad.png"
+		}
+	},
+	{
+		"address": "0xde9804cc479164fa9e9cb59ad4e65012a12aa827",
+		"data": {
+			"name": "GroceryFi",
+			"symbol": "GFI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xde9804cc479164fa9e9cb59ad4e65012a12aa827.png"
+		}
+	},
+	{
+		"address": "0xdeadface8503399df4b083ef42fa8e02fd39dead",
+		"data": {
+			"name": "Tribe Token",
+			"symbol": "TRIBE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdeadface8503399df4b083ef42fa8e02fd39dead.png"
 		}
 	},
 	{
@@ -32985,11 +40974,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xdefb0b264032e4e128b00d02b3fd0aa00331237b",
+		"data": {
+			"name": "Buddha",
+			"symbol": "BUDDHA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdefb0b264032e4e128b00d02b3fd0aa00331237b.png"
+		}
+	},
+	{
 		"address": "0xdefcafe7eac90d31bbba841038df365de3c4e207",
 		"data": {
 			"name": "0xDEFCAFE",
 			"symbol": "CAFE",
-			"decimals": 9
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xdefcafe7eac90d31bbba841038df365de3c4e207.png"
 		}
 	},
 	{
@@ -32999,15 +40998,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PKN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdf09a216fac5adc3e640db418c0b956076509503.png"
-		}
-	},
-	{
-		"address": "0xdf121180af07cb906d970799627a430d2440c36d",
-		"data": {
-			"name": "Piggy Bank",
-			"symbol": "PIGGY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xdf121180af07cb906d970799627a430d2440c36d.png"
 		}
 	},
 	{
@@ -33022,7 +41012,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xdf2c7238198ad8b389666574f2d8bc411a4b7428",
 		"data": {
-			"name": "Hifi Finance  OLD ",
+			"name": "Mainframe",
 			"symbol": "MFT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xdf2c7238198ad8b389666574f2d8bc411a4b7428.png"
@@ -33083,15 +41073,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8",
-		"data": {
-			"name": "LP yCurve",
-			"symbol": "YCURVE",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8.png"
-		}
-	},
-	{
 		"address": "0xdf7ff54aacacbff42dfe29dd6144a69b629f8c9e",
 		"data": {
 			"name": "Aave ZRX",
@@ -33110,12 +41091,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdf906f6fd89ce60c16baed3c96ceb08bca65ad82",
+		"address": "0xdf87270e04bc5ac140e93571d0dd0c6f4a058b41",
 		"data": {
-			"name": "TeamToken",
-			"symbol": "TT",
+			"name": "Moolahverse",
+			"symbol": "MLH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xdf906f6fd89ce60c16baed3c96ceb08bca65ad82.png"
+			"logoUri": "/images/tokens/0xdf87270e04bc5ac140e93571d0dd0c6f4a058b41.png"
+		}
+	},
+	{
+		"address": "0xdf8ef8fef6fa5489d097652dedfb6617ce28a0d6",
+		"data": {
+			"name": "dump trade",
+			"symbol": "DUMP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xdf8ef8fef6fa5489d097652dedfb6617ce28a0d6.png"
+		}
+	},
+	{
+		"address": "0xdfb03da57a3c56124c72a47729a1d0ed54d38ff5",
+		"data": {
+			"name": "Hedex",
+			"symbol": "HEDEX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xdfb03da57a3c56124c72a47729a1d0ed54d38ff5.png"
 		}
 	},
 	{
@@ -33155,15 +41154,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xdfe691f37b6264a90ff507eb359c45d55037951c",
-		"data": {
-			"name": "Karma DAO",
-			"symbol": "KARMA",
-			"decimals": 4,
-			"logoUri": "/images/tokens/0xdfe691f37b6264a90ff507eb359c45d55037951c.png"
-		}
-	},
-	{
 		"address": "0xdffa3a7f5b40789c7a437dbe7b31b47f9b08fe75",
 		"data": {
 			"name": "CryptoPunk  7171",
@@ -33182,12 +41172,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe02d1524e385d67613e2ee969c60395be9a89f92",
+		"address": "0xe020b01b6fbd83066aa2e8ee0ccd1eb8d9cc70bf",
 		"data": {
-			"name": "The 1  Club",
-			"symbol": "1%",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xe02d1524e385d67613e2ee969c60395be9a89f92.png"
+			"name": "Arcade",
+			"symbol": "ARCD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe020b01b6fbd83066aa2e8ee0ccd1eb8d9cc70bf.png"
+		}
+	},
+	{
+		"address": "0xe02f72be83855c9e400fd9cd9f83158abfc87053",
+		"data": {
+			"name": "CHECKMATE",
+			"symbol": "CMBOT",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xe02f72be83855c9e400fd9cd9f83158abfc87053.png"
 		}
 	},
 	{
@@ -33209,12 +41208,57 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe063f04f280c60aeca68b38341c2eecbec703ae2",
+		"data": {
+			"name": "f x  Protocol Leveraged ETH",
+			"symbol": "XETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe063f04f280c60aeca68b38341c2eecbec703ae2.png"
+		}
+	},
+	{
 		"address": "0xe07c41e9cdf7e0a7800e4bbf90d414654fd6413d",
 		"data": {
 			"name": "CBDC",
 			"symbol": "CBDC",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xe07c41e9cdf7e0a7800e4bbf90d414654fd6413d.png"
+		}
+	},
+	{
+		"address": "0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+		"data": {
+			"name": "Gyroscope GYD",
+			"symbol": "GYD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a.png"
+		}
+	},
+	{
+		"address": "0xe084d3069a9b6d1b2d09d21ffad4a03d1b6496da",
+		"data": {
+			"name": "PUSHD",
+			"symbol": "PUSHD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe084d3069a9b6d1b2d09d21ffad4a03d1b6496da.png"
+		}
+	},
+	{
+		"address": "0xe085ff62e049b5e3a8d12bc6dffc2dfa329a8894",
+		"data": {
+			"name": "FlexBot",
+			"symbol": "FLEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe085ff62e049b5e3a8d12bc6dffc2dfa329a8894.png"
+		}
+	},
+	{
+		"address": "0xe08cd119df4c2f147f623559d6985b8afe315873",
+		"data": {
+			"name": "Bacon",
+			"symbol": "BACON",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe08cd119df4c2f147f623559d6985b8afe315873.png"
 		}
 	},
 	{
@@ -33245,12 +41289,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe0a6136f866684c0f19936c0c42a8c181c066f1b",
+		"data": {
+			"name": "Tidalflats",
+			"symbol": "TIDE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe0a6136f866684c0f19936c0c42a8c181c066f1b.png"
+		}
+	},
+	{
 		"address": "0xe0ad1806fd3e7edf6ff52fdb822432e847411033",
 		"data": {
 			"name": "OnX Finance",
 			"symbol": "ONX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe0ad1806fd3e7edf6ff52fdb822432e847411033.png"
+		}
+	},
+	{
+		"address": "0xe0b0af14d5eecc2a7d7d723208593379e349a25c",
+		"data": {
+			"name": "MOZFIRE",
+			"symbol": "MOZ",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe0b0af14d5eecc2a7d7d723208593379e349a25c.png"
 		}
 	},
 	{
@@ -33290,12 +41352,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe0bd989ec7417374a1c0d9d4fb8b692d1a9e27eb",
+		"data": {
+			"name": "Blackwater Labs",
+			"symbol": "BWL",
+			"decimals": 10,
+			"logoUri": "/images/tokens/0xe0bd989ec7417374a1c0d9d4fb8b692d1a9e27eb.png"
+		}
+	},
+	{
 		"address": "0xe0c05ec44775e4ad62cdc2eecdf337aa7a143363",
 		"data": {
 			"name": "Mancium",
 			"symbol": "MANC",
 			"decimals": 2,
 			"logoUri": "/images/tokens/0xe0c05ec44775e4ad62cdc2eecdf337aa7a143363.png"
+		}
+	},
+	{
+		"address": "0xe0c28a5a2da3920946e8bf821f61f7bea311048b",
+		"data": {
+			"name": "Stakehouse kETH",
+			"symbol": "KETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe0c28a5a2da3920946e8bf821f61f7bea311048b.png"
 		}
 	},
 	{
@@ -33308,12 +41388,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe0c99ed6950ccb38347154abd06e10eba5a1f89a",
+		"address": "0xe0dcb3e02798d1c6a9650fe1381015ec34705153",
 		"data": {
-			"name": "Blui",
-			"symbol": "BLUI",
+			"name": "Match Token",
+			"symbol": "MATCH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe0c99ed6950ccb38347154abd06e10eba5a1f89a.png"
+			"logoUri": "/images/tokens/0xe0dcb3e02798d1c6a9650fe1381015ec34705153.png"
 		}
 	},
 	{
@@ -33326,32 +41406,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe0ffddf8fd7d63cf907e433c9293069704d4d40d",
-		"data": {
-			"name": "Fight Out",
-			"symbol": "FGHT",
-			"decimals": 18
-		}
-	},
-	{
-		"address": "0xe1005bfbbc9a17d5d844c7a4371cbf6b2b387380",
-		"data": {
-			"name": "GRN Grid",
-			"symbol": "G",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xe1005bfbbc9a17d5d844c7a4371cbf6b2b387380.png"
-		}
-	},
-	{
-		"address": "0xe115401b985306837b9f1495c8e9d7f8f8328cc3",
-		"data": {
-			"name": "Claw  OLD ",
-			"symbol": "CLAW",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe115401b985306837b9f1495c8e9d7f8f8328cc3.png"
-		}
-	},
-	{
 		"address": "0xe11ba472f74869176652c35d30db89854b5ae84d",
 		"data": {
 			"name": "HEGIC yVault",
@@ -33361,12 +41415,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe153f65ddaf4f2234bd56f51f546d4b493acb091",
+		"address": "0xe138fda441fc31b36171122397a8a11d6cd2c479",
 		"data": {
-			"name": "Zeus",
-			"symbol": "ZEUS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe153f65ddaf4f2234bd56f51f546d4b493acb091.png"
+			"name": "Global Trust Coin",
+			"symbol": "GTC",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xe138fda441fc31b36171122397a8a11d6cd2c479.png"
+		}
+	},
+	{
+		"address": "0xe13cf110176e0dd6590536cd391b8a3522475f82",
+		"data": {
+			"name": "RentAI",
+			"symbol": "RENT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe13cf110176e0dd6590536cd391b8a3522475f82.png"
 		}
 	},
 	{
@@ -33379,12 +41442,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe15a66b7b8e385caa6f69fd0d55984b96d7263cf",
+		"address": "0xe16f2ec94e8a0819eb93022c45e05d582f4e5c15",
 		"data": {
-			"name": "Arch USD Div  Yield",
-			"symbol": "ADDY",
+			"name": "Anzen Private Credit",
+			"symbol": "PCT",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe15a66b7b8e385caa6f69fd0d55984b96d7263cf.png"
+			"logoUri": "/images/tokens/0xe16f2ec94e8a0819eb93022c45e05d582f4e5c15.png"
 		}
 	},
 	{
@@ -33412,15 +41475,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "LSDAI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe1a70b24e109f7a8b39806c554e123efc6769e91.png"
-		}
-	},
-	{
-		"address": "0xe1ba035fe04200da932378c4509e1fafdd08e187",
-		"data": {
-			"name": "Radical Chess",
-			"symbol": "CHESS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe1ba035fe04200da932378c4509e1fafdd08e187.png"
 		}
 	},
 	{
@@ -33498,46 +41552,55 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034",
 		"data": {
-			"name": "Banano",
-			"symbol": "BAN",
+			"name": "Wrapped Banano",
+			"symbol": "WBAN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034.png"
 		}
 	},
 	{
-		"address": "0xe22020f47b7378dfedcedd2c81d4137c22fe1152",
+		"address": "0xe221db71c5c527149bdf56c4d13a54cf55e543c1",
 		"data": {
-			"name": "My Liquidity Partner",
-			"symbol": "MLP",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe22020f47b7378dfedcedd2c81d4137c22fe1152.png"
+			"name": "Aktionariat Technologies of Understandi",
+			"symbol": "VIDS",
+			"decimals": 0,
+			"logoUri": "/images/tokens/0xe221db71c5c527149bdf56c4d13a54cf55e543c1.png"
 		}
 	},
 	{
-		"address": "0xe22910d04bdc9d55570f3bc52e786b49dddf37b4",
+		"address": "0xe2353069f71a27bbbe66eeabff05de109c7d5e19",
 		"data": {
-			"name": "Gatsby Inu  OLD ",
-			"symbol": "GATSBY",
+			"name": "Bonsai3",
+			"symbol": "SEED",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe22910d04bdc9d55570f3bc52e786b49dddf37b4.png"
+			"logoUri": "/images/tokens/0xe2353069f71a27bbbe66eeabff05de109c7d5e19.png"
 		}
 	},
 	{
-		"address": "0xe22c4e46c6f54e72315ca6eda934e7b766b0173d",
+		"address": "0xe2512a2f19f0388ad3d7a5263eaa82acd564827b",
 		"data": {
-			"name": "ByteDex",
-			"symbol": "BEXT",
+			"name": "Shido",
+			"symbol": "SHIDO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe22c4e46c6f54e72315ca6eda934e7b766b0173d.png"
+			"logoUri": "/images/tokens/0xe2512a2f19f0388ad3d7a5263eaa82acd564827b.png"
 		}
 	},
 	{
 		"address": "0xe28027c99c7746ffb56b0113e5d9708ac86fae8f",
 		"data": {
-			"name": "KING",
+			"name": "KING Coin",
 			"symbol": "KING",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xe28027c99c7746ffb56b0113e5d9708ac86fae8f.png"
+		}
+	},
+	{
+		"address": "0xe2808d7298f0d4111ea1773d3320f5d80eab83e8",
+		"data": {
+			"name": "WAVX Exchange",
+			"symbol": "WAVX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe2808d7298f0d4111ea1773d3320f5d80eab83e8.png"
 		}
 	},
 	{
@@ -33550,12 +41613,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe29f1241e6015a4949cb7e3f07234ba794006181",
+		"address": "0xe2976a66e8cef3932cdaeb935e114dcd5ce20f20",
 		"data": {
-			"name": "BIGCAP",
-			"symbol": "BIGCAP",
+			"name": "ChessFish",
+			"symbol": "CFSH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe29f1241e6015a4949cb7e3f07234ba794006181.png"
+			"logoUri": "/images/tokens/0xe2976a66e8cef3932cdaeb935e114dcd5ce20f20.png"
 		}
 	},
 	{
@@ -33577,6 +41640,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f",
+		"data": {
+			"name": "Hyper",
+			"symbol": "HYPER",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe2cfd7a01ec63875cd9da6c7c1b7025166c2fa2f.png"
+		}
+	},
+	{
 		"address": "0xe2dc070524a6e305ddb64d8513dc444b6a1ec845",
 		"data": {
 			"name": "Nash",
@@ -33595,12 +41667,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe2f668f6166eda65620a01c4c116a5f6e5528614",
+		"address": "0xe2f95ee8b72ffed59bc4d2f35b1d19b909a6e6b3",
 		"data": {
-			"name": "Me Gusta",
-			"symbol": "GUSTA",
-			"decimals": 16,
-			"logoUri": "/images/tokens/0xe2f668f6166eda65620a01c4c116a5f6e5528614.png"
+			"name": "EGGX",
+			"symbol": "EGGX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe2f95ee8b72ffed59bc4d2f35b1d19b909a6e6b3.png"
+		}
+	},
+	{
+		"address": "0xe2f98dd7506807ef82d1988aa77c320bc52f8df4",
+		"data": {
+			"name": "Hold On for Dear Life",
+			"symbol": "HODL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe2f98dd7506807ef82d1988aa77c320bc52f8df4.png"
 		}
 	},
 	{
@@ -33640,12 +41721,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe35f19e4457a114a951781aaf421ec5266ef25fe",
+		"address": "0xe362a9415d8c332a78ba6734620f1afc19099bbc",
 		"data": {
-			"name": "Vidiachange",
-			"symbol": "VIDA",
+			"name": "Send Finance",
+			"symbol": "SEND",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe35f19e4457a114a951781aaf421ec5266ef25fe.png"
+			"logoUri": "/images/tokens/0xe362a9415d8c332a78ba6734620f1afc19099bbc.png"
+		}
+	},
+	{
+		"address": "0xe3668873d944e4a949da05fc8bde419eff543882",
+		"data": {
+			"name": "Yearn yPRISMA",
+			"symbol": "YPRISMA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe3668873d944e4a949da05fc8bde419eff543882.png"
 		}
 	},
 	{
@@ -33658,30 +41748,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe387140d52ebb0dd729683dc062aefbc5f7f549a",
+		"address": "0xe3944ab788a60ca266f1eec3c26925b95f6370ad",
 		"data": {
-			"name": "NitroBot",
-			"symbol": "NBOT",
+			"name": "Precipitate ai",
+			"symbol": "RAIN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe387140d52ebb0dd729683dc062aefbc5f7f549a.png"
+			"logoUri": "/images/tokens/0xe3944ab788a60ca266f1eec3c26925b95f6370ad.png"
 		}
 	},
 	{
-		"address": "0xe3a46b2bc1d83c731d58cab765d3b45bce789095",
+		"address": "0xe3b9cfb8ea8a4f1279fbc28d3e15b4d2d86f18a0",
 		"data": {
-			"name": "DAYSTARTER",
-			"symbol": "DST",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe3a46b2bc1d83c731d58cab765d3b45bce789095.png"
+			"name": "Fottie",
+			"symbol": "FOTTIE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe3b9cfb8ea8a4f1279fbc28d3e15b4d2d86f18a0.png"
 		}
 	},
 	{
 		"address": "0xe3c408bd53c31c085a1746af401a4042954ff740",
 		"data": {
-			"name": "STEPN",
+			"name": "GMT",
 			"symbol": "GMT",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xe3c408bd53c31c085a1746af401a4042954ff740.png"
+		}
+	},
+	{
+		"address": "0xe3e24b4ea87935e15bbe99a24e9ace9998e4614d",
+		"data": {
+			"name": "Aidi Finance",
+			"symbol": "AIDI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe3e24b4ea87935e15bbe99a24e9ace9998e4614d.png"
+		}
+	},
+	{
+		"address": "0xe3f03cef497c81d2b28a2fae63ae84b373028718",
+		"data": {
+			"name": "MARVIN",
+			"symbol": "MARVIN",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe3f03cef497c81d2b28a2fae63ae84b373028718.png"
 		}
 	},
 	{
@@ -33694,12 +41802,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe4129c7b229812212f88d1bd6a223c45622e6b85",
+		"data": {
+			"name": "Looted Network",
+			"symbol": "LOOT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe4129c7b229812212f88d1bd6a223c45622e6b85.png"
+		}
+	},
+	{
 		"address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
 		"data": {
 			"name": "0x Protocol",
 			"symbol": "ZRX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe41d2489571d322189246dafa5ebde1f4699f498.png"
+		}
+	},
+	{
+		"address": "0xe453c3409f8ad2b1fe1ed08e189634d359705a5b",
+		"data": {
+			"name": "DGI Game",
+			"symbol": "DGI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe453c3409f8ad2b1fe1ed08e189634d359705a5b.png"
 		}
 	},
 	{
@@ -33721,12 +41847,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe46091dce9c67691bcf22768bbee0bc9e20d4beb",
+		"address": "0xe469699f617bfd0fbffcd575970d34c2cecffa9f",
 		"data": {
-			"name": "WSB Classic",
-			"symbol": "WSBC",
+			"name": "VuzzMind",
+			"symbol": "VUZZ",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0xe46091dce9c67691bcf22768bbee0bc9e20d4beb.png"
+			"logoUri": "/images/tokens/0xe469699f617bfd0fbffcd575970d34c2cecffa9f.png"
+		}
+	},
+	{
+		"address": "0xe46a1d19962ea120765d3139c588ffd617be04a8",
+		"data": {
+			"name": "EverETH",
+			"symbol": "EETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe46a1d19962ea120765d3139c588ffd617be04a8.png"
+		}
+	},
+	{
+		"address": "0xe46a5e19b19711332e33f33c2db3ea143e86bc10",
+		"data": {
+			"name": "Eigenpie wBETH",
+			"symbol": "MWBETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe46a5e19b19711332e33f33c2db3ea143e86bc10.png"
 		}
 	},
 	{
@@ -33739,30 +41883,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe47f1cd2a37c6fe69e3501ae45eca263c5a87b2b",
+		"address": "0xe485e2f1bab389c08721b291f6b59780fec83fd7",
 		"data": {
-			"name": "Zunami Ether",
-			"symbol": "ZETH",
+			"name": "Shutter",
+			"symbol": "SHU",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe47f1cd2a37c6fe69e3501ae45eca263c5a87b2b.png"
-		}
-	},
-	{
-		"address": "0xe4815ae53b124e7263f08dcdbbb757d41ed658c6",
-		"data": {
-			"name": "ZKSpace",
-			"symbol": "ZKS",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe4815ae53b124e7263f08dcdbbb757d41ed658c6.png"
-		}
-	},
-	{
-		"address": "0xe49214e4c92dc9bcb3b56c1309afe0d626dd730e",
-		"data": {
-			"name": "SynchroCoin",
-			"symbol": "SYC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe49214e4c92dc9bcb3b56c1309afe0d626dd730e.png"
+			"logoUri": "/images/tokens/0xe485e2f1bab389c08721b291f6b59780fec83fd7.png"
 		}
 	},
 	{
@@ -33784,39 +41910,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe4b4c008ff36e3c50c4299c223504a480de9c833",
+		"data": {
+			"name": "Secret Society",
+			"symbol": "SS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe4b4c008ff36e3c50c4299c223504a480de9c833.png"
+		}
+	},
+	{
 		"address": "0xe4b91faf8810f8895772e7ca065d4cb889120f94",
 		"data": {
 			"name": "Cat in a Box Fee Token",
 			"symbol": "BOXFEE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe4b91faf8810f8895772e7ca065d4cb889120f94.png"
-		}
-	},
-	{
-		"address": "0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903",
-		"data": {
-			"name": "Xend Finance",
-			"symbol": "XEND",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903.png"
-		}
-	},
-	{
-		"address": "0xe4d0941ad4ff744948704f7532dc00e01f33ed4d",
-		"data": {
-			"name": "Momo",
-			"symbol": "MOMO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xe4d0941ad4ff744948704f7532dc00e01f33ed4d.png"
-		}
-	},
-	{
-		"address": "0xe4d75e9b493458d032a5c3cc1ee9b0712c1ece06",
-		"data": {
-			"name": "Bitcci Cash",
-			"symbol": "BITCCA",
-			"decimals": 2,
-			"logoUri": "/images/tokens/0xe4d75e9b493458d032a5c3cc1ee9b0712c1ece06.png"
 		}
 	},
 	{
@@ -33835,6 +41943,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xe4efdd2eb216a4620cfa55c5cc67bd09dc64ff24.png"
+		}
+	},
+	{
+		"address": "0xe5018913f2fdf33971864804ddb5fca25c539032",
+		"data": {
+			"name": "OpenLM RevShare Token",
+			"symbol": "OLM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe5018913f2fdf33971864804ddb5fca25c539032.png"
 		}
 	},
 	{
@@ -33910,15 +42027,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe57425f1598f9b0d6219706b77f4b3da573a3695",
-		"data": {
-			"name": "Bitcoin BR",
-			"symbol": "BTCBR",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe57425f1598f9b0d6219706b77f4b3da573a3695.png"
-		}
-	},
-	{
 		"address": "0xe580074a10360404af3abfe2d524d5806d993ea3",
 		"data": {
 			"name": "PayBolt",
@@ -33937,12 +42045,11 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe59a1fe295f940e5226dcf6411ef2bdf3089c254",
+		"address": "0xe59b14e43479dc30d77f553e4b5c6fc67e1f6caf",
 		"data": {
-			"name": "Yamanote Sen",
-			"symbol": "YMNT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xe59a1fe295f940e5226dcf6411ef2bdf3089c254.png"
+			"name": "LEXA AI",
+			"symbol": "LEXA",
+			"decimals": 18
 		}
 	},
 	{
@@ -33973,6 +42080,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe5acbb03d73267c03349c76ead672ee4d941f499",
+		"data": {
+			"name": "BEAM",
+			"symbol": "BEAM",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xe5acbb03d73267c03349c76ead672ee4d941f499.png"
+		}
+	},
+	{
 		"address": "0xe5b826ca2ca02f09c1725e9bd98d9a8874c30532",
 		"data": {
 			"name": "ZEON Network",
@@ -33982,12 +42098,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe5ca70281149be03da30778fb5ec6183d339f7a5",
+		"address": "0xe5c6f5fef89b64f36bfccb063962820136bac42f",
 		"data": {
-			"name": "Genius Playboy Billionaire Philanthropi",
-			"symbol": "GPBP",
+			"name": "Hoppy The Frog",
+			"symbol": "HOPPY",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0xe5ca70281149be03da30778fb5ec6183d339f7a5.png"
+			"logoUri": "/images/tokens/0xe5c6f5fef89b64f36bfccb063962820136bac42f.png"
 		}
 	},
 	{
@@ -33997,15 +42113,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FRM",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xe5caef4af8780e59df925470b050fb23c43ca68c.png"
-		}
-	},
-	{
-		"address": "0xe5d2e173b120341face9e9970889c9fe64081ffd",
-		"data": {
-			"name": "Bluejay",
-			"symbol": "BLU",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe5d2e173b120341face9e9970889c9fe64081ffd.png"
 		}
 	},
 	{
@@ -34027,21 +42134,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe616adb3f729f6f3df19c876eda66472a308d397",
-		"data": {
-			"name": "ThePepe AI",
-			"symbol": "PPAI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe616adb3f729f6f3df19c876eda66472a308d397.png"
-		}
-	},
-	{
 		"address": "0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31",
 		"data": {
 			"name": "THX Network",
 			"symbol": "THX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31.png"
+		}
+	},
+	{
+		"address": "0xe635efcfac44c5f44508f4d17c3a96cb4ce421dd",
+		"data": {
+			"name": "Defispot",
+			"symbol": "SPOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe635efcfac44c5f44508f4d17c3a96cb4ce421dd.png"
 		}
 	},
 	{
@@ -34054,12 +42161,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe63d6b308bce0f6193aec6b7e6eba005f41e36ab",
+		"address": "0xe636f94a71ec52cc61ef21787ae351ad832347b7",
 		"data": {
-			"name": "Stone",
-			"symbol": "STN",
+			"name": "Creo Engine",
+			"symbol": "CREO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe63d6b308bce0f6193aec6b7e6eba005f41e36ab.png"
+			"logoUri": "/images/tokens/0xe636f94a71ec52cc61ef21787ae351ad832347b7.png"
 		}
 	},
 	{
@@ -34126,6 +42233,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe6828d65bf5023ae1851d90d8783cc821ba7eee1",
+		"data": {
+			"name": "ApeBond",
+			"symbol": "ABOND",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe6828d65bf5023ae1851d90d8783cc821ba7eee1.png"
+		}
+	},
+	{
+		"address": "0xe69d699cbcd79cb1b55f82cf36bf1a2836053562",
+		"data": {
+			"name": "DropCoin",
+			"symbol": "DROP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe69d699cbcd79cb1b55f82cf36bf1a2836053562.png"
+		}
+	},
+	{
 		"address": "0xe6d2c3cb986db66818c14c7032db05d1d2a6ee74",
 		"data": {
 			"name": "Finexbox",
@@ -34135,21 +42260,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe6f1966d04cfcb9cd1b1dc4e8256d8b501b11cba",
+		"address": "0xe6f28389daf01ae12b33ee5e7f1e130c454e8494",
 		"data": {
-			"name": "SafeEarth",
-			"symbol": "SAFEEARTH",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xe6f1966d04cfcb9cd1b1dc4e8256d8b501b11cba.png"
+			"name": "AntiBot",
+			"symbol": "ATB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe6f28389daf01ae12b33ee5e7f1e130c454e8494.png"
 		}
 	},
 	{
 		"address": "0xe6f47303032a09c8c0f8ebb713c00e6ed345e8c3",
 		"data": {
-			"name": "Risitas",
+			"name": "Risitas  OLD ",
 			"symbol": "RISITA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe6f47303032a09c8c0f8ebb713c00e6ed345e8c3.png"
+		}
+	},
+	{
+		"address": "0xe6f4a40156c9e8c7addda66848bbb99fdedecf84",
+		"data": {
+			"name": "DeTensor",
+			"symbol": "DETENSOR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe6f4a40156c9e8c7addda66848bbb99fdedecf84.png"
 		}
 	},
 	{
@@ -34171,6 +42305,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe73cec024b30a7195af80d13f3b6917d80af11d8",
+		"data": {
+			"name": "GOATED",
+			"symbol": "GOAT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe73cec024b30a7195af80d13f3b6917d80af11d8.png"
+		}
+	},
+	{
+		"address": "0xe73d2faeeb9dec890c905b707b574627d5302cb3",
+		"data": {
+			"name": "Defi Radar",
+			"symbol": "DRADAR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe73d2faeeb9dec890c905b707b574627d5302cb3.png"
+		}
+	},
+	{
 		"address": "0xe74be071f3b62f6a4ac23ca68e5e2a39797a3c30",
 		"data": {
 			"name": "Recharge",
@@ -34189,6 +42341,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe75f2acafba1ad56c5ed712ffbc1d31910e74396",
+		"data": {
+			"name": "Komputai",
+			"symbol": "KAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe75f2acafba1ad56c5ed712ffbc1d31910e74396.png"
+		}
+	},
+	{
 		"address": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
 		"data": {
 			"name": "Railgun",
@@ -34198,21 +42359,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe77f82f288a6a7eb4ac295a86fccb1f6d240499b",
+		"address": "0xe785ec36356b973d8c0a071d478940d6f42c0178",
 		"data": {
-			"name": "Plan B DAO",
-			"symbol": "PLANB",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe77f82f288a6a7eb4ac295a86fccb1f6d240499b.png"
-		}
-	},
-	{
-		"address": "0xe78bff28d3c5195c752e734e95421bb4bd742f1d",
-		"data": {
-			"name": "9 Lives Network",
-			"symbol": "NINEFI",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe78bff28d3c5195c752e734e95421bb4bd742f1d.png"
+			"name": "Bigfoot Monster",
+			"symbol": "BIGF",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xe785ec36356b973d8c0a071d478940d6f42c0178.png"
 		}
 	},
 	{
@@ -34252,12 +42404,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe7b6de709ffc3bd237c2f2c800e1002f97a760f3",
+		"address": "0xe7c3755482d0da522678af05945062d4427e0923",
 		"data": {
-			"name": "RealT   4852 4854 W Cortez St  Chicago ",
-			"symbol": "REALT-S-4852-4854-W",
+			"name": "ALEX Lab",
+			"symbol": "ALEX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe7b6de709ffc3bd237c2f2c800e1002f97a760f3.png"
+			"logoUri": "/images/tokens/0xe7c3755482d0da522678af05945062d4427e0923.png"
+		}
+	},
+	{
+		"address": "0xe7c8537f92b4feefdc19bd6b4023dfe79400cb30",
+		"data": {
+			"name": "Bones",
+			"symbol": "BONES",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe7c8537f92b4feefdc19bd6b4023dfe79400cb30.png"
 		}
 	},
 	{
@@ -34308,19 +42469,19 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xe80c0cd204d654cebe8dd64a4857cab6be8345a3",
 		"data": {
-			"name": "JPEG d",
+			"name": "JPEG d  OLD ",
 			"symbol": "JPEG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe80c0cd204d654cebe8dd64a4857cab6be8345a3.png"
 		}
 	},
 	{
-		"address": "0xe8272210954ea85de6d2ae739806ab593b5d9c51",
+		"address": "0xe8196181c5fe192b83c5ca34be910d93d691d935",
 		"data": {
-			"name": "Alpha5",
-			"symbol": "A5T",
+			"name": "Self Operating AI",
+			"symbol": "SOAI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe8272210954ea85de6d2ae739806ab593b5d9c51.png"
+			"logoUri": "/images/tokens/0xe8196181c5fe192b83c5ca34be910d93d691d935.png"
 		}
 	},
 	{
@@ -34333,12 +42494,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe83d5fb2c60b3a2597452e248cf7b2f52a7e731e",
+		"address": "0xe842e272a18625319cc36f64eb9f97e5ad0c32af",
 		"data": {
-			"name": "ARTIC Foundation",
-			"symbol": "ARTIC",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe83d5fb2c60b3a2597452e248cf7b2f52a7e731e.png"
+			"name": "YAK",
+			"symbol": "YAK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe842e272a18625319cc36f64eb9f97e5ad0c32af.png"
 		}
 	},
 	{
@@ -34396,21 +42557,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe89751b31cd4e2eb7006ce168857f72c8e37bceb",
+		"address": "0xe8b1e79d937c648ce1fe96e6739ddb2714058a18",
 		"data": {
-			"name": "Math Coin",
-			"symbol": "MATH",
+			"name": "ColonizeMars",
+			"symbol": "GTM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe89751b31cd4e2eb7006ce168857f72c8e37bceb.png"
+			"logoUri": "/images/tokens/0xe8b1e79d937c648ce1fe96e6739ddb2714058a18.png"
 		}
 	},
 	{
-		"address": "0xe8e06a5613dc86d459bc8fb989e173bb8b256072",
+		"address": "0xe8e531aa894969759d0d4b207a972a3a97d287f0",
 		"data": {
-			"name": "Feyorra",
-			"symbol": "FEY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe8e06a5613dc86d459bc8fb989e173bb8b256072.png"
+			"name": "Watcher AI",
+			"symbol": "WAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe8e531aa894969759d0d4b207a972a3a97d287f0.png"
 		}
 	},
 	{
@@ -34432,12 +42593,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe910c2a090516fb7a7be07f96a464785f2d5dc18",
+		"address": "0xe90ce7764d8401d19ed3733a211bd3b06c631bc0",
 		"data": {
-			"name": "CheckMate Token",
-			"symbol": "CMT",
+			"name": "The Other Party",
+			"symbol": "POD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe910c2a090516fb7a7be07f96a464785f2d5dc18.png"
+			"logoUri": "/images/tokens/0xe90ce7764d8401d19ed3733a211bd3b06c631bc0.png"
+		}
+	},
+	{
+		"address": "0xe91598331a36a78f7fefe277ce7c1915da0afb93",
+		"data": {
+			"name": "RunesBridge",
+			"symbol": "RB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe91598331a36a78f7fefe277ce7c1915da0afb93.png"
+		}
+	},
+	{
+		"address": "0xe92344b4edf545f3209094b192e46600a19e7c2d",
+		"data": {
+			"name": "zKML",
+			"symbol": "ZKML",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe92344b4edf545f3209094b192e46600a19e7c2d.png"
 		}
 	},
 	{
@@ -34459,12 +42638,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe939f011a3d8fc0aa874c97e8156053a903d7176",
+		"data": {
+			"name": "DOLZ io",
+			"symbol": "DOLZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe939f011a3d8fc0aa874c97e8156053a903d7176.png"
+		}
+	},
+	{
 		"address": "0xe94b97b6b43639e238c851a7e693f50033efd75c",
 		"data": {
 			"name": "HaloDAO",
 			"symbol": "RNBW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xe94b97b6b43639e238c851a7e693f50033efd75c.png"
+		}
+	},
+	{
+		"address": "0xe94e8e29bd3db22917e83d019af7babdf8b9adf6",
+		"data": {
+			"name": "Dextensor",
+			"symbol": "TAOS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe94e8e29bd3db22917e83d019af7babdf8b9adf6.png"
+		}
+	},
+	{
+		"address": "0xe9514a6eba63a0bbbe2faea919e773ebe0f527c1",
+		"data": {
+			"name": "Kekcoin  ETH ",
+			"symbol": "KEK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe9514a6eba63a0bbbe2faea919e773ebe0f527c1.png"
+		}
+	},
+	{
+		"address": "0xe9572938bcbf08adcee86fd12a7c0d08dc4ab841",
+		"data": {
+			"name": "Inscribe",
+			"symbol": "INS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe9572938bcbf08adcee86fd12a7c0d08dc4ab841.png"
 		}
 	},
 	{
@@ -34477,6 +42692,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xe96edd48cf0c6e930ce55f171a721017b28e0f08",
+		"data": {
+			"name": "NexusAI",
+			"symbol": "NEXUSAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe96edd48cf0c6e930ce55f171a721017b28e0f08.png"
+		}
+	},
+	{
 		"address": "0xe973e453977195422b48e1852a207b7ee9c913c7",
 		"data": {
 			"name": "ADreward",
@@ -34486,12 +42710,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe9966c1184f8552fcb16f65addba9dd08fe8f4ea",
+		"address": "0xe97db8503dd3e3eb0286aafc50327c598efdb578",
 		"data": {
-			"name": "MY Ceremonial Event",
-			"symbol": "MYCE",
+			"name": "Jinko AI",
+			"symbol": "JINKO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xe9966c1184f8552fcb16f65addba9dd08fe8f4ea.png"
+			"logoUri": "/images/tokens/0xe97db8503dd3e3eb0286aafc50327c598efdb578.png"
+		}
+	},
+	{
+		"address": "0xe99379955b676d5a7ebe3f42f2b684796e48d437",
+		"data": {
+			"name": "EGG ETH",
+			"symbol": "EGG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe99379955b676d5a7ebe3f42f2b684796e48d437.png"
 		}
 	},
 	{
@@ -34531,21 +42764,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xe9f1d62c671efe99896492766c0b416bd3fb9e52",
+		"address": "0xe9e07fb66976ae5e40cc5f33674725320917b239",
 		"data": {
-			"name": "XOYCoin",
-			"symbol": "XOY",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xe9f1d62c671efe99896492766c0b416bd3fb9e52.png"
+			"name": "Target Protocol",
+			"symbol": "TARGET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xe9e07fb66976ae5e40cc5f33674725320917b239.png"
 		}
 	},
 	{
-		"address": "0xe9f721e7419423f11863e83dbd710b5d6127b5b0",
+		"address": "0xe9eccde9d26fcbb5e93f536cfc4510a7f46274f8",
 		"data": {
-			"name": "ePhiat",
-			"symbol": "EPHIAT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xe9f721e7419423f11863e83dbd710b5d6127b5b0.png"
+			"name": "infraX",
+			"symbol": "INFRA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xe9eccde9d26fcbb5e93f536cfc4510a7f46274f8.png"
 		}
 	},
 	{
@@ -34630,6 +42863,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xea55f9d4a1bcea5e3e806f169f33f0092d5fb7f0",
+		"data": {
+			"name": "Gemtools",
+			"symbol": "GEMS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xea55f9d4a1bcea5e3e806f169f33f0092d5fb7f0.png"
+		}
+	},
+	{
+		"address": "0xea60cd69f2b9fd6eb067bddbbf86a5bdeffbbc55",
+		"data": {
+			"name": "Wecan",
+			"symbol": "WECAN",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xea60cd69f2b9fd6eb067bddbbf86a5bdeffbbc55.png"
+		}
+	},
+	{
 		"address": "0xea7b7dc089c9a4a916b5a7a37617f59fd54e37e4",
 		"data": {
 			"name": "HyperCycle",
@@ -34648,6 +42899,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xea81dab2e0ecbc6b5c4172de4c22b6ef6e55bd8f",
+		"data": {
+			"name": "Plebbit",
+			"symbol": "PLEB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xea81dab2e0ecbc6b5c4172de4c22b6ef6e55bd8f.png"
+		}
+	},
+	{
+		"address": "0xeaa260c1d247135cec29ec10fb6acedf2a55dc6b",
+		"data": {
+			"name": "TheADA",
+			"symbol": "TADA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xeaa260c1d247135cec29ec10fb6acedf2a55dc6b.png"
+		}
+	},
+	{
+		"address": "0xeaa63125dd63f10874f99cdbbb18410e7fc79dd3",
+		"data": {
+			"name": "Hemule",
+			"symbol": "HEMULE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeaa63125dd63f10874f99cdbbb18410e7fc79dd3.png"
+		}
+	},
+	{
 		"address": "0xeabb8996ea1662cad2f7fb715127852cd3262ae9",
 		"data": {
 			"name": "Connect Financial",
@@ -34657,12 +42935,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xead482da0793b00bbae0e34c8cfae6daf29a44b2",
+		"address": "0xeac32927cf2785cbe0d515298cab448538a8cdd7",
 		"data": {
-			"name": "Versailles Heroes",
-			"symbol": "VRH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xead482da0793b00bbae0e34c8cfae6daf29a44b2.png"
+			"name": "StudioAi",
+			"symbol": "SAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xeac32927cf2785cbe0d515298cab448538a8cdd7.png"
 		}
 	},
 	{
@@ -34693,12 +42971,48 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xeb31ba344310bc4872c6188ff210d7341a301ea9",
+		"data": {
+			"name": "GuessOnChain",
+			"symbol": "GUESS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xeb31ba344310bc4872c6188ff210d7341a301ea9.png"
+		}
+	},
+	{
+		"address": "0xeb4628418e1acbba62bc72c9b7a53b1865ff283d",
+		"data": {
+			"name": "0x404",
+			"symbol": "XFOUR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeb4628418e1acbba62bc72c9b7a53b1865ff283d.png"
+		}
+	},
+	{
 		"address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
 		"data": {
 			"name": "renBTC",
 			"symbol": "RENBTC",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xeb4c2781e4eba804ce9a9803c67d0893436bb27d.png"
+		}
+	},
+	{
+		"address": "0xeb4f5c4bf62fac1be7e4bef9c7c055bf1c52241d",
+		"data": {
+			"name": "Runic Chain",
+			"symbol": "RUNIC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeb4f5c4bf62fac1be7e4bef9c7c055bf1c52241d.png"
+		}
+	},
+	{
+		"address": "0xeb51b8dc2d43469c0f0b7365c8a18438907bdf21",
+		"data": {
+			"name": "Shiva Inu",
+			"symbol": "SHIV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeb51b8dc2d43469c0f0b7365c8a18438907bdf21.png"
 		}
 	},
 	{
@@ -34711,12 +43025,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xeb7355c2f217b3485a591332fe13c8c5a76a581d",
+		"address": "0xeb935deb517e4c2abc282e5e251ed4d05db79e93",
 		"data": {
-			"name": "Jubi Token",
-			"symbol": "JT",
+			"name": "Fort Block Games",
+			"symbol": "FBG",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xeb7355c2f217b3485a591332fe13c8c5a76a581d.png"
+			"logoUri": "/images/tokens/0xeb935deb517e4c2abc282e5e251ed4d05db79e93.png"
 		}
 	},
 	{
@@ -34738,6 +43052,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xeb9e3c6cda17c8755a4e8a1cc944afb7fc7d7905",
+		"data": {
+			"name": "MatchTrade",
+			"symbol": "MATCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeb9e3c6cda17c8755a4e8a1cc944afb7fc7d7905.png"
+		}
+	},
+	{
+		"address": "0xebb1afb0a4ddc9b1f84d9aa72ff956cd1c1eb4be",
+		"data": {
+			"name": "The Emerald Company",
+			"symbol": "EMRLD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xebb1afb0a4ddc9b1f84d9aa72ff956cd1c1eb4be.png"
+		}
+	},
+	{
+		"address": "0xebb4c56dd5490156ae94a96e11903a2d5ff81deb",
+		"data": {
+			"name": "GMBot",
+			"symbol": "GMBT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xebb4c56dd5490156ae94a96e11903a2d5ff81deb.png"
+		}
+	},
+	{
 		"address": "0xebb82c932759b515b2efc1cfbb6bf2f6dbace404",
 		"data": {
 			"name": "shares finance",
@@ -34756,6 +43097,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xebdb54e76bfec9ab4e06ccf6e484e4126f81befc",
+		"data": {
+			"name": "Soul Society",
+			"symbol": "HON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xebdb54e76bfec9ab4e06ccf6e484e4126f81befc.png"
+		}
+	},
+	{
+		"address": "0xebe4a49df7885d015329c919bf43e6460a858f1e",
+		"data": {
+			"name": "iShook",
+			"symbol": "SHK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xebe4a49df7885d015329c919bf43e6460a858f1e.png"
+		}
+	},
+	{
 		"address": "0xebf2096e01455108badcbaf86ce30b6e5a72aa52",
 		"data": {
 			"name": "XIDR",
@@ -34765,12 +43124,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xec12ba5ac0f259e9ac6fc9a3bc23a76ad2fde5d9",
+		"data": {
+			"name": "HugeWin",
+			"symbol": "HUGE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xec12ba5ac0f259e9ac6fc9a3bc23a76ad2fde5d9.png"
+		}
+	},
+	{
+		"address": "0xec19caef9c046f5f87a497154766742ab9c90820",
+		"data": {
+			"name": "FP  Y00ts",
+			"symbol": "UY00TS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xec19caef9c046f5f87a497154766742ab9c90820.png"
+		}
+	},
+	{
 		"address": "0xec213f83defb583af3a000b1c0ada660b1902a0f",
 		"data": {
 			"name": "Presearch",
 			"symbol": "PRE",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xec213f83defb583af3a000b1c0ada660b1902a0f.png"
+		}
+	},
+	{
+		"address": "0xec21890967a8ceb3e55a3f79dac4e90673ba3c2e",
+		"data": {
+			"name": "BEBE",
+			"symbol": "BEBE",
+			"decimals": 8,
+			"logoUri": "/images/tokens/0xec21890967a8ceb3e55a3f79dac4e90673ba3c2e.png"
 		}
 	},
 	{
@@ -34846,15 +43232,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xecbddf83687e9842837e08c5a650658f2260b376",
-		"data": {
-			"name": "Curve Network",
-			"symbol": "CURVE",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xecbddf83687e9842837e08c5a650658f2260b376.png"
-		}
-	},
-	{
 		"address": "0xecbee2fae67709f718426ddc3bf770b26b95ed20",
 		"data": {
 			"name": "Clips",
@@ -34873,12 +43250,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xeccf15a4b5976a1365baed5297058b4ca42777c0",
+		"address": "0xecd48f326e70388d993694de59b4542ce8af7649",
 		"data": {
-			"name": "Nosturis",
-			"symbol": "NTRS",
+			"name": "Froggy Friends",
+			"symbol": "TADPOLE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xeccf15a4b5976a1365baed5297058b4ca42777c0.png"
+			"logoUri": "/images/tokens/0xecd48f326e70388d993694de59b4542ce8af7649.png"
+		}
+	},
+	{
+		"address": "0xecf3672a6d2147e2a77f07069fb48d8cf6f6fbf9",
+		"data": {
+			"name": "Inception mETH",
+			"symbol": "INMETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xecf3672a6d2147e2a77f07069fb48d8cf6f6fbf9.png"
 		}
 	},
 	{
@@ -34909,15 +43295,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xed0889f7e1c7c7267407222be277e1f1ef4d4892",
-		"data": {
-			"name": "MELX",
-			"symbol": "MEL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xed0889f7e1c7c7267407222be277e1f1ef4d4892.png"
-		}
-	},
-	{
 		"address": "0xed0d5747a9ab03a75fbfec3228cd55848245b75d",
 		"data": {
 			"name": "e Money",
@@ -34936,12 +43313,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xed279fdd11ca84beef15af5d39bb4d4bee23f0ca",
+		"address": "0xed1273928ba97eed7b49e82c2f39d512d7591112",
 		"data": {
-			"name": "LUSD3CRV f",
-			"symbol": "LUSD3CRV",
+			"name": "NerdBot",
+			"symbol": "NERD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xed279fdd11ca84beef15af5d39bb4d4bee23f0ca.png"
+			"logoUri": "/images/tokens/0xed1273928ba97eed7b49e82c2f39d512d7591112.png"
+		}
+	},
+	{
+		"address": "0xed1ddc491a2c8b1f7d6e8933580a47e124ea38db",
+		"data": {
+			"name": "Intelligence On Chain",
+			"symbol": "IOC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xed1ddc491a2c8b1f7d6e8933580a47e124ea38db.png"
+		}
+	},
+	{
+		"address": "0xed2d13a70acbd61074fc56bd0d0845e35f793e5e",
+		"data": {
+			"name": "Planet Mojo",
+			"symbol": "MOJO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xed2d13a70acbd61074fc56bd0d0845e35f793e5e.png"
 		}
 	},
 	{
@@ -34956,7 +43351,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xed354cae598148846aa9694254c854fc7051163c",
 		"data": {
-			"name": "Shido",
+			"name": "Shido  OLD ",
 			"symbol": "SHIDO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xed354cae598148846aa9694254c854fc7051163c.png"
@@ -34981,12 +43376,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xed40834a13129509a89be39a9be9c0e96a0ddd71",
+		"address": "0xed4e879087ebd0e8a77d66870012b5e0dffd0fa4",
 		"data": {
-			"name": "Warp Finance",
-			"symbol": "WARP",
+			"name": "AstroPepeX",
+			"symbol": "APX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xed40834a13129509a89be39a9be9c0e96a0ddd71.png"
+			"logoUri": "/images/tokens/0xed4e879087ebd0e8a77d66870012b5e0dffd0fa4.png"
+		}
+	},
+	{
+		"address": "0xed6bb4700abd545575f0642bb5ea8e0d3b24e9f3",
+		"data": {
+			"name": "Digital Files",
+			"symbol": "DIFI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xed6bb4700abd545575f0642bb5ea8e0d3b24e9f3.png"
+		}
+	},
+	{
+		"address": "0xed9f6aa6532869576211fd6367e3c328810fbeb3",
+		"data": {
+			"name": "GPTPlus",
+			"symbol": "GPTPLUS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xed9f6aa6532869576211fd6367e3c328810fbeb3.png"
+		}
+	},
+	{
+		"address": "0xeda43fa2f35ea174a7e9b73658b18a7da00adf38",
+		"data": {
+			"name": "Namx",
+			"symbol": "NAMX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeda43fa2f35ea174a7e9b73658b18a7da00adf38.png"
 		}
 	},
 	{
@@ -35008,12 +43430,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xedae06a2dbdd21038608adce58fd173afdba5add",
+		"data": {
+			"name": "FP  LilPudgys",
+			"symbol": "ULP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xedae06a2dbdd21038608adce58fd173afdba5add.png"
+		}
+	},
+	{
 		"address": "0xedb171c18ce90b633db442f2a6f72874093b49ef",
 		"data": {
 			"name": "Wrapped Ampleforth",
 			"symbol": "WAMPL",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xedb171c18ce90b633db442f2a6f72874093b49ef.png"
+		}
+	},
+	{
+		"address": "0xedb73d4ed90be7a49d06d0d940055e6d181d22fa",
+		"data": {
+			"name": "Blueprint oBLUE",
+			"symbol": "OBLUE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xedb73d4ed90be7a49d06d0d940055e6d181d22fa.png"
 		}
 	},
 	{
@@ -35031,6 +43471,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "AGN",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xedc1004886d010751f74ec0ad223819f9f3b1910.png"
+		}
+	},
+	{
+		"address": "0xedee9cc3bf9cfd86a493a23a0775508e0f826644",
+		"data": {
+			"name": "Atalis",
+			"symbol": "ALS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xedee9cc3bf9cfd86a493a23a0775508e0f826644.png"
 		}
 	},
 	{
@@ -35052,6 +43501,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xedf978ee4beafbeefd7a0f55faa5a7c6c3cd467d",
+		"data": {
+			"name": "FP  CoolCats",
+			"symbol": "UCOOL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xedf978ee4beafbeefd7a0f55faa5a7c6c3cd467d.png"
+		}
+	},
+	{
 		"address": "0xee06a81a695750e71a662b51066f2c74cf4478a0",
 		"data": {
 			"name": "Decentral Games  Old ",
@@ -35070,12 +43528,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xee42beb10dcd03775107f5ec56c3ae022f1072a4",
+		"address": "0xee372d2b7e7c83de7e345267b5e4efc1899a4fab",
 		"data": {
-			"name": "Pepeplay",
-			"symbol": "PEPLAY",
+			"name": "Xtrack AI",
+			"symbol": "XTRACK",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xee42beb10dcd03775107f5ec56c3ae022f1072a4.png"
+			"logoUri": "/images/tokens/0xee372d2b7e7c83de7e345267b5e4efc1899a4fab.png"
+		}
+	},
+	{
+		"address": "0xee3c722d177559f73288cec91fa3e4bbfd8c27fc",
+		"data": {
+			"name": "Douglas Adams",
+			"symbol": "HHGTTG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xee3c722d177559f73288cec91fa3e4bbfd8c27fc.png"
 		}
 	},
 	{
@@ -35169,6 +43636,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xeeee2a2e650697d2a8e8bc990c2f3d04203be06f",
+		"data": {
+			"name": "Forgotten Playland",
+			"symbol": "FP",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xeeee2a2e650697d2a8e8bc990c2f3d04203be06f.png"
+		}
+	},
+	{
 		"address": "0xeeee2a622330e6d2036691e983dee87330588603",
 		"data": {
 			"name": "Asko",
@@ -35214,6 +43690,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xef3daa5fda8ad7aabff4658f1f78061fd626b8f0",
+		"data": {
+			"name": "MUZZLE",
+			"symbol": "MUZZ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xef3daa5fda8ad7aabff4658f1f78061fd626b8f0.png"
+		}
+	},
+	{
 		"address": "0xef53462838000184f35f7d991452e5f25110b207",
 		"data": {
 			"name": "Knit Finance",
@@ -35223,30 +43708,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xef5eff55f665b66385b6692ebd80680e581d81da",
-		"data": {
-			"name": "Greelance",
-			"symbol": "GRL",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xef5eff55f665b66385b6692ebd80680e581d81da.png"
-		}
-	},
-	{
 		"address": "0xef6344de1fcfc5f48c30234c16c1389e8cdc572c",
 		"data": {
 			"name": "EncrypGen",
 			"symbol": "DNA",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xef6344de1fcfc5f48c30234c16c1389e8cdc572c.png"
-		}
-	},
-	{
-		"address": "0xef7c2ab5fafea06f8aee63c866d0be1846c35f68",
-		"data": {
-			"name": "Apiens",
-			"symbol": "APN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xef7c2ab5fafea06f8aee63c866d0be1846c35f68.png"
 		}
 	},
 	{
@@ -35277,6 +43744,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xefb20cd759f617ab59b758a1f06de02feb5e8bd5",
+		"data": {
+			"name": "TaoHarvest",
+			"symbol": "TAH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xefb20cd759f617ab59b758a1f06de02feb5e8bd5.png"
+		}
+	},
+	{
 		"address": "0xefd113cea2f656fe7899a25a06243a6e40406e08",
 		"data": {
 			"name": "THE9",
@@ -35295,6 +43771,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf017d3690346eb8234b85f74cee5e15821fee1f4",
+		"data": {
+			"name": "GEKKO",
+			"symbol": "GEKKO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf017d3690346eb8234b85f74cee5e15821fee1f4.png"
+		}
+	},
+	{
+		"address": "0xf0187b76be05c1fcaa24f39c0a3aab4434099c4f",
+		"data": {
+			"name": "Aether Games",
+			"symbol": "AEG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf0187b76be05c1fcaa24f39c0a3aab4434099c4f.png"
+		}
+	},
+	{
+		"address": "0xf024e6387392a3c3a03ebd0b9d6b747ff5359417",
+		"data": {
+			"name": "Ordi Launch",
+			"symbol": "ORLA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf024e6387392a3c3a03ebd0b9d6b747ff5359417.png"
+		}
+	},
+	{
 		"address": "0xf028adee51533b1b47beaa890feb54a457f51e89",
 		"data": {
 			"name": "BMCHAIN",
@@ -35304,12 +43807,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf029fd6b5ed35c825dd02b7a02952c30002840e4",
+		"address": "0xf02c2dc9b3cb7f1ba21ccd82dff4ebc92da8996f",
 		"data": {
-			"name": "Sigil Finance",
-			"symbol": "SIGIL",
+			"name": "TensorScan AI",
+			"symbol": "TSA",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf029fd6b5ed35c825dd02b7a02952c30002840e4.png"
+			"logoUri": "/images/tokens/0xf02c2dc9b3cb7f1ba21ccd82dff4ebc92da8996f.png"
 		}
 	},
 	{
@@ -35358,12 +43861,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf063fe1ab7a291c5d06a86e14730b00bf24cb589",
+		"address": "0xf0610eb7d8ee12d59412da32625d5e273e78ff0b",
 		"data": {
-			"name": "DxSale Network",
-			"symbol": "SALE",
+			"name": "MasterDEX",
+			"symbol": "MDEX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf063fe1ab7a291c5d06a86e14730b00bf24cb589.png"
+			"logoUri": "/images/tokens/0xf0610eb7d8ee12d59412da32625d5e273e78ff0b.png"
 		}
 	},
 	{
@@ -35376,12 +43879,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf07ebf00aa847bbb0057b92cb469747e2c7c8a4f",
+		"address": "0xf073bac22dab7faf4a3dd6c6189a70d54110525c",
 		"data": {
-			"name": "Echoes",
-			"symbol": "ECHOES",
+			"name": "GenesisLRT Restaked ETH",
+			"symbol": "GENETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf07ebf00aa847bbb0057b92cb469747e2c7c8a4f.png"
+			"logoUri": "/images/tokens/0xf073bac22dab7faf4a3dd6c6189a70d54110525c.png"
+		}
+	},
+	{
+		"address": "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+		"data": {
+			"name": "ZetaChain",
+			"symbol": "ZETA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf091867ec603a6628ed83d274e835539d82e9cc8.png"
 		}
 	},
 	{
@@ -35391,15 +43903,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "ZERO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf0939011a9bb95c3b791f0cb546377ed2693a574.png"
-		}
-	},
-	{
-		"address": "0xf0a163a26601d9dc8aef26b388eadb7b1c620d24",
-		"data": {
-			"name": "Tickr",
-			"symbol": "TICKR",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xf0a163a26601d9dc8aef26b388eadb7b1c620d24.png"
 		}
 	},
 	{
@@ -35430,12 +43933,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf0dc76c22139ab22618ddfb498be1283254612b1",
+		"address": "0xf0dc9fc0669f068e04ad79f7d70618d3f9aad439",
 		"data": {
-			"name": "Wrapped Star",
-			"symbol": "WSTR",
+			"name": "Oasis Metaverse",
+			"symbol": "OASIS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf0dc76c22139ab22618ddfb498be1283254612b1.png"
+			"logoUri": "/images/tokens/0xf0dc9fc0669f068e04ad79f7d70618d3f9aad439.png"
 		}
 	},
 	{
@@ -35466,12 +43969,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf124ed9ec309907808b1fbc6bedb2a76927b3665",
+		"address": "0xf1102d6d2a531124fa043d18a06c394a81aaa866",
 		"data": {
-			"name": "Empire Network",
-			"symbol": "EMPIRE",
+			"name": "Shiba Inu Classic",
+			"symbol": "SHIBC",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf124ed9ec309907808b1fbc6bedb2a76927b3665.png"
+			"logoUri": "/images/tokens/0xf1102d6d2a531124fa043d18a06c394a81aaa866.png"
 		}
 	},
 	{
@@ -35493,6 +43996,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf12ccd17759367cf139776710b47b00c43d1ac2b",
+		"data": {
+			"name": "emoji ERC20",
+			"symbol": "EMOJI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf12ccd17759367cf139776710b47b00c43d1ac2b.png"
+		}
+	},
+	{
 		"address": "0xf134519cbe2042b06ee7ce20df51d09b55559896",
 		"data": {
 			"name": "Mochi",
@@ -35508,6 +44020,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "UNIETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf1376bcef0f78459c0ed0ba5ddce976f1ddf51f4.png"
+		}
+	},
+	{
+		"address": "0xf161cdb9aa33b2f48be273dae3f3bbb2330ad3e5",
+		"data": {
+			"name": "AZUR Token",
+			"symbol": "AZUR",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf161cdb9aa33b2f48be273dae3f3bbb2330ad3e5.png"
 		}
 	},
 	{
@@ -35547,12 +44068,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1",
+		"data": {
+			"name": "TitanX",
+			"symbol": "TITANX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf19308f923582a6f7c465e5ce7a9dc1bec6665b1.png"
+		}
+	},
+	{
+		"address": "0xf19693068120185664e211f619c4f0530ce07088",
+		"data": {
+			"name": "BANK AI",
+			"symbol": "BANK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf19693068120185664e211f619c4f0530ce07088.png"
+		}
+	},
+	{
 		"address": "0xf1b99e3e573a1a9c5e6b2ce818b617f0e664e86b",
 		"data": {
 			"name": "Opyn Squeeth",
 			"symbol": "OSQTH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf1b99e3e573a1a9c5e6b2ce818b617f0e664e86b.png"
+		}
+	},
+	{
+		"address": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+		"data": {
+			"name": "StakeWise Staked ETH",
+			"symbol": "OSETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf1c9acdc66974dfb6decb12aa385b9cd01190e38.png"
 		}
 	},
 	{
@@ -35574,12 +44122,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
+		"address": "0xf1dba5c1972778763409447d9adedabbbeb177c1",
 		"data": {
-			"name": "Saddle Finance",
-			"symbol": "SDL",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xf1dc500fde233a4055e25e5bbf516372bc4f6871.png"
+			"name": "GEXC FINANCE",
+			"symbol": "GEXC",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf1dba5c1972778763409447d9adedabbbeb177c1.png"
+		}
+	},
+	{
+		"address": "0xf1df7305e4bab3885cab5b1e4dfc338452a67891",
+		"data": {
+			"name": "PaLM AI",
+			"symbol": "PALM",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf1df7305e4bab3885cab5b1e4dfc338452a67891.png"
 		}
 	},
 	{
@@ -35628,6 +44185,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf2041be4ea84599818799eed882389a8a30d2226",
+		"data": {
+			"name": "NeuralBot",
+			"symbol": "NEURAL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf2041be4ea84599818799eed882389a8a30d2226.png"
+		}
+	},
+	{
 		"address": "0xf2051511b9b121394fa75b8f7d4e7424337af687",
 		"data": {
 			"name": "DAOhaus",
@@ -35646,12 +44212,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf23a2bf7619ad93300499c3fc7d7145a06cca562",
+		"address": "0xf250b1f6193941bb8bff4152d719edf1a59c0e69",
 		"data": {
-			"name": "noiseGPT",
-			"symbol": "NOISEGPT",
+			"name": "AiRealm Tech",
+			"symbol": "AIRM",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf23a2bf7619ad93300499c3fc7d7145a06cca562.png"
+			"logoUri": "/images/tokens/0xf250b1f6193941bb8bff4152d719edf1a59c0e69.png"
+		}
+	},
+	{
+		"address": "0xf25304e75026e6a35fedca3b0889ae5c4d3c55d8",
+		"data": {
+			"name": "Viridis Network",
+			"symbol": "VRD",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf25304e75026e6a35fedca3b0889ae5c4d3c55d8.png"
 		}
 	},
 	{
@@ -35679,6 +44254,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "RUFF",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf278c1ca969095ffddded020290cf8b5c424ace2.png"
+		}
+	},
+	{
+		"address": "0xf282484234d905d7229a6c22a0e46bb4b0363ee0",
+		"data": {
+			"name": "Revswap",
+			"symbol": "RVS",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf282484234d905d7229a6c22a0e46bb4b0363ee0.png"
 		}
 	},
 	{
@@ -35727,21 +44311,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf2d754ea7626f35090cddf92893374bd1b2e5a39",
+		"address": "0xf2dfdbe1ea71bbdcb5a4662a16dbf5e487be3ebe",
 		"data": {
-			"name": "Bork Coin",
-			"symbol": "BORK",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xf2d754ea7626f35090cddf92893374bd1b2e5a39.png"
-		}
-	},
-	{
-		"address": "0xf2ddae89449b7d26309a5d54614b1fc99c608af5",
-		"data": {
-			"name": "ASTA",
-			"symbol": "ASTA",
+			"name": "DeCloud",
+			"symbol": "CLOUD",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf2ddae89449b7d26309a5d54614b1fc99c608af5.png"
+			"logoUri": "/images/tokens/0xf2dfdbe1ea71bbdcb5a4662a16dbf5e487be3ebe.png"
 		}
 	},
 	{
@@ -35754,21 +44329,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf2f9a7e93f845b3ce154efbeb64fb9346fcce509",
+		"address": "0xf2fdd9c25d7bc8002ce89716d1be484b2d976944",
 		"data": {
-			"name": "UniPower",
-			"symbol": "POWER",
+			"name": "  Payments",
+			"symbol": "XPAY",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf2f9a7e93f845b3ce154efbeb64fb9346fcce509.png"
+			"logoUri": "/images/tokens/0xf2fdd9c25d7bc8002ce89716d1be484b2d976944.png"
 		}
 	},
 	{
-		"address": "0xf32122561d51e891b823dec2b42f644884c1cd91",
+		"address": "0xf31120603a27a16314effc37a3f32a42028310af",
 		"data": {
-			"name": "DeFido",
-			"symbol": "DEFIDO",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xf32122561d51e891b823dec2b42f644884c1cd91.png"
+			"name": "Flack Exchange",
+			"symbol": "FLACK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf31120603a27a16314effc37a3f32a42028310af.png"
+		}
+	},
+	{
+		"address": "0xf31698ddad0d11160fe85c500397a470cd3d492e",
+		"data": {
+			"name": "Wexo",
+			"symbol": "WEXO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf31698ddad0d11160fe85c500397a470cd3d492e.png"
+		}
+	},
+	{
+		"address": "0xf31826269ac7f452b1274cc884812f426c18ddca",
+		"data": {
+			"name": "MILK Coin",
+			"symbol": "MILK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf31826269ac7f452b1274cc884812f426c18ddca.png"
 		}
 	},
 	{
@@ -35778,15 +44371,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "INU",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf32aa187d5bc16a2c02a6afb7df1459d0d107574.png"
-		}
-	},
-	{
-		"address": "0xf32cfbaf4000e6820a95b3a3fcdbf27fb4efc9af",
-		"data": {
-			"name": "Cash Token",
-			"symbol": "CASH",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xf32cfbaf4000e6820a95b3a3fcdbf27fb4efc9af.png"
 		}
 	},
 	{
@@ -35817,6 +44401,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf3617e8a04265160b9ee10253a2c78565571cb76",
+		"data": {
+			"name": "Blepe the Blue",
+			"symbol": "BLEPE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf3617e8a04265160b9ee10253a2c78565571cb76.png"
+		}
+	},
+	{
 		"address": "0xf36c5f04127f7470834ed6f98bddc1be62aba48d",
 		"data": {
 			"name": "CryptoAI",
@@ -35826,12 +44419,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf3a3023e6dede84ad88a656a3269f2a36e83c9a9",
+		"address": "0xf3768d6e78e65fc64b8f12ffc824452130bd5394",
 		"data": {
-			"name": "Sharbi",
-			"symbol": "SHARBI",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xf3a3023e6dede84ad88a656a3269f2a36e83c9a9.png"
+			"name": "Kerosene",
+			"symbol": "KEROSENE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf3768d6e78e65fc64b8f12ffc824452130bd5394.png"
 		}
 	},
 	{
@@ -35862,12 +44455,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf3bf9b3ef3867d20a5ee51244f8b374b9d5e019e",
+		"address": "0xf3c9308111ddbe3552c1f0931d896b10ccd827ce",
 		"data": {
-			"name": "Edgefolio",
-			"symbol": "EFOLIO",
+			"name": "ChartAI",
+			"symbol": "CX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf3bf9b3ef3867d20a5ee51244f8b374b9d5e019e.png"
+			"logoUri": "/images/tokens/0xf3c9308111ddbe3552c1f0931d896b10ccd827ce.png"
 		}
 	},
 	{
@@ -35895,6 +44488,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "JART",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf3e07812ebc8604fddb0aa35ff79a03f48f48948.png"
+		}
+	},
+	{
+		"address": "0xf3e66b03d098d0482be9cb3d6999787231a93ed9",
+		"data": {
+			"name": "PromptIDE",
+			"symbol": "PROMPTIDE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf3e66b03d098d0482be9cb3d6999787231a93ed9.png"
+		}
+	},
+	{
+		"address": "0xf3ff80d631f7eec2c90180a3cddb3b95e87e2612",
+		"data": {
+			"name": "Coco",
+			"symbol": "COCO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf3ff80d631f7eec2c90180a3cddb3b95e87e2612.png"
 		}
 	},
 	{
@@ -35943,21 +44554,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf4308b0263723b121056938c2172868e408079d0",
+		"data": {
+			"name": "CryoDAO",
+			"symbol": "CRYO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf4308b0263723b121056938c2172868e408079d0.png"
+		}
+	},
+	{
 		"address": "0xf433089366899d83a9f26a773d59ec7ecf30355e",
 		"data": {
 			"name": "Metal DAO",
 			"symbol": "MTL",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xf433089366899d83a9f26a773d59ec7ecf30355e.png"
-		}
-	},
-	{
-		"address": "0xf45091f25d374bbe956c0bb64bb85e02d07aa741",
-		"data": {
-			"name": "MNMCoin",
-			"symbol": "MNMC",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xf45091f25d374bbe956c0bb64bb85e02d07aa741.png"
 		}
 	},
 	{
@@ -35970,6 +44581,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf47245e9a3ba3dca8b004e34afc1290b1d435a52",
+		"data": {
+			"name": "Magical Blocks",
+			"symbol": "MBLK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf47245e9a3ba3dca8b004e34afc1290b1d435a52.png"
+		}
+	},
+	{
+		"address": "0xf482d79ae6e8725c199213fc909d6bc30df62815",
+		"data": {
+			"name": "Recycle Impact World Association",
+			"symbol": "RIWA",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf482d79ae6e8725c199213fc909d6bc30df62815.png"
+		}
+	},
+	{
 		"address": "0xf49311af05a4ffb1dbf33d61e9b2d4f0a7d4a71c",
 		"data": {
 			"name": "CompanionBot",
@@ -35979,12 +44608,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf4aaa9428a881a5c054d0ed041f5749a336c9ab5",
+		"data": {
+			"name": "Mine AI",
+			"symbol": "MAI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf4aaa9428a881a5c054d0ed041f5749a336c9ab5.png"
+		}
+	},
+	{
 		"address": "0xf4b5470523ccd314c6b9da041076e7d79e0df267",
 		"data": {
 			"name": "blockbank",
 			"symbol": "BBANK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf4b5470523ccd314c6b9da041076e7d79e0df267.png"
+		}
+	},
+	{
+		"address": "0xf4cc8237fc85f54b64975142ec71a9554ecf4c61",
+		"data": {
+			"name": "Versus",
+			"symbol": "VS",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf4cc8237fc85f54b64975142ec71a9554ecf4c61.png"
+		}
+	},
+	{
+		"address": "0xf4cccfda0781ae019a9d4e1853dcd3e288daaa89",
+		"data": {
+			"name": "Da Pinchi",
+			"symbol": "PINCHI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf4cccfda0781ae019a9d4e1853dcd3e288daaa89.png"
 		}
 	},
 	{
@@ -36015,12 +44671,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf4f618eff5ef36cde2fca4fbd86554c62fb1382b",
+		"address": "0xf4fb9bf10e489ea3edb03e094939341399587b0c",
 		"data": {
-			"name": "Astra Guild Ventures",
-			"symbol": "AGV",
+			"name": "AirDAO",
+			"symbol": "AMB",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf4f618eff5ef36cde2fca4fbd86554c62fb1382b.png"
+			"logoUri": "/images/tokens/0xf4fb9bf10e489ea3edb03e094939341399587b0c.png"
 		}
 	},
 	{
@@ -36033,12 +44689,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf51ebf9a26dbc02b13f8b3a9110dac47a4d62d78",
+		"address": "0xf5264e1673c9365e7c5d4d1d8b440bbf131ff435",
 		"data": {
-			"name": "APIX",
-			"symbol": "APIX",
+			"name": "vitalek buteren",
+			"symbol": "VITALEK",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf51ebf9a26dbc02b13f8b3a9110dac47a4d62d78.png"
+			"logoUri": "/images/tokens/0xf5264e1673c9365e7c5d4d1d8b440bbf131ff435.png"
 		}
 	},
 	{
@@ -36051,12 +44707,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf552b656022c218c26dad43ad88881fc04116f76",
+		"address": "0xf538296e7dd856af7044deec949489e2f25705bc",
 		"data": {
-			"name": "MORK",
-			"symbol": "MORK",
-			"decimals": 4,
-			"logoUri": "/images/tokens/0xf552b656022c218c26dad43ad88881fc04116f76.png"
+			"name": "Illumicati",
+			"symbol": "MILK",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf538296e7dd856af7044deec949489e2f25705bc.png"
 		}
 	},
 	{
@@ -36105,15 +44761,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf56b164efd3cfc02ba739b719b6526a6fa1ca32a",
-		"data": {
-			"name": "Curio Governance",
-			"symbol": "CGT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xf56b164efd3cfc02ba739b719b6526a6fa1ca32a.png"
-		}
-	},
-	{
 		"address": "0xf5717f5df41ea67ef67dfd3c1d02f9940bcf5d08",
 		"data": {
 			"name": "SeChain",
@@ -36125,19 +44772,10 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
 		"data": {
-			"name": "ImmutableX",
+			"name": "Immutable",
 			"symbol": "IMX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff.png"
-		}
-	},
-	{
-		"address": "0xf59257e961883636290411c11ec5ae622d19455e",
-		"data": {
-			"name": "FloorDAO",
-			"symbol": "FLOOR",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xf59257e961883636290411c11ec5ae622d19455e.png"
 		}
 	},
 	{
@@ -36147,6 +44785,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "PDEX",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf59ae934f6fe444afc309586cc60a84a0f89aaea.png"
+		}
+	},
+	{
+		"address": "0xf5aed4f6a1ad00f39dd21febb6f400ea020030c2",
+		"data": {
+			"name": "Hodless Bot",
+			"symbol": "HBOT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf5aed4f6a1ad00f39dd21febb6f400ea020030c2.png"
+		}
+	},
+	{
+		"address": "0xf5b339d3912d5c72e16440b63a9c1df6024de93c",
+		"data": {
+			"name": "Baby Grok",
+			"symbol": "BABYGROK",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf5b339d3912d5c72e16440b63a9c1df6024de93c.png"
 		}
 	},
 	{
@@ -36177,12 +44833,20 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf5f38b0ad4163a1981c7b960bcd8c242e0038e72",
+		"address": "0xf5ec1a08902ae0ae5323466c35ea49a37409e4ca",
 		"data": {
-			"name": "Burn Kenny",
-			"symbol": "KENNY",
+			"name": "SAKURA UNITED PLATFORM",
+			"symbol": "SUP",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf5f38b0ad4163a1981c7b960bcd8c242e0038e72.png"
+			"logoUri": "/images/tokens/0xf5ec1a08902ae0ae5323466c35ea49a37409e4ca.png"
+		}
+	},
+	{
+		"address": "0xf5eda6c581f4373b07ce111baf8d1c4fc21cbaa1",
+		"data": {
+			"name": "Game Tournament Trophy",
+			"symbol": "GTT",
+			"decimals": 18
 		}
 	},
 	{
@@ -36192,6 +44856,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "MDAI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf6043bea98b07f0bea7813aeb22d0cb70c91c0c4.png"
+		}
+	},
+	{
+		"address": "0xf614e54d972bab297172765ca83683288f3eae36",
+		"data": {
+			"name": "RawBlock",
+			"symbol": "RWB",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf614e54d972bab297172765ca83683288f3eae36.png"
 		}
 	},
 	{
@@ -36222,21 +44895,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf64265e65c4529879a7abf467e00d39e39c0b0da",
+		"data": {
+			"name": "Independence Token",
+			"symbol": "RFKJ",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf64265e65c4529879a7abf467e00d39e39c0b0da.png"
+		}
+	},
+	{
 		"address": "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
 		"data": {
 			"name": "Compound USDT",
 			"symbol": "cUSDT",
 			"decimals": 8,
 			"logoUri": "images/contracts/compound.png"
-		}
-	},
-	{
-		"address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
-		"data": {
-			"name": "cUSDT",
-			"symbol": "CUSDT",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9.png"
 		}
 	},
 	{
@@ -36285,6 +44958,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf67366e83cc9b115ef8cca93baed1f03e6d3ca9a",
+		"data": {
+			"name": "MindVerse",
+			"symbol": "MVERSE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf67366e83cc9b115ef8cca93baed1f03e6d3ca9a.png"
+		}
+	},
+	{
 		"address": "0xf680429328caaacabee69b7a9fdb21a71419c063",
 		"data": {
 			"name": "Butterfly Protocol",
@@ -36312,12 +44994,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf6af18f94d55b8888b557cb3da0ec623ba245f80",
+		"address": "0xf6aeaf0fe66cf2ef2e738ba465fb531ffe39b4e2",
 		"data": {
-			"name": "SocialBlox",
-			"symbol": "SBLX",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xf6af18f94d55b8888b557cb3da0ec623ba245f80.png"
+			"name": "Aternos Chain",
+			"symbol": "ATR",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf6aeaf0fe66cf2ef2e738ba465fb531ffe39b4e2.png"
 		}
 	},
 	{
@@ -36330,12 +45012,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf6c0aa7ebfe9992200c67e5388e4f42da49e1783",
+		"address": "0xf6ccfd6ef2850e84b73adeace9a075526c5910d4",
 		"data": {
-			"name": "Psyche",
-			"symbol": "USD1",
-			"decimals": 2,
-			"logoUri": "/images/tokens/0xf6c0aa7ebfe9992200c67e5388e4f42da49e1783.png"
+			"name": "THE RUNIX TOKEN",
+			"symbol": "RUNIX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf6ccfd6ef2850e84b73adeace9a075526c5910d4.png"
+		}
+	},
+	{
+		"address": "0xf6ce4be313ead51511215f1874c898239a331e37",
+		"data": {
+			"name": "Bird Dog",
+			"symbol": "BIRDDOG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf6ce4be313ead51511215f1874c898239a331e37.png"
+		}
+	},
+	{
+		"address": "0xf6d2224916ddfbbab6e6bd0d1b7034f4ae0cab18",
+		"data": {
+			"name": "Aave v3 UNI",
+			"symbol": "AUNI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf6d2224916ddfbbab6e6bd0d1b7034f4ae0cab18.png"
 		}
 	},
 	{
@@ -36348,12 +45048,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf6ec87dfe1ed3a7256cc0c38e3c8139103e9af3b",
+		"address": "0xf6f31b8afbf8e3f7fc8246bef26093f02838da98",
 		"data": {
-			"name": "Gene",
-			"symbol": "GENE",
+			"name": "Unicorn Metaverse",
+			"symbol": "UNIVERSE",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf6ec87dfe1ed3a7256cc0c38e3c8139103e9af3b.png"
+			"logoUri": "/images/tokens/0xf6f31b8afbf8e3f7fc8246bef26093f02838da98.png"
 		}
 	},
 	{
@@ -36372,6 +45072,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "KEKE",
 			"decimals": 7,
 			"logoUri": "/images/tokens/0xf7168c8abb0ff80116413a8d95396bbdc318a3ff.png"
+		}
+	},
+	{
+		"address": "0xf71a2079566c87e26bcd9766d140d5bfdeeae731",
+		"data": {
+			"name": "Doge69",
+			"symbol": "DOGE69",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf71a2079566c87e26bcd9766d140d5bfdeeae731.png"
 		}
 	},
 	{
@@ -36402,12 +45111,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf75c7a59bcd9bd207c4ab1beb0b32eed3b6392f3",
+		"address": "0xf74751c07c92b668f02527d0e1384ee6d68ac90e",
 		"data": {
-			"name": "Kei Finance",
-			"symbol": "KEI",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xf75c7a59bcd9bd207c4ab1beb0b32eed3b6392f3.png"
+			"name": "AltCTRL",
+			"symbol": "CTRL",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf74751c07c92b668f02527d0e1384ee6d68ac90e.png"
+		}
+	},
+	{
+		"address": "0xf7498c98789957f4ee53b3e37ff5b7ef8a6cfc7b",
+		"data": {
+			"name": "DEVAI",
+			"symbol": "0XDEV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf7498c98789957f4ee53b3e37ff5b7ef8a6cfc7b.png"
+		}
+	},
+	{
+		"address": "0xf76c15cbf1fa9d60a7af39e660d6d7c62ef8021e",
+		"data": {
+			"name": "Wagyu Protocol",
+			"symbol": "WAGYU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf76c15cbf1fa9d60a7af39e660d6d7c62ef8021e.png"
 		}
 	},
 	{
@@ -36429,30 +45156,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf79f9020560963422ecc9c0c04d3a21190bbf045",
+		"address": "0xf79c22713f3912be20a324034a91b11e2958a37e",
 		"data": {
-			"name": "Baby Saitama",
-			"symbol": "BABYSAITAMA",
+			"name": "Plan Blui",
+			"symbol": "PBLUI",
 			"decimals": 9,
-			"logoUri": "/images/tokens/0xf79f9020560963422ecc9c0c04d3a21190bbf045.png"
+			"logoUri": "/images/tokens/0xf79c22713f3912be20a324034a91b11e2958a37e.png"
 		}
 	},
 	{
-		"address": "0xf7de6def3d319811418d69bf56c532a815fc47e8",
+		"address": "0xf79c694605f29ddf3f0eb41319c38672ab6fa89f",
 		"data": {
-			"name": "Two Paws",
-			"symbol": "TWOPAW",
+			"name": "Mackerel",
+			"symbol": "MACKS",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf7de6def3d319811418d69bf56c532a815fc47e8.png"
+			"logoUri": "/images/tokens/0xf79c694605f29ddf3f0eb41319c38672ab6fa89f.png"
 		}
 	},
 	{
-		"address": "0xf7e40af830a2ecbfe72c5210c1ca272e3aa7ca1b",
+		"address": "0xf7c1caaa2b29458e8f9a6c45348e385351971209",
 		"data": {
-			"name": "Cultiplan",
-			"symbol": "CTPL",
+			"name": "Parobot",
+			"symbol": "PARO",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf7e40af830a2ecbfe72c5210c1ca272e3aa7ca1b.png"
+			"logoUri": "/images/tokens/0xf7c1caaa2b29458e8f9a6c45348e385351971209.png"
 		}
 	},
 	{
@@ -36462,6 +45189,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "IZE",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xf7e945fce8f19302aacc7e1418b0a0bdef89327b.png"
+		}
+	},
+	{
+		"address": "0xf7ff660cbdcc5d0ba48988119144425974d88792",
+		"data": {
+			"name": "Scope Sniper",
+			"symbol": "SCOPE",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf7ff660cbdcc5d0ba48988119144425974d88792.png"
 		}
 	},
 	{
@@ -36492,12 +45228,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf823fd9ac0abb8d779076a41daa049844299f6ed",
+		"address": "0xf827f77422d6dff7b4e1bc87fec88606082b2199",
 		"data": {
-			"name": "Squid Game",
-			"symbol": "SQUID",
+			"name": "MuskX",
+			"symbol": "MUSKX",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf823fd9ac0abb8d779076a41daa049844299f6ed.png"
+			"logoUri": "/images/tokens/0xf827f77422d6dff7b4e1bc87fec88606082b2199.png"
 		}
 	},
 	{
@@ -36519,6 +45255,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf857c938829c2a53557fb3fbb1c85d10a5227e03",
+		"data": {
+			"name": "ECL",
+			"symbol": "ECL",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf857c938829c2a53557fb3fbb1c85d10a5227e03.png"
+		}
+	},
+	{
+		"address": "0xf86cfce1e746456135d7face48c2916d7d3cb676",
+		"data": {
+			"name": "Everflow Token",
+			"symbol": "EFT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf86cfce1e746456135d7face48c2916d7d3cb676.png"
+		}
+	},
+	{
 		"address": "0xf88baf18fab7e330fa0c4f83949e23f52fececce",
 		"data": {
 			"name": "Granary",
@@ -36528,12 +45282,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf89060c99853bb52eaf5f2247d007d73de660252",
+		"address": "0xf89674f18309a2e97843c6e9b19c07c22caef6d5",
 		"data": {
-			"name": "Wrapped BESC",
-			"symbol": "WBESC",
+			"name": "cyb3rgam3r420",
+			"symbol": "GAMER",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf89674f18309a2e97843c6e9b19c07c22caef6d5.png"
+		}
+	},
+	{
+		"address": "0xf898bae008cd85046431ab0a75f00689d6aa1b1c",
+		"data": {
+			"name": "0xVPN org",
+			"symbol": "VPN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xf89060c99853bb52eaf5f2247d007d73de660252.png"
+			"logoUri": "/images/tokens/0xf898bae008cd85046431ab0a75f00689d6aa1b1c.png"
 		}
 	},
 	{
@@ -36627,6 +45390,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf92d62ed69242d655e685c96b98f32f1409c3262",
+		"data": {
+			"name": "AlienForm",
+			"symbol": "A4M",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf92d62ed69242d655e685c96b98f32f1409c3262.png"
+		}
+	},
+	{
+		"address": "0xf938346d7117534222b48d09325a6b8162b3a9e7",
+		"data": {
+			"name": "Choppy",
+			"symbol": "CHOPPY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf938346d7117534222b48d09325a6b8162b3a9e7.png"
+		}
+	},
+	{
 		"address": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
 		"data": {
 			"name": "crvUSD",
@@ -36654,12 +45435,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf94e7d0710709388bce3161c32b4eea56d3f91cc",
+		"data": {
+			"name": "Destra Network",
+			"symbol": "DSYNC",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf94e7d0710709388bce3161c32b4eea56d3f91cc.png"
+		}
+	},
+	{
 		"address": "0xf951e335afb289353dc249e82926178eac7ded78",
 		"data": {
 			"name": "Swell Ethereum",
 			"symbol": "SWETH",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf951e335afb289353dc249e82926178eac7ded78.png"
+		}
+	},
+	{
+		"address": "0xf96287ea71abb5c8c58961c7a3cd3982a505e264",
+		"data": {
+			"name": "Stem AI",
+			"symbol": "STEM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf96287ea71abb5c8c58961c7a3cd3982a505e264.png"
 		}
 	},
 	{
@@ -36681,12 +45480,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xf97e2a78f1f3d1fd438ff7cc3bb7de01e5945b83",
+		"data": {
+			"name": "holoride",
+			"symbol": "RIDE",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xf97e2a78f1f3d1fd438ff7cc3bb7de01e5945b83.png"
+		}
+	},
+	{
 		"address": "0xf98ab0874b13a7fdc39d7295dedd49850a5d426b",
 		"data": {
 			"name": "KIRA",
 			"symbol": "KIRA",
 			"decimals": 8,
 			"logoUri": "/images/tokens/0xf98ab0874b13a7fdc39d7295dedd49850a5d426b.png"
+		}
+	},
+	{
+		"address": "0xf995771a957c19319a7d8d58b4082b049420340f",
+		"data": {
+			"name": "BONK Inu",
+			"symbol": "BONKI",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xf995771a957c19319a7d8d58b4082b049420340f.png"
 		}
 	},
 	{
@@ -36699,30 +45516,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xf9c12b27ce5058ab98ce11bd53900f84e18c0650",
-		"data": {
-			"name": "Y2B",
-			"symbol": "Y2B",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xf9c12b27ce5058ab98ce11bd53900f84e18c0650.png"
-		}
-	},
-	{
 		"address": "0xf9c53268e9de692ae1b2ea5216e24e1c3ad7cb1e",
 		"data": {
 			"name": "Idexo",
 			"symbol": "IDO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xf9c53268e9de692ae1b2ea5216e24e1c3ad7cb1e.png"
-		}
-	},
-	{
-		"address": "0xf9c5ce0c5fa29b487b7329bb92d8e473c386f82b",
-		"data": {
-			"name": "WhaleWatch",
-			"symbol": "WBOT",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xf9c5ce0c5fa29b487b7329bb92d8e473c386f82b.png"
 		}
 	},
 	{
@@ -36780,21 +45579,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xfa1b65448e7ec5f37e512cdce52ab79e541f4fb2",
+		"address": "0xfa219a9bd37712ef04e5b04abce9ace538ffafb7",
 		"data": {
-			"name": "Snail Race",
-			"symbol": "SNAILS",
-			"decimals": 9,
-			"logoUri": "/images/tokens/0xfa1b65448e7ec5f37e512cdce52ab79e541f4fb2.png"
+			"name": "Pet the Dog",
+			"symbol": "DOGPET",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfa219a9bd37712ef04e5b04abce9ace538ffafb7.png"
 		}
 	},
 	{
-		"address": "0xfa26384ddda8176c74db700bb0cda50c559e9977",
+		"address": "0xfa2629b9cf3998d52726994e0fcdb750224d8b9d",
 		"data": {
-			"name": "X GF",
-			"symbol": "XGF",
+			"name": "Inception ankrETH",
+			"symbol": "INANKRETH",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xfa26384ddda8176c74db700bb0cda50c559e9977.png"
+			"logoUri": "/images/tokens/0xfa2629b9cf3998d52726994e0fcdb750224d8b9d.png"
 		}
 	},
 	{
@@ -36807,11 +45606,20 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfa3e941d1f6b7b10ed84a0c211bfa8aee907965e",
+		"data": {
+			"name": "HayCoin",
+			"symbol": "HAY",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfa3e941d1f6b7b10ed84a0c211bfa8aee907965e.png"
+		}
+	},
+	{
 		"address": "0xfa4baa6951b6ee382e9ff9af2d523278b99ca6d0",
 		"data": {
 			"name": "House",
 			"symbol": "HOUSE",
-			"decimals": 6,
+			"decimals": 18,
 			"logoUri": "/images/tokens/0xfa4baa6951b6ee382e9ff9af2d523278b99ca6d0.png"
 		}
 	},
@@ -36831,6 +45639,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "VCK",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfa5b75a9e13df9775cf5b996a049d9cc07c15731.png"
+		}
+	},
+	{
+		"address": "0xfa816739edaac4ebf329219d4ef575085cc28037",
+		"data": {
+			"name": "Search",
+			"symbol": "0XSEARCH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfa816739edaac4ebf329219d4ef575085cc28037.png"
 		}
 	},
 	{
@@ -36897,12 +45714,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+		"data": {
+			"name": "Restaked Swell ETH",
+			"symbol": "RSWETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfae103dc9cf190ed75350761e95403b7b8afa6c0.png"
+		}
+	},
+	{
+		"address": "0xfae30394a76796dc3df37c2714f5fc12083dfdb0",
+		"data": {
+			"name": "NakaChain",
+			"symbol": "NAKA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfae30394a76796dc3df37c2714f5fc12083dfdb0.png"
+		}
+	},
+	{
 		"address": "0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090",
 		"data": {
 			"name": "CPChain",
 			"symbol": "CPC",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090.png"
+		}
+	},
+	{
+		"address": "0xfb0489e9753b045ddb35e39c6b0cc02ec6b99ac5",
+		"data": {
+			"name": "AGG",
+			"symbol": "AGG",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfb0489e9753b045ddb35e39c6b0cc02ec6b99ac5.png"
 		}
 	},
 	{
@@ -36921,15 +45765,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "FB",
 			"decimals": 6,
 			"logoUri": "/images/tokens/0xfb19075d77a0f111796fb259819830f4780f1429.png"
-		}
-	},
-	{
-		"address": "0xfb5453340c03db5ade474b27e68b6a9c6b2823eb",
-		"data": {
-			"name": "Robot",
-			"symbol": "ROBOT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfb5453340c03db5ade474b27e68b6a9c6b2823eb.png"
 		}
 	},
 	{
@@ -36957,15 +45792,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "DPET",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfb62ae373aca027177d1c18ee0862817f9080d08.png"
-		}
-	},
-	{
-		"address": "0xfb66321d7c674995dfcc2cb67a30bc978dc862ad",
-		"data": {
-			"name": "Pepe 2 0",
-			"symbol": "PEPE20",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfb66321d7c674995dfcc2cb67a30bc978dc862ad.png"
 		}
 	},
 	{
@@ -37014,12 +45840,39 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfbcb5cbedeebcc55dcd136d34db1daaf74cf67e8",
+		"data": {
+			"name": "Animalia",
+			"symbol": "ANIM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfbcb5cbedeebcc55dcd136d34db1daaf74cf67e8.png"
+		}
+	},
+	{
 		"address": "0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b",
 		"data": {
 			"name": "Treat Token",
 			"symbol": "TREAT",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfbd5fd3f85e9f4c5e8b40eec9f8b8ab1caaa146b.png"
+		}
+	},
+	{
+		"address": "0xfbe44cae91d7df8382208fcdc1fe80e40fbc7e9a",
+		"data": {
+			"name": "The Next Gem AI",
+			"symbol": "GEMAI",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfbe44cae91d7df8382208fcdc1fe80e40fbc7e9a.png"
+		}
+	},
+	{
+		"address": "0xfbe6f37d3db3fc939f665cfe21238c11a5447831",
+		"data": {
+			"name": "ETH 2 0",
+			"symbol": "ETH20",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfbe6f37d3db3fc939f665cfe21238c11a5447831.png"
 		}
 	},
 	{
@@ -37070,19 +45923,28 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xfc0b60e0df5dc9d4b72d957ca2d251cee308019a",
 		"data": {
-			"name": "Shattered Legion",
+			"name": "SLG GAMES",
 			"symbol": "SLG",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfc0b60e0df5dc9d4b72d957ca2d251cee308019a.png"
 		}
 	},
 	{
-		"address": "0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a",
+		"address": "0xfc10cd3895f2c66d6639ec33ae6360d6cfca7d6d",
 		"data": {
-			"name": "Netvrk",
-			"symbol": "NTVRK",
+			"name": "YES",
+			"symbol": "YES",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a.png"
+			"logoUri": "/images/tokens/0xfc10cd3895f2c66d6639ec33ae6360d6cfca7d6d.png"
+		}
+	},
+	{
+		"address": "0xfc116ea24f002f600e363bdce4b91715fe5e0392",
+		"data": {
+			"name": "L3T H1M C00K",
+			"symbol": "DOUGH",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfc116ea24f002f600e363bdce4b91715fe5e0392.png"
 		}
 	},
 	{
@@ -37113,12 +45975,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfc226294dafb6e69905b3e7635b575d0508a42c5",
+		"data": {
+			"name": "0xBlack",
+			"symbol": "0XB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfc226294dafb6e69905b3e7635b575d0508a42c5.png"
+		}
+	},
+	{
 		"address": "0xfc4913214444af5c715cc9f7b52655e788a569ed",
 		"data": {
-			"name": "Icosa",
+			"name": "Icosa  ETH ",
 			"symbol": "ICSA",
 			"decimals": 9,
 			"logoUri": "/images/tokens/0xfc4913214444af5c715cc9f7b52655e788a569ed.png"
+		}
+	},
+	{
+		"address": "0xfc4b4ec763722b71eb1d729749b447a9645f5f30",
+		"data": {
+			"name": "DumbMoney",
+			"symbol": "GME",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfc4b4ec763722b71eb1d729749b447a9645f5f30.png"
 		}
 	},
 	{
@@ -37137,6 +46017,24 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "aWBTC",
 			"decimals": 8,
 			"logoUri": "images/contracts/aave.png"
+		}
+	},
+	{
+		"address": "0xfc5e4ed56153b57aa8ef769eba3e79e58e19be93",
+		"data": {
+			"name": "SOLAV",
+			"symbol": "SOLAV",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfc5e4ed56153b57aa8ef769eba3e79e58e19be93.png"
+		}
+	},
+	{
+		"address": "0xfc70cbb442d5c115ee1497d22b421b1f9bd9f3da",
+		"data": {
+			"name": "Biblical Truth",
+			"symbol": "BTRU",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfc70cbb442d5c115ee1497d22b421b1f9bd9f3da.png"
 		}
 	},
 	{
@@ -37178,7 +46076,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 	{
 		"address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
 		"data": {
-			"name": "Rarible",
+			"name": "RARI",
 			"symbol": "RARI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfca59cd816ab1ead66534d82bc21e7515ce441cf.png"
@@ -37212,24 +46110,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xfcc63e6459936216b7b887f6da5fcd90c0c62b7c",
-		"data": {
-			"name": "Korea Entertainment Education   Shoppin",
-			"symbol": "KEES",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfcc63e6459936216b7b887f6da5fcd90c0c62b7c.png"
-		}
-	},
-	{
-		"address": "0xfcdb9e987f9159dab2f507007d5e3d10c510aa70",
-		"data": {
-			"name": "0x1 tools  AI Multi tool",
-			"symbol": "0X1",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfcdb9e987f9159dab2f507007d5e3d10c510aa70.png"
-		}
-	},
-	{
 		"address": "0xfceb206e1a80527908521121358b5e26caabaa75",
 		"data": {
 			"name": "Main",
@@ -37257,6 +46137,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfd07fd5ebea6f24888a397997e262179bf494336",
+		"data": {
+			"name": "Inception osETH",
+			"symbol": "INOSETH",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfd07fd5ebea6f24888a397997e262179bf494336.png"
+		}
+	},
+	{
 		"address": "0xfd0877d9095789caf24c98f7cce092fa8e120775",
 		"data": {
 			"name": "TUSD yVault",
@@ -37275,6 +46164,33 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfd1450a131599ff34f3be1775d8c8bf79e353d8c",
+		"data": {
+			"name": "Shiba",
+			"symbol": "SHIBA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfd1450a131599ff34f3be1775d8c8bf79e353d8c.png"
+		}
+	},
+	{
+		"address": "0xfd20e1b78c353877a25274c85fb5566277e5f60e",
+		"data": {
+			"name": "HighNoon",
+			"symbol": "NOON",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfd20e1b78c353877a25274c85fb5566277e5f60e.png"
+		}
+	},
+	{
+		"address": "0xfd26e39807772251c3bb90fb1fcd9ce5b80c5c24",
+		"data": {
+			"name": "Codex Multichain",
+			"symbol": "CODEX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfd26e39807772251c3bb90fb1fcd9ce5b80c5c24.png"
+		}
+	},
+	{
 		"address": "0xfd414e39155f91e94443a9fe97e856569d0f5eec",
 		"data": {
 			"name": "Shibarium Perpetuals",
@@ -37284,12 +46200,21 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xfd4168e642ebd04c3684a6cdb3a5e86de85d3908",
+		"address": "0xfd4ca4a692f14d88af3e7ae13cf00d5095213b25",
 		"data": {
-			"name": "The APIS",
-			"symbol": "API",
+			"name": "Wiskers",
+			"symbol": "WSKR",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xfd4168e642ebd04c3684a6cdb3a5e86de85d3908.png"
+			"logoUri": "/images/tokens/0xfd4ca4a692f14d88af3e7ae13cf00d5095213b25.png"
+		}
+	},
+	{
+		"address": "0xfd4f2caf941b6d737382dce420b368de3fc7f2d4",
+		"data": {
+			"name": "Patex",
+			"symbol": "PATEX",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfd4f2caf941b6d737382dce420b368de3fc7f2d4.png"
 		}
 	},
 	{
@@ -37320,30 +46245,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xfde00bd1da57349b0df85f134b18124266f3bc5b",
+		"address": "0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb",
 		"data": {
-			"name": "Decentralized Intelligence Agency",
-			"symbol": "DIA",
+			"name": "Ether fi",
+			"symbol": "ETHFI",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xfde00bd1da57349b0df85f134b18124266f3bc5b.png"
-		}
-	},
-	{
-		"address": "0xfdedd42a446bf6c5a883727cda6ff557511e3e1e",
-		"data": {
-			"name": "Waygate",
-			"symbol": "WAY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfdedd42a446bf6c5a883727cda6ff557511e3e1e.png"
-		}
-	},
-	{
-		"address": "0xfdf7af616091a05b9cd3b5aedd3e88d4e8cd882e",
-		"data": {
-			"name": "No ticker",
-			"symbol": "NOTICKER",
-			"decimals": 8,
-			"logoUri": "/images/tokens/0xfdf7af616091a05b9cd3b5aedd3e88d4e8cd882e.png"
+			"logoUri": "/images/tokens/0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb.png"
 		}
 	},
 	{
@@ -37356,12 +46263,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfe1b621235227bfa14ed81be2ba4e5e4447b52c0",
+		"data": {
+			"name": "ORDINAL TOOLS",
+			"symbol": "ORT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfe1b621235227bfa14ed81be2ba4e5e4447b52c0.png"
+		}
+	},
+	{
 		"address": "0xfe2e637202056d30016725477c5da089ab0a043a",
 		"data": {
 			"name": "sETH2",
 			"symbol": "SETH2",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfe2e637202056d30016725477c5da089ab0a043a.png"
+		}
+	},
+	{
+		"address": "0xfe38fd8d710b0ad367f60cb9fc4de5e7ba95633b",
+		"data": {
+			"name": "Lena",
+			"symbol": "LENA",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfe38fd8d710b0ad367f60cb9fc4de5e7ba95633b.png"
 		}
 	},
 	{
@@ -37419,12 +46344,56 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xfe6f2e70f30a0894d0aee79e11653275e89c7bd6",
+		"data": {
+			"name": "Karen Pepe",
+			"symbol": "KEPE",
+			"decimals": 18
+		}
+	},
+	{
+		"address": "0xfe7290b932cd0d5aec29c57394e87cdaa41cc054",
+		"data": {
+			"name": "Smart AI",
+			"symbol": "SMART",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfe7290b932cd0d5aec29c57394e87cdaa41cc054.png"
+		}
+	},
+	{
+		"address": "0xfe80d611c6403f70e5b1b9b722d2b3510b740b2b",
+		"data": {
+			"name": "Equilibria Finance",
+			"symbol": "EQB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfe80d611c6403f70e5b1b9b722d2b3510b740b2b.png"
+		}
+	},
+	{
+		"address": "0xfe98796e0af4ababd716508429e51ff9ac1bb4d5",
+		"data": {
+			"name": "Transactra Finance",
+			"symbol": "TRSCT",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xfe98796e0af4ababd716508429e51ff9ac1bb4d5.png"
+		}
+	},
+	{
 		"address": "0xfe9a29ab92522d14fc65880d817214261d8479ae",
 		"data": {
 			"name": "Snowswap",
 			"symbol": "SNOW",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xfe9a29ab92522d14fc65880d817214261d8479ae.png"
+		}
+	},
+	{
+		"address": "0xfea156a736dee69da8740185f7d38e14f2d99ae7",
+		"data": {
+			"name": "Querio",
+			"symbol": "QRO",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xfea156a736dee69da8740185f7d38e14f2d99ae7.png"
 		}
 	},
 	{
@@ -37437,30 +46406,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xfed656555a88c86675d2bf01a3b7861c3f89d478",
+		"address": "0xfed802a7e561d6324818358790b176a01d765f19",
 		"data": {
-			"name": "Alcatraz",
-			"symbol": "ALCZ",
+			"name": "BlockRock",
+			"symbol": "FED",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xfed656555a88c86675d2bf01a3b7861c3f89d478.png"
-		}
-	},
-	{
-		"address": "0xfeea0bdd3d07eb6fe305938878c0cadbfa169042",
-		"data": {
-			"name": "8Pay",
-			"symbol": "8PAY",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfeea0bdd3d07eb6fe305938878c0cadbfa169042.png"
-		}
-	},
-	{
-		"address": "0xfeeb4d0f5463b1b04351823c246bdb84c4320cc2",
-		"data": {
-			"name": "Gold Retriever",
-			"symbol": "GLDN",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfeeb4d0f5463b1b04351823c246bdb84c4320cc2.png"
+			"logoUri": "/images/tokens/0xfed802a7e561d6324818358790b176a01d765f19.png"
 		}
 	},
 	{
@@ -37482,12 +46433,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xff030228a046f640143dab19be00009606c89b1d",
+		"address": "0xfeff7b68bc540826da22b296c82a4b8b6b845f41",
 		"data": {
-			"name": "Auxo",
-			"symbol": "AUXO",
+			"name": "United Emirates Of Fun",
+			"symbol": "UEFN",
 			"decimals": 18,
-			"logoUri": "/images/tokens/0xff030228a046f640143dab19be00009606c89b1d.png"
+			"logoUri": "/images/tokens/0xfeff7b68bc540826da22b296c82a4b8b6b845f41.png"
+		}
+	},
+	{
+		"address": "0xff00644ca76def7a3f7501a281ffe45934aefbfe",
+		"data": {
+			"name": "Shadow Wizard Money Gang",
+			"symbol": "GANG",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xff00644ca76def7a3f7501a281ffe45934aefbfe.png"
+		}
+	},
+	{
+		"address": "0xff055ff1ec9aa85f14e757d769f9d52d023f2e3b",
+		"data": {
+			"name": "NodeHUB",
+			"symbol": "NHUB",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xff055ff1ec9aa85f14e757d769f9d52d023f2e3b.png"
 		}
 	},
 	{
@@ -37509,12 +46478,12 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
-		"address": "0xff44b5719f0b77a9951636fc5e69d3a1fc9e7d73",
+		"address": "0xff3f8227c3b0241848e1420ec77d61aee2ad5f67",
 		"data": {
-			"name": "4ART Coin",
-			"symbol": "4ART",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xff44b5719f0b77a9951636fc5e69d3a1fc9e7d73.png"
+			"name": "TxWorx",
+			"symbol": "TX",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xff3f8227c3b0241848e1420ec77d61aee2ad5f67.png"
 		}
 	},
 	{
@@ -37563,6 +46532,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xff836a5821e69066c87e268bc51b849fab94240c",
+		"data": {
+			"name": "Real Smurf Cat",
+			"symbol": "SMURFCAT",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xff836a5821e69066c87e268bc51b849fab94240c.png"
+		}
+	},
+	{
 		"address": "0xff8c479134a18918059493243943150776cf8cf2",
 		"data": {
 			"name": "Renq Finance",
@@ -37572,21 +46550,30 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xff931a7946d2fa11cf9123ef0dc6f6c7c6cb60c4",
+		"data": {
+			"name": "Dancing Baby",
+			"symbol": "BABY",
+			"decimals": 9,
+			"logoUri": "/images/tokens/0xff931a7946d2fa11cf9123ef0dc6f6c7c6cb60c4.png"
+		}
+	},
+	{
+		"address": "0xff9c1f21c621696c4f91cf781ec31bd913ee2c26",
+		"data": {
+			"name": " com  Ordinals ",
+			"symbol": "COM",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xff9c1f21c621696c4f91cf781ec31bd913ee2c26.png"
+		}
+	},
+	{
 		"address": "0xffa188493c15dfaf2c206c97d8633377847b6a52",
 		"data": {
 			"name": "Wefi Finance",
 			"symbol": "WEFI",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xffa188493c15dfaf2c206c97d8633377847b6a52.png"
-		}
-	},
-	{
-		"address": "0xffbf315f70e458e49229654dea4ce192d26f9b25",
-		"data": {
-			"name": "Voltage",
-			"symbol": "VOLT",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xffbf315f70e458e49229654dea4ce192d26f9b25.png"
 		}
 	},
 	{
@@ -37608,6 +46595,15 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 		}
 	},
 	{
+		"address": "0xffe203b59393593965842439ce1e7d7c78109b46",
+		"data": {
+			"name": "Satellite Doge 1 Mission",
+			"symbol": "DOGE-1",
+			"decimals": 18,
+			"logoUri": "/images/tokens/0xffe203b59393593965842439ce1e7d7c78109b46.png"
+		}
+	},
+	{
 		"address": "0xffe510a92434a0df346c5e72a3494b043cf249eb",
 		"data": {
 			"name": "LUX BIO EXCHANGE COIN",
@@ -37623,15 +46619,6 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"symbol": "COMBO",
 			"decimals": 18,
 			"logoUri": "/images/tokens/0xffffffff2ba8f66d4e51811c5190992176930278.png"
-		}
-	},
-	{
-		"address": "0xfffffffff15abf397da76f1dcc1a1604f45126db",
-		"data": {
-			"name": "Falconswap",
-			"symbol": "FSW",
-			"decimals": 18,
-			"logoUri": "/images/tokens/0xfffffffff15abf397da76f1dcc1a1604f45126db.png"
 		}
 	}
 ]

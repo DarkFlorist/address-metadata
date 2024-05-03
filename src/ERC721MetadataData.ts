@@ -63,7 +63,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x036721e5a769cc48b3189efbb9cce4471e8a48b1",
 		"Checks - VV Originals",
 		"CHECKS",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x036721e5a769cc48b3189efbb9cce4471e8a48b1.png"
 	],
 	[
 		"0x037244f1026df01b6f6880e38a64bef012d9b6e5",
@@ -860,7 +861,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x210727b13f631aeef8fc5f9db324efabcb235152",
 		"Mamonono2022",
 		"MAMONONO",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x210727b13f631aeef8fc5f9db324efabcb235152.png"
 	],
 	[
 		"0x21177c97be40b52b002fbee000a03212708bcf47",
@@ -1236,7 +1238,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x3059955684071b412bd8e6f1506577ac11ddd692",
 		"Mutant Y00ts Yacht Club Official",
 		"MYYC",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x3059955684071b412bd8e6f1506577ac11ddd692.png"
 	],
 	[
 		"0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
@@ -1753,7 +1756,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x40948a124b632a900a58ad01e2ef0534b97a1087",
 		"Dodoor NFT",
 		"DDNFT",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x40948a124b632a900a58ad01e2ef0534b97a1087.png"
 	],
 	[
 		"0x40a1cfdd75071ee0caa50964c2c1acbb9375424e",
@@ -2067,7 +2071,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x4d5958974dbe62917fa939d114d7de6248003d1e",
 		"3600YAKO NFT",
 		"YAKO",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x4d5958974dbe62917fa939d114d7de6248003d1e.png"
 	],
 	[
 		"0x4d5ad9198f71f23bd002ef8445a1a8cf2932c744",
@@ -2129,7 +2134,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x5069fbffb1f65e6c3d9efe7c70c4c0d13524e960",
 		"Daydreamers NFT",
 		"DREAM",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x5069fbffb1f65e6c3d9efe7c70c4c0d13524e960.png"
 	],
 	[
 		"0x5078981549a1cc18673eb76fb47468f546aadc51",
@@ -2947,7 +2953,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x6fefb647395e680339badc84dc774e3ca8bca7b9",
 		"MY BEAUTIFUL DARK TWISTED FANTASY BY BEEBLE",
 		"MBDTF",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x6fefb647395e680339badc84dc774e3ca8bca7b9.png"
 	],
 	[
 		"0x705b9dbd0d5607beafe12e2fb74d64268d3ba35f",
@@ -3170,7 +3177,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x7867b3ac827426fe68a308e1011394f688cb7ec5",
 		"DROP'S - META KAWAII",
 		"DROPS",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x7867b3ac827426fe68a308e1011394f688cb7ec5.png"
 	],
 	[
 		"0x78a3b30f90f9a39272c1cb3e558fcd1cbe5fb791",
@@ -3596,7 +3604,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x86c35fa9665002c08801805280ff6a077b23c98a",
 		"CatBlox Genesis Collection",
 		"CATBLOXGEN",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x86c35fa9665002c08801805280ff6a077b23c98a.png"
 	],
 	[
 		"0x86cc280d0bac0bd4ea38ba7d31e895aa20cceb4b",

@@ -383,7 +383,8 @@ export const erc1155MetadataData: Erc1155MetadataData = [
 		"0xd374410e9bb22f3771ffbd0b40a07c0cf44a04fc",
 		"The Nifty Portal",
 		"The Nifty Portal",
-		"ERC1155"
+		"ERC1155",
+		"/images/nfts/0xd374410e9bb22f3771ffbd0b40a07c0cf44a04fc.png"
 	],
 	[
 		"0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401",
