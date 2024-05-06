@@ -92,8 +92,6 @@ export async function getMiscAddresses() {
 		['Zapper.Fi: yVault V1 Zap In/Out', 0x9c57618bfcdfae4ce8e49226ca22a7837de64a2dn, 'Zapper'],
 		['Zapper.Fi: Zap Out V2', 0x2fba0b21a553f0f268293be7abb07a54fffd2b02n, 'Zapper'],
 		['Zapper.Fi: Zapper NFT', 0xfaff15c6cdaca61a4f87d329689293e07c98f578n, 'Zapper'],
-		
-		['ENS: Name Wrapper', 0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401n , 'ENS'],
 	] as const
 	return addresses.map(([name, address, protocol]) => ({
 		address: address,
