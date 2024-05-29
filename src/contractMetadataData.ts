@@ -3,12 +3,21 @@ export type Address = `0x${string}`
 export type Name = string
 export type Protocol = 'Uniswap' | 'Uniswap V2' | 'Uniswap V3' | 'ETH2' | 'Arbitrum' | 'Lido' | 'Matic' | 'OpenSea' | '0x' | 'Zapper' | 'Aave' | 'ENS'
 export type LogoRelativePath = string
+export type Abi = string
+export type ContractMetadataDataWithLogoAndAbi = readonly [Address, Name, Protocol, LogoRelativePath, Abi]
 export type ContractMetadataDataWithLogo = readonly [Address, Name, Protocol, LogoRelativePath]
 export type ContractMetadataDataWithoutLogo = readonly [Address, Name, Protocol]
 
-export type ContractMetadataData = readonly (ContractMetadataDataWithLogo | ContractMetadataDataWithoutLogo)[]
+export type ContractMetadataData = readonly (ContractMetadataDataWithLogo | ContractMetadataDataWithoutLogo | ContractMetadataDataWithLogoAndAbi)[]
 
 export const contractMetadataData: ContractMetadataData = [
+	[
+		"0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
+		"ENS: Registry with FallBack",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract ENS\",\"name\":\"_old\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ApprovalForAll\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"label\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"NewOwner\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"NewResolver\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"NewTTL\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"isApprovedForAll\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"old\",\"outputs\":[{\"internalType\":\"contract ENS\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"recordExists\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"resolver\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"setApprovalForAll\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"setOwner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"setRecord\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"setResolver\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"label\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"setSubnodeOwner\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"label\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"setSubnodeRecord\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"setTTL\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"ttl\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}]"
+	],
 	[
 		"0x000000000022d473030f116ddee9f6b43ac78ba3",
 		"Uniswap Permit2",
@@ -80,6 +89,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x00f44eb2f3500e19f7b4b63c0348f43a3aa37ebc",
+		"Uniswap V2 Pair: WETH - DCI",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x00f5e5b8cbb3c91a82fe82eb5fbb023543723093",
 		"Uniswap V2 Pair: GNBU - WETH",
 		"Uniswap V2",
@@ -137,6 +152,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x01b464bc83f09e13c0ab218692ad09f971d88608",
 		"Uniswap V2 Pair: WETH - CLOUD",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x01bd1d1f933692dfc64d1d64cc3ed1c24887edaa",
+		"Uniswap V3 Pool: OMNI - WETH",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -904,6 +925,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x0c3fdf9c70835f9be9db9585ecb6a1ee3f20a6c7",
+		"Uniswap V2 Pair: WETH - MAGA",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
 		"Uniswap V2 Pair: QNT - WETH",
 		"Uniswap V2",
@@ -1176,6 +1203,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c",
 		"Uniswap V2 Pair: GLCH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x105077ef53d3a281f006812af15419d29ed4a735",
+		"Uniswap V2 Pair: MEGA - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -1497,6 +1530,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x145f0c28a85e351b6de89fe06a0c062528da5d13",
+		"Uniswap V2 Pair: EGOD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x146d3401b6a41122bd318ba676a01c44cb0795e2",
 		"Uniswap V2 Pair: NFY - WETH",
 		"Uniswap V2",
@@ -1596,6 +1635,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x15d12305d0f57c99d947e66d4164094ffccf78fc",
 		"Uniswap V3 Pool: SWISE - WETH",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x15e2cbcc43b07d74eb48e686ec80cc9ece98a0c1",
+		"Uniswap V2 Pair: WETH - XEROAI",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -1948,6 +1993,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x1a58aa618df8f1ec282748fef6185c1a1cc2faa6",
 		"Uniswap V2 Pair: TRAC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x1a67c5a7eee3cfc4a3cfa2b5f9677d751f39919f",
+		"Uniswap V2 Pair: WETH - MONKAS",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -2548,6 +2599,13 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+		"ENS: Public Resolver",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract ENS\",\"name\":\"_ens\",\"type\":\"address\"},{\"internalType\":\"contract INameWrapper\",\"name\":\"wrapperAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_trustedETHController\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_trustedReverseRegistrar\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"contentType\",\"type\":\"uint256\"}],\"name\":\"ABIChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"a\",\"type\":\"address\"}],\"name\":\"AddrChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"coinType\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"newAddress\",\"type\":\"bytes\"}],\"name\":\"AddressChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ApprovalForAll\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"delegate\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"Approved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"hash\",\"type\":\"bytes\"}],\"name\":\"ContenthashChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"uint16\",\"name\":\"resource\",\"type\":\"uint16\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"record\",\"type\":\"bytes\"}],\"name\":\"DNSRecordChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"uint16\",\"name\":\"resource\",\"type\":\"uint16\"}],\"name\":\"DNSRecordDeleted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"lastzonehash\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"zonehash\",\"type\":\"bytes\"}],\"name\":\"DNSZonehashChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"implementer\",\"type\":\"address\"}],\"name\":\"InterfaceChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"NameChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"x\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"y\",\"type\":\"bytes32\"}],\"name\":\"PubkeyChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"string\",\"name\":\"indexedKey\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"value\",\"type\":\"string\"}],\"name\":\"TextChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint64\",\"name\":\"newVersion\",\"type\":\"uint64\"}],\"name\":\"VersionChanged\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"contentTypes\",\"type\":\"uint256\"}],\"name\":\"ABI\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"addr\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"coinType\",\"type\":\"uint256\"}],\"name\":\"addr\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"delegate\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"approve\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"clearRecords\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"contenthash\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"},{\"internalType\":\"uint16\",\"name\":\"resource\",\"type\":\"uint16\"}],\"name\":\"dnsRecord\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"}],\"name\":\"hasDNSRecords\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"interfaceImplementer\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"delegate\",\"type\":\"address\"}],\"name\":\"isApprovedFor\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"isApprovedForAll\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes[]\",\"name\":\"data\",\"type\":\"bytes[]\"}],\"name\":\"multicall\",\"outputs\":[{\"internalType\":\"bytes[]\",\"name\":\"results\",\"type\":\"bytes[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"nodehash\",\"type\":\"bytes32\"},{\"internalType\":\"bytes[]\",\"name\":\"data\",\"type\":\"bytes[]\"}],\"name\":\"multicallWithNodeCheck\",\"outputs\":[{\"internalType\":\"bytes[]\",\"name\":\"results\",\"type\":\"bytes[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"pubkey\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"x\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"y\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"name\":\"recordVersions\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"contentType\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"setABI\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"coinType\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"a\",\"type\":\"bytes\"}],\"name\":\"setAddr\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"a\",\"type\":\"address\"}],\"name\":\"setAddr\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"setApprovalForAll\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes\",\"name\":\"hash\",\"type\":\"bytes\"}],\"name\":\"setContenthash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"setDNSRecords\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"},{\"internalType\":\"address\",\"name\":\"implementer\",\"type\":\"address\"}],\"name\":\"setInterface\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"newName\",\"type\":\"string\"}],\"name\":\"setName\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"x\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"y\",\"type\":\"bytes32\"}],\"name\":\"setPubkey\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"value\",\"type\":\"string\"}],\"name\":\"setText\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes\",\"name\":\"hash\",\"type\":\"bytes\"}],\"name\":\"setZonehash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"text\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"zonehash\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"}]"
+	],
+	[
 		"0x231b7589426ffe1b75405526fc32ac09d44364c4",
 		"Uniswap V2 Pair: WBTC - DAI",
 		"Uniswap V2",
@@ -2702,6 +2760,13 @@ export const contractMetadataData: ContractMetadataData = [
 		"Uniswap V2 Pair: PEEPO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x253553366da8546fc250f225fe3d25d0c782303b",
+		"ENS: ETH Registrar Controller",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract BaseRegistrarImplementation\",\"name\":\"_base\",\"type\":\"address\"},{\"internalType\":\"contract IPriceOracle\",\"name\":\"_prices\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_minCommitmentAge\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_maxCommitmentAge\",\"type\":\"uint256\"},{\"internalType\":\"contract ReverseRegistrar\",\"name\":\"_reverseRegistrar\",\"type\":\"address\"},{\"internalType\":\"contract INameWrapper\",\"name\":\"_nameWrapper\",\"type\":\"address\"},{\"internalType\":\"contract ENS\",\"name\":\"_ens\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"commitment\",\"type\":\"bytes32\"}],\"name\":\"CommitmentTooNew\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"commitment\",\"type\":\"bytes32\"}],\"name\":\"CommitmentTooOld\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"DurationTooShort\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InsufficientValue\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"MaxCommitmentAgeTooHigh\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"MaxCommitmentAgeTooLow\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"NameNotAvailable\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ResolverRequiredWhenDataSupplied\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"commitment\",\"type\":\"bytes32\"}],\"name\":\"UnexpiredCommitmentExists\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"label\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"baseCost\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"premium\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"expires\",\"type\":\"uint256\"}],\"name\":\"NameRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"label\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"cost\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"expires\",\"type\":\"uint256\"}],\"name\":\"NameRenewed\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"MIN_REGISTRATION_DURATION\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"available\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"commitment\",\"type\":\"bytes32\"}],\"name\":\"commit\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"name\":\"commitments\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"},{\"internalType\":\"bytes32\",\"name\":\"secret\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"bytes[]\",\"name\":\"data\",\"type\":\"bytes[]\"},{\"internalType\":\"bool\",\"name\":\"reverseRecord\",\"type\":\"bool\"},{\"internalType\":\"uint16\",\"name\":\"ownerControlledFuses\",\"type\":\"uint16\"}],\"name\":\"makeCommitment\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"maxCommitmentAge\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"minCommitmentAge\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"nameWrapper\",\"outputs\":[{\"internalType\":\"contract INameWrapper\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"prices\",\"outputs\":[{\"internalType\":\"contract IPriceOracle\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_token\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"recoverFunds\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"},{\"internalType\":\"bytes32\",\"name\":\"secret\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"bytes[]\",\"name\":\"data\",\"type\":\"bytes[]\"},{\"internalType\":\"bool\",\"name\":\"reverseRecord\",\"type\":\"bool\"},{\"internalType\":\"uint16\",\"name\":\"ownerControlledFuses\",\"type\":\"uint16\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"renew\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"rentPrice\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"base\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"premium\",\"type\":\"uint256\"}],\"internalType\":\"struct IPriceOracle.Price\",\"name\":\"price\",\"type\":\"tuple\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"reverseRegistrar\",\"outputs\":[{\"internalType\":\"contract ReverseRegistrar\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"valid\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]"
 	],
 	[
 		"0x253c06b22d4b67b675ea7d2fd48422e62c394d7e",
@@ -3094,6 +3159,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2a0d53f423a131cba724ae6a6352b59cc8d5a764",
+		"Uniswap V2 Pair: USDC - Mark",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2a17c35ff147b32f13f19f2e311446eeb02503f3",
 		"0x: Staking",
 		"0x"
@@ -3165,6 +3236,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2aeee741fa1e21120a21e57db9ee545428e683c9",
+		"Uniswap V2 Pair: WETH - GME",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2b38c02efd194ff67bf6b3279f5baa02cb42d1c4",
 		"Uniswap V2 Pair: TISM - WETH",
 		"Uniswap V2",
@@ -3213,6 +3290,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x2b7d0cb53b9b88281578cf7f8abc0982d7f4c166",
+		"Uniswap V2 Pair: MVP - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x2b9e92a5b6e69db9fedc47a4c656c9395e8a26d2",
 		"Uniswap V2 Pair: XFT - WETH",
 		"Uniswap V2",
@@ -3221,6 +3304,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x2bbd1e03a023c5620125f249f2f8715acdc483aa",
 		"Uniswap V2 Pair: ALICE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x2be069675a1c81d909549e4b7bb5e2912a3004e2",
+		"Uniswap V2 Pair: NFAi - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -4096,6 +4185,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3663f65ae500cec33ae54468741e5c10a30d1d1e",
+		"Uniswap V2 Pair: NEURA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x36708b774e902cd86ab0970b0f0cfb6c41dc8fb5",
+		"Uniswap V2 Pair: NUT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3671a927539bd1f077336011567e7c57eb523407",
 		"Uniswap V2 Pair: WETH - PRQ",
 		"Uniswap V2",
@@ -4283,6 +4384,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x38fee5f2ce469ebdfaa62863928e333ef4da485f",
 		"Uniswap V3 Pool: BLUR - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x390a4d096ba2cc450e73b3113f562be949127ceb",
+		"Uniswap V3 Pool: STBU - USDT",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -4550,6 +4657,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3c2a37b1131da9941a577e7155ee393a5a6d7667",
+		"Uniswap V2 Pair: THREE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3c442bab170f19dd40d0b1a405c9d93b088b9332",
 		"Uniswap V2 Pair: POWR - WETH",
 		"Uniswap V2",
@@ -4571,6 +4684,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x3cd1c0b98be4451ca51265bbaeb76cf7b31e1c02",
 		"Uniswap V2 Pair: WETH - WBCB",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+		"Uniswap V3 Pool: RNG - NU",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -4748,6 +4867,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x3fd349f3d99970dfe553ca04e37e066be955c1a5",
+		"Uniswap V2 Pair: BTC - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x3fd4cf9303c4bc9e13772618828712c8eac7dd2f",
 		"Uniswap V2 Pair: BNT - WETH",
 		"Uniswap V2",
@@ -4909,6 +5034,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x419991da56d9ad96a1a38513b7ae7e49caa4b82c",
+		"Uniswap V2 Pair: WETH - SHIDO",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x41aabdd22171e405a8e7b98adcff36db2ce0f68a",
 		"Uniswap V2 Pair: BLOCK - WETH",
 		"Uniswap V2",
@@ -4929,6 +5060,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x41fcf9e248e2be21c5debe8f010080335dcb0d40",
 		"Uniswap V2 Pair: WETH - NFT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x42018a2ff89b6d662b5f746277bd02f0d85f485a",
+		"Uniswap V2 Pair: RWS - XRT",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -5085,6 +5222,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x43de4318b6eb91a7cf37975dbb574396a7b5b5c6",
 		"Uniswap V2 Pair: BANANA - WETH",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x43e7ade137b86798654d8e78c36d5a556a647224",
+		"Uniswap V3 Pool: wQUIL - WETH",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -5516,6 +5659,13 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+		"ENS: Public Resolver 2",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract ENS\",\"name\":\"_ens\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"contentType\",\"type\":\"uint256\"}],\"name\":\"ABIChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"a\",\"type\":\"address\"}],\"name\":\"AddrChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"coinType\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"newAddress\",\"type\":\"bytes\"}],\"name\":\"AddressChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"isAuthorised\",\"type\":\"bool\"}],\"name\":\"AuthorisationChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"hash\",\"type\":\"bytes\"}],\"name\":\"ContenthashChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"uint16\",\"name\":\"resource\",\"type\":\"uint16\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"record\",\"type\":\"bytes\"}],\"name\":\"DNSRecordChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"uint16\",\"name\":\"resource\",\"type\":\"uint16\"}],\"name\":\"DNSRecordDeleted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"DNSZoneCleared\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"implementer\",\"type\":\"address\"}],\"name\":\"InterfaceChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"NameChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"x\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"y\",\"type\":\"bytes32\"}],\"name\":\"PubkeyChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"string\",\"name\":\"indexedKey\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"TextChanged\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"contentTypes\",\"type\":\"uint256\"}],\"name\":\"ABI\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"addr\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"coinType\",\"type\":\"uint256\"}],\"name\":\"addr\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"authorisations\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"clearDNSZone\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"contenthash\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"},{\"internalType\":\"uint16\",\"name\":\"resource\",\"type\":\"uint16\"}],\"name\":\"dnsRecord\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"}],\"name\":\"hasDNSRecords\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"interfaceImplementer\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes[]\",\"name\":\"data\",\"type\":\"bytes[]\"}],\"name\":\"multicall\",\"outputs\":[{\"internalType\":\"bytes[]\",\"name\":\"results\",\"type\":\"bytes[]\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"pubkey\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"x\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"y\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"contentType\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"setABI\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"coinType\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"a\",\"type\":\"bytes\"}],\"name\":\"setAddr\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"a\",\"type\":\"address\"}],\"name\":\"setAddr\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"isAuthorised\",\"type\":\"bool\"}],\"name\":\"setAuthorisation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes\",\"name\":\"hash\",\"type\":\"bytes\"}],\"name\":\"setContenthash\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"setDNSRecords\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"},{\"internalType\":\"address\",\"name\":\"implementer\",\"type\":\"address\"}],\"name\":\"setInterface\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"setName\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"x\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"y\",\"type\":\"bytes32\"}],\"name\":\"setPubkey\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"value\",\"type\":\"string\"}],\"name\":\"setText\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"text\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}]"
+	],
+	[
 		"0x498498fa386ef2860e7abf8c60254580c8c41ec5",
 		"Uniswap V3 Pool: DC - WETH",
 		"Uniswap V3",
@@ -5918,6 +6068,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x4e5320503965cbb2f622efdb59385e1bc40ea289",
+		"Uniswap V3 Pool: wBAI - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x4e57f830b0b4a82321071ead6ffd1df1575a16e2",
 		"Uniswap V3 Pool: WETH - AMP",
 		"Uniswap V3",
@@ -6074,6 +6230,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5003fdfc747a0acf06266c54fe7285abbca14f25",
 		"Uniswap V2 Pair: RIBBIT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5008d39f997468057947fd370a6a8c1786a27d71",
+		"Uniswap V2 Pair: TOTO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -6383,6 +6545,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x5458786a39fa6082439b2757568b59ec1e516569",
+		"Uniswap V2 Pair: LAN - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x54965801946d768b395864019903aef8b5b63bb3",
 		"Uniswap V2 Pair: EYE - WETH",
 		"Uniswap V2",
@@ -6515,6 +6683,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x576466debc41a5c404e225d321070ddd2288e191",
+		"Uniswap V2 Pair: ZETA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x5764a6f2212d502bc5970f9f129ffcd61e5d7563",
 		"Uniswap V3 Pool: SHIB - WETH",
 		"Uniswap V3",
@@ -6555,6 +6729,13 @@ export const contractMetadataData: ContractMetadataData = [
 		"Uniswap V2 Pair: WETH - LIGHT",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+		"ENS: Base Registrar Implementation",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract ENS\",\"name\":\"_ens\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"_baseNode\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"approved\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ApprovalForAll\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"}],\"name\":\"ControllerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"}],\"name\":\"ControllerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"expires\",\"type\":\"uint256\"}],\"name\":\"NameMigrated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"expires\",\"type\":\"uint256\"}],\"name\":\"NameRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"expires\",\"type\":\"uint256\"}],\"name\":\"NameRenewed\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[],\"name\":\"GRACE_PERIOD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"}],\"name\":\"addController\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"available\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"baseNode\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"controllers\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"ens\",\"outputs\":[{\"internalType\":\"contract ENS\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getApproved\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"isApprovedForAll\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"nameExpires\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"reclaim\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"register\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"registerOnly\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"}],\"name\":\"removeController\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"renew\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"_data\",\"type\":\"bytes\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"setApprovalForAll\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"setResolver\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]"
 	],
 	[
 		"0x58025c79662e81f1ee72bce632511faf4e6aee01",
@@ -6659,6 +6840,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x59af6259f5667d9dd6b3210b3c50ff6bdb153428",
+		"Uniswap V2 Pair: ARKY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x59b4bb1f5d943cf71a10df63f6b743ee4a4489ee",
 		"Uniswap V3 Pool: XMON - WETH",
 		"Uniswap V3",
@@ -6691,6 +6878,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x59c38b6775ded821f010dbd30ecabdcf84e04756",
 		"Uniswap V3 Pool: UNI - AAVE",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x59c68e0eca9f0844d9d4cee0bedf23c8dee462c5",
+		"Uniswap V3 Pool: REZ - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -6870,6 +7063,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5beae44f1c4dfba15973081bf87cdf9411009a9b",
 		"Uniswap V2 Pair: WETH - MILK",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5beda737d27115d914abb5e6bf23871ebe8aa8cb",
+		"Uniswap V2 Pair: WETH - BOOB",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7164,6 +7363,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x5fa9569b0ed6aa01e234468e6a15b77988b950df",
 		"Uniswap V2 Pair: BLZ - USDC",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x5fb71b76a6725a5021fed3766478199804c21da8",
+		"Uniswap V2 Pair: PATTON - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -7716,6 +7921,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x66d5871236685ec4470142b6ed86b61fcad0059a",
+		"Uniswap V2 Pair: America - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x66e33d2605c5fb25ebb7cd7528e7997b0afa55e8",
 		"Uniswap V2 Pair: USDC - DSD",
 		"Uniswap V2",
@@ -7767,6 +7978,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x675205fb93c51c0eaeb8a95538b00fcae2fc0f84",
 		"Uniswap V2 Pair: WETH - YUAN",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x677d05b8bc5c691afd0dcb8ed81404c1ebe114d6",
+		"Uniswap V3 Pool: ABT - WETH",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -8632,6 +8849,18 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x74c6eb5e3f55b372a0147c2438f4e7c07a965f9f",
+		"Uniswap V3 Pool: TOWER - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x74ce3035bbb0eac39917a459d372b95f4bc22ee4",
+		"Uniswap V2 Pair: MILEI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x74e6cac32234133fe06bd0f4d8237dee1dede057",
 		"Uniswap V2 Pair: SHEZMU - WETH",
 		"Uniswap V2",
@@ -8694,6 +8923,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x757a197b3b17b207d6de3840de09bcf2dfb75b72",
 		"Uniswap V3 Pool: PEPE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x757d8d585ee1488097305bcb0fcec1ac4a55e9d6",
+		"Uniswap V3 Pool: PEW - WETH",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
@@ -8842,6 +9077,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x77fca8cb4d4be5d196e44fc5403d33caee13cf29",
+		"Uniswap V2 Pair: WETH - RENT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x78194ba1a135a71f7fba71fda7cdd3885872b8ff",
 		"Uniswap V3 Pool: WETH - MNW",
 		"Uniswap V3",
@@ -8968,6 +9209,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x79dddebc620c5dea65e363701d91424bde85cccb",
+		"Uniswap V2 Pair: WETH - CHOPPY",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x79f46e36c5854b8e3cd25997b703d43ae40e3a52",
 		"Uniswap V2 Pair: ATAI - WETH",
 		"Uniswap V2",
@@ -8977,6 +9224,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x7a0a6906de7714d27413f5092ed1a0636a3fbc9a",
 		"Zapper.Fi: Curve Zap In 2",
 		"Zapper"
+	],
+	[
+		"0x7a233f0e957a9ff4726c738e9d790b9956f4c894",
+		"Uniswap V3 Pool: KARRAT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
 	],
 	[
 		"0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
@@ -9253,6 +9506,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7d4e22a6abbfe86f730b179d2b934c0981712f45",
+		"Uniswap V3 Pool: CGPT - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7d611e4cf1c7b94561c4caa5602f329d108336e3",
 		"Uniswap V2 Pair: WETH - SHROOM",
 		"Uniswap V2",
@@ -9394,6 +9653,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x7f63306a62c345365881e0fff85cb2c8baaa13d5",
+		"Uniswap V3 Pool: XOR - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x7f7b6b6d3c5495cf5664baa7857639e3b964dade",
 		"Uniswap V2 Pair: MOONDAY - WETH",
 		"Uniswap V2",
@@ -9525,6 +9790,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8107fca5494375fc743a9fc4d4844353a1af3d94",
+		"Uniswap V3 Pool: TURBO - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x811559d11dc36d263c34959b980a4e1bea7cbbe7",
 		"Uniswap V2 Pair: UNIBOT - WETH",
 		"Uniswap V2",
@@ -9545,6 +9816,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x811beed0119b4afce20d2583eb608c6f7af1954f",
 		"Uniswap V2 Pair: SHIB - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x811cfb75567a252bea23474e2ccd1286927bfe0a",
+		"Uniswap V2 Pair: FJO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -9900,6 +10177,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x858a2ca525466a5c7ad1bd4f66ecbfdcc938f237",
+		"Uniswap V3 Pool: MPL - USDC",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
 		"Uniswap V2 Pair: ATD - WETH",
 		"Uniswap V2",
@@ -10166,6 +10449,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x88ae9e1625cfcbd128b89e7f037eaaf6a7cc9666",
 		"Uniswap V2 Pair: FST - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x88c095c8ba2c7a1353cf3d21e692c5d4d0f90793",
+		"Uniswap V2 Pair: MATIC - USDT",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -10645,6 +10934,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0x"
 	],
 	[
+		"0x8ef0d951f730f57791e2236526984f3fd1786098",
+		"Uniswap V2 Pair: NIMBUS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8ef598943003e60ae3771cbaf5cc855e983b9f0d",
 		"Uniswap V2 Pair: XALPHA - WETH",
 		"Uniswap V2",
@@ -10687,6 +10982,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x8f4d4dd3c2f957b57101d3fc030f9a39b275326f",
+		"Uniswap V2 Pair: BABYDOGE2.0 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x8f8ef111b67c04eb1641f5ff19ee54cda062f163",
 		"Uniswap V3 Pool: WBTC - PAX",
 		"Uniswap V3",
@@ -10695,6 +10996,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x8fb8e9921922d2ffb529a95d28a0d06d275d7a59",
 		"Uniswap V2 Pair: SFUND - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x8fb8fdab60e86d274fa4a24ac292977d1dd3739e",
+		"Uniswap V2 Pair: WETH - SIMBA",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -10743,6 +11050,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x9081b50bad8beefac48cc616694c26b027c559bb",
 		"Uniswap V2 Pair: ORAI - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x908d6032b34576bbb5447c4c3e9042a77aedc17f",
+		"Uniswap V2 Pair: EVEAI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -11247,6 +11560,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x961ec3bb28c9e98a040c4bded38917aa96b791be",
+		"Uniswap V3 Pool: WETH - MAGA",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9628105808292699874f20d77d50a09bc26850c5",
 		"Uniswap V3 Pool: ALPH - WETH",
 		"Uniswap V3",
@@ -11676,6 +11995,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0x9b36fd01b733be4b362cbac328eb8923d41b5451",
+		"Uniswap V2 Pair: Trump - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0x9b3df8eae6e1ed1b931086852860d3c6375d7ae6",
 		"Uniswap V2 Pair: MLT - WETH",
 		"Uniswap V2",
@@ -11737,6 +12062,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x9c04560df8dff626555317ccc2c336b9c24fda41",
 		"Uniswap V2 Pair: BXBT - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9c143da2f408042137362c154484fa57dcd24c30",
+		"Uniswap V2 Pair: HACHI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -11832,6 +12163,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0x9cb236c126e5148a2ec4f2651b98445ee51a79d1",
 		"Uniswap V2 Pair: FLASH - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0x9cb2a4e500e842514f4f68fe17ab4dfa13487ef1",
+		"Uniswap V2 Pair: WETH - PEEZY",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -12315,6 +12652,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa22c67e4bf6fb2b6cb68d58a281a18d5ac59a14e",
+		"Uniswap V2 Pair: PEEPA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa2376a5304cfcd238f52db5677cba3e0559f7f09",
 		"Uniswap V2 Pair: Wally - WETH",
 		"Uniswap V2",
@@ -12587,6 +12930,13 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa58e81fe9b61b5c3fe2afd33cf304c454abfc7cb",
+		"ENS: Reberse Registrar",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract ENS\",\"name\":\"ensAddr\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"ControllerChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"contract NameResolver\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"DefaultResolverChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"ReverseClaimed\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"claim\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"claimForAddr\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"claimWithResolver\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"controllers\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"defaultResolver\",\"outputs\":[{\"internalType\":\"contract NameResolver\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ens\",\"outputs\":[{\"internalType\":\"contract ENS\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"node\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"setController\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"setDefaultResolver\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"setName\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"}],\"name\":\"setNameForAddr\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]"
+	],
+	[
 		"0xa5904961f61bae7c4dd8478077556c91bf291cfd",
 		"Uniswap V2 Pair: YAMv2 - WETH",
 		"Uniswap V2",
@@ -12730,6 +13080,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xa77c3e572a8e7f1848686e2a3c37c253bc4081dc",
+		"Uniswap V2 Pair: WETH - TOM",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xa7ad4ce6c21d9e875f1067cd377256326b483002",
 		"Uniswap V2 Pair: WETH - SANSHU",
 		"Uniswap V2",
@@ -12793,6 +13149,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xa84181f223a042949e9040e42b44c50021802db6",
 		"Uniswap V3 Pool: PEPE - WETH",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xa86aca6d7c393c06dcdc30473ea3d1b05c358dff",
+		"Uniswap V2 Pair: NMT - USDC",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -13090,6 +13452,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xac5a2c404ebba22a869998089ac7893ff4e1f0a7",
+		"Uniswap V3 Pool: LINK - USDT",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xac63436b092b944cadea9243f9aff315421d4fee",
 		"Uniswap V3 Pool: LOYAL - WETH",
 		"Uniswap V3",
@@ -13171,6 +13539,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xad6d2f2cb7bf2c55c7493fd650d3a66a4c72c483",
 		"Uniswap V3 Pool: PAPER - WETH",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xad7e7d9c3f7f4f42befa6540e84a8d2be659c2a6",
+		"Uniswap V2 Pair: BONK - WETH",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -13346,6 +13720,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xaf81e930620eb55a9a6927c4b2afcb4d61040c32",
+		"Uniswap V3 Pool: TONCOIN - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xaf8c5a2cb542d11735f6e7a94d869cc99e4736e9",
 		"Uniswap V2 Pair: WETH - BLUI",
 		"Uniswap V2",
@@ -13463,6 +13843,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xb07fe2f407f971125d4eb1977f8acee8846c7324",
 		"Uniswap V3 Pool: APE - USDC",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb0a85d466b58562456c7bc9cf0f83ccac593461a",
+		"Uniswap V2 Pair: WIF - WETH",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -13760,6 +14146,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xb4a0a46d3042a739ec76fd67a3f1b99cc12ac1d9",
+		"Uniswap V2 Pair: WETH - ERC20",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xb4d0d9df2738abe81b87b66c80851292492d1404",
 		"Uniswap V2 Pair: TUSD - WETH",
 		"Uniswap V2",
@@ -13799,6 +14191,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xb55daf7ba9c69b533e354f1d1f8e0b292a102622",
 		"Uniswap V2 Pair: metameme - WETH",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xb573d1708161b82b5f7a77c1035fa724725b42c7",
+		"Uniswap V3 Pool: RIVUS - WETH",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -14216,6 +14614,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xbb0eccb680ff8b2cbbb239b200cc6f9927b4aacb",
+		"Uniswap V3 Pool: SAFE - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xbb16e7d9bff2d929f19b2d5466881195f020a093",
 		"Uniswap V2 Pair: HATCH - WETH",
 		"Uniswap V2",
@@ -14378,9 +14782,21 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xbd7f4cca1c58eb370203c1cc990d33bec215f7c3",
+		"Uniswap V3 Pool: AIT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xbdac5b5aa51b99c6c11ce05df4a1c78cecc2375b",
 		"Uniswap V2 Pair: INEDIBLE - WETH",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xbdb04e915b94fbfd6e8552ff7860e59db7d4499a",
+		"Uniswap V3 Pool: WETH - pufETH",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -14732,6 +15148,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc1df8037881df17dc88998824b9aea81c71bbb1b",
+		"Uniswap V3 Pool: FORTH - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc1f4ecd6398ffc97d81cb3015aa6ef7b19773a08",
 		"Uniswap V2 Pair: WETH - AIPAD",
 		"Uniswap V2",
@@ -14758,6 +15180,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xc277c03c6e30f00bd18ab6583092c64fc3390847",
 		"Uniswap V2 Pair: Gold 1 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc284b5e7222bb225162ded69bad6b1c000de32e8",
+		"Uniswap V2 Pair: FOMO - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -14818,6 +15246,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d",
 		"Uniswap V2 Pair: Mog - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xc303689e00629b9703744ed8c5438c660f3ecbe0",
+		"Uniswap V2 Pair: roar - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -15319,6 +15753,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xc7f52f8c4bf77f50665ed413fc2698b7797397bb",
+		"Uniswap V2 Pair: TRUMPE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xc7fe3e6bb510708462168258dcb2a369ed0759e5",
 		"Uniswap V2 Pair: WETH - VIDT",
 		"Uniswap V2",
@@ -15589,6 +16029,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcb60e8c48bc3bb956f55c4de7fb8d415ac176e82",
+		"Uniswap V2 Pair: WJD - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcba27c8e7115b4eb50aa14999bc0866674a96ecb",
 		"Uniswap V3 Pool: INST - WETH",
 		"Uniswap V3",
@@ -15792,6 +16238,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xcd9cbf2e2af29923384a3463cbcbb5e2d7f6a3ef",
+		"Uniswap V2 Pair: KEK - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xcd9dab5e666de980cecdc180cb31f296733e2587",
 		"Uniswap V3 Pool: AKITA - WETH",
 		"Uniswap V3",
@@ -15801,6 +16253,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xcdff6ddfc9e4807c9927fd58708c2ef3484cc305",
 		"Uniswap V3 Pool: AVT - WETH",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xce0719148afe556cf4edc5307254e86f02e4f418",
+		"Uniswap V2 Pair: GME - WETH",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -16002,6 +16460,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd05d35b500dee15aecbae563a28e790ae1594cb4",
+		"Uniswap V3 Pool: WTK - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd07d843cd1d769cdf918be8a3c2c0b708889f7fc",
 		"Uniswap V2 Pair: WETH - OPCT",
 		"Uniswap V2",
@@ -16187,6 +16651,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd3248cdafddd8dda92dc53df4ce99a5031b9e897",
+		"Uniswap V3 Pool: NGL - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd325774441083c87608745ced2cc16b4462b9d79",
 		"Uniswap V2 Pair: TUP - WETH",
 		"Uniswap V2",
@@ -16283,6 +16753,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd3e9895230e8fb1460852f6cda3c4b926fbc29d8",
+		"Uniswap V3 Pool: CHEX - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd3eba712988df0f8a7e5073719a40ce4cbf60b33",
 		"Zapper.Fi: sETH Unipool",
 		"Zapper"
@@ -16322,6 +16798,13 @@ export const contractMetadataData: ContractMetadataData = [
 		"Uniswap V2 Pair: BAC - DAI",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401",
+		"ENS: Name Wrapper",
+		"ENS",
+		"images/contracts/ENS.jpg",
+		"[{\"inputs\":[{\"internalType\":\"contract ENS\",\"name\":\"_ens\",\"type\":\"address\"},{\"internalType\":\"contract IBaseRegistrar\",\"name\":\"_registrar\",\"type\":\"address\"},{\"internalType\":\"contract IMetadataService\",\"name\":\"_metadataService\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"CannotUpgrade\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"IncompatibleParent\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"IncorrectTargetOwner\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"IncorrectTokenType\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"labelHash\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"expectedLabelhash\",\"type\":\"bytes32\"}],\"name\":\"LabelMismatch\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"label\",\"type\":\"string\"}],\"name\":\"LabelTooLong\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"LabelTooShort\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NameIsNotWrapped\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"OperationProhibited\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"Unauthorised\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"approved\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ApprovalForAll\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"active\",\"type\":\"bool\"}],\"name\":\"ControllerChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"name\":\"ExpiryExtended\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"uint32\",\"name\":\"fuses\",\"type\":\"uint32\"}],\"name\":\"FusesSet\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"NameUnwrapped\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint32\",\"name\":\"fuses\",\"type\":\"uint32\"},{\"indexed\":false,\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"name\":\"NameWrapped\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256[]\",\"name\":\"ids\",\"type\":\"uint256[]\"},{\"indexed\":false,\"internalType\":\"uint256[]\",\"name\":\"values\",\"type\":\"uint256[]\"}],\"name\":\"TransferBatch\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"TransferSingle\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"value\",\"type\":\"string\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"URI\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"_tokens\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint32\",\"name\":\"fuseMask\",\"type\":\"uint32\"}],\"name\":\"allFusesBurned\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"accounts\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"ids\",\"type\":\"uint256[]\"}],\"name\":\"balanceOfBatch\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"canExtendSubnames\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"canModifyName\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"controllers\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ens\",\"outputs\":[{\"internalType\":\"contract ENS\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parentNode\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"labelhash\",\"type\":\"bytes32\"},{\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"name\":\"extendExpiry\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"getApproved\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"getData\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint32\",\"name\":\"fuses\",\"type\":\"uint32\"},{\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"isApprovedForAll\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parentNode\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"labelhash\",\"type\":\"bytes32\"}],\"name\":\"isWrapped\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"isWrapped\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"metadataService\",\"outputs\":[{\"internalType\":\"contract IMetadataService\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"name\":\"names\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"onERC721Received\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_token\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"recoverFunds\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"label\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"wrappedOwner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"uint16\",\"name\":\"ownerControlledFuses\",\"type\":\"uint16\"}],\"name\":\"registerAndWrapETH2LD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"registrarExpiry\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"registrar\",\"outputs\":[{\"internalType\":\"contract IBaseRegistrar\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"duration\",\"type\":\"uint256\"}],\"name\":\"renew\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"expires\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256[]\",\"name\":\"ids\",\"type\":\"uint256[]\"},{\"internalType\":\"uint256[]\",\"name\":\"amounts\",\"type\":\"uint256[]\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"safeBatchTransferFrom\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"setApprovalForAll\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parentNode\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"labelhash\",\"type\":\"bytes32\"},{\"internalType\":\"uint32\",\"name\":\"fuses\",\"type\":\"uint32\"},{\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"name\":\"setChildFuses\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"active\",\"type\":\"bool\"}],\"name\":\"setController\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint16\",\"name\":\"ownerControlledFuses\",\"type\":\"uint16\"}],\"name\":\"setFuses\",\"outputs\":[{\"internalType\":\"uint32\",\"name\":\"\",\"type\":\"uint32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"contract IMetadataService\",\"name\":\"_metadataService\",\"type\":\"address\"}],\"name\":\"setMetadataService\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"setRecord\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"setResolver\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parentNode\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"label\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint32\",\"name\":\"fuses\",\"type\":\"uint32\"},{\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"name\":\"setSubnodeOwner\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parentNode\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"label\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"},{\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"},{\"internalType\":\"uint32\",\"name\":\"fuses\",\"type\":\"uint32\"},{\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"name\":\"setSubnodeRecord\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"uint64\",\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"setTTL\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"contract INameWrapperUpgrade\",\"name\":\"_upgradeAddress\",\"type\":\"address\"}],\"name\":\"setUpgradeContract\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parentNode\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"labelhash\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"}],\"name\":\"unwrap\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"labelhash\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"registrant\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"controller\",\"type\":\"address\"}],\"name\":\"unwrapETH2LD\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"internalType\":\"bytes\",\"name\":\"extraData\",\"type\":\"bytes\"}],\"name\":\"upgrade\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"upgradeContract\",\"outputs\":[{\"internalType\":\"contract INameWrapperUpgrade\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"uri\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"name\",\"type\":\"bytes\"},{\"internalType\":\"address\",\"name\":\"wrappedOwner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"wrap\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"label\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"wrappedOwner\",\"type\":\"address\"},{\"internalType\":\"uint16\",\"name\":\"ownerControlledFuses\",\"type\":\"uint16\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"wrapETH2LD\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"expiry\",\"type\":\"uint64\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]"
 	],
 	[
 		"0xd44971b88a50f1bdf1e5e0a778e6c573a729a78a",
@@ -16677,6 +17160,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xd99801cea00c71765dbdeaf28e6ed73759e00824",
+		"Uniswap V2 Pair: 🌻ᔕᒪᑌGᒪOᖇᗪ🌻 - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xd99ddad712f60c6cc8fda09e0c292aed68047216",
 		"Uniswap V2 Pair: YFFS - USDT",
 		"Uniswap V2",
@@ -16698,6 +17187,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xd9d854a1061b8ce606fe904cb29beb6793c88643",
 		"Uniswap V3 Pool: Rait - WETH",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xd9f2a7471d1998c69de5cae6df5d3f070f01df9f",
+		"Uniswap V2 Pair: Kendu - WETH",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -16888,6 +17383,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xdc5798d32d879df46ad430e2b43fd0341d0678ef",
 		"Uniswap V2 Pair: PRXY - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xdc6b2c2dc744fd06c4f074bde90c99332d0fda51",
+		"Uniswap V2 Pair: GENAI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -17086,6 +17587,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xde93684627d4e34d6ef96adf5bcabf10bbd8dd81",
 		"Uniswap V2 Pair: ALICE - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xde99ddf192483147056dcc0023daa273b2e44e07",
+		"Uniswap V2 Pair: JJ - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -17429,6 +17936,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe2680fd7cdbb04e9087a647ad4d023ef6c8fb4e2",
+		"Uniswap V3 Pool: HUNT - WETH",
+		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe2710f0f14daa5b8ad2c82919362a10703ad10e6",
 		"Uniswap V2 Pair: AXE - WETH",
 		"Uniswap V2",
@@ -17474,6 +17987,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xe2f021411a15f677100a79f1bf6afd89d00c778b",
 		"Uniswap V2 Pair: SLINK - WETH",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe308d7b56319305ffb9b75ab50fee2c91933ce7a",
+		"Uniswap V3 Pool: BEFI - USDT",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -17543,6 +18062,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xe3a89c96f6f0faf69bf4ca7dbed677ee6da97273",
 		"Uniswap V2 Pair: ODA - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe3b802b8f23c2dc49be016f4ad96db4f32b7bcce",
+		"Uniswap V2 Pair: HOTTIE - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -17732,6 +18257,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe5d5f8f61b1555f1a27488a122fb3cde2ee16f2b",
+		"Uniswap V2 Pair: TOMI - USDT",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe5d6fc7323d74ad440ca53d3e53252427ad632ed",
 		"Uniswap V2 Pair: BRAINS - WETH",
 		"Uniswap V2",
@@ -17752,6 +18283,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xe632ded5195e945a31f56d674aab0c0c9e7e812c",
 		"Uniswap V2 Pair: WETH - UBI",
 		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe67b950f4b84c5b06ee36ded6727a17443fe7493",
+		"Uniswap V3 Pool: HFT - WETH",
+		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
@@ -17803,6 +18340,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe72fa7b3d7c7d988f889a6d5df9f7ff9032d1afb",
+		"Uniswap V2 Pair: ASHBIE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe744f5e2edfdcb9fdb43b288ecb8b21c8487e888",
 		"Uniswap V3 Pool: WETH - DOGEGF",
 		"Uniswap V3",
@@ -17838,6 +18381,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xe838f6d7f4efb8a2dda62f0062a86746bd809ea1",
+		"Uniswap V2 Pair: Zeus - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xe859041c9c6d70177f83de991b9d757e13cea26e",
 		"Uniswap V3 Pool: HDRN - USDC",
 		"Uniswap V3",
@@ -17846,6 +18395,12 @@ export const contractMetadataData: ContractMetadataData = [
 	[
 		"0xe86204c4eddd2f70ee00ead6805f917671f56c52",
 		"Uniswap V2 Pair: WBTC - DIGG",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xe866771b1606356d0fc5c505049f005851771d9b",
+		"Uniswap V2 Pair: SAI - WETH",
 		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
@@ -18108,15 +18663,33 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xebcd8cab46e5b6f70ff621e612edd06e7baacd8c",
+		"Uniswap V2 Pair: TEQ - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xebce363564fa8b55d85aaf681156087116b148db",
 		"Uniswap V3 Pool: FLC - USDT",
 		"Uniswap V3",
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xebd0571f5ac7aa2c93ba5920576cd6e314d16eb3",
+		"Uniswap V2 Pair: WETH - MVERSE",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xebd5e23927891fbfda10487ccc9a1a1a7b9a4210",
 		"Zapper.Fi: Lender",
 		"Zapper"
+	],
+	[
+		"0xebd754bbbf9b4b6ea9535bd041044e8e5aacc498",
+		"Uniswap V2 Pair: FREE - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
 	],
 	[
 		"0xebe9cfd978f0db637d920e4ed4ae10282d9aba17",
@@ -19398,6 +19971,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"images/contracts/uniswap.svg"
 	],
 	[
+		"0xfad44dc24d07ef9be576d562b994f19578d441b8",
+		"Uniswap V2 Pair: VPS - WETH",
+		"Uniswap V2",
+		"images/contracts/uniswap.svg"
+	],
+	[
 		"0xfad57d2039c21811c8f2b5d5b65308aa99d31559",
 		"Uniswap V3 Pool: LINK - USDC",
 		"Uniswap V3",
@@ -19568,6 +20147,12 @@ export const contractMetadataData: ContractMetadataData = [
 		"0xfd79505aa075007ef1f1165c4de3562bb48b9bd2",
 		"Uniswap V3 Pool: WETH - шайлушай",
 		"Uniswap V3",
+		"images/contracts/uniswap.svg"
+	],
+	[
+		"0xfdca97838dfb8264db6eb7cfbea6e33c3e726417",
+		"Uniswap V2 Pair: WETH - BEPE",
+		"Uniswap V2",
 		"images/contracts/uniswap.svg"
 	],
 	[
