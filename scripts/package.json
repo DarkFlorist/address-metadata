@@ -19,7 +19,7 @@
 		"docker": "npm run build-docker && npm run process-docker-nft && npm run process-docker-token && process-docker-contract"
 	},
 	"dependencies": {
-		"ethers": "5.7.1",
+		"ethers": "6.13.1",
 		"sharp": "0.32.5"
 	}
 }
