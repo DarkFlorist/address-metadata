@@ -105,7 +105,8 @@ function sleep(ms: number) {
 	return new Promise((resolve) => {
 	  setTimeout(resolve, ms);
 	});
-  }
+}
+
 async function fetchNFTs() {
 	const result: { [address: string]: CleanedNftRecord } = {}
 	const imageDirFileList = await fs.promises.readdir(`${ OUTPUT_LIB_BASE_DIR }${ NFT_IMAGE_DIR }`)
