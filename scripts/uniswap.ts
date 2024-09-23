@@ -2,8 +2,9 @@ import fetch from 'node-fetch'
 import * as funtypes from 'funtypes'
 import { addressString, EthereumAddress } from './utils.js'
 
-const uniswapV3Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3'
-const uniswapV2Graph = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2'
+const apiKey = 'PUT API KEY'
+const uniswapV3Graph = `https://gateway.thegraph.com/api/${apiKey}/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV`
+const uniswapV2Graph = `https://gateway.thegraph.com/api/${apiKey}/subgraphs/id/EYCKATKGBKLWvSfwvBjzfCBmGwYNdVkduYXVivCsLRFu`
 
 const UNISWAP_LOGO_URI = `images/contracts/uniswap.svg`
 
