@@ -4,10 +4,11 @@ export type Name = string
 export type Symbol = string
 export type NftType = 'ERC721'
 export type LogoRelativePath = `/images/nfts/${string}`
+export type Erc721MetadataWithLogoAndAbi = readonly [Address, Name, Symbol, NftType, LogoRelativePath, Abi]
 export type Erc721MetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
 export type Erc721MetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]
 
-export type Erc721MetadataData = readonly (Erc721MetadataWithLogo | Erc721MetadataWithoutLogo)[]
+export type Erc721MetadataData = readonly (Erc721MetadataWithLogo | Erc721MetadataWithoutLogo | Erc721MetadataWithLogoAndAbi)[]
 
 export const erc721MetadataData: Erc721MetadataData = [
 	[
@@ -355,7 +356,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
-		"10KTF",
+		"Crafted Gear by 10KTF",
 		"10KTF",
 		"ERC721",
 		"/images/nfts/0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd.png"
@@ -446,7 +447,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x10b366bbf2304b52806b1c9881fc259bd9018d43",
-		"Eggz By Soakverse",
+		"(MIGRATING TO BASE. DON'T BUY.) Eggz By Soakverse",
 		"EGGZ",
 		"ERC721",
 		"/images/nfts/0x10b366bbf2304b52806b1c9881fc259bd9018d43.png"
@@ -684,7 +685,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x1a92f7381b9f03921564a437210bb9396471050c",
-		"Cool Cats NFT",
+		"Cool Cats",
 		"COOL",
 		"ERC721",
 		"/images/nfts/0x1a92f7381b9f03921564a437210bb9396471050c.png"
@@ -994,7 +995,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0x26badf693f2b103b021c670c852262b379bbbe8a",
 		"Illuminati",
 		"Truth",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0x26badf693f2b103b021c670c852262b379bbbe8a.png"
 	],
 	[
 		"0x26baebef64ba69705adff49d3c10bf8ed5fe1573",
@@ -1180,7 +1182,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x2d0d57d004f82e9f4471caa8b9f8b1965a814154",
-		"PAYC Genesis",
+		"Pepe Ape Yacht Club",
 		"PAYC",
 		"ERC721",
 		"/images/nfts/0x2d0d57d004f82e9f4471caa8b9f8b1965a814154.png"
@@ -1306,7 +1308,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x32805770d967b99605835fb11d27b22e7f8f0f0e",
-		"Crypt Social Club Project",
+		"[MIGRATED] Crypt Social Club",
 		"CSC",
 		"ERC721",
 		"/images/nfts/0x32805770d967b99605835fb11d27b22e7f8f0f0e.png"
@@ -1355,7 +1357,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x33c6eec1723b12c46732f7ab41398de45641fa42",
-		"[ Ledger ] Market Pass - Genesis Edition",
+		"[ Ledger ] Market Pass SZN II - Community Pass",
 		"LMP",
 		"ERC721",
 		"/images/nfts/0x33c6eec1723b12c46732f7ab41398de45641fa42.png"
@@ -1544,7 +1546,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
-		"The Potatoz",
+		"Memeland Potatoz",
 		"Potatoz",
 		"ERC721",
 		"/images/nfts/0x39ee2c7b3cb80254225884ca001f57118c8f21b6.png"
@@ -1632,13 +1634,6 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"MERGE",
 		"ERC721",
 		"/images/nfts/0x3bcacb18f4d60c8cba68cd95860daf3e32bebcb6.png"
-	],
-	[
-		"0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d",
-		"0N1 Force",
-		"0N1",
-		"ERC721",
-		"/images/nfts/0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d.png"
 	],
 	[
 		"0x3c6d92f1db872469c8dbc04ff6301b766214a712",
@@ -1880,7 +1875,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x460fdc8dfab2310a38ddc6c6de344cd26472a0d7",
-		"The Sillies",
+		"OG Sillies",
 		"Sillies",
 		"ERC721",
 		"/images/nfts/0x460fdc8dfab2310a38ddc6c6de344cd26472a0d7.png"
@@ -1999,7 +1994,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
-		"Arcade Land",
+		"Arcadeland",
 		"ARCLAND",
 		"ERC721",
 		"/images/nfts/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af.png"
@@ -2272,7 +2267,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x565abc3feaa3bc3820b83620f4bbf16b5c4d47a3",
-		"Whoopsies Doopsies",
+		"Whoopsies Doopsies OLD",
 		"WHOOPDOOP",
 		"ERC721",
 		"/images/nfts/0x565abc3feaa3bc3820b83620f4bbf16b5c4d47a3.png"
@@ -2454,7 +2449,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
-		"The Sandbox",
+		"The Sandbox LANDs",
 		"LAND",
 		"ERC721",
 		"/images/nfts/0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38.png"
@@ -2510,7 +2505,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x5f8c3af28b7af2fd628f9ccd14d12570da0715ae",
-		"BitGoatz NFT",
+		"BitGoatz",
 		"OMG",
 		"ERC721",
 		"/images/nfts/0x5f8c3af28b7af2fd628f9ccd14d12570da0715ae.png"
@@ -2696,6 +2691,13 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"POW",
 		"ERC721",
 		"/images/nfts/0x658bdf5cba855e04724589a61c3e4b1856b69a5b.png"
+	],
+	[
+		"0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a",
+		"We Are All Going to Die",
+		"WAGDIE",
+		"ERC721",
+		"/images/nfts/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a.png"
 	],
 	[
 		"0x6609e542e0626bc3fc2110f0ead172030fbe97ab",
@@ -3574,7 +3576,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x86599b800e23036d761f43d7516092447295659f",
-		"ASM Gen II Brains",
+		"ASM Gen II B.R.A.I.N.S.",
 		"ASMBrainGenII",
 		"ERC721",
 		"/images/nfts/0x86599b800e23036d761f43d7516092447295659f.png"
@@ -4092,7 +4094,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0x992b11a8fe7abfb2e3b7736a1b5ffa3d44efaa32",
-		"Dudelz by JOJAMI",
+		"Dudelz",
 		"DDLZ",
 		"ERC721",
 		"/images/nfts/0x992b11a8fe7abfb2e3b7736a1b5ffa3d44efaa32.png"
@@ -4581,13 +4583,6 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"/images/nfts/0xb08a61d96108136439180ad3f3e340a24e448f6b.png"
 	],
 	[
-		"0xb16dfd9aaaf874fcb1db8a296375577c1baa6f21",
-		"Nyolings",
-		"NYOLINGS",
-		"ERC721",
-		"/images/nfts/0xb16dfd9aaaf874fcb1db8a296375577c1baa6f21.png"
-	],
-	[
 		"0xb18380485f7ba9c23deb729bedd3a3499dbd4449",
 		"SmallBrosNFT",
 		"SBNFT",
@@ -4806,14 +4801,14 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xb948f35c1c35206a5fb23b77f9e52a01b793c909",
-		"FUTR One By Mintify",
+		"FUTR",
 		"MNFUTRONE",
 		"ERC721",
 		"/images/nfts/0xb948f35c1c35206a5fb23b77f9e52a01b793c909.png"
 	],
 	[
 		"0xb9aecb63908c13b6167ad2eab9bacd7e0daba78a",
-		"Probably Nothing Genesis",
+		"probably nothing",
 		"PN",
 		"ERC721",
 		"/images/nfts/0xb9aecb63908c13b6167ad2eab9bacd7e0daba78a.png"
@@ -4882,6 +4877,13 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"/images/nfts/0xbc4e8115e17d96cfd8e3ecef2b0d6e19d00f70b2.png"
 	],
 	[
+		"0xbc566bef3dc1d80e7a841d8cd04aeb3722080651",
+		"Timmy & Greg",
+		"YEYE",
+		"ERC721",
+		"/images/nfts/0xbc566bef3dc1d80e7a841d8cd04aeb3722080651.png"
+	],
+	[
 		"0xbc65d5eba89687ced6ec02f691a4410349c71de3",
 		"INVAZERS",
 		"NVZR",
@@ -4925,7 +4927,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xbd3f82a81c3f74542736765ce4fd579d177b6bc5",
-		"PG JIRAVERSE",
+		"DO NOT BUY",
 		"PGJ",
 		"ERC721",
 		"/images/nfts/0xbd3f82a81c3f74542736765ce4fd579d177b6bc5.png"
@@ -5240,7 +5242,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xc86664e7d2608f881f796ee8e24fa9d4d7598406",
-		"OFFICIAL WAGMI ARMY",
+		"The Discarded",
 		"WAGMI",
 		"ERC721",
 		"/images/nfts/0xc86664e7d2608f881f796ee8e24fa9d4d7598406.png"
@@ -5282,7 +5284,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xc9d198089d6c31d0ca5cc5b92c97a57a97bbfde2",
-		"Space Riders NFT",
+		"Space Riders",
 		"SPR",
 		"ERC721",
 		"/images/nfts/0xc9d198089d6c31d0ca5cc5b92c97a57a97bbfde2.png"
@@ -5317,7 +5319,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xcb1bf27e9d005cb808710498835cf2a24b497471",
-		"Art of Mob: Ladies First",
+		"Art of Mob: Ladies First - Hidden-by-member-req-Convo-7122832",
 		"art_of_mob_ladies_first",
 		"ERC721",
 		"/images/nfts/0xcb1bf27e9d005cb808710498835cf2a24b497471.png"
@@ -6026,7 +6028,8 @@ export const erc721MetadataData: Erc721MetadataData = [
 		"0xe83dd605b70b47c8af86580bdd4fcb987ff36e60",
 		"BTFDRabbits",
 		"BTFD",
-		"ERC721"
+		"ERC721",
+		"/images/nfts/0xe83dd605b70b47c8af86580bdd4fcb987ff36e60.png"
 	],
 	[
 		"0xe8e2b12e02cefc12603e99cd414d9d9ec82068cf",
@@ -6212,7 +6215,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xf03c4e6b6187aca96b18162cbb4468fc6e339120",
-		"Master Cats NFT",
+		"Master Cats",
 		"MASTER",
 		"ERC721",
 		"/images/nfts/0xf03c4e6b6187aca96b18162cbb4468fc6e339120.png"
@@ -6296,7 +6299,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xf4eac65bbc94e3be2e3674992c31781032a6d793",
-		"The Uncanny Country Club",
+		"Uncanny Country Club",
 		"RAMPP",
 		"ERC721",
 		"/images/nfts/0xf4eac65bbc94e3be2e3674992c31781032a6d793.png"
@@ -6366,7 +6369,7 @@ export const erc721MetadataData: Erc721MetadataData = [
 	],
 	[
 		"0xf7d134224a66c6a4ddeb7dee714a280b99044805",
-		"end of sartoshi - eos pass",
+		"end of sartoshi - eos",
 		"END",
 		"ERC721",
 		"/images/nfts/0xf7d134224a66c6a4ddeb7dee714a280b99044805.png"
