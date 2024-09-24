@@ -2,6 +2,7 @@
 export type Address = `0x${ string }`
 export type Name = string
 export type Symbol = string
+export type Abi = string
 export type NftType = 'ERC721'
 export type LogoRelativePath = `/images/nfts/${string}`
 export type Erc721MetadataWithLogoAndAbi = readonly [Address, Name, Symbol, NftType, LogoRelativePath, Abi]

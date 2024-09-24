@@ -627,7 +627,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing DAI",
 			"symbol": "aDAI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -744,7 +744,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing WETH",
 			"symbol": "aWETH",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -1005,7 +1005,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Pax Dollar",
 			"symbol": "cUSDP",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -1302,7 +1302,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing BAT",
 			"symbol": "aBAT",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -3210,7 +3210,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing TUSD",
 			"symbol": "aTUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -3552,7 +3552,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound TrueUSD",
 			"symbol": "cTUSD",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -3651,7 +3651,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aYFI Token V1",
 			"symbol": "aYFI ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -4038,7 +4038,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Augur",
 			"symbol": "cREP",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -4758,7 +4758,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing STETH",
 			"symbol": "aSTETH",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -4893,7 +4893,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing AMPL",
 			"symbol": "aAMPL",
 			"decimals": 9,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -7142,7 +7142,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing BAL",
 			"symbol": "aBAL",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -8294,7 +8294,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing USDP",
 			"symbol": "aUSDP",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -9005,7 +9005,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aSNX Token V1",
 			"symbol": "aSNX ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -9824,7 +9824,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Uniswap",
 			"symbol": "cUNI",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -9878,7 +9878,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing SNX",
 			"symbol": "aSNX",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -10642,7 +10642,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound USD Coin",
 			"symbol": "cUSDC",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -10651,7 +10651,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing KNC",
 			"symbol": "aKNC",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -10741,7 +10741,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing USDT",
 			"symbol": "aUSDT",
 			"decimals": 6,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -13719,7 +13719,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Sushi Token",
 			"symbol": "cSUSHI",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -13728,7 +13728,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Ether",
 			"symbol": "cETH",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -14403,7 +14403,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aTUSD Token V1",
 			"symbol": "aTUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -15167,7 +15167,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing RENFIL",
 			"symbol": "aRENFIL",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -15203,7 +15203,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing YFI",
 			"symbol": "aYFI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -17110,7 +17110,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Dai",
 			"symbol": "cDAI",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -18208,7 +18208,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aSUSD Token V1",
 			"symbol": "aSUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -19261,7 +19261,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing FEI",
 			"symbol": "aFEI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -19684,7 +19684,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing SUSD",
 			"symbol": "aSUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -19693,7 +19693,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Basic Attention Token",
 			"symbol": "cBAT",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -19702,7 +19702,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing DPI",
 			"symbol": "aDPI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -20728,7 +20728,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aBUSD Token V1",
 			"symbol": "aBUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -20899,7 +20899,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aZRX Token V1",
 			"symbol": "aZRX ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -20944,7 +20944,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aMANA Token V1",
 			"symbol": "aMANA",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -21133,7 +21133,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Collateral",
 			"symbol": "cCOMP",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -21349,7 +21349,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aUSDT Token V1",
 			"symbol": "aUSDT",
 			"decimals": 6,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -22318,7 +22318,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Fei USD",
 			"symbol": "cFEI",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -23479,7 +23479,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aMKR Token V1",
 			"symbol": "aMKR ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -23839,7 +23839,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound yearn.finance",
 			"symbol": "cYFI",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -25990,7 +25990,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing CRV",
 			"symbol": "aCRV",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -27394,7 +27394,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing CVX",
 			"symbol": "aCVX",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -27520,7 +27520,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Maker",
 			"symbol": "cMKR",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -28302,7 +28302,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing ENS",
 			"symbol": "aENS",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -28644,7 +28644,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aUSDC Token V1",
 			"symbol": "aUSDC",
 			"decimals": 6,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29076,7 +29076,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aKNC Token V1",
 			"symbol": "aKNC ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29544,7 +29544,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing WBTC",
 			"symbol": "aWBTC",
 			"decimals": 8,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29571,7 +29571,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing BUSD",
 			"symbol": "aBUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29580,7 +29580,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing 1INCH",
 			"symbol": "a1INCH",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29589,7 +29589,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound 0x",
 			"symbol": "cZRX",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -29598,7 +29598,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing UNI",
 			"symbol": "aUNI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29607,7 +29607,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing USDC",
 			"symbol": "aUSDC",
 			"decimals": 6,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29616,7 +29616,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Wrapped BTC",
 			"symbol": "cWBTC",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -29625,7 +29625,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing REN",
 			"symbol": "aREN",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29634,7 +29634,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing GUSD",
 			"symbol": "aGUSD",
 			"decimals": 2,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29643,7 +29643,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing ZRX",
 			"symbol": "aZRX",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29652,7 +29652,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing XSUSHI",
 			"symbol": "aXSUSHI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29661,7 +29661,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Dai",
 			"symbol": "cDAI",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -29670,7 +29670,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound ChainLink Token",
 			"symbol": "cLINK",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -29679,7 +29679,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing AAVE",
 			"symbol": "aAAVE",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -29751,7 +29751,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing LINK",
 			"symbol": "aLINK",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -30876,7 +30876,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aLINK Token V1",
 			"symbol": "aLINK",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -30975,7 +30975,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing MANA",
 			"symbol": "aMANA",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -31532,7 +31532,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing ENJ",
 			"symbol": "aENJ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -32810,7 +32810,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aUNI Token V1",
 			"symbol": "aUNI ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -34501,7 +34501,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aAAVE Token V1",
 			"symbol": "aAAVE",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -36067,7 +36067,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing UST",
 			"symbol": "aUST",
 			"decimals": 6,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -36859,7 +36859,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing MKR",
 			"symbol": "aMKR",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -37281,7 +37281,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing RAI",
 			"symbol": "aRAI",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -37821,7 +37821,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Wrapped BTC",
 			"symbol": "cWBTC",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -38064,7 +38064,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing LUSD",
 			"symbol": "aLUSD",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -39207,7 +39207,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave interest bearing FRAX",
 			"symbol": "aFRAX",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -41492,7 +41492,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aBAT Token V1",
 			"symbol": "aBAT ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -42184,7 +42184,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound Aave Token",
 			"symbol": "cAAVE",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -44909,7 +44909,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Compound USDT",
 			"symbol": "cUSDT",
 			"decimals": 8,
-			"logoUri": "images/contracts/compound.png"
+			"logoUri": "/images/contracts/compound.png"
 		}
 	},
 	{
@@ -45971,7 +45971,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aDAI Token V1",
 			"symbol": "aDAI ",
 			"decimals": 18,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{
@@ -46016,7 +46016,7 @@ export const tokenMetadataData: Array<TokenMetadataData> = [
 			"name": "Aave: aWBTC Token V1",
 			"symbol": "aWBTC",
 			"decimals": 8,
-			"logoUri": "images/contracts/aave.png"
+			"logoUri": "/images/contracts/aave.png"
 		}
 	},
 	{

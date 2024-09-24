@@ -146,6 +146,7 @@ async function processNfts() {
 export type Address = \`0x$\{ string }\`
 export type Name = string
 export type Symbol = string
+export type Abi = string
 export type NftType = 'ERC721'
 export type LogoRelativePath = \`/images/nfts/$\{string}\`
 export type Erc721MetadataWithLogoAndAbi = readonly [Address, Name, Symbol, NftType, LogoRelativePath, Abi]
@@ -165,7 +166,8 @@ export type Address = \`0x$\{ string }\`
 export type Name = string
 export type Symbol = string
 export type NftType = 'ERC1155'
-export type LogoRelativePath = \`/images/nfts/$\{ string }\`
+export type LogoRelativePath = \`/images/$\{ string }\`
+export type Abi = string
 export type Erc1155MetadataWithLogoAndAbi = readonly [Address, Name, Symbol, NftType, LogoRelativePath, Abi]
 export type Erc1155MetadataWithLogo = readonly [Address, Name, Symbol, NftType, LogoRelativePath]
 export type Erc1155MetadataWithoutLogo = readonly [Address, Name, Symbol, NftType]

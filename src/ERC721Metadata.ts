@@ -4,9 +4,10 @@ export type Erc721Definition = {
 	symbol: string,
 	protocol: string,
 	logoUri?: string | undefined,
+	abi?: string,
 }
 export const erc721Metadata = new Map<string, Erc721Definition>(
-	erc721MetadataData.reduce(( acc, [address, name, symbol, protocol, logoUri] ) => {
+	erc721MetadataData.reduce(( acc, [address, name, symbol, protocol, logoUri, abi] ) => {
 		if (address === null) return acc
 		return acc.concat([
 			[address, {
@@ -14,6 +15,7 @@ export const erc721Metadata = new Map<string, Erc721Definition>(
 				name,
 				symbol,
 				...logoUri ? {logoUri} : {},
+				...abi ? { abi } : { },
 			}]])
 	}, [] as [string, Erc721Definition][])
 )

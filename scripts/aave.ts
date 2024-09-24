@@ -5,8 +5,8 @@ import { addressString } from './utils.js'
 
 const provider = new providers.StaticJsonRpcProvider(ETHEREUM_RPC)
 
-const AAVE_V1_LOGO_URI = `images/contracts/aave.png`
-const AAVE_V2_LOGO_URI = `images/contracts/aave.png`
+const AAVE_V1_LOGO_URI = `/images/contracts/aave.png`
+const AAVE_V2_LOGO_URI = `/images/contracts/aave.png`
 
 const AAVE_LENDING_POOL_ADDRESS = '0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9'
 const AAVE_LENDING_POOL_ABI = [{
