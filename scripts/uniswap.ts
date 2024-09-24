@@ -6,6 +6,7 @@ const apiKey = 'PUT API KEY'
 const uniswapV3Graph = `https://gateway.thegraph.com/api/${apiKey}/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV`
 const uniswapV2Graph = `https://gateway.thegraph.com/api/${apiKey}/subgraphs/id/EYCKATKGBKLWvSfwvBjzfCBmGwYNdVkduYXVivCsLRFu`
 
+const UNISWAP_LOGO_URI = '/images/contracts/uniswap.svg'
 
 const ACTIVE_TX_COUNT_CUTOFF = `10000`
 
