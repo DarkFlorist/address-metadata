@@ -4,9 +4,10 @@ export type Erc1155Definition = {
 	symbol: string,
 	protocol: string,
 	logoUri?: string | undefined,
+	abi?: string,
 }
 export const erc1155Metadata = new Map<string, Erc1155Definition>(
-	erc1155MetadataData.reduce(( acc, [address, name, symbol, protocol, logoUri] ) => {
+	erc1155MetadataData.reduce(( acc, [address, name, symbol, protocol, logoUri, abi] ) => {
 		if (address === null) return acc
 		return acc.concat([
 			[address, {
@@ -14,6 +15,7 @@ export const erc1155Metadata = new Map<string, Erc1155Definition>(
 				name,
 				symbol,
 				...logoUri ? {logoUri} : {},
+				...abi ? { abi } : { },
 			}]])
 	}, [] as [string, Erc1155Definition][])
 )
