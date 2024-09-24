@@ -4,7 +4,7 @@ import { ETHEREUM_RPC } from './constants.js'
 
 const provider = new providers.StaticJsonRpcProvider(ETHEREUM_RPC)
 
-const COMPOUND_LOGO_URI = `images/contracts/compound.png`
+const COMPOUND_LOGO_URI = '/images/contracts/compound.png'
 
 const COMPOUND_COMPTROLLER_ADDRESS = '0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B'
 const COMPOUND_COMPTROLLER_ABI = [{
